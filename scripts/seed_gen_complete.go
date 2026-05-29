@@ -1214,7 +1214,7 @@ var lessonTitlesEn = map[string][]string{
 func main() {
 	qPerLesson := 10
 	if len(os.Args) > 1 {
-		fmt.Sscanf(os.Args[1], "%d", &qPerLesson)
+	fmt.Sscanf(os.Args[1], "%d", &qPerLesson) //nolint:errcheck
 	}
 	outputPath := "seed/seed_complete.sql"
 	if len(os.Args) > 2 {
@@ -1248,7 +1248,7 @@ func main() {
 				}
 				titleFr := titlesFr[lessonNum-1]
 				titleEn := titlesEn[lessonNum-1]
-				sb.WriteString(fmt.Sprintf("INSERT INTO lessons (id,license,category,theme,title_fr,title_en,content_fr,content_en,difficulty,order_index) VALUES\n"))
+				sb.WriteString("INSERT INTO lessons (id,license,category,theme,title_fr,title_en,content_fr,content_en,difficulty,order_index) VALUES\n")
 				contentFr := generateLessonContentFr(cat, lessonNum)
 				contentEn := generateLessonContentEn(cat, lessonNum)
 				// Échapper les apostrophes pour SQL
@@ -1306,7 +1306,7 @@ func main() {
 
 			// Add category exam (after the 2 lessons of this category)
 			lidCat := fmt.Sprintf("a%07x-0000-4000-8000-%012x", lessonID, lessonID)
-			sb.WriteString(fmt.Sprintf("INSERT INTO lessons (id,license,category,theme,title_fr,title_en,content_fr,content_en,difficulty,order_index) VALUES\n"))
+			sb.WriteString("INSERT INTO lessons (id,license,category,theme,title_fr,title_en,content_fr,content_en,difficulty,order_index) VALUES\n")
 			sb.WriteString(fmt.Sprintf("('%s','%s','%s','exam_cat','Examen %s (%s)','%s exam (%s)','Examen de fin de chapitre %s pour %s.','End of chapter exam %s for %s.',%d,98);\n\n",
 				lidCat, lic, cat, cat, lic, cat, lic, cat, lic, cat, lic, 5))
 
@@ -1360,7 +1360,7 @@ func main() {
 
 		// Add final exam for this license
 		lid := fmt.Sprintf("a%07x-0000-4000-8000-%012x", lessonID, lessonID)
-		sb.WriteString(fmt.Sprintf("INSERT INTO lessons (id,license,category,theme,title_fr,title_en,content_fr,content_en,difficulty,order_index) VALUES\n"))
+		sb.WriteString("INSERT INTO lessons (id,license,category,theme,title_fr,title_en,content_fr,content_en,difficulty,order_index) VALUES\n")
 		sb.WriteString(fmt.Sprintf("('%s','%s','exam','exam','Examen final %s','Final exam %s','Examen final couvrant toutes les matieres %s.','Final exam covering all subjects %s.',%d,99);\n\n",
 			lid, lic, lic, lic, lic, lic, 5))
 
@@ -1384,14 +1384,14 @@ func main() {
 		lessonID++
 	}
 
-	os.MkdirAll("scripts/seed", 0755)
+	os.MkdirAll("scripts/seed", 0755) //nolint:errcheck
 	f, err := os.Create(outputPath)
 	if err != nil {
 		fmt.Printf("Error creating file: %v\n", err)
 		os.Exit(1)
 	}
 	defer f.Close()
-	f.WriteString(sb.String())
+	f.WriteString(sb.String()) //nolint:errcheck
 	fmt.Printf("Seed generated: %s\n", outputPath)
 	fmt.Printf("Questions per lesson: %d\n", qPerLesson)
 	fmt.Printf("Total lessons: %d\n", lessonID-1)

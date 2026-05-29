@@ -1,4 +1,4 @@
-﻿package main
+package main
 
 // lessonContentFr returns the French content for a given category and lesson number.
 func lessonContentFr(category string, lessonNum int) string {
