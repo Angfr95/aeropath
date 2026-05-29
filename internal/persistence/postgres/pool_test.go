@@ -95,7 +95,7 @@ func NewTestPool(dsn string) (*TestPool, error) {
 // Close ferme le pool et nettoie le schéma de test.
 func (tp *TestPool) Close() {
 	if tp.schema != "" {
-		tp.Exec(context.Background(), fmt.Sprintf("DROP SCHEMA IF EXISTS %s CASCADE", tp.schema))
+		_, _ = tp.Exec(context.Background(), fmt.Sprintf("DROP SCHEMA IF EXISTS %s CASCADE", tp.schema))
 	}
 	tp.Pool.Close()
 }

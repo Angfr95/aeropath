@@ -205,10 +205,10 @@ func ListLessonsHandler(repo domain.LessonRepository) gin.HandlerFunc {
 		limit := 20
 		offset := 0
 		if l := c.Query("limit"); l != "" {
-			fmt.Sscanf(l, "%d", &limit)
+			_, _ = fmt.Sscanf(l, "%d", &limit)
 		}
 		if o := c.Query("offset"); o != "" {
-			fmt.Sscanf(o, "%d", &offset)
+			_, _ = fmt.Sscanf(o, "%d", &offset)
 		}
 		if limit < 1 { limit = 1 }
 		if limit > 100 { limit = 100 }
@@ -303,7 +303,7 @@ func ListLessonsByLicenseAndCategoryHandler(repo domain.LessonRepository) gin.Ha
 func ListLessonsByDifficultyHandler(repo domain.LessonRepository) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		var difficulty int
-		fmt.Sscanf(c.Param("level"), "%d", &difficulty)
+		_, _ = fmt.Sscanf(c.Param("level"), "%d", &difficulty)
 		lessons, err := repo.FindByDifficulty(difficulty)
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
@@ -754,7 +754,7 @@ func DeleteQuestionHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 func QuestionsByDifficultyHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		var difficulty int
-		fmt.Sscanf(c.Param("level"), "%d", &difficulty)
+		_, _ = fmt.Sscanf(c.Param("level"), "%d", &difficulty)
 		questions, err := repo.FindByDifficulty(difficulty)
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
@@ -886,7 +886,7 @@ func RandomQuestionHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		limit := 1
 		if l := c.Query("limit"); l != "" {
-			fmt.Sscanf(l, "%d", &limit)
+			_, _ = fmt.Sscanf(l, "%d", &limit)
 		}
 		if limit < 1 {
 			limit = 1
@@ -1096,11 +1096,11 @@ func HistoryHandler(historyRepo domain.QuestionHistoryRepository, questionRepo d
 		// Pagination
 		limit := 50
 		if l := c.Query("limit"); l != "" {
-			fmt.Sscanf(l, "%d", &limit)
+			_, _ = fmt.Sscanf(l, "%d", &limit)
 		}
 		offset := 0
 		if o := c.Query("offset"); o != "" {
-			fmt.Sscanf(o, "%d", &offset)
+			_, _ = fmt.Sscanf(o, "%d", &offset)
 		}
 
 		total := len(history)

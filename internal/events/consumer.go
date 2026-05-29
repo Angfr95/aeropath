@@ -94,14 +94,14 @@ func NewConsumer(natsURL, subject string, handler EventHandler) (*Consumer, erro
 		defer func() {
 			if r := recover(); r != nil {
 				log.Printf("❌ PANIC dans le handler: %v", r)
-				msg.Nak() // Nak = NATS renverra le message
+				_ = msg.Nak() // Nak = NATS renverra le message
 			}
 		}()
 
 		var event Event
 		if err := json.Unmarshal(msg.Data, &event); err != nil {
 			log.Printf("❌ Erreur désérialisation: %v", err)
-			msg.Ack() // On ACK même en erreur pour éviter les boucles
+			_ = msg.Ack() // On ACK même en erreur pour éviter les boucles
 			return
 		}
 
@@ -109,11 +109,11 @@ func NewConsumer(natsURL, subject string, handler EventHandler) (*Consumer, erro
 
 		if err := handler(event); err != nil {
 			log.Printf("❌ Erreur traitement %s: %v", event.Type, err)
-			msg.Nak() // Nak = Negative ACK → NATS renverra le message
+			_ = msg.Nak() // Nak = Negative ACK → NATS renverra le message
 			return
 		}
 
-		msg.Ack() // ACK = tout s'est bien passé
+		_ = msg.Ack() // ACK = tout s'est bien passé
 	}, nats.Durable("aeroforge-worker"), nats.ManualAck())
 
 	if err != nil {

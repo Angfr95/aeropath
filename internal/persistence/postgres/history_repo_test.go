@@ -16,7 +16,7 @@ func TestHistoryRepo(t *testing.T) {
 
 	// Créer un étudiant et une question pour les tests
 	student := &domain.Student{Email: "history-" + randString(6) + "@test.com", PasswordHash: "pass", Lang: "fr"}
-	studentRepo.Create(student)
+	_ = studentRepo.Create(student)
 
 	question := &domain.Question{
 		Theme:      "test",
@@ -26,7 +26,7 @@ func TestHistoryRepo(t *testing.T) {
 		Options:    []string{"A", "B"},
 		AnswerKey:  "A",
 	}
-	questionRepo.Create(question)
+	_ = questionRepo.Create(question)
 
 	t.Run("enregistrer une réponse correcte", func(t *testing.T) {
 		err := historyRepo.RecordAnswer(student.ID, question.ID, true)
@@ -82,7 +82,7 @@ func TestHistoryRepo(t *testing.T) {
 
 	t.Run("historique vide pour un étudiant sans activité", func(t *testing.T) {
 		emptyStudent := &domain.Student{Email: "empty-" + randString(6) + "@test.com", PasswordHash: "pass", Lang: "fr"}
-		studentRepo.Create(emptyStudent)
+		_ = studentRepo.Create(emptyStudent)
 
 		history, err := historyRepo.GetHistory(emptyStudent.ID)
 		if err != nil {

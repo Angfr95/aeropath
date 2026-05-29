@@ -36,7 +36,7 @@ func TestRegisterHandler(t *testing.T) {
 		}
 
 		var response map[string]string
-		json.Unmarshal(w.Body.Bytes(), &response)
+		_ = json.Unmarshal(w.Body.Bytes(), &response)
 		if response["token"] == "" {
 			t.Fatal("token ne devrait pas être vide")
 		}
@@ -95,7 +95,7 @@ func TestLoginHandler(t *testing.T) {
 	svc := NewService(repo, "test-secret")
 
 	// Créer un étudiant pour tester
-	svc.Register("login@test.com", "password123", "fr")
+	_, _ = svc.Register("login@test.com", "password123", "fr")
 
 	t.Run("connexion réussie", func(t *testing.T) {
 		c, w := setupAuthContext("POST", "/auth/login", `{"email":"login@test.com","password":"password123"}`)
@@ -106,7 +106,7 @@ func TestLoginHandler(t *testing.T) {
 		}
 
 		var response map[string]string
-		json.Unmarshal(w.Body.Bytes(), &response)
+		_ = json.Unmarshal(w.Body.Bytes(), &response)
 		if response["token"] == "" {
 			t.Fatal("token ne devrait pas être vide")
 		}
@@ -160,7 +160,7 @@ func TestUpdateLangHandler(t *testing.T) {
 		}
 
 		var response map[string]string
-		json.Unmarshal(w.Body.Bytes(), &response)
+		_ = json.Unmarshal(w.Body.Bytes(), &response)
 		if response["lang"] != "en" {
 			t.Fatalf("lang attendu 'en', got '%s'", response["lang"])
 		}

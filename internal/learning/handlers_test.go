@@ -234,7 +234,7 @@ func TestListLessonsByThemeHandler(t *testing.T) {
 		}
 
 		var lessons []*domain.Lesson
-		json.Unmarshal(w.Body.Bytes(), &lessons)
+		_ = json.Unmarshal(w.Body.Bytes(), &lessons)
 		if len(lessons) != 2 {
 			t.Fatalf("devrait retourner 2 leçons, got %d", len(lessons))
 		}
@@ -375,7 +375,7 @@ func TestSubmitExamHandler(t *testing.T) {
 			Correct int     `json:"correct"`
 			Total   int     `json:"total"`
 		}
-		json.Unmarshal(w.Body.Bytes(), &response)
+		_ = json.Unmarshal(w.Body.Bytes(), &response)
 		if response.Correct != 0 {
 			t.Fatalf("correct attendu 0, got %d", response.Correct)
 		}
@@ -397,9 +397,9 @@ func TestStatsHandler(t *testing.T) {
 
 	hr := &mockHistoryRepo{}
 	// Ajouter un peu d'historique
-	hr.RecordAnswer("test-student-id", "q1", true)
-	hr.RecordAnswer("test-student-id", "q2", false)
-	hr.RecordAnswer("test-student-id", "q3", true)
+	_ = hr.RecordAnswer("test-student-id", "q1", true)
+	_ = hr.RecordAnswer("test-student-id", "q2", false)
+	_ = hr.RecordAnswer("test-student-id", "q3", true)
 
 	t.Run("stats de l'étudiant", func(t *testing.T) {
 		c, w := setupTestContext("GET", "/api/stats", "")

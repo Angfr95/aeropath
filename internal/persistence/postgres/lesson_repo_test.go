@@ -42,7 +42,7 @@ func TestLessonRepo(t *testing.T) {
 			Difficulty: 2,
 			OrderIndex: 1,
 		}
-		repo.Create(lesson)
+		_ = repo.Create(lesson)
 
 		found, err := repo.FindByID(lesson.ID)
 		if err != nil {
@@ -75,7 +75,7 @@ func TestLessonRepo(t *testing.T) {
 				Difficulty: 1,
 				OrderIndex: i,
 			}
-			repo.Create(lesson)
+			_ = repo.Create(lesson)
 		}
 
 		lessons, err := repo.FindByTheme(theme)
@@ -105,7 +105,7 @@ func TestLessonRepo(t *testing.T) {
 			{Theme: theme, TitleFr: "A", TitleEn: "A", ContentFr: "A", ContentEn: "A", Difficulty: 1, OrderIndex: 1},
 		}
 		for _, l := range lessons {
-			repo.Create(l)
+			_ = repo.Create(l)
 		}
 
 		found, _ := repo.FindByTheme(theme)
