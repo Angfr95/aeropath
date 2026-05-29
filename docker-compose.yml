@@ -71,9 +71,7 @@ services:
     command:
       - "--config.file=/etc/prometheus/prometheus.yml"
       - "--storage.tsdb.path=/prometheus"
-    depends_on:
-      - api-gateway
-      - worker
+
 
   jaeger:
     image: jaegertracing/all-in-one:1.60

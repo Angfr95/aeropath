@@ -27,7 +27,7 @@ jobs:
         id: meta-api
         uses: docker/metadata-action@v5
         with:
-          images: ${{ env.IMAGE_NAME }}-api
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}-api
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}
@@ -38,7 +38,7 @@ jobs:
         id: meta-worker
         uses: docker/metadata-action@v5
         with:
-          images: ${{ env.IMAGE_NAME }}-worker
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}-worker
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}
