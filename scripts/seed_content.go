@@ -1871,3 +1871,4 @@ Operational procedures are standardized actions to be performed for each flight 
 	}
 	return "Content under development for " + category + " lesson " + string(rune('0'+lessonNum))
 }
+
