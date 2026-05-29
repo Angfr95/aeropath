@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AeroPath - Administration</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: { DEFAULT: '#3b82f6', 50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 300: '#93c5fd', 400: '#60a5fa', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8', 800: '#1e40af', 900: '#1e3a8a' },
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #1e293b; }
+    ::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+    .animate-fade-in { animation: fadeIn 0.3s ease-out; }
+    .skeleton { background: linear-gradient(90deg, #1e293b 25%, #334155 50%, #1e293b 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: 0.5rem; }
+  </style>
+</head>
+<body class="bg-slate-950">
+  <div id="app" class="min-h-screen flex">
+    <!-- Sidebar -->
+    <aside id="sidebar" class="w-64 bg-slate-900 border-r border-slate-800 hidden lg:flex flex-col shrink-0">
+      <div class="p-6 border-b border-slate-800">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white font-bold text-lg">A</div>
+          <div>
+            <h1 class="text-lg font-bold text-white">AeroPath</h1>
+            <p class="text-xs text-slate-400">Administration</p>
+          </div>
+        </div>
+      </div>
+      <nav class="flex-1 p-4 space-y-1">
+        <button onclick="navigate('dashboard')" class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition" data-view="dashboard">📊 Tableau de bord</button>
+        <button onclick="navigate('students')" class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition" data-view="students">👥 Étudiants</button>
+        <button onclick="navigate('questions')" class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition" data-view="questions">❓ Questions</button>
+        <button onclick="navigate('lessons')" class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition" data-view="lessons">📖 Leçons</button>
+      </nav>
+      <div class="p-4 border-t border-slate-800">
+        <a href="/" class="flex items-center gap-2 text-sm text-slate-400 hover:text-slate-200 transition">← Retour au site</a>
+      </div>
+    </aside>
+
+    <!-- Mobile Nav -->
+    <nav class="lg:hidden fixed bottom-0 left-0 right-0 bg-slate-900 border-t border-slate-800 z-50 flex">
+      <button onclick="navigate('dashboard')" class="flex-1 flex flex-col items-center py-2 text-xs text-slate-500 nav-btn" data-view="dashboard">📊</button>
+      <button onclick="navigate('students')" class="flex-1 flex flex-col items-center py-2 text-xs text-slate-500 nav-btn" data-view="students">👥</button>
+      <button onclick="navigate('questions')" class="flex-1 flex flex-col items-center py-2 text-xs text-slate-500 nav-btn" data-view="questions">❓</button>
+      <button onclick="navigate('lessons')" class="flex-1 flex flex-col items-center py-2 text-xs text-slate-500 nav-btn" data-view="lessons">📖</button>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto pb-20 lg:pb-0">
+      <div class="max-w-7xl mx-auto p-6" id="content"></div>
+    </main>
+  </div>
+
+  <script>
+    // ======================== STATE ========================
+    const state = { view: 'dashboard', token: localStorage.getItem('aeropath_admin_token') || '' };
+
+    // ======================== API ========================
+    async function api(path, options = {}) {
+      const headers = { 'Content-Type': 'application/json', ...options.headers };
+      if (state.token) headers['Authorization'] = `Bearer ${state.token}`;
+      try {
+        const res = await fetch(path, { ...options, headers });
+        if (res.status === 401) { showToast('Session expirée', 'error'); return null; }
+        return await res.json();
+      } catch (err) { showToast('Erreur réseau', 'error'); return null; }
+    }
+
+    // ======================== NAVIGATION ========================
+    function navigate(view) {
+      state.view = view;
+      document.querySelectorAll('.nav-btn').forEach(b => {
+        b.classList.toggle('bg-blue-600/20', b.dataset.view === view);
+        b.classList.toggle('text-blue-400', b.dataset.view === view);
+      });
+      render();
+    }
+
+    // ======================== TOAST ========================
+    function showToast(msg, type = 'info') {
+      const colors = { info: 'bg-blue-600', error: 'bg-red-600', success: 'bg-green-600' };
+      const t = document.createElement('div');
+      t.className = `fixed bottom-4 right-4 ${colors[type]} text-white px-4 py-2 rounded-lg shadow-lg z-50 transition-all duration-300`;
+      t.textContent = msg;
+      document.body.appendChild(t);
+      setTimeout(() => { t.style.opacity = '0'; setTimeout(() => t.remove(), 300); }, 3000);
+    }
+
+    // ======================== RENDER ========================
+    function render() {
+      const el = document.getElementById('content');
+      switch (state.view) {
+        case 'dashboard': renderDashboard(el); break;
+        case 'students': renderStudents(el); break;
+        case 'questions': renderQuestions(el); break;
+        case 'lessons': renderLessons(el); break;
+        default: renderDashboard(el);
+      }
+    }
+
+    // ======================== DASHBOARD ========================
+    async function renderDashboard(el) {
+      el.innerHTML = `<div class="space-y-6 animate-fade-in">
+        <h1 class="text-3xl font-bold text-white">Tableau de bord</h1>
+        <p class="text-slate-400">Vue d'ensemble de la plateforme</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4" id="stats-cards">
+          ${[1,2,3,4].map(() => '<div class="h-28 skeleton rounded-xl"></div>').join('')}
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="bg-slate-900 border border-slate-800 rounded-xl p-6" id="weak-topics"><div class="h-48 skeleton"></div></div>
+          <div class="bg-slate-900 border border-slate-800 rounded-xl p-6" id="answers-chart"><div class="h-48 skeleton"></div></div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="bg-slate-900 border border-slate-800 rounded-xl p-6" id="by-license"><div class="h-32 skeleton"></div></div>
+          <div class="bg-slate-900 border border-slate-800 rounded-xl p-6" id="by-category"><div class="h-32 skeleton"></div></div>
+        </div>
+      </div>`;
+
+      const data = await api('/api/admin/stats');
+      if (!data) { showToast('Erreur chargement stats', 'error'); return; }
+
+      // Stats cards
+      document.getElementById('stats-cards').innerHTML = `
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+          <p class="text-sm text-slate-400">Étudiants</p>
+          <p class="text-3xl font-bold text-white mt-1">${data.total_students}</p>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+          <p class="text-sm text-slate-400">Questions</p>
+          <p class="text-3xl font-bold text-white mt-1">${data.total_questions}</p>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+          <p class="text-sm text-slate-400">Leçons</p>
+          <p class="text-3xl font-bold text-white mt-1">${data.total_lessons}</p>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+          <p class="text-sm text-slate-400">Précision</p>
+          <p class="text-3xl font-bold text-white mt-1">${Math.round(data.global_accuracy * 100)}%</p>
+          <div class="mt-2 w-full bg-slate-800 rounded-full h-2">
+            <div class="bg-blue-500 h-2 rounded-full" style="width:${data.global_accuracy * 100}%"></div>
+          </div>
+        </div>`;
+
+      // Weak topics
+      document.getElementById('weak-topics').innerHTML = `
+        <h2 class="text-lg font-semibold text-white mb-4">🎯 Points faibles</h2>
+        ${(data.top_weak_topics || []).length === 0 ? '<p class="text-slate-500">Aucune donnée</p>' :
+          data.top_weak_topics.map(t => `
+            <div class="mb-3">
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-slate-300">${t.theme}</span>
+                <span class="${t.score < 40 ? 'text-red-400' : t.score < 70 ? 'text-yellow-400' : 'text-green-400'}">${Math.round(t.score)}%</span>
+              </div>
+              <div class="w-full bg-slate-800 rounded-full h-2">
+                <div class="h-2 rounded-full ${t.score < 40 ? 'bg-red-500' : t.score < 70 ? 'bg-yellow-500' : 'bg-green-500'}" style="width:${t.score}%"></div>
+              </div>
+            </div>`).join('')}`;
+
+      // Answers chart
+      const days = data.answers_last_7_days || [];
+      const maxCount = Math.max(...days.map(d => d.count), 1);
+      document.getElementById('answers-chart').innerHTML = `
+        <h2 class="text-lg font-semibold text-white mb-4">📈 Réponses (7 jours)</h2>
+        <div class="flex items-end gap-2 h-32">
+          ${days.length === 0 ? '<p class="text-slate-500">Aucune donnée</p>' :
+            days.map(d => `
+              <div class="flex-1 flex flex-col items-center gap-1">
+                <span class="text-xs text-slate-500">${d.count}</span>
+                <div class="w-full bg-blue-500 rounded-t" style="height:${(d.count / maxCount) * 100}%"></div>
+                <span class="text-xs text-slate-500">${d.date.slice(5)}</span>
+              </div>`).join('')}
+        </div>`;
+
+      // By license
+      const licenses = data.questions_by_license || {};
+      const maxLicense = Math.max(...Object.values(licenses), 1);
+      document.getElementById('by-license').innerHTML = `
+        <h2 class="text-lg font-semibold text-white mb-4">📋 Questions par licence</h2>
+        ${Object.entries(licenses).length === 0 ? '<p class="text-slate-500">Aucune donnée</p>' :
+          Object.entries(licenses).map(([k, v]) => `
+            <div class="flex items-center gap-3 mb-2">
+              <span class="text-sm text-slate-300 w-16">${k}</span>
+              <div class="flex-1 bg-slate-800 rounded-full h-5">
+                <div class="bg-blue-500 h-5 rounded-full flex items-center justify-end px-2" style="width:${(v / maxLicense) * 100}%">
+                  <span class="text-xs text-white font-medium">${v}</span>
+                </div>
+              </div>
+            </div>`).join('')}`;
+
+      // By category
+      const categories = data.questions_by_category || {};
+      document.getElementById('by-category').innerHTML = `
+        <h2 class="text-lg font-semibold text-white mb-4">📂 Questions par catégorie</h2>
+        <div class="grid grid-cols-2 gap-2">
+          ${Object.entries(categories).length === 0 ? '<p class="text-slate-500">Aucune donnée</p>' :
+            Object.entries(categories).map(([k, v]) => `
+              <div class="flex justify-between items-center p-2 bg-slate-800/50 rounded-lg">
+                <span class="text-sm text-slate-300 truncate">${k}</span>
+                <span class="badge-blue text-xs">${v}</span>
+              </div>`).join('')}
+        </div>`;
+    }
+
+    // ======================== STUDENTS ========================
+    let studentPage = 1;
+    async function renderStudents(el) {
+      el.innerHTML = `<div class="space-y-6 animate-fade-in">
+        <div class="flex justify-between items-center">
+          <div>
+            <h1 class="text-3xl font-bold text-white">Étudiants</h1>
+            <p class="text-slate-400">Gestion des utilisateurs</p>
+          </div>
+        </div>
+        <div id="students-list"><p class="text-slate-400">Chargement...</p></div>
+        <div id="students-pagination" class="flex justify-center gap-4"></div>
+      </div>`;
+      await loadStudents();
+    }
+
+    async function loadStudents() {
+      const data = await api(`/api/admin/students?page=${studentPage}&page_size=20`);
+      if (!data) return;
+      const el = document.getElementById('students-list');
+      el.innerHTML = data.data.length === 0 ? '<p class="text-slate-500 text-center py-8">Aucun étudiant</p>' :
+        `<div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead><tr class="text-slate-400 border-b border-slate-800">
+              <th class="text-left py-3 px-4">Email</th>
+              <th class="text-left py-3 px-4">Langue</th>
+              <th class="text-left py-3 px-4">Inscrit le</th>
+              <th class="text-right py-3 px-4">Actions</th>
+            </tr></thead>
+            <tbody>${data.data.map(s => `
+              <tr class="border-b border-slate-800 hover:bg-slate-800/50">
+                <td class="py-3 px-4 text-white">${s.email}</td>
+                <td class="py-3 px-4"><span class="badge-blue">${s.lang}</span></td>
+                <td class="py-3 px-4 text-slate-400">${new Date(s.created_at).toLocaleDateString('fr-FR')}</td>
+                <td class="py-3 px-4 text-right">
+                  <button onclick="deleteStudent('${s.id}')" class="text-red-400 hover:text-red-300 text-xs">Supprimer</button>
+                </td>
+              </tr>`).join('')}</tbody>
+          </table>
+        </div>`;
+
+      const pages = Math.ceil(data.total / 20);
+      document.getElementById('students-pagination').innerHTML = pages > 1 ? `
+        <button onclick="studentPage--; loadStudents()" class="btn-secondary" ${studentPage <= 1 ? 'disabled' : ''}>←</button>
+        <span class="text-sm text-slate-400">${studentPage} / ${pages}</span>
+        <button onclick="studentPage++; loadStudents()" class="btn-secondary" ${studentPage >= pages ? 'disabled' : ''}>→</button>` : '';
+    }
+
+    async function deleteStudent(id) {
+      if (!confirm('Supprimer cet étudiant ?')) return;
+      const res = await api(`/api/admin/students/${id}`, { method: 'DELETE' });
+      if (res) { showToast('Étudiant supprimé', 'success'); loadStudents(); }
+    }
+
+    // ======================== QUESTIONS ========================
+    let questionPage = 1;
+    async function renderQuestions(el) {
+      el.innerHTML = `<div class="space-y-6 animate-fade-in">
+        <div class="flex justify-between items-center">
+          <div>
+            <h1 class="text-3xl font-bold text-white">Questions</h1>
+            <p class="text-slate-400">Gestion des questions</p>
+          </div>
+          <button onclick="showQuestionForm()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm">+ Nouvelle</button>
+        </div>
+        <div id="questions-list"><p class="text-slate-400">Chargement...</p></div>
+        <div id="questions-pagination" class="flex justify-center gap-4"></div>
+      </div>`;
+      await loadQuestions();
+    }
+
+    async function loadQuestions() {
+      const data = await api(`/api/questions?page=${questionPage}&page_size=20`);
+      if (!data) return;
+      const el = document.getElementById('questions-list');
+      el.innerHTML = data.data.length === 0 ? '<p class="text-slate-500 text-center py-8">Aucune question</p>' :
+        `<div class="space-y-3">${data.data.map(q => `
+          <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+            <div class="flex justify-between items-start">
+              <div class="flex-1">
+                <p class="text-white text-sm line-clamp-2">${q.question_fr}</p>
+                <div class="flex gap-2 mt-2 flex-wrap">
+                  <span class="badge-blue text-xs">${q.license}</span>
+                  <span class="badge-purple text-xs">${q.category}</span>
+                  <span class="badge-yellow text-xs">${q.theme}</span>
+                  <span class="badge-green text-xs">Niv.${q.difficulty}</span>
+                </div>
+              </div>
+              <div class="flex gap-2 ml-4">
+                <button onclick="editQuestion('${q.id}')" class="text-blue-400 hover:text-blue-300 text-xs">Modifier</button>
+                <button onclick="deleteQuestion('${q.id}')" class="text-red-400 hover:text-red-300 text-xs">Supprimer</button>
+              </div>
+            </div>
+          </div>`).join('')}</div>`;
+
+      const pages = Math.ceil(data.total / 20);
+      document.getElementById('questions-pagination').innerHTML = pages > 1 ? `
+        <button onclick="questionPage--; loadQuestions()" class="btn-secondary" ${questionPage <= 1 ? 'disabled' : ''}>←</button>
+        <span class="text-sm text-slate-400">${questionPage} / ${pages}</span>
+        <button onclick="questionPage++; loadQuestions()" class="btn-secondary" ${questionPage >= pages ? 'disabled' : ''}>→</button>` : '';
+    }
+
+    function showQuestionForm(q) {
+      const overlay = document.createElement('div');
+      overlay.className = 'fixed inset-0 bg-black/60 flex items-center justify-center p-4 z-50';
+      overlay.innerHTML = `
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 max-w-2xl w-full max-h-[80vh] overflow-y-auto">
+          <h3 class="text-lg font-bold text-white mb-4">${q ? 'Modifier' : 'Nouvelle'} question</h3>
+          <form id="question-form" class="space-y-4">
+            <input type="hidden" name="id" value="${q?.id || ''}">
+            <div><label class="block text-sm text-slate-400 mb-1">Question (FR)</label>
+              <textarea name="question_fr" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" rows="2">${q?.question_fr || ''}</textarea></div>
+            <div><label class="block text-sm text-slate-400 mb-1">Question (EN)</label>
+              <textarea name="question_en" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" rows="2">${q?.question_en || ''}</textarea></div>
+            <div><label class="block text-sm text-slate-400 mb-1">Options (une par ligne)</label>
+              <textarea name="options" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" rows="4">${(q?.options || []).join('\n')}</textarea></div>
+            <div class="grid grid-cols-2 gap-4">
+              <div><label class="block text-sm text-slate-400 mb-1">Réponse</label>
+                <input name="answer_key" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${q?.answer_key || ''}"></div>
+              <div><label class="block text-sm text-slate-400 mb-1">Difficulté (1-5)</label>
+                <input name="difficulty" type="number" min="1" max="5" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${q?.difficulty || 1}"></div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+              <div><label class="block text-sm text-slate-400 mb-1">Licence</label>
+                <input name="license" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${q?.license || ''}"></div>
+              <div><label class="block text-sm text-slate-400 mb-1">Catégorie</label>
+                <input name="category" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${q?.category || ''}"></div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+              <div><label class="block text-sm text-slate-400 mb-1">Thème</label>
+                <input name="theme" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${q?.theme || ''}"></div>
+              <div><label class="block text-sm text-slate-400 mb-1">Sous-thème</label>
+                <input name="subtopic" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${q?.subtopic || ''}"></div>
+            </div>
+            <div><label class="block text-sm text-slate-400 mb-1">Explication (FR)</label>
+              <textarea name="explanation_fr" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" rows="2">${q?.explanation_fr || ''}</textarea></div>
+            <div><label class="block text-sm text-slate-400 mb-1">Explication (EN)</label>
+              <textarea name="explanation_en" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" rows="2">${q?.explanation_en || ''}</textarea></div>
+            <div class="flex gap-3">
+              <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg text-sm">Enregistrer</button>
+              <button type="button" onclick="this.closest('.fixed').remove()" class="bg-slate-700 hover:bg-slate-600 text-white px-6 py-2 rounded-lg text-sm">Annuler</button>
+            </div>
+          </form>
+        </div>`;
+      document.body.appendChild(overlay);
+
+      document.getElementById('question-form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const fd = new FormData(e.target);
+        const body = {
+          question_fr: fd.get('question_fr'),
+          question_en: fd.get('question_en'),
+          options: fd.get('options').split('\n').filter(Boolean),
+          answer_key: fd.get('answer_key'),
+          difficulty: parseInt(fd.get('difficulty')),
+          license: fd.get('license'),
+          category: fd.get('category'),
+          theme: fd.get('theme'),
+          subtopic: fd.get('subtopic'),
+          explanation_fr: fd.get('explanation_fr'),
+          explanation_en: fd.get('explanation_en'),
+        };
+        const id = fd.get('id');
+        const method = id ? 'PUT' : 'POST';
+        const url = id ? `/api/admin/questions/${id}` : '/api/admin/questions';
+        const res = await api(url, { method, body: JSON.stringify(body) });
+        if (res) { showToast(id ? 'Question modifiée' : 'Question créée', 'success'); overlay.remove(); loadQuestions(); }
+      });
+    }
+
+    function editQuestion(id) {
+      // Pour l'édition, on récupère la question et on ouvre le formulaire
+      api(`/api/questions/${id}`).then(q => { if (q) showQuestionForm(q); });
+    }
+
+    async function deleteQuestion(id) {
+      if (!confirm('Supprimer cette question ?')) return;
+      const res = await api(`/api/admin/questions/${id}`, { method: 'DELETE' });
+      if (res) { showToast('Question supprimée', 'success'); loadQuestions(); }
+    }
+
+    // ======================== LESSONS ========================
+    let lessonPage = 1;
+    async function renderLessons(el) {
+      el.innerHTML = `<div class="space-y-6 animate-fade-in">
+        <div class="flex justify-between items-center">
+          <div>
+            <h1 class="text-3xl font-bold text-white">Leçons</h1>
+            <p class="text-slate-400">Gestion des leçons</p>
+          </div>
+          <button onclick="showLessonForm()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm">+ Nouvelle</button>
+        </div>
+        <div id="lessons-list"><p class="text-slate-400">Chargement...</p></div>
+        <div id="lessons-pagination" class="flex justify-center gap-4"></div>
+      </div>`;
+      await loadLessons();
+    }
+
+    async function loadLessons() {
+      const data = await api(`/api/lessons?page=${lessonPage}&page_size=20`);
+      if (!data) return;
+      const el = document.getElementById('lessons-list');
+      el.innerHTML = data.data.length === 0 ? '<p class="text-slate-500 text-center py-8">Aucune leçon</p>' :
+        `<div class="space-y-3">${data.data.map(l => `
+          <div class="bg-slate-900 border border-slate-800 rounded-xl p-4">
+            <div class="flex justify-between items-start">
+              <div class="flex-1">
+                <p class="text-white font-medium">${l.title_fr}</p>
+                <div class="flex gap-2 mt-2">
+                  <span class="badge-blue text-xs">${l.license}</span>
+                  <span class="badge-purple text-xs">${l.category}</span>
+                </div>
+              </div>
+              <div class="flex gap-2 ml-4">
+                <button onclick="editLesson('${l.id}')" class="text-blue-400 hover:text-blue-300 text-xs">Modifier</button>
+                <button onclick="deleteLesson('${l.id}')" class="text-red-400 hover:text-red-300 text-xs">Supprimer</button>
+              </div>
+            </div>
+          </div>`).join('')}</div>`;
+
+      const pages = Math.ceil(data.total / 20);
+      document.getElementById('lessons-pagination').innerHTML = pages > 1 ? `
+        <button onclick="lessonPage--; loadLessons()" class="btn-secondary" ${lessonPage <= 1 ? 'disabled' : ''}>←</button>
+        <span class="text-sm text-slate-400">${lessonPage} / ${pages}</span>
+        <button onclick="lessonPage++; loadLessons()" class="btn-secondary" ${lessonPage >= pages ? 'disabled' : ''}>→</button>` : '';
+    }
+
+    function showLessonForm(l) {
+      const overlay = document.createElement('div');
+      overlay.className = 'fixed inset-0 bg-black/60 flex items-center justify-center p-4 z-50';
+      overlay.innerHTML = `
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 max-w-2xl w-full max-h-[80vh] overflow-y-auto">
+          <h3 class="text-lg font-bold text-white mb-4">${l ? 'Modifier' : 'Nouvelle'} leçon</h3>
+          <form id="lesson-form" class="space-y-4">
+            <input type="hidden" name="id" value="${l?.id || ''}">
+            <div class="grid grid-cols-2 gap-4">
+              <div><label class="block text-sm text-slate-400 mb-1">Titre (FR)</label>
+                <input name="title_fr" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${l?.title_fr || ''}"></div>
+              <div><label class="block text-sm text-slate-400 mb-1">Titre (EN)</label>
+                <input name="title_en" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${l?.title_en || ''}"></div>
+            </div>
+            <div><label class="block text-sm text-slate-400 mb-1">Contenu (FR)</label>
+              <textarea name="content_fr" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" rows="6">${l?.content_fr || ''}</textarea></div>
+            <div><label class="block text-sm text-slate-400 mb-1">Contenu (EN)</label>
+              <textarea name="content_en" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" rows="6">${l?.content_en || ''}</textarea></div>
+            <div class="grid grid-cols-2 gap-4">
+              <div><label class="block text-sm text-slate-400 mb-1">Licence</label>
+                <input name="license" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${l?.license || ''}"></div>
+              <div><label class="block text-sm text-slate-400 mb-1">Catégorie</label>
+                <input name="category" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${l?.category || ''}"></div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+              <div><label class="block text-sm text-slate-400 mb-1">Thème</label>
+                <input name="theme" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${l?.theme || ''}"></div>
+              <div><label class="block text-sm text-slate-400 mb-1">Difficulté (1-5)</label>
+                <input name="difficulty" type="number" min="1" max="5" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm" value="${l?.difficulty || 1}"></div>
+            </div>
+            <div class="flex gap-3">
+              <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg text-sm">Enregistrer</button>
+              <button type="button" onclick="this.closest('.fixed').remove()" class="bg-slate-700 hover:bg-slate-600 text-white px-6 py-2 rounded-lg text-sm">Annuler</button>
+            </div>
+          </form>
+        </div>`;
+      document.body.appendChild(overlay);
+
+      document.getElementById('lesson-form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const fd = new FormData(e.target);
+        const body = {
+          title_fr: fd.get('title_fr'),
+          title_en: fd.get('title_en'),
+          content_fr: fd.get('content_fr'),
+          content_en: fd.get('content_en'),
+          license: fd.get('license'),
+          category: fd.get('category'),
+          theme: fd.get('theme'),
+          difficulty: parseInt(fd.get('difficulty')),
+        };
+        const id = fd.get('id');
+        const method = id ? 'PUT' : 'POST';
+        const url = id ? `/api/admin/lessons/${id}` : '/api/admin/lessons';
+        const res = await api(url, { method, body: JSON.stringify(body) });
+        if (res) { showToast(id ? 'Leçon modifiée' : 'Leçon créée', 'success'); overlay.remove(); loadLessons(); }
+      });
+    }
+
+    function editLesson(id) {
+      api(`/api/lessons/${id}`).then(l => { if (l) showLessonForm(l); });
+    }
+
+    async function deleteLesson(id) {
+      if (!confirm('Supprimer cette leçon ?')) return;
+      const res = await api(`/api/admin/lessons/${id}`, { method: 'DELETE' });
+      if (res) { showToast('Leçon supprimée', 'success'); loadLessons(); }
+    }
+
+    // ======================== INIT ========================
+    render();
+  </script>
+</body>
+</html>

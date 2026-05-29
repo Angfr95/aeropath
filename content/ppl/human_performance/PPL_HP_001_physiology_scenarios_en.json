@@ -1,0 +1,57 @@
+{
+  "chapter_title": "Pilot Physiology",
+  "scenarios": [
+    {
+      "scenario_id": "PPL_HP_001_S01",
+      "title": "The Night Flight That Goes Wrong",
+      "context": "You are a PPL pilot with 80 flight hours, only 3 of which at night. You are on a 45-minute ferry flight between two countryside airfields. The night is clear, moonless, with a poorly defined horizon over a forested area. You are alone on board.",
+      "situation": "En route, you enter a patch of light haze reducing visibility to about 3 km. You suddenly lose all visual reference with the ground. The attitude indicator shows level at 2,500 ft, but you have a strong sensation that the aircraft is descending in a right turn. Your body tells you to correct left and pull up.",
+      "decision_to_make": "What do you do when faced with this contradiction between your sensations and the instruments?",
+      "risks": [
+        "Severe spatial disorientation that can lead to total loss of control in less than 30 seconds",
+        "If you follow your sensations (pull up and correct left), you enter an uncontrolled banked turn that can develop into a spin",
+        "The haze may thicken into fog, making a return to VMC impossible",
+        "Night flight over forested area without visual references — no diversion airfield nearby"
+      ],
+      "recommended_solution": "1) Trust the instruments — the attitude indicator shows level, maintain the attitude. 2) Stabilize the aircraft by looking only at the instrument panel. 3) Contact ATC, declare an emergency, request a heading or radar assistance to reach VMC conditions. 4) If the haze persists and you cannot reach VMC, request vectors to the nearest airfield with an instrument approach. 5) Do not attempt abrupt maneuvers or a 180° turn without visual reference.",
+      "explanation": "This scenario combines two critical physiological factors: vestibular illusion (false attitude sensation due to the inner ear not detecting constant speeds) and spatial disorientation (contradiction between sensations and instruments). The golden rule is absolute: when in doubt, trust the instruments, never your sensations. Entering IMC without training is the leading cause of fatal accidents in general aviation. A PPL pilot does not have the training needed to fly in IMC — the priority is to reach VMC conditions or obtain radar assistance. Night worsens the risk because the absence of visual references removes the brain's ability to correct false vestibular sensations.",
+      "concepts_involved": ["PPL_HP_001_C07", "PPL_HP_001_C08", "PPL_HP_001_C06"],
+      "operational_rules_involved": ["PPL_HP_001_R06"]
+    },
+    {
+      "scenario_id": "PPL_HP_001_S02",
+      "title": "The Underestimated Mountain Departure",
+      "context": "You are a 25-year-old PPL pilot, in good health. You depart for a 3-hour cross-country flight from a lowland airfield (500 ft) to a mountain airfield (3,500 ft). The route passes through a pass at 9,500 ft. You slept well for 7 hours, had a light breakfast, and feel great. You have no oxygen on board.",
+      "situation": "Approaching the pass at 9,500 ft, you start feeling strangely good, almost euphoric. You find the landscape magnificent and have trouble concentrating on your map. Your passenger says you look 'spaced out' and that you are speaking slowly. You notice your fingers are less precise on the controls. You have been at 9,500 ft for about 20 minutes.",
+      "decision_to_make": "What is happening and what immediate action should you take?",
+      "risks": [
+        "Hypobaric hypoxia in progress — symptoms are already present (euphoria, decreased concentration, reduced coordination)",
+        "The pilot is unaware of their own degradation — the passenger raised the alarm",
+        "If you continue, Time of Useful Consciousness at this altitude is limited — you could lose consciousness within minutes",
+        "Descent must be immediate but you are in mountains — no possibility to descend below terrain altitude"
+      ],
+      "recommended_solution": "1) Turn around immediately to descend below 8,000 ft as soon as possible. 2) Inform the passenger of the situation and ask them to continue monitoring your condition. 3) Once below 8,000 ft, assess whether symptoms disappear. 4) If yes, decide whether the pass can be crossed at a lower altitude (if terrain allows) or if the flight must be postponed with oxygen equipment. 5) If symptoms persist after descent, land at the nearest airfield and do not depart without medical advice.",
+      "explanation": "This scenario illustrates the silent danger of hypobaric hypoxia. Early symptoms appear from 10,000 ft, but sensitive individuals may feel them from 8,000-9,000 ft, especially after prolonged exposure (20 minutes in this case). The trap is that euphoria gives a false sense of well-being — the pilot does not realize they are degrading. The passenger is a valuable indicator. The rule: if you suspect hypoxia, descend immediately below 10,000 ft. In mountains, turning back is often the only safe option since descending is not possible. This flight should have been prepared with oxygen equipment or a route through a lower pass.",
+      "concepts_involved": ["PPL_HP_001_C01", "PPL_HP_001_C02", "PPL_HP_001_C10"],
+      "operational_rules_involved": ["PPL_HP_001_R02"]
+    },
+    {
+      "scenario_id": "PPL_HP_001_S03",
+      "title": "The Exam Stress That Accumulates",
+      "context": "You are a student pilot 3 hours away from your PPL practical exam. You have studied well, but you are stressed. This morning you woke up with a mild sore throat. You took a paracetamol tablet without reading the label. You skipped breakfast to arrive on time. It is 32°C on the ground, and you plan a 1h30 flight including navigation exercises and simulated emergencies.",
+      "situation": "You have been flying for 45 minutes. You start having trouble concentrating on your navigation. Your hands are trembling slightly on the yoke. You have a headache and are irritable with your instructor who makes a comment. You realize you forgot to change frequency twice. Your instructor asks if everything is okay.",
+      "decision_to_make": "What should you do? Continue the exam or interrupt it?",
+      "risks": [
+        "Cumulative physiological factors: excessive stress + hypoglycemia (no breakfast) + dehydration (32°C, 1h30 flight) + unchecked medication",
+        "Excessive stress causes attention tunneling — you forget basic tasks (frequency changes)",
+        "Trembling and irritability are signs of hypoglycemia worsened by stress",
+        "The sore throat can worsen at altitude (sinus barotrauma during descent)",
+        "Continuing the exam in this condition increases the risk of failure and especially the safety risk"
+      ],
+      "recommended_solution": "1) Tell the instructor you do not feel well and ask to cut the flight short. 2) Return to the airfield, land, and postpone the exam. 3) Once on the ground: eat a snack, drink water, check the label of the medication taken that morning. 4) Consult your AME if necessary for the sore throat and medication compatibility. 5) Do not resume the exam until all I'M SAFE factors are green.",
+      "explanation": "This scenario shows the cumulative effect of several physiological factors. Taken individually, each could be 'manageable': moderate stress is normal before an exam, skipping breakfast is a mistake but not catastrophic, a mild sore throat is not serious. But combined, they create significant performance degradation. The I'M SAFE checklist is designed to detect these accumulations: here, Illness (sore throat), Medication (tablet), Stress (exam), Fatigue (no, but stress is tiring), Eating (no breakfast) — at least 4 out of 6 items are positive. The responsible decision is to interrupt the flight. A CFI/TRI instructor will always prefer a student who recognizes their limits over a student who pushes through and compromises safety.",
+      "concepts_involved": ["PPL_HP_001_C10", "PPL_HP_001_C13", "PPL_HP_001_C12", "PPL_HP_001_C15", "PPL_HP_001_C05", "PPL_HP_001_C14"],
+      "operational_rules_involved": ["PPL_HP_001_R01", "PPL_HP_001_R07"]
+    }
+  ]
+}

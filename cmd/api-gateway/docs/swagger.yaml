@@ -1,0 +1,179 @@
+definitions:
+  domain.Student:
+    properties:
+      created_at:
+        type: string
+      email:
+        type: string
+      id:
+        type: string
+      lang:
+        type: string
+    type: object
+  http.loginRequest:
+    properties:
+      email:
+        example: pilote@example.com
+        type: string
+      password:
+        example: monmotdepasse
+        type: string
+    required:
+    - email
+    - password
+    type: object
+  http.registerRequest:
+    properties:
+      email:
+        example: pilote@example.com
+        type: string
+      lang:
+        enum:
+        - fr
+        - en
+        example: fr
+        type: string
+      password:
+        example: monmotdepasse
+        minLength: 8
+        type: string
+    required:
+    - email
+    - password
+    type: object
+  http.updateLangRequest:
+    properties:
+      lang:
+        enum:
+        - fr
+        - en
+        example: en
+        type: string
+    required:
+    - lang
+    type: object
+info:
+  contact: {}
+paths:
+  /api/me/lang:
+    patch:
+      consumes:
+      - application/json
+      description: Modifie la langue préférée de l'étudiant connecté
+      parameters:
+      - description: Nouvelle langue (fr ou en)
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/http.updateLangRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: langue mise à jour
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: erreur de validation
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      security:
+      - BearerAuth: []
+      summary: Changer la langue
+      tags:
+      - Profil
+  /api/students:
+    get:
+      description: Retourne tous les étudiants (admin)
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/domain.Student'
+            type: array
+      security:
+      - BearerAuth: []
+      summary: Liste des étudiants
+      tags:
+      - Étudiants
+  /auth/login:
+    post:
+      consumes:
+      - application/json
+      description: Authentifie un étudiant et retourne un token JWT
+      parameters:
+      - description: Email et mot de passe
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/http.loginRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: token JWT
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: erreur de validation
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: email ou mot de passe incorrect
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Connexion
+      tags:
+      - Authentification
+  /auth/register:
+    post:
+      consumes:
+      - application/json
+      description: Crée un nouveau compte étudiant et retourne un token JWT
+      parameters:
+      - description: Email, mot de passe et langue
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/http.registerRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: token JWT
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: erreur de validation
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "409":
+          description: email déjà utilisé
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Inscription
+      tags:
+      - Authentification
+swagger: "2.0"

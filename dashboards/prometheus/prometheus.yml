@@ -1,0 +1,54 @@
+# ============================================================
+#  PROMETHEUS CONFIG — Service Discovery & Scraping
+# ============================================================
+# DDIA: Service Discovery, Metrics Collection, Alerting
+#
+# À configurer :
+# - Scrape targets pour chaque service AeroForge
+# - Service discovery (Kubernetes, Consul, DNS)
+# - Règles d'alerte (alerting.rules.yml)
+# - Retention des métriques
+#
+# Voir : internal/monitoring/prometheus.go
+# Voir : dashboards/grafana/ pour les dashboards
+# ============================================================
+
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    cluster: aeroforge
+    environment: production
+
+# Règles d'alerte
+rule_files:
+  - "alerts.yml"
+
+# Configuration de scraping
+scrape_configs:
+  - job_name: "aeroforge-api"
+    static_configs:
+      - targets: ["api-gateway:2112"]
+    metrics_path: "/metrics"
+
+  - job_name: "aeroforge-worker"
+    static_configs:
+      - targets: ["worker:2112"]
+    metrics_path: "/metrics"
+
+  - job_name: "aeroforge-postgres"
+    static_configs:
+      - targets: ["postgres-exporter:9187"]
+
+  - job_name: "aeroforge-redis"
+    static_configs:
+      - targets: ["redis-exporter:9121"]
+
+  - job_name: "aeroforge-nats"
+    static_configs:
+      - targets: ["nats-exporter:7777"]
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: ["alertmanager:9093"]

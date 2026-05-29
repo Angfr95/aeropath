@@ -1,0 +1,17 @@
+{
+  "name": "AeroPath",
+  "short_name": "AeroPath",
+  "description": "Formation aéronautique pour pilotes - PPL, LAPL, CPL, ATPL, IR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [],
+  "categories": ["education", "productivity"],
+  "lang": "fr",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "related_applications": []
+}

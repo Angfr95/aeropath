@@ -1,0 +1,17 @@
+À partir du chapitre JSON fourni, génère 3 scénarios opérationnels réalistes de niveau PPL.
+
+Chaque scénario doit inclure :
+
+* contexte ;
+* situation ;
+* décision à prendre ;
+* risques ;
+* solution recommandée ;
+* explication.
+
+Retourne :
+
+{
+"chapter_title": "",
+"scenarios": []
+}

@@ -1,0 +1,553 @@
+{
+  "metadata": {
+    "module_id": "PPL_AIRLAW_001",
+    "program": "PPL",
+    "subject": "Air Law",
+    "chapter_title": "Souveraineté sur l'espace aérien",
+    "learning_objective": "Comprendre le principe de souveraineté des États sur leur espace aérien, ses limites géographiques, et les obligations du pilote PPL lors des vols à proximité ou au-delà des frontières.",
+    "prerequisites": []
+  },
+  "concepts": [
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "title": "Principe de souveraineté aérienne",
+      "content": "Chaque État exerce une souveraineté complète et exclusive sur l'espace aérien au-dessus de son territoire terrestre et de ses eaux territoriales. Ce principe est établi par l'Article 1 de la Convention de Chicago de 1944 et s'applique à tous les aéronefs, civils comme militaires.",
+      "difficulty": "easy",
+      "risk_level": "medium",
+      "phase_of_flight": ["preflight", "enroute"],
+      "tags": ["sovereignty", "chicago_convention", "international_law"],
+      "common_errors": ["Croire que la souveraineté ne s'applique pas au-dessus d'une certaine altitude", "Penser que les eaux internationales sont libres de toute souveraineté aérienne"],
+      "related_concepts": ["PPL_AIRLAW_001_C02", "PPL_AIRLAW_001_C03"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "title": "Limites de la souveraineté : eaux territoriales",
+      "content": "La souveraineté d'un État s'étend jusqu'à 12 milles nautiques (22,2 km) depuis la ligne de base de son littoral. Au-delà de 12 NM commence la ZEE (200 NM) où le survol est libre. Au-delà de 200 NM commencent les eaux internationales proprement dites.",
+      "difficulty": "medium",
+      "risk_level": "medium",
+      "phase_of_flight": ["preflight", "enroute"],
+      "tags": ["territorial_waters", "zee", "international_waters"],
+      "common_errors": ["Confondre ZEE (200 NM, droits économiques) avec eaux territoriales (12 NM, souveraineté totale)", "Croire que la souveraineté s'arrête à la limite des terres émergées"],
+      "related_concepts": ["PPL_AIRLAW_001_C01", "PPL_AIRLAW_001_C03"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "title": "Obligation d'autorisation pour le survol étranger",
+      "content": "Aucun aéronef ne peut pénétrer dans l'espace aérien d'un État étranger sans autorisation préalable. Pour un pilote PPL en vol VFR, cette autorisation passe par le dépôt d'un plan de vol international et l'obtention d'une clairance à la frontière via les services ATC compétents.",
+      "difficulty": "medium",
+      "risk_level": "high",
+      "phase_of_flight": ["preflight", "enroute"],
+      "tags": ["clearance", "border_crossing", "flight_plan"],
+      "common_errors": ["Croire que l'espace Schengen permet le survol sans formalités", "Penser qu'un simple plan de vol suffit sans clairance ATC à la frontière"],
+      "related_concepts": ["PPL_AIRLAW_001_C01", "PPL_AIRLAW_001_C04"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C04",
+      "title": "Conséquences d'une violation de souveraineté",
+      "content": "La pénétration non autorisée dans l'espace aérien d'un État peut entraîner une interception par la chasse, une suspension de licence, des poursuites judiciaires, et l'annulation de l'assurance. Les procédures d'interception sont définies par l'Annexe 2 OACI et le pilote doit connaître les signaux d'interception.",
+      "difficulty": "hard",
+      "risk_level": "high",
+      "phase_of_flight": ["enroute"],
+      "tags": ["interception", "violation", "enforcement", "safety"],
+      "common_errors": ["Ne pas connaître les signaux visuels d'interception (day/night)", "Tenter de fuir ou de contacter sa base au lieu d'obéir aux instructions de l'intercepteur"],
+      "related_concepts": ["PPL_AIRLAW_001_C03", "PPL_AIRLAW_001_C05"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C05",
+      "title": "Signaux d'interception OACI",
+      "content": "En cas d'interception, le pilote doit : suivre les instructions de l'intercepteur, allumer les feux de navigation, contacter l'ATC sur la fréquence en vigueur ou sur 121.5 MHz pour signaler l'interception, et accuser réception des instructions. Les signaux sont détaillés dans l'Annexe 2 OACI et le SERA.\n\nSignaux de l'intercepteur (jour) :\n- Balancement des ailes + virage lent = 'Suivez-moi'\n- Tirs de munitions traçantes = 'Atterrissez immédiatement'\n- Virage brusque de 90° ou plus sans balancement = 'Vous pouvez continuer'\n\nSignaux de l'intercepteur (nuit) :\n- Feux de position clignotant de façon irrégulière + descente = 'Suivez-moi'\n- Feux de position clignotant de façon régulière + palier = 'Vous pouvez continuer'\n\nSignaux de l'intercepté :\n- Balancement des ailes (jour) ou feux clignotant irrégulièrement (nuit) = 'Je vais atterrir'\n- Basculements d'ailes + poursuite sur même cap = 'Atterrissage refusé / piste inadéquate'\n\nCes détails tombent fréquemment en QCM théorique EASA.",
+      "difficulty": "hard",
+      "risk_level": "high",
+      "phase_of_flight": ["enroute"],
+      "tags": ["interception_signals", "annex_2", "sera", "emergency"],
+      "common_errors": ["Confondre les signaux d'interception avec les signaux de détresse", "Ne pas savoir que le balancement des ailes signifie 'suivez-moi'", "Confondre les signaux jour/nuit de l'intercepteur", "Ne pas connaître le signal 'atterrissage refusé' côté intercepté"],
+      "related_concepts": ["PPL_AIRLAW_001_C04", "PPL_AIRLAW_002_C03"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C06",
+      "title": "Zones interdites (P) et réglementées (R)",
+      "content": "Les États peuvent établir des zones interdites (P - Prohibited) et réglementées (R - Restricted) dans leur espace aérien pour des raisons militaires, de sécurité ou environnementales. Leur statut est publié dans l'AIP et les NOTAM. Le pilote PPL doit les identifier sur la carte et les contourner.",
+      "difficulty": "medium",
+      "risk_level": "high",
+      "phase_of_flight": ["preflight", "enroute"],
+      "tags": ["prohibited_areas", "restricted_areas", "airspace", "aip"],
+      "common_errors": ["Confondre zone P (interdite permanente) et zone R (réglementée, activable)", "Ne pas vérifier les NOTAM pour connaître le statut d'une zone R le jour du vol"],
+      "related_concepts": ["PPL_AIRLAW_001_C01", "PPL_AIRLAW_002_C04"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C07",
+      "title": "Vol au-dessus des eaux internationales",
+      "content": "Au-dessus des eaux internationales (au-delà de 12 NM des côtes), aucun État n'exerce de souveraineté. Les règles applicables sont celles de l'OACI (Annexe 2). Le pilote reste sous la juridiction de l'État d'immatriculation de son aéronef et doit respecter les règles de vol en vigueur.",
+      "difficulty": "medium",
+      "risk_level": "medium",
+      "phase_of_flight": ["enroute"],
+      "tags": ["international_waters", "high_seas", "jurisdiction"],
+      "common_errors": ["Croire qu'au-dessus des eaux internationales on peut voler sans règles", "Penser que le contrôle ATC ne s'applique pas au-dessus de la mer"],
+      "related_concepts": ["PPL_AIRLAW_001_C02", "PPL_AIRLAW_001_C01"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C08",
+      "title": "Plan de vol international VFR",
+      "content": "Pour un vol VFR international, le plan de vol doit être déposé au moins 30 minutes avant le départ estimé (60 minutes pour les vols IFR ou VFR de nuit). Il doit inclure la route jusqu'à la frontière, le point de sortie, le point d'entrée dans le pays voisin, et l'aéroport de destination. Une clairance ATC est requise au point de franchissement de frontière.\n\nAttention : le délai de 30 minutes est un minimum réglementaire (SERA.4001). Dans la pratique, pour un premier vol international, il est fortement recommandé de déposer le plan de vol la veille ou au moins 2 heures avant. Pourquoi ? Parce que si l'ATC du pays voisin ne reçoit pas votre plan de vol (erreur de transmission, mauvais format, etc.), vous aurez le temps de corriger l'erreur sans rater votre vol. Le scénario S05 illustre exactement ce problème.",
+      "difficulty": "medium",
+      "risk_level": "high",
+      "phase_of_flight": ["preflight"],
+      "tags": ["flight_plan", "international_vfr", "clearance", "ats"],
+      "common_errors": ["Déposer un plan de vol national au lieu d'un plan international", "Oublier de fermer le plan de vol à l'arrivée dans le pays étranger"],
+      "related_concepts": ["PPL_AIRLAW_001_C03", "PPL_AIRLAW_001_C04"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C09",
+      "title": "Fermeture du plan de vol à l'arrivée",
+      "content": "À l'arrivée à destination, le pilote doit fermer son plan de vol dans les 30 minutes suivant l'atterrissage. Si le plan de vol n'est pas fermé, les services de recherche et sauvetage (SAR) peuvent être déclenchés automatiquement après un délai de 30 minutes suivant l'heure estimée d'arrivée (ETA). Pour un vol international, l'oubli de fermeture est une infraction fréquente avec des conséquences graves : déclenchement inutile des secours, facturation des opérations SAR, et suspension de licence.",
+      "difficulty": "medium",
+      "risk_level": "high",
+      "phase_of_flight": ["postflight"],
+      "tags": ["flight_plan_closure", "sar", "arrival_procedure"],
+      "common_errors": ["Oublier de fermer le plan de vol après un vol long ou fatiguant", "Penser que l'atterrissage ferme automatiquement le plan de vol", "Ne pas connaître le délai de 30 minutes avant déclenchement SAR"],
+      "related_concepts": ["PPL_AIRLAW_001_C08", "PPL_AIRLAW_001_C03"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C10",
+      "title": "FIR (Flight Information Region) et lien avec la souveraineté",
+      "content": "Une FIR (Flight Information Region) est une région d'information de vol définie par l'OACI pour assurer les services ATS. Les limites des FIR ne coïncident pas toujours avec les frontières nationales : une FIR peut couvrir plusieurs pays ou, à l'inverse, un pays peut être divisé en plusieurs FIR. Au-dessus de l'océan, les FIR sont déléguées à des États côtiers (ex : FIR Atlantique gérée par la France). Le pilote PPL qui prépare un vol international doit connaître les FIR traversées car les fréquences ATC, les procédures et les organismes de contrôle changent à chaque limite de FIR, indépendamment des frontières politiques.",
+      "difficulty": "medium",
+      "risk_level": "medium",
+      "phase_of_flight": ["preflight", "enroute"],
+      "tags": ["fir", "uir", "airspace", "ats", "oceanic"],
+      "common_errors": ["Confondre frontière politique et limite de FIR", "Ne pas noter les fréquences des FIR traversées sur la carte", "Penser que le changement de FIR ne nécessite aucune action"],
+      "related_concepts": ["PPL_AIRLAW_001_C01", "PPL_AIRLAW_001_C03", "PPL_AIRLAW_001_C08"]
+    }
+  ],
+  "operational_rules": [
+    {
+      "rule_id": "PPL_AIRLAW_001_R01",
+      "title": "Vérification des zones réglementées avant vol",
+      "procedure": "Avant tout vol de navigation, consulter l'AIP et les NOTAM pour identifier les zones P (Prohibited) et R (Restricted) actives sur la route prévue. Reporter sur la carte les zones actives le jour du vol. Planifier un contournement avec une marge de 5 NM minimum.",
+      "conditions": ["Avant tout vol de navigation", "Avant un vol à proximité d'une frontière", "Avant un vol dans une région avec activité militaire connue"],
+      "common_errors": ["Utiliser une carte obsolète sans vérifier les NOTAM", "Sous-estimer la distance de contournement nécessaire"],
+      "safety_notes": ["Les zones R peuvent être activées sans préavis court — vérifier les NOTAM la veille et le jour du vol", "En cas de doute, contacter l'ATC régional pour confirmer le statut d'une zone"]
+    },
+    {
+      "rule_id": "PPL_AIRLAW_001_R02",
+      "title": "Procédure en cas d'interception",
+      "procedure": "Si un aéronef intercepteur vous approche : 1) Suivez immédiatement ses instructions, 2) Allumez les feux de navigation, 3) Contactez l'ATC sur la fréquence en vigueur ou sur 121.5 MHz pour signaler l'interception, 4) Ne faites rien d'imprévisible, 5) Si vous êtes en VFR et que l'intercepteur vous ordonne d'atterrir, suivez-le vers l'aérodrome indiqué.",
+      "conditions": ["En cas d'approche par un aéronef militaire ou de police", "En cas de pénétration non autorisée d'un espace aérien"],
+      "common_errors": ["Tenter de contacter son aéroclub au lieu d'obéir à l'intercepteur", "Changer brusquement de cap ou d'altitude sans instruction"],
+      "safety_notes": ["Les signaux d'interception sont standardisés mondialement — les connaître par cœur", "Le balancement des ailes par l'intercepteur signifie 'suivez-moi'", "Les tirs de munitions traçantes par l'intercepteur signifient 'atterrissez immédiatement'"]
+    },
+    {
+      "rule_id": "PPL_AIRLAW_001_R03",
+      "title": "Préparation d'un vol VFR international",
+      "procedure": "Pour un vol à l'étranger : 1) Vérifier les formalités douanières et d'immigration des deux pays, 2) Déposer un plan de vol international (FPL) au moins 30 min avant le départ (recommandé : la veille ou 2h avant pour un premier vol), 3) Emporter les cartes et l'AIP du pays de destination, 4) Vérifier les NOTAM des deux pays, 5) Prévoir une fréquence de contact pour la clairance frontière, 6) Emporter les documents personnels (passeport, licence, certificat médical).",
+      "conditions": ["Tout vol prévu à l'étranger", "Premier vol international d'un élève"],
+      "common_errors": ["Oublier le passeport ou la licence", "Ne pas connaître les fréquences d'entrée du pays voisin"],
+      "safety_notes": ["Les procédures douanières varient selon les pays — les vérifier avant le départ", "Certains pays exigent un permis d'atterrissage préalable (PPR)", "Noter les numéros d'urgence ATS du pays survolé"]
+    },
+    {
+      "rule_id": "PPL_AIRLAW_001_R04",
+      "title": "Fermeture du plan de vol à l'arrivée",
+      "procedure": "À l'arrivée, fermer le plan de vol dans les 30 minutes suivant l'atterrissage. Moyens : 1) Par téléphone au bureau ATS de l'aérodrome, 2) Via la fréquence ATC avant l'atterrissage si l'approche le permet, 3) Via un formulaire en ligne si disponible. Pour un vol international, ne pas oublier de fermer le plan de vol dans le pays de destination — le déclenchement SAR se fera dans le pays d'origine si le plan n'est pas fermé.",
+      "conditions": ["Après tout vol avec plan de vol déposé", "Obligatoire pour les vols internationaux"],
+      "common_errors": ["Oublier de fermer après un vol long ou fatiguant", "Penser que l'atterrissage ferme automatiquement le plan de vol", "Ne pas connaître le numéro de téléphone ATS de l'aérodrome d'arrivée"],
+      "safety_notes": ["Le délai avant déclenchement SAR est de 30 minutes après l'ETA", "Les opérations SAR peuvent coûter plusieurs milliers d'euros et être facturées au pilote", "Noter le numéro ATS de l'aérodrome d'arrivée avant le départ"]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "concept_title": "Principe de souveraineté aérienne",
+      "question": "Sur quel texte juridique repose le principe de souveraineté des États sur leur espace aérien ?",
+      "options": [
+        "L'Article 1 de la Convention de Chicago de 1944",
+        "Le Règlement (UE) 1178/2011 (Part-FCL)",
+        "L'Annexe 6 de l'OACI",
+        "La Déclaration Universelle des Droits de l'Homme"
+      ],
+      "correct_answer": "L'Article 1 de la Convention de Chicago de 1944",
+      "explanation": "L'Article 1 de la Convention de Chicago établit que 'les États contractants reconnaissent que chaque État a la souveraineté complète et exclusive sur l'espace aérien au-dessus de son territoire'. C'est le fondement du droit aérien international.",
+      "distractors_rationale": {
+        "option_b": "Le Part-FCL concerne les licences du personnel navigant, pas la souveraineté",
+        "option_c": "L'Annexe 6 concerne l'exploitation technique des aéronefs",
+        "option_d": "La DUDH ne traite pas de droit aérien"
+      }
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "concept_title": "Limites de la souveraineté : eaux territoriales",
+      "question": "Jusqu'à quelle distance des côtes un État exerce-t-il sa souveraineté sur l'espace aérien ?",
+      "options": [
+        "12 milles nautiques (22,2 km)",
+        "200 milles nautiques (370 km)",
+        "3 milles nautiques (5,5 km)",
+        "24 milles nautiques (44,4 km)"
+      ],
+      "correct_answer": "12 milles nautiques (22,2 km)",
+      "explanation": "La souveraineté d'un État s'étend jusqu'à 12 NM des côtes (eaux territoriales). Au-delà commence la ZEE (200 NM) où le survol est libre, puis les eaux internationales.",
+      "distractors_rationale": {
+        "option_b": "200 NM est la limite de la ZEE (droits économiques), pas de la souveraineté aérienne",
+        "option_c": "3 NM était l'ancienne limite, remplacée par 12 NM",
+        "option_d": "24 NM est la limite de la zone contiguë (douane), pas de la souveraineté aérienne"
+      }
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "concept_title": "Obligation d'autorisation pour le survol étranger",
+      "question": "Vous planifiez un vol VFR de Nice à Gênes (Italie). Un ami pilote vous dit : 'Pas de souci, on est dans l'espace Schengen, tu peux y aller sans formalités.' Que faites-vous ?",
+      "options": [
+        "Vous ne le croyez pas : le survol d'un État étranger nécessite une autorisation préalable, Schengen ne concerne que les personnes au sol",
+        "Vous le croyez et vous partez sans formalités puisque l'Italie est dans l'UE",
+        "Vous déposez un plan de vol national et vous traversez la frontière sans clairance",
+        "Vous contactez l'aéroclub italien pour demander une autorisation verbale"
+      ],
+      "correct_answer": "Vous ne le croyez pas : le survol d'un État étranger nécessite une autorisation préalable, Schengen ne concerne que les personnes au sol",
+      "explanation": "L'espace Schengen concerne la libre circulation des personnes au sol, pas le survol aérien. Un vol VFR international nécessite un plan de vol international et une clairance ATC à la frontière.",
+      "distractors_rationale": {
+        "option_b": "L'UE et Schengen n'ont aucun effet sur la souveraineté aérienne",
+        "option_c": "Un plan de vol national ne suffit pas pour un vol international",
+        "option_d": "L'autorisation doit passer par les procédures ATC officielles, pas par un appel à l'aéroclub"
+      }
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C04",
+      "concept_title": "Conséquences d'une violation de souveraineté",
+      "question": "Quelle est la conséquence la plus immédiate d'une pénétration non autorisée dans l'espace aérien d'un État étranger ?",
+      "options": [
+        "Une interception par des aéronefs militaires",
+        "Une simple amende envoyée par courrier",
+        "Un avertissement de l'ATC local",
+        "Aucune conséquence si vous faites demi-tour immédiatement"
+      ],
+      "correct_answer": "Une interception par des aéronefs militaires",
+      "explanation": "La pénétration non autorisée déclenche une procédure d'interception standardisée par l'OACI. L'interception est immédiate et peut être suivie de suspension de licence, poursuites judiciaires et annulation d'assurance.",
+      "distractors_rationale": {
+        "option_b": "Les conséquences sont bien plus graves qu'une simple amende",
+        "option_c": "L'ATC n'a pas autorité pour pardonner une violation de souveraineté",
+        "option_d": "La violation est déjà constituée dès la pénétration, même avec demi-tour"
+      }
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C05",
+      "concept_title": "Signaux d'interception OACI",
+      "question": "En vol, vous voyez un aéronef militaire qui balance ses ailes et tire des munitions traçantes devant vous. Que devez-vous faire ?",
+      "options": [
+        "Suivre l'aéronef intercepteur et vous préparer à atterrir sur l'aérodrome qu'il indique",
+        "Mettre le cap opposé et accélérer pour vous éloigner",
+        "Contacter votre aéroclub sur la fréquence 123.45 MHz",
+        "Couper la radio et les feux de navigation pour ne pas être repéré"
+      ],
+      "correct_answer": "Suivre l'aéronef intercepteur et vous préparer à atterrir sur l'aérodrome qu'il indique",
+      "explanation": "Le balancement des ailes par l'intercepteur signifie 'suivez-moi'. Les tirs de munitions traçantes signifient 'atterrissez immédiatement'. Le pilote doit obéir, contacter l'ATC sur 121.5 MHz, et ne rien faire d'imprévisible.",
+      "distractors_rationale": {
+        "option_b": "Tenter de fuir est dangereux et aggrave la situation",
+        "option_c": "La fréquence à contacter est 121.5 MHz (urgence), pas 123.45 MHz",
+        "option_d": "Il faut au contraire allumer les feux et communiquer"
+      }
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C06",
+      "concept_title": "Zones interdites (P) et réglementées (R)",
+      "question": "Quelle est la différence entre une zone P (Prohibited) et une zone R (Restricted) ?",
+      "options": [
+        "Une zone P est interdite en permanence, une zone R est activée selon des horaires publiés",
+        "Une zone P concerne les avions, une zone R concerne les hélicoptères",
+        "Une zone P est française, une zone R est internationale",
+        "Une zone P interdit le survol de nuit, une zone R l'interdit de jour"
+      ],
+      "correct_answer": "Une zone P est interdite en permanence, une zone R est activée selon des horaires publiés",
+      "explanation": "Les zones P (Prohibited) sont interdites 24h/24 et 7j/7. Les zones R (Restricted) sont activées selon des horaires publiés dans l'AIP et les NOTAM. En dehors de ces horaires, le survol est autorisé.",
+      "distractors_rationale": {
+        "option_b": "La distinction n'a rien à voir avec le type d'aéronef",
+        "option_c": "Les zones P et R existent dans tous les pays, pas seulement en France",
+        "option_d": "La distinction est basée sur la permanence de l'interdiction, pas sur l'alternance jour/nuit"
+      }
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C07",
+      "concept_title": "Vol au-dessus des eaux internationales",
+      "question": "Vous survolez l'océan Atlantique à 150 NM des côtes françaises. Quelles règles de vol s'appliquent ?",
+      "options": [
+        "Les règles de l'OACI (Annexe 2) et vous restez sous juridiction française (État d'immatriculation)",
+        "Aucune règle, vous êtes au-dessus des eaux internationales",
+        "Les règles du pays que vous survolez (aucun, donc liberté totale)",
+        "Les règles maritimes internationales (SOLAS)"
+      ],
+      "correct_answer": "Les règles de l'OACI (Annexe 2) et vous restez sous juridiction française (État d'immatriculation)",
+      "explanation": "Au-dessus des eaux internationales, les règles OACI (Annexe 2) s'appliquent. Le pilote reste sous la juridiction de l'État d'immatriculation de son aéronef. Les règles de l'air continuent de s'appliquer.",
+      "distractors_rationale": {
+        "option_b": "Les règles de l'air s'appliquent partout, y compris au-dessus des eaux internationales",
+        "option_c": "Il n'y a pas de 'vide juridique' dans l'espace aérien international",
+        "option_d": "Les règles SOLAS concernent la navigation maritime, pas aérienne"
+      }
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C08",
+      "concept_title": "Plan de vol international VFR",
+      "question": "Quel est le délai minimum de dépôt d'un plan de vol pour un vol VFR international de jour ?",
+      "options": [
+        "30 minutes avant le départ estimé",
+        "60 minutes avant le départ estimé",
+        "2 heures avant le départ estimé",
+        "La veille avant 12h00"
+      ],
+      "correct_answer": "30 minutes avant le départ estimé",
+      "explanation": "Selon SERA.4001, le délai standard pour un vol VFR international de jour est de 30 minutes avant le départ. Le délai de 60 minutes s'applique aux vols IFR et VFR de nuit. Attention : le délai réglementaire est un minimum. Dans la pratique, pour un premier vol international, il est recommandé de déposer la veille ou au moins 2h avant pour avoir le temps de corriger une éventuelle erreur de transmission ATS.",
+      "distractors_rationale": {
+        "option_b": "60 minutes est le délai pour les vols IFR ou VFR de nuit, pas pour le VFR de jour",
+        "option_c": "2 heures est excessif comme minimum réglementaire, mais recommandé dans la pratique",
+        "option_d": "Aucune obligation réglementaire de déposer la veille, mais c'est une bonne pratique"
+      }
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C09",
+      "concept_title": "Fermeture du plan de vol à l'arrivée",
+      "question": "Dans quel délai après l'atterrissage devez-vous fermer votre plan de vol pour éviter un déclenchement SAR ?",
+      "options": [
+        "30 minutes après l'atterrissage",
+        "Immédiatement, avant de quitter l'avion",
+        "1 heure après l'atterrissage",
+        "La fermeture est automatique à l'atterrissage"
+      ],
+      "correct_answer": "30 minutes après l'atterrissage",
+      "explanation": "Le plan de vol doit être fermé dans les 30 minutes suivant l'atterrissage. Passé ce délai, les services SAR peuvent être déclenchés automatiquement. La fermeture n'est pas automatique — le pilote doit contacter l'ATS par téléphone, radio ou formulaire en ligne.",
+      "distractors_rationale": {
+        "option_b": "Il n'est pas exigé de fermer immédiatement, mais dans les 30 minutes",
+        "option_c": "1 heure est trop tard — le SAR peut être déclenché après 30 minutes",
+        "option_d": "La fermeture n'est jamais automatique, c'est la responsabilité du pilote"
+      }
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C10",
+      "concept_title": "FIR (Flight Information Region)",
+      "question": "Un pilote PPL prépare un vol de Paris à Barcelone. Il regarde sa carte et voit qu'il traverse plusieurs FIR. Que doit-il faire ?",
+      "options": [
+        "Noter les fréquences ATC de chaque FIR traversée et contacter l'organisme approprié à chaque changement de FIR",
+        "Ne rien faire de particulier, les FIR sont une notion administrative sans impact sur le vol",
+        "Contacter uniquement la FIR de départ, les autres sont automatiquement notifiées",
+        "Changer de fréquence uniquement à la frontière politique entre la France et l'Espagne"
+      ],
+      "correct_answer": "Noter les fréquences ATC de chaque FIR traversée et contacter l'organisme approprié à chaque changement de FIR",
+      "explanation": "Les FIR sont des régions d'information de vol avec des fréquences et des organismes de contrôle distincts. Le pilote doit connaître les FIR traversées, noter leurs fréquences, et contacter l'organisme approprié à chaque changement de FIR. Les limites de FIR ne coïncident pas toujours avec les frontières politiques.",
+      "distractors_rationale": {
+        "option_b": "Les FIR ont un impact direct sur les fréquences et les procédures ATC",
+        "option_c": "Chaque FIR a son propre organisme de contrôle, le transfert n'est pas automatique",
+        "option_d": "Les limites de FIR peuvent être différentes des frontières politiques"
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "front": "Sur quel texte juridique repose le principe de souveraineté des États sur leur espace aérien ?",
+      "back": "Article 1 de la Convention de Chicago de 1944 : 'Chaque État a la souveraineté complète et exclusive sur l'espace aérien au-dessus de son territoire.'"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "front": "Jusqu'à quelle distance des côtes un État exerce-t-il sa souveraineté aérienne ?",
+      "back": "12 milles nautiques (22,2 km). Au-delà : ZEE (200 NM, survol libre) puis eaux internationales."
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "front": "Un pilote PPL peut-il survoler librement un pays voisin sous prétexte que c'est l'espace Schengen ?",
+      "back": "Non. Schengen concerne la libre circulation des personnes au sol, pas le survol aérien. Un vol VFR international nécessite un plan de vol international et une clairance ATC à la frontière."
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C04",
+      "front": "Quelle est la conséquence immédiate d'une pénétration non autorisée dans l'espace aérien d'un État étranger ?",
+      "back": "Interception par des aéronefs militaires, suivie possible de suspension de licence, poursuites judiciaires et annulation d'assurance."
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C05",
+      "front": "Que signifie le balancement des ailes par un aéronef intercepteur ? Et des tirs de munitions traçantes ?",
+      "back": "Balancement des ailes = 'suivez-moi'. Tirs de munitions traçantes = 'atterrissez immédiatement'. Le pilote doit obéir et contacter l'ATC sur 121.5 MHz."
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C06",
+      "front": "Quelle est la différence entre une zone P (Prohibited) et une zone R (Restricted) ?",
+      "back": "Zone P : interdite en permanence (24h/24, 7j/7). Zone R : activée selon des horaires publiés dans l'AIP/NOTAM. En dehors des horaires, le survol est autorisé."
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C07",
+      "front": "Quelles règles s'appliquent au-dessus des eaux internationales (au-delà de 12 NM) ?",
+      "back": "Les règles OACI (Annexe 2). Le pilote reste sous la juridiction de l'État d'immatriculation de son aéronef. Il n'y a pas de 'vide juridique'."
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C08",
+      "front": "Quel est le délai minimum de dépôt d'un plan de vol pour un vol VFR international de jour ?",
+      "back": "30 minutes avant le départ estimé (SERA.4001). 60 minutes pour les vols IFR ou VFR de nuit. Conseil pratique : déposer la veille pour un premier vol international."
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C09",
+      "front": "Dans quel délai après l'atterrissage devez-vous fermer votre plan de vol ?",
+      "back": "30 minutes après l'atterrissage. Passé ce délai, les services SAR peuvent être déclenchés. La fermeture n'est pas automatique."
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C10",
+      "front": "Qu'est-ce qu'une FIR et pourquoi est-elle importante pour un vol international ?",
+      "back": "Une FIR (Flight Information Region) est une région d'information de vol avec ses propres fréquences ATC. Les limites de FIR ne coïncident pas toujours avec les frontières politiques. Le pilote doit noter les fréquences de chaque FIR traversée."
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "PPL_AIRLAW_001_S01",
+      "title": "Vol VFR transfrontalier sans autorisation",
+      "context": "Vous êtes un pilote PPL avec 50 heures de vol. Vous planifiez un vol de navigation de Lille (LFQQ) à Gand (EBGT) en Belgique. La météo est bonne, le vol est estimé à 45 minutes. C'est votre premier vol à l'étranger.",
+      "situation": "Le jour du vol, vous arrivez à l'aéroclub à 8h00. Votre instructeur n'est pas disponible. Un autre pilote vous dit : 'Pas de souci, la Belgique est dans l'espace Schengen, tu peux y aller sans formalités, c'est comme un vol national.' Vous avez déposé un plan de vol VFR jusqu'à la frontière, mais vous n'avez pas demandé d'autorisation de survol à la Belgique.",
+      "decision_to_make": "Dois-vous partir quand même en estimant que l'information est correcte, ou reporter le vol pour vérifier les procédures de vol international ?",
+      "risks": [
+        "Pénétration illégale de l'espace aérien belge sans autorisation — violation de la souveraineté d'un État",
+        "Interception par la chasse (procédure standard pour tout aéronef non autorisé)",
+        "Suspension de licence et poursuites judiciaires possibles",
+        "Annulation de l'assurance en cas d'incident hors cadre légal",
+        "Création d'un précédent dangereux pour les vols futurs"
+      ],
+      "recommended_solution": "Ne pas partir. Le survol d'un État étranger nécessite une autorisation préalable, indépendamment des accords Schengen. Pour un vol VFR transfrontalier, vous devez : 1) Déposer un plan de vol international, 2) Obtenir une clairance à la frontière via la fréquence ATC appropriée, 3) Vérifier les NOTAM du pays de destination, 4) Emporter les cartes et l'AIP du pays survolé.",
+      "explanation": "La souveraineté des États sur leur espace aérien est un principe fondamental du droit aérien international (Convention de Chicago, Article 1). L'espace Schengen concerne la libre circulation des personnes au sol, pas le survol aérien. Même entre pays voisins et amis, l'autorisation de survol est obligatoire. Un pilote PPL doit connaître et respecter ces procédures — l'ignorance n'est pas une excuse juridique."
+    },
+    {
+      "scenario_id": "PPL_AIRLAW_001_S02",
+      "title": "Interception en vol près d'une zone militaire",
+      "context": "Vous êtes en vol VFR de navigation entre Tours et Bordeaux. Vous avez soigneusement préparé votre route en évitant les zones connues. Cependant, une zone R (Restricted) que vous pensiez inactive a été activée sans préavis pour un exercice militaire.",
+      "situation": "Soudain, vous voyez un avion de chasse qui s'approche rapidement par votre droite. Il balance ses ailes à plusieurs reprises puis se place devant vous en réduisant sa vitesse. Vous réalisez que vous avez pénétré une zone R activée. L'intercepteur vous fait signe de le suivre. Vous avez un passager à bord qui commence à paniquer.",
+      "decision_to_make": "Quelle est votre réaction immédiate face à l'intercepteur ? Que faites-vous pour gérer la situation avec votre passager ?",
+      "risks": [
+        "Non-respect des instructions de l'intercepteur = escalade de la situation",
+        "Panique du passager pouvant mener à des actions dangereuses",
+        "Tentative de fuite ou manœuvre imprévisible = risque de collision",
+        "Absence de communication sur 121.5 MHz = aggravation de l'incident",
+        "Stress et charge de travail élevés = risque d'erreur de pilotage"
+      ],
+      "recommended_solution": "1) Suivez immédiatement l'intercepteur en maintenant une vitesse stable, 2) Allumez les feux de navigation, 3) Contactez l'ATC sur 121.5 MHz : 'Mayday, je suis intercepté par un aéronef militaire au sud de Tours', 4) Expliquez calmement au passager : 'Nous sommes en train d'être escortés par l'armée de l'air, tout va bien, je suis en contact avec le contrôle. Restez calme et attachez votre ceinture.' 5) Notez l'heure et les instructions de l'intercepteur pour le rapport ultérieur.",
+      "explanation": "L'interception est une procédure standardisée. Le balancement des ailes signifie 'suivez-moi'. Le pilote doit obéir, communiquer sur 121.5 MHz, et ne rien faire d'imprévisible. La gestion du passager est cruciale : une explication calme et rassurante évite la panique. Après l'atterrissage, un rapport devra être fait à l'autorité nationale de l'aviation civile."
+    },
+    {
+      "scenario_id": "PPL_AIRLAW_001_S03",
+      "title": "Vol au-dessus de la Manche : confusion sur les eaux territoriales",
+      "context": "Vous êtes un pilote PPL basé au Havre (LFOH). Vous planifiez un vol de navigation au-dessus de la Manche jusqu'à une bouée située à 25 NM des côtes françaises, puis retour. Vous voulez montrer à un ami les falaises d'Étretat vues de la mer.",
+      "situation": "En vol, vous suivez la côte vers le nord. Votre ami vous dit : 'On pourrait traverser jusqu'en Angleterre, c'est tout proche !' Vous regardez votre carte : la côte anglaise est à environ 50 NM. Vous êtes actuellement à 15 NM des côtes françaises. Vous n'avez pas de plan de vol international, pas de clairance, et pas de passeport.",
+      "decision_to_make": "Jusqu'où pouvez-vous aller sans violer la souveraineté française ou anglaise ? Que répondez-vous à votre ami ?",
+      "risks": [
+        "Pénétration des eaux territoriales anglaises (12 NM) sans autorisation = interception",
+        "Pénétration des eaux territoriales françaises au retour si vous déviez de votre route",
+        "Panne moteur au-dessus de la Manche sans plan de vol = recherche et sauvetage compliquée",
+        "Pression sociale de l'ami = décision non professionnelle",
+        "Absence de documents pour un vol international (passeport, licence pour l'étranger)"
+      ],
+      "recommended_solution": "Vous pouvez survoler librement les eaux internationales (au-delà de 12 NM des côtes françaises) mais vous ne devez pas approcher à moins de 12 NM des côtes anglaises. Depuis Le Havre, la Manche fait environ 100 NM de large — vous êtes donc loin des eaux territoriales anglaises. Répondez à votre ami : 'Je ne peux pas traverser sans plan de vol international et sans autorisation. La souveraineté anglaise commence à 12 NM de leurs côtes. On reste dans les eaux internationales et on fait demi-tour avant d'approcher la zone anglaise.'",
+      "explanation": "Les eaux internationales commencent à 12 NM des côtes. Au-delà, le survol est libre. Mais chaque État a sa propre zone de 12 NM. Depuis Le Havre, la Manche fait environ 100 NM de large — il y a donc de vastes eaux internationales entre les zones des deux pays. En revanche, au Pas-de-Calais (point le plus étroit, ~20 NM), il n'y a pas d'eaux internationales entre la France et l'Angleterre. Un vol vers l'Angleterre nécessite un plan de vol international et une clairance."
+    },
+    {
+      "scenario_id": "PPL_AIRLAW_001_S04",
+      "title": "Zone P non identifiée sur une carte obsolète",
+      "context": "Vous préparez un vol de navigation pour votre premier cross-country en solo. Vous utilisez une carte aéronautique que vous avez achetée d'occasion au club. Elle date de 6 mois. Votre instructeur vous a dit de vérifier les NOTAM, mais vous êtes pressé et vous vous dites que '6 mois, c'est récent'.",
+      "situation": "En vol, vous suivez votre route quand vous voyez un panneau lumineux au sol avec 'P - INTERDIT - NE PAS SURVOLER'. Vous consultez votre carte : rien n'est indiqué à cet endroit. Vous êtes à 5 NM d'une base aérienne que vous pensiez désaffectée. Votre carte ne montre qu'une zone R inactive.",
+      "decision_to_make": "Continuez-vous sur votre route en estimant que votre carte est fiable, ou faites-vous un détour immédiat pour contourner la zone ?",
+      "risks": [
+        "Pénétration d'une zone P (Prohibited) = interception militaire immédiate",
+        "Carte obsolète = informations erronées sur les zones actives",
+        "Absence de vérification des NOTAM = ignorance des activations récentes",
+        "Stress de la situation = perte de navigation et erreurs de pilotage",
+        "Rapport d'incident et suspension de licence possibles"
+      ],
+      "recommended_solution": "Faites immédiatement un détour pour contourner la zone, même si votre carte ne l'indique pas. Ne prenez pas le risque de pénétrer une zone P. Après le vol, vérifiez les NOTAM que vous auriez dû consulter — vous découvrirez probablement que cette zone a été créée ou modifiée récemment. Signalez l'erreur à votre instructeur et à l'aéroclub pour mettre à jour les cartes.",
+      "explanation": "Les cartes aéronautiques doivent être à jour. Les zones P et R peuvent être créées, modifiées ou activées à tout moment. Les NOTAM sont la seule source d'information à jour le jour du vol. Une carte de 6 mois peut déjà contenir des erreurs critiques. En cas de doute entre votre carte et ce que vous voyez, faites toujours confiance à ce que vous voyez et contournez. La sécurité prime sur le respect de la route planifiée."
+    },
+    {
+      "scenario_id": "PPL_AIRLAW_001_S05",
+      "title": "Plan de vol international mal déposé",
+      "context": "Vous êtes un pilote PPL avec 60 heures. Vous planifiez un vol de Strasbourg (LFST) à Karlsruhe (EDSB) en Allemagne. Vous avez déposé un plan de vol VFR au bureau ATS de l'aéroclub. Vous avez bien noté la fréquence d'entrée allemande et vous avez vos documents.",
+      "situation": "En vol, vous approchez du Rhin qui marque la frontière. Vous contactez la fréquence que vous avez notée pour demander la clairance d'entrée. L'ATC allemand vous répond : 'Aircraft calling, say again — I have no flight plan on file for you.' Vous réalisez que votre plan de vol a été déposé comme un plan national français, pas comme un plan international. Vous êtes à 5 NM de la frontière.",
+      "decision_to_make": "Continuez-vous vers l'Allemagne en espérant régulariser la situation en vol, ou faites-vous demi-tour vers Strasbourg ?",
+      "risks": [
+        "Pénétration de l'espace aérien allemand sans plan de vol valide = violation de souveraineté",
+        "Interception par la chasse allemande",
+        "Suspension de licence et poursuites",
+        "Refus d'entrée sur le territoire allemand et obligation de retour",
+        "Stress et charge de travail élevés en approche de frontière"
+      ],
+      "recommended_solution": "Ne pénétrez pas dans l'espace aérien allemand. Faites demi-tour immédiatement vers Strasbourg. Une fois au sol, déposez un plan de vol international correct (FPL) avec les codes appropriés (départ LFST, frontière au point X, entrée EDSB). Vous pouvez aussi contacter l'ATC allemand par téléphone pour expliquer la situation et régulariser. Ne tentez jamais de traverser une frontière sans plan de vol valide et sans clairance.",
+      "explanation": "Un plan de vol national (VFR) n'est pas valide pour un vol international. Le plan de vol international (FPL) doit être déposé avec les indicatifs appropriés et transmis aux ATC des pays concernés. L'absence de plan de vol dans le système ATC allemand signifie que vous n'êtes pas autorisé à pénétrer. La procédure correcte est de faire demi-tour, de corriger le plan de vol, et de repartir. Ne jamais 'tenter sa chance' à une frontière — les conséquences sont trop graves. C'est exactement pour cela qu'il est recommandé de déposer le plan de vol la veille ou 2h avant : vous avez le temps de détecter et corriger ce type d'erreur."
+    }
+  ],
+  "remediation": [
+    {
+      "analysis_id": "AIRLAW_001_ERR_01",
+      "student_level": "PPL",
+      "chapter_title": "Souveraineté sur l'espace aérien",
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "question_id": "AIRLAW_001_C03",
+      "selected_answer": "B",
+      "correct_answer": "A",
+      "error_category": "misunderstanding",
+      "error_description": "L'élève a choisi l'option B (partir sans formalités car Schengen) au lieu de l'option A (refuser car Schengen ne concerne que les personnes au sol). Il croit que les accords européens suppriment les formalités de survol entre pays membres.",
+      "misconception": "L'élève confond la libre circulation des personnes au sol (Schengen) avec la souveraineté aérienne qui reste entière. Cette confusion est fréquente chez les pilotes PPL qui voyagent en Europe et pensent que 'l'espace sans frontières' s'applique aussi à l'aviation.",
+      "severity": "high",
+      "operational_risk": "high",
+      "knowledge_gap": "L'élève n'a pas intégré que la souveraineté aérienne est un principe absolu du droit international (Article 1 Convention Chicago) qui prime sur tout accord régional.",
+      "recommended_concepts": [
+        {"concept_id": "PPL_AIRLAW_001_C01", "reason": "Revoir le principe fondamental de souveraineté (Article 1 Convention Chicago)"},
+        {"concept_id": "PPL_AIRLAW_001_C03", "reason": "Comprendre la différence entre accords européens et souveraineté aérienne"},
+        {"concept_id": "PPL_AIRLAW_001_R03", "reason": "Maîtriser la procédure complète de préparation d'un vol VFR international"}
+      ],
+      "recommended_actions": [
+        {"action_type": "review", "target": "PPL_AIRLAW_001_C01", "reason": "Revoir le fondement juridique de la souveraineté avant d'aborder les procédures"},
+        {"action_type": "scenario", "target": "PPL_AIRLAW_001_S01", "reason": "Travailler le scénario 'Vol VFR transfrontalier sans autorisation' pour ancrer la procédure"},
+        {"action_type": "flashcard", "target": "PPL_AIRLAW_001_C03", "reason": "Répéter la flashcard sur Schengen vs survol aérien"}
+      ],
+      "instructor_feedback": "Cette erreur est dangereuse car elle pourrait vous conduire à pénétrer illégalement dans l'espace aérien d'un pays voisin. Imaginez-vous en vol entre Nice et Gênes : si vous traversez la frontière sans plan de vol international et sans clairance, vous serez intercepté par la chasse italienne. Les conséquences incluent suspension de licence, poursuites judiciaires et annulation d'assurance. L'espace Schengen concerne les contrôles aux frontières terrestres, pas le survol aérien. Chaque État conserve sa souveraineté aérienne, même au sein de l'UE.",
+      "next_learning_step": "Avant de passer au concept suivant, refaire le quiz sur C03 et le scénario S01. Ne pas passer à C04 tant que C03 n'est pas maîtrisé."
+    },
+    {
+      "analysis_id": "AIRLAW_001_ERR_02",
+      "student_level": "PPL",
+      "chapter_title": "Souveraineté sur l'espace aérien",
+      "concept_id": "PPL_AIRLAW_001_C05",
+      "question_id": "AIRLAW_001_C05",
+      "selected_answer": "C",
+      "correct_answer": "A",
+      "error_category": "terminology_confusion",
+      "error_description": "L'élève a choisi l'option C (contacter l'aéroclub sur 123.45 MHz) au lieu de l'option A (suivre l'intercepteur et se préparer à atterrir). Il confond la fréquence d'urgence 121.5 MHz avec 123.45 MHz et ne connaît pas la procédure d'interception.",
+      "misconception": "L'élève a mémorisé '121.5 MHz' comme fréquence d'urgence mais l'a confondue avec 123.45 MHz (fréquence d'aéroclub). Plus grave, il pense qu'il peut 'contacter sa base' au lieu d'obéir à l'intercepteur — une réaction qui pourrait être interprétée comme un refus d'obtempérer par l'intercepteur.",
+      "severity": "high",
+      "operational_risk": "high",
+      "knowledge_gap": "L'élève ne connaît pas la procédure d'interception standardisée (obéir d'abord, communiquer ensuite sur 121.5 MHz). Il ne maîtrise pas non plus les fréquences d'urgence.",
+      "recommended_concepts": [
+        {"concept_id": "PPL_AIRLAW_001_C05", "reason": "Revoir les signaux d'interception et la procédure complète"},
+        {"concept_id": "PPL_AIRLAW_001_C04", "reason": "Comprendre le lien entre violation de souveraineté et interception"}
+      ],
+      "recommended_actions": [
+        {"action_type": "flashcard", "target": "PPL_AIRLAW_001_C05", "reason": "Répéter la flashcard sur les signaux d'interception"},
+        {"action_type": "scenario", "target": "PPL_AIRLAW_001_S02", "reason": "Travailler le scénario d'interception pour ancrer la procédure"},
+        {"action_type": "quiz", "target": "Fréquences d'urgence", "reason": "Faire un mini-quiz sur les fréquences (121.5, 123.45, 126.7)"}
+      ],
+      "instructor_feedback": "Cette erreur est grave car elle révèle deux lacunes critiques. D'abord, la confusion entre 121.5 MHz (urgence/détresse) et 123.45 MHz (aéroclub) — en situation d'interception, contacter l'aéroclub au lieu de l'ATC sur 121.5 MHz retarde la communication avec l'intercepteur. Ensuite, et c'est le plus dangereux : la priorité n'est pas de 'contacter quelqu'un' mais d'OBÉIR à l'intercepteur. La séquence correcte est : 1) Obéir immédiatement, 2) Allumer les feux, 3) Contacter l'ATC sur 121.5 MHz. Ne jamais tenter de contacter son aéroclub ou sa base en priorité — cela peut être perçu comme un refus d'obtempérer.",
+      "next_learning_step": "Refaire le quiz C05. Ensuite, travaillez le scénario S02 (interception en vol) avec votre instructeur en simulateur. Objectif : la procédure doit devenir un réflexe."
+    },
+    {
+      "analysis_id": "AIRLAW_001_ERR_03",
+      "student_level": "PPL",
+      "chapter_title": "Souveraineté sur l'espace aérien",
+      "concept_id": "PPL_AIRLAW_001_C08",
+      "question_id": "AIRLAW_001_C08",
+      "selected_answer": "B",
+      "correct_answer": "A",
+      "error_category": "procedural_error",
+      "error_description": "L'élève a choisi l'option B (60 minutes) au lieu de l'option A (30 minutes). Il confond le délai VFR international de jour avec le délai IFR/VFR de nuit.",
+      "misconception": "L'élève a mémorisé '60 minutes' comme délai standard sans distinguer VFR jour vs IFR/nuit. C'est une erreur de généralisation : il a retenu le délai le plus long 'par sécurité' sans comprendre que SERA.4001 fixe un délai différent selon le type de vol.",
+      "severity": "medium",
+      "operational_risk": "medium",
+      "knowledge_gap": "L'élève ne connaît pas la distinction entre les délais SERA.4001 pour VFR jour (30 min) et IFR/VFR nuit (60 min). Il ne comprend pas non plus que le délai réglementaire est un minimum et que dans la pratique, un premier vol international se prépare la veille.",
+      "recommended_concepts": [
+        {"concept_id": "PPL_AIRLAW_001_C08", "reason": "Revoir les délais SERA.4001 : 30 min VFR jour, 60 min IFR/VFR nuit"},
+        {"concept_id": "PPL_AIRLAW_001_R03", "reason": "Comprendre la procédure complète de préparation d'un vol international"}
+      ],
+      "recommended_actions": [
+        {"action_type": "quiz", "target": "PPL_AIRLAW_001_C08", "reason": "Refaire le quiz sur les délais de dépôt de plan de vol"},
+        {"action_type": "scenario", "target": "PPL_AIRLAW_001_S05", "reason": "Travailler le scénario 'Plan de vol mal déposé' pour comprendre les conséquences pratiques"},
+        {"action_type": "flashcard", "target": "PPL_AIRLAW_001_C08", "reason": "Répéter la flashcard sur les délais SERA.4001"}
+      ],
+      "instructor_feedback": "Cette erreur est compréhensible mais doit être corrigée. Le délai réglementaire pour un vol VFR international de jour est de 30 minutes (SERA.4001). Les 60 minutes concernent les vols IFR ou VFR de nuit. Cependant, dans la pratique, pour un premier vol international, je recommande de déposer le plan de vol la veille ou au moins 2 heures avant. Pourquoi ? Parce que si l'ATC du pays voisin ne reçoit pas votre plan de vol (comme dans le scénario S05), vous avez le temps de corriger l'erreur sans rater votre vol. Le minimum réglementaire n'est pas toujours le minimum prudent.",
+      "next_learning_step": "Refaire le quiz C08. Ensuite, travaillez le scénario S05 (plan de vol mal déposé) pour ancrer la leçon. Objectif : comprendre que le délai réglementaire (30 min) et le délai prudent (2h ou veille) sont deux choses différentes."
+    }
+  ]
+}

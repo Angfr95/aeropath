@@ -1,0 +1,52 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: aeropath-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-aeropath}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-aeropath}
+      POSTGRES_DB: ${POSTGRES_DB:-aeropath}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ../../scripts/migrations:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-aeropath}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api-gateway:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.api
+    container_name: aeropath-api
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8080}:8080"
+    environment:
+      PORT: "8080"
+      DATABASE_URL: "postgres://${POSTGRES_USER:-aeropath}:${POSTGRES_PASSWORD:-aeropath}@postgres:5432/${POSTGRES_DB:-aeropath}?sslmode=disable"
+      JWT_SECRET: ${JWT_SECRET:-change-me-in-production}
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  worker:
+    build:
+      context: ../..
+      dockerfile: deployments/docker/Dockerfile.worker
+    container_name: aeropath-worker
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: "postgres://${POSTGRES_USER:-aeropath}:${POSTGRES_PASSWORD:-aeropath}@postgres:5432/${POSTGRES_DB:-aeropath}?sslmode=disable"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

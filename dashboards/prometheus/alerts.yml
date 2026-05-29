@@ -1,0 +1,55 @@
+# ============================================================
+#  PROMETHEUS ALERTING RULES
+# ============================================================
+# DDIA: Incident Response, SLOs, Error Budgets
+#
+# Voir : internal/monitoring/alerts.go
+# ============================================================
+
+groups:
+  - name: aeroforge
+    rules:
+      - alert: HighErrorRate
+        expr: rate(errors_total[5m]) / rate(requests_total[5m]) > 0.05
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Taux d'erreur élevé ({{ $value | humanizePercentage }})"
+          description: "Le taux d'erreur dépasse 5% depuis 5 minutes"
+
+      - alert: HighLatency
+        expr: histogram_quantile(0.99, rate(request_duration_seconds_bucket[5m])) > 0.5
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Latence p99 élevée ({{ $value }}s)"
+          description: "La latence p99 dépasse 500ms"
+
+      - alert: ServiceDown
+        expr: up{job=~"aeroforge-.*"} == 0
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Service {{ $labels.job }} injoignable"
+          description: "Le service {{ $labels.job }} est down depuis 30s"
+
+      - alert: QueueBacklog
+        expr: aeroforge_queue_depth > 1000
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Backlog NATS élevé ({{ $value }})"
+          description: "La file NATS dépasse 1000 messages"
+
+      - alert: LowExamPassRate
+        expr: rate(exam_passed_total[1h]) / rate(exam_total[1h]) < 0.4
+        for: 1h
+        labels:
+          severity: warning
+        annotations:
+          summary: "Taux de réussite bas ({{ $value | humanizePercentage }})"
+          description: "Moins de 40% de réussite aux examens sur la dernière heure"

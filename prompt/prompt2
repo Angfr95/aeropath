@@ -1,0 +1,25 @@
+Agis comme un examinateur EASA et un instructeur CFI/TRI.
+
+Analyse le chapitre JSON fourni.
+
+Vérifie :
+
+* exactitude technique ;
+* conformité EASA PPL ;
+* cohérence pédagogique ;
+* progression logique ;
+* absence d'erreurs factuelles ;
+* absence de concepts redondants ;
+* présence des éléments critiques de sécurité.
+
+Retourne uniquement un JSON :
+
+{
+"validation_score": 0,
+"technical_accuracy": 0,
+"pedagogical_quality": 0,
+"safety_coverage": 0,
+"issues": [],
+"missing_concepts": [],
+"recommendations": []
+}

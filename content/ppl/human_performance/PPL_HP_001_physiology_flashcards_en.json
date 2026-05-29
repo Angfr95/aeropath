@@ -1,0 +1,90 @@
+{
+  "chapter_title": "Pilot Physiology",
+  "flashcards": [
+    {
+      "concept_id": "PPL_HP_001_C01",
+      "front": "What is hypobaric hypoxia and at what altitude do the first symptoms appear?",
+      "back": "Lack of oxygen in body tissues due to decreased partial pressure of oxygen at altitude. First symptoms from 10,000 ft: euphoria, tunnel vision, reduced coordination. The pilot is unaware of their own degradation."
+    },
+    {
+      "concept_id": "PPL_HP_001_C02",
+      "front": "What is the Time of Useful Consciousness (TUC) at 18,000 ft, 25,000 ft, and 30,000 ft?",
+      "back": "18,000 ft → 20 to 30 minutes. 25,000 ft → 2 to 5 minutes. 30,000 ft → 30 to 60 seconds."
+    },
+    {
+      "concept_id": "PPL_HP_001_C03",
+      "front": "What is hyperventilation and how do its symptoms differ from hypoxia?",
+      "back": "Breathing too fast or too deep, lowering blood CO2 levels. Symptoms similar to hypoxia (dizziness, tingling, blurred vision) but caused by stress or anxiety, not altitude."
+    },
+    {
+      "concept_id": "PPL_HP_001_C04",
+      "front": "What is ear barotrauma and how can it be prevented during descent?",
+      "back": "Pain caused by pressure difference between the middle ear and the outside, especially during descent. The Valsalva maneuver (pinch nose and blow gently) helps equalize pressure."
+    },
+    {
+      "concept_id": "PPL_HP_001_C05",
+      "front": "Why should a pilot with a cold avoid flying?",
+      "back": "Sinus congestion blocks pressure equalization during descent, causing facial barotrauma with violent pain in the forehead or cheekbones. Sinus rupture may occur."
+    },
+    {
+      "concept_id": "PPL_HP_001_C06",
+      "front": "How long does it take for night vision to become optimal and what destroys it instantly?",
+      "back": "30 minutes of dark adaptation for rods. White light destroys this adaptation instantly. On night approach, beware of false runway illusions and 'black hole approach'."
+    },
+    {
+      "concept_id": "PPL_HP_001_C07",
+      "front": "Why can the inner ear give a false attitude sensation in flight without visibility?",
+      "back": "The inner ear detects accelerations but not constant speeds. A slow established turn is no longer perceived. The only reliable reference is the instrument panel."
+    },
+    {
+      "concept_id": "PPL_HP_001_C08",
+      "front": "What is the golden rule in case of spatial disorientation?",
+      "back": "Trust the instruments, never your sensations. Entering IMC without training is the leading cause of fatal accidents in general aviation."
+    },
+    {
+      "concept_id": "PPL_HP_001_C09",
+      "front": "What are the effects of fatigue on pilot performance?",
+      "back": "Increased reaction time, judgment errors, micro-sleeps. Fatigue is cumulative and the pilot is a poor judge of their own fatigue level."
+    },
+    {
+      "concept_id": "PPL_HP_001_C10",
+      "front": "What does the I'M SAFE acronym mean and when should it be used?",
+      "back": "Pre-flight self-assessment checklist: Illness, Medication, Stress, Alcohol (12h), Fatigue, Eating. If any single item is positive, postpone the flight."
+    },
+    {
+      "concept_id": "PPL_HP_001_C11",
+      "front": "What are the EASA regulations regarding alcohol before a flight?",
+      "back": "Minimum 12 hours between last drink and taking command (bottle-to-throttle). Max blood alcohol 0.2 g/L. After a heavy drinking session, wait 24h."
+    },
+    {
+      "concept_id": "PPL_HP_001_C12",
+      "front": "Why is dehydration a risk in flight and what are its symptoms?",
+      "back": "Dry air at altitude and cabin ventilation accelerate dehydration. Symptoms: headache, fatigue, cramps, decreased concentration. Coffee and sodas worsen the problem."
+    },
+    {
+      "concept_id": "PPL_HP_001_C13",
+      "front": "What are the symptoms of hypoglycemia in flight and how can it be prevented?",
+      "back": "Fatigue, tremors, concentration difficulties, irritability. Prevention: do not skip meals before flying, carry snacks (granola bars, fruit) in the cabin."
+    },
+    {
+      "concept_id": "PPL_HP_001_C14",
+      "front": "Is an over-the-counter medication automatically compatible with flying?",
+      "back": "No. Many medications (antihistamines, decongestants, sleeping pills) affect alertness. Even a prescribed medication may be prohibited in flight. Check with your AME."
+    },
+    {
+      "concept_id": "PPL_HP_001_C15",
+      "front": "What is the Yerkes-Dodson law and how does it apply to stress in flight?",
+      "back": "Moderate stress improves performance, excessive stress degrades it (attention tunneling, forgotten procedures, impulsive decisions). Management: controlled breathing, prioritization, checklists."
+    },
+    {
+      "concept_id": "PPL_HP_001_C16",
+      "front": "Why do gases expand in the body at altitude and how can this be avoided?",
+      "back": "Boyle's Law: gas volume is inversely proportional to pressure. During climb, pressure decreases, gases expand (abdominal pain). Avoid carbonated drinks and heavy meals before flying."
+    },
+    {
+      "concept_id": "PPL_HP_001_C17",
+      "front": "By how many degrees does temperature decrease with altitude and what is the risk?",
+      "back": "Approximately 2°C per 1,000 ft. Wind chill worsens the sensation. Hypothermia reduces dexterity, reaction time, and judgment. Dress in layers, even in summer."
+    }
+  ]
+}

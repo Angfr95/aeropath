@@ -1,0 +1,16 @@
+À partir du chapitre JSON fourni, génère une flashcard pour chaque concept.
+
+Format :
+
+{
+"chapter_title": "",
+"flashcards": [
+{
+"concept_id": "",
+"front": "",
+"back": ""
+}
+]
+}
+
+Une flashcard = une notion.

@@ -1,0 +1,53 @@
+{
+  "analysis_id": "PPL_HP_001_A01",
+  "student_level": "PPL",
+  "chapter_title": "Physiologie du pilote",
+  "concept_id": "PPL_HP_001_C08",
+  "question_id": "PPL_HP_001_Q08",
+  "selected_answer": "Effectuer un virage à 180° pour sortir des nuages le plus vite possible",
+  "correct_answer": "Faire confiance aux instruments, jamais à ses sensations — maintenir le palier indiqué",
+  "error_category": "procedural_error",
+  "error_description": "L'élève a choisi d'effectuer une manœuvre de demi-tour immédiat en IMC (dans les nuages) sans entraînement aux instruments. Cette procédure est dangereuse car un virage à 180° sans référence visuelle extérieure et sans formation IMC conduit presque systématiquement à une perte de contrôle (désorientation spatiale aggravée, entrée en vrille). L'élève confond la procédure 'demi-tour en cas d'entrée involontaire en IMC' (qui est une manœuvre d'urgence enseignée en PPL mais strictement limitée à un virage à taux standard avec référence aux instruments) avec une manœuvre brusque et non contrôlée.",
+  "misconception": "L'élève pense que 'sortir des nuages le plus vite possible' est la priorité absolue, et qu'un virage serré est la solution la plus rapide. Il ne comprend pas que la priorité est de maintenir le contrôle de l'avion AVANT de chercher à sortir des nuages. Il sous-estime la rapidité avec laquelle la désorientation spatiale s'installe et la puissance des fausses sensations vestibulaires qui rendent toute manœuvre basée sur les sensations extrêmement dangereuse.",
+  "severity": "high",
+  "operational_risk": "high",
+  "knowledge_gap": "L'élève n'a pas intégré la règle d'or de la désorientation spatiale : 'faire confiance aux instruments, jamais à ses sensations'. Il ne comprend pas que le demi-tour en IMC est une procédure instrumentale qui nécessite de maintenir une référence constante au tableau de bord, pas une manœuvre à vue. Il confond 'urgence' avec 'précipitation' — l'urgence nécessite une action réfléchie et priorisée, pas une action brusque.",
+  "recommended_concepts": [
+    {
+      "concept_id": "PPL_HP_001_C08",
+      "reason": "Revoir la règle d'or de la désorientation spatiale : confiance absolue aux instruments. L'élève doit comprendre que toute action basée sur une sensation en IMC est potentiellement mortelle."
+    },
+    {
+      "concept_id": "PPL_HP_001_C07",
+      "reason": "Revoir le mécanisme de l'illusion vestibulaire : pourquoi l'oreille interne donne de fausses sensations en l'absence de références visuelles. L'élève doit comprendre POURQUOI ses sensations ne sont pas fiables."
+    },
+    {
+      "concept_id": "PPL_HP_001_C06",
+      "reason": "Revoir les illusions visuelles et la perte de références extérieures. L'élève doit comprendre que sans références visuelles, le cerveau n'a aucun moyen de corriger les fausses sensations vestibulaires."
+    }
+  ],
+  "recommended_actions": [
+    {
+      "action_type": "review",
+      "target": "PPL_HP_001_C08",
+      "reason": "Lire et relire le concept de désorientation spatiale jusqu'à ce que la règle d'or soit intégrée comme un réflexe. Insister sur la statistique : première cause d'accident mortel en aviation générale."
+    },
+    {
+      "action_type": "flashcard",
+      "target": "PPL_HP_001_C07",
+      "reason": "Utiliser la flashcard sur l'illusion vestibulaire pour comprendre le mécanisme physiologique qui trompe le pilote. Comprendre le 'pourquoi' aide à accepter la règle."
+    },
+    {
+      "action_type": "quiz",
+      "target": "PPL_HP_001_C08",
+      "reason": "Refaire le quiz sur la désorientation spatiale jusqu'à obtenir 100% de bonnes réponses. L'élève doit être capable d'identifier la bonne procédure les yeux fermés."
+    },
+    {
+      "action_type": "scenario",
+      "target": "PPL_HP_001_S01",
+      "reason": "Travailler le scénario 'Le vol de nuit qui tourne mal' qui met en situation réelle de désorientation spatiale. Discuter avec l'instructeur des sensations ressenties et des bonnes actions à prendre."
+    }
+  ],
+  "instructor_feedback": "Votre erreur est compréhensible et très fréquente chez les élèves PPL. L'instinct de survie vous dit de 'sortir de là vite', et un virage à 180° semble logique pour faire demi-tour. Mais c'est exactement ce réflexe qui tue. Voici pourquoi : dans les nuages, votre oreille interne vous ment. Elle vous dit que vous descendez alors que vous êtes en palier. Si vous virez, elle vous dira que vous montez alors que vous descendez. Vous allez corriger à l'opposé de ce qu'il faut faire, et en quelques secondes vous perdrez le contrôle. La seule chose qui ne ment pas, c'est votre horizon artificiel. La priorité n'est pas de sortir des nuages — la priorité est de garder le contrôle de l'avion. Une fois l'avion stable, vous contactez l'ATC et vous demandez de l'aide. C'est contre-intuitif, mais c'est ce qui sauve des vies. Vous n'êtes pas seul : même des pilotes expérimentés se font piéger par la désorientation spatiale. La différence, c'est qu'ils ont appris à ne pas faire confiance à leurs sensations.",
+  "next_learning_step": "Avant votre prochain vol, je vous demande de : 1) Relire les concepts C07 et C08, 2) Faire les flashcards correspondantes jusqu'à les connaître par cœur, 3) Simuler avec moi au sol la procédure 'entrée en IMC involontaire' en regardant un horizon artificiel factice. Nous ferons ensuite un vol avec masque de simulation IMC (sous ma supervision) pour que vous expérimentiez la désorientation en environnement contrôlé."
+}

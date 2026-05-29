@@ -1,0 +1,33 @@
+# ===== BUILD =====
+FROM golang:1.23-alpine AS builder
+
+RUN apk add --no-cache git ca-certificates
+
+WORKDIR /app
+
+COPY go.mod go.sum ./
+RUN go mod download
+
+COPY . .
+
+# Générer la doc Swagger
+RUN go install github.com/swaggo/swag/cmd/swag@latest && \
+    swag init -g cmd/api-gateway/main.go --output cmd/api-gateway/docs
+
+# Build statique
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 \
+    go build -ldflags="-w -s" -o /app/bin/api-gateway ./cmd/api-gateway
+
+# ===== RUN =====
+FROM alpine:3.19
+
+RUN apk add --no-cache ca-certificates tzdata
+
+WORKDIR /app
+
+COPY --from=builder /app/bin/api-gateway .
+COPY --from=builder /app/cmd/api-gateway/docs ./cmd/api-gateway/docs
+
+EXPOSE 8080
+
+ENTRYPOINT ["./api-gateway"]

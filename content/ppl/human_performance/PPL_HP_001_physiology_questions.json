@@ -1,0 +1,311 @@
+{
+  "chapter_title": "Physiologie du pilote",
+  "questions": [
+    {
+      "concept_id": "PPL_HP_001_C01",
+      "concept_title": "Hypoxie hypobare",
+      "question": "Vous êtes en vol de navigation à 11 000 ft. Vous ressentez une légère euphorie et votre vision périphérique semble se réduire. Votre passager vous dit que vous avez l'air 'ailleurs'. Quelle est la cause la plus probable ?",
+      "options": [
+        "Un début d'hypoxie dû à la baisse de pression partielle d'oxygène à cette altitude",
+        "Une hyperventilation due au stress de la navigation",
+        "Une fatigue accumulée depuis le début du vol",
+        "Un effet secondaire du café que vous avez bu avant le départ"
+      ],
+      "correct_answer": "Un début d'hypoxie dû à la baisse de pression partielle d'oxygène à cette altitude",
+      "explanation": "Les premiers symptômes d'hypoxie apparaissent dès 10 000 ft : euphorie, vision tunnel, coordination réduite. Le pilote ne se rend pas compte de sa dégradation — c'est pourquoi le témoignage du passager est précieux. L'hyperventilation est causée par le stress, pas par l'altitude.",
+      "distractors_rationale": {
+        "option_b": "L'hyperventilation est liée au stress, pas à l'altitude — et ses symptômes incluent fourmillements et spasmes",
+        "option_c": "La fatigue ne provoque pas de vision tunnel ni d'euphorie",
+        "option_d": "La caféine n'a pas ces effets spécifiques"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C02",
+      "concept_title": "Temps d'utilité consciente",
+      "question": "Vous montez à 25 000 ft dans un avion non pressurisé. Votre oxygène de secours tombe en panne. Combien de temps vous reste-t-il pour effectuer une descente d'urgence avant de perdre conscience ?",
+      "options": [
+        "2 à 5 minutes",
+        "20 à 30 minutes",
+        "30 à 60 secondes",
+        "10 à 15 minutes"
+      ],
+      "correct_answer": "2 à 5 minutes",
+      "explanation": "À 25 000 ft, le temps d'utilité consciente (TUC) est de 2 à 5 minutes. À 18 000 ft il est de 20-30 min, à 30 000 ft il tombe à 30-60 secondes. Ces valeurs sont à connaître par cœur pour un pilote PPL.",
+      "distractors_rationale": {
+        "option_b": "20-30 minutes est le TUC à 18 000 ft, pas à 25 000 ft",
+        "option_c": "30-60 secondes est le TUC à 30 000 ft",
+        "option_d": "10-15 minutes ne correspond à aucun TUC standard"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C03",
+      "concept_title": "Hyperventilation",
+      "question": "En vol, vous êtes soudainement confronté à une situation d'urgence. Vous ressentez des vertiges, des fourmillements dans les mains et une vision trouble. Vous êtes à 3 000 ft. Quelle est la cause la plus probable ?",
+      "options": [
+        "Une hyperventilation due au stress de la situation d'urgence",
+        "Une hypoxie due à l'altitude",
+        "Un début d'hypoglycémie",
+        "Une intoxication au monoxyde de carbone"
+      ],
+      "correct_answer": "Une hyperventilation due au stress de la situation d'urgence",
+      "explanation": "À 3 000 ft, l'hypoxie est impossible. Les symptômes (vertiges, fourmillements, vision trouble) en situation de stress sont typiques de l'hyperventilation. La respiration rapide abaisse le taux de CO2 dans le sang. La solution : ralentir la respiration, parler à voix haute, respirer dans ses mains en coupe.",
+      "distractors_rationale": {
+        "option_b": "À 3 000 ft, la pression partielle d'oxygène est encore suffisante — l'hypoxie n'apparaît qu'à partir de 10 000 ft",
+        "option_c": "L'hypoglycémie provoque fatigue et tremblements, pas des fourmillements",
+        "option_d": "L'intoxication au CO donne des maux de tête et nausées, pas des fourmillements"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C04",
+      "concept_title": "Barotraumatisme de l'oreille",
+      "question": "En descente vers un aérodrome, vous ressentez une douleur croissante dans l'oreille droite. Quelle est la première action à entreprendre ?",
+      "options": [
+        "Effectuer la manœuvre de Valsalva (pincer le nez et souffler doucement) et réduire le taux de descente",
+        "Continuer la descente normalement, la douleur disparaîtra d'elle-même à l'atterrissage",
+        "Remonter immédiatement et annoncer une urgence à l'ATC",
+        "Augmenter le taux de descente pour passer la zone douloureuse plus vite"
+      ],
+      "correct_answer": "Effectuer la manœuvre de Valsalva (pincer le nez et souffler doucement) et réduire le taux de descente",
+      "explanation": "La manœuvre de Valsalva permet d'équilibrer la pression entre l'oreille moyenne et l'extérieur. Si la douleur persiste, réduire le taux de descente ou remonter légèrement. Ne jamais forcer une descente avec une douleur d'oreille — le barotraumatisme peut devenir incapacitant.",
+      "distractors_rationale": {
+        "option_b": "La douleur ne disparaît pas automatiquement — elle peut s'aggraver jusqu'à la rupture du tympan",
+        "option_c": "Remonter immédiatement est excessif — d'abord essayer Valsalva et réduire le taux de descente",
+        "option_d": "Augmenter le taux de descente aggrave le différentiel de pression et la douleur"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C05",
+      "concept_title": "Sinus et barotraumatisme facial",
+      "question": "Vous avez un léger rhume mais vous décidez de voler quand même. En descente, vous ressentez une douleur violente au front. Que s'est-il passé ?",
+      "options": [
+        "La congestion des sinus a empêché l'équilibrage de pression, causant un barotraumatisme sinusien",
+        "Le rhume s'est transformé en sinusite aiguë à cause du changement de pression",
+        "C'est un mal de tête normal lié à la fatigue du vol",
+        "L'air froid en altitude a gelé les sinus"
+      ],
+      "correct_answer": "La congestion des sinus a empêché l'équilibrage de pression, causant un barotraumatisme sinusien",
+      "explanation": "Un rhume congestionne les muqueuses des sinus, bloquant les canaux d'équilibrage. En descente, la pression extérieure augmente mais ne peut pas s'équilibrer dans les sinus congestionnés, causant une douleur violente. Un pilote enrhumé doit reporter son vol.",
+      "distractors_rationale": {
+        "option_b": "La sinusite est une infection qui prend du temps à se développer, pas quelques minutes",
+        "option_c": "Un mal de tête normal ne provoque pas une douleur 'violente' localisée au front",
+        "option_d": "Les sinus ne gèlent pas — la température en cabine reste au-dessus de zéro"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C06",
+      "concept_title": "Vision en vol et illusions visuelles",
+      "question": "Vous préparez un vol de nuit. Vous êtes dans la salle de briefing bien éclairée, puis vous sortez sur le tarmac éteindre les feux de stationnement. Vous constatez que vous ne voyez presque rien. Combien de temps devez-vous attendre pour que votre vision nocturne soit optimale ?",
+      "options": [
+        "30 minutes — le temps d'adaptation des bâtonnets à l'obscurité",
+        "2 minutes — le temps que vos pupilles se dilatent",
+        "10 minutes — le temps d'adaptation des cônes",
+        "Immédiatement — la vision nocturne est instantanée dès qu'on sort de la lumière"
+      ],
+      "correct_answer": "30 minutes — le temps d'adaptation des bâtonnets à l'obscurité",
+      "explanation": "Les bâtonnets (vision nocturne) mettent 30 minutes à s'adapter complètement à l'obscurité. Une lumière blanche détruit cette adaptation instantanément. C'est pourquoi il faut utiliser une lampe rouge en cabine de nuit et éviter de regarder des lumières blanches.",
+      "distractors_rationale": {
+        "option_b": "La dilatation des pupilles est rapide mais ne suffit pas — l'adaptation chimique des bâtonnets prend 30 min",
+        "option_c": "Les cônes (vision diurne) s'adaptent vite mais ne sont pas responsables de la vision nocturne",
+        "option_d": "La vision nocturne n'est pas instantanée — elle nécessite une adaptation progressive"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C07",
+      "concept_title": "Illusion vestibulaire et fausse sensation d'assiette",
+      "question": "En vol de nuit sans visibilité extérieure, vous effectuez un virage lent et coordonné. Après quelques secondes, vous avez la sensation que l'avion est en palier alors qu'il est toujours en virage. Pourquoi ?",
+      "options": [
+        "L'oreille interne détecte les accélérations mais pas les vitesses constantes — le virage lent n'est plus perçu après l'établissement",
+        "Les yeux s'habituent au mouvement et ne détectent plus le virage",
+        "Le cerveau compense automatiquement le virage pour maintenir l'équilibre",
+        "L'horizon artificiel s'est réinitialisé"
+      ],
+      "correct_answer": "L'oreille interne détecte les accélérations mais pas les vitesses constantes — le virage lent n'est plus perçu après l'établissement",
+      "explanation": "Les canaux semi-circulaires de l'oreille interne détectent les accélérations angulaires, pas les vitesses constantes. Une fois le virage établi à taux constant, l'oreille interne 'oublie' le virage. Si vous ressourcez brusquement, vous aurez la fausse sensation de monter alors que vous êtes en palier. La seule référence fiable est le tableau de bord.",
+      "distractors_rationale": {
+        "option_b": "Les yeux ne s'habituent pas au mouvement au point de ne plus le détecter",
+        "option_c": "Le cerveau ne 'compense' pas les virages — il interprète les signaux de l'oreille interne",
+        "option_d": "L'horizon artificiel ne se réinitialise pas tout seul"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C08",
+      "concept_title": "Désorientation spatiale",
+      "question": "En traversant une couche nuageuse, vous perdez soudainement toute référence visuelle extérieure. Vous avez la forte sensation que l'avion descend alors que l'horizon artificiel indique le palier. Quelle est la règle d'or ?",
+      "options": [
+        "Faire confiance aux instruments, jamais à ses sensations — maintenir le palier indiqué",
+        "Tirer doucement sur le manche pour contrer la sensation de descente",
+        "Pousser légèrement sur le manche pour accompagner la descente ressentie",
+        "Effectuer un virage à 180° pour sortir des nuages le plus vite possible"
+      ],
+      "correct_answer": "Faire confiance aux instruments, jamais à ses sensations — maintenir le palier indiqué",
+      "explanation": "La désorientation spatiale est la première cause d'accident mortel en aviation générale. La règle d'or est absolue : en cas de contradiction entre vos sensations et les instruments, faites confiance aux instruments. Ne tentez pas de manœuvre brusque. Contactez l'ATC pour obtenir une assistance radar vers les conditions VMC.",
+      "distractors_rationale": {
+        "option_b": "Tirer sur le manche basé sur une sensation est exactement ce qui cause la perte de contrôle",
+        "option_c": "Pousser sur le manche aggrave la situation si la sensation est fausse",
+        "option_d": "Un virage à 180° sans référence visuelle est dangereux sans entraînement IMC"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C09",
+      "concept_title": "Fatigue du pilote",
+      "question": "Vous êtes à votre 4e heure de vol sur une journée de navigation. Vous commencez à faire des erreurs de calcul de cap, vous oubliez de changer de fréquence, et vous sursautez quand l'ATC vous appelle. Que se passe-t-il ?",
+      "options": [
+        "Vous êtes en état de fatigue avancée avec risque de micro-sommeils — il est temps d'atterrir et de faire une pause",
+        "C'est normal après 4 heures de vol, continuez, ça passera",
+        "Vous manquez de caféine — buvez un café fort pour retrouver votre vigilance",
+        "Vous avez un problème de vue lié à la fatigue oculaire"
+      ],
+      "correct_answer": "Vous êtes en état de fatigue avancée avec risque de micro-sommeils — il est temps d'atterrir et de faire une pause",
+      "explanation": "La fatigue réduit les performances cognitives : erreurs de jugement, temps de réaction allongé, micro-sommeils. Le pilote est mauvais juge de son propre niveau de fatigue. Les erreurs répétées et les sursauts sont des signaux d'alarme. La seule solution est d'atterrir et de se reposer.",
+      "distractors_rationale": {
+        "option_b": "La fatigue ne 'passe pas' en continuant à voler — elle s'aggrave",
+        "option_c": "Le café masque les symptômes mais n'élimine pas la fatigue — et la caféine aggrave la déshydratation",
+        "option_d": "Les symptômes décrits sont cognitifs (erreurs, oubli, sursauts), pas visuels"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C10",
+      "concept_title": "I'M SAFE — Auto-évaluation avant vol",
+      "question": "Ce matin, vous vous êtes levé avec un léger mal de gorge. Vous avez pris un comprimé pour le soigner. Vous êtes stressé par votre examen pratique de l'après-midi. Vous avez bien dormi 8 heures et vous avez pris un bon petit-déjeuner. Selon la check-list I'M SAFE, pouvez-vous voler ?",
+      "options": [
+        "Non — Illness (mal de gorge) et Medication (comprimé) sont deux items positifs, le vol doit être reporté",
+        "Oui — vous avez bien dormi et bien mangé, les deux items les plus importants sont OK",
+        "Oui — un léger mal de gorge n'est pas une contre-indication au vol",
+        "Non — le stress de l'examen est rédhibitoire"
+      ],
+      "correct_answer": "Non — Illness (mal de gorge) et Medication (comprimé) sont deux items positifs, le vol doit être reporté",
+      "explanation": "La check-list I'M SAFE dit : si un seul item est positif (problème), le vol doit être reporté. Ici, Illness (mal de gorge) ET Medication (comprimé dont on ne connaît pas les effets) sont deux signaux d'alarme. Le stress de l'examen est normal et n'est pas rédhibitoire seul, mais combiné aux deux autres items, la décision est claire : ne pas voler.",
+      "distractors_rationale": {
+        "option_b": "Tous les items sont importants — un seul 'oui' justifie le report",
+        "option_c": "Un mal de gorge peut s'aggraver en vol (barotraumatisme sinusien) et un médicament peut avoir des effets secondaires",
+        "option_d": "Le stress modéré n'est pas rédhibitoire seul — mais combiné à Illness et Medication, c'est trop"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C11",
+      "concept_title": "Alcool et vol",
+      "question": "Vous avez participé à une soirée hier soir et vous avez bu votre dernier verre à 23h00. Vous devez prendre les commandes à 10h00 le lendemain matin. Êtes-vous en règle avec la réglementation EASA ?",
+      "options": [
+        "Oui, 11 heures se sont écoulées — mais il est fortement recommandé d'attendre 24h après une soirée arrosée",
+        "Non, il faut 12 heures minimum — vous n'êtes pas en règle",
+        "Oui, 11 heures c'est suffisant si vous ne sentez plus l'alcool",
+        "Non, il faut 24 heures dans tous les cas"
+      ],
+      "correct_answer": "Non, il faut 12 heures minimum — vous n'êtes pas en règle",
+      "explanation": "La règle EASA est de 12 heures minimum (bouteille au cachet) entre la dernière consommation et la prise de commandement. De 23h00 à 10h00, il s'est écoulé 11 heures — vous n'êtes pas en règle. De plus, après une soirée arrosée, il est recommandé d'attendre 24h à cause des effets résiduels sur le jugement.",
+      "distractors_rationale": {
+        "option_a": "11h c'est insuffisant — le minimum est 12h, pas 11h",
+        "option_c": "Ne pas 'sentir' l'alcool ne signifie pas que l'alcoolémie est sous 0,2 g/L",
+        "option_d": "24h est une recommandation pour les soirées arrosées, pas une obligation réglementaire"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C12",
+      "concept_title": "Déshydratation en vol",
+      "question": "Vous êtes en vol de navigation par une chaude journée d'été. Vous avez emporté un thermos de café et une bouteille d'eau. À mi-vol, vous commencez à avoir mal à la tête et des crampes aux mollets. Quelle est la cause la plus probable ?",
+      "options": [
+        "Un début de déshydratation — vous devriez boire de l'eau régulièrement, pas seulement du café",
+        "Une fatigue normale après 2 heures de vol",
+        "Un manque de sucre — vous devriez manger une barre de céréales",
+        "Un coup de chaleur dû à la température extérieure"
+      ],
+      "correct_answer": "Un début de déshydratation — vous devriez boire de l'eau régulièrement, pas seulement du café",
+      "explanation": "L'air sec en altitude et la ventilation de la cabine accélèrent la déshydratation. Le café aggrave le problème à cause de la caféine (diurétique). Les symptômes (maux de tête, crampes) sont typiques. Il faut boire de l'eau par petites gorgées régulières, ne pas attendre d'avoir soif.",
+      "distractors_rationale": {
+        "option_b": "Les crampes et maux de tête ne sont pas des symptômes de fatigue normale",
+        "option_c": "L'hypoglycémie donne des tremblements et de l'irritabilité, pas des crampes",
+        "option_d": "Le coup de chaleur donne fièvre et nausées, pas spécifiquement des crampes"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C13",
+      "concept_title": "Hypoglycémie en vol",
+      "question": "Vous avez sauté le petit-déjeuner pour arriver à l'heure à votre vol du matin. Après 1h30 de vol, vous commencez à trembler, vous êtes irritable et vous avez du mal à vous concentrer sur votre navigation. Que devez-vous faire ?",
+      "options": [
+        "Manger une barre de céréales ou un fruit que vous avez emporté dans votre sac de vol",
+        "Boire un soda sucré pour faire remonter votre glycémie rapidement",
+        "Continuer à voler, ces symptômes passeront avec l'habitude",
+        "Atterrir d'urgence sur le premier aérodrome"
+      ],
+      "correct_answer": "Manger une barre de céréales ou un fruit que vous avez emporté dans votre sac de vol",
+      "explanation": "Les symptômes (tremblements, irritabilité, trouble de concentration) sont typiques de l'hypoglycémie. La solution est simple : manger un en-cas. C'est pourquoi il est recommandé d'emporter des barres de céréales ou des fruits dans la cabine. Un soda sucré ferait remonter la glycémie trop vite puis chuter.",
+      "distractors_rationale": {
+        "option_b": "Un soda sucré provoque un pic puis une chute brutale de glycémie — pas idéal en vol",
+        "option_c": "Les symptômes ne passeront pas — ils s'aggraveront avec le temps",
+        "option_d": "Atterrir d'urgence est excessif — manger un en-cas suffit dans la plupart des cas"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C14",
+      "concept_title": "Médicaments et aptitude au vol",
+      "question": "Vous avez des allergies saisonnières et votre pharmacien vous recommande un antihistaminique en vente libre. La notice dit 'peut provoquer une somnolence'. Que faites-vous ?",
+      "options": [
+        "Vous ne prenez pas ce médicament avant de voler et vous consultez votre AME pour un traitement compatible avec le pilotage",
+        "Vous le prenez quand même — c'est en vente libre, donc sans danger",
+        "Vous le prenez mais vous réduisez la dose de moitié pour limiter la somnolence",
+        "Vous le prenez le soir avant le vol pour que l'effet soit passé le matin"
+      ],
+      "correct_answer": "Vous ne prenez pas ce médicament avant de voler et vous consultez votre AME pour un traitement compatible avec le pilotage",
+      "explanation": "Un médicament en vente libre n'est pas forcément compatible avec le pilotage. La mention 'peut provoquer une somnolence' est un signal d'alarme. Même un médicament prescrit par un médecin généraliste peut être interdit en vol. Le seul référent est l'AME (AeroMedical Examiner).",
+      "distractors_rationale": {
+        "option_b": "Vente libre ne signifie pas compatible avec le pilotage — de nombreux médicaments OTC sont interdits",
+        "option_c": "Réduire la dose ne garantit pas l'absence d'effets secondaires — et le dosage n'est pas conçu pour être modifié",
+        "option_d": "Les effets résiduels peuvent persister le lendemain — et certains antihistaminiques ont une demi-vie longue"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C15",
+      "concept_title": "Stress et performance en vol",
+      "question": "Vous êtes en vol et une situation d'urgence survient. Vous sentez votre cœur s'accélérer et votre attention se focaliser uniquement sur le problème, au point d'oublier de piloter l'avion. Que se passe-t-il et que devez-vous faire ?",
+      "options": [
+        "Vous êtes en stress excessif avec tunnelisation de l'attention — utilisez la respiration contrôlée et priorisez : avion d'abord, communication ensuite, procédure après",
+        "C'est une réaction normale — continuez à vous concentrer sur le problème, c'est la priorité",
+        "Vous faites une crise de panique — déclarez une urgence et atterrissez immédiatement",
+        "Vous êtes en hyperventilation — respirez dans un sac en papier"
+      ],
+      "correct_answer": "Vous êtes en stress excessif avec tunnelisation de l'attention — utilisez la respiration contrôlée et priorisez : avion d'abord, communication ensuite, procédure après",
+      "explanation": "Le stress excessif dégrade la performance : tunnelisation de l'attention, oubli des procédures. La priorisation 'Aviate, Navigate, Communicate' est la réponse. La respiration contrôlée (inspirer 4s, expirer 6s) aide à réduire le stress. Ne pas laisser le stress vous faire oublier de piloter.",
+      "distractors_rationale": {
+        "option_b": "La tunnelisation est dangereuse — elle fait oublier de piloter l'avion",
+        "option_c": "Déclarer une urgence et atterrir peut être nécessaire, mais d'abord reprendre le contrôle de l'avion",
+        "option_d": "L'hyperventilation est une conséquence possible, mais le problème principal est le stress excessif"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C16",
+      "concept_title": "Dilatation des gaz en altitude (loi de Boyle)",
+      "question": "Vous préparez un vol de 2 heures à 8 000 ft. Vous avez pris un bon petit-déjeuner copieux avec des boissons gazeuses. En montée, vous ressentez des douleurs abdominales et des gaz. Quelle est la cause ?",
+      "options": [
+        "La dilatation des gaz dans votre estomac et vos intestins due à la baisse de pression en altitude (loi de Boyle)",
+        "Une intoxication alimentaire due au petit-déjeuner",
+        "Un début d'hypoxie abdominale",
+        "Le stress du décollage qui perturbe votre digestion"
+      ],
+      "correct_answer": "La dilatation des gaz dans votre estomac et vos intestins due à la baisse de pression en altitude (loi de Boyle)",
+      "explanation": "La loi de Boyle dit que le volume d'un gaz est inversement proportionnel à la pression. En montant, la pression diminue, les gaz se dilatent. Un repas copieux et des boissons gazeuses avant le vol aggravent le phénomène. Solution : repas léger et pas de boissons gazeuses avant le vol.",
+      "distractors_rationale": {
+        "option_b": "L'intoxication alimentaire ne survient pas aussi rapidement après le repas",
+        "option_c": "L'hypoxie abdominale n'existe pas — l'hypoxie est un manque d'oxygène dans les tissus",
+        "option_d": "Le stress peut perturber la digestion mais pas provoquer des douleurs aussi spécifiques en montée"
+      }
+    },
+    {
+      "concept_id": "PPL_HP_001_C17",
+      "concept_title": "Froid et hypothermie en vol",
+      "question": "Vous effectuez un vol de 3 heures en été à 7 000 ft. Au sol il faisait 30°C, vous êtes parti en short et t-shirt. Après 2 heures, vous avez du mal à manipuler les commandes avec précision et vous claquez des dents. Que s'est-il passé ?",
+      "options": [
+        "La température a chuté d'environ 14°C par rapport au sol (2°C par 1 000 ft) — vous êtes en début d'hypothermie",
+        "C'est normal en été à cette altitude — continuez, vous allez vous habituer",
+        "Vous avez attrapé froid à cause du vent — mettez le chauffage à fond",
+        "Vous êtes déshydraté — buvez de l'eau chaude"
+      ],
+      "correct_answer": "La température a chuté d'environ 14°C par rapport au sol (2°C par 1 000 ft) — vous êtes en début d'hypothermie",
+      "explanation": "La température diminue d'environ 2°C par 1 000 ft. À 7 000 ft, il fait environ 14°C de moins qu'au sol. Par 30°C au sol, il fait donc environ 16°C en altitude. Avec le refroidissement éolien (wind chill), la sensation est encore plus froide. L'hypothermie réduit la dextérité et le jugement. Toujours emporter des vêtements chauds, même en été.",
+      "distractors_rationale": {
+        "option_b": "Non, les symptômes ne passeront pas — l'hypothermie s'aggrave avec le temps",
+        "option_c": "Le chauffage cabine peut aider, mais le problème principal est le manque de vêtements adaptés",
+        "option_d": "Boire de l'eau chaude ne résout pas le problème — il faut des vêtements chauds"
+      }
+    }
+  ]
+}

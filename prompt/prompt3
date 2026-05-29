@@ -1,0 +1,16 @@
+À partir du chapitre JSON fourni, génère une question pour chaque concept.
+
+Contraintes :
+
+* Niveau PPL.
+* Tester la compréhension.
+* Tester l'application pratique.
+* Distracteurs réalistes.
+* Une question par concept.
+
+Retourne uniquement :
+
+{
+"chapter_title": "",
+"questions": []
+}

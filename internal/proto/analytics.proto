@@ -1,0 +1,77 @@
+syntax = "proto3";
+
+package aeroforge.analytics;
+
+option go_package = "aeropath/internal/proto/analytics";
+
+service AnalyticsService {
+  rpc TrackEvent(TrackEventRequest) returns (TrackEventResponse);
+  rpc GetStudentStats(StudentStatsRequest) returns (StudentStatsResponse);
+  rpc GetGlobalStats(GlobalStatsRequest) returns (GlobalStatsResponse);
+  rpc StreamRealtimeStats(RealtimeStatsRequest) returns (stream RealtimeStatsEvent);
+}
+
+message TrackEventRequest {
+  string event_type = 1;
+  string student_id = 2;
+  string session_id = 3;
+  map<string, string> properties = 4;
+  int64 timestamp = 5;
+}
+
+message TrackEventResponse {
+  bool accepted = 1;
+  string event_id = 2;
+}
+
+message StudentStatsRequest {
+  string student_id = 1;
+  string period = 2; // "day", "week", "month", "all"
+}
+
+message StudentStatsResponse {
+  string student_id = 1;
+  int32 total_answers = 2;
+  int32 correct_answers = 3;
+  double accuracy = 4;
+  int32 exams_taken = 5;
+  int32 exams_passed = 6;
+  double avg_score = 7;
+  int32 study_streak_days = 8;
+  int32 total_study_time_minutes = 9;
+  map<string, double> mastery_by_license = 10;
+  map<string, double> mastery_by_category = 11;
+  repeated DailyActivity daily_activity = 12;
+}
+
+message DailyActivity {
+  string date = 1;
+  int32 answers = 2;
+  int32 correct = 3;
+  int32 study_minutes = 4;
+}
+
+message GlobalStatsRequest {
+  string period = 1;
+}
+
+message GlobalStatsResponse {
+  int32 total_students = 1;
+  int32 total_questions = 2;
+  int32 total_answers = 3;
+  int32 total_exams = 4;
+  double global_accuracy = 5;
+  int32 active_today = 6;
+  int32 active_this_week = 7;
+  map<string, int32> answers_by_license = 8;
+  map<string, int32> answers_by_category = 9;
+}
+
+message RealtimeStatsRequest {
+  repeated string metrics = 1; // ["answers_per_minute", "active_users", "error_rate"]
+}
+
+message RealtimeStatsEvent {
+  int64 timestamp = 1;
+  map<string, double> metrics = 2;
+}

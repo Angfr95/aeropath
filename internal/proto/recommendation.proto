@@ -1,0 +1,95 @@
+syntax = "proto3";
+
+package aeroforge.recommendation;
+
+option go_package = "aeropath/internal/proto/recommendation";
+
+service RecommendationService {
+  rpc GetRecommendations(RecommendationRequest) returns (RecommendationResponse);
+  rpc GetWeakTopics(WeakTopicsRequest) returns (WeakTopicsResponse);
+  rpc GetProgression(ProgressionRequest) returns (ProgressionResponse);
+  rpc GetDueCards(DueCardsRequest) returns (DueCardsResponse);
+  rpc StreamAdaptivePlan(AdaptivePlanRequest) returns (stream StudyPlanStep);
+}
+
+message RecommendationRequest {
+  string student_id = 1;
+}
+
+message RecommendationResponse {
+  double progression_percent = 1;
+  repeated WeakTopic weak_topics = 2;
+  repeated DueCard due_cards = 3;
+  string next_milestone = 4;
+  repeated LicenseMastery mastery_by_license = 5;
+}
+
+message WeakTopic {
+  string theme = 1;
+  double score = 2;
+  int32 unanswered_count = 3;
+  string priority = 4; // "high", "medium", "low"
+}
+
+message DueCard {
+  string question_id = 1;
+  string question_fr = 2;
+  string question_en = 3;
+  string next_review = 4;
+  int32 interval_days = 5;
+  double ease_factor = 6;
+}
+
+message LicenseMastery {
+  string license = 1;
+  double score = 2;
+  int32 total_questions = 3;
+  int32 answered = 4;
+}
+
+message WeakTopicsRequest {
+  string student_id = 1;
+  int32 limit = 2;
+}
+
+message WeakTopicsResponse {
+  repeated WeakTopic topics = 1;
+}
+
+message ProgressionRequest {
+  string student_id = 1;
+}
+
+message ProgressionResponse {
+  double overall = 1;
+  map<string, double> by_license = 2;
+  map<string, double> by_category = 3;
+  string next_milestone = 4;
+  int32 questions_to_next_level = 5;
+}
+
+message DueCardsRequest {
+  string student_id = 1;
+  int32 limit = 2;
+}
+
+message DueCardsResponse {
+  repeated DueCard cards = 1;
+  int32 total_due = 2;
+}
+
+message AdaptivePlanRequest {
+  string student_id = 1;
+  int32 session_minutes = 2;
+}
+
+message StudyPlanStep {
+  int32 step_number = 1;
+  string activity_type = 2; // "review", "quiz", "lesson", "exam"
+  string theme = 3;
+  string description_fr = 4;
+  string description_en = 5;
+  int32 estimated_minutes = 6;
+  string question_id = 7;
+  string lesson_id = 8;
+}

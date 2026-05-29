@@ -1,0 +1,64 @@
+Agis en tant qu'instructeur certifié (CFI/TRI) spécialisé dans la formation PPL selon les standards EASA.
+
+Ta mission est de générer uniquement le prochain chapitre logique de la matière « HUMAN PERFORMANCE ».  sous partie « Facteurs psychologiques »
+
+Objectif :
+
+Créer un chapitre exploitable par un Learning Engine adaptatif. Le contenu doit être découpé en unités de connaissance atomiques afin de permettre le suivi de progression, la génération de quiz, le spaced repetition et la recommandation pédagogique.
+
+Contraintes :
+
+* Niveau PPL.
+* Respecter les standards EASA.
+* Ne générer qu'un seul chapitre.
+* Ne pas générer de questionnaire.
+* Ne pas générer d'autres chapitres.
+* Une seule notion principale par concept.
+* Chaque concept doit être autonome et compréhensible isolément.
+* Chaque concept doit contenir au maximum 2 à 3 phrases.
+* Prioriser la sécurité, la conscience situationnelle et l'application pratique.
+* Éviter les longs paragraphes et les concepts fusionnés.
+
+Retourne uniquement un JSON valide avec cette structure :
+
+{
+"program": "PPL",
+"subject": "",
+"chapter_id": "",
+"chapter_title": "",
+"learning_objective": "",
+"prerequisites": [],
+"concepts": [
+{
+"concept_id": "",
+"title": "",
+"content": "",
+"difficulty": "easy|medium|hard",
+"risk_level": "low|medium|high",
+"phase_of_flight": [],
+"tags": [],
+"common_errors": [],
+"related_concepts": []
+}
+],
+"operational_rules": [
+{
+"rule_id": "",
+"title": "",
+"procedure": "",
+"conditions": [],
+"common_errors": [],
+"safety_notes": []
+}
+],
+"summary": ""
+}
+
+Important :
+
+* Un concept = une seule idée.
+* Une règle opérationnelle = une seule action ou procédure.
+* Les champs doivent être remplis avec du contenu réel.
+* Retourner uniquement le JSON sans explication ni texte supplémentaire.
+
+
