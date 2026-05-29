@@ -3,6 +3,66 @@ const API_BASE = "";
 let authToken = localStorage.getItem("aeropath_token");
 let currentUser = null;
 
+// ======================== GESTION DE LA LANGUE ========================
+const SUPPORTED_LANGUAGES = [
+  { code: "fr", label: "Français", flag: "🇫🇷" },
+  { code: "en", label: "English", flag: "🇬🇧" },
+  { code: "de", label: "Deutsch", flag: "🇩🇪" },
+  { code: "es", label: "Español", flag: "🇪🇸" },
+  { code: "it", label: "Italiano", flag: "🇮🇹" },
+];
+
+let currentLang = localStorage.getItem("aeropath_lang") || "fr";
+
+function setLanguage(langCode) {
+  currentLang = langCode;
+  localStorage.setItem("aeropath_lang", langCode);
+  // Si l'utilisateur est connecté, on met à jour sa préférence sur le serveur
+  if (authToken) {
+    api("/api/me/lang", {
+      method: "PATCH",
+      body: JSON.stringify({ lang: langCode }),
+    }).catch(() => {});
+  }
+  render();
+}
+
+function getCurrentLang() {
+  return SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || SUPPORTED_LANGUAGES[0];
+}
+
+function renderLanguageSelector() {
+  const current = getCurrentLang();
+  return `
+    <div class="relative group">
+      <button class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm text-slate-300 hover:bg-slate-700 transition" title="Changer la langue">
+        <span>${current.flag}</span>
+        <span class="hidden sm:inline">${current.label}</span>
+        <svg class="w-3 h-3 ml-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </button>
+      <div class="absolute right-0 mt-1 w-44 bg-slate-800 border border-slate-700 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+        <div class="py-1">
+          ${SUPPORTED_LANGUAGES.map(l => `
+            <button onclick="setLanguage('${l.code}')" class="w-full flex items-center gap-3 px-4 py-2.5 text-sm text-slate-300 hover:bg-slate-700 hover:text-white transition ${l.code === currentLang ? 'bg-slate-700/50 text-white' : ''}">
+              <span class="text-lg">${l.flag}</span>
+              <span>${l.label}</span>
+              ${l.code === currentLang ? '<span class="ml-auto text-blue-400">✓</span>' : ''}
+            </button>
+          `).join("")}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// Helper pour afficher le texte dans la bonne langue
+function t(fr, en) {
+  return currentLang === "fr" ? (fr || en) : (en || fr);
+}
+
+
 // ======================== ÉTAT DE L'APPLICATION ========================
 const state = {
   view: "login",
@@ -229,6 +289,7 @@ function renderHomePage() {
               <span class="text-xl font-bold text-white">AeroPath</span>
             </div>
             <div class="flex items-center gap-3">
+              ${renderLanguageSelector()}
               <button onclick="navigate('login-form')" class="px-5 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-all shadow-lg shadow-blue-600/25">
                 Connexion
               </button>
@@ -236,6 +297,7 @@ function renderHomePage() {
                 S'inscrire
               </button>
             </div>
+
           </div>
         </div>
       </nav>
@@ -496,8 +558,10 @@ function renderNav() {
             <button onclick="navigate('history')" class="nav-btn px-3 py-1.5 rounded-lg text-sm ${state.view === 'history' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-700'}">Historique</button>
             <button onclick="navigate('stats')" class="nav-btn px-3 py-1.5 rounded-lg text-sm ${state.view === 'stats' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-700'}">Stats</button>
             <button onclick="navigate('recommendations')" class="nav-btn px-3 py-1.5 rounded-lg text-sm ${state.view === 'recommendations' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-700'}">Recommandations</button>
+            ${renderLanguageSelector()}
             <button onclick="logout()" class="ml-2 px-3 py-1.5 rounded-lg text-sm text-red-400 hover:bg-red-900/30">Déconnexion</button>
           </div>
+
         </div>
       </div>
     </nav>
