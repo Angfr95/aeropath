@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	_ "github.com/lib/pq"
+	_ "github.com/jackc/pgx/v5/stdlib"
 )
 
 // DBRouter gère la connexion aux différentes bases de données

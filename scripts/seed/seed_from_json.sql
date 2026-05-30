@@ -1,6 +1,6 @@
 -- ============================================================================
 -- SEED FROM JSON : 3 modules chargés depuis content/fr/ppl/air_law/
--- Généré par scripts/seed_from_json.go
+-- Généré par scripts/seed-from-json/main.go
 -- ============================================================================
 
 -- Nettoyage des données existantes

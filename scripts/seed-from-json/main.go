@@ -25,49 +25,19 @@ type ConceptQuestion struct {
 	Tags            []string `json:"tags,omitempty"`
 }
 
-type Flashcard struct {
-	TermFr string `json:"term_fr"`
-	TermEn string `json:"term_en"`
-	DefFr  string `json:"def_fr"`
-	DefEn  string `json:"def_en"`
-}
-
-type Scenario struct {
-	ID          string   `json:"id"`
-	TitleFr     string   `json:"title_fr"`
-	TitleEn     string   `json:"title_en"`
-	SituationFr string   `json:"situation_fr"`
-	SituationEn string   `json:"situation_en"`
-	QuestionFr  string   `json:"question_fr"`
-	QuestionEn  string   `json:"question_en"`
-	Options     []string `json:"options"`
-	CorrectIdx  int      `json:"correct_idx"`
-	Explanation string   `json:"explanation"`
-}
-
-type Remediation struct {
-	ID         string `json:"id"`
-	ErrorFr    string `json:"error_fr"`
-	ErrorEn    string `json:"error_en"`
-	CauseFr    string `json:"cause_fr"`
-	CauseEn    string `json:"cause_en"`
-	SolutionFr string `json:"solution_fr"`
-	SolutionEn string `json:"solution_en"`
-}
-
 type Concept struct {
-	ConceptID          string   `json:"concept_id"`
-	Title              string   `json:"title"`
-	TitleEn            string   `json:"title_en"`
-	Content            string   `json:"content"`
-	ContentEn          string   `json:"content_en"`
-	Difficulty         string   `json:"difficulty"`
-	RiskLevel          string   `json:"risk_level"`
-	PhaseOfFlight      []string `json:"phase_of_flight"`
-	Tags               []string `json:"tags"`
-	FaaNote            string   `json:"faa_note,omitempty"`
-	CommonErrors       []string `json:"common_errors,omitempty"`
-	RelatedConcepts    []string `json:"related_concepts,omitempty"`
+	ConceptID       string   `json:"concept_id"`
+	Title           string   `json:"title"`
+	TitleEn         string   `json:"title_en"`
+	Content         string   `json:"content"`
+	ContentEn       string   `json:"content_en"`
+	Difficulty      string   `json:"difficulty"`
+	RiskLevel       string   `json:"risk_level"`
+	PhaseOfFlight   []string `json:"phase_of_flight"`
+	Tags            []string `json:"tags"`
+	FaaNote         string   `json:"faa_note,omitempty"`
+	CommonErrors    []string `json:"common_errors,omitempty"`
+	RelatedConcepts []string `json:"related_concepts,omitempty"`
 }
 
 type Metadata struct {
@@ -170,7 +140,7 @@ func main() {
 
 	sb.WriteString("-- ============================================================================\n")
 	sb.WriteString(fmt.Sprintf("-- SEED FROM JSON : %d modules chargés depuis content/fr/ppl/air_law/\n", len(modules)))
-	sb.WriteString("-- Généré par scripts/seed_from_json.go\n")
+	sb.WriteString("-- Généré par scripts/seed-from-json/main.go\n")
 	sb.WriteString("-- ============================================================================\n\n")
 
 	sb.WriteString("-- Nettoyage des données existantes\n")

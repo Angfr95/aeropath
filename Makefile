@@ -93,7 +93,7 @@ migrate/reset:
 
 ## seed/from-json — Génère et importe le seed depuis les JSON content/fr/ppl/air_law/
 seed/from-json:
-	go run scripts/seed_from_json.go
+	go run ./scripts/seed-from-json
 	psql "$(DATABASE_URL)" < scripts/seed/seed_from_json.sql
 	@echo "✅ Seed importé depuis content/fr/ppl/air_law/ (scripts/seed/seed_from_json.sql)"
 
