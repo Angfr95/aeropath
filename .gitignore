@@ -38,3 +38,6 @@ dist/
 # Deployment scripts (local)
 deploy-vps.sh
 setup-vps.sh
+
+# Bug reports / debug docs (internal only)
+docs/bug-auth-405-nginx-reload.md
