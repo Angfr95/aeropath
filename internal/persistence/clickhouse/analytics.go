@@ -148,6 +148,7 @@ func (a *Analytics) RecordAnswer(studentID, questionID string, wasCorrect bool) 
 
 	// INSERT INTO answer_events VALUES (...)
 	// On insère une ligne à la fois (pour les événements en temps réel)
+	//nolint:staticcheck // AsyncInsert déprécié mais WithAsync() non disponible dans cette version
 	return a.conn.AsyncInsert(ctx,
 		`INSERT INTO answer_events (student_id, question_id, was_correct, timestamp) VALUES (?, ?, ?, now())`,
 		false, // wait_async_insert = false → ne pas attendre la confirmation

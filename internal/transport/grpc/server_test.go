@@ -106,9 +106,8 @@ func TestIntegrationClientConnection(t *testing.T) {
 	defer cancel()
 
 	// Tenter une connexion (va échouer car pas de service, mais on teste le dial)
-	conn, err := grpc.DialContext(ctx, "localhost:0",
+	conn, err := grpc.NewClient("localhost:0",
 		grpc.WithTransportCredentials(insecure.NewCredentials()),
-		grpc.WithBlock(),
 	)
 	if err != nil {
 		// C'est normal d'avoir une erreur car le port est aléatoire

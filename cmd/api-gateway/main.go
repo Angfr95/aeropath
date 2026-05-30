@@ -185,7 +185,9 @@ func main() {
 	}
 
 	log.Printf("démarré sur :%s\n", os.Getenv("PORT"))
-	r.Run(":" + os.Getenv("PORT"))
+	if err := r.Run(":" + os.Getenv("PORT")); err != nil {
+		log.Fatalf("serveur arrêté: %v", err)
+	}
 }
 
 // isAPIRoute vérifie si le chemin correspond à une route API.

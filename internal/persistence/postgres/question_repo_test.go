@@ -41,7 +41,7 @@ func TestQuestionRepo(t *testing.T) {
 			Options:    []string{"A", "B", "C"},
 			AnswerKey:  "A",
 		}
-		repo.Create(q)
+		_ = repo.Create(q)
 
 		found, err := repo.FindByID(q.ID)
 		if err != nil {
@@ -73,7 +73,7 @@ func TestQuestionRepo(t *testing.T) {
 				Options:    []string{"A", "B"},
 				AnswerKey:  "A",
 			}
-			repo.Create(q)
+			_ = repo.Create(q)
 		}
 
 		questions, err := repo.FindAll()
@@ -96,7 +96,7 @@ func TestQuestionRepo(t *testing.T) {
 				Options:    []string{"A", "B"},
 				AnswerKey:  "A",
 			}
-			repo.Create(q)
+			_ = repo.Create(q)
 		}
 
 		questions, err := repo.FindByTheme(theme)
@@ -118,7 +118,7 @@ func TestQuestionRepo(t *testing.T) {
 			Options:    options,
 			AnswerKey:  "Option A",
 		}
-		repo.Create(q)
+		_ = repo.Create(q)
 
 		found, _ := repo.FindByID(q.ID)
 		if len(found.Options) != 4 {

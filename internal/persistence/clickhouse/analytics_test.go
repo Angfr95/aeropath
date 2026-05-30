@@ -151,12 +151,12 @@ func TestIntegrationMultipleStudents(t *testing.T) {
 
 	// Student A : 3 correctes sur 4
 	for i := 0; i < 4; i++ {
-		analytics.RecordAnswer(studentA, "q-multi", i != 1)
+		_ = analytics.RecordAnswer(studentA, "q-multi", i != 1)
 	}
 
 	// Student B : 1 correcte sur 4
 	for i := 0; i < 4; i++ {
-		analytics.RecordAnswer(studentB, "q-multi", i == 0)
+		_ = analytics.RecordAnswer(studentB, "q-multi", i == 0)
 	}
 
 	time.Sleep(2 * time.Second)
