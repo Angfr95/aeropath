@@ -6,6 +6,17 @@
 
 ---
 
+## 🌐 Production
+
+| Service | URL |
+|---------|-----|
+| **Site** | [https://aeropath.ultizion.com](https://aeropath.ultizion.com) |
+| **Grafana** | [https://aeropath.ultizion.com/grafana](https://aeropath.ultizion.com/grafana) |
+
+> ⚠️ Le site force HTTPS. Tout accès HTTP est redirigé automatiquement vers HTTPS.
+
+---
+
 ## 📋 Table des matières
 
 - [Architecture](#architecture)
