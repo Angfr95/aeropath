@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"os"
+	"time"
 
 	"github.com/joho/godotenv"
 )
@@ -14,5 +15,8 @@ func main() {
 	_ = os.Getenv("DATABASE_URL")
 
 	// TODO: implémenter le worker
-	select {}
+	for {
+		log.Printf("worker: en attente...")
+		time.Sleep(30 * time.Second)
+	}
 }
