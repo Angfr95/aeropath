@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_MET_003",
+    "program": "PPL",
+    "subject": "Meteorology",
+    "chapter_title": "Température et humidité",
+    "chapter_title_en": "Temperature and Humidity",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 20,
+    "prerequisites": ["PPL_MET_001"],
+    "tags": ["temperature", "humidity", "dew point", "lapse rate"]
+  },
+  "concepts": [],
+  "questions": []
+}

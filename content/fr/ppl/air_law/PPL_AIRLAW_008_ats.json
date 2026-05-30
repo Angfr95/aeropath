@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AIRLAW_008",
+    "program": "PPL",
+    "subject": "Air Law",
+    "chapter_title": "Services de la circulation aérienne (ATC)",
+    "chapter_title_en": "Air Traffic Services (ATC)",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 30,
+    "prerequisites": ["PPL_AIRLAW_005"],
+    "tags": ["ATC", "ATS", "control", "approach", "area"]
+  },
+  "concepts": [],
+  "questions": []
+}

@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_MET_006",
+    "program": "PPL",
+    "subject": "Meteorology",
+    "chapter_title": "Visibilité et phénomènes réduisant la visibilité",
+    "chapter_title_en": "Visibility and Visibility-Reducing Phenomena",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 20,
+    "prerequisites": ["PPL_MET_003"],
+    "tags": ["visibility", "fog", "mist", "haze", "RVR"]
+  },
+  "concepts": [],
+  "questions": []
+}

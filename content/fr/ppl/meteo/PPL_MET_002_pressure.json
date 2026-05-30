@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_MET_002",
+    "program": "PPL",
+    "subject": "Meteorology",
+    "chapter_title": "Pression atmosphérique et altimétrie",
+    "chapter_title_en": "Atmospheric Pressure and Altimetry",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": ["PPL_MET_001"],
+    "tags": ["pressure", "altimetry", "QNH", "QFE", "altimeter"]
+  },
+  "concepts": [],
+  "questions": []
+}

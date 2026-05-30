@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AIRLAW_010",
+    "program": "PPL",
+    "subject": "Air Law",
+    "chapter_title": "Documents de bord et licences",
+    "chapter_title_en": "Onboard Documents and Licenses",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 20,
+    "prerequisites": ["PPL_AIRLAW_003"],
+    "tags": ["documents", "licenses", "logbook", "certificates"]
+  },
+  "concepts": [],
+  "questions": []
+}

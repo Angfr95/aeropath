@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_NAV_002",
+    "program": "PPL",
+    "subject": "Navigation",
+    "chapter_title": "Cartes aéronautiques (ICAO 1:500 000)",
+    "chapter_title_en": "Aeronautical Charts (ICAO 1:500,000)",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": ["PPL_NAV_001"],
+    "tags": ["charts", "maps", "ICAO", "symbols", "topography"]
+  },
+  "concepts": [],
+  "questions": []
+}

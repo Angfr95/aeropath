@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_MET_007",
+    "program": "PPL",
+    "subject": "Meteorology",
+    "chapter_title": "Masses d'air et fronts",
+    "chapter_title_en": "Air Masses and Fronts",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": ["PPL_MET_003", "PPL_MET_004"],
+    "tags": ["air masses", "fronts", "cold front", "warm front", "occlusion"]
+  },
+  "concepts": [],
+  "questions": []
+}

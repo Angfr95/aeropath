@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AC_003",
+    "program": "PPL",
+    "subject": "Aircraft General",
+    "chapter_title": "Systèmes de bord (électrique, carburant, hydraulique)",
+    "chapter_title_en": "Aircraft Systems (Electrical, Fuel, Hydraulic)",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 35,
+    "prerequisites": ["PPL_AC_001"],
+    "tags": ["systems", "electrical", "fuel", "hydraulic"]
+  },
+  "concepts": [],
+  "questions": []
+}

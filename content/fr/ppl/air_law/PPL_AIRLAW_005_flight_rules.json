@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AIRLAW_005",
+    "program": "PPL",
+    "subject": "Air Law",
+    "chapter_title": "Règles de vol (VFR/IFR)",
+    "chapter_title_en": "Flight Rules (VFR/IFR)",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 30,
+    "prerequisites": ["PPL_AIRLAW_001"],
+    "tags": ["VFR", "IFR", "flight rules", "SERA"]
+  },
+  "concepts": [],
+  "questions": []
+}

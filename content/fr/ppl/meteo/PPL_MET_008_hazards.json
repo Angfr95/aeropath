@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_MET_008",
+    "program": "PPL",
+    "subject": "Meteorology",
+    "chapter_title": "Phénomènes dangereux (orage, givre, cisaillement)",
+    "chapter_title_en": "Hazardous Weather (Thunderstorms, Icing, Wind Shear)",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "advanced",
+    "estimated_duration_minutes": 30,
+    "prerequisites": ["PPL_MET_005", "PPL_MET_007"],
+    "tags": ["thunderstorm", "icing", "wind shear", "turbulence", "CB"]
+  },
+  "concepts": [],
+  "questions": []
+}

@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_MET_004",
+    "program": "PPL",
+    "subject": "Meteorology",
+    "chapter_title": "Vent et circulation atmosphérique",
+    "chapter_title_en": "Wind and Atmospheric Circulation",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": ["PPL_MET_001"],
+    "tags": ["wind", "circulation", "jet stream", "geostrophic", "gradient"]
+  },
+  "concepts": [],
+  "questions": []
+}

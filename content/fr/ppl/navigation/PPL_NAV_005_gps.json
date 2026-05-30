@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_NAV_005",
+    "program": "PPL",
+    "subject": "Navigation",
+    "chapter_title": "Navigation par satellite (GPS/GNSS)",
+    "chapter_title_en": "Satellite Navigation (GPS/GNSS)",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 20,
+    "prerequisites": ["PPL_NAV_001"],
+    "tags": ["GPS", "GNSS", "satellite", "waypoint", "RAIM"]
+  },
+  "concepts": [],
+  "questions": []
+}

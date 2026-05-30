@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_NAV_004",
+    "program": "PPL",
+    "subject": "Navigation",
+    "chapter_title": "Radio-navigation (VOR, NDB, DME)",
+    "chapter_title_en": "Radio Navigation (VOR, NDB, DME)",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 30,
+    "prerequisites": ["PPL_NAV_001"],
+    "tags": ["VOR", "NDB", "DME", "radio navigation", "tracking"]
+  },
+  "concepts": [],
+  "questions": []
+}

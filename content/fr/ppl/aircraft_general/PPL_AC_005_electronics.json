@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AC_005",
+    "program": "PPL",
+    "subject": "Aircraft General",
+    "chapter_title": "Équipements électroniques et radio",
+    "chapter_title_en": "Avionics and Radio",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": ["PPL_AC_004"],
+    "tags": ["avionics", "radio", "transponder", "GPS"]
+  },
+  "concepts": [],
+  "questions": []
+}

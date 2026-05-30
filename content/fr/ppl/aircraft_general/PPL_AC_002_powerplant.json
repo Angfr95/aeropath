@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AC_002",
+    "program": "PPL",
+    "subject": "Aircraft General",
+    "chapter_title": "Groupe motopropulseur (moteur, hélice)",
+    "chapter_title_en": "Powerplant (Engine, Propeller)",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 30,
+    "prerequisites": ["PPL_AC_001"],
+    "tags": ["engine", "propeller", "powerplant", "piston"]
+  },
+  "concepts": [],
+  "questions": []
+}

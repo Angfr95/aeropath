@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AIRLAW_009",
+    "program": "PPL",
+    "subject": "Air Law",
+    "chapter_title": "Procédures d'urgence et de détresse",
+    "chapter_title_en": "Emergency and Distress Procedures",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "advanced",
+    "estimated_duration_minutes": 25,
+    "prerequisites": ["PPL_AIRLAW_005"],
+    "tags": ["emergency", "distress", "MAYDAY", "PAN-PAN", "Squawk"]
+  },
+  "concepts": [],
+  "questions": []
+}

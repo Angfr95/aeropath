@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AC_007",
+    "program": "PPL",
+    "subject": "Aircraft General",
+    "chapter_title": "Commandes de vol",
+    "chapter_title_en": "Flight Controls",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 20,
+    "prerequisites": ["PPL_AC_001"],
+    "tags": ["controls", "ailerons", "elevator", "rudder", "flaps"]
+  },
+  "concepts": [],
+  "questions": []
+}

@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_NAV_006",
+    "program": "PPL",
+    "subject": "Navigation",
+    "chapter_title": "Log de navigation et calculs de vol",
+    "chapter_title_en": "Navigation Log and Flight Calculations",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": ["PPL_NAV_003"],
+    "tags": ["flight log", "calculations", "fuel", "time", "distance"]
+  },
+  "concepts": [],
+  "questions": []
+}

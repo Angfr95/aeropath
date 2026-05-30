@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_OP_002",
+    "program": "PPL",
+    "subject": "Operational Procedures",
+    "chapter_title": "Roulage et décollage",
+    "chapter_title_en": "Taxi and Takeoff Procedures",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 20,
+    "prerequisites": ["PPL_OP_001"],
+    "tags": ["taxi", "takeoff", "runway", "crosswind", "PAPI"]
+  },
+  "concepts": [],
+  "questions": []
+}

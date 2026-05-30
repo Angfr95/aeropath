@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_NAV_007",
+    "program": "PPL",
+    "subject": "Navigation",
+    "chapter_title": "Repérage visuel et points de report",
+    "chapter_title_en": "Visual Fixes and Reporting Points",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 20,
+    "prerequisites": ["PPL_NAV_002"],
+    "tags": ["visual", "fixes", "reporting points", "landmarks", "VFR"]
+  },
+  "concepts": [],
+  "questions": []
+}

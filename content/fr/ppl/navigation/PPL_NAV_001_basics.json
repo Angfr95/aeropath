@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_NAV_001",
+    "program": "PPL",
+    "subject": "Navigation",
+    "chapter_title": "Principes de base de la navigation aérienne",
+    "chapter_title_en": "Basic Principles of Air Navigation",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 20,
+    "prerequisites": [],
+    "tags": ["navigation", "basics", "heading", "track", "bearing"]
+  },
+  "concepts": [],
+  "questions": []
+}

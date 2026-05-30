@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AC_008",
+    "program": "PPL",
+    "subject": "Aircraft General",
+    "chapter_title": "Limitations d'utilisation",
+    "chapter_title_en": "Operating Limitations",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 20,
+    "prerequisites": ["PPL_AC_001", "PPL_AC_006"],
+    "tags": ["limitations", "V-speeds", "MTOW", "envelope"]
+  },
+  "concepts": [],
+  "questions": []
+}

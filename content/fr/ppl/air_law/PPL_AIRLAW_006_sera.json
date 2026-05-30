@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AIRLAW_006",
+    "program": "PPL",
+    "subject": "Air Law",
+    "chapter_title": "SERA — Règles de l'air standardisées",
+    "chapter_title_en": "SERA — Standardised European Rules of the Air",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 35,
+    "prerequisites": ["PPL_AIRLAW_001"],
+    "tags": ["SERA", "rules", "Europe", "EASA"]
+  },
+  "concepts": [],
+  "questions": []
+}

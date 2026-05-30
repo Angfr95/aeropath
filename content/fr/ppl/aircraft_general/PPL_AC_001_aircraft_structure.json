@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AC_001",
+    "program": "PPL",
+    "subject": "Aircraft General",
+    "chapter_title": "Structure de l'aéronef",
+    "chapter_title_en": "Aircraft Structure",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 25,
+    "prerequisites": [],
+    "tags": ["structure", "fuselage", "wings", "empennage", "basic"]
+  },
+  "concepts": [],
+  "questions": []
+}

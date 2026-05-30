@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_OP_005",
+    "program": "PPL",
+    "subject": "Operational Procedures",
+    "chapter_title": "Procédures d'urgence en vol",
+    "chapter_title_en": "In-Flight Emergency Procedures",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "advanced",
+    "estimated_duration_minutes": 30,
+    "prerequisites": ["PPL_OP_001"],
+    "tags": ["emergency", "engine failure", "fire", "forced landing"]
+  },
+  "concepts": [],
+  "questions": []
+}

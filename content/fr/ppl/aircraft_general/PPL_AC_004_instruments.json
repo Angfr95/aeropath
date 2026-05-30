@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AC_004",
+    "program": "PPL",
+    "subject": "Aircraft General",
+    "chapter_title": "Instruments de vol",
+    "chapter_title_en": "Flight Instruments",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 30,
+    "prerequisites": ["PPL_AC_001"],
+    "tags": ["instruments", "pitot-static", "gyro", "compass"]
+  },
+  "concepts": [],
+  "questions": []
+}

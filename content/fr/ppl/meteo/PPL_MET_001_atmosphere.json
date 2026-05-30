@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_MET_001",
+    "program": "PPL",
+    "subject": "Meteorology",
+    "chapter_title": "L'atmosphère terrestre",
+    "chapter_title_en": "The Earth's Atmosphere",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 20,
+    "prerequisites": [],
+    "tags": ["atmosphere", "pressure", "temperature", "ISA", "basic"]
+  },
+  "concepts": [],
+  "questions": []
+}

@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_NAV_003",
+    "program": "PPL",
+    "subject": "Navigation",
+    "chapter_title": "Navigation à l'estime (Dead Reckoning)",
+    "chapter_title_en": "Dead Reckoning Navigation",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 30,
+    "prerequisites": ["PPL_NAV_001"],
+    "tags": ["dead reckoning", "wind correction", "heading", "ground speed"]
+  },
+  "concepts": [],
+  "questions": []
+}

@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_MET_005",
+    "program": "PPL",
+    "subject": "Meteorology",
+    "chapter_title": "Nuages et précipitations",
+    "chapter_title_en": "Clouds and Precipitation",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": ["PPL_MET_003"],
+    "tags": ["clouds", "precipitation", "classification", "Cumulus", "Stratus"]
+  },
+  "concepts": [],
+  "questions": []
+}

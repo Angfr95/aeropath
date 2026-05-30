@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AIRLAW_007",
+    "program": "PPL",
+    "subject": "Air Law",
+    "chapter_title": "Planification de vol et dépôt de plan de vol",
+    "chapter_title_en": "Flight Planning and Flight Plan Filing",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": ["PPL_AIRLAW_005"],
+    "tags": ["flight plan", "planning", "AIS", "NOTAM"]
+  },
+  "concepts": [],
+  "questions": []
+}

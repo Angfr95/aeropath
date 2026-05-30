@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_NAV_008",
+    "program": "PPL",
+    "subject": "Navigation",
+    "chapter_title": "Planification de vol approfondie",
+    "chapter_title_en": "Advanced Flight Planning",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "advanced",
+    "estimated_duration_minutes": 30,
+    "prerequisites": ["PPL_NAV_006"],
+    "tags": ["flight planning", "fuel planning", "alternate", "FPL"]
+  },
+  "concepts": [],
+  "questions": []
+}

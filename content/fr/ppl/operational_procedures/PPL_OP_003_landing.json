@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_OP_003",
+    "program": "PPL",
+    "subject": "Operational Procedures",
+    "chapter_title": "Approche et atterrissage",
+    "chapter_title_en": "Approach and Landing",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": ["PPL_OP_002"],
+    "tags": ["approach", "landing", "circuit", "flaps", "go-around"]
+  },
+  "concepts": [],
+  "questions": []
+}

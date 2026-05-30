@@ -229,7 +229,7 @@ func main() {
 			comma = ","
 		}
 
-		sb.WriteString(fmt.Sprintf("INSERT INTO lessons (id, license, category, theme, title_fr, title_en, content_fr, content_en, difficulty, order_index, level, duration_minutes, tags, learning_objectives) VALUES\n"))
+		sb.WriteString("INSERT INTO lessons (id, license, category, theme, title_fr, title_en, content_fr, content_en, difficulty, order_index, level, duration_minutes, tags, learning_objectives) VALUES\n")
 		sb.WriteString(fmt.Sprintf("('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', %d, %d, %d, %d, %s, %s)%s\n\n",
 			lessonUUID,
 			mod.Metadata.Program,
@@ -327,7 +327,10 @@ func main() {
 	sb.WriteString("-- ============================================================================\n")
 
 	// Écriture du fichier
-	os.MkdirAll("scripts/seed", 0755)
+	if err := os.MkdirAll("scripts/seed", 0755); err != nil {
+		fmt.Fprintf(os.Stderr, "Erreur création dossier scripts/seed: %v\n", err)
+		os.Exit(1)
+	}
 	if err := os.WriteFile(outputPath, []byte(sb.String()), 0644); err != nil {
 		fmt.Fprintf(os.Stderr, "Erreur écriture %s: %v\n", outputPath, err)
 		os.Exit(1)

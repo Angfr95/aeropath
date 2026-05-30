@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_MET_010",
+    "program": "PPL",
+    "subject": "Meteorology",
+    "chapter_title": "Météorologie pour le vol à vue (VFR)",
+    "chapter_title_en": "Weather for VFR Flight",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "advanced",
+    "estimated_duration_minutes": 25,
+    "prerequisites": ["PPL_MET_009"],
+    "tags": ["VFR", "weather briefing", "wind chart", "significant weather"]
+  },
+  "concepts": [],
+  "questions": []
+}

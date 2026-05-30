@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_AC_006",
+    "program": "PPL",
+    "subject": "Aircraft General",
+    "chapter_title": "Performances (décollage, atterrissage, masse et centrage)",
+    "chapter_title_en": "Performance (Takeoff, Landing, Mass and Balance)",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "advanced",
+    "estimated_duration_minutes": 35,
+    "prerequisites": ["PPL_AC_001", "PPL_AC_002"],
+    "tags": ["performance", "takeoff", "landing", "mass", "balance", "W&B"]
+  },
+  "concepts": [],
+  "questions": []
+}

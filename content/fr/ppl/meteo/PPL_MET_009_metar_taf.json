@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "module_id": "PPL_MET_009",
+    "program": "PPL",
+    "subject": "Meteorology",
+    "chapter_title": "METAR, TAF et SIGMET",
+    "chapter_title_en": "METAR, TAF and SIGMET",
+    "learning_objective": "",
+    "learning_objective_en": "",
+    "difficulty": "advanced",
+    "estimated_duration_minutes": 30,
+    "prerequisites": ["PPL_MET_001"],
+    "tags": ["METAR", "TAF", "SIGMET", "decoding", "weather reports"]
+  },
+  "concepts": [],
+  "questions": []
+}
