@@ -91,6 +91,12 @@ migrate/reset:
 	psql "$(DATABASE_URL)" -c "DROP SCHEMA public CASCADE; CREATE SCHEMA public;"
 	$(MAKE) migrate
 
+## seed/from-json — Génère et importe le seed depuis les JSON content/fr/ppl/air_law/
+seed/from-json:
+	go run scripts/seed_from_json.go
+	psql "$(DATABASE_URL)" < scripts/seed/seed_from_json.sql
+	@echo "✅ Seed importé depuis content/fr/ppl/air_law/ (scripts/seed/seed_from_json.sql)"
+
 # ─── gRPC / Proto ────────────────────────────────────────────
 
 ## proto — Génère le code Go depuis les fichiers .proto

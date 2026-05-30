@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "module_id": "PPL_AIRLAW_001",
+    "program": "PPL",
+    "subject": "Air Law",
+    "chapter_title": "Organisation aviation internationale (ICAO, OACI)",
+    "chapter_title_en": "International Aviation Organization (ICAO)",
+    "learning_objective": "Comprendre l'ICAO, sa création, ses 19 Annexes, et son rôle dans l'aviation civile mondiale pour le PPL.",
+    "learning_objective_en": "Understand ICAO, its creation, its 19 Annexes, and its role in global civil aviation for PPL.",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 25,
+    "prerequisites": [],
+    "tags": ["ICAO", "OACI", "international", "organization", "annexes", "basics", "PPL"]
+  },
+  "concepts": [
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "title": "Qu'est-ce que l'ICAO ?",
+      "title_en": "What is ICAO?",
+      "content": "**ICAO** = International Civil Aviation Organization (OACI en français)\n\n- **Créée en 1944** par la **Convention de Chicago**\n- **193 pays membres** (presque tous les pays du monde)\n- **Rôle principal** : fixer les **STANDARDS MINIMAUX internationaux** (Annexes)\n- **Siège** : Montréal, Canada\n- **Nature** : Agence spécialisée de l'ONU\n- **Différence clé avec FAA** : ICAO = recommandations internationales, FAA = réglementation **obligatoire** aux USA\n\nLes pays membres doivent implémenter les standards ICAO ou notifier les 'différences' officiellement.",
+      "content_en": "**ICAO** = International Civil Aviation Organization\n\n- **Created in 1944** by the **Chicago Convention**\n- **193 member countries** (almost all countries worldwide)\n- **Main role** : set **INTERNATIONAL MINIMUM STANDARDS** (Annexes)\n- **Headquarters** : Montreal, Canada\n- **Nature** : UN specialized agency\n- **Key difference with FAA** : ICAO = international recommendations, FAA = **mandatory** regulations in USA\n\nMember countries must implement ICAO standards or officially notify 'differences'.",
+      "difficulty": "easy",
+      "risk_level": "low",
+      "phase_of_flight": ["preflight"],
+      "tags": ["ICAO", "history", "organization", "basic"],
+      "faa_note": "USA has been an ICAO member since 1944. They follow ICAO standards, but FAA imposes ADDITIONAL mandatory rules on US territory. A pilot in USA must follow FAA regulations, not just ICAO standards.",
+      "common_errors": [
+        "Confondre ICAO (recommandation) avec FAA (obligation)",
+        "Croire que l'ICAO est un organe de régulation directe"
+      ],
+      "related_concepts": ["PPL_AIRLAW_001_C02", "PPL_AIRLAW_001_C03"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "title": "Les 19 Annexes ICAO",
+      "title_en": "The 19 ICAO Annexes",
+      "content": "Les **19 Annexes ICAO** couvrent tous les aspects de l'aviation civile :\n\n1. **Personnel Licensing** (licences pilotes PPL/CPL/ATPL)\n2. **Rules of the Air** (règles VFR/IFR)\n3. **Meteorological Service** (météo)\n4. **Charts and Navigation** (cartes)\n5. **Airspace Classification**\n6. **Operation of Aircraft**\n7. **Aircraft Nationality** (immatriculation)\n8. **Airworthiness** (navigabilité)\n9. **Facilitation** (douane, immigration)\n10. **Communication Procedures**\n11. **Air Traffic Services** (ATC)\n12. **Search and Rescue** (SAR)\n13. **Accident Investigation**\n14. **Aerodromes** (aéroports)\n15. **Aeronautical Information Service** (AIS)\n16. **Environmental Protection** (bruit, CO2)\n17. **Security** (sûreté)\n18. **Transport of Dangerous Goods**\n19. **Safety Management** (SMS)\n\nChaque Annexe contient des **STANDARDS (S)** (obligatoires) et **RECOMMANDATIONS (P)** (optionnelles).",
+      "content_en": "The **19 ICAO Annexes** cover all aspects of civil aviation :\n\n1. **Personnel Licensing** (PPL/CPL/ATPL pilot licenses)\n2. **Rules of the Air** (VFR/IFR rules)\n3. **Meteorological Service** (weather)\n4. **Charts and Navigation**\n5. **Airspace Classification**\n6. **Operation of Aircraft**\n7. **Aircraft Nationality** (registration)\n8. **Airworthiness** (certification)\n9. **Facilitation** (customs, immigration)\n10. **Communication Procedures**\n11. **Air Traffic Services** (ATC)\n12. **Search and Rescue** (SAR)\n13. **Accident Investigation**\n14. **Aerodromes** (airports)\n15. **Aeronautical Information Service** (AIS)\n16. **Environmental Protection** (noise, CO2)\n17. **Security** (safeguarding)\n18. **Transport of Dangerous Goods**\n19. **Safety Management** (SMS)\n\nEach Annexe contains **STANDARDS (S)** (mandatory) and **RECOMMENDED PRACTICES (P)** (optional).",
+      "difficulty": "medium",
+      "risk_level": "low",
+      "phase_of_flight": ["preflight"],
+      "tags": ["ICAO", "annexes", "standards", "intermediate"],
+      "faa_note": "FAA uses ICAO standards but names them differently (e.g., Part 61 for licenses, Part 91 for flight rules). Structure is similar but regulation numbers differ.",
+      "common_errors": [
+        "Confondre le numéro des Annexes (surtout 1, 2, 6, 8, 11, 14)",
+        "Oublier qu'il y a 19 Annexes exactement"
+      ],
+      "related_concepts": ["PPL_AIRLAW_001_C01", "PPL_AIRLAW_001_C03"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "title": "Standards vs Recommandations + Notification de différence",
+      "title_en": "Standards vs Recommended Practices + Difference notification",
+      "content": "**Différence cruciale** dans les Annexes ICAO :\n\n- **STANDARD (S)** : Spécification **OBLIGATOIRE**. Les pays DOIVENT l'implémenter ou notifier une 'différence' officielle.\n  *Exemple : Annexe 1 - âge minimum PPL = 17 ans*\n\n- **RECOMMANDATION (P)** : Spécification **OPTIONNELLE**. Les pays SONT ENCOURAGÉS à l'implémenter.\n  *Exemple : Annexe 3 - couleur des balises météo*\n\n**'Notification de différence'** : Si un pays ne peut pas suivre un Standard, il doit informer l'ICAO officiellement. Cette différence est publiée dans l'**AIP** du pays.\n\n**Pour un pilote PPL** : Toujours vérifier l'AIP du pays où tu vols !",
+      "content_en": "**Crucial difference** in ICAO Annexes :\n\n- **STANDARD (S)** : **MANDATORY** specification. Countries MUST implement it or officially notify a 'difference'.\n  *Example: Annexe 1 - minimum age for PPL = 17 years*\n\n- **RECOMMENDED PRACTICE (P)** : **OPTIONAL** specification. Countries are ENCOURAGED to implement.\n  *Example: Annexe 3 - color of weather beacons*\n\n**'Difference notification'** : If a country cannot follow a Standard, it must inform ICAO officially. This difference is published in the country's **AIP**.\n\n**For PPL pilots** : Always check the AIP of the country where you fly!",
+      "difficulty": "medium",
+      "risk_level": "medium",
+      "phase_of_flight": ["preflight", "enroute"],
+      "tags": ["ICAO", "standards", "recommendations", "differences", "AIP", "intermediate"],
+      "faa_note": "FAA doesn't use the Standard/Recommended Practice system. All FAR (Federal Aviation Regulations) are MANDATORY in USA. No 'difference notification' with FAA.",
+      "common_errors": [
+        "Croire que Standards et Recommandations sont équivalents",
+        "Ne pas savoir où trouver les différences ICAO (AIP)"
+      ],
+      "related_concepts": ["PPL_AIRLAW_001_C01", "PPL_AIRLAW_001_C02"]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "concept_title": "Qu'est-ce que l'ICAO ?",
+      "question": "Quand l'ICAO a-t-elle été créée ?",
+      "question_en": "When was ICAO created?",
+      "options": ["1939", "1944", "1950", "1960"],
+      "correct_answer": "1944",
+      "explanation": "Bonne réponse ! **1944** = Année de la Convention de Chicago qui a créé l'ICAO.",
+      "explanation_en": "Correct! **1944** = Year of the Chicago Convention that created ICAO.",
+      "faa_note": "USA has been an ICAO member since 1944 and follows ICAO standards, but FAA imposes additional mandatory rules.",
+      "difficulty_score": 0.25,
+      "level": 1,
+      "tags": ["ICAO", "history", "Chicago Convention", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "concept_title": "Qu'est-ce que l'ICAO ?",
+      "question": "Combien de pays sont membres de l'ICAO ?",
+      "question_en": "How many countries are ICAO members?",
+      "options": ["150", "175", "193", "200"],
+      "correct_answer": "193",
+      "explanation": "Bonne réponse ! L'ICAO compte **193 pays membres**, couvrant presque tous les pays du monde.",
+      "explanation_en": "Correct! ICAO has **193 member countries**, covering almost all countries worldwide.",
+      "faa_note": "",
+      "difficulty_score": 0.2,
+      "level": 1,
+      "tags": ["ICAO", "membership", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "concept_title": "Qu'est-ce que l'ICAO ?",
+      "question": "Quel est le rôle principal de l'ICAO ?",
+      "question_en": "What is ICAO's main role?",
+      "options": [
+        "Imposer des règles obligatoires à tous les pays",
+        "Fixer des standards minimaux internationaux",
+        "Gérer le contrôle aérien mondial",
+        "Former les pilotes partout dans le monde"
+      ],
+      "correct_answer": "Fixer des standards minimaux internationaux",
+      "explanation": "Bonne réponse ! L'ICAO fixe des **STANDARDS MINIMAUX internationaux**.",
+      "explanation_en": "Correct! ICAO sets **INTERNATIONAL MINIMUM STANDARDS**.",
+      "faa_note": "Unlike ICAO, FAA imposes MANDATORY rules on US territory.",
+      "difficulty_score": 0.35,
+      "level": 1,
+      "tags": ["ICAO", "role", "standards", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "concept_title": "Qu'est-ce que l'ICAO ?",
+      "question": "Où se trouve le siège de l'ICAO ?",
+      "question_en": "Where is ICAO headquarters located?",
+      "options": ["Genève, Suisse", "Paris, France", "Montréal, Canada", "Washington, USA"],
+      "correct_answer": "Montréal, Canada",
+      "explanation": "Bonne réponse ! Le siège de l'ICAO est à **Montréal, Canada**.",
+      "explanation_en": "Correct! ICAO headquarters is in **Montreal, Canada**.",
+      "faa_note": "",
+      "difficulty_score": 0.3,
+      "level": 1,
+      "tags": ["ICAO", "headquarters", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "concept_title": "Qu'est-ce que l'ICAO ?",
+      "question": "Quelle est l'organisation ONU dont l'ICAO fait partie ?",
+      "question_en": "Which UN organization is ICAO part of?",
+      "options": ["OMS", "UNESCO", "Agence spécialisée de l'ONU", "OTAN"],
+      "correct_answer": "Agence spécialisée de l'ONU",
+      "explanation": "Bonne réponse ! L'ICAO est une **agence spécialisée de l'ONU** depuis sa création.",
+      "explanation_en": "Correct! ICAO is a **UN specialized agency** since its creation.",
+      "faa_note": "",
+      "difficulty_score": 0.4,
+      "level": 1,
+      "tags": ["ICAO", "UN", "organization", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "concept_title": "Les 19 Annexes ICAO",
+      "question": "Combien d'Annexes ICAO existent actuellement ?",
+      "question_en": "How many ICAO Annexes exist currently?",
+      "options": ["15", "17", "19", "21"],
+      "correct_answer": "19",
+      "explanation": "Bonne réponse ! Il y a **19 Annexes ICAO** couvrant tous les aspects de l'aviation civile.",
+      "explanation_en": "Correct! There are **19 ICAO Annexes** covering all aspects of civil aviation.",
+      "faa_note": "",
+      "difficulty_score": 0.25,
+      "level": 1,
+      "tags": ["ICAO", "annexes", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "concept_title": "Les 19 Annexes ICAO",
+      "question": "Quelle Annexe ICAO concerne les licences pilotes (PPL, CPL, ATPL) ?",
+      "question_en": "Which ICAO Annexe covers pilot licenses (PPL, CPL, ATPL)?",
+      "options": ["Annexe 1", "Annexe 5", "Annexe 10", "Annexe 14"],
+      "correct_answer": "Annexe 1",
+      "explanation": "**Annexe 1 = Personnel Licensing**. Elle définit les standards pour toutes les licences pilotes.",
+      "explanation_en": "**Annexe 1 = Personnel Licensing**. It sets standards for all pilot licenses.",
+      "faa_note": "FAA uses Part 61 and Part 141 for licenses, based on ICAO Annexe 1.",
+      "difficulty_score": 0.3,
+      "level": 1,
+      "tags": ["ICAO", "annexes", "licensing", "PPL", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "concept_title": "Les 19 Annexes ICAO",
+      "question": "Quelle Annexe ICAO concerne les règles de l'air (VFR/IFR) ?",
+      "question_en": "Which ICAO Annexe covers rules of the air (VFR/IFR)?",
+      "options": ["Annexe 1", "Annexe 2", "Annexe 6", "Annexe 11"],
+      "correct_answer": "Annexe 2",
+      "explanation": "**Annexe 2 = Rules of the Air**. Elle définit les règles VFR et IFR.",
+      "explanation_en": "**Annexe 2 = Rules of the Air**. It defines VFR and IFR rules.",
+      "faa_note": "",
+      "difficulty_score": 0.4,
+      "level": 2,
+      "tags": ["ICAO", "annexes", "rules_of_air", "intermediate"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "concept_title": "Les 19 Annexes ICAO",
+      "question": "Quelle Annexe ICAO traite de la navigabilité des aéronefs ?",
+      "question_en": "Which ICAO Annexe deals with aircraft airworthiness?",
+      "options": ["Annexe 6", "Annexe 7", "Annexe 8", "Annexe 18"],
+      "correct_answer": "Annexe 8",
+      "explanation": "**Annexe 8 = Airworthiness of Aircraft**. Elle définit les standards de navigabilité.",
+      "explanation_en": "**Annexe 8 = Airworthiness of Aircraft**. It sets airworthiness standards.",
+      "faa_note": "FAA uses 'Type Certificate' and 'Airworthiness Certificate' per FAR Part 21.",
+      "difficulty_score": 0.45,
+      "level": 2,
+      "tags": ["ICAO", "annexes", "airworthiness", "intermediate"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "concept_title": "Les 19 Annexes ICAO",
+      "question": "Quelle Annexe ICAO concerne le contrôle aérien (ATC) ?",
+      "question_en": "Which ICAO Annexe covers air traffic control (ATC)?",
+      "options": ["Annexe 10", "Annexe 11", "Annexe 14", "Annexe 15"],
+      "correct_answer": "Annexe 11",
+      "explanation": "**Annexe 11 = Air Traffic Services**. Elle définit les services ATC.",
+      "explanation_en": "**Annexe 11 = Air Traffic Services**. It defines ATC services.",
+      "faa_note": "",
+      "difficulty_score": 0.4,
+      "level": 2,
+      "tags": ["ICAO", "annexes", "ATC", "intermediate"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "concept_title": "Standards vs Recommandations",
+      "question": "Quelle est la différence entre un STANDARD (S) et une RECOMMANDATION (P) ICAO ?",
+      "question_en": "What is the difference between a STANDARD (S) and a RECOMMENDED PRACTICE (P) in ICAO?",
+      "options": [
+        "S est optionnel, P est obligatoire",
+        "S est obligatoire, P est optionnel",
+        "S et P sont tous les deux obligatoires",
+        "S et P sont tous les deux optionnels"
+      ],
+      "correct_answer": "S est obligatoire, P est optionnel",
+      "explanation": "**STANDARD (S)** = obligatoire. **RECOMMANDATION (P)** = optionnel (encouragé).",
+      "explanation_en": "**STANDARD (S)** = mandatory. **RECOMMENDATION (P)** = optional (encouraged).",
+      "faa_note": "FAA doesn't use this system. All FARs are mandatory.",
+      "difficulty_score": 0.5,
+      "level": 2,
+      "tags": ["ICAO", "standards", "recommendations", "intermediate"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "concept_title": "Standards vs Recommandations",
+      "question": "Si un pays ne peut pas suivre un Standard ICAO, que doit-il faire ?",
+      "question_en": "If a country cannot follow an ICAO Standard, what must it do?",
+      "options": [
+        "Rien, c'est optionnel",
+        "Notifier officiellement une 'différence' à l'ICAO",
+        "Quitter l'ICAO",
+        "Changer le Standard lui-même"
+      ],
+      "correct_answer": "Notifier officiellement une 'différence' à l'ICAO",
+      "explanation": "Le pays doit **notifier officiellement une 'différence'** à l'ICAO. Publiée dans l'AIP.",
+      "explanation_en": "The country must **officially notify a 'difference'** to ICAO. Published in the AIP.",
+      "faa_note": "",
+      "difficulty_score": 0.55,
+      "level": 2,
+      "tags": ["ICAO", "differences", "AIP", "intermediate"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "concept_title": "Standards vs Recommandations",
+      "question": "Où un pilote PPL peut-il trouver les 'différences' ICAO d'un pays ?",
+      "question_en": "Where can a PPL pilot find a country's ICAO 'differences'?",
+      "options": ["Dans le manuel de vol", "Dans l'AIP du pays", "Sur le site FAA", "Dans la carte VAC"],
+      "correct_answer": "Dans l'AIP du pays",
+      "explanation": "Les différences sont publiées dans l'**AIP (Aeronautical Information Publication)** du pays.",
+      "explanation_en": "Differences are published in the country's **AIP**.",
+      "faa_note": "",
+      "difficulty_score": 0.5,
+      "level": 2,
+      "tags": ["ICAO", "AIP", "differences", "intermediate"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "concept_title": "Standards vs Recommandations",
+      "question": "Quel est l'âge minimum pour obtenir un PPL selon l'Annexe 1 ICAO ?",
+      "question_en": "What is the minimum age for a PPL according to ICAO Annexe 1?",
+      "options": ["15 ans", "17 ans", "18 ans", "21 ans"],
+      "correct_answer": "17 ans",
+      "explanation": "**Annexe 1 : âge minimum PPL = 17 ans** (Standard ICAO).",
+      "explanation_en": "**Annexe 1: minimum age for PPL = 17 years** (ICAO Standard).",
+      "faa_note": "FAA Part 61: also 17 years for PPL in USA.",
+      "difficulty_score": 0.3,
+      "level": 1,
+      "tags": ["ICAO", "Annexe 1", "PPL", "age", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "concept_title": "Standards vs Recommandations",
+      "question": "Quelle Annexe ICAO concerne la sécurité (Safety Management System - SMS) ?",
+      "question_en": "Which ICAO Annexe covers Safety Management System (SMS)?",
+      "options": ["Annexe 6", "Annexe 17", "Annexe 18", "Annexe 19"],
+      "correct_answer": "Annexe 19",
+      "explanation": "**Annexe 19 = Safety Management**. SMS obligatoire pour les airlines depuis 2018.",
+      "explanation_en": "**Annexe 19 = Safety Management**. SMS is mandatory for airlines since 2018.",
+      "faa_note": "",
+      "difficulty_score": 0.6,
+      "level": 2,
+      "tags": ["ICAO", "annexes", "SMS", "safety", "intermediate"]
+    }
+  ],
+  "flashcards": [
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "front": "Que signifie ICAO ?",
+      "back": "International Civil Aviation Organization (OACI)",
+      "front_en": "What does ICAO stand for?",
+      "back_en": "International Civil Aviation Organization"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "front": "Quand et où l'ICAO a-t-elle été créée ?",
+      "back": "1944, Convention de Chicago",
+      "front_en": "When was ICAO created?",
+      "back_en": "1944, Chicago Convention"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "front": "Combien de pays membres ?",
+      "back": "193 pays",
+      "front_en": "How many member countries?",
+      "back_en": "193 countries"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C01",
+      "front": "Où est le siège de l'ICAO ?",
+      "back": "Montréal, Canada",
+      "front_en": "Where is ICAO headquarters?",
+      "back_en": "Montreal, Canada"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "front": "Combien d'Annexes ICAO existent ?",
+      "back": "19 Annexes",
+      "front_en": "How many ICAO Annexes?",
+      "back_en": "19 Annexes"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "front": "Annexe pour les licences pilotes ?",
+      "back": "Annexe 1 (Personnel Licensing)",
+      "front_en": "Annexe for pilot licenses?",
+      "back_en": "Annexe 1 (Personnel Licensing)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "front": "Annexe pour les règles de l'air ?",
+      "back": "Annexe 2 (Rules of the Air)",
+      "front_en": "Annexe for rules of the air?",
+      "back_en": "Annexe 2 (Rules of the Air)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "front": "Annexe pour la navigabilité ?",
+      "back": "Annexe 8 (Airworthiness)",
+      "front_en": "Annexe for airworthiness?",
+      "back_en": "Annexe 8 (Airworthiness)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "front": "Annexe pour les services ATC ?",
+      "back": "Annexe 11 (Air Traffic Services)",
+      "front_en": "Annexe for ATC?",
+      "back_en": "Annexe 11 (Air Traffic Services)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C02",
+      "front": "Annexe pour le Safety Management ?",
+      "back": "Annexe 19 (Safety Management)",
+      "front_en": "Annexe for Safety Management?",
+      "back_en": "Annexe 19 (Safety Management)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "front": "Différence Standard (S) vs Recommandation (P) ?",
+      "back": "S = obligatoire, P = optionnel (encouragé)",
+      "front_en": "Difference Standard (S) vs Recommended Practice (P)?",
+      "back_en": "S = mandatory, P = optional (encouraged)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "front": "Où trouver les différences ICAO d'un pays ?",
+      "back": "Dans l'AIP du pays (section GEN 1.7)",
+      "front_en": "Where to find a country's ICAO differences?",
+      "back_en": "In the country's AIP (section GEN 1.7)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "front": "Âge minimum PPL selon Annexe 1 ?",
+      "back": "17 ans",
+      "front_en": "Minimum PPL age per Annexe 1?",
+      "back_en": "17 years"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "PPL_AIRLAW_001_S01",
+      "title": "Vérifier l'AIP avant un vol en France",
+      "title_en": "Check AIP before flying in France",
+      "context": "Tu es élève pilote PPL en France. Tu prépares un vol local de 50 NM de Nice à Cannes en VFR.",
+      "context_en": "You are a PPL student pilot in France. You're planning a local 50 NM flight from Nice to Cannes VFR.",
+      "situation": "Où trouves-tu les informations sur les différences ICAO de la France ?",
+      "situation_en": "Where do you find information about France's ICAO differences?",
+      "decision_options": [
+        "Dans le manuel de vol de ton avion",
+        "Dans l'AIP France (partie GEN 1.7)",
+        "Sur le site FAA",
+        "Dans la carte VAC uniquement"
+      ],
+      "decision_options_en": [
+        "In your aircraft flight manual",
+        "In France AIP (section GEN 1.7)",
+        "On FAA website",
+        "In VAC chart only"
+      ],
+      "correct_decision_index": 1,
+      "solution": "**Dans l'AIP France (section GEN 1.7)**. L'AIP contient toutes les différences ICAO du pays.",
+      "solution_en": "**In France AIP (section GEN 1.7)**. The AIP contains all ICAO differences for the country.",
+      "risks": "Risque de violer une règle locale différente du Standard ICAO (ex: minima VFR différents).",
+      "risks_en": "Risk of violating a local rule different from ICAO Standard (e.g., different VFR minima).",
+      "tags": ["AIP", "ICAO differences", "VFR", "PPL", "safety"]
+    }
+  ],
+  "remediation": [
+    {
+      "analysis_id": "AIRLAW_001_ERR_01",
+      "student_level": "PPL",
+      "chapter_title": "Organisation aviation internationale (ICAO, OACI)",
+      "concept_id": "PPL_AIRLAW_001_C03",
+      "question_id": "010-01-03-Q1",
+      "selected_answer": "S et P sont tous les deux optionnels",
+      "correct_answer": "S est obligatoire, P est optionnel",
+      "error_category": "misunderstanding",
+      "error_description": "L'élève pense que Standards et Recommandations sont tous optionnels.",
+      "misconception": "Confusion entre recommandation aux États et obligation d'implémenter.",
+      "severity": "high",
+      "operational_risk": "medium",
+      "knowledge_gap": "Les Standards (S) sont contraignants, les Recommandations (P) sont optionnelles.",
+      "recommended_concepts": [
+        {"concept_id": "PPL_AIRLAW_001_C03", "reason": "Revoir la différence Standard vs Recommandation"}
+      ],
+      "recommended_actions": [
+        {"action_type": "flashcard", "target": "PPL_AIRLAW_001_C03", "reason": "Répéter la flashcard Standard vs Recommandation"},
+        {"action_type": "review", "target": "PPL_AIRLAW_001_C03", "reason": "Relire le concept C03"}
+      ],
+      "instructor_feedback": "STANDARD = obligatoire d'implémenter ou notifier une différence. RECOMMANDATION = optionnel, encouragé seulement.",
+      "next_learning_step": "Refaire les questions du concept C03 avant de passer à la suite."
+    }
+  ]
+}

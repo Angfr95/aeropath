@@ -1,0 +1,434 @@
+{
+  "metadata": {
+    "module_id": "PPL_AIRLAW_002",
+    "program": "PPL",
+    "subject": "Air Law",
+    "chapter_title": "Réglementation : EASA vs FAA (Europe vs USA)",
+    "chapter_title_en": "Regulations: EASA vs FAA (Europe vs USA)",
+    "learning_objective": "Comprendre les différences clés entre EASA (Europe) et FAA (USA), les structures de licences, et les procédures de conversion pour un pilote PPL.",
+    "learning_objective_en": "Understand key differences between EASA (Europe) and FAA (USA), license structures, and conversion procedures for PPL pilots.",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 30,
+    "prerequisites": ["PPL_AIRLAW_001"],
+    "tags": ["EASA", "FAA", "regulation", "Europe", "USA", "licensing", "conversion", "PPL"]
+  },
+  "concepts": [
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "title": "Qu'est-ce que l'EASA ?",
+      "title_en": "What is EASA?",
+      "content": "**EASA** = European Union Aviation Safety Agency\n\n- **Créée en 2002** (siège à **Cologne, Allemagne**)\n- **Rôle** : fixer les normes de sécurité pour **tous les pays de l'UE** (27 membres + associés)\n- **Règlements** : **Part-FCL** (licences), **Part-NCO** (opérations non-commerciales), **Part-M** (maintenance)\n- **Avantages** : Licence EASA reconnue dans **toute l'UE** sans conversion\n- **Différence clé avec FAA** : EASA = réglementation **obligatoire** pour l'UE, FAA = réglementation **obligatoire** pour les USA seulement\n\n**Part-FCL** (Flight Crew Licensing) :\n- PPL(A) : Private Pilot License (Avion)\n- CPL(A) : Commercial Pilot License\n- ATPL(A) : Airline Transport Pilot License\n- IR(A) : Instrument Rating\n- MEL : Multi-Engine Ratings",
+      "content_en": "**EASA** = European Union Aviation Safety Agency\n\n- **Created in 2002** (headquarters in **Cologne, Germany**)\n- **Role** : set safety standards for **all EU countries** (27 members + associates)\n- **Regulations** : **Part-FCL** (licenses), **Part-NCO** (non-commercial ops), **Part-M** (maintenance)\n- **Advantage** : EASA license recognized **throughout EU** without conversion\n- **Key difference with FAA** : EASA = mandatory for EU, FAA = mandatory for USA only\n\n**Part-FCL** (Flight Crew Licensing) :\n- PPL(A) : Private Pilot License (Airplane)\n- CPL(A) : Commercial Pilot License\n- ATPL(A) : Airline Transport Pilot License\n- IR(A) : Instrument Rating\n- MEL : Multi-Engine Ratings",
+      "difficulty": "easy",
+      "risk_level": "low",
+      "phase_of_flight": ["preflight"],
+      "tags": ["EASA", "Europe", "regulation", "Part-FCL", "basic"],
+      "faa_note": "EASA is NOT part of ICAO, but follows ICAO standards. EASA regulations are directly applicable in all EU member states.",
+      "common_errors": [
+        "Confondre EASA avec ICAO (EASA = régional UE, ICAO = mondial)",
+        "Penser que EASA couvre le Royaume-Uni (Brexit = UK maintenant CAA)"
+      ],
+      "related_concepts": ["PPL_AIRLAW_002_C02", "PPL_AIRLAW_002_C03"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "title": "Qu'est-ce que la FAA ?",
+      "title_en": "What is FAA?",
+      "content": "**FAA** = Federal Aviation Administration\n\n- **Créée en 1958** (siège à **Washington, DC, USA**)\n- **Rôle** : réglementation **obligatoire** pour **tous les vols aux USA** (y compris vols étrangers)\n- **Règlements** : **FAR** (Federal Aviation Regulations) divisés en **Parts**\n  - **Part 61** : Licences (flexible, parcours individuel)\n  - **Part 141** : Écoles de pilotage approuvées (structuré, plus rapide)\n  - **Part 91** : Règles de l'air (général)\n  - **Part 135** : Opérations aériennes commerciales (taxi, charter)\n- **Avantages** : Formation souvent **moins chère** et **plus rapide** aux USA\n- **Différence clé** : FAA n'est reconnue **QUE aux USA** (conversion nécessaire pour voler en Europe)\n\n**Licences FAA** :\n- Private Pilot Certificate (équivalent PPL)\n- Commercial Pilot Certificate\n- Airline Transport Pilot Certificate (ATP)\n- Instrument Rating\n- Multi-Engine Rating",
+      "content_en": "**FAA** = Federal Aviation Administration\n\n- **Created in 1958** (headquarters in **Washington, DC, USA**)\n- **Role** : **mandatory** regulation for **all flights in USA** (including foreign flights)\n- **Regulations** : **FAR** (Federal Aviation Regulations) divided into **Parts**\n  - **Part 61** : Licenses (flexible, individual path)\n  - **Part 141** : Approved flight schools (structured, faster)\n  - **Part 91** : Flight rules (general)\n  - **Part 135** : Commercial air operations (taxi, charter)\n- **Advantage** : Training often **cheaper** and **faster** in USA\n- **Key difference** : FAA recognized **ONLY in USA** (conversion needed for Europe)\n\n**FAA Licenses** :\n- Private Pilot Certificate (equivalent to PPL)\n- Commercial Pilot Certificate\n- Airline Transport Pilot Certificate (ATP)\n- Instrument Rating\n- Multi-Engine Rating",
+      "difficulty": "easy",
+      "risk_level": "low",
+      "phase_of_flight": ["preflight"],
+      "tags": ["FAA", "USA", "FAR", "Part 61", "Part 141", "basic"],
+      "faa_note": "FAA Part 61 allows flexible training, Part 141 requires structured curriculum. Both lead to same Private Pilot Certificate.",
+      "common_errors": [
+        "Confondre Part 61 et Part 141 (61 = flexible, 141 = structured)",
+        "Croire que FAA est reconnue en Europe sans conversion"
+      ],
+      "related_concepts": ["PPL_AIRLAW_002_C01", "PPL_AIRLAW_002_C03"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "title": "Comparatif EASA vs FAA + Conversion",
+      "title_en": "EASA vs FAA Comparison + Conversion",
+      "content": "**Tableau comparatif clé** :\n\n| Critère | EASA (Europe) | FAA (USA) |\n|---|---|---|\n| **Âge minimum PPL** | 17 ans | 17 ans |\n| **Heures vol minimum** | 45h (20h solo) | 40h (20h solo) |\n| **Examen théorique** | 9 matières (Air Law, Meteo, etc.) | 60 questions (Private Pilot Airplane) |\n| **Validité licence** | Illimitée (si medical valide + 12 mois recentrage) | Illimitée (si medical valide + 24 mois recentrage) |\n| **Medical** | Classe 2 (PPL) | Classe 3 (Private) |\n| **Reconnaissance** | Toute l'UE sans conversion | Seulement USA (conversion requise ailleurs) |\n\n**Conversion EASA → FAA** (PPL) :\n1. Avoir licence EASA valide + medical valide\n2. Passer **examen théorique FAA Private Pilot** (60 questions)\n3. Passer **examen pratique (checkride)** avec FAA DPE\n4. Obtenir **Private Pilot Certificate FAA**\n5. **Pas besoin de refaire 40h vol** (exigence de vol déjà satisfaite)\n\n**Conversion FAA → EASA** (PPL) :\n1. Avoir licence FAA valide + medical valide\n2. Passer **examen théorique EASA PPL** (9 matieres)\n3. Passer **examen pratique** avec EASA examiner\n4. Possiblement **10h vol supplementaires** (reglementation europeenne plus stricte)\n5. Obtenir **PPL EASA**\n\n**Attention** : Les conversions prennent **2-6 mois** et coutent **500-2000€** selon le pays.",
+      "content_en": "**Key comparison table** :\n\n| Criterion | EASA (Europe) | FAA (USA) |\n|---|---|---|\n| **Minimum age PPL** | 17 years | 17 years |\n| **Minimum flight hours** | 45h (20h solo) | 40h (20h solo) |\n| **Written exam** | 9 subjects (Air Law, Met, etc.) | 60 questions (Private Pilot Airplane) |\n| **License validity** | Unlimited (if medical valid + 12 months recency) | Unlimited (if medical valid + 24 months recency) |\n| **Medical** | Class 2 (PPL) | Class 3 (Private) |\n| **Recognition** | All EU without conversion | Only USA (conversion required elsewhere) |\n\n**EASA → FAA conversion** (PPL) :\n1. Have valid EASA license + valid medical\n2. Pass **FAA Private Pilot written exam** (60 questions)\n3. Pass **checkride** with FAA DPE\n4. Obtain **Private Pilot Certificate FAA**\n5. **No need to redo 40h flight** (flight requirement already met)\n\n**FAA → EASA conversion** (PPL) :\n1. Have valid FAA license + valid medical\n2. Pass **EASA PPL written exam** (9 subjects)\n3. Pass **checkride** with EASA examiner\n4. Possibly **10 additional flight hours** (European rules stricter)\n5. Obtain **PPL EASA**\n\n**Warning** : Conversions take **2-6 months** and cost **500-2000€** depending on country.",
+      "difficulty": "medium",
+      "risk_level": "medium",
+      "phase_of_flight": ["preflight", "enroute"],
+      "tags": ["EASA", "FAA", "conversion", "comparison", "licensing", "intermediate"],
+      "faa_note": "FAA conversion from foreign license requires verification of authenticity by NTSB. EASA conversion requires validation by national aviation authority (e.g., DGAC France, AESA Spain).",
+      "common_errors": [
+        "Penser que conversion = juste un formulaire (en realite examen + checkride)",
+        "Confondre heures minimum EASA (45h) et FAA (40h)",
+        "Oublier que medical EASA Classe 2 ≠ FAA Class 3 exigence"
+      ],
+      "related_concepts": ["PPL_AIRLAW_002_C01", "PPL_AIRLAW_002_C02"]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "concept_title": "Qu'est-ce que l'EASA ?",
+      "question": "Où se trouve le siège de l'EASA ?",
+      "question_en": "Where is EASA headquarters located?",
+      "options": ["Paris, France", "Cologne, Allemagne", "Montreal, Canada", "Washington, USA"],
+      "correct_answer": "Cologne, Allemagne",
+      "explanation": "Bonne reponse ! Le siege de l'EASA est a **Cologne, Allemagne** (depuis 2002).",
+      "explanation_en": "Correct! EASA headquarters is in **Cologne, Germany** (since 2002).",
+      "faa_note": "",
+      "difficulty_score": 0.25,
+      "level": 1,
+      "tags": ["EASA", "headquarters", "Europe", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "concept_title": "Qu'est-ce que l'EASA ?",
+      "question": "Quand l'EASA a-t-elle ete creee ?",
+      "question_en": "When was EASA created?",
+      "options": ["1944", "1958", "2002", "2010"],
+      "correct_answer": "2002",
+      "explanation": "Bonne reponse ! L'EASA a ete creee en **2002** par l'UE.",
+      "explanation_en": "Correct! EASA was created in **2002** by the EU.",
+      "faa_note": "",
+      "difficulty_score": 0.3,
+      "level": 1,
+      "tags": ["EASA", "history", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "concept_title": "Qu'est-ce que l'EASA ?",
+      "question": "Quel reglement EASA regit les licences pilotes ?",
+      "question_en": "Which EASA regulation governs pilot licenses?",
+      "options": ["Part-M", "Part-NCO", "Part-FCL", "Part-145"],
+      "correct_answer": "Part-FCL",
+      "explanation": "Bonne reponse ! **Part-FCL** = Flight Crew Licensing (licences pilotes).",
+      "explanation_en": "Correct! **Part-FCL** = Flight Crew Licensing (pilot licenses).",
+      "faa_note": "FAA equivalent is Part 61 and Part 141.",
+      "difficulty_score": 0.35,
+      "level": 1,
+      "tags": ["EASA", "Part-FCL", "licensing", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "concept_title": "Qu'est-ce que l'EASA ?",
+      "question": "Dans combien de pays la licence EASA est-elle reconnue sans conversion ?",
+      "question_en": "In how many countries is EASA license recognized without conversion?",
+      "options": ["27 (UE)", "193", "5", "1"],
+      "correct_answer": "27 (UE)",
+      "explanation": "Bonne reponse ! Licence EASA valable dans **tous les 27 pays de l'UE** sans conversion.",
+      "explanation_en": "Correct! EASA license valid in **all 27 EU countries** without conversion.",
+      "faa_note": "",
+      "difficulty_score": 0.3,
+      "level": 1,
+      "tags": ["EASA", "EU", "recognition", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "concept_title": "Qu'est-ce que la FAA ?",
+      "question": "Où se trouve le siege de la FAA ?",
+      "question_en": "Where is FAA headquarters located?",
+      "options": ["Cologne, Allemagne", "Montreal, Canada", "Washington, DC, USA", "Geneve, Suisse"],
+      "correct_answer": "Washington, DC, USA",
+      "explanation": "Bonne reponse ! Siege FAA a **Washington, DC, USA**.",
+      "explanation_en": "Correct! FAA headquarters in **Washington, DC, USA**.",
+      "faa_note": "",
+      "difficulty_score": 0.25,
+      "level": 1,
+      "tags": ["FAA", "headquarters", "USA", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "concept_title": "Qu'est-ce que la FAA ?",
+      "question": "Quand la FAA a-t-elle ete creee ?",
+      "question_en": "When was FAA created?",
+      "options": ["1944", "1958", "2002", "1970"],
+      "correct_answer": "1958",
+      "explanation": "Bonne reponse ! FAA creee en **1958** par le Congres americain.",
+      "explanation_en": "Correct! FAA created in **1958** by US Congress.",
+      "faa_note": "",
+      "difficulty_score": 0.3,
+      "level": 1,
+      "tags": ["FAA", "history", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "concept_title": "Qu'est-ce que la FAA ?",
+      "question": "Quel reglement FAA regit les licences pilotes (formation individuelle) ?",
+      "question_en": "Which FAA regulation governs pilot licenses (individual training)?",
+      "options": ["Part 91", "Part 135", "Part 61", "Part 141"],
+      "correct_answer": "Part 61",
+      "explanation": "Bonne reponse ! **Part 61** = formation flexible, individuelle.",
+      "explanation_en": "Correct! **Part 61** = flexible, individual training.",
+      "faa_note": "Part 141 is for approved flight schools (structured).",
+      "difficulty_score": 0.35,
+      "level": 1,
+      "tags": ["FAA", "Part 61", "licensing", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "concept_title": "Qu'est-ce que la FAA ?",
+      "question": "Quel reglement FAA pour les ecoles de pilotage approuvees (formation structuree) ?",
+      "question_en": "Which FAA regulation for approved flight schools (structured training)?",
+      "options": ["Part 61", "Part 91", "Part 141", "Part 135"],
+      "correct_answer": "Part 141",
+      "explanation": "Bonne reponse ! **Part 141** = ecoles approuvees, formation structuree (plus rapide).",
+      "explanation_en": "Correct! **Part 141** = approved schools, structured training (faster).",
+      "faa_note": "",
+      "difficulty_score": 0.4,
+      "level": 1,
+      "tags": ["FAA", "Part 141", "flight schools", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "concept_title": "Qu'est-ce que la FAA ?",
+      "question": "Quelle est l'heure de vol minimum pour un PPL FAA ?",
+      "question_en": "What is the minimum flight hours for FAA PPL?",
+      "options": ["35h", "40h", "45h", "50h"],
+      "correct_answer": "40h",
+      "explanation": "Bonne reponse ! **FAA Part 61 : 40h minimum** (dont 20h solo).",
+      "explanation_en": "Correct! **FAA Part 61: 40h minimum** (including 20h solo).",
+      "faa_note": "EASA requires 45h minimum.",
+      "difficulty_score": 0.3,
+      "level": 1,
+      "tags": ["FAA", "hours", "PPL", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "concept_title": "Comparatif EASA vs FAA + Conversion",
+      "question": "Quelle est la difference d'heures de vol minimum entre EASA et FAA pour PPL ?",
+      "question_en": "What is the flight hour difference between EASA and FAA for PPL?",
+      "options": [
+        "EASA 40h, FAA 45h",
+        "EASA 45h, FAA 40h",
+        "EASA 35h, FAA 40h",
+        "EASA 50h, FAA 45h"
+      ],
+      "correct_answer": "EASA 45h, FAA 40h",
+      "explanation": "Bonne reponse ! **EASA : 45h**, **FAA : 40h**. EASA exige 5h de plus.",
+      "explanation_en": "Correct! **EASA: 45h**, **FAA: 40h**. EASA requires 5h more.",
+      "faa_note": "EASA also requires more solo hours (20h EASA vs 10h FAA solo cross-country specific).",
+      "difficulty_score": 0.45,
+      "level": 2,
+      "tags": ["EASA", "FAA", "hours", "comparison", "intermediate"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "concept_title": "Comparatif EASA vs FAA + Conversion",
+      "question": "Pour convertir un PPL EASA vers FAA, faut-il refaire les 40h de vol ?",
+      "question_en": "To convert EASA PPL to FAA, must you redo 40 flight hours?",
+      "options": ["Oui, obligatoirement", "Non, pas besoin (deja satisfait)", "Seulement 10h supplementaires", "Seulement si vol aux USA"],
+      "correct_answer": "Non, pas besoin (deja satisfait)",
+      "explanation": "Bonne reponse ! **Pas besoin de refaire 40h**. L'exigence de vol est deja satisfaite par la licence EASA.",
+      "explanation_en": "Correct! **No need to redo 40h**. Flight requirement already met by EASA license.",
+      "faa_note": "",
+      "difficulty_score": 0.5,
+      "level": 2,
+      "tags": ["conversion", "EASA", "FAA", "hours", "intermediate"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "concept_title": "Comparatif EASA vs FAA + Conversion",
+      "question": "Combien de temps prend generalement une conversion EASA vers FAA ?",
+      "question_en": "How long does EASA to FAA conversion typically take?",
+      "options": ["1 semaine", "2-6 mois", "1 an", "3 ans"],
+      "correct_answer": "2-6 mois",
+      "explanation": "Bonne reponse ! Conversion prend **2-6 mois** (examen theorie + checkride + administration).",
+      "explanation_en": "Correct! Conversion takes **2-6 months** (written exam + checkride + paperwork).",
+      "faa_note": "",
+      "difficulty_score": 0.4,
+      "level": 2,
+      "tags": ["conversion", "EASA", "FAA", "time", "intermediate"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "concept_title": "Comparatif EASA vs FAA + Conversion",
+      "question": "Quel medical est requis pour PPL EASA ?",
+      "question_en": "Which medical is required for EASA PPL?",
+      "options": ["Class 1", "Class 2", "Class 3", "Basic Medical"],
+      "correct_answer": "Class 2",
+      "explanation": "Bonne reponse ! **EASA PPL : Class 2 medical**.",
+      "explanation_en": "Correct! **EASA PPL: Class 2 medical**.",
+      "faa_note": "FAA PPL requires Class 3 medical.",
+      "difficulty_score": 0.35,
+      "level": 1,
+      "tags": ["EASA", "medical", "PPL", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "concept_title": "Comparatif EASA vs FAA + Conversion",
+      "question": "Quel medical est requis pour Private Pilot FAA ?",
+      "question_en": "Which medical is required for FAA Private Pilot?",
+      "options": ["Class 1", "Class 2", "Class 3", "Basic Medical"],
+      "correct_answer": "Class 3",
+      "explanation": "Bonne reponse ! **FAA Private Pilot : Class 3 medical**.",
+      "explanation_en": "Correct! **FAA Private Pilot: Class 3 medical**.",
+      "faa_note": "",
+      "difficulty_score": 0.35,
+      "level": 1,
+      "tags": ["FAA", "medical", "private", "basic"]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "concept_title": "Comparatif EASA vs FAA + Conversion",
+      "question": "Une licence FAA est-elle reconnue directement en Europe sans conversion ?",
+      "question_en": "Is FAA license recognized directly in Europe without conversion?",
+      "options": ["Oui, dans toute l'UE", "Oui, seulement en France", "Non, conversion requise", "Oui, seulement si vol VFR"],
+      "correct_answer": "Non, conversion requise",
+      "explanation": "Bonne reponse ! **FAA reconnue UNIQUEMENT aux USA**. Conversion EASA requise pour voler en Europe.",
+      "explanation_en": "Correct! **FAA recognized ONLY in USA**. EASA conversion required for Europe.",
+      "faa_note": "",
+      "difficulty_score": 0.4,
+      "level": 2,
+      "tags": ["FAA", "recognition", "Europe", "conversion", "intermediate"]
+    }
+  ],
+  "flashcards": [
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "front": "Ou se trouve le siege de l'EASA ?",
+      "back": "Cologne, Allemagne",
+      "front_en": "Where is EASA headquarters?",
+      "back_en": "Cologne, Germany"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "front": "Quand l'EASA a-t-elle ete creee ?",
+      "back": "2002",
+      "front_en": "When was EASA created?",
+      "back_en": "2002"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "front": "Quel reglement EASA pour licences pilotes ?",
+      "back": "Part-FCL",
+      "front_en": "Which EASA regulation for pilot licenses?",
+      "back_en": "Part-FCL"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "front": "Dans combien de pays EASA est reconnue ?",
+      "back": "27 pays (UE)",
+      "front_en": "In how many countries is EASA recognized?",
+      "back_en": "27 countries (EU)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "front": "Ou se trouve le siege de la FAA ?",
+      "back": "Washington, DC, USA",
+      "front_en": "Where is FAA headquarters?",
+      "back_en": "Washington, DC, USA"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "front": "Quand la FAA a-t-elle ete creee ?",
+      "back": "1958",
+      "front_en": "When was FAA created?",
+      "back_en": "1958"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "front": "Quel reglement FAA pour formation individuelle ?",
+      "back": "Part 61",
+      "front_en": "Which FAA regulation for individual training?",
+      "back_en": "Part 61"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "front": "Quel reglement FAA pour ecoles approuvees ?",
+      "back": "Part 141",
+      "front_en": "Which FAA regulation for approved schools?",
+      "back_en": "Part 141"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "front": "Heures minimum FAA PPL ?",
+      "back": "40h (20h solo)",
+      "front_en": "FAA PPL minimum hours?",
+      "back_en": "40h (20h solo)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "front": "Heures minimum EASA PPL ?",
+      "back": "45h (20h solo)",
+      "front_en": "EASA PPL minimum hours?",
+      "back_en": "45h (20h solo)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "front": "Medical EASA PPL ?",
+      "back": "Class 2",
+      "front_en": "EASA PPL medical?",
+      "back_en": "Class 2"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "front": "Medical FAA Private ?",
+      "back": "Class 3",
+      "front_en": "FAA Private medical?",
+      "back_en": "Class 3"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "front": "FAA reconnue en Europe sans conversion ?",
+      "back": "Non, conversion requise",
+      "front_en": "FAA recognized in Europe without conversion?",
+      "back_en": "No, conversion required"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "PPL_AIRLAW_002_S01",
+      "title": "Convertir PPL EASA vers FAA pour voler aux USA",
+      "title_en": "Convert EASA PPL to FAA to fly in USA",
+      "context": "Tu as un PPL EASA (France) et tu veux voler aux USA pendant tes vacances (location d'avion). Tu as besoin d'une licence FAA valide.",
+      "context_en": "You have an EASA PPL (France) and want to fly in USA during vacation (rental aircraft). You need a valid FAA license.",
+      "situation": "Quelle est la premiere etape pour convertir ton PPL EASA en FAA ?",
+      "situation_en": "What is the first step to convert your EASA PPL to FAA?",
+      "decision_options": [
+        "Voler 40h supplementaires aux USA",
+        "Passer l'examen theorique FAA Private Pilot (60 questions)",
+        "Demander une derogation a l'EASA",
+        "Obtenir un medical Class 1 uniquement"
+      ],
+      "decision_options_en": [
+        "Fly 40 additional hours in USA",
+        "Pass FAA Private Pilot written exam (60 questions)",
+        "Request waiver from EASA",
+        "Obtain Class 1 medical only"
+      ],
+      "correct_decision_index": 1,
+      "solution": "**Passer l'examen theorique FAA Private Pilot**. Ensuite checkride avec DPE FAA. Pas besoin de refaire 40h vol.",
+      "solution_en": "**Pass FAA Private Pilot written exam**. Then checkride with FAA DPE. No need to redo 40h flight.",
+      "risks": "Si tu vols aux USA avec seulement licence EASA sans conversion FAA, tu risques une sanction FAA (amende, interdiction de vol aux USA).",
+      "risks_en": "If you fly in USA with only EASA license without FAA conversion, risk FAA penalty (fine, USA flight ban).",
+      "tags": ["conversion", "EASA", "FAA", "USA", "PPL", "safety"]
+    }
+  ],
+  "remediation": [
+    {
+      "analysis_id": "AIRLAW_002_ERR_01",
+      "student_level": "PPL",
+      "chapter_title": "Reglementation : EASA vs FAA",
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "question_id": "010-02-03-Q1",
+      "selected_answer": "EASA 40h, FAA 45h",
+      "correct_answer": "EASA 45h, FAA 40h",
+      "error_category": "confusion",
+      "error_description": "L'eleve inverse les heures minimum EASA et FAA.",
+      "misconception": "Confusion entre les deux reglementations : EASA est plus stricte (45h) que FAA (40h).",
+      "severity": "medium",
+      "operational_risk": "low",
+      "knowledge_gap": "Ne pas connaitre exactement les heures minimum pour chaque licence.",
+      "recommended_concepts": [
+        {"concept_id": "PPL_AIRLAW_002_C03", "reason": "Revoir tableau comparatif EASA vs FAA"}
+      ],
+      "recommended_actions": [
+        {"action_type": "flashcard", "target": "PPL_AIRLAW_002_C03", "reason": "Repeter flashcard heures EASA vs FAA"},
+        {"action_type": "review", "target": "PPL_AIRLAW_002_C03", "reason": "Relire concept C03 tableau comparatif"}
+      ],
+      "instructor_feedback": "Memorisation : EASA = 45h (plus stricte), FAA = 40h (plus flexible). EASA exige 5h de plus.",
+      "next_learning_step": "Refaire question sur heures minimum avant de passer a la suite."
+    }
+  ]
+}

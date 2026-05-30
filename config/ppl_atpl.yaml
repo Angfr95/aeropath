@@ -1,0 +1,127 @@
+# ============================================================================
+# Configuration adaptative + gamification + exam
+# Cette config est stockée ici POUR RÉFÉRENCE et seedée dans aero_config.
+# En production, la source de vérité est la table app_config dans aero_config.
+# ============================================================================
+
+# ─── Adaptive Learning (algorithme Duolingo-style) ────────
+adaptive_learning:
+  level_1:
+    description: "Questions simples, 1 bonne réponse évidente"
+    pass_threshold: 0.80      # 80% pour passer au niveau suivant
+    hint_enabled: true        # Indice disponible
+    time_limit_sec: null      # Pas de limite de temps
+    immediate_feedback: true  # Feedback après chaque réponse
+
+  level_2:
+    description: "Questions avec 2-3 distracteurs plausibles"
+    pass_threshold: 0.75
+    hint_enabled: false       # Pas d'indice
+    time_limit_sec: null
+    immediate_feedback: true
+
+  level_3:
+    description: "Questions type examen, 4 choix similaires"
+    pass_threshold: 0.75
+    hint_enabled: false
+    time_limit_sec: 45        # 45 secondes par question
+    immediate_feedback: false # Feedback à la fin du quiz
+
+# ─── Adaptive Algorithm Rules ────────────────────────────
+adaptive_rules:
+  level_1_pass:
+    condition: "score >= 80%"
+    action: "Passe Niveau 2 + 2 questions bonus difficiles"
+  level_1_fail:
+    condition: "score < 80%"
+    action: "Recommence Niveau 1 + 3 questions supplémentaires"
+  level_2_pass:
+    condition: "score >= 85%"
+    action: "Passe Niveau 3 + timer réduit à 40s"
+  level_2_fail:
+    condition: "score < 70%"
+    action: "Retour Niveau 2 + révision leçon"
+  level_3_pass:
+    condition: "score >= 75%"
+    action: "Chapitre validé"
+  level_3_fail:
+    condition: "score < 75%"
+    action: "Retour Niveau 2 + spaced repetition"
+
+# ─── Spaced Repetition ─────────────────────────────────
+spaced_repetition:
+  schedule:
+    level_1: 1    # Jour 1 (immédiat)
+    level_2: 3    # Jour 3
+    level_3: 7    # Jour 7
+    level_4: 14   # Jour 14
+    level_5: 30   # Jour 30
+
+# ─── Gamification Rules ────────────────────────────────
+gamification_rules:
+  hearts_enabled: true
+  hearts_total: 5
+  heart_penalty_level2: 1    # Perd 1 coeur si erreur N2
+  heart_penalty_level3: 2    # Perd 2 coeurs si erreur N3
+
+  xp_per_lesson: 10
+  xp_per_qcm_level1: 20
+  xp_per_qcm_level2: 30
+  xp_per_qcm_level3: 50
+
+  streak_enabled: true
+  leaderboard_weekly: true
+
+  # Badges disponibles
+  badges:
+    - id: "airlaw_master"
+      title: "Air Law Master"
+      condition: "100% des questions Air Law level 3 réussies"
+    - id: "7day_streak"
+      title: "7-Day Streak"
+      condition: "7 jours consécutifs d'activité"
+    - id: "30day_streak"
+      title: "30-Day Streak"
+      condition: "30 jours consécutifs d'activité"
+    - id: "perfect_quiz"
+      title: "Perfect Quiz"
+      condition: "10 questions sans erreur"
+    - id: "speed_demon"
+      title: "Speed Demon"
+      condition: "Quiz Niveau 3 terminé en moins de 5 min"
+
+# ─── Exam Configuration ────────────────────────────────
+exam_config:
+  ppl:
+    air_law:
+      questions_count: 16
+      time_minutes: 30
+      passing_score_percent: 75
+      randomized: true
+      no_backward: true
+    meteorology:
+      questions_count: 16
+      time_minutes: 30
+      passing_score_percent: 75
+      randomized: true
+      no_backward: true
+    navigation:
+      questions_count: 16
+      time_minutes: 30
+      passing_score_percent: 75
+      randomized: true
+      no_backward: true
+    performance:
+      questions_count: 12
+      time_minutes: 25
+      passing_score_percent: 75
+      randomized: true
+      no_backward: true
+
+  atpl:
+    air_law:
+      questions_count: 1720
+      time_minutes: 180
+      passing_score_percent: 72
+      randomized: true
+      no_backward: false    # ATPL permet retour arrière

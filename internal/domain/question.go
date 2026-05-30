@@ -2,17 +2,12 @@ package domain
 
 import "time"
 
-// Question représente une question d'examen aéronautique.
+// Question représente une question d'examen aéronautique enrichie.
 //
 // 📖 DDIA Chapitre 3 : "Storage and Retrieval"
 //    Les questions sont stockées dans PostgreSQL (base relationnelle).
 //    On utilise un index sur (license, category) pour les requêtes fréquentes
 //    comme "toutes les questions PPL de météo".
-//
-// 📖 DDIA Chapitre 4 : "Encoding and Evolution"
-//    Les tags JSON (json:"id") permettent la sérialisation.
-//    Si on ajoute un champ, les anciens clients ignorent simplement
-//    le nouveau champ (forward compatibility).
 type Question struct {
 	ID            string    `json:"id"`
 	LessonID      string    `json:"lesson_id,omitempty"`
@@ -21,14 +16,21 @@ type Question struct {
 	Theme         string    `json:"theme"`
 	Subtopic      string    `json:"subtopic,omitempty"`
 	Difficulty    int       `json:"difficulty"`
+	Level         int       `json:"level"`          // 1=Basic, 2=Intermediate, 3=Advanced (Duolingo-style)
 	QuestionFr    string    `json:"question_fr"`
 	QuestionEn    string    `json:"question_en"`
 	Options       []string  `json:"options"`
 	AnswerKey     string    `json:"answer_key"`
 	ExplanationFr string    `json:"explanation_fr,omitempty"`
 	ExplanationEn string    `json:"explanation_en,omitempty"`
+	FaaNoteFr     string    `json:"faa_note_fr,omitempty"`     // Différence FAA vs EASA (FR)
+	FaaNoteEn     string    `json:"faa_note_en,omitempty"`     // Différence FAA vs EASA (EN)
+	Tags          []string  `json:"tags,omitempty"`            // Mots-clés pour classification
+	DifficultyScore float64 `json:"difficulty_score,omitempty"` // 0.0-1.0 pour algo adaptatif
+	Distractors   map[string]string `json:"distractors_rationale,omitempty"` // Pourquoi chaque distracteur est faux
 	CreatedAt     time.Time `json:"created_at"`
 }
+
 
 // QuestionRepository définit le contrat pour accéder aux questions.
 //

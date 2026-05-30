@@ -44,28 +44,25 @@ const (
 	CategoryInstrumentation  Category = "instrumentation"
 )
 
-// Lesson représente une leçon pédagogique.
-//
-// 📖 DDIA Chapitre 1 : "Reliable, Scalable, and Maintainable Applications"
-//    Les leçons sont le contenu "cours" (théorie).
-//    Les questions sont le contenu "exercice" (pratique).
-//    Cette séparation suit le principe de responsabilité unique :
-//    - Le service Learning gère les questions
-//    - Le service Lessons gère les leçons
-//    - Le moteur de recommandation combine les deux
+// Lesson représente une leçon pédagogique enrichie.
 type Lesson struct {
-	ID          string    `json:"id"`
-	License     License   `json:"license"`
-	Category    Category  `json:"category"`
-	Theme       string    `json:"theme"`
-	TitleFr     string    `json:"title_fr"`
-	TitleEn     string    `json:"title_en"`
-	ContentFr   string    `json:"content_fr"`
-	ContentEn   string    `json:"content_en"`
-	Difficulty  int       `json:"difficulty"`
-	OrderIndex  int       `json:"order_index"`
-	CreatedAt   time.Time `json:"created_at"`
+	ID               string            `json:"id"`
+	License          License           `json:"license"`
+	Category         Category          `json:"category"`
+	Theme            string            `json:"theme"`
+	TitleFr          string            `json:"title_fr"`
+	TitleEn          string            `json:"title_en"`
+	ContentFr        string            `json:"content_fr"`
+	ContentEn        string            `json:"content_en"`
+	Level            int               `json:"level"`                        // 1=Basic, 2=Intermediate, 3=Advanced
+	Difficulty       int               `json:"difficulty"`
+	OrderIndex       int               `json:"order_index"`
+	DurationMinutes  int               `json:"duration_minutes"`             // Durée estimée de la leçon
+	Tags             []string          `json:"tags,omitempty"`               // Mots-clés
+	LearningObjectives []string        `json:"learning_objectives,omitempty"` // Objectifs pédagogiques
+	CreatedAt        time.Time         `json:"created_at"`
 }
+
 
 // LessonRepository définit le contrat pour accéder aux leçons.
 type LessonRepository interface {
