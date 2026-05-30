@@ -1,7 +1,6 @@
 package grpc
 
 import (
-	"context"
 	"testing"
 	"time"
 
@@ -102,8 +101,6 @@ func TestIntegrationClientConnection(t *testing.T) {
 
 	// On ne peut pas vraiment se connecter sans un service défini,
 	// mais on peut vérifier que la configuration est correcte
-	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)
-	defer cancel()
 
 	// Tenter une connexion (va échouer car pas de service, mais on teste le dial)
 	conn, err := grpc.NewClient("localhost:0",
