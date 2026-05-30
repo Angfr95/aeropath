@@ -62,7 +62,9 @@ func TestStudentRepo(t *testing.T) {
 	t.Run("trouver par email", func(t *testing.T) {
 		email := "findbyemail-" + randString(6) + "@test.com"
 		original := &domain.Student{Email: email, PasswordHash: "pass", Lang: "en"}
-		repo.Create(original)
+		if err := repo.Create(original); err != nil {
+			t.Fatalf("création a échoué: %v", err)
+		}
 
 		found, err := repo.FindByEmail(email)
 		if err != nil {
@@ -86,7 +88,9 @@ func TestStudentRepo(t *testing.T) {
 	t.Run("trouver par ID", func(t *testing.T) {
 		email := "findbyid-" + randString(6) + "@test.com"
 		original := &domain.Student{Email: email, PasswordHash: "pass", Lang: "fr"}
-		repo.Create(original)
+		if err := repo.Create(original); err != nil {
+			t.Fatalf("création a échoué: %v", err)
+		}
 
 		found, err := repo.FindByID(original.ID)
 		if err != nil {
@@ -100,7 +104,9 @@ func TestStudentRepo(t *testing.T) {
 	t.Run("mettre à jour la langue", func(t *testing.T) {
 		email := "updatelang-" + randString(6) + "@test.com"
 		original := &domain.Student{Email: email, PasswordHash: "pass", Lang: "fr"}
-		repo.Create(original)
+		if err := repo.Create(original); err != nil {
+			t.Fatalf("création a échoué: %v", err)
+		}
 
 		err := repo.UpdateLang(original.ID, "en")
 		if err != nil {
