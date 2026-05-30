@@ -1,0 +1,46 @@
+# ─── Sécurité : ignorer les fichiers sensibles ──────────────
+.env
+.env.*
+*.pem
+*.key
+**/secrets.yaml
+**/credentials*
+
+# ─── Build & dépendances ──────────────────────────────────
+.git/
+.gitignore
+.gitattributes
+*.md
+Dockerfile*
+docker-compose*
+Makefile
+README.md
+
+# ─── Go build ─────────────────────────────────────────────
+go.work
+go.work.sum
+build/
+bin/
+
+# ─── Node / Frontend ──────────────────────────────────────
+node_modules/
+web/frontend-react/node_modules/
+web/frontend-react/dist/
+dist/
+
+# ─── IDE & OS ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── Tests & scripts locaux ─────────────────────────────
+tests/
+scripts/seed/
+deploy-vps.sh
+setup-vps.sh
+*.bat
+*.ps1
