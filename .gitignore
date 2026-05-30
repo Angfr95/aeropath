@@ -34,3 +34,7 @@ dist/
 *.swp
 *.swo
 *~
+
+# Deployment scripts (local)
+deploy-vps.sh
+setup-vps.sh
