@@ -43,5 +43,9 @@ setup-vps.sh
 scripts/set_gh_secrets*
 scripts/set_github_secret*
 
+# SSH keys / deploy keys (never commit)
+*_deploy_key
+*_deploy_key.pub
+
 # Bug reports / debug docs (internal only)
 docs/bug-auth-405-nginx-reload.md
