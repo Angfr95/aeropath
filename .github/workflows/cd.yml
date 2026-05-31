@@ -94,8 +94,10 @@ jobs:
           script: |
             set -e
             cd /opt/aeropath
-            git add -A
-            git stash
+            # Pop any previous stash from failed deploys that might have stashed ssl/
+            git stash pop 2>/dev/null || true
+            # Stash only tracked modified files — untracked (ssl/, .env) stay untouched
+            git stash -- docker-compose.yml nginx.conf 2>/dev/null || true
             git pull origin main
             docker compose pull
             docker compose up -d --remove-orphans
