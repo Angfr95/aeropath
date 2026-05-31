@@ -39,5 +39,9 @@ dist/
 deploy-vps.sh
 setup-vps.sh
 
+# Secret setup scripts (contain tokens/keys — never commit)
+scripts/set_gh_secrets*
+scripts/set_github_secret*
+
 # Bug reports / debug docs (internal only)
 docs/bug-auth-405-nginx-reload.md
