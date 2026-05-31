@@ -254,6 +254,7 @@ function render() {
       break;
     case "lessons-category":
       app.innerHTML = renderLessonsByCategory();
+      setTimeout(() => loadLessonsByCategory(state.currentLicense, state.currentCategory), 50);
       break;
     case "question-detail":
       app.innerHTML = renderQuestionDetail();
@@ -1168,6 +1169,12 @@ async function loadLessons() {
   if (data?.data) {
     state.lessons = data.data;
     renderLessonsList(data.data);
+  } else if (Array.isArray(data)) {
+    state.lessons = data;
+    renderLessonsList(data);
+  } else {
+    const el = document.getElementById("lessons-list");
+    if (el) el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leçon trouvée</p>';
   }
 }
 
@@ -1240,6 +1247,9 @@ async function loadLessonsByLicense(licenseId) {
     renderLessonsLicenseList(data);
   } else if (data?.data) {
     renderLessonsLicenseList(data.data);
+  } else {
+    const el = document.getElementById("lessons-license-list");
+    if (el) el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leçon pour cette licence</p>';
   }
   // Compter par catégorie
   CATEGORIES.forEach(async (c) => {
@@ -1301,6 +1311,9 @@ async function loadLessonsByCategory(licenseId, categoryId) {
     renderLessonsCategoryList(data);
   } else if (data?.data) {
     renderLessonsCategoryList(data.data);
+  } else {
+    const el = document.getElementById("lessons-category-list");
+    if (el) el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leçon dans cette catégorie</p>';
   }
 }
 
