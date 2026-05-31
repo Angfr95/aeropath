@@ -224,13 +224,8 @@ func main() {
 			loJSON = jsonArrayStrings([]string{mod.Metadata.LearningObjective})
 		}
 
-		comma := ";"
-		if modIdx < len(modules)-1 {
-			comma = ","
-		}
-
 		sb.WriteString("INSERT INTO lessons (id, license, category, theme, title_fr, title_en, content_fr, content_en, difficulty, order_index, level, duration_minutes, tags, learning_objectives) VALUES\n")
-		sb.WriteString(fmt.Sprintf("('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', %d, %d, %d, %d, %s, %s)%s\n\n",
+		sb.WriteString(fmt.Sprintf("('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', %d, %d, %d, %d, '%s', '%s');\n\n",
 			lessonUUID,
 			mod.Metadata.Program,
 			strings.ToLower(mod.Metadata.Subject),
@@ -243,25 +238,12 @@ func main() {
 			modIdx+1,
 			1,
 			mod.Metadata.EstimatedDurationMinutes,
-			tagsJSON,
-			loJSON,
-			comma))
+			escapeSQL(tagsJSON),
+			escapeSQL(loJSON)))
 
 		// ─── 3. QUESTIONS ───
 		if len(mod.Questions) > 0 {
 			sb.WriteString(fmt.Sprintf("-- Questions for lesson %s (%d questions)\n", lessonUUID, len(mod.Questions)))
-
-			// Calculer l'index global de la première question de ce module
-			totalQBefore := 0
-			for mi := 0; mi < modIdx; mi++ {
-				totalQBefore += len(modules[mi].Questions)
-			}
-			totalQAll := totalQBefore
-			for mi := modIdx; mi < len(modules); mi++ {
-				totalQAll += len(modules[mi].Questions)
-			}
-
-			sb.WriteString("INSERT INTO questions (id, lesson_id, license, category, theme, subtopic, difficulty, level, question_fr, question_en, options, answer_key, explanation_fr, explanation_en, faa_note_fr, faa_note_en, tags, difficulty_score) VALUES\n")
 
 			for qIdx, q := range mod.Questions {
 				qid := deterministicUUID(fmt.Sprintf("q-%s-%s-%d", mod.Metadata.ModuleID, q.ConceptID, qIdx))
@@ -273,13 +255,8 @@ func main() {
 				optsJSON := jsonOptions(q.Options)
 				qTagsJSON := jsonArrayStrings(q.Tags)
 
-				globalIdx := totalQBefore + qIdx
-				qcomma := ";"
-				if globalIdx < totalQAll-1 {
-					qcomma = ","
-				}
-
-				sb.WriteString(fmt.Sprintf("('%s','%s','%s','%s','%s','%s',%d,%d,'%s','%s','%s','%s','%s','%s','%s','%s',%s,%.2f)%s\n",
+				sb.WriteString("INSERT INTO questions (id, lesson_id, license, category, theme, subtopic, difficulty, level, question_fr, question_en, options, answer_key, explanation_fr, explanation_en, faa_note_fr, faa_note_en, tags, difficulty_score) VALUES\n")
+				sb.WriteString(fmt.Sprintf("('%s','%s','%s','%s','%s','%s',%d,%d,'%s','%s','%s','%s','%s','%s','%s','%s','%s',%.2f);\n",
 					qid,
 					lessonUUID,
 					mod.Metadata.Program,
@@ -296,9 +273,8 @@ func main() {
 					escapeSQL(q.ExplanationEn),
 					"",
 					escapeSQL(q.FaaNote),
-					qTagsJSON,
-					q.DifficultyScore,
-					qcomma))
+					escapeSQL(qTagsJSON),
+					q.DifficultyScore))
 			}
 			sb.WriteString("\n")
 		}

@@ -46,6 +46,8 @@ scripts/set_github_secret*
 # SSH keys / deploy keys (never commit)
 *_deploy_key
 *_deploy_key.pub
+tmp_key.pem
+tmp_key
 
 # Bug reports / debug docs (internal only)
 docs/bug-auth-405-nginx-reload.md

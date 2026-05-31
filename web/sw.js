@@ -43,10 +43,11 @@ self.addEventListener("activate", (event) => {
 // ======================== STRATÉGIES DE CACHE ========================
 
 // Stratégie: Network First avec fallback cache (pour l'API)
+// ⚠️ Cache API ne supporte que les requêtes GET
 async function networkFirst(request) {
   try {
     const response = await fetch(request);
-    if (response.ok) {
+    if (response.ok && request.method === "GET") {
       const cache = await caches.open(API_CACHE);
       cache.put(request, response.clone());
     }

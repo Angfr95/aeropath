@@ -247,6 +247,7 @@ function render() {
       break;
     case "lessons":
       app.innerHTML = renderLessons();
+      loadLessons();
       break;
     case "lessons-license":
       app.innerHTML = renderLessonsByLicense();
