@@ -92,7 +92,10 @@ jobs:
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_SSH_KEY }}
           script: |
+            set -e
             cd /opt/aeropath
+            git add -A
+            git stash
             git pull origin main
             docker compose pull
             docker compose up -d --remove-orphans
