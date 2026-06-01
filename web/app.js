@@ -1,15 +1,15 @@
-// ======================== CONFIGURATION ========================
+﻿// ======================== CONFIGURATION ========================
 const API_BASE = "";
 let authToken = localStorage.getItem("aeropath_token");
 let currentUser = null;
 
 // ======================== GESTION DE LA LANGUE ========================
 const SUPPORTED_LANGUAGES = [
-  { code: "fr", label: "Français", flag: "🇫🇷" },
-  { code: "en", label: "English", flag: "🇬🇧" },
-  { code: "de", label: "Deutsch", flag: "🇩🇪" },
-  { code: "es", label: "Español", flag: "🇪🇸" },
-  { code: "it", label: "Italiano", flag: "🇮🇹" },
+  { code: "fr", label: "FranÃ§ais", flag: "ðŸ‡«ðŸ‡·" },
+  { code: "en", label: "English", flag: "ðŸ‡¬ðŸ‡§" },
+  { code: "de", label: "Deutsch", flag: "ðŸ‡©ðŸ‡ª" },
+  { code: "es", label: "EspaÃ±ol", flag: "ðŸ‡ªðŸ‡¸" },
+  { code: "it", label: "Italiano", flag: "ðŸ‡®ðŸ‡¹" },
 ];
 
 let currentLang = localStorage.getItem("aeropath_lang") || "fr";
@@ -17,7 +17,7 @@ let currentLang = localStorage.getItem("aeropath_lang") || "fr";
 function setLanguage(langCode) {
   currentLang = langCode;
   localStorage.setItem("aeropath_lang", langCode);
-  // Si l'utilisateur est connecté, on met à jour sa préférence sur le serveur
+  // Si l'utilisateur est connectÃ©, on met Ã  jour sa prÃ©fÃ©rence sur le serveur
   if (authToken) {
     api("/api/me/lang", {
       method: "PATCH",
@@ -48,7 +48,7 @@ function renderLanguageSelector() {
             <button onclick="setLanguage('${l.code}')" class="w-full flex items-center gap-3 px-4 py-2.5 text-sm text-slate-300 hover:bg-slate-700 hover:text-white transition ${l.code === currentLang ? 'bg-slate-700/50 text-white' : ''}">
               <span class="text-lg">${l.flag}</span>
               <span>${l.label}</span>
-              ${l.code === currentLang ? '<span class="ml-auto text-blue-400">✓</span>' : ''}
+              ${l.code === currentLang ? '<span class="ml-auto text-blue-400">âœ“</span>' : ''}
             </button>
           `).join("")}
         </div>
@@ -63,7 +63,7 @@ function t(fr, en) {
 }
 
 
-// ======================== ÉTAT DE L'APPLICATION ========================
+// ======================== Ã‰TAT DE L'APPLICATION ========================
 const state = {
   view: "login",
   questions: [],
@@ -86,29 +86,29 @@ const state = {
 if ("serviceWorker" in navigator) {
   // Nettoyer les anciens caches et SW avant d'enregistrer le nouveau
   window.addEventListener("load", async () => {
-    // Désenregistrer tous les anciens SW
+    // DÃ©senregistrer tous les anciens SW
     const registrations = await navigator.serviceWorker.getRegistrations();
     for (const reg of registrations) {
       await reg.unregister();
-      console.log("[PWA] Ancien SW désenregistré");
+      console.log("[PWA] Ancien SW dÃ©senregistrÃ©");
     }
 
     // Vider tous les caches
     const cacheKeys = await caches.keys();
     await Promise.all(cacheKeys.map((key) => caches.delete(key)));
-    console.log("[PWA] Caches vidés");
+    console.log("[PWA] Caches vidÃ©s");
 
     // Enregistrer le nouveau SW
     navigator.serviceWorker
       .register("/sw.js")
       .then((reg) => {
-        console.log("[PWA] Service Worker enregistré:", reg.scope);
+        console.log("[PWA] Service Worker enregistrÃ©:", reg.scope);
 
         reg.addEventListener("updatefound", () => {
           const newWorker = reg.installing;
           newWorker.addEventListener("statechange", () => {
             if (newWorker.state === "installed" && navigator.serviceWorker.controller) {
-              showToast("Nouvelle version disponible ! Rafraîchissez la page.");
+              showToast("Nouvelle version disponible ! RafraÃ®chissez la page.");
             }
           });
         });
@@ -137,14 +137,14 @@ async function api(path, options = {}) {
 
     // Si offline (503 du SW)
     if (response.status === 503) {
-      showToast("Mode hors-ligne : les données peuvent être limitées");
+      showToast("Mode hors-ligne : les donnÃ©es peuvent Ãªtre limitÃ©es");
       return { offline: true };
     }
 
     return await response.json();
   } catch (err) {
     // Hors-ligne : essayer le cache local
-    showToast("Vous êtes hors-ligne. Les réponses seront synchronisées plus tard.");
+    showToast("Vous Ãªtes hors-ligne. Les rÃ©ponses seront synchronisÃ©es plus tard.");
     return { offline: true };
   }
 }
@@ -160,7 +160,7 @@ async function login(email, password) {
     localStorage.setItem("aeropath_token", authToken);
     await loadUser();
     navigate("dashboard");
-    showToast("Connecté !");
+    showToast("ConnectÃ© !");
   } else {
     showToast(data?.error || "Erreur de connexion", "error");
   }
@@ -176,7 +176,7 @@ async function register(email, password) {
     localStorage.setItem("aeropath_token", authToken);
     await loadUser();
     navigate("dashboard");
-    showToast("Compte créé !");
+    showToast("Compte crÃ©Ã© !");
   } else {
     showToast(data?.error || "Erreur d'inscription", "error");
   }
@@ -187,7 +187,7 @@ function logout() {
   localStorage.removeItem("aeropath_token");
   currentUser = null;
   navigate("login");
-  showToast("Déconnecté");
+  showToast("DÃ©connectÃ©");
 }
 
 async function loadUser() {
@@ -198,7 +198,19 @@ async function loadUser() {
 }
 
 // ======================== NAVIGATION ========================
+function goBack() {
+  const prev = state.previousView;
+  if (prev) {
+    state.view = prev;
+    state.previousView = null;
+    render();
+  } else {
+    navigate("dashboard");
+  }
+}
+
 function navigate(view, params = {}) {
+  state.previousView = state.view;
   if (params.license) state.currentLicense = params.license;
   if (params.category) state.currentCategory = params.category;
   state.view = view;
@@ -288,7 +300,7 @@ function renderHomePage() {
         <div class="max-w-6xl mx-auto px-4">
           <div class="flex items-center justify-between h-16">
             <div class="flex items-center gap-3">
-              <span class="text-3xl">✈️</span>
+              <span class="text-3xl">âœˆï¸</span>
               <span class="text-xl font-bold text-white">AeroPath</span>
             </div>
             <div class="flex items-center gap-3">
@@ -310,21 +322,21 @@ function renderHomePage() {
         <div class="absolute inset-0 bg-gradient-to-b from-blue-500/5 via-transparent to-transparent pointer-events-none"></div>
         <div class="max-w-6xl mx-auto px-4 py-20 md:py-32">
           <div class="text-center max-w-3xl mx-auto">
-            <div class="text-7xl md:text-8xl mb-8 animate-float">✈️</div>
+            <div class="text-7xl md:text-8xl mb-8 animate-float">âœˆï¸</div>
             <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
-              Votre formation aéronautique,
+              Votre formation aÃ©ronautique,
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">partout avec vous</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Préparez vos licences PPL, LAPL, CPL, ATPL et IR avec des questions interactives,
-              des leçons détaillées et un suivi personnalisé. Même sans connexion.
+              PrÃ©parez vos licences PPL, LAPL, CPL, ATPL et IR avec des questions interactives,
+              des leÃ§ons dÃ©taillÃ©es et un suivi personnalisÃ©. MÃªme sans connexion.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
               <button onclick="navigate('login-form'); setTimeout(() => document.getElementById('tab-register')?.click(), 100)" class="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl text-lg transition-all shadow-xl shadow-blue-600/30 hover:shadow-blue-600/50 hover:scale-105">
-                🚀 Commencer gratuitement
+                ðŸš€ Commencer gratuitement
               </button>
               <button onclick="navigate('login-form')" class="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold rounded-xl text-lg border border-slate-700 transition-all hover:scale-105">
-                👨‍✈️ J'ai déjà un compte
+                ðŸ‘¨â€âœˆï¸ J'ai dÃ©jÃ  un compte
               </button>
             </div>
           </div>
@@ -335,43 +347,43 @@ function renderHomePage() {
       <section class="py-16 md:py-24">
         <div class="max-w-6xl mx-auto px-4">
           <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-4">Pourquoi AeroPath ?</h2>
-          <p class="text-slate-400 text-center mb-16 max-w-xl mx-auto">Une plateforme complète conçue par des pilotes, pour les pilotes</p>
+          <p class="text-slate-400 text-center mb-16 max-w-xl mx-auto">Une plateforme complÃ¨te conÃ§ue par des pilotes, pour les pilotes</p>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-blue-500/30 transition-all group">
-              <div class="w-14 h-14 bg-blue-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-blue-500/20 transition-all">📚</div>
-              <h3 class="text-xl font-bold text-white mb-2">Questions illimitées</h3>
-              <p class="text-slate-400 leading-relaxed">Des milliers de questions couvrant toutes les licences et tous les sujets, avec des explications détaillées pour chaque réponse.</p>
+              <div class="w-14 h-14 bg-blue-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-blue-500/20 transition-all">ðŸ“š</div>
+              <h3 class="text-xl font-bold text-white mb-2">Questions illimitÃ©es</h3>
+              <p class="text-slate-400 leading-relaxed">Des milliers de questions couvrant toutes les licences et tous les sujets, avec des explications dÃ©taillÃ©es pour chaque rÃ©ponse.</p>
             </div>
 
             <div class="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-blue-500/30 transition-all group">
-              <div class="w-14 h-14 bg-purple-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-purple-500/20 transition-all">📖</div>
-              <h3 class="text-xl font-bold text-white mb-2">Leçons interactives</h3>
-              <p class="text-slate-400 leading-relaxed">Apprenez à votre rythme avec des leçons structurées, quiz intégrés et suivi de progression détaillé.</p>
+              <div class="w-14 h-14 bg-purple-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-purple-500/20 transition-all">ðŸ“–</div>
+              <h3 class="text-xl font-bold text-white mb-2">LeÃ§ons interactives</h3>
+              <p class="text-slate-400 leading-relaxed">Apprenez Ã  votre rythme avec des leÃ§ons structurÃ©es, quiz intÃ©grÃ©s et suivi de progression dÃ©taillÃ©.</p>
             </div>
 
             <div class="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-blue-500/30 transition-all group">
-              <div class="w-14 h-14 bg-green-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-green-500/20 transition-all">📊</div>
-              <h3 class="text-xl font-bold text-white mb-2">Suivi personnalisé</h3>
-              <p class="text-slate-400 leading-relaxed">Statistiques détaillées, recommandations intelligentes et répétition espacée pour optimiser votre apprentissage.</p>
+              <div class="w-14 h-14 bg-green-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-green-500/20 transition-all">ðŸ“Š</div>
+              <h3 class="text-xl font-bold text-white mb-2">Suivi personnalisÃ©</h3>
+              <p class="text-slate-400 leading-relaxed">Statistiques dÃ©taillÃ©es, recommandations intelligentes et rÃ©pÃ©tition espacÃ©e pour optimiser votre apprentissage.</p>
             </div>
 
             <div class="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-blue-500/30 transition-all group">
-              <div class="w-14 h-14 bg-amber-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-amber-500/20 transition-all">📡</div>
+              <div class="w-14 h-14 bg-amber-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-amber-500/20 transition-all">ðŸ“¡</div>
               <h3 class="text-xl font-bold text-white mb-2">Mode hors-ligne</h3>
-              <p class="text-slate-400 leading-relaxed">Continuez à réviser même en vol ou dans les zones sans réseau. Synchronisation automatique à la reconnexion.</p>
+              <p class="text-slate-400 leading-relaxed">Continuez Ã  rÃ©viser mÃªme en vol ou dans les zones sans rÃ©seau. Synchronisation automatique Ã  la reconnexion.</p>
             </div>
 
             <div class="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-blue-500/30 transition-all group">
-              <div class="w-14 h-14 bg-red-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-red-500/20 transition-all">🎯</div>
+              <div class="w-14 h-14 bg-red-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-red-500/20 transition-all">ðŸŽ¯</div>
               <h3 class="text-xl font-bold text-white mb-2">Recommandations IA</h3>
-              <p class="text-slate-400 leading-relaxed">Notre moteur analyse vos résultats et vous suggère les sujets à réviser pour progresser plus vite.</p>
+              <p class="text-slate-400 leading-relaxed">Notre moteur analyse vos rÃ©sultats et vous suggÃ¨re les sujets Ã  rÃ©viser pour progresser plus vite.</p>
             </div>
 
             <div class="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-blue-500/30 transition-all group">
-              <div class="w-14 h-14 bg-cyan-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-cyan-500/20 transition-all">🏆</div>
+              <div class="w-14 h-14 bg-cyan-500/10 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-cyan-500/20 transition-all">ðŸ†</div>
               <h3 class="text-xl font-bold text-white mb-2">Toutes les licences</h3>
-              <p class="text-slate-400 leading-relaxed">PPL, LAPL, CPL, ATPL, IR — préparez toutes vos certifications au même endroit.</p>
+              <p class="text-slate-400 leading-relaxed">PPL, LAPL, CPL, ATPL, IR â€” prÃ©parez toutes vos certifications au mÃªme endroit.</p>
             </div>
           </div>
         </div>
@@ -387,7 +399,7 @@ function renderHomePage() {
             </div>
             <div>
               <div class="text-4xl font-bold text-white mb-1">+200</div>
-              <div class="text-slate-400 text-sm">Leçons</div>
+              <div class="text-slate-400 text-sm">LeÃ§ons</div>
             </div>
             <div>
               <div class="text-4xl font-bold text-white mb-1">6</div>
@@ -405,23 +417,23 @@ function renderHomePage() {
       <section class="py-16 md:py-24">
         <div class="max-w-6xl mx-auto px-4">
           <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-4">Licences disponibles</h2>
-          <p class="text-slate-400 text-center mb-16 max-w-xl mx-auto">Du pilote privé au transport aérien, nous couvrons toutes les étapes</p>
+          <p class="text-slate-400 text-center mb-16 max-w-xl mx-auto">Du pilote privÃ© au transport aÃ©rien, nous couvrons toutes les Ã©tapes</p>
 
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="bg-gradient-to-br from-blue-900/20 to-slate-800 rounded-xl p-6 border border-blue-800/30">
-              <div class="text-3xl mb-3">🛩️</div>
+              <div class="text-3xl mb-3">ðŸ›©ï¸</div>
               <h3 class="text-lg font-bold text-white mb-1">PPL / LAPL</h3>
-              <p class="text-sm text-slate-400">Pilote Privé — La base de l'aviation</p>
+              <p class="text-sm text-slate-400">Pilote PrivÃ© â€” La base de l'aviation</p>
             </div>
             <div class="bg-gradient-to-br from-purple-900/20 to-slate-800 rounded-xl p-6 border border-purple-800/30">
-              <div class="text-3xl mb-3">✈️</div>
+              <div class="text-3xl mb-3">âœˆï¸</div>
               <h3 class="text-lg font-bold text-white mb-1">CPL</h3>
-              <p class="text-sm text-slate-400">Pilote Professionnel — Faites de votre passion un métier</p>
+              <p class="text-sm text-slate-400">Pilote Professionnel â€” Faites de votre passion un mÃ©tier</p>
             </div>
             <div class="bg-gradient-to-br from-amber-900/20 to-slate-800 rounded-xl p-6 border border-amber-800/30">
-              <div class="text-3xl mb-3">🛫</div>
+              <div class="text-3xl mb-3">ðŸ›«</div>
               <h3 class="text-lg font-bold text-white mb-1">ATPL / IR</h3>
-              <p class="text-sm text-slate-400">Transport Aérien & Vol aux Instruments — Le plus haut niveau</p>
+              <p class="text-sm text-slate-400">Transport AÃ©rien & Vol aux Instruments â€” Le plus haut niveau</p>
             </div>
           </div>
         </div>
@@ -431,11 +443,11 @@ function renderHomePage() {
       <section class="py-16 md:py-24">
         <div class="max-w-4xl mx-auto px-4 text-center">
           <div class="bg-gradient-to-br from-blue-600/10 to-cyan-600/10 rounded-3xl p-10 md:p-16 border border-blue-500/20">
-            <div class="text-6xl mb-6">✈️</div>
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Prêt à décoller ?</h2>
-            <p class="text-lg text-slate-400 mb-8 max-w-lg mx-auto">Rejoignez des centaines de pilotes qui préparent leur licence avec AeroPath</p>
+            <div class="text-6xl mb-6">âœˆï¸</div>
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">PrÃªt Ã  dÃ©coller ?</h2>
+            <p class="text-lg text-slate-400 mb-8 max-w-lg mx-auto">Rejoignez des centaines de pilotes qui prÃ©parent leur licence avec AeroPath</p>
             <button onclick="navigate('login-form'); setTimeout(() => document.getElementById('tab-register')?.click(), 100)" class="px-10 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl text-lg transition-all shadow-xl shadow-blue-600/30 hover:shadow-blue-600/50 hover:scale-105">
-              🚀 Créer mon compte gratuit
+              ðŸš€ CrÃ©er mon compte gratuit
             </button>
           </div>
         </div>
@@ -445,11 +457,11 @@ function renderHomePage() {
       <footer class="border-t border-slate-800 py-8">
         <div class="max-w-6xl mx-auto px-4 text-center">
           <div class="flex items-center justify-center gap-2 mb-4">
-            <span class="text-xl">✈️</span>
+            <span class="text-xl">âœˆï¸</span>
             <span class="font-bold text-white">AeroPath</span>
           </div>
-          <p class="text-slate-500 text-sm">Formation aéronautique pour pilotes — PPL, LAPL, CPL, ATPL, IR</p>
-          <p class="text-slate-600 text-xs mt-2">© ${new Date().getFullYear()} AeroPath. Tous droits réservés.</p>
+          <p class="text-slate-500 text-sm">Formation aÃ©ronautique pour pilotes â€” PPL, LAPL, CPL, ATPL, IR</p>
+          <p class="text-slate-600 text-xs mt-2">Â© ${new Date().getFullYear()} AeroPath. Tous droits rÃ©servÃ©s.</p>
         </div>
       </footer>
     </div>
@@ -481,9 +493,9 @@ function renderLogin() {
     <div class="min-h-screen bg-slate-900 flex items-center justify-center p-4">
       <div class="w-full max-w-md">
         <div class="text-center mb-8">
-          <div class="text-5xl mb-4">✈️</div>
+          <div class="text-5xl mb-4">âœˆï¸</div>
           <h1 class="text-3xl font-bold text-white">AeroPath</h1>
-          <p class="text-slate-400 mt-2">Formation aéronautique</p>
+          <p class="text-slate-400 mt-2">Formation aÃ©ronautique</p>
         </div>
 
         <div class="bg-slate-800 rounded-xl p-6 shadow-xl">
@@ -499,7 +511,7 @@ function renderLogin() {
             </div>
             <div class="mb-6">
               <label class="block text-sm text-slate-400 mb-1">Mot de passe</label>
-              <input type="password" id="password" class="w-full bg-slate-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="••••••••" required minlength="8">
+              <input type="password" id="password" class="w-full bg-slate-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" required minlength="8">
             </div>
             <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 rounded-lg transition">
               Se connecter
@@ -508,7 +520,7 @@ function renderLogin() {
         </div>
 
         <p class="text-center text-slate-500 text-sm mt-4">
-          ✈️ Apprenez où que vous soyez, même sans connexion
+          âœˆï¸ Apprenez oÃ¹ que vous soyez, mÃªme sans connexion
         </p>
       </div>
     </div>
@@ -529,7 +541,7 @@ function bindLoginEvents() {
     isLogin = false;
     document.getElementById("tab-register").className = "flex-1 py-2 text-center font-medium rounded-r-lg bg-blue-600 text-white";
     document.getElementById("tab-login").className = "flex-1 py-2 text-center font-medium rounded-l-lg bg-slate-700 text-slate-300";
-    document.querySelector("#auth-form button").textContent = "Créer un compte";
+    document.querySelector("#auth-form button").textContent = "CrÃ©er un compte";
   });
 
   document.getElementById("auth-form")?.addEventListener("submit", (e) => {
@@ -551,18 +563,18 @@ function renderNav() {
       <div class="max-w-6xl mx-auto px-4">
         <div class="flex items-center justify-between h-14">
           <div class="flex items-center gap-2">
-            <span class="text-xl">✈️</span>
+            <span class="text-xl">âœˆï¸</span>
             <span class="font-bold text-white">AeroPath</span>
           </div>
           <div class="flex items-center gap-1">
             <button onclick="navigate('dashboard')" class="nav-btn px-3 py-1.5 rounded-lg text-sm ${state.view === 'dashboard' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-700'}">Accueil</button>
             <button onclick="navigate('questions')" class="nav-btn px-3 py-1.5 rounded-lg text-sm ${state.view === 'questions' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-700'}">Questions</button>
-            <button onclick="navigate('lessons')" class="nav-btn px-3 py-1.5 rounded-lg text-sm ${state.view === 'lessons' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-700'}">Leçons</button>
+            <button onclick="navigate('lessons')" class="nav-btn px-3 py-1.5 rounded-lg text-sm ${state.view === 'lessons' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-700'}">LeÃ§ons</button>
             <button onclick="navigate('history')" class="nav-btn px-3 py-1.5 rounded-lg text-sm ${state.view === 'history' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-700'}">Historique</button>
             <button onclick="navigate('stats')" class="nav-btn px-3 py-1.5 rounded-lg text-sm ${state.view === 'stats' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-700'}">Stats</button>
             <button onclick="navigate('recommendations')" class="nav-btn px-3 py-1.5 rounded-lg text-sm ${state.view === 'recommendations' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-700'}">Recommandations</button>
             ${renderLanguageSelector()}
-            <button onclick="logout()" class="ml-2 px-3 py-1.5 rounded-lg text-sm text-red-400 hover:bg-red-900/30">Déconnexion</button>
+            <button onclick="logout()" class="ml-2 px-3 py-1.5 rounded-lg text-sm text-red-400 hover:bg-red-900/30">DÃ©connexion</button>
           </div>
 
         </div>
@@ -577,25 +589,25 @@ function renderDashboard() {
     ${renderNav()}
     <div class="max-w-6xl mx-auto p-4">
       <div class="mb-6">
-        <h1 class="text-2xl font-bold text-white">Bonjour ${currentUser?.email || "pilote"} 👋</h1>
-        <p class="text-slate-400">Prêt à réviser ?</p>
+        <h1 class="text-2xl font-bold text-white">Bonjour ${currentUser?.email || "pilote"} ðŸ‘‹</h1>
+        <p class="text-slate-400">PrÃªt Ã  rÃ©viser ?</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
         <div class="bg-slate-800 rounded-xl p-4">
-          <div class="text-3xl mb-2">📚</div>
+          <div class="text-3xl mb-2">ðŸ“š</div>
           <div class="text-2xl font-bold text-white" id="dash-questions">-</div>
           <div class="text-sm text-slate-400">Questions</div>
         </div>
         <div class="bg-slate-800 rounded-xl p-4">
-          <div class="text-3xl mb-2">📖</div>
+          <div class="text-3xl mb-2">ðŸ“–</div>
           <div class="text-2xl font-bold text-white" id="dash-lessons">-</div>
-          <div class="text-sm text-slate-400">Leçons</div>
+          <div class="text-sm text-slate-400">LeÃ§ons</div>
         </div>
         <div class="bg-slate-800 rounded-xl p-4">
-          <div class="text-3xl mb-2">✅</div>
+          <div class="text-3xl mb-2">âœ…</div>
           <div class="text-2xl font-bold text-white" id="dash-answers">-</div>
-          <div class="text-sm text-slate-400">Réponses</div>
+          <div class="text-sm text-slate-400">RÃ©ponses</div>
         </div>
       </div>
 
@@ -603,19 +615,19 @@ function renderDashboard() {
         <h2 class="text-lg font-bold text-white mb-3">Actions rapides</h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
           <button onclick="startRandomQuiz()" class="bg-blue-600 hover:bg-blue-700 text-white rounded-lg p-3 text-center transition">
-            <div class="text-2xl mb-1">🎲</div>
-            <div class="text-sm">Question aléatoire</div>
+            <div class="text-2xl mb-1">ðŸŽ²</div>
+            <div class="text-sm">Question alÃ©atoire</div>
           </button>
           <button onclick="navigate('questions')" class="bg-purple-600 hover:bg-purple-700 text-white rounded-lg p-3 text-center transition">
-            <div class="text-2xl mb-1">📋</div>
+            <div class="text-2xl mb-1">ðŸ“‹</div>
             <div class="text-sm">Toutes les questions</div>
           </button>
           <button onclick="navigate('lessons')" class="bg-green-600 hover:bg-green-700 text-white rounded-lg p-3 text-center transition">
-            <div class="text-2xl mb-1">📖</div>
-            <div class="text-sm">Leçons</div>
+            <div class="text-2xl mb-1">ðŸ“–</div>
+            <div class="text-sm">LeÃ§ons</div>
           </button>
           <button onclick="navigate('recommendations')" class="bg-amber-600 hover:bg-amber-700 text-white rounded-lg p-3 text-center transition">
-            <div class="text-2xl mb-1">🎯</div>
+            <div class="text-2xl mb-1">ðŸŽ¯</div>
             <div class="text-sm">Recommandations</div>
           </button>
         </div>
@@ -660,7 +672,7 @@ async function loadDashboardData() {
             <span class="text-red-400 font-medium">${recs.WeakTopics?.length || 0}</span>
           </div>
           <div class="flex justify-between text-sm">
-            <span class="text-slate-400">Cartes à réviser</span>
+            <span class="text-slate-400">Cartes Ã  rÃ©viser</span>
             <span class="text-amber-400 font-medium">${recs.DueCards?.length || 0}</span>
           </div>
           <div class="flex justify-between text-sm">
@@ -673,30 +685,30 @@ async function loadDashboardData() {
   }
 }
 
-// ======================== LICENCES & CATÉGORIES ========================
+// ======================== LICENCES & CATÃ‰GORIES ========================
 const LICENSES = [
-  { id: "PPL", label: "PPL", icon: "🛩️", desc: "Pilote Privé" },
-  { id: "LAPL", label: "LAPL", icon: "🛩️", desc: "Pilote Privé Léger" },
-  { id: "CPL", label: "CPL", icon: "✈️", desc: "Pilote Professionnel" },
-  { id: "ATPL", label: "ATPL", icon: "🛫", desc: "Transport Aérien" },
-  { id: "IR", label: "IR", icon: "🛬", desc: "Vol aux Instruments" },
+  { id: "PPL", label: "PPL", icon: "ðŸ›©ï¸", desc: "Pilote PrivÃ©" },
+  { id: "LAPL", label: "LAPL", icon: "ðŸ›©ï¸", desc: "Pilote PrivÃ© LÃ©ger" },
+  { id: "CPL", label: "CPL", icon: "âœˆï¸", desc: "Pilote Professionnel" },
+  { id: "ATPL", label: "ATPL", icon: "ðŸ›«", desc: "Transport AÃ©rien" },
+  { id: "IR", label: "IR", icon: "ðŸ›¬", desc: "Vol aux Instruments" },
 ];
 
 const CATEGORIES = [
-  { id: "meteorology", label: "Météorologie", icon: "🌤️" },
-  { id: "navigation", label: "Navigation", icon: "🧭" },
-  { id: "airlaw", label: "Réglementation", icon: "⚖️" },
-  { id: "aircraft_general", label: "Connaissance Aéronef", icon: "🔧" },
-  { id: "performance", label: "Performance", icon: "📈" },
-  { id: "human_performance", label: "Facteurs Humains", icon: "🧠" },
-  { id: "operational_procedures", label: "Procédures", icon: "📋" },
-  { id: "communications", label: "Communications", icon: "📡" },
-  { id: "principles_of_flight", label: "Principes du Vol", icon: "🛩️" },
-  { id: "flight_planning", label: "Planification", icon: "📋" },
-  { id: "instrumentation", label: "Instruments", icon: "📟" },
-  { id: "emergency", label: "Urgences", icon: "🆘" },
-  { id: "mass_and_balance", label: "Masse & Centrage", icon: "⚖️" },
-  { id: "radio_procedure", label: "Procédures Radio", icon: "📡" },
+  { id: "meteorology", label: "MÃ©tÃ©orologie", icon: "ðŸŒ¤ï¸" },
+  { id: "navigation", label: "Navigation", icon: "ðŸ§­" },
+  { id: "airlaw", label: "RÃ©glementation", icon: "âš–ï¸" },
+  { id: "aircraft_general", label: "Connaissance AÃ©ronef", icon: "ðŸ”§" },
+  { id: "performance", label: "Performance", icon: "ðŸ“ˆ" },
+  { id: "human_performance", label: "Facteurs Humains", icon: "ðŸ§ " },
+  { id: "operational_procedures", label: "ProcÃ©dures", icon: "ðŸ“‹" },
+  { id: "communications", label: "Communications", icon: "ðŸ“¡" },
+  { id: "principles_of_flight", label: "Principes du Vol", icon: "ðŸ›©ï¸" },
+  { id: "flight_planning", label: "Planification", icon: "ðŸ“‹" },
+  { id: "instrumentation", label: "Instruments", icon: "ðŸ“Ÿ" },
+  { id: "emergency", label: "Urgences", icon: "ðŸ†˜" },
+  { id: "mass_and_balance", label: "Masse & Centrage", icon: "âš–ï¸" },
+  { id: "radio_procedure", label: "ProcÃ©dures Radio", icon: "ðŸ“¡" },
 ];
 
 // ======================== QUESTIONS ========================
@@ -706,7 +718,7 @@ function renderQuestions() {
     <div class="max-w-6xl mx-auto p-4">
       <div class="flex justify-between items-center mb-6">
         <h1 class="text-2xl font-bold text-white">Questions</h1>
-        <button onclick="startRandomQuiz()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm">🎲 Question aléatoire</button>
+        <button onclick="startRandomQuiz()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm">ðŸŽ² Question alÃ©atoire</button>
       </div>
 
       <!-- Grille des licences -->
@@ -721,8 +733,8 @@ function renderQuestions() {
         `).join("")}
       </div>
 
-      <!-- Questions récentes -->
-      <h2 class="text-lg font-semibold text-slate-300 mb-3">Dernières questions</h2>
+      <!-- Questions rÃ©centes -->
+      <h2 class="text-lg font-semibold text-slate-300 mb-3">DerniÃ¨res questions</h2>
       <div id="questions-list" class="space-y-3">
         <p class="text-slate-400">Chargement...</p>
       </div>
@@ -743,7 +755,7 @@ function renderQuestionsList(questions) {
   if (!el) return;
 
   if (!questions || questions.length === 0) {
-    el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune question trouvée</p>';
+    el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune question trouvÃ©e</p>';
     return;
   }
 
@@ -759,7 +771,7 @@ function renderQuestionsList(questions) {
             <span class="text-xs bg-green-900 text-green-300 px-2 py-0.5 rounded">${q.theme || "-"}</span>
           </div>
         </div>
-        <span class="text-slate-500 ml-2">›</span>
+        <span class="text-slate-500 ml-2">â€º</span>
       </div>
     </div>
   `).join("");
@@ -768,12 +780,12 @@ function renderQuestionsList(questions) {
 // ======================== QUESTIONS PAR LICENCE ========================
 function renderQuestionsByLicense() {
   const licenseId = state.currentLicense;
-  const license = LICENSES.find(l => l.id === licenseId) || { id: licenseId, label: licenseId, icon: "📋", desc: "" };
+  const license = LICENSES.find(l => l.id === licenseId) || { id: licenseId, label: licenseId, icon: "ðŸ“‹", desc: "" };
   return `
     ${renderNav()}
     <div class="max-w-6xl mx-auto p-4">
       <button onclick="navigate('questions')" class="text-slate-400 hover:text-white mb-4 flex items-center gap-1">
-        ← Retour aux licences
+        â† Retour aux licences
       </button>
       <div class="flex items-center gap-3 mb-6">
         <span class="text-4xl">${license.icon}</span>
@@ -783,7 +795,7 @@ function renderQuestionsByLicense() {
         </div>
       </div>
 
-      <h2 class="text-lg font-semibold text-slate-300 mb-3">Choisis une catégorie</h2>
+      <h2 class="text-lg font-semibold text-slate-300 mb-3">Choisis une catÃ©gorie</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mb-8">
         ${CATEGORIES.map(c => `
           <button onclick="navigate('questions-category', {license: '${licenseId}', category: '${c.id}'}); setTimeout(() => loadQuestionsByCategory('${licenseId}', '${c.id}'), 50)" class="bg-slate-800 hover:bg-slate-700 rounded-xl p-4 text-left transition border border-slate-700 hover:border-purple-500/50">
@@ -812,7 +824,7 @@ async function loadQuestionsByLicense(licenseId) {
   if (data?.questions) {
     renderQuestionsLicenseList(data.questions);
   }
-  // Compter les questions par catégorie depuis les données déjà récupérées
+  // Compter les questions par catÃ©gorie depuis les donnÃ©es dÃ©jÃ  rÃ©cupÃ©rÃ©es
   if (data?.questions) {
     CATEGORIES.forEach((c) => {
       const count = data.questions.filter(q => q.category === c.id).length;
@@ -840,23 +852,23 @@ function renderQuestionsLicenseList(questions) {
             <span class="text-xs bg-green-900 text-green-300 px-2 py-0.5 rounded">${q.theme || "-"}</span>
           </div>
         </div>
-        <span class="text-slate-500 ml-2">›</span>
+        <span class="text-slate-500 ml-2">â€º</span>
       </div>
     </div>
   `).join("");
 }
 
-// ======================== QUESTIONS PAR CATÉGORIE ========================
+// ======================== QUESTIONS PAR CATÃ‰GORIE ========================
 function renderQuestionsByCategory() {
   const licenseId = state.currentLicense;
   const catId = state.currentCategory;
-  const license = LICENSES.find(l => l.id === licenseId) || { id: licenseId, label: licenseId, icon: "📋" };
-  const cat = CATEGORIES.find(c => c.id === catId) || { id: catId, label: catId, icon: "📋" };
+  const license = LICENSES.find(l => l.id === licenseId) || { id: licenseId, label: licenseId, icon: "ðŸ“‹" };
+  const cat = CATEGORIES.find(c => c.id === catId) || { id: catId, label: catId, icon: "ðŸ“‹" };
   return `
     ${renderNav()}
     <div class="max-w-6xl mx-auto p-4">
       <button onclick="navigate('questions-license'); setTimeout(() => loadQuestionsByLicense('${licenseId}'), 50)" class="text-slate-400 hover:text-white mb-4 flex items-center gap-1">
-        ← Retour à ${license.label}
+        â† Retour Ã  ${license.label}
       </button>
       <div class="flex items-center gap-3 mb-6">
         <span class="text-4xl">${cat.icon}</span>
@@ -866,7 +878,7 @@ function renderQuestionsByCategory() {
         </div>
       </div>
       <div class="flex gap-2 mb-4">
-        <button onclick="startCategoryQuiz('${licenseId}', '${catId}')" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm">🎲 Quiz sur cette catégorie</button>
+        <button onclick="startCategoryQuiz('${licenseId}', '${catId}')" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm">ðŸŽ² Quiz sur cette catÃ©gorie</button>
       </div>
       <div id="questions-category-list" class="space-y-3">
         <p class="text-slate-400">Chargement...</p>
@@ -888,7 +900,7 @@ function renderQuestionsCategoryList(questions) {
   const el = document.getElementById("questions-category-list");
   if (!el) return;
   if (!questions || questions.length === 0) {
-    el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune question dans cette catégorie</p>';
+    el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune question dans cette catÃ©gorie</p>';
     return;
   }
   el.innerHTML = questions.map((q) => `
@@ -901,7 +913,7 @@ function renderQuestionsCategoryList(questions) {
             <span class="text-xs bg-green-900 text-green-300 px-2 py-0.5 rounded">${q.theme || "-"}</span>
           </div>
         </div>
-        <span class="text-slate-500 ml-2">›</span>
+        <span class="text-slate-500 ml-2">â€º</span>
       </div>
     </div>
   `).join("");
@@ -928,8 +940,8 @@ function renderQuestionDetail() {
   return `
     ${renderNav()}
     <div class="max-w-3xl mx-auto p-4">
-      <button onclick="history.back()" class="text-slate-400 hover:text-white mb-4 flex items-center gap-1">
-        ← Retour
+      <button onclick="goBack()" class="text-slate-400 hover:text-white mb-4 flex items-center gap-1">
+        â† Retour
       </button>
       <div id="question-detail-content" class="bg-slate-800 rounded-xl p-6">
         <p class="text-slate-400">Chargement...</p>
@@ -938,9 +950,9 @@ function renderQuestionDetail() {
   `;
 }
 
-// Charger le détail de la question après le rendu
+// Charger le dÃ©tail de la question aprÃ¨s le rendu
 document.addEventListener("DOMContentLoaded", () => {
-  // On utilise un MutationObserver pour détecter quand la page question-detail est rendue
+  // On utilise un MutationObserver pour dÃ©tecter quand la page question-detail est rendue
   const observer = new MutationObserver(() => {
     if (state.view === "question-detail" && state.currentQuestion) {
       loadQuestionDetail(state.currentQuestion);
@@ -981,16 +993,16 @@ async function loadQuestionDetail(id) {
 }
 
 async function selectOption(questionId, selected, btn) {
-  // Désactiver tous les boutons
+  // DÃ©sactiver tous les boutons
   document.querySelectorAll(`#question-detail-content button[data-option]`).forEach(b => {
     b.disabled = true;
     b.className = b.className.replace('hover:bg-slate-600', '');
   });
 
-  // Marquer la sélection
+  // Marquer la sÃ©lection
   btn.className = btn.className.replace('border-transparent', 'border-blue-500');
 
-  // Utiliser l'API de vérification de réponse (POST /api/questions/answer)
+  // Utiliser l'API de vÃ©rification de rÃ©ponse (POST /api/questions/answer)
   const data = await api("/api/questions/answer", {
     method: "POST",
     body: JSON.stringify({ question_id: questionId, answer: selected }),
@@ -1017,15 +1029,15 @@ async function selectOption(questionId, selected, btn) {
   resultEl.className = `mt-4 p-4 rounded-lg ${isCorrect ? 'bg-green-900/30' : 'bg-red-900/30'}`;
   resultEl.innerHTML = `
     <p class="${isCorrect ? 'text-green-400' : 'text-red-400'} font-bold text-lg mb-2">
-      ${isCorrect ? '✅ Correct !' : '❌ Faux'}
+      ${isCorrect ? 'âœ… Correct !' : 'âŒ Faux'}
     </p>
-    <p class="text-green-400 font-medium mb-2">Réponse correcte : ${data.correct_answer || "?"}</p>
+    <p class="text-green-400 font-medium mb-2">RÃ©ponse correcte : ${data.correct_answer || "?"}</p>
     ${data.explanation_fr ? `<p class="text-slate-300 mt-2">${data.explanation_fr}</p>` : ""}
     ${data.explanation_en ? `<p class="text-slate-300 mt-2">${data.explanation_en}</p>` : ""}
   `;
 }
 
-// ======================== QUIZ ALÉATOIRE ========================
+// ======================== QUIZ ALÃ‰ATOIRE ========================
 async function startRandomQuiz() {
   const data = await api("/api/questions/random?limit=5");
   if (data?.questions) {
@@ -1081,14 +1093,14 @@ function renderQuiz() {
         ${fb ? `
           <div class="p-4 rounded-lg ${fb.correct ? 'bg-green-900/30' : 'bg-red-900/30'} mb-4">
             <p class="${fb.correct ? 'text-green-400' : 'text-red-400'} font-bold text-lg mb-2">
-              ${fb.correct ? '✅ Correct !' : '❌ Faux'}
+              ${fb.correct ? 'âœ… Correct !' : 'âŒ Faux'}
             </p>
-            <p class="text-green-400 font-medium mb-2">Réponse correcte : ${fb.correct_answer}</p>
+            <p class="text-green-400 font-medium mb-2">RÃ©ponse correcte : ${fb.correct_answer}</p>
             ${fb.explanation_fr ? `<p class="text-slate-300 mt-2">${fb.explanation_fr}</p>` : ""}
             ${fb.explanation_en ? `<p class="text-slate-300 mt-2">${fb.explanation_en}</p>` : ""}
           </div>
           <button onclick="nextQuizQuestion()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 rounded-lg transition text-lg">
-            ${state.quizIndex + 1 >= state.quizQuestions.length ? '📊 Voir les résultats' : '➡️ Question suivante'}
+            ${state.quizIndex + 1 >= state.quizQuestions.length ? 'ðŸ“Š Voir les rÃ©sultats' : 'âž¡ï¸ Question suivante'}
           </button>
         ` : ''}
       </div>
@@ -1128,10 +1140,10 @@ function renderQuizResult() {
     ${renderNav()}
     <div class="max-w-2xl mx-auto p-4 text-center">
       <div class="bg-slate-800 rounded-xl p-8">
-        <div class="text-6xl mb-4">${pct >= 80 ? "🎉" : pct >= 50 ? "👍" : "📚"}</div>
-        <h2 class="text-2xl font-bold text-white mb-2">Quiz terminé !</h2>
+        <div class="text-6xl mb-4">${pct >= 80 ? "ðŸŽ‰" : pct >= 50 ? "ðŸ‘" : "ðŸ“š"}</div>
+        <h2 class="text-2xl font-bold text-white mb-2">Quiz terminÃ© !</h2>
         <p class="text-4xl font-bold text-blue-400 mb-2">${pct}%</p>
-        <p class="text-slate-400 mb-6">${state.quizScore}/${state.quizQuestions.length} bonnes réponses</p>
+        <p class="text-slate-400 mb-6">${state.quizScore}/${state.quizQuestions.length} bonnes rÃ©ponses</p>
         <div class="flex gap-3 justify-center">
           <button onclick="startRandomQuiz()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg">Rejouer</button>
           <button onclick="navigate('dashboard')" class="bg-slate-700 hover:bg-slate-600 text-white px-6 py-2 rounded-lg">Accueil</button>
@@ -1176,19 +1188,19 @@ async function loadHistory() {
           </div>
         </div>
         <span class="ml-3 ${h.was_correct ? 'text-green-400' : 'text-red-400'} font-medium text-sm">
-          ${h.was_correct ? "✅" : "❌"}
+          ${h.was_correct ? "âœ…" : "âŒ"}
         </span>
       </div>
     `).join("");
   }
 }
 
-// ======================== LEÇONS ========================
+// ======================== LEÃ‡ONS ========================
 function renderLessons() {
   return `
     ${renderNav()}
     <div class="max-w-6xl mx-auto p-4">
-      <h1 class="text-2xl font-bold text-white mb-6">Leçons</h1>
+      <h1 class="text-2xl font-bold text-white mb-6">LeÃ§ons</h1>
 
       <!-- Grille des licences -->
       <h2 class="text-lg font-semibold text-slate-300 mb-3">Choisis une licence</h2>
@@ -1202,8 +1214,8 @@ function renderLessons() {
         `).join("")}
       </div>
 
-      <!-- Dernières leçons -->
-      <h2 class="text-lg font-semibold text-slate-300 mb-3">Dernières leçons</h2>
+      <!-- DerniÃ¨res leÃ§ons -->
+      <h2 class="text-lg font-semibold text-slate-300 mb-3">DerniÃ¨res leÃ§ons</h2>
       <div id="lessons-list" class="space-y-3">
         <p class="text-slate-400">Chargement...</p>
       </div>
@@ -1221,7 +1233,7 @@ async function loadLessons() {
     renderLessonsList(data);
   } else {
     const el = document.getElementById("lessons-list");
-    if (el) el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leçon trouvée</p>';
+    if (el) el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leÃ§on trouvÃ©e</p>';
   }
 }
 
@@ -1230,7 +1242,7 @@ function renderLessonsList(lessons) {
   if (!el) return;
 
   if (!lessons || lessons.length === 0) {
-    el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leçon trouvée</p>';
+    el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leÃ§on trouvÃ©e</p>';
     return;
   }
 
@@ -1246,15 +1258,15 @@ function renderLessonsList(lessons) {
   `).join("");
 }
 
-// ======================== LEÇONS PAR LICENCE ========================
+// ======================== LEÃ‡ONS PAR LICENCE ========================
 function renderLessonsByLicense() {
   const licenseId = state.currentLicense;
-  const license = LICENSES.find(l => l.id === licenseId) || { id: licenseId, label: licenseId, icon: "📋", desc: "" };
+  const license = LICENSES.find(l => l.id === licenseId) || { id: licenseId, label: licenseId, icon: "ðŸ“‹", desc: "" };
   return `
     ${renderNav()}
     <div class="max-w-6xl mx-auto p-4">
       <button onclick="navigate('lessons')" class="text-slate-400 hover:text-white mb-4 flex items-center gap-1">
-        ← Retour aux licences
+        â† Retour aux licences
       </button>
       <div class="flex items-center gap-3 mb-6">
         <span class="text-4xl">${license.icon}</span>
@@ -1264,7 +1276,7 @@ function renderLessonsByLicense() {
         </div>
       </div>
 
-      <h2 class="text-lg font-semibold text-slate-300 mb-3">Choisis une catégorie</h2>
+      <h2 class="text-lg font-semibold text-slate-300 mb-3">Choisis une catÃ©gorie</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mb-8">
         ${CATEGORIES.map(c => `
           <button onclick="navigate('lessons-category', {license: '${licenseId}', category: '${c.id}'}); setTimeout(() => loadLessonsByCategory('${licenseId}', '${c.id}'), 50)" class="bg-slate-800 hover:bg-slate-700 rounded-xl p-4 text-left transition border border-slate-700 hover:border-green-500/50">
@@ -1279,7 +1291,7 @@ function renderLessonsByLicense() {
         `).join("")}
       </div>
 
-      <h2 class="text-lg font-semibold text-slate-300 mb-3">Toutes les leçons ${license.label}</h2>
+      <h2 class="text-lg font-semibold text-slate-300 mb-3">Toutes les leÃ§ons ${license.label}</h2>
       <div id="lessons-license-list" class="space-y-3">
         <p class="text-slate-400">Chargement...</p>
       </div>
@@ -1296,15 +1308,15 @@ async function loadLessonsByLicense(licenseId) {
     renderLessonsLicenseList(data.data);
   } else {
     const el = document.getElementById("lessons-license-list");
-    if (el) el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leçon pour cette licence</p>';
+    if (el) el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leÃ§on pour cette licence</p>';
   }
-  // Compter les leçons par catégorie depuis les données déjà récupérées
+  // Compter les leÃ§ons par catÃ©gorie depuis les donnÃ©es dÃ©jÃ  rÃ©cupÃ©rÃ©es
   const lessonsArr = Array.isArray(data) ? data : (data?.data || []);
   if (lessonsArr.length > 0) {
     CATEGORIES.forEach((c) => {
       const count = lessonsArr.filter(l => l.category === c.id).length;
       const el = document.getElementById(`l-count-${licenseId}-${c.id}`);
-      if (el) el.textContent = `${count} leçons`;
+      if (el) el.textContent = `${count} leÃ§ons`;
     });
   }
 }
@@ -1313,7 +1325,7 @@ function renderLessonsLicenseList(lessons) {
   const el = document.getElementById("lessons-license-list");
   if (!el) return;
   if (!lessons || lessons.length === 0) {
-    el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leçon pour cette licence</p>';
+    el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leÃ§on pour cette licence</p>';
     return;
   }
   el.innerHTML = lessons.map((l) => `
@@ -1327,17 +1339,17 @@ function renderLessonsLicenseList(lessons) {
   `).join("");
 }
 
-// ======================== LEÇONS PAR CATÉGORIE ========================
+// ======================== LEÃ‡ONS PAR CATÃ‰GORIE ========================
 function renderLessonsByCategory() {
   const licenseId = state.currentLicense;
   const catId = state.currentCategory;
-  const license = LICENSES.find(l => l.id === licenseId) || { id: licenseId, label: licenseId, icon: "📋" };
-  const cat = CATEGORIES.find(c => c.id === catId) || { id: catId, label: catId, icon: "📋" };
+  const license = LICENSES.find(l => l.id === licenseId) || { id: licenseId, label: licenseId, icon: "ðŸ“‹" };
+  const cat = CATEGORIES.find(c => c.id === catId) || { id: catId, label: catId, icon: "ðŸ“‹" };
   return `
     ${renderNav()}
     <div class="max-w-6xl mx-auto p-4">
       <button onclick="navigate('lessons-license'); setTimeout(() => loadLessonsByLicense('${licenseId}'), 50)" class="text-slate-400 hover:text-white mb-4 flex items-center gap-1">
-        ← Retour à ${license.label}
+        â† Retour Ã  ${license.label}
       </button>
       <div class="flex items-center gap-3 mb-6">
         <span class="text-4xl">${cat.icon}</span>
@@ -1363,7 +1375,7 @@ async function loadLessonsByCategory(licenseId, categoryId) {
     renderLessonsCategoryList(data.data);
   } else {
     const el = document.getElementById("lessons-category-list");
-    if (el) el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leçon dans cette catégorie</p>';
+    if (el) el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leÃ§on dans cette catÃ©gorie</p>';
   }
 }
 
@@ -1371,7 +1383,7 @@ function renderLessonsCategoryList(lessons) {
   const el = document.getElementById("lessons-category-list");
   if (!el) return;
   if (!lessons || lessons.length === 0) {
-    el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leçon dans cette catégorie</p>';
+    el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leÃ§on dans cette catÃ©gorie</p>';
     return;
   }
   el.innerHTML = lessons.map((l) => `
@@ -1394,8 +1406,8 @@ function renderLessonDetail() {
   return `
     ${renderNav()}
     <div class="max-w-4xl mx-auto p-4">
-      <button onclick="history.back()" class="text-slate-400 hover:text-white mb-4 flex items-center gap-1">
-        ← Retour
+      <button onclick="goBack()" class="text-slate-400 hover:text-white mb-4 flex items-center gap-1">
+        â† Retour
       </button>
       <div id="lesson-detail-content" class="bg-slate-800 rounded-xl p-6">
         <p class="text-slate-400">Chargement...</p>
@@ -1406,7 +1418,7 @@ function renderLessonDetail() {
 
 function renderMarkdown(text) {
   if (!text) return "";
-  // Échapper le HTML
+  // Ã‰chapper le HTML
   let html = text
     .replace(/&/g, "&")
     .replace(/</g, "<")
@@ -1450,7 +1462,7 @@ async function loadLessonDetail(id) {
       <span class="text-xs bg-amber-900 text-amber-300 px-2 py-0.5 rounded">Niv. ${data.difficulty || "?"}</span>
     </div>
     <button onclick="startLessonQuiz('${id}')" class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 rounded-lg transition text-lg">
-      📝 Quiz sur cette leçon
+      ðŸ“ Quiz sur cette leÃ§on
     </button>
   `;
 }
@@ -1490,7 +1502,7 @@ async function loadStats() {
 
   el.innerHTML = `
     <div class="bg-slate-800 rounded-xl p-4">
-      <h3 class="text-white font-medium mb-3">📊 Mes statistiques</h3>
+      <h3 class="text-white font-medium mb-3">ðŸ“Š Mes statistiques</h3>
       ${stats ? `
         <div class="space-y-2 text-sm">
           ${Object.entries(stats).map(([k, v]) => `
@@ -1503,11 +1515,11 @@ async function loadStats() {
       ` : '<p class="text-slate-400">Non disponible</p>'}
     </div>
     <div class="bg-slate-800 rounded-xl p-4">
-      <h3 class="text-white font-medium mb-3">🌍 Global</h3>
+      <h3 class="text-white font-medium mb-3">ðŸŒ Global</h3>
       ${adminStats ? `
         <div class="space-y-2 text-sm">
           <div class="flex justify-between">
-            <span class="text-slate-400">Étudiants</span>
+            <span class="text-slate-400">Ã‰tudiants</span>
             <span class="text-white">${adminStats.students || 0}</span>
           </div>
           <div class="flex justify-between">
@@ -1515,7 +1527,7 @@ async function loadStats() {
             <span class="text-white">${adminStats.questions || 0}</span>
           </div>
           <div class="flex justify-between">
-            <span class="text-slate-400">Réponses</span>
+            <span class="text-slate-400">RÃ©ponses</span>
             <span class="text-white">${adminStats.answers || 0}</span>
           </div>
         </div>
@@ -1551,7 +1563,7 @@ async function loadRecommendations() {
 
   el.innerHTML = `
     <div class="bg-slate-800 rounded-xl p-4">
-      <h3 class="text-white font-medium mb-3">📈 Progression</h3>
+      <h3 class="text-white font-medium mb-3">ðŸ“ˆ Progression</h3>
       <div class="flex justify-between text-sm mb-1">
         <span class="text-slate-400">Globale</span>
         <span class="text-white font-medium">${Math.round(data.Progression || 0)}%</span>
@@ -1563,7 +1575,7 @@ async function loadRecommendations() {
     </div>
 
     <div class="bg-slate-800 rounded-xl p-4">
-      <h3 class="text-white font-medium mb-3">🎯 Sujets à travailler</h3>
+      <h3 class="text-white font-medium mb-3">ðŸŽ¯ Sujets Ã  travailler</h3>
       ${(data.WeakTopics || []).length > 0 ? `
         <div class="space-y-2">
           ${data.WeakTopics.map((t) => `
@@ -1573,26 +1585,26 @@ async function loadRecommendations() {
             </div>
           `).join("")}
         </div>
-      ` : '<p class="text-slate-400">Aucun sujet faible détecté</p>'}
+      ` : '<p class="text-slate-400">Aucun sujet faible dÃ©tectÃ©</p>'}
     </div>
 
     <div class="bg-slate-800 rounded-xl p-4">
-      <h3 class="text-white font-medium mb-3">📅 Cartes à réviser</h3>
+      <h3 class="text-white font-medium mb-3">ðŸ“… Cartes Ã  rÃ©viser</h3>
       ${(data.DueCards || []).length > 0 ? `
         <div class="space-y-2">
           ${data.DueCards.slice(0, 10).map((c) => `
             <div class="bg-slate-700 rounded-lg p-3">
               <p class="text-white text-sm">${c.Question || c.question_fr || c.question_en || "Question"}</p>
-              <p class="text-xs text-slate-500 mt-1">Prochaine révision : ${c.NextReview || c.next_review || "bientôt"}</p>
+              <p class="text-xs text-slate-500 mt-1">Prochaine rÃ©vision : ${c.NextReview || c.next_review || "bientÃ´t"}</p>
             </div>
           `).join("")}
           ${data.DueCards.length > 10 ? `<p class="text-sm text-slate-500 mt-2">Et ${data.DueCards.length - 10} autres...</p>` : ""}
         </div>
-      ` : '<p class="text-slate-400">Tout est à jour ! 🎉</p>'}
+      ` : '<p class="text-slate-400">Tout est Ã  jour ! ðŸŽ‰</p>'}
     </div>
 
     <div class="bg-slate-800 rounded-xl p-4">
-      <h3 class="text-white font-medium mb-3">🏆 Maîtrise par licence</h3>
+      <h3 class="text-white font-medium mb-3">ðŸ† MaÃ®trise par licence</h3>
       ${(data.MasteryByLicense || []).length > 0 ? `
         <div class="space-y-2">
           ${data.MasteryByLicense.map((m) => `
@@ -1607,7 +1619,7 @@ async function loadRecommendations() {
             </div>
           `).join("")}
         </div>
-      ` : '<p class="text-slate-400">Pas encore de données</p>'}
+      ` : '<p class="text-slate-400">Pas encore de donnÃ©es</p>'}
     </div>
   `;
 }
@@ -1639,3 +1651,4 @@ render();
 if (authToken) {
   loadUser().then(() => navigate("dashboard"));
 }
+
