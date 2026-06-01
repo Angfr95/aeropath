@@ -1,4 +1,4 @@
-﻿// ======================== CONFIGURATION ========================
+// ======================== CONFIGURATION ========================
 const API_BASE = "";
 let authToken = localStorage.getItem("aeropath_token");
 let currentUser = null;
@@ -311,7 +311,7 @@ function parseURL(pathname) {
 // Applique les paramètres parsés dans le state et déclenche le rendu
 function applyParsedRoute({ view, params }) {
   state.view = view;
-  if (params.license) state.currentLicense = params.license;
+  if (params.license) state.currentLicense = params.license.toUpperCase();
   else state.currentLicense = null;
   if (params.category) state.currentCategory = params.category;
   else state.currentCategory = null;
