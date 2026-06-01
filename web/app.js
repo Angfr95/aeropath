@@ -990,18 +990,22 @@ async function selectOption(questionId, selected, btn) {
   // Marquer la sélection
   btn.className = btn.className.replace('border-transparent', 'border-blue-500');
 
-  const data = await api(`/api/questions/${questionId}`);
+  // Utiliser l'API de vérification de réponse (POST /api/questions/answer)
+  const data = await api("/api/questions/answer", {
+    method: "POST",
+    body: JSON.stringify({ question_id: questionId, answer: selected }),
+  });
   if (!data) return;
 
   const resultEl = document.getElementById(`answer-result-${questionId}`);
   if (!resultEl) return;
 
-  const isCorrect = selected === data.answer_key;
+  const isCorrect = data.correct;
 
   // Colorer les boutons
   document.querySelectorAll(`#question-detail-content button[data-option]`).forEach(b => {
     const opt = b.getAttribute('data-option');
-    if (opt === data.answer_key) {
+    if (opt === data.correct_answer) {
       b.className = b.className.replace('bg-slate-700', 'bg-green-700');
       b.className = b.className.replace('border-transparent', 'border-green-500');
     } else if (opt === selected && !isCorrect) {
@@ -1015,7 +1019,7 @@ async function selectOption(questionId, selected, btn) {
     <p class="${isCorrect ? 'text-green-400' : 'text-red-400'} font-bold text-lg mb-2">
       ${isCorrect ? '✅ Correct !' : '❌ Faux'}
     </p>
-    <p class="text-green-400 font-medium mb-2">Réponse correcte : ${data.answer_key || "?"}</p>
+    <p class="text-green-400 font-medium mb-2">Réponse correcte : ${data.correct_answer || "?"}</p>
     ${data.explanation_fr ? `<p class="text-slate-300 mt-2">${data.explanation_fr}</p>` : ""}
     ${data.explanation_en ? `<p class="text-slate-300 mt-2">${data.explanation_en}</p>` : ""}
   `;
