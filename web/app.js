@@ -78,6 +78,7 @@ const state = {
   quizQuestions: [],
   quizIndex: 0,
   quizScore: 0,
+  quizFeedback: null,
   offlineQueue: [],
 };
 
@@ -910,6 +911,7 @@ async function startCategoryQuiz(licenseId, categoryId) {
     state.quizQuestions = data.questions;
     state.quizIndex = 0;
     state.quizScore = 0;
+    state.quizFeedback = null;
     navigate("quiz");
   }
 }
@@ -1024,16 +1026,20 @@ async function startRandomQuiz() {
     state.quizQuestions = data.questions;
     state.quizIndex = 0;
     state.quizScore = 0;
+    state.quizFeedback = null;
     navigate("quiz");
   }
 }
 
 function renderQuiz() {
   if (state.quizIndex >= state.quizQuestions.length) {
+    state.quizFeedback = null;
     return renderQuizResult();
   }
 
   const q = state.quizQuestions[state.quizIndex];
+  const fb = state.quizFeedback;
+
   return `
     ${renderNav()}
     <div class="max-w-2xl mx-auto p-4">
@@ -1049,13 +1055,36 @@ function renderQuiz() {
 
       <div class="bg-slate-800 rounded-xl p-6">
         <p class="text-white text-lg mb-6">${q.question_fr || q.question_en}</p>
-        <div class="space-y-3">
-          ${(q.options || []).map((opt, i) => `
-            <button onclick="submitQuizAnswer('${q.id}', '${String.fromCharCode(65 + i)}')" class="w-full bg-slate-700 hover:bg-slate-600 text-white text-left rounded-lg p-3 transition">
-              ${String.fromCharCode(65 + i)}. ${opt}
-            </button>
-          `).join("")}
+        <div class="space-y-3 mb-6">
+          ${(q.options || []).map((opt, i) => {
+            const letter = String.fromCharCode(65 + i);
+            const isCorrectOpt = fb && letter === fb.correct_answer;
+            const isSelected = fb && fb.selected_answer === letter;
+            const isWrong = fb && isSelected && !fb.correct;
+            let btnClass = fb ? 'bg-slate-700 text-white text-left rounded-lg p-3 cursor-default' : 'bg-slate-700 hover:bg-slate-600 text-white text-left rounded-lg p-3 transition';
+            if (isCorrectOpt) btnClass = 'bg-green-700 text-white text-left rounded-lg p-3 border border-green-500';
+            else if (isWrong) btnClass = 'bg-red-700 text-white text-left rounded-lg p-3 border border-red-500';
+            return `
+              <button onclick="${fb ? '' : `submitQuizAnswer('${q.id}', '${letter}')`}" class="${btnClass}" ${fb ? 'disabled' : ''}>
+                ${letter}. ${opt}
+              </button>
+            `;
+          }).join("")}
         </div>
+
+        ${fb ? `
+          <div class="p-4 rounded-lg ${fb.correct ? 'bg-green-900/30' : 'bg-red-900/30'} mb-4">
+            <p class="${fb.correct ? 'text-green-400' : 'text-red-400'} font-bold text-lg mb-2">
+              ${fb.correct ? '✅ Correct !' : '❌ Faux'}
+            </p>
+            <p class="text-green-400 font-medium mb-2">Réponse correcte : ${fb.correct_answer}</p>
+            ${fb.explanation_fr ? `<p class="text-slate-300 mt-2">${fb.explanation_fr}</p>` : ""}
+            ${fb.explanation_en ? `<p class="text-slate-300 mt-2">${fb.explanation_en}</p>` : ""}
+          </div>
+          <button onclick="nextQuizQuestion()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 rounded-lg transition text-lg">
+            ${state.quizIndex + 1 >= state.quizQuestions.length ? '📊 Voir les résultats' : '➡️ Question suivante'}
+          </button>
+        ` : ''}
       </div>
     </div>
   `;
@@ -1068,6 +1097,18 @@ async function submitQuizAnswer(questionId, answer) {
   });
 
   if (data?.correct) state.quizScore++;
+  state.quizFeedback = {
+    correct: data?.correct ?? false,
+    correct_answer: data?.correct_answer ?? "?",
+    selected_answer: answer,
+    explanation_fr: data?.explanation_fr ?? "",
+    explanation_en: data?.explanation_en ?? "",
+  };
+  render();
+}
+
+function nextQuizQuestion() {
+  state.quizFeedback = null;
   state.quizIndex++;
   render();
 }
@@ -1411,6 +1452,7 @@ async function startLessonQuiz(lessonId) {
     state.quizQuestions = data.questions;
     state.quizIndex = 0;
     state.quizScore = 0;
+    state.quizFeedback = null;
     navigate("quiz");
   }
 }
