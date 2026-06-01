@@ -197,23 +197,152 @@ async function loadUser() {
   }
 }
 
-// ======================== NAVIGATION ========================
-function goBack() {
-  const prev = state.previousView;
-  if (prev) {
-    state.view = prev;
-    state.previousView = null;
-    render();
-  } else {
-    navigate("dashboard");
+// ======================== ROUTAGE URL ========================
+
+// Construit l'URL à partir de la vue et des paramètres
+function buildURL(view, params = {}) {
+  switch (view) {
+    case "home":
+    case "login":        return "/";
+    case "login-form":   return "/login";
+    case "dashboard":    return "/dashboard";
+    case "questions":    return "/questions";
+    case "questions-license":
+      return params.license ? `/questions/${params.license}` : "/questions";
+    case "questions-category":
+      if (params.license && params.category) return `/questions/${params.license}/${params.category}`;
+      if (params.license) return `/questions/${params.license}`;
+      return "/questions";
+    case "question-detail":
+      if (params.license && params.category && params.questionId)
+        return `/questions/${params.license}/${params.category}/${params.questionId}`;
+      if (params.questionId) return `/questions/detail/${params.questionId}`;
+      return "/questions";
+    case "quiz":         return "/quiz";
+    case "lessons":      return "/lessons";
+    case "lessons-license":
+      return params.license ? `/lessons/${params.license}` : "/lessons";
+    case "lessons-category":
+      if (params.license && params.category) return `/lessons/${params.license}/${params.category}`;
+      if (params.license) return `/lessons/${params.license}`;
+      return "/lessons";
+    case "lesson-detail":
+      if (params.license && params.category && params.lessonId)
+        return `/lessons/${params.license}/${params.category}/${params.lessonId}`;
+      if (params.lessonId) return `/lessons/detail/${params.lessonId}`;
+      return "/lessons";
+    case "history":      return "/history";
+    case "stats":        return "/stats";
+    case "recommendations": return "/recommendations";
+    default:             return "/dashboard";
   }
 }
 
-function navigate(view, params = {}) {
-  state.previousView = state.view;
-  if (params.license) state.currentLicense = params.license;
-  if (params.category) state.currentCategory = params.category;
+// Parse l'URL pathname → { view, params }
+function parseURL(pathname) {
+  const parts = pathname.replace(/\/+$/, "").split("/").filter(Boolean); // enlève le slash final, découpe
+
+  // "/"
+  if (parts.length === 0) return { view: "home", params: {} };
+
+  const first = parts[0];
+
+  // Routes simples
+  const simpleRoutes = {
+    "login": "login-form",
+    "dashboard": "dashboard",
+    "quiz": "quiz",
+    "history": "history",
+    "stats": "stats",
+    "recommendations": "recommendations",
+  };
+  if (simpleRoutes[first]) {
+    return { view: simpleRoutes[first], params: {} };
+  }
+
+  if (first === "questions") {
+    if (parts.length === 1) {
+      return { view: "questions", params: {} };
+    }
+    if (parts.length === 2) {
+      // /questions/:license
+      return { view: "questions-license", params: { license: parts[1] } };
+    }
+    if (parts.length === 3 && parts[1] === "detail") {
+      // /questions/detail/:questionId
+      return { view: "question-detail", params: { questionId: parts[2] } };
+    }
+    if (parts.length === 3) {
+      // /questions/:license/:category
+      return { view: "questions-category", params: { license: parts[1], category: parts[2] } };
+    }
+    if (parts.length === 4) {
+      // /questions/:license/:category/:questionId
+      return { view: "question-detail", params: { license: parts[1], category: parts[2], questionId: parts[3] } };
+    }
+  }
+
+  if (first === "lessons") {
+    if (parts.length === 1) {
+      return { view: "lessons", params: {} };
+    }
+    if (parts.length === 2) {
+      // /lessons/:license
+      return { view: "lessons-license", params: { license: parts[1] } };
+    }
+    if (parts.length === 3 && parts[1] === "detail") {
+      // /lessons/detail/:lessonId
+      return { view: "lesson-detail", params: { lessonId: parts[2] } };
+    }
+    if (parts.length === 3) {
+      // /lessons/:license/:category
+      return { view: "lessons-category", params: { license: parts[1], category: parts[2] } };
+    }
+    if (parts.length === 4) {
+      // /lessons/:license/:category/:lessonId
+      return { view: "lesson-detail", params: { license: parts[1], category: parts[2], lessonId: parts[3] } };
+    }
+  }
+
+  // Pas de correspondance → fallback
+  return { view: "home", params: {} };
+}
+
+// Applique les paramètres parsés dans le state et déclenche le rendu
+function applyParsedRoute({ view, params }) {
   state.view = view;
+  if (params.license) state.currentLicense = params.license;
+  else state.currentLicense = null;
+  if (params.category) state.currentCategory = params.category;
+  else state.currentCategory = null;
+  if (params.questionId) state.currentQuestion = params.questionId;
+  if (params.lessonId) state.currentLesson = params.lessonId;
+}
+
+// Gestionnaire d'événement popstate (back/forward navigateur)
+function onPopState() {
+  const route = parseURL(window.location.pathname);
+  applyParsedRoute(route);
+  render();
+}
+
+// ======================== NAVIGATION ========================
+function goBack() {
+  history.back();
+}
+
+function navigate(view, params = {}) {
+  const url = buildURL(view, params);
+
+  // Mettre à jour le state avant render (pour que render() voie les bonnes valeurs)
+  applyParsedRoute({ view, params });
+
+  // Pousser dans l'historique navigateur
+  // Éviter les doublons consécutifs de la même URL
+  if (window.location.pathname !== url) {
+    history.pushState(null, "", url);
+  }
+
   render();
 }
 
@@ -222,7 +351,7 @@ function render() {
   const app = document.getElementById("app");
 
   if (!authToken) {
-    // Page d'accueil publique au lieu de la page de connexion directe
+    // Les routes publiques autorisées : home et login
     if (state.view === "login" || state.view === "home") {
       app.innerHTML = renderHomePage();
       bindHomeEvents();
@@ -230,6 +359,9 @@ function render() {
       app.innerHTML = renderLogin();
       bindLoginEvents();
     } else {
+      // Route protégée sans token → forcer home et réécrire l'URL
+      history.replaceState(null, "", "/");
+      state.view = "home";
       app.innerHTML = renderHomePage();
       bindHomeEvents();
     }
@@ -247,9 +379,11 @@ function render() {
       break;
     case "questions-license":
       app.innerHTML = renderQuestionsByLicense();
+      setTimeout(() => loadQuestionsByLicense(state.currentLicense), 50);
       break;
     case "questions-category":
       app.innerHTML = renderQuestionsByCategory();
+      setTimeout(() => loadQuestionsByCategory(state.currentLicense, state.currentCategory), 50);
       break;
     case "quiz":
       app.innerHTML = renderQuiz();
@@ -264,6 +398,7 @@ function render() {
       break;
     case "lessons-license":
       app.innerHTML = renderLessonsByLicense();
+      setTimeout(() => loadLessonsByLicense(state.currentLicense), 50);
       break;
     case "lessons-category":
       app.innerHTML = renderLessonsByCategory();
@@ -932,7 +1067,11 @@ async function startCategoryQuiz(licenseId, categoryId) {
 
 async function showQuestionDetail(id) {
   state.currentQuestion = id;
-  navigate("question-detail");
+  navigate("question-detail", {
+    license: state.currentLicense,
+    category: state.currentCategory,
+    questionId: id,
+  });
 }
 
 function renderQuestionDetail() {
@@ -1398,7 +1537,11 @@ function renderLessonsCategoryList(lessons) {
 
 async function showLessonDetail(id) {
   state.currentLesson = id;
-  navigate("lesson-detail");
+  navigate("lesson-detail", {
+    license: state.currentLicense,
+    category: state.currentCategory,
+    lessonId: id,
+  });
 }
 
 function renderLessonDetail() {
@@ -1644,11 +1787,37 @@ function showToast(message, type = "info") {
 }
 
 // ======================== INITIALISATION ========================
-// Forcer l'affichage de la page d'accueil
-state.view = "home";
-render();
+window.addEventListener("popstate", onPopState);
 
-if (authToken) {
-  loadUser().then(() => navigate("dashboard"));
+async function init() {
+  const route = parseURL(window.location.pathname);
+
+  // Routes publiques : home, login
+  const publicViews = ["home", "login", "login-form"];
+
+  // Si pas de token et route protégée → rediriger vers home
+  if (!authToken && !publicViews.includes(route.view)) {
+    history.replaceState(null, "", "/");
+    state.view = "home";
+    render();
+    return;
+  }
+
+  // Si token présent, charger l'utilisateur d'abord
+  if (authToken) {
+    await loadUser();
+  }
+
+  applyParsedRoute(route);
+
+  // Si connecté et qu'on est sur "/" → rediriger vers dashboard
+  if (authToken && route.view === "home") {
+    navigate("dashboard");
+    return;
+  }
+
+  render();
 }
+
+init();
 

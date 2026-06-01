@@ -135,15 +135,48 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Pages HTML → Stale While Revalidate
+  // Pages HTML → Cache First avec fallback réseau + fallback /index.html (SPA)
   if (request.mode === "navigate") {
-    event.respondWith(staleWhileRevalidate(request));
+    event.respondWith(navigateFallback(request));
     return;
   }
 
   // Tout le reste → Network First
   event.respondWith(networkFirst(request));
 });
+
+// Stratégie: Cache First pour les navigations SPA — si l'URL exacte
+// n'est pas en cache et qu'on est offline, servir /index.html
+async function navigateFallback(request) {
+  // 1. Essayer le cache pour cette URL exacte
+  const cache = await caches.open(CACHE_NAME);
+  const cached = await cache.match(request);
+  if (cached) {
+    // Mettre à jour en arrière-plan (stale-while-revalidate)
+    fetch(request).then((resp) => {
+      if (resp.ok) cache.put(request, resp.clone());
+    }).catch(() => {});
+    return cached;
+  }
+
+  // 2. URL pas en cache → essayer le réseau
+  try {
+    const response = await fetch(request);
+    if (response.ok) {
+      cache.put(request, response.clone());
+      return response;
+    }
+  } catch (e) {
+    // Réseau HS
+  }
+
+  // 3. Offline → servir /index.html depuis le cache (fallback SPA)
+  const root = await caches.match("/index.html");
+  if (root) return root;
+
+  // 4. Dernier recours
+  return new Response("Hors-ligne", { status: 503 });
+}
 
 // ======================== BACKGROUND SYNC ========================
 
