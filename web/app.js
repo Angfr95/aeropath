@@ -812,12 +812,14 @@ async function loadQuestionsByLicense(licenseId) {
   if (data?.questions) {
     renderQuestionsLicenseList(data.questions);
   }
-  // Charger les compteurs par catégorie
-  CATEGORIES.forEach(async (c) => {
-    const d = await api(`/api/questions/count/by-license/${licenseId}`);
-    const el = document.getElementById(`q-count-${licenseId}-${c.id}`);
-    if (el) el.textContent = d?.count || "0 questions";
-  });
+  // Compter les questions par catégorie depuis les données déjà récupérées
+  if (data?.questions) {
+    CATEGORIES.forEach((c) => {
+      const count = data.questions.filter(q => q.category === c.id).length;
+      const el = document.getElementById(`q-count-${licenseId}-${c.id}`);
+      if (el) el.textContent = `${count} questions`;
+    });
+  }
 }
 
 function renderQuestionsLicenseList(questions) {
@@ -1292,12 +1294,15 @@ async function loadLessonsByLicense(licenseId) {
     const el = document.getElementById("lessons-license-list");
     if (el) el.innerHTML = '<p class="text-slate-400 text-center py-8">Aucune leçon pour cette licence</p>';
   }
-  // Compter par catégorie
-  CATEGORIES.forEach(async (c) => {
-    const d = await api(`/api/lessons/count/by-license/${licenseId}`);
-    const el = document.getElementById(`l-count-${licenseId}-${c.id}`);
-    if (el) el.textContent = d?.count || "0 leçons";
-  });
+  // Compter les leçons par catégorie depuis les données déjà récupérées
+  const lessonsArr = Array.isArray(data) ? data : (data?.data || []);
+  if (lessonsArr.length > 0) {
+    CATEGORIES.forEach((c) => {
+      const count = lessonsArr.filter(l => l.category === c.id).length;
+      const el = document.getElementById(`l-count-${licenseId}-${c.id}`);
+      if (el) el.textContent = `${count} leçons`;
+    });
+  }
 }
 
 function renderLessonsLicenseList(lessons) {
