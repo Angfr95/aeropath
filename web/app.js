@@ -191,6 +191,11 @@ function logout() {
 }
 
 async function loadUser() {
+  const data = await api("/api/me");
+  if (data && !data.offline) {
+    currentUser = data;
+  }
+}
 
 // ======================== ROUTAGE URL ========================
 
@@ -202,13 +207,25 @@ function buildURL(view, params) {
     case "dashboard": return "/dashboard";
     case "questions": return "/questions";
     case "questions-license": return params.license ? "/questions/" + params.license : "/questions";
-    case "questions-category": if (params.license && params.category) return "/questions/" + params.license + "/" + params.category; if (params.license) return "/questions/" + params.license; return "/questions";
-    case "question-detail": if (params.license && params.category && params.questionId) return "/questions/" + params.license + "/" + params.category + "/" + params.questionId; if (params.questionId) return "/questions/detail/" + params.questionId; return "/questions";
+    case "questions-category":
+      if (params.license && params.category) return "/questions/" + params.license + "/" + params.category;
+      if (params.license) return "/questions/" + params.license;
+      return "/questions";
+    case "question-detail":
+      if (params.license && params.category && params.questionId) return "/questions/" + params.license + "/" + params.category + "/" + params.questionId;
+      if (params.questionId) return "/questions/detail/" + params.questionId;
+      return "/questions";
     case "quiz": return "/quiz";
     case "lessons": return "/lessons";
     case "lessons-license": return params.license ? "/lessons/" + params.license : "/lessons";
-    case "lessons-category": if (params.license && params.category) return "/lessons/" + params.license + "/" + params.category; if (params.license) return "/lessons/" + params.license; return "/lessons";
-    case "lesson-detail": if (params.license && params.category && params.lessonId) return "/lessons/" + params.license + "/" + params.category + "/" + params.lessonId; if (params.lessonId) return "/lessons/detail/" + params.lessonId; return "/lessons";
+    case "lessons-category":
+      if (params.license && params.category) return "/lessons/" + params.license + "/" + params.category;
+      if (params.license) return "/lessons/" + params.license;
+      return "/lessons";
+    case "lesson-detail":
+      if (params.license && params.category && params.lessonId) return "/lessons/" + params.license + "/" + params.category + "/" + params.lessonId;
+      if (params.lessonId) return "/lessons/detail/" + params.lessonId;
+      return "/lessons";
     case "history": return "/history";
     case "stats": return "/stats";
     case "recommendations": return "/recommendations";
@@ -253,12 +270,6 @@ function onPopState() {
   var route = parseURL(window.location.pathname);
   applyParsedRoute(route);
   render();
-}
-
-  const data = await api("/api/me");
-  if (data && !data.offline) {
-    currentUser = data;
-  }
 }
 
 // ======================== NAVIGATION ========================
