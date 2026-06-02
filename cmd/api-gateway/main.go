@@ -50,11 +50,15 @@ func main() {
 	// Swagger
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
-	// Fichiers statiques (PWA)
+	// Fichiers statiques (PWA — build Vite)
 	r.StaticFile("/manifest.json", "./web/manifest.json")
+	r.StaticFile("/manifest.webmanifest", "./web/manifest.webmanifest")
 	r.StaticFile("/sw.js", "./web/sw.js")
-	r.StaticFile("/app.js", "./web/app.js")
-	// SPA - toutes les routes non-API renvoient index.html
+	r.StaticFile("/registerSW.js", "./web/registerSW.js")
+	r.StaticFile("/favicon.svg", "./web/favicon.svg")
+	r.Static("/assets/", "./web/assets/")
+	r.StaticFile("/workbox-9c191d2f.js", "./web/workbox-9c191d2f.js")
+	// SPA - toutes les routes non-API renvoient index.html (React Router)
 	r.NoRoute(func(c *gin.Context) {
 		if c.Request.Method == "GET" && !isAPIRoute(c.Request.URL.Path) {
 			c.File("./web/index.html")
@@ -198,8 +202,12 @@ func isAPIRoute(path string) bool {
 		"/health",
 		"/swagger/",
 		"/manifest.json",
+		"/manifest.webmanifest",
 		"/sw.js",
-		"/app.js",
+		"/registerSW.js",
+		"/favicon.svg",
+		"/assets/",
+		"/workbox-",
 	}
 	for _, prefix := range apiPrefixes {
 		if path == prefix || (len(path) >= len(prefix) && path[:len(prefix)] == prefix) {
