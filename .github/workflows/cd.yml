@@ -87,7 +87,9 @@ jobs:
     steps:
       - name: Setup SSH key
         run: |
-          echo "${{ secrets.DEPLOY_SSH_KEY }}" > /tmp/deploy_key
+          cat <<'EOF' > /tmp/deploy_key
+          ${{ secrets.DEPLOY_SSH_KEY }}
+          EOF
           chmod 600 /tmp/deploy_key
           head -1 /tmp/deploy_key
           wc -l /tmp/deploy_key
