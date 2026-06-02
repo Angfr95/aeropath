@@ -22,7 +22,7 @@ export default function LoginPage() {
   // Redirige si déjà connecté
   useEffect(() => {
     if (isAuthenticated) {
-      navigate("/dashboard", { replace: true });
+      navigate("/", { replace: true });
     }
   }, [isAuthenticated, navigate]);
 
@@ -41,7 +41,7 @@ export default function LoginPage() {
         await register({ email, password });
         addToast("Compte créé !", "success");
       }
-      navigate("/dashboard", { replace: true });
+      navigate("/", { replace: true });
     } catch {
       addToast(tab === "login" ? "Erreur de connexion" : "Erreur d'inscription", "error");
     } finally {
