@@ -86,14 +86,19 @@ jobs:
 
     steps:
       - name: Deploy via SSH
-        uses: appleboy/ssh-action@v1.0.3
+        uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_SSH_KEY }}
+          port: ${{ secrets.DEPLOY_PORT }}
+          passphrase: ${{ secrets.DEPLOY_SSH_PASSPHRASE }}
+          fingerprint: ""
+          script_stop: true
+          command_timeout: 15m
           script: |
             set -e
-            cd /opt/aeropath
+            cd /opt/aeropath || { echo "❌ Directory /opt/aeropath not found"; exit 1; }
 
             # Clean reset: discard all local changes (ssl/ is NOT in repo, preserved on disk)
             git fetch origin main
