@@ -9,12 +9,17 @@ import (
 
 func RequireAuth(secret string) gin.HandlerFunc {
 	return func(c *gin.Context) {
-		tokenStr := c.GetHeader("Authorization")
-		if tokenStr == "" || len(tokenStr) < 7 || tokenStr[:7] != "Bearer " {
-			c.AbortWithStatusJSON(401, gin.H{"error": "token manquant"})
-			return
+		// Essaie d'abord le cookie httpOnly, puis le header Authorization
+		tokenStr, err := c.Cookie("token")
+		if err != nil {
+			tokenStr = c.GetHeader("Authorization")
+			if tokenStr != "" && len(tokenStr) > 7 && tokenStr[:7] == "Bearer " {
+				tokenStr = tokenStr[7:]
+			} else {
+				c.AbortWithStatusJSON(401, gin.H{"error": "token manquant"})
+				return
+			}
 		}
-		tokenStr = tokenStr[7:]
 
 		token, err := jwt.Parse(tokenStr, func(t *jwt.Token) (interface{}, error) {
 			if _, ok := t.Method.(*jwt.SigningMethodHMAC); !ok {

@@ -53,6 +53,7 @@ func RegisterHandler(svc *auth.Service) gin.HandlerFunc {
 			c.JSON(http.StatusConflict, gin.H{"error": err.Error()})
 			return
 		}
+		c.SetCookie("token", token, 86400, "/", "", false, true)
 		c.JSON(http.StatusCreated, gin.H{"token": token})
 	}
 }
@@ -81,6 +82,7 @@ func LoginHandler(svc *auth.Service) gin.HandlerFunc {
 			c.JSON(http.StatusUnauthorized, gin.H{"error": err.Error()})
 			return
 		}
+		c.SetCookie("token", token, 86400, "/", "", false, true)
 		c.JSON(http.StatusOK, gin.H{"token": token})
 	}
 }

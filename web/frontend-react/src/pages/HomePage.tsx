@@ -1,11 +1,21 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useAuthStore } from "@/store/authStore";
 import LanguageSelector from "@/components/LanguageSelector";
 import { LICENSES } from "@/constants/licenses";
 import { useEffect, useRef } from "react";
 
 /** Page d'accueil publique – reprend le contenu de renderHomePage() */
 export default function HomePage() {
+  const navigate = useNavigate();
+  const isAuthenticated = useAuthStore((s) => s.isAuthenticated);
   const sectionsRef = useRef<(HTMLElement | null)[]>([]);
+
+  // Redirige les utilisateurs connectés vers le dashboard
+  useEffect(() => {
+    if (isAuthenticated) {
+      navigate("/dashboard", { replace: true });
+    }
+  }, [isAuthenticated, navigate]);
 
   // Animation au scroll (IntersectionObserver)
   useEffect(() => {
