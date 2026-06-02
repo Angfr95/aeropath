@@ -19,10 +19,10 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
 
-  // Redirige si déjà connecté
+  // Redirige si déjà connecté vers le dashboard
   useEffect(() => {
     if (isAuthenticated) {
-      navigate("/", { replace: true });
+      navigate("/dashboard", { replace: true });
     }
   }, [isAuthenticated, navigate]);
 
@@ -41,7 +41,7 @@ export default function LoginPage() {
         await register({ email, password });
         addToast("Compte créé !", "success");
       }
-      navigate("/", { replace: true });
+      navigate("/dashboard", { replace: true });
     } catch {
       addToast(tab === "login" ? "Erreur de connexion" : "Erreur d'inscription", "error");
     } finally {
