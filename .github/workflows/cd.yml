@@ -87,19 +87,17 @@ jobs:
     steps:
       - name: Setup SSH key
         run: |
-          mkdir -p -m 700 ~/.ssh
-          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          # Debug: check key format (masked)
-          head -1 ~/.ssh/deploy_key
-          wc -l ~/.ssh/deploy_key
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > /tmp/deploy_key
+          chmod 600 /tmp/deploy_key
+          head -1 /tmp/deploy_key
+          wc -l /tmp/deploy_key
 
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
-          key_path: ~/.ssh/deploy_key
+          key_path: /tmp/deploy_key
           port: ${{ secrets.DEPLOY_PORT }}
           fingerprint: ""
           script_stop: true
@@ -129,4 +127,4 @@ jobs:
             docker compose pull
             docker compose up -d --remove-orphans
             docker compose exec nginx nginx -s reload || docker compose restart nginx
-            docker image prune -f
+            docker image prune -af --filter=until=24h
