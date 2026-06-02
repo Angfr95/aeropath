@@ -99,8 +99,8 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
 
-            # Remove untracked files EXCEPT ssl/ directory and .env
-            git clean -fd --exclude=ssl/ --exclude=.env
+            # Supprime les untracked SAUF ssl/, .env et web/ (les assets React)
+            git clean -fd --exclude=ssl/ --exclude=.env --exclude=web/
 
             # Build frontend React et copier dans web/ pour nginx
             cd /opt/aeropath/web/frontend-react
@@ -108,6 +108,7 @@ jobs:
             npm run build
             cp -r dist/* ../..
             cd /opt/aeropath
+            chmod -R 755 /opt/aeropath/web/
             echo "✅ Frontend React built and deployed to web/"
 
             # Auto-generate self-signed SSL cert if missing
