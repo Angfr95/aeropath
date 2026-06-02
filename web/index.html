@@ -2,190 +2,19 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="theme-color" content="#0f172a">
-  <meta name="description" content="AeroPath - Formation aéronautique pour pilotes. PPL, LAPL, CPL, ATPL, IR. Apprenez où que vous soyez, même sans connexion.">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="AeroPath">
-
-  <!-- PWA -->
-  <link rel="manifest" href="/manifest.json">
-  <!-- Icônes commentées : générer les PNG avec `python -c "from PIL import Image; Image.new('RGBA',(192,192),(15,23,42,255)).save('web/icons/icon-192.png')"` -->
-  <!-- <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png"> -->
-  <!-- <link rel="icon" type="image/png" sizes="512x512" href="/icons/icon-512.png"> -->
-  <!-- <link rel="apple-touch-icon" href="/icons/icon-192.png"> -->
-
-  <title>AeroPath - Formation aéronautique</title>
-
+  <meta http-equiv="refresh" content="0; url=http://localhost:3000/">
+  <title>AeroPath – Redirection</title>
   <style>
-    /* ======================== RESET & BASE ======================== */
-    *, *::before, *::after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    body {
-      background-color: #0f172a;
-      color: #e2e8f0;
-      min-height: 100vh;
-      min-height: 100dvh;
-      overflow-x: hidden;
-    }
-
-    /* ======================== SCROLLBAR ======================== */
-    ::-webkit-scrollbar {
-      width: 6px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #1e293b;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #475569;
-      border-radius: 3px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #64748b;
-    }
-
-    /* ======================== UTILITAIRES ======================== */
-    .bg-slate-750 {
-      background-color: #1a2332;
-    }
-    .hover\:bg-slate-750:hover {
-      background-color: #1a2332;
-    }
-
-    /* ======================== ANIMATIONS ======================== */
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes slideUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.5; }
-    }
-
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-15px); }
-    }
-
-    .animate-fade-in {
-      animation: fadeIn 0.3s ease-out;
-    }
-
-    .animate-slide-up {
-      animation: slideUp 0.4s ease-out;
-    }
-
-    .animate-pulse {
-      animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-    }
-
-    .animate-float {
-      animation: float 3s ease-in-out infinite;
-    }
-
-    /* ======================== TRANSITIONS ======================== */
-    .nav-btn {
-      transition: all 0.2s ease;
-    }
-
-    /* ======================== OFFLINE BANNER ======================== */
-    #offline-banner {
-      transition: transform 0.3s ease;
-    }
-
-    /* ======================== LOADING SKELETON ======================== */
-    .skeleton {
-      background: linear-gradient(90deg, #1e293b 25%, #334155 50%, #1e293b 75%);
-      background-size: 200% 100%;
-      animation: shimmer 1.5s infinite;
-      border-radius: 0.5rem;
-    }
-
-    @keyframes shimmer {
-      0% { background-position: 200% 0; }
-      100% { background-position: -200% 0; }
-    }
-
-    /* ======================== RESPONSIVE ======================== */
-    @media (max-width: 640px) {
-      .nav-btn {
-        font-size: 0.75rem;
-        padding: 0.375rem 0.5rem;
-      }
-    }
-
-    /* ======================== PRINT ======================== */
-    @media print {
-      nav { display: none; }
-      .no-print { display: none; }
-    }
+    body { background: #0f172a; color: #e2e8f0; font-family: system-ui, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
+    a { color: #60a5fa; }
   </style>
-
-  <!-- Script de détection offline -->
-  <script>
-    window.addEventListener('online', () => {
-      document.getElementById('offline-banner')?.classList.add('hidden');
-      document.getElementById('offline-banner')?.classList.remove('translate-y-0');
-    });
-    window.addEventListener('offline', () => {
-      document.getElementById('offline-banner')?.classList.remove('hidden');
-      document.getElementById('offline-banner')?.classList.add('translate-y-0');
-    });
-  </script>
 </head>
 <body>
-  <!-- Bannière hors-ligne -->
-  <div id="offline-banner" class="hidden fixed top-0 left-0 right-0 bg-amber-600 text-white text-center py-2 text-sm font-medium z-50 transform -translate-y-full">
-    📡 Mode hors-ligne — les réponses seront synchronisées plus tard
+  <div style="text-align:center">
+    <p style="font-size:2rem">✈️</p>
+    <p>Le frontend a migré vers <strong>React + Vite</strong>.</p>
+    <p><a href="http://localhost:3000/">→ Accéder au nouveau frontend (localhost:3000)</a></p>
+    <p style="font-size:0.8rem;color:#64748b;margin-top:2rem">Si le serveur n'est pas lancé : <code>cd web/frontend-react && npm run dev</code></p>
   </div>
-
-  <!-- Application -->
-  <div id="app">
-    <div class="min-h-screen flex items-center justify-center">
-      <div class="text-center">
-        <div class="text-5xl mb-4 animate-pulse">✈️</div>
-        <div class="skeleton h-6 w-48 mx-auto mb-3"></div>
-        <div class="skeleton h-4 w-32 mx-auto"></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Scripts -->
-  <script src="/tailwind.js"></script>
-  <script>
-    // Configuration Tailwind
-    if (typeof tailwind !== 'undefined') {
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              slate: {
-                750: '#1a2332',
-              }
-            }
-          }
-        }
-      }
-    }
-  </script>
-  <script src="/app.js"></script>
 </body>
 </html>
