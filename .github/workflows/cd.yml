@@ -91,7 +91,7 @@ jobs:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_SSH_KEY }}
-           script: |
+          script: |
             set -e
             cd /opt/aeropath
 
