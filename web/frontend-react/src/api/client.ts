@@ -19,10 +19,10 @@ apiClient.interceptors.response.use(
   (response) => response,
   (error) => {
     if (axios.isAxiosError(error) && error.response?.status === 401) {
-      // On nettoie le store auth → le ProtectedRoute redirigera
-      // L'import dynamique évite la dépendance circulaire
+      // Nettoie le store LOCALEMENT (pas d'appel API pour éviter les boucles)
       import("@/store/authStore").then(({ useAuthStore }) => {
-        useAuthStore.getState().logout();
+        // set direct au lieu d'appeler logout() qui ferait un POST /auth/logout
+        useAuthStore.setState({ user: null, isAuthenticated: false, isLoading: false });
       });
     }
     return Promise.reject(error);

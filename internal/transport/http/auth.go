@@ -101,6 +101,30 @@ type updateLangRequest struct {
 //	@Success		200		{object}	map[string]string	"langue mise à jour"
 //	@Failure		400		{object}	map[string]string	"erreur de validation"
 //	@Router			/api/me/lang [patch]
+// LogoutHandler
+//
+//	@Summary		Déconnexion
+//	@Description	Supprime le cookie JWT httpOnly (pas de logique côté serveur)
+//	@Tags			Authentification
+//	@Accept			json
+//	@Produce		json
+//	@Success		200		{object}	map[string]string	"déconnecté"
+//	@Router			/auth/logout [post]
+func LogoutHandler(svc *auth.Service) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		c.SetCookie(
+			"token",
+			"",
+			-1,
+			"/",
+			"",
+			false, // secure=false en dev (true en prod quand HTTPS)
+			true,  // httpOnly
+		)
+		c.JSON(http.StatusOK, gin.H{"message": "déconnecté"})
+	}
+}
+
 func UpdateLangHandler(svc *auth.Service) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		var req updateLangRequest

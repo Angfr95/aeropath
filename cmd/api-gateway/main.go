@@ -74,6 +74,7 @@ func main() {
 
 	r.POST("/auth/register", httptransport.RegisterHandler(authSvc))
 	r.POST("/auth/login", httptransport.LoginHandler(authSvc))
+	r.POST("/auth/logout", httptransport.LogoutHandler(authSvc))
 
 	// Routes protégées (nécessitent un JWT valide)
 	protected := r.Group("/api", middleware.RequireAuth(os.Getenv("JWT_SECRET")))
