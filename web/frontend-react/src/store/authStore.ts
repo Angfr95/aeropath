@@ -31,10 +31,12 @@ export const useAuthStore = create<AuthState>()((set, get) => ({
   login: async (payload) => {
     set({ isLoading: true });
     try {
-      const res = await apiClient.post<{ user: User }>("/auth/login", payload);
+      await apiClient.post("/auth/login", payload);
+      // Le cookie httpOnly est posé, on charge les données utilisateur
+      const res = await apiClient.get<{ user: User }>("/api/me");
       set({ user: res.data.user, isAuthenticated: true, isLoading: false });
     } catch {
-      set({ isLoading: false });
+      set({ isLoading: false, user: null, isAuthenticated: false });
       throw new Error("Échec de connexion");
     }
   },
@@ -43,10 +45,12 @@ export const useAuthStore = create<AuthState>()((set, get) => ({
   register: async (payload) => {
     set({ isLoading: true });
     try {
-      const res = await apiClient.post<{ user: User }>("/auth/register", payload);
+      await apiClient.post("/auth/register", payload);
+      // Le cookie httpOnly est posé, on charge les données utilisateur
+      const res = await apiClient.get<{ user: User }>("/api/me");
       set({ user: res.data.user, isAuthenticated: true, isLoading: false });
     } catch {
-      set({ isLoading: false });
+      set({ isLoading: false, user: null, isAuthenticated: false });
       throw new Error("Échec d'inscription");
     }
   },
