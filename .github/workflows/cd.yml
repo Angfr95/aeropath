@@ -92,7 +92,7 @@ jobs:
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_SSH_KEY }}
           port: ${{ secrets.DEPLOY_PORT }}
-          fingerprint: ""
+          envs: GHCR_TOKEN,GHCR_USER
           script_stop: true
           command_timeout: 15m
           script: |
@@ -117,7 +117,13 @@ jobs:
               echo "✅ Self-signed SSL cert generated in ssl/"
             fi
 
+            # Login GHCR pour puller les images privées
+            echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GHCR_USER" --password-stdin
+
             docker compose pull
             docker compose up -d --remove-orphans
             docker compose exec nginx nginx -s reload || docker compose restart nginx
             docker image prune -af --filter=until=24h
+        env:
+          GHCR_TOKEN: ${{ secrets.DEEP_TOKEN }}
+          GHCR_USER: ${{ github.actor }}
