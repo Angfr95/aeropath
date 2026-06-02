@@ -86,13 +86,14 @@ jobs:
 
     steps:
       - name: Setup SSH key
+        shell: bash
         run: |
-          cat <<'EOF' > /tmp/deploy_key
-          ${{ secrets.DEPLOY_SSH_KEY }}
-          EOF
+          printf '%s\n' "$DEPLOY_KEY" > /tmp/deploy_key
           chmod 600 /tmp/deploy_key
           head -1 /tmp/deploy_key
           wc -l /tmp/deploy_key
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
 
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.2.0
