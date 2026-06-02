@@ -85,14 +85,22 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' && github.ref == 'refs/heads/main' }}
 
     steps:
+      - name: Setup SSH key
+        run: |
+          mkdir -p -m 700 ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          # Debug: check key format (masked)
+          head -1 ~/.ssh/deploy_key
+          wc -l ~/.ssh/deploy_key
+
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
-          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          key_path: ~/.ssh/deploy_key
           port: ${{ secrets.DEPLOY_PORT }}
-          passphrase: ${{ secrets.DEPLOY_SSH_PASSPHRASE }}
           fingerprint: ""
           script_stop: true
           command_timeout: 15m
