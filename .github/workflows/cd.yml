@@ -91,7 +91,7 @@ jobs:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_SSH_KEY }}
-           script: |
+          script: |
             set -e
             cd /opt/aeropath
 
@@ -102,26 +102,26 @@ jobs:
             # Remove untracked files EXCEPT ssl/ directory and .env
             git clean -fd --exclude=ssl/ --exclude=.env
 
-             # 🔨 Build frontend React et copier dans web/ pour nginx
-             cd /opt/aeropath/web/frontend-react
-             npm ci --production=false
-             npm run build
-             cp -r dist/* ../..
-             cd /opt/aeropath
-             echo "✅ Frontend React built and deployed to web/"
+            # Build frontend React et copier dans web/ pour nginx
+            cd /opt/aeropath/web/frontend-react
+            npm ci --production=false
+            npm run build
+            cp -r dist/* ../..
+            cd /opt/aeropath
+            echo "✅ Frontend React built and deployed to web/"
 
-             # Auto-generate self-signed SSL cert if missing
-             if [ ! -f ssl/cert.pem ] || [ ! -f ssl/key.pem ]; then
-               mkdir -p ssl
-               openssl req -x509 -nodes -days 3650 -newkey rsa:2048 \
-                 -keyout ssl/key.pem \
-                 -out ssl/cert.pem \
-                 -subj "/C=FR/ST=IDF/L=Paris/O=AeroPath/CN=aeropath.ultizion.com" \
-                 2>/dev/null
-               echo "✅ Self-signed SSL cert generated in ssl/"
-             fi
+            # Auto-generate self-signed SSL cert if missing
+            if [ ! -f ssl/cert.pem ] || [ ! -f ssl/key.pem ]; then
+              mkdir -p ssl
+              openssl req -x509 -nodes -days 3650 -newkey rsa:2048 \
+                -keyout ssl/key.pem \
+                -out ssl/cert.pem \
+                -subj "/C=FR/ST=IDF/L=Paris/O=AeroPath/CN=aeropath.ultizion.com" \
+                2>/dev/null
+              echo "✅ Self-signed SSL cert generated in ssl/"
+            fi
 
-             docker compose pull
-             docker compose up -d --remove-orphans
-             docker compose exec nginx nginx -s reload || docker compose restart nginx
-             docker image prune -f
+            docker compose pull
+            docker compose up -d --remove-orphans
+            docker compose exec nginx nginx -s reload || docker compose restart nginx
+            docker image prune -f
