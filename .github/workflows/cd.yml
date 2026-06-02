@@ -125,3 +125,4 @@ jobs:
             docker compose up -d --remove-orphans
             docker compose exec nginx nginx -s reload || docker compose restart nginx
             docker image prune -f
+  
