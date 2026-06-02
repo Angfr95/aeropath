@@ -23,6 +23,7 @@ func setupAuthContext(method, path, body string) (*gin.Context, *httptest.Respon
 
 func TestRegisterHandler(t *testing.T) {
 	gin.SetMode(gin.TestMode)
+	t.Setenv("JWT_SECRET", "test-secret")
 
 	repo := newMockStudentRepo()
 	svc := NewService(repo, "test-secret")
@@ -90,6 +91,7 @@ func TestRegisterHandler(t *testing.T) {
 
 func TestLoginHandler(t *testing.T) {
 	gin.SetMode(gin.TestMode)
+	t.Setenv("JWT_SECRET", "test-secret")
 
 	repo := newMockStudentRepo()
 	svc := NewService(repo, "test-secret")
@@ -142,6 +144,7 @@ func TestLoginHandler(t *testing.T) {
 
 func TestUpdateLangHandler(t *testing.T) {
 	gin.SetMode(gin.TestMode)
+	t.Setenv("JWT_SECRET", "test-secret")
 
 	repo := newMockStudentRepo()
 	svc := NewService(repo, "test-secret")

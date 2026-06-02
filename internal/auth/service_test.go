@@ -71,6 +71,7 @@ func (m *mockStudentRepo) UpdateLang(id, lang string) error {
 }
 
 func TestRegister(t *testing.T) {
+	t.Setenv("JWT_SECRET", "test-secret")
 	repo := newMockStudentRepo()
 	svc := NewService(repo, "test-secret")
 
@@ -107,6 +108,7 @@ func TestRegister(t *testing.T) {
 }
 
 func TestLogin(t *testing.T) {
+	t.Setenv("JWT_SECRET", "test-secret")
 	repo := newMockStudentRepo()
 	svc := NewService(repo, "test-secret")
 
@@ -142,6 +144,7 @@ func TestLogin(t *testing.T) {
 }
 
 func TestUpdateLang(t *testing.T) {
+	t.Setenv("JWT_SECRET", "test-secret")
 	repo := newMockStudentRepo()
 	svc := NewService(repo, "test-secret")
 

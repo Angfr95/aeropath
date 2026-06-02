@@ -43,6 +43,10 @@ setup-vps.sh
 scripts/set_gh_secrets*
 scripts/set_github_secret*
 
+# Kubernetes secrets (inject via kubectl create secret or Sealed Secrets)
+k8s/secrets.yaml
+k8s/secrets.local.yaml
+
 # SSH keys / deploy keys (never commit)
 *_deploy_key
 *_deploy_key.pub
