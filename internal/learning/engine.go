@@ -95,6 +95,13 @@ func (e *Engine) ExamByLicenseAndCategory(license domain.License, category domai
 }
 
 // EvaluateAnswer évalue une réponse et retourne si elle est correcte.
+// Supporte les réponses par lettre (A, B, C, D) ou par texte complet.
 func (e *Engine) EvaluateAnswer(question *domain.Question, answer string) bool {
+	if len(answer) == 1 && answer[0] >= 'A' && answer[0] <= 'D' {
+		idx := int(answer[0] - 'A')
+		if idx >= 0 && idx < len(question.Options) {
+			return question.AnswerKey == question.Options[idx]
+		}
+	}
 	return question.AnswerKey == answer
 }
