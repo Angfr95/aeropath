@@ -46,7 +46,7 @@ type Recommendation struct {
 	DueCards       []*Card       `json:"due_cards,omitempty"`
 	WeakTopics     []*WeakTopic  `json:"weak_topics,omitempty"`
 	Progression    *Progression  `json:"progression,omitempty"`
-	NextMilestone  *Milestone    `json:"next_milestone,omitempty"`
+	NextMilestone  string        `json:"next_milestone,omitempty"`
 }
 
 // GetRecommendations génère des recommandations personnalisées pour un étudiant.
@@ -140,12 +140,16 @@ func (e *AdaptiveEngine) GetRecommendations(studentID string) (*Recommendation, 
 	dueCards = DueCards(dueCards, time.Now())
 	SortByPriority(dueCards, time.Now())
 
+	milestoneName := ""
+	if nextMilestone != nil {
+		milestoneName = nextMilestone.Name
+	}
 	return &Recommendation{
 		StudentID:     studentID,
 		NextTheme:     nextTheme,
 		DueCards:      dueCards,
 		WeakTopics:    weakTopics,
 		Progression:   progression,
-		NextMilestone: nextMilestone,
+		NextMilestone: milestoneName,
 	}, nil
 }
