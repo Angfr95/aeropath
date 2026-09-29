@@ -1,0 +1,782 @@
+"""Bilingual teaching content, revised after individual pedagogical review."""
+from shared.authoring import save
+
+
+def build():
+    data = {'metadata': {'module_id': 'CPL_022_001',
+                  'program': 'CPL',
+                  'subject': 'instrumentation',
+                  'chapter_title': 'Circuit pitot-statique : interpréter une panne',
+                  'chapter_title_en': 'Pitot-static system: interpret a failure',
+                  'reference_checked_on': '2026-09-29',
+                  'learning_objective': 'Comparer pressions reçues et attendues, expliquer le signe d’une erreur '
+                                        'après inversion du mouvement et identifier les dépendances d’une '
+                                        'architecture de capteurs nouvelle.',
+                  'learning_objective_en': 'Compare received and expected pressures, explain error sign after '
+                                           'reversing vertical movement and identify dependencies in a new '
+                                           'sensor architecture.',
+                  'estimated_duration_minutes': 50,
+                  'difficulty': 'advanced',
+                  'prerequisites': ['Pressions totale et statique',
+                                    'Différence entre IAS, TAS et GS',
+                                    'Soustraction et lecture d’un schéma fonctionnel'],
+                  'exam_subject': '022',
+                  'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022',
+                  'official_subject_format': {'questions': 40,
+                                              'minutes': 60,
+                                              'pass_percent': 75,
+                                              'source': 'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67'},
+                  'sources': [{'title': 'EASA — programme Part-FCL',
+                               'url': 'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8'},
+                              {'title': 'EASA — format de la matière, AMC1 ARA.FCL.300(b)',
+                               'url': 'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67'},
+                              {'title': 'FAA PHAK — flight instruments, référence technique',
+                               'url': 'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'}],
+                  'content_status': 'draft',
+                  'coverage_status': 'partial',
+                  'scope': 'CPL(A), France / EASA',
+                  'quiz_format': 'chapter_practice',
+                  'tags': ['CPL', 'mcq-four-options'],
+                  'illustration': {'src': '/illustrations/cpl-022-001.svg',
+                                   'alt': 'Circuit pitot-statique : interpréter une panne'}},
+     'concepts': [{'concept_id': 'CPL_022_001_C01',
+                   'title': 'Identifier les pressions',
+                   'title_en': 'Identify the pressures',
+                   'content': 'Dans le modèle conventionnel, l’anémomètre compare pression totale Pt et pression '
+                              'statique Ps. La différence Pt − Ps correspond à la pression dynamique dans '
+                              'l’approximation incompressible. L’altimètre utilise Ps ; le variomètre compare '
+                              'son évolution dans le temps par un dispositif calibré. Un défaut de prise '
+                              'statique peut donc affecter les trois indications. Le schéma fonctionnel explique '
+                              'les dépendances, sans représenter un montage particulier.\n'
+                              '\n'
+                              '### Construire le raisonnement\n'
+                              '\n'
+                              'Avant de mémoriser une flèche « monte » ou « descend », écrire les deux pressions '
+                              'reçues par l’instrument. Distinguer la pression extérieure actuelle de celle qui '
+                              'arrive effectivement par la conduite. Dans nos modèles idéaux, il n’y a ni fuite, '
+                              'ni variation thermique des volumes piégés ; le calage altimétrique reste fixe '
+                              'sauf indication contraire.\n'
+                              '\n'
+                              '**Exemple résolu :** Pt = 920 hPa et Ps = 890 hPa donnent 30 hPa de différence. '
+                              'Si seule Ps reçue diminue à 885 hPa, la différence devient 35 hPa. L’anémomètre '
+                              'indique davantage, mais ce changement ne démontre aucune accélération. On a '
+                              'modifié sa référence. Les hPa expriment une pression, pas une vitesse : ne pas '
+                              'transformer une différence de 5 hPa en 5 kt.\n'
+                              '\n'
+                              'L’altimètre associe une pression à une indication selon son calage. Tourner le '
+                              'bouton de calage peut donc changer cette indication même si la pression reçue '
+                              'reste piégée. Cette action ne rétablit pas la mesure de la pression extérieure.',
+                   'content_en': 'In the conventional model, the airspeed indicator compares total pressure Pt '
+                                 'with static pressure Ps. Pt − Ps corresponds to dynamic pressure in the '
+                                 'incompressible approximation. The altimeter uses Ps; the vertical-speed '
+                                 'indicator senses its change over time through a calibrated arrangement. A '
+                                 'static-source fault may therefore affect all three indications. The functional '
+                                 'diagram explains dependencies, not a particular installation.\n'
+                                 '\n'
+                                 '### Build the reasoning\n'
+                                 '\n'
+                                 'Before memorising an “up” or “down” arrow, write down both pressures received '
+                                 'by the instrument. Separate current external pressure from pressure actually '
+                                 'delivered through the line. Our ideal models assume no leaks or thermal '
+                                 'changes in trapped volumes; the altimeter setting remains fixed unless '
+                                 'specified otherwise.\n'
+                                 '\n'
+                                 '**Worked example:** Pt = 920 hPa and Ps = 890 hPa give a 30 hPa difference. If '
+                                 'only received Ps falls to 885 hPa, the difference becomes 35 hPa. The airspeed '
+                                 'indication increases, but this establishes no acceleration: its reference '
+                                 'changed. hPa measures pressure, not speed; a 5 hPa difference is not 5 kt.\n'
+                                 '\n'
+                                 'An altimeter relates pressure to an indication according to its setting. '
+                                 'Turning the setting knob may therefore change the indication even with trapped '
+                                 'pressure. That action does not restore measurement of external pressure.',
+                   'difficulty': 'advanced',
+                   'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022',
+                   'tags': ['CPL']},
+                  {'concept_id': 'CPL_022_001_C02',
+                   'title': 'Analyser une obstruction pitot',
+                   'title_en': 'Analyse a pitot blockage',
+                   'content': 'Si l’entrée pitot est obstruée mais son drainage reste libre, la pression totale '
+                              'ne se maintient plus et l’indication de vitesse tend vers zéro dans le modèle '
+                              'idéal. Si entrée et drainage sont obstrués, la pression est piégée. Avec une '
+                              'prise statique libre, monter fait baisser Ps : l’anémomètre tend alors à indiquer '
+                              'davantage ; descendre produit la tendance inverse. Cela ne prouve pas une '
+                              'variation de vitesse réelle. Les effets exacts et alertes dépendent de '
+                              'l’installation.\n'
+                              '\n'
+                              '### Deux obstructions, deux modèles différents\n'
+                              '\n'
+                              'Le drainage est décisif. Entrée bouchée et drainage libre : la pression dans la '
+                              'conduite tend vers la pression ambiante dans le modèle simplifié ; la différence '
+                              'utile tend vers zéro. Entrée et drainage bouchés : Pt reste piégée, mais Ps peut '
+                              'encore évoluer. « Pitot bouché » sans état du drainage ne suffit donc pas à '
+                              'choisir le modèle.\n'
+                              '\n'
+                              '**Exemple résolu :** Pt piégée à 900 hPa, Ps initiale 870 hPa : différence 30 '
+                              'hPa. En montant, Ps tombe à 855 hPa : différence 45 hPa. Lors d’une descente à Ps '
+                              '= 880 hPa, elle vaut 20 hPa. La même pression totale piégée produit donc '
+                              'plusieurs indications.\n'
+                              '\n'
+                              '**Contre-exemple à retenir :** si Pt ET Ps sont toutes deux piégées, leur '
+                              'différence reste constante dans ce modèle. L’IAS peut paraître stable alors que '
+                              'la vitesse réelle varie. Une indication immobile peut être une panne, pas une '
+                              'preuve de vol stabilisé.',
+                   'content_en': 'If the pitot inlet is blocked but its drain remains open, total pressure is no '
+                                 'longer maintained and indicated airspeed tends towards zero in the ideal '
+                                 'model. If both inlet and drain are blocked, pressure is trapped. With a clear '
+                                 'static source, climbing reduces Ps and the airspeed indication tends to '
+                                 'increase; descending produces the opposite tendency. This does not demonstrate '
+                                 'a real speed change. Exact effects and alerts depend on the installation.\n'
+                                 '\n'
+                                 '### Two blockages, two different models\n'
+                                 '\n'
+                                 'The drain is decisive. Blocked inlet with an open drain: line pressure tends '
+                                 'towards ambient pressure in the simplified model, so the useful difference '
+                                 'tends towards zero. Blocked inlet and drain: Pt remains trapped, but Ps can '
+                                 'still change. “Blocked pitot” without drain status is therefore insufficient '
+                                 'to choose the model.\n'
+                                 '\n'
+                                 '**Worked example:** Pt trapped at 900 hPa, initial Ps 870 hPa: difference 30 '
+                                 'hPa. During a climb, Ps falls to 855 hPa: difference 45 hPa. During descent to '
+                                 'Ps = 880 hPa, it is 20 hPa. The same trapped total pressure therefore produces '
+                                 'several indications.\n'
+                                 '\n'
+                                 '**Counterexample to remember:** if BOTH Pt and Ps are trapped, their '
+                                 'difference remains constant in this model. IAS may appear stable while actual '
+                                 'speed changes. A stationary indication can be a fault, not evidence of steady '
+                                 'flight.',
+                   'difficulty': 'advanced',
+                   'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022',
+                   'tags': ['CPL']},
+                  {'concept_id': 'CPL_022_001_C03',
+                   'title': 'Analyser une obstruction statique',
+                   'title_en': 'Analyse a static blockage',
+                   'content': 'Lorsque la pression statique est piégée, l’altimètre reste près de l’altitude '
+                              'd’obstruction et le variomètre revient vers zéro après le transitoire. Avec pitot '
+                              'libre, l’anémomètre sous-indique en montant au-dessus de cette altitude et '
+                              'surindique en descendant au-dessous, par rapport à son indication avec une '
+                              'statique correcte dans les mêmes conditions. Une source statique de secours peut '
+                              'introduire des erreurs : appliquer les corrections du manuel.\n'
+                              '\n'
+                              '### Comparer deux indications au même instant\n'
+                              '\n'
+                              'Avec pitot libre, noter Pt actuelle, Ps extérieure et Ps piégée. La bonne '
+                              'différence serait Pt − Ps extérieure ; l’instrument défectueux reçoit Pt − Ps '
+                              'piégée. Comparer ces deux résultats, sans supposer que montée signifie toujours '
+                              'hausse de l’indication ou descente toujours surindication.\n'
+                              '\n'
+                              '**Exemple résolu :** statique piégée à 840 hPa. Après une montée puis une '
+                              'descente partielle, Ps extérieure vaut encore 820 hPa ; Pt vaut 860 hPa. '
+                              'Différence correcte 40 hPa, différence reçue 20 hPa : l’instrument sous-indique '
+                              'encore. L’avion descend, mais il reste au-dessus de l’altitude d’obstruction. La '
+                              'position par rapport à cette altitude explique le signe de l’erreur.\n'
+                              '\n'
+                              '### Lire les indices ensemble\n'
+                              '\n'
+                              'À calage constant, altimètre figé et variomètre revenu à zéro après transitoire '
+                              'sont compatibles avec une statique piégée. Ce couple d’indices ne démontre pas un '
+                              'palier réel. Une source de secours change la référence disponible ; elle n’est '
+                              'pas nécessairement sans erreur. Employer les corrections du manuel et distinguer '
+                              'le transitoire de la nouvelle indication stabilisée.\n'
+                              '\n'
+                              '**Auto-évaluation :** si une source de secours délivre 3 hPa de moins que la '
+                              'statique correcte, avec Pt inchangée, la différence mesurée augmente-t-elle ou '
+                              'diminue-t-elle ? Elle augmente de 3 hPa ; le signe se retrouve directement dans '
+                              'la soustraction.',
+                   'content_en': 'When static pressure is trapped, the altimeter remains near the blockage '
+                                 'altitude and the vertical-speed indicator returns towards zero after the '
+                                 'transient. With a clear pitot, airspeed underreads when climbing above that '
+                                 'altitude and overreads when descending below it, compared with the indication '
+                                 'using correct static pressure under the same conditions. An alternate static '
+                                 'source may introduce errors: apply manual corrections.\n'
+                                 '\n'
+                                 '### Compare two indications at the same instant\n'
+                                 '\n'
+                                 'With an open pitot, write current Pt, external Ps and trapped Ps. The correct '
+                                 'difference would be Pt minus external Ps; the faulty instrument receives Pt '
+                                 'minus trapped Ps. Compare these results without assuming that climb always '
+                                 'means a rising indication or descent always means overreading.\n'
+                                 '\n'
+                                 '**Worked example:** static pressure trapped at 840 hPa. After climbing then '
+                                 'partially descending, external Ps is still 820 hPa; Pt is 860 hPa. Correct '
+                                 'difference 40 hPa, received difference 20 hPa: the instrument still '
+                                 'underreads. The aircraft is descending but remains above the blockage '
+                                 'altitude. Its position relative to that altitude explains the sign of the '
+                                 'error.\n'
+                                 '\n'
+                                 '### Read the cues together\n'
+                                 '\n'
+                                 'At a constant setting, a frozen altimeter and a VSI returning to zero after '
+                                 'the transient are consistent with trapped static pressure. Together, they do '
+                                 'not establish actual level flight. An alternate source changes the available '
+                                 'reference; it need not be error-free. Use manual corrections and distinguish '
+                                 'the transient from the new steady indication.\n'
+                                 '\n'
+                                 '**Self-check:** if an alternate source supplies 3 hPa less than correct static '
+                                 'pressure with unchanged Pt, does the measured difference rise or fall? It '
+                                 'rises by 3 hPa; the sign follows directly from subtraction.',
+                   'difficulty': 'advanced',
+                   'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022',
+                   'tags': ['CPL']},
+                  {'concept_id': 'CPL_022_001_C04',
+                   'title': 'Recouper avant d’agir',
+                   'title_en': 'Cross-check before acting',
+                   'content': 'Deux affichages utilisant le même capteur ne sont pas deux mesures indépendantes. '
+                              'Recouper attitude, puissance, sources réellement indépendantes et trajectoire, '
+                              'puis appliquer la procédure de vitesse non fiable propre à l’avion. La vitesse '
+                              'sol GNSS ne remplace pas la vitesse air, notamment avec du vent. Le chauffage '
+                              'pitot limite certains risques de givrage mais ne corrige ni toutes les '
+                              'obstructions ni toutes les pannes. Éviter de poursuivre une indication '
+                              'incohérente par des actions brusques.\n'
+                              '\n'
+                              '### Vérifier l’indépendance en remontant la chaîne\n'
+                              '\n'
+                              'Deux calculateurs différents peuvent recevoir la même prise statique. Leur accord '
+                              'exclut mal une panne commune en amont. Dessiner la chaîne prise → conduite → '
+                              'capteur/calculateur → écran. Une alimentation électrique indépendante ne prouve '
+                              'pas l’indépendance pneumatique ; il faut vérifier les dépendances réellement '
+                              'pertinentes pour la panne envisagée.\n'
+                              '\n'
+                              '**Cas guidé :** deux affichages s’accordent, un troisième diverge. Si les deux '
+                              'premiers partagent leur source, compter les votes ne permet pas d’identifier le '
+                              'bon. Rechercher une référence dont la chaîne utile est indépendante et recouper '
+                              'attitude, puissance et trajectoire selon la procédure de l’avion. Une source '
+                              'indépendante fournit un contrôle supplémentaire ; elle n’est pas déclarée '
+                              'infaillible par principe.\n'
+                              '\n'
+                              'Le GNSS fournit une vitesse par rapport au sol. L’écart avec l’IAS contient '
+                              'notamment les différences entre IAS et TAS ainsi que le vent. Une GS de 110 kt et '
+                              'une IAS de 90 kt ne prouvent donc pas une erreur instrumentale de 20 kt. Le '
+                              'recoupement cherche une cohérence d’ensemble, sans substituer arbitrairement une '
+                              'grandeur à une autre.\n'
+                              '\n'
+                              '**À expliquer sans le cours :** quelle pression est reçue, laquelle devrait '
+                              'l’être, quels instruments partagent la source et quelle conclusion reste '
+                              'incertaine ? En vol, préserver la conduite de l’avion et suivre la procédure '
+                              'appropriée prime sur la résolution complète de l’exercice.\n'
+                              '\n'
+                              '### Transférer la méthode à une architecture nouvelle\n'
+                              'Une installation fictive peut partager la pression totale sans partager la '
+                              "statique, ou l'inverse. Exemple guidé distinct du schéma de QCM : D reçoit "
+                              'Pt1/Ps1, E reçoit Pt2/Ps1 et F reçoit Pt2/Ps2. Dessiner séparément les liens Pt '
+                              'et Ps : D/E partagent Ps1, E/F partagent Pt2. Une panne de Ps1 concerne donc D/E '
+                              'dans ce modèle. Le QCM propose une autre architecture A/B/C : reprendre le tracé, '
+                              'sans transférer les couples du cas guidé.\n'
+                              '\n'
+                              "**Méthode de diagnostic limitée :** lister les affichages qu'une panne unique "
+                              'pourrait affecter ; comparer cette liste avec les observations. Un affichage '
+                              'stable peut être peu sensible à une panne dans les conditions du moment : il faut '
+                              'aussi considérer les pressions réellement en évolution. Un groupe de deux '
+                              "affichages concordants n'identifie pas, à lui seul, la chaîne correcte. Les "
+                              'exercices précisent les hypothèses de panne unique et de conduite intacte pour '
+                              'rendre la conclusion déterminée ; une installation réelle exige son propre schéma '
+                              'et sa procédure.\n'
+                              '\n'
+                              '**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. '
+                              'La matière 022 comporte 40 questions en 60 minutes dans le tableau EASA cité. Ce '
+                              'chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve '
+                              'complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.',
+                   'content_en': 'Two displays using the same sensor are not two independent measurements. '
+                                 'Cross-check attitude, power, genuinely independent sources and flight path, '
+                                 'then follow the aircraft-specific unreliable-airspeed procedure. GNSS '
+                                 'groundspeed does not replace airspeed, particularly in wind. Pitot heat '
+                                 'reduces some icing risks but does not correct every blockage or failure. Avoid '
+                                 'chasing inconsistent indications with abrupt control inputs.\n'
+                                 '\n'
+                                 '### Trace the chain to establish independence\n'
+                                 '\n'
+                                 'Two different computers may receive the same static source. Their agreement '
+                                 'does little to exclude an upstream common fault. Draw the chain: port → line → '
+                                 'sensor/computer → display. Independent electrical power does not establish '
+                                 'pneumatic independence; check the dependencies relevant to the suspected '
+                                 'failure.\n'
+                                 '\n'
+                                 '**Worked case:** two displays agree and a third differs. If the first two '
+                                 'share a source, counting votes cannot identify the correct one. Seek a '
+                                 'reference with an independent relevant chain and cross-check attitude, power '
+                                 'and flight path under aircraft procedures. An independent source provides '
+                                 'another check; independence does not make it infallible.\n'
+                                 '\n'
+                                 'GNSS supplies speed relative to the ground. Its difference from IAS includes '
+                                 'IAS-to-TAS differences and wind. GS 110 kt and IAS 90 kt therefore do not '
+                                 'establish a 20 kt instrument error. Cross-checking seeks overall consistency '
+                                 'without arbitrarily substituting one quantity for another.\n'
+                                 '\n'
+                                 '**Recall without the lesson:** which pressure is received, which should be '
+                                 'received, which instruments share the source, and what remains uncertain? In '
+                                 'flight, maintaining aircraft control and following the appropriate procedure '
+                                 'takes priority over fully solving an exercise.\n'
+                                 '\n'
+                                 '### Transfer the method to a new architecture\n'
+                                 'A fictional installation may share total pressure without sharing static '
+                                 'pressure, or the reverse. Worked example distinct from the quiz diagram: D '
+                                 'receives Pt1/Ps1, E receives Pt2/Ps1 and F receives Pt2/Ps2. Trace Pt and Ps '
+                                 'separately: D/E share Ps1; E/F share Pt2. A Ps1 fault therefore affects D/E in '
+                                 'this model. The quiz uses a different A/B/C architecture: trace it again '
+                                 "instead of transferring the worked example's pairs.\n"
+                                 '\n'
+                                 '**Limited diagnostic method:** list displays a single fault could affect, then '
+                                 'compare with observations. A stable display may be insensitive to a fault in '
+                                 'current conditions: consider which pressures are actually changing. Two '
+                                 'agreeing displays alone do not identify the correct chain. Exercises specify '
+                                 'single-fault and intact-line assumptions to make the answer determined; real '
+                                 'installations require their own diagram and procedure.\n'
+                                 '\n'
+                                 '**Practice format:** 15 chapter MCQs, four choices and one correct answer. '
+                                 'Subject 022 has 40 questions in 60 minutes in the cited EASA table. This '
+                                 'chapter covers only part of the subject and is not a full paper. EASA '
+                                 'framework, including with English or US/British units.',
+                   'difficulty': 'advanced',
+                   'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022',
+                   'tags': ['CPL']}],
+     'questions': [{'concept_id': 'CPL_022_001_C01',
+                    'concept_title': 'Identifier les pressions',
+                    'level': 3,
+                    'question': 'Dans le modèle conventionnel, une prise statique commune est obstruée. Quel '
+                                'groupe peut être affecté directement par cette seule panne ?',
+                    'question_en': 'In the conventional model, a shared static port is blocked. Which group can '
+                                   'be directly affected by this single fault?',
+                    'options': ['Anémomètre, altimètre et variomètre',
+                                'Altimètre et variomètre seulement, car le pitot alimente l’anémomètre',
+                                'Anémomètre seulement, car les autres instruments ne comparent pas Pt et Ps',
+                                'Altimètre seulement, car le variomètre mesure directement le mouvement '
+                                'vertical'],
+                    'options_en': ['Airspeed indicator, altimeter and VSI',
+                                   'Altimeter and VSI only, because pitot supplies the airspeed indicator',
+                                   'Airspeed indicator only, because the others do not compare Pt and Ps',
+                                   'Altimeter only, because the VSI directly measures vertical movement'],
+                    'correct_answer': 'Anémomètre, altimètre et variomètre',
+                    'explanation': 'Les trois utilisent Ps, même s’ils la traitent différemment : différence '
+                                   'avec Pt, conversion en altitude, variation dans le temps. Le pitot libre ne '
+                                   'suffit pas à fiabiliser l’anémomètre ; le variomètre ne mesure pas '
+                                   'directement une distance parcourue verticalement.',
+                    'explanation_en': 'All three use Ps differently: difference from Pt, conversion to altitude, '
+                                      'and change over time. An open pitot is insufficient to ensure reliable '
+                                      'airspeed; a VSI does not directly measure distance travelled vertically.',
+                    'use_exercise_svg': False,
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C01',
+                    'concept_title': 'Identifier les pressions',
+                    'level': 3,
+                    'question': 'Pt = 850 hPa, Ps = 830 hPa. Quelle différence de pression reçoit l’anémomètre '
+                                'conventionnel ?',
+                    'question_en': 'Pt = 850 hPa, Ps = 830 hPa. What pressure difference does the conventional '
+                                   'airspeed indicator receive?',
+                    'options': ['1 680 hPa', '830 hPa', '−20 hPa', '20 hPa'],
+                    'options_en': ['1,680 hPa', '830 hPa', '−20 hPa', '20 hPa'],
+                    'correct_answer': '20 hPa',
+                    'explanation': 'Soustraire Ps de Pt : 850 − 830 = 20 hPa. Additionner donne 1 680 ; inverser '
+                                   'l’ordre donne −20 ; 830 est la référence statique seule. La réponse est une '
+                                   'pression et ne fournit pas directement une vitesse en kt.',
+                    'explanation_en': 'Subtract Ps from Pt: 850 − 830 = 20 hPa. Adding gives 1,680; reversing '
+                                      'the order gives −20; 830 is static pressure alone. The result is pressure '
+                                      'and does not directly give a speed in kt.',
+                    'use_exercise_svg': False,
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C01',
+                    'concept_title': 'Identifier les pressions',
+                    'level': 3,
+                    'question': 'La statique d’un altimètre est piégée ; le pilote change son calage et '
+                                'l’indication bouge. Que démontre ce mouvement ?',
+                    'question_en': 'An altimeter’s static pressure is trapped; the pilot changes its setting and '
+                                   'the indication moves. What does that movement establish?',
+                    'options': ['L’avion a changé d’altitude de la valeur affichée',
+                                'La correction de température a été automatiquement appliquée',
+                                'Le mécanisme de calage agit, sans prouver que la prise est redevenue libre',
+                                'La pression extérieure atteint de nouveau l’instrument'],
+                    'options_en': ['The aircraft changed altitude by the displayed amount',
+                                   'Temperature correction has been applied automatically',
+                                   'The setting mechanism responds, without proving the port has cleared',
+                                   'External pressure is reaching the instrument again'],
+                    'correct_answer': 'Le mécanisme de calage agit, sans prouver que la prise est redevenue '
+                                      'libre',
+                    'explanation': 'L’indication dépend de la pression reçue ET du calage. Modifier le second '
+                                   'peut déplacer l’aiguille sans modifier la première. Ce test ne prouve ni '
+                                   'débouchage, ni déplacement réel, ni correction des erreurs de température.',
+                    'explanation_en': 'The indication depends on both received pressure and setting. Changing '
+                                      'the latter can move the pointer without changing the former. This proves '
+                                      'neither an unblocked port, actual movement nor temperature-error '
+                                      'correction.',
+                    'use_exercise_svg': False,
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C02',
+                    'concept_title': 'Analyser une obstruction pitot',
+                    'level': 3,
+                    'question': 'Entrée pitot bouchée, drainage et statique libres ; modèle idéal stabilisé. '
+                                'Quelle tendance d’IAS correspond à ces seules conditions ?',
+                    'question_en': 'Blocked pitot inlet, open drain and static source; ideal steady model. Which '
+                                   'IAS tendency follows from these conditions alone?',
+                    'options': ['Valeur correcte, car la prise statique reste libre',
+                                'Vers zéro, car la différence utile se résorbe',
+                                'Valeur figée, car toute obstruction piège nécessairement Pt',
+                                'Hausse en montée, car Pt reste forcément piégée'],
+                    'options_en': ['Correct value because the static source remains open',
+                                   'Towards zero as the useful difference dissipates',
+                                   'Frozen value because every blockage necessarily traps Pt',
+                                   'Rise in a climb because Pt must remain trapped'],
+                    'correct_answer': 'Vers zéro, car la différence utile se résorbe',
+                    'explanation': 'Le drainage libre empêche ici le maintien de Pt piégée. La valeur figée ou '
+                                   'la réaction d’un pitot fermé supposent une autre configuration. Une statique '
+                                   'correcte ne rétablit pas une pression totale devenue indisponible.',
+                    'explanation_en': 'The open drain prevents trapped Pt being maintained here. A frozen value '
+                                      'or closed-pitot response assumes a different configuration. Correct '
+                                      'static pressure does not restore unavailable total pressure.',
+                    'use_exercise_svg': False,
+                    'explanation_illustration': '/illustrations/cpl-pitot-reasoning.svg',
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C02',
+                    'concept_title': 'Analyser une obstruction pitot',
+                    'level': 3,
+                    'question': 'Pt est piégée à 800 hPa, entrée et drainage pitot bouchés ; Ps libre passe de '
+                                '780 à 760 hPa en montée. Quelle variation de différence reçoit l’anémomètre ?',
+                    'question_en': 'Pt is trapped at 800 hPa, pitot inlet and drain blocked; open Ps falls from '
+                                   '780 to 760 hPa in a climb. How does the airspeed indicator’s pressure '
+                                   'difference change?',
+                    'options': ['De 20 à 40 hPa', 'De 20 à 0 hPa', 'Elle reste à 20 hPa', 'De 780 à 760 hPa'],
+                    'options_en': ['From 20 to 40 hPa',
+                                   'From 20 to 0 hPa',
+                                   'It remains at 20 hPa',
+                                   'From 780 to 760 hPa'],
+                    'correct_answer': 'De 20 à 40 hPa',
+                    'explanation': 'Au départ, 800 − 780 = 20 ; ensuite, 800 − 760 = 40 hPa. L’IAS tend à '
+                                   'augmenter car Ps diminue, malgré Pt constante. Les valeurs 780 et 760 sont '
+                                   'des pressions statiques, pas les différences mesurées.',
+                    'explanation_en': 'Initially 800 − 780 = 20; then 800 − 760 = 40 hPa. IAS tends to increase '
+                                      'as Ps falls despite constant Pt. The values 780 and 760 are static '
+                                      'pressures, not measured differences.',
+                    'use_exercise_svg': False,
+                    'explanation_illustration': '/illustrations/cpl-pitot-reasoning.svg',
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C02',
+                    'concept_title': 'Analyser une obstruction pitot',
+                    'level': 3,
+                    'question': 'Pt piégée à 800 hPa, statique libre : Ps passe de 760 à 790 hPa pendant une '
+                                'descente. Quelle différence finale et quelle tendance d’IAS ?',
+                    'question_en': 'Pt trapped at 800 hPa, open static source: Ps rises from 760 to 790 hPa '
+                                   'during descent. What final difference and IAS trend result?',
+                    'options': ['10 hPa ; indication en hausse',
+                                '40 hPa ; indication constante',
+                                '30 hPa ; indication en baisse',
+                                '10 hPa ; indication en baisse'],
+                    'options_en': ['10 hPa; indication increases',
+                                   '40 hPa; indication remains constant',
+                                   '30 hPa; indication decreases',
+                                   '10 hPa; indication decreases'],
+                    'correct_answer': '10 hPa ; indication en baisse',
+                    'explanation': 'La différence passe de 800 − 760 = 40 à 800 − 790 = 10 hPa. Les 30 hPa '
+                                   'représentent sa diminution, pas sa valeur finale. Cette variation '
+                                   'instrumentale ne prouve pas un ralentissement réel.',
+                    'explanation_en': 'The difference changes from 800 − 760 = 40 to 800 − 790 = 10 hPa. The 30 '
+                                      'hPa is its decrease, not its final value. This instrument change does not '
+                                      'establish actual deceleration.',
+                    'use_exercise_svg': False,
+                    'explanation_illustration': '/illustrations/cpl-pitot-reasoning.svg',
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C02',
+                    'concept_title': 'Analyser une obstruction pitot',
+                    'level': 3,
+                    'question': 'Pt et Ps sont toutes deux piégées à 800 et 780 hPa. Modèle idéal sans fuite ni '
+                                'effet thermique : si la vitesse réelle change, que devient la différence reçue '
+                                '?',
+                    'question_en': 'Both Pt and Ps are trapped at 800 and 780 hPa. Ideal model without leaks or '
+                                   'thermal effects: if actual speed changes, what happens to the received '
+                                   'difference?',
+                    'options': ['Elle devient nulle dès que l’altitude change',
+                                'Elle varie uniquement avec la vitesse sol GNSS',
+                                'Elle reste à 20 hPa',
+                                'Elle suit la nouvelle pression dynamique extérieure'],
+                    'options_en': ['It becomes zero as soon as altitude changes',
+                                   'It varies only with GNSS groundspeed',
+                                   'It remains at 20 hPa',
+                                   'It follows the new external dynamic pressure'],
+                    'correct_answer': 'Elle reste à 20 hPa',
+                    'explanation': 'Les deux valeurs reçues sont constantes : 800 − 780 = 20 hPa, même si les '
+                                   'conditions extérieures évoluent. Ne pas réutiliser le modèle Pt piégée/Ps '
+                                   'libre. Une IAS stable n’est donc pas une preuve de vitesse réelle constante.',
+                    'explanation_en': 'Both received values are constant: 800 − 780 = 20 hPa even as outside '
+                                      'conditions change. Do not reuse the trapped-Pt/open-Ps model. Stable IAS '
+                                      'therefore does not prove constant actual speed.',
+                    'use_exercise_svg': False,
+                    'explanation_illustration': '/illustrations/cpl-pitot-reasoning.svg',
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C03',
+                    'concept_title': 'Analyser une obstruction statique',
+                    'level': 3,
+                    'question': 'Une prise statique se bouche à 5 000 ft indiqués. L’avion monte ensuite '
+                                'réellement ; calage inchangé, modèle idéal. Quelle indication altimétrique est '
+                                'attendue ?',
+                    'question_en': 'A static port blocks at 5,000 ft indicated. The aircraft subsequently '
+                                   'climbs; setting unchanged, ideal model. What altimeter indication is '
+                                   'expected?',
+                    'options': ['Un retour progressif vers zéro après transitoire',
+                                'Environ 5 000 ft',
+                                'Une augmentation suivant la montée réelle',
+                                'Une augmentation proportionnelle à Pt'],
+                    'options_en': ['A gradual return to zero after the transient',
+                                   'Approximately 5,000 ft',
+                                   'An increase following the actual climb',
+                                   'An increase proportional to Pt'],
+                    'correct_answer': 'Environ 5 000 ft',
+                    'explanation': 'L’altimètre conserve la pression statique correspondant à l’état '
+                                   'd’obstruction, avec le même calage. Pt ne le pilote pas. Le retour vers zéro '
+                                   'après transitoire décrit le variomètre dans ce modèle, pas l’altimètre.',
+                    'explanation_en': 'The altimeter retains static pressure from the blockage condition with '
+                                      'the same setting. Pt does not drive it. Returning to zero after the '
+                                      'transient describes the VSI in this model, not the altimeter.',
+                    'use_exercise_svg': False,
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C03',
+                    'concept_title': 'Analyser une obstruction statique',
+                    'level': 3,
+                    'question': 'Statique piégée et montée réelle poursuivie : après stabilisation du '
+                                'transitoire interne, quelle indication du variomètre conventionnel est '
+                                'cohérente ?',
+                    'question_en': 'Trapped static pressure while actual climb continues: after the internal '
+                                   'transient settles, which conventional VSI indication is consistent?',
+                    'options': ['Zéro malgré la montée réelle',
+                                'Le dernier taux de montée conservé indéfiniment',
+                                'Le taux de montée réel, car Pt continue d’évoluer',
+                                'Un taux de descente proportionnel à l’IAS'],
+                    'options_en': ['Zero despite the actual climb',
+                                   'The last climb rate retained indefinitely',
+                                   'Actual climb rate because Pt keeps changing',
+                                   'A descent rate proportional to IAS'],
+                    'correct_answer': 'Zéro malgré la montée réelle',
+                    'explanation': 'La pression piégée ne varie plus à l’entrée du système ; les pressions '
+                                   'internes finissent par s’équilibrer. Le variomètre revient vers zéro sans '
+                                   'démontrer un palier. Ni Pt ni une autre indication d’IAS ne remplacent '
+                                   'l’entrée statique absente.',
+                    'explanation_en': 'Trapped pressure no longer changes at the system inlet; internal '
+                                      'pressures eventually equalise. The VSI returns towards zero without '
+                                      'establishing level flight. Neither Pt nor an IAS indication replaces the '
+                                      'missing changing static input.',
+                    'use_exercise_svg': False,
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C03',
+                    'concept_title': 'Analyser une obstruction statique',
+                    'level': 3,
+                    'question': 'Pitot libre : Pt actuelle 850 hPa, Ps extérieure 810 hPa, Ps piégée reçue 840 '
+                                'hPa. Quelle comparaison est correcte ?',
+                    'question_en': 'Open pitot: current Pt 850 hPa, external Ps 810 hPa, received trapped Ps 840 '
+                                   'hPa. Which comparison is correct?',
+                    'options': ['40 hPa reçus contre 10 hPa corrects : surindication',
+                                '30 hPa reçus contre 40 hPa corrects : sous-indication',
+                                '10 hPa reçus contre 40 hPa corrects : surindication',
+                                '10 hPa reçus contre 40 hPa corrects : sous-indication'],
+                    'options_en': ['40 hPa received versus 10 hPa correct: overreading',
+                                   '30 hPa received versus 40 hPa correct: underreading',
+                                   '10 hPa received versus 40 hPa correct: overreading',
+                                   '10 hPa received versus 40 hPa correct: underreading'],
+                    'correct_answer': '10 hPa reçus contre 40 hPa corrects : sous-indication',
+                    'explanation': 'L’instrument reçoit 850 − 840 = 10 hPa ; une statique correcte donnerait 850 '
+                                   '− 810 = 40 hPa. Soustraire une Ps trop forte diminue la différence. Les 30 '
+                                   'hPa sont l’écart entre les deux résultats, pas la pression reçue.',
+                    'explanation_en': 'The instrument receives 850 − 840 = 10 hPa; correct static pressure would '
+                                      'give 850 − 810 = 40 hPa. Subtracting excessive Ps reduces the difference. '
+                                      'The 30 hPa is the error between results, not the received difference.',
+                    'use_exercise_svg': False,
+                    'explanation_illustration': '/illustrations/cpl-pitot-reasoning.svg',
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C03',
+                    'concept_title': 'Analyser une obstruction statique',
+                    'level': 3,
+                    'question': "Statique piégée à 4 000 ft. Après descente à 2 000 ft, l'avion remonte à 3 000 "
+                                "ft ; pitot libre, Ps décroît avec l'altitude. Quelle erreur IAS subsiste ?",
+                    'question_en': 'Static trapped at 4,000 ft. After descending to 2,000 ft, the aircraft '
+                                   'climbs to 3,000 ft; pitot open, Ps decreases with altitude. Which IAS error '
+                                   'remains?',
+                    'options': ['Aucune dès que la montée commence',
+                                'Indication figée car la statique est piégée',
+                                "Surindication, car l'avion reste sous l'altitude de blocage",
+                                "Sous-indication, car l'avion monte"],
+                    'options_en': ['None once the climb begins',
+                                   'Frozen indication because static is trapped',
+                                   'Overreading, because the aircraft remains below blockage altitude',
+                                   'Underreading, because the aircraft is climbing'],
+                    'correct_answer': "Surindication, car l'avion reste sous l'altitude de blocage",
+                    'explanation': 'À 3 000 ft, Ps extérieure est supérieure à Ps piégée à 4 000 ft. Soustraire '
+                                   'la valeur piégée plus faible augmente la différence reçue. Le sens de '
+                                   "déplacement ne change pas ce signe tant que l'avion reste sous l'altitude de "
+                                   'blocage.',
+                    'explanation_en': 'At 3,000 ft, external Ps exceeds Ps trapped at 4,000 ft. Subtracting the '
+                                      'smaller trapped value increases received difference. Direction of '
+                                      'movement does not change this sign while still below blockage altitude.',
+                    'use_exercise_svg': False,
+                    'explanation_illustration': '/illustrations/cpl-pitot-reasoning.svg',
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C03',
+                    'concept_title': 'Analyser une obstruction statique',
+                    'level': 3,
+                    'question': 'Exercice : Pt = 900 hPa ; statique correcte = 870 hPa. Une source de secours '
+                                'fournit 865 hPa, Pt inchangée. Quelle nouvelle différence reçoit l’anémomètre ?',
+                    'question_en': 'Exercise: Pt = 900 hPa; correct static = 870 hPa. An alternate source '
+                                   'supplies 865 hPa with unchanged Pt. What new difference reaches the airspeed '
+                                   'indicator?',
+                    'options': ['5 hPa', '35 hPa', '25 hPa', '30 hPa'],
+                    'options_en': ['5 hPa', '35 hPa', '25 hPa', '30 hPa'],
+                    'correct_answer': '35 hPa',
+                    'explanation': '900 − 865 = 35 hPa contre 30 auparavant. Une référence statique plus basse '
+                                   'accroît ici la différence. Les 5 hPa sont l’erreur, pas la nouvelle '
+                                   'différence. Ce scénario fixe le signe ; une installation réelle demande les '
+                                   'corrections de son manuel.',
+                    'explanation_en': '900 − 865 = 35 hPa versus 30 previously. A lower static reference '
+                                      'increases the difference here. The 5 hPa is the error, not the new '
+                                      'difference. This case specifies the sign; a real installation requires '
+                                      'its manual corrections.',
+                    'use_exercise_svg': False,
+                    'explanation_illustration': '/illustrations/cpl-pitot-reasoning.svg',
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C04',
+                    'concept_title': 'Recouper avant d’agir',
+                    'level': 3,
+                    'question': 'Deux afficheurs possèdent des calculateurs et alimentations séparés mais '
+                                'partagent la même prise statique. Ils s’accordent après une obstruction de '
+                                'cette prise. Que vaut cet accord ?',
+                    'question_en': 'Two displays have separate computers and power supplies but share one static '
+                                   'port. They agree after that port becomes blocked. What does this agreement '
+                                   'establish?',
+                    'options': ['Il n’exclut pas une erreur commune venant de la prise',
+                                'Il valide Ps puisque les calculateurs sont indépendants',
+                                'Il valide Ps puisque les alimentations sont séparées',
+                                'Il permet de rejeter toute troisième indication divergente'],
+                    'options_en': ['It does not exclude a common error originating at the port',
+                                   'It validates Ps because the computers are independent',
+                                   'It validates Ps because power supplies are separate',
+                                   'It allows any disagreeing third indication to be rejected'],
+                    'correct_answer': 'Il n’exclut pas une erreur commune venant de la prise',
+                    'explanation': 'L’indépendance électrique ou de calcul ne supprime pas la dépendance '
+                                   'pneumatique commune. Une erreur en amont peut être reproduite fidèlement par '
+                                   'les deux chaînes. Le nombre d’écrans concordants ne suffit pas : examiner '
+                                   'les sources.',
+                    'explanation_en': 'Electrical or computing independence does not remove shared pneumatic '
+                                      'dependence. Both chains may faithfully reproduce an upstream error. '
+                                      'Counting agreeing displays is insufficient: examine their sources.',
+                    'use_exercise_svg': False,
+                    'explanation_illustration': '/illustrations/cpl-sensor-independence.svg',
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C04',
+                    'concept_title': 'Recouper avant d’agir',
+                    'level': 3,
+                    'question': "En vol, GS 145 kt et IAS 120 kt. Un pilote attribue les 25 kt d'écart à une "
+                                'erreur instrumentale. Quelle étape manque à ce raisonnement ?',
+                    'question_en': 'In flight, GS 145 kt and IAS 120 kt. A pilot attributes the 25 kt difference '
+                                   'to instrument error. What step is missing?',
+                    'options': ["Soustraire seulement la composante de vent traversier à l'IAS",
+                                'Considérer GS comme référence air car le GNSS est précis',
+                                'Convertir les 25 kt directement en hPa',
+                                'Relier IAS à TAS et intégrer le vent avant la comparaison'],
+                    'options_en': ['Subtract only crosswind component from IAS',
+                                   'Treat GS as an air reference because GNSS is accurate',
+                                   'Convert 25 kt directly into hPa',
+                                   'Relate IAS to TAS and account for wind before comparison'],
+                    'correct_answer': 'Relier IAS à TAS et intégrer le vent avant la comparaison',
+                    'explanation': "Les deux valeurs n'ont pas la même référence. La précision GNSS ne change "
+                                   'pas la nature de GS ; le vent seul ne résout pas la différence IAS/TAS. '
+                                   "L'écart brut ne fournit pas une erreur ni une correction de pression.",
+                    'explanation_en': 'The values have different references. GNSS precision does not change the '
+                                      'nature of GS; wind alone does not resolve IAS/TAS differences. The raw '
+                                      'gap gives neither an error nor a pressure correction.',
+                    'use_exercise_svg': False,
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'},
+                   {'concept_id': 'CPL_022_001_C04',
+                    'concept_title': 'Recouper avant d’agir',
+                    'level': 3,
+                    'question': 'Schéma fictif : A reçoit Pt1/Ps1, B reçoit Pt1/Ps2, C reçoit Pt2/Ps2. Seule Ps2 '
+                                'se bloque, les autres sources et conduites restent intactes. En changement '
+                                "d'altitude, quel groupe peut partager une erreur de statique ?",
+                    'question_en': 'Fictional diagram: A receives Pt1/Ps1, B Pt1/Ps2, C Pt2/Ps2. Only Ps2 '
+                                   'blocks; other sources and lines remain intact. During altitude change, which '
+                                   'group can share a static error?',
+                    'options': ['A et C, parce que leurs calculateurs sont séparés',
+                                "Les trois, parce qu'ils sont à la même altitude réelle",
+                                'B et C, malgré leurs pitots distincts',
+                                'A et B, parce que leur pitot est commun'],
+                    'options_en': ['A and C because their computers are separate',
+                                   'All three because actual altitude is the same',
+                                   'B and C despite separate pitots',
+                                   'A and B because they share a pitot'],
+                    'correct_answer': 'B et C, malgré leurs pitots distincts',
+                    'explanation': "Suivre le lien Ps2 mène à B et C. Pt1 partagé par A/B n'est pas la source "
+                                   "défaillante de ce scénario. L'altitude réelle commune ne crée pas une "
+                                   'connexion pneumatique ; A conserve ici Ps1 intacte.',
+                    'explanation_en': "Tracing Ps2 leads to B and C. A/B's shared Pt1 is not the failed source "
+                                      'in this case. Common actual altitude creates no pneumatic connection; A '
+                                      'retains intact Ps1 here.',
+                    'use_exercise_svg': True,
+                    'explanation_illustration': '/illustrations/cpl-022-001.svg',
+                    'tags': ['CPL', 'exam-mcq', 'exam-subject:022'],
+                    'practice_format': 'mcq',
+                    'source_references': ['https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8',
+                                          'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67',
+                                          'https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf'],
+                    'syllabus_reference': 'Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022'}]}
+    save(data)

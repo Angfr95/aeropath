@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Altimetry: check clearance</title><desc id="desc">Altimetry: check clearance</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Altimetry: check clearance</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Fictional exercise · Diagram not to scale</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">QUIZ_PPL_MET_002_CLEARANCE</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Read the diagram with the lesson explanations and references.</text>
+<text x="65" y="213" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Independent case · Input values</text>
+<text x="65" y="269" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Observed indication</text>
+<text x="755" y="269" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">3,100 ft</text>
+<path d="M65 288L1130 288" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="330" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Setting used / current QNH</text>
+<text x="755" y="330" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">1022 hPa / 1010 hPa</text>
+<path d="M65 349L1130 349" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="391" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Obstacle altitude</text>
+<text x="755" y="391" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">2,300 ft AMSL</text>
+<path d="M65 410L1130 410" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="452" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Clearance required by this exercise</text>
+<text x="755" y="452" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">500 ft</text>
+<path d="M65 471L1130 471" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="522" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Supplied approximation: 27 ft/hPa</text>
+<text x="65" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Model: QNH altitude treated as true altitude; other errors ignored. No result displayed.</text>
+</svg>

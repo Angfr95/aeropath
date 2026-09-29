@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Lire l’écart au point de rosée</title><desc id="desc">Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Lire l’écart au point de rosée</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Un indice de proximité de la saturation, à recouper avec la situation.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_MET_003</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="435" y="240" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">TEMPÉRATURE ET POINT DE ROSÉE</text>
+<path d="M170 449L720 449" fill="none" stroke="#566c87" stroke-width="5"/>
+<path d="M170 435L170 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="170" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">8 °C</text>
+<path d="M280 435L280 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="280" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">9 °C</text>
+<path d="M390 435L390 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="390" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">10 °C</text>
+<path d="M500 435L500 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="500" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">11 °C</text>
+<path d="M610 435L610 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="610" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">12 °C</text>
+<path d="M720 435L720 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="720" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">13 °C</text>
+<path d="M500 321L500 436" fill="none" stroke="#bbabff" stroke-width="4"/>
+<circle cx="500" cy="443" r="10" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="500" y="303" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">POINT DE ROSÉE</text>
+<path d="M610 321L610 436" fill="none" stroke="#ffcd70" stroke-width="4"/>
+<circle cx="610" cy="443" r="10" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="610" y="303" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">AIR</text>
+<path d="M500 527L610 527" fill="none" stroke="#58dfed" stroke-width="4"/>
+<text x="555" y="566" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Écart : 1 °C</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Observation</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Air à 12 °C ; point de</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">rosée à 11 °C.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Interprétation</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">La saturation est proche.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">À recouper</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Un faible écart ne prouve</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">pas la présence de</text>
+<text x="855" y="550" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">brouillard.</text>
+</svg>

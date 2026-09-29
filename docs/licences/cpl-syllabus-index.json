@@ -1,0 +1,266 @@
+{
+  "program": "CPL",
+  "coverage": "partial",
+  "lessons": 7,
+  "questions": 105,
+  "exam_mcq": 105,
+  "revision_questions": 0,
+  "sections": {
+    "090": [
+      {
+        "module": "CPL_090_001",
+        "title": "Clairances et boucle de collationnement",
+        "category": "communications",
+        "lesson_id": "26ad7496-0000-4000-8000-000026ad7496",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Identifier le destinataire",
+          "Collationner les éléments de sécurité",
+          "Fermer la boucle",
+          "Distinguer les autorisations"
+        ],
+        "official_subject_format": {
+          "questions": 34,
+          "minutes": 60,
+          "pass_percent": 75,
+          "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+        },
+        "sources": [
+          {
+            "title": "EASA — programme Part-FCL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+          },
+          {
+            "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+          },
+          {
+            "title": "EASA SERA.8015 — clairances et collationnement",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888"
+          },
+          {
+            "title": "Référence pédagogique vérifiée",
+            "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf"
+          }
+        ]
+      }
+    ],
+    "033": [
+      {
+        "module": "CPL_033_001",
+        "title": "Bilan carburant et suivi du vol",
+        "category": "flight_planning",
+        "lesson_id": "1c9aa75f-0000-4000-8000-00001c9aa75f",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Relier distance, temps et consommation",
+          "Construire une allocation explicite",
+          "Mesurer les écarts",
+          "Réviser une décision"
+        ],
+        "official_subject_format": {
+          "questions": 33,
+          "minutes": 90,
+          "pass_percent": 75,
+          "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+        },
+        "sources": [
+          {
+            "title": "EASA — programme Part-FCL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+          },
+          {
+            "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+          },
+          {
+            "title": "FAA PHAK — navigation, calculs de temps et carburant",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+          }
+        ]
+      }
+    ],
+    "040": [
+      {
+        "module": "CPL_040_001",
+        "title": "Menaces, erreurs et décisions",
+        "category": "human_performance",
+        "lesson_id": "1e25397b-0000-4000-8000-00001e25397b",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Distinguer menace et erreur",
+          "Installer des barrières",
+          "Reconnaître les biais",
+          "Gérer les ressources disponibles"
+        ],
+        "official_subject_format": {
+          "questions": 35,
+          "minutes": 60,
+          "pass_percent": 75,
+          "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+        },
+        "sources": [
+          {
+            "title": "EASA — programme Part-FCL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+          },
+          {
+            "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+          },
+          {
+            "title": "FAA Risk Management Handbook",
+            "url": "https://www.faa.gov/sites/faa.gov/files/2022-06/risk_management_handbook_2A.pdf"
+          }
+        ]
+      }
+    ],
+    "022": [
+      {
+        "module": "CPL_022_001",
+        "title": "Circuit pitot-statique : interpréter une panne",
+        "category": "instrumentation",
+        "lesson_id": "1ad7b73f-0000-4000-8000-00001ad7b73f",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Identifier les pressions",
+          "Analyser une obstruction pitot",
+          "Analyser une obstruction statique",
+          "Recouper avant d’agir"
+        ],
+        "official_subject_format": {
+          "questions": 40,
+          "minutes": 60,
+          "pass_percent": 75,
+          "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+        },
+        "sources": [
+          {
+            "title": "EASA — programme Part-FCL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+          },
+          {
+            "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+          },
+          {
+            "title": "FAA PHAK — flight instruments, référence technique",
+            "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf"
+          }
+        ]
+      }
+    ],
+    "031": [
+      {
+        "module": "CPL_031_001",
+        "title": "Chargement et déplacement du centrage",
+        "category": "mass_and_balance",
+        "lesson_id": "1c7e785d-0000-4000-8000-00001c7e785d",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Établir la masse et le moment",
+          "Déplacer une masse déjà embarquée",
+          "Retirer ou consommer une masse",
+          "MAC et limites simultanées"
+        ],
+        "official_subject_format": {
+          "questions": 21,
+          "minutes": 60,
+          "pass_percent": 75,
+          "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+        },
+        "sources": [
+          {
+            "title": "EASA — programme Part-FCL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+          },
+          {
+            "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+          },
+          {
+            "title": "FAA Weight and Balance Handbook — méthodes de calcul et déplacements de charge",
+            "url": "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+          }
+        ]
+      }
+    ],
+    "032": [
+      {
+        "module": "CPL_032_001",
+        "title": "Performances : tableaux et marges",
+        "category": "performance",
+        "lesson_id": "1c8c8fde-0000-4000-8000-00001c8c8fde",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Lire les conditions",
+          "Interpoler dans deux directions",
+          "Appliquer les corrections",
+          "Comparer et décider"
+        ],
+        "official_subject_format": {
+          "questions": 28,
+          "minutes": 75,
+          "pass_percent": 75,
+          "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+        },
+        "sources": [
+          {
+            "title": "EASA — programme Part-FCL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+          },
+          {
+            "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+          },
+          {
+            "title": "FAA PHAK — performances, principes techniques",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+          }
+        ]
+      }
+    ],
+    "081": [
+      {
+        "module": "CPL_081_001",
+        "title": "Virage, facteur de charge et décrochage",
+        "category": "principles_of_flight",
+        "lesson_id": "2506b378-0000-4000-8000-00002506b378",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Équilibrer un virage en palier",
+          "Relier charge et décrochage",
+          "Masse et limites",
+          "Gérer la marge en virage"
+        ],
+        "official_subject_format": {
+          "questions": 37,
+          "minutes": 75,
+          "pass_percent": 75,
+          "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+        },
+        "sources": [
+          {
+            "title": "EASA — programme Part-FCL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+          },
+          {
+            "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+          },
+          {
+            "title": "FAA PHAK — aérodynamique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+          }
+        ]
+      }
+    ]
+  }
+}

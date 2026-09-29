@@ -1,0 +1,669 @@
+{
+  "metadata": {
+    "module_id": "LAPL_MET_002",
+    "program": "LAPL",
+    "subject": "Meteorology",
+    "chapter_title": "Pression atmosphérique et altimétrie",
+    "chapter_title_en": "Atmospheric Pressure and Altimetry",
+    "learning_objective": "Distinguer les références verticales, calculer un changement de calage, expliquer le sens des erreurs et vérifier une marge sous hypothèses explicites.",
+    "learning_objective_en": "Distinguish vertical references, calculate setting changes, explain error direction and check clearance under explicit assumptions.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 35,
+    "prerequisites": [
+      "PPL_MET_001"
+    ],
+    "tags": [
+      "LAPL",
+      "meteo"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "DGAC — SERA France, définitions et SERA.8015(eb)",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf"
+      },
+      {
+        "title": "CAA — Skyway Code, principes d’altimétrie et approximation pression/hauteur",
+        "url": "https://www.caa.co.uk/publication/download/16110"
+      },
+      {
+        "title": "FAA — AIM, effets du froid sur les altimètres barométriques",
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-met-002.svg",
+      "alt": "Même pression statique, deux calages : seule l’indication change."
+    },
+    "exam_subject": "meteorology",
+    "coverage_status": "partial",
+    "editorial_review": "2026-09-30: altimetry method, independent FR/EN MCQs and diagrams revised; coverage remains partial.",
+    "derived_from": "PPL_MET_002",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_MET_002_C01",
+      "title": "Altitude, hauteur et référence",
+      "title_en": "Altitude, height and reference",
+      "content": "![Recalage à pression constante](/illustrations/lapl-met-002.svg)\n\n### Comprendre ce que mesure l'instrument\nUn altimètre barométrique reçoit la pression statique et la convertit en indication verticale selon un modèle atmosphérique. Il ne mesure pas directement la distance au sol. En montant, la pression diminue ; à calage inchangé, l'indication augmente. Le bouton de calage modifie la référence utilisée pour interpréter cette pression, pas la position de l'avion.\n\n### Toujours associer valeur, unité et référence\n- **QNH :** altitude barométrique référencée au niveau moyen de la mer. Au sol, l'indication doit correspondre à l'altitude connue du terrain dans les tolérances applicables. En vol, les écarts de température par rapport au modèle et les erreurs instrumentales restent présents.\n- **QFE :** hauteur barométrique au-dessus du niveau de référence auquel ce QFE se rapporte, souvent l'aérodrome. Ce n'est pas la hauteur au-dessus du relief survolé. Identifier aussi une éventuelle référence de seuil publiée.\n- **1 013,25 hPa :** référence standard pour l'altitude-pression et les niveaux de vol. FL055 correspond à 5 500 ft sur cette référence, pas à une altitude vraie garantie de 5 500 ft AMSL.\n\n**Exemple guidé de géométrie, erreurs atmosphériques négligées :** référence d'aérodrome à 600 ft AMSL, avion à 800 ft au-dessus de cette référence : altitude 1 400 ft AMSL. Au-dessus d'un relief à 1 000 ft AMSL, la hauteur géométrique n'est plus que 400 ft. Le QFE de l'aérodrome ne suit pas les variations du relief.\n\nL'altitude vraie est la distance verticale géométrique au niveau moyen de la mer. L'altitude indiquée est une lecture instrumentale. Une altitude GNSS et une altitude barométrique peuvent différer sans qu'un seul nombre permette de décider laquelle est fausse ; identifier les références et les erreurs possibles.",
+      "content_en": "![Resetting at constant pressure](/illustrations/en/lapl-met-002.svg)\n\n### Understand what the instrument measures\nA barometric altimeter receives static pressure and converts it into a vertical indication using an atmospheric model. It does not directly measure terrain clearance. Pressure decreases during a climb; with the setting unchanged, the indication increases. The setting knob changes the reference used to interpret pressure, not the aircraft's position.\n\n### Always combine value, unit and reference\n- **QNH:** barometric altitude referenced to mean sea level. On the ground, the indication should agree with known aerodrome elevation within applicable tolerances. In flight, temperature departures from the model and instrument errors remain.\n- **QFE:** barometric height above the datum to which that QFE refers, often the aerodrome. It is not height above terrain currently underneath. Also identify any published threshold reference.\n- **1,013.25 hPa:** standard reference for pressure altitude and flight levels. FL055 means 5,500 ft on that reference, not a guaranteed true altitude of 5,500 ft AMSL.\n\n**Worked geometry example, atmospheric errors ignored:** aerodrome datum 600 ft AMSL; aircraft 800 ft above that datum: altitude 1,400 ft AMSL. Over terrain at 1,000 ft AMSL, geometric clearance is only 400 ft. Aerodrome QFE does not follow changing terrain.\n\nTrue altitude is geometric vertical distance above mean sea level. Indicated altitude is an instrument reading. GNSS and barometric altitude may differ without either number alone establishing which is wrong; identify their references and possible errors.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Altitude, hauteur et référence"
+    },
+    {
+      "concept_id": "LAPL_MET_002_C02",
+      "title": "Recalage et transition",
+      "title_en": "Setting changes and transition",
+      "content": "### Changement de calage : déterminer d'abord le signe\nÀ pression statique constante, augmenter le calage augmente l'indication ; le diminuer diminue l'indication. L'avion n'a pas monté ou descendu au seul effet du bouton. Dans les exercices de basses couches, on fournit l'approximation **27 ft par hPa** : variation indiquée ≈ (nouveau calage − ancien calage) × 27. Cette approximation n'est ni une tolérance instrumentale ni une relation exacte valable à toute altitude.\n\n**Exemple guidé :** avion immobile, 1 500 ft affichés au calage 1005 hPa. Passer à 1015 hPa ajoute 10 × 27 = 270 ft : environ 1 770 ft affichés. Le schéma de cours représente cette même situation. Faire l'opération inverse retranche 270 ft. Contrôler le signe avant le calcul évite une réponse numériquement précise mais physiquement inversée.\n\nSi le pilote change ensuite la trajectoire pour retrouver l'ancien nombre affiché, l'altitude physique peut changer. Séparer donc deux actions : **recaler l'instrument**, puis **piloter une trajectoire**. Le recalage ne constitue pas une instruction de monter ou descendre.\n\n### Altitude de transition et niveau de transition\nDans une région où une altitude de transition est établie, la position verticale s'exprime en altitude à cette altitude ou au-dessous, et en niveau de vol au niveau de transition ou au-dessus. Pendant la traversée de la couche de transition : niveaux de vol en montée, altitudes en descente. Employer les références et procédures publiées pour le secteur ; ne pas transférer une valeur de transition d'un pays à l'autre.\n\n**Situation fictive :** altitude de transition 5 000 ft, niveau de transition FL070. Lors de la traversée en montée, la référence est standard ; en descente, la position est exprimée en altitude avec le QNH applicable. FL070 ne signifie pas que le niveau de transition est toujours 7 000 ft AMSL. Le niveau de transition courant doit être connu avant de l'atteindre en descente ; sa valeur ne se déduit pas du seul nom de l'aérodrome.",
+      "content_en": "### Setting change: determine the sign first\nAt constant static pressure, increasing the setting increases the indication; decreasing it reduces the indication. Turning the knob alone has not made the aircraft climb or descend. Low-level exercises supply the approximation **27 ft per hPa**: indicated change ≈ (new setting − old setting) × 27. This is neither an instrument tolerance nor an exact relationship valid at every altitude.\n\n**Worked example:** stationary aircraft, 1,500 ft indicated at 1005 hPa. Changing to 1015 hPa adds 10 × 27 = 270 ft: approximately 1,770 ft indicated. The lesson diagram shows this situation. Reversing the change subtracts 270 ft. Checking the sign first prevents a precise calculation with the physical effect reversed.\n\nIf the pilot subsequently alters the flight path to regain the previous displayed number, physical altitude may change. Separate **resetting the instrument** from **flying a trajectory**. Resetting is not an instruction to climb or descend.\n\n### Transition altitude and transition level\nIn a region with an established transition altitude, vertical position is expressed as altitude at or below it, and as flight level at or above the transition level. While crossing the transition layer, use flight levels when climbing and altitudes when descending. Use the sector's published references and procedures; do not transfer one country's transition value to another.\n\n**Fictional situation:** transition altitude 5,000 ft, transition level FL070. When crossing upwards, use the standard reference; when descending, position is expressed as altitude using the applicable QNH. FL070 does not mean the transition level is always 7,000 ft AMSL. Know the current transition level before reaching it in descent; it cannot be inferred from the aerodrome's name alone.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Recalage et transition"
+    },
+    {
+      "concept_id": "LAPL_MET_002_C03",
+      "title": "Erreurs et marges sur le relief",
+      "title_en": "Errors and terrain clearance",
+      "content": "### Un calage trop élevé peut masquer une marge réduite\nSi le QNH actuel est inférieur au calage resté affiché, l'indication est trop élevée par rapport à celle obtenue au QNH actuel. Dans notre modèle : indication au QNH actuel ≈ indication lue + (QNH actuel − calage utilisé) × 27. Ne pas ajouter la valeur absolue de l'écart sans rechercher son sens.\n\n**Exemple guidé distinct du QCM :** 3 000 ft lus avec 1020 hPa ; QNH actuel 1010 hPa. Le recalage retranche 270 ft, donnant 2 730 ft. Si l'exercice assimile ensuite l'altitude au QNH à l'altitude vraie en négligeant les autres erreurs, un obstacle à 2 000 ft laisse 730 ft, et non 1 000 ft. En vol réel, cette approximation ne remplace pas les marges et méthodes applicables. Un résultat favorable sur ce seul critère ne valide pas toute la route.\n\n### Le froid constitue une autre erreur\nMême au bon QNH, une couche d'air plus froide que le modèle peut présenter des surfaces de pression plus rapprochées verticalement. Au-dessus de la référence, l'altitude vraie peut alors être inférieure à l'altitude indiquée. Actualiser le QNH traite l'erreur de calage ; cela n'annule pas automatiquement l'erreur de température. On n'applique pas « 27 ft par degré » : le calcul précédent concernait des hPa. Employer les corrections publiées lorsqu'elles sont nécessaires.\n\n### Contrôler avant de conclure\nAu sol, vérifier altitude du point connu, provenance et heure du QNH, lecture et unités du calage, puis comparer l'indication aux tolérances de l'installation. Un écart peut venir d'un mauvais calage ; sa correction ne prouve pas à elle seule l'absence de toute panne.\n\nEn vol, conserver le pilotage, recouper des informations dont les références sont identifiées et demander confirmation si un nombre paraît incohérent. Pour chaque exercice : écrire ce qui reste constant, déterminer le signe, calculer la nouvelle indication, puis seulement comparer avec une limite exprimée dans la même référence. Les questions utilisent d'autres valeurs que les exemples ; toutes les hypothèses de calcul simplifié sont indiquées.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "### An excessively high setting can hide reduced clearance\nIf current QNH is lower than the retained setting, the reading is higher than it would be at current QNH. In our model: current-QNH indication ≈ observed indication + (current QNH − setting used) × 27. Do not add the absolute pressure difference without considering its sign.\n\n**Worked example distinct from the MCQ:** 3,000 ft indicated at 1020 hPa; current QNH 1010 hPa. Resetting subtracts 270 ft, giving 2,730 ft. If the exercise then treats QNH altitude as true altitude by ignoring other errors, an obstacle at 2,000 ft leaves 730 ft rather than 1,000 ft. In actual flight this approximation does not replace applicable margins and methods. A favourable result on this criterion alone does not validate the whole route.\n\n### Cold temperature is a separate error\nEven with correct QNH, an air layer colder than the model may have pressure surfaces closer together vertically. Above the reference, true altitude can then be lower than indicated altitude. Updating QNH addresses the setting error; it does not automatically remove temperature error. Do not apply “27 ft per degree”: the previous calculation concerned hPa. Use published corrections where required.\n\n### Cross-check before concluding\nOn the ground, verify known-point elevation, QNH source and time, setting reading and units, then compare the indication against installation tolerances. A discrepancy may arise from incorrect setting; correcting it does not by itself prove that every system is fault-free.\n\nIn flight, maintain control, cross-check information with identified references and request confirmation of an inconsistent figure. For each exercise: state what remains constant, determine the sign, calculate the new indication, then compare with a limit using the same reference. Questions use different values from the worked examples; simplified calculation assumptions are explicitly supplied.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Erreurs et marges sur le relief"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_MET_002_C01",
+      "concept_title": "Altitude, hauteur et référence",
+      "level": 2,
+      "question": "Au sol à 780 ft AMSL, altimètre sans erreur réglé au QNH actuel. Quelle indication attend-on ?",
+      "question_en": "On the ground at 780 ft AMSL, an error-free altimeter is set to current QNH. Expected reading?",
+      "options": [
+        "780 ft",
+        "0 ft",
+        "1 013 ft",
+        "Une valeur impossible à prévoir même au sol"
+      ],
+      "correct_answer": "780 ft",
+      "explanation": "Le QNH doit ramener l'indication à l'altitude connue du point. Zéro correspondrait au QFE de ce point ; 1013 est ici une confusion entre pression et altitude.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "QNH should make the reading agree with known-point elevation. Zero would correspond to that point's QFE; 1013 confuses pressure with altitude.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "pressure",
+        "altimetry",
+        "QNH",
+        "QFE",
+        "altimeter",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "780 ft",
+        "0 ft",
+        "1,013 ft",
+        "Impossible to predict even on the ground"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C02",
+      "concept_title": "Recalage et transition",
+      "level": 2,
+      "question": "Pression statique constante : 2 400 ft au calage 1002 hPa. Nouveau calage 1010 hPa ; approximation fournie 27 ft/hPa. Nouvelle indication ?",
+      "question_en": "Constant static pressure: 2,400 ft at 1002 hPa. New setting 1010 hPa; supplied approximation 27 ft/hPa. New reading?",
+      "options": [
+        "2 184 ft",
+        "2 408 ft",
+        "2 670 ft",
+        "2 616 ft"
+      ],
+      "correct_answer": "2 616 ft",
+      "explanation": "Le calage augmente de 8 hPa : ajouter 8×27 = 216 ft. 2184 inverse le signe ; 2408 traite les hPa comme des pieds ; 2670 utilise dix hPa.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "The setting rises by 8 hPa: add 8×27 = 216 ft. 2184 reverses the sign; 2408 treats hPa as feet; 2670 uses ten hPa.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "pressure",
+        "altimetry",
+        "QNH",
+        "QFE",
+        "altimeter",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "2,184 ft",
+        "2,408 ft",
+        "2,670 ft",
+        "2,616 ft"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C03",
+      "concept_title": "Erreurs et marges sur le relief",
+      "level": 2,
+      "question": "À position et pression statique inchangées, un pilote diminue le calage. Que se passe-t-il immédiatement ?",
+      "question_en": "With position and static pressure unchanged, the pilot reduces the setting. What immediately happens?",
+      "options": [
+        "L'indication augmente sans déplacement",
+        "La hauteur au-dessus du relief augmente",
+        "L'indication diminue sans déplacement de l'avion",
+        "L'avion descend de la valeur affichée"
+      ],
+      "correct_answer": "L'indication diminue sans déplacement de l'avion",
+      "explanation": "Le bouton change la référence du calcul. Il ne modifie pas physiquement la trajectoire ; une action de pilotage ultérieure serait une autre étape.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "The knob changes the calculation reference, not the physical flight path. Any subsequent control input would be a separate step.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "pressure",
+        "altimetry",
+        "QNH",
+        "QFE",
+        "altimeter",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "The indication increases without movement",
+        "Height above terrain increases",
+        "The indication decreases without aircraft movement",
+        "The aircraft descends by the displayed change"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C01",
+      "concept_title": "Altitude, hauteur et référence",
+      "level": 2,
+      "question": "QFE d'un aérodrome à 900 ft AMSL ; avion à 1 200 ft au-dessus de cette référence. Relief sous l'avion à 1 400 ft AMSL. Erreurs négligées : hauteur géométrique sur ce relief ?",
+      "question_en": "QFE datum aerodrome at 900 ft AMSL; aircraft 1,200 ft above that datum. Terrain underneath at 1,400 ft AMSL. Ignoring errors, geometric terrain clearance?",
+      "options": [
+        "300 ft",
+        "700 ft",
+        "1 200 ft",
+        "2 100 ft"
+      ],
+      "correct_answer": "700 ft",
+      "explanation": "Altitude 900+1200 = 2100 ft ; hauteur sur le relief 2100−1400 = 700 ft. Le QFE garde la référence d'aérodrome ; 1200 n'est pas une mesure directe de hauteur sur le sol survolé.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "Altitude is 900+1200 = 2100 ft; terrain clearance 2100−1400 = 700 ft. QFE retains the aerodrome datum; 1200 is not a direct measurement above terrain underneath.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "pressure",
+        "altimetry",
+        "QNH",
+        "QFE",
+        "altimeter",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "300 ft",
+        "700 ft",
+        "1,200 ft",
+        "2,100 ft"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C03",
+      "concept_title": "Erreurs et marges sur le relief",
+      "level": 2,
+      "question": "Le QNH est correctement actualisé, mais la couche d'air au-dessus de la référence est beaucoup plus froide que le modèle. Quelle conclusion est justifiée ?",
+      "question_en": "QNH is correctly updated, but the air layer above the reference is much colder than the model. Which conclusion is justified?",
+      "options": [
+        "L'altitude vraie peut être inférieure à l'indication",
+        "Le bon QNH supprime toute erreur de température",
+        "Il faut ajouter 27 ft par degré sans autre donnée",
+        "Le calage standard garantit alors la hauteur sur le relief"
+      ],
+      "correct_answer": "L'altitude vraie peut être inférieure à l'indication",
+      "explanation": "Calage et température sont deux effets distincts. Des surfaces de pression plus rapprochées en air froid peuvent réduire la hauteur vraie ; 27 ft/hPa n'est pas une correction thermique.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "Setting and temperature are separate effects. Closer pressure surfaces in cold air may reduce true height; 27 ft/hPa is not a temperature correction.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "pressure",
+        "altimetry",
+        "QNH",
+        "QFE",
+        "altimeter",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "True altitude may be lower than indicated",
+        "Correct QNH removes every temperature error",
+        "Add 27 ft per degree without other data",
+        "Standard setting then guarantees terrain clearance"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C01",
+      "concept_title": "Altitude, hauteur et référence",
+      "level": 2,
+      "question": "Que signifie FL055 ?",
+      "question_en": "What does FL055 mean?",
+      "options": [
+        "5 500 ft vrais au-dessus de la mer dans toute atmosphère",
+        "550 ft au QNH local",
+        "5 500 ft au-dessus du relief",
+        "5 500 ft sur la référence standard 1 013,25 hPa"
+      ],
+      "options_en": [
+        "5,500 ft true above sea level in every atmosphere",
+        "550 ft on local QNH",
+        "5,500 ft above terrain",
+        "5,500 ft on the 1,013.25 hPa standard reference"
+      ],
+      "correct_answer": "5 500 ft sur la référence standard 1 013,25 hPa",
+      "explanation": "Le nombre d'un niveau de vol s'exprime en centaines de pieds sur la référence standard. Il ne décrit ni une hauteur terrain ni une altitude géométrique garantie.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "Flight level numbers represent hundreds of feet on the standard reference, not terrain height or guaranteed geometric altitude.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C01",
+      "concept_title": "Altitude, hauteur et référence",
+      "level": 2,
+      "question": "Exercice sans erreurs atmosphériques : référence QFE à 650 ft AMSL et hauteur de 1 450 ft au-dessus de cette référence. Altitude AMSL ?",
+      "question_en": "Exercise ignoring atmospheric errors: QFE datum 650 ft AMSL and height 1,450 ft above it. AMSL altitude?",
+      "options": [
+        "1 450 ft",
+        "650 ft",
+        "2 100 ft",
+        "800 ft"
+      ],
+      "options_en": [
+        "1,450 ft",
+        "650 ft",
+        "2,100 ft",
+        "800 ft"
+      ],
+      "correct_answer": "2 100 ft",
+      "explanation": "Additionner altitude du datum et hauteur : 650+1450 = 2100 ft. Soustraire donne 800, qui ne correspond pas à la géométrie demandée.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "Add datum elevation and height: 650+1450 = 2100 ft. Subtraction gives 800, which does not match the requested geometry.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C01",
+      "concept_title": "Altitude, hauteur et référence",
+      "level": 2,
+      "question": "Un avion garde la même hauteur par rapport au datum QFE pendant que le relief s'élève. Que devient sa hauteur au-dessus du sol ?",
+      "question_en": "An aircraft maintains the same height relative to the QFE datum while terrain rises. What happens to height above ground?",
+      "options": [
+        "Elle devient automatiquement une altitude-pression",
+        "Elle diminue",
+        "Elle reste égale à la hauteur au QFE",
+        "Elle augmente comme le relief"
+      ],
+      "options_en": [
+        "It automatically becomes pressure altitude",
+        "It decreases",
+        "It remains equal to QFE height",
+        "It increases with terrain elevation"
+      ],
+      "correct_answer": "Elle diminue",
+      "explanation": "Le datum ne suit pas le relief. À altitude physique constante dans cet exercice, une élévation du terrain réduit la distance verticale disponible.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "The datum does not track terrain. At constant physical altitude in this exercise, rising terrain reduces available vertical distance.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C02",
+      "concept_title": "Recalage et transition",
+      "level": 2,
+      "question": "Secteur fictif : altitude de transition 5 000 ft, niveau de transition FL070. Quelle référence exprime la position pendant la traversée de la couche en montée ?",
+      "question_en": "Fictional sector: transition altitude 5,000 ft, transition level FL070. Which reference expresses position while climbing through the layer?",
+      "options": [
+        "Niveau de vol sur calage standard",
+        "Altitude au QNH jusqu'au franchissement de FL070 en montée",
+        "Hauteur au QFE de destination",
+        "Hauteur géométrique GNSS"
+      ],
+      "options_en": [
+        "Flight level on standard setting",
+        "QNH altitude until passing FL070 during climb",
+        "Height on destination QFE",
+        "GNSS geometric height"
+      ],
+      "correct_answer": "Niveau de vol sur calage standard",
+      "explanation": "Dans la couche de transition, SERA.8015(eb) distingue montée en niveaux de vol et descente en altitudes. Il ne faut pas utiliser le niveau de transition comme seuil de recalage en montée.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "Within the transition layer, SERA.8015(eb) distinguishes flight levels while climbing and altitudes while descending. Do not use the transition level as the upward setting-change threshold.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C02",
+      "concept_title": "Recalage et transition",
+      "level": 2,
+      "question": "Secteur avec altitude de transition 4 000 ft et niveau de transition FL060. Pendant la traversée de la couche en descente, comment exprimer la position ?",
+      "question_en": "Sector with transition altitude 4,000 ft and transition level FL060. How is position expressed while descending through the layer?",
+      "options": [
+        "En niveau de vol jusqu'à 4 000 ft au QNH",
+        "En hauteur par rapport au relief visible",
+        "En niveau de vol jusqu'au toucher des roues",
+        "En altitude avec le QNH applicable"
+      ],
+      "options_en": [
+        "As flight level until 4,000 ft on QNH",
+        "As height above visible terrain",
+        "As flight level until touchdown",
+        "As altitude using applicable QNH"
+      ],
+      "correct_answer": "En altitude avec le QNH applicable",
+      "explanation": "La descente dans la couche utilise les altitudes. Le niveau de transition courant doit être connu avant de l'atteindre ; conserver le standard jusqu'à la limite basse confond les deux sens de traversée.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "Descent through the layer uses altitudes. Know the current transition level before reaching it; retaining standard setting to the lower boundary confuses the two directions of crossing.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C02",
+      "concept_title": "Recalage et transition",
+      "level": 2,
+      "question": "Pression statique inchangée : 3 200 ft au calage 1020 hPa. Recalage à 1008 hPa avec 27 ft/hPa. Nouvelle indication ?",
+      "question_en": "Unchanged static pressure: 3,200 ft at 1020 hPa. Reset to 1008 hPa using 27 ft/hPa. New reading?",
+      "options": [
+        "3 188 ft",
+        "2 930 ft",
+        "2 876 ft",
+        "3 524 ft"
+      ],
+      "options_en": [
+        "3,188 ft",
+        "2,930 ft",
+        "2,876 ft",
+        "3,524 ft"
+      ],
+      "correct_answer": "2 876 ft",
+      "explanation": "Variation −12 hPa, donc −324 ft : 3200−324 = 2876. 3524 inverse le signe ; 3188 retire seulement 12 ft ; 2930 utilise dix hPa.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "Change −12 hPa, hence −324 ft: 3200−324 = 2876. 3524 reverses the sign; 3188 subtracts only 12 ft; 2930 uses ten hPa.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C03",
+      "concept_title": "Erreurs et marges sur le relief",
+      "level": 2,
+      "question": "Dossier fictif joint : 3 100 ft lus avec 1022 hPa, QNH actuel 1010 hPa ; 27 ft/hPa. Assimiler l'altitude au QNH à l'altitude vraie, autres erreurs négligées. Obstacle 2 300 ft AMSL, marge exigée par l'exercice 500 ft. Conclusion ?\n\n![Données du dossier altimétrique](/illustrations/quiz-ppl-met-002-clearance.svg)",
+      "question_en": "Attached fictional case: 3,100 ft read at 1022 hPa, current QNH 1010 hPa; 27 ft/hPa. Treat QNH altitude as true altitude, ignoring other errors. Obstacle 2,300 ft AMSL, exercise requires 500 ft clearance. Conclusion?\n\n![Altimetry case inputs](/illustrations/en/quiz-ppl-met-002-clearance.svg)",
+      "options": [
+        "476 ft disponibles, marge de 24 ft",
+        "476 ft disponibles, déficit de 24 ft",
+        "800 ft disponibles, marge de 300 ft",
+        "1 124 ft disponibles, marge de 624 ft"
+      ],
+      "options_en": [
+        "476 ft available, 24 ft surplus",
+        "476 ft available, 24 ft shortfall",
+        "800 ft available, 300 ft surplus",
+        "1,124 ft available, 624 ft surplus"
+      ],
+      "correct_answer": "476 ft disponibles, déficit de 24 ft",
+      "explanation": "Recalage : 3100−12×27 = 2776 ft. Au-dessus de l'obstacle : 2776−2300 = 476 ft, soit 24 ft sous le critère. 800 ignore le calage, 1124 inverse sa correction. 500 ft est une consigne fictive de ce cas, pas une règle universelle de survol.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "Resetting: 3100−12×27 = 2776 ft. Above the obstacle: 2776−2300 = 476 ft, 24 ft below the criterion. 800 ignores setting; 1124 reverses the correction. 500 ft is this fictional exercise criterion, not a universal overflight rule.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C03",
+      "concept_title": "Erreurs et marges sur le relief",
+      "level": 2,
+      "question": "Sans changer de position, 2 600 ft au calage 1000 hPa sont recalés au QNH 1012 hPa. Approximation 27 ft/hPa. Quelle indication au QNH ?",
+      "question_en": "Without changing position, 2,600 ft at 1000 hPa is reset to QNH 1012 hPa. Approximation 27 ft/hPa. What QNH reading results?",
+      "options": [
+        "2 924 ft",
+        "2 276 ft",
+        "2 612 ft",
+        "2 870 ft"
+      ],
+      "options_en": [
+        "2,924 ft",
+        "2,276 ft",
+        "2,612 ft",
+        "2,870 ft"
+      ],
+      "correct_answer": "2 924 ft",
+      "explanation": "Le nouveau calage est plus élevé de 12 hPa : ajouter 324 ft. L'indication précédente sous-estimait la lecture au QNH actuel ; ce cas est l'inverse d'un calage retenu trop élevé.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "The new setting is 12 hPa higher: add 324 ft. The previous indication understated the current-QNH reading; this is the reverse of retaining an excessively high setting.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C03",
+      "concept_title": "Erreurs et marges sur le relief",
+      "level": 2,
+      "question": "Au sol : point connu à 700 ft, QNH actuel 997 hPa ; réglage 1007 hPa, indication 970 ft. Avec 27 ft/hPa, quel contrôle est pertinent ?",
+      "question_en": "On ground: known point 700 ft, current QNH 997 hPa; setting 1007 hPa, reading 970 ft. Using 27 ft/hPa, which check is relevant?",
+      "options": [
+        "Régler 1017 pour ramener l'indication à 700 ft",
+        "Conclure directement à une panne de capsule",
+        "Conserver 1007 car l'écart est une tolérance démontrée",
+        "Régler 997 puis vérifier une indication proche de 700 ft"
+      ],
+      "options_en": [
+        "Set 1017 to obtain a 700 ft reading",
+        "Immediately conclude capsule failure",
+        "Retain 1007 because the discrepancy is a proven tolerance",
+        "Set 997 then check for a reading near 700 ft"
+      ],
+      "correct_answer": "Régler 997 puis vérifier une indication proche de 700 ft",
+      "explanation": "Réduire de 10 hPa retire environ 270 ft : 970−270 = 700. Vérifier ensuite la tolérance applicable. L'écart seul ne prouve ni une panne ni une tolérance acceptable.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "Reducing by 10 hPa removes about 270 ft: 970−270 = 700. Then check the applicable tolerance. The discrepancy alone proves neither failure nor acceptable tolerance.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_002_C03",
+      "concept_title": "Erreurs et marges sur le relief",
+      "level": 2,
+      "question": "L'altitude GNSS diffère de l'altimètre barométrique correctement calé. Quelle première analyse est justifiée ?",
+      "question_en": "GNSS altitude differs from a correctly set barometric altimeter. Which initial analysis is justified?",
+      "options": [
+        "Déclarer systématiquement le GNSS erroné",
+        "Faire la moyenne et l'utiliser comme altitude autorisée",
+        "Comparer les références et les erreurs possibles avant de conclure",
+        "Recaler automatiquement l'altimètre sur la valeur GNSS"
+      ],
+      "options_en": [
+        "Always declare GNSS incorrect",
+        "Average them and use that as an authorised altitude",
+        "Compare references and possible errors before concluding",
+        "Automatically reset the altimeter to match GNSS"
+      ],
+      "correct_answer": "Comparer les références et les erreurs possibles avant de conclure",
+      "explanation": "Les deux systèmes ne mesurent pas la même grandeur de la même manière. Une différence n'identifie pas à elle seule le système défaillant ; une moyenne ne crée ni référence réglementaire ni clairance.\n\n![Recalage / Setting change](/illustrations/lapl-met-002.svg)",
+      "explanation_en": "The systems do not measure the same quantity in the same way. A difference alone does not identify a failed system; averaging creates neither a regulatory reference nor a clearance.\n\n![Recalage / Setting change](/illustrations/en/lapl-met-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.caa.co.uk/publication/download/16110",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

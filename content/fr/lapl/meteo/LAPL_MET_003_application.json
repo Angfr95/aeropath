@@ -1,0 +1,594 @@
+{
+  "metadata": {
+    "module_id": "LAPL_MET_003",
+    "program": "LAPL",
+    "subject": "Meteorology",
+    "chapter_title": "Température et humidité",
+    "chapter_title_en": "Temperature and Humidity",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : humidité et saturation; refroidissement et condensation; exemple d'interprétation.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: humidity and saturation; cooling and condensation; an interpretation example.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_MET_001"
+    ],
+    "tags": [
+      "LAPL",
+      "meteo"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "Météo-France — Guide aviation",
+        "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+      },
+      {
+        "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-met-003.svg",
+      "alt": "Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré."
+    },
+    "exam_subject": "meteorology",
+    "coverage_status": "partial",
+    "derived_from": "PPL_MET_003",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_MET_003_C01",
+      "title": "Humidité et saturation",
+      "title_en": "Humidity and saturation",
+      "content": "![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)\n\nL'air contient une quantité variable de vapeur d'eau. L'humidité relative compare la quantité présente à la saturation à la même température. Le point de rosée est la température à laquelle l'air devient saturé si on le refroidit à pression sensiblement constante sans changer sa teneur en vapeur. Une petite différence température-point de rosée signale une proximité de la saturation.",
+      "content_en": "![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)\n\nAir contains a variable quantity of water vapour. Relative humidity compares the amount present with saturation at the same temperature. Dew point is the temperature at which air becomes saturated if cooled at approximately constant pressure without changing its water vapour content. A small temperature–dew point spread indicates proximity to saturation.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Humidité et saturation"
+    },
+    {
+      "concept_id": "LAPL_MET_003_C02",
+      "title": "Refroidissement et condensation",
+      "title_en": "Cooling and condensation",
+      "content": "Un air qui s'élève se détend et refroidit. S'il atteint la saturation, des gouttelettes ou cristaux peuvent former un nuage. Un refroidissement près du sol peut former du brouillard. L'humidité ne suffit pas seule à prévoir le phénomène : vent, brassage, relief et évolution thermique interviennent aussi. Une inversion peut limiter le brassage et piéger l'humidité.",
+      "content_en": "Rising air expands and cools. If it reaches saturation, droplets or crystals may form a cloud. Cooling near the surface may form fog. Humidity alone does not predict the phenomenon: wind, mixing, terrain and temperature evolution also matter. An inversion can limit mixing and trap moisture.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Refroidissement et condensation"
+    },
+    {
+      "concept_id": "LAPL_MET_003_C03",
+      "title": "Exemple d'interprétation",
+      "title_en": "An interpretation example",
+      "content": "Une observation donne 12 °C et un point de rosée de 11 °C. L'écart de 1 °C invite à surveiller la visibilité et les nuages bas, surtout si un refroidissement est prévu. Cela ne prouve pas qu'un brouillard existe déjà. Recouper avec les observations, la prévision et l'heure de la journée avant de décider d'un départ VFR.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "An observation gives 12 °C with a dew point of 11 °C. The 1 °C spread calls for monitoring visibility and low cloud, particularly if cooling is forecast. It does not prove fog already exists. Cross-check observations, forecasts and time of day before deciding on a VFR departure.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Exemple d'interprétation"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_MET_003_C01",
+      "concept_title": "Humidité et saturation",
+      "level": 1,
+      "question": "Que représente le point de rosée ?",
+      "question_en": "What does dew point represent?",
+      "options": [
+        "La base exacte de tous les nuages",
+        "La température de saturation lors d'un refroidissement adapté",
+        "La température maximale du jour",
+        "La température d'huile"
+      ],
+      "correct_answer": "La température de saturation lors d'un refroidissement adapté",
+      "explanation": "Il caractérise la teneur en vapeur et la proximité de la saturation.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "It describes moisture content and proximity to saturation.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "temperature",
+        "humidity",
+        "dew point",
+        "lapse rate",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "The exact base of every cloud",
+        "The saturation temperature reached through appropriate cooling",
+        "The day's maximum temperature",
+        "Oil temperature"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C02",
+      "concept_title": "Refroidissement et condensation",
+      "level": 1,
+      "question": "Un faible écart température-point de rosée signifie…",
+      "question_en": "A small temperature–dew point spread means…",
+      "options": [
+        "Un air proche de la saturation",
+        "Une absence certaine de nuages",
+        "Un vent toujours fort",
+        "Un air nécessairement chaud"
+      ],
+      "correct_answer": "Un air proche de la saturation",
+      "explanation": "La saturation devient plus proche si la température baisse légèrement.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "A small temperature decrease brings the air closer to saturation.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "temperature",
+        "humidity",
+        "dew point",
+        "lapse rate",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Air close to saturation",
+        "A certain absence of cloud",
+        "Always strong wind",
+        "Necessarily warm air"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C03",
+      "concept_title": "Exemple d'interprétation",
+      "level": 1,
+      "question": "Un écart de 1 °C prouve-t-il la présence de brouillard ?",
+      "question_en": "Does a 1 °C spread prove fog is present?",
+      "options": [
+        "Oui",
+        "Oui seulement à midi",
+        "Oui au-dessus de la mer",
+        "Non"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Il faut vérifier les observations et les mécanismes de refroidissement.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "Check the observations and cooling mechanisms.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "temperature",
+        "humidity",
+        "dew point",
+        "lapse rate",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Yes",
+        "Yes, only at noon",
+        "Yes, above the sea",
+        "No"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C03",
+      "concept_title": "Exemple d'interprétation",
+      "level": 2,
+      "question": "La température vaut 12 °C et le point de rosée 11 °C. Un refroidissement est prévu. Que surveiller particulièrement ?",
+      "question_en": "Temperature is 12 °C and dew point 11 °C, with cooling forecast. What particularly needs monitoring?",
+      "options": [
+        "Une baisse automatique de l'humidité relative",
+        "Une augmentation garantie de la visibilité",
+        "L'évolution de la visibilité et des nuages bas",
+        "Une disparition certaine de tous les nuages"
+      ],
+      "correct_answer": "L'évolution de la visibilité et des nuages bas",
+      "explanation": "L'écart de 1 °C indique une proximité de la saturation. Un refroidissement peut favoriser la condensation, sans suffire à prédire à lui seul l'apparition d'un brouillard.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "The 1 °C spread indicates proximity to saturation. Cooling can favour condensation without by itself being sufficient to predict fog.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "temperature",
+        "humidity",
+        "dew point",
+        "lapse rate",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "An automatic decrease in relative humidity",
+        "A guaranteed visibility improvement",
+        "Visibility and low-cloud evolution",
+        "The certain disappearance of all clouds"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C02",
+      "concept_title": "Refroidissement et condensation",
+      "level": 2,
+      "question": "Un air s'élève, se détend et refroidit jusqu'à saturation. Quel phénomène peut en résulter ?",
+      "question_en": "Air rises, expands and cools to saturation. What may result?",
+      "options": [
+        "L'absence garantie de mouvements verticaux",
+        "La formation d'un nuage par condensation",
+        "La disparition automatique de toute vapeur d'eau",
+        "Une hausse systématique de température"
+      ],
+      "correct_answer": "La formation d'un nuage par condensation",
+      "explanation": "Le refroidissement peut amener l'air à saturation. Des gouttelettes ou cristaux se forment alors et peuvent rendre visible un nuage.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "Cooling can bring air to saturation. Droplets or crystals then form and may make a cloud visible.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "temperature",
+        "humidity",
+        "dew point",
+        "lapse rate",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "A guaranteed absence of vertical movement",
+        "Cloud formation through condensation",
+        "The automatic disappearance of all water vapour",
+        "A systematic temperature increase"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C01",
+      "concept_title": "Humidité et saturation",
+      "level": 2,
+      "question": "Vrai ou faux ? L'humidité relative compare la quantité présente à la saturation à la même température.",
+      "question_en": "True or false? Relative humidity compares the amount present with saturation at the same temperature.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'air contient une quantité variable de vapeur d'eau. L'humidité relative compare la quantité présente à la saturation à la même température. Le point de rosée est la température à laquelle l'air devient saturé si on le refroidit à pression sensiblement constante sans changer sa teneur en vapeur. Une petite différence température-point de rosée signale une proximité de la saturation.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "This statement is true.\n\nAir contains a variable quantity of water vapour. Relative humidity compares the amount present with saturation at the same temperature. Dew point is the temperature at which air becomes saturated if cooled at approximately constant pressure without changing its water vapour content. A small temperature–dew point spread indicates proximity to saturation.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C01",
+      "concept_title": "Humidité et saturation",
+      "level": 2,
+      "question": "Vrai ou faux ? Le point de rosée est la température maximale prévue dans la journée.",
+      "question_en": "True or false? Dew point is the day's forecast maximum temperature.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'air contient une quantité variable de vapeur d'eau. L'humidité relative compare la quantité présente à la saturation à la même température. Le point de rosée est la température à laquelle l'air devient saturé si on le refroidit à pression sensiblement constante sans changer sa teneur en vapeur. Une petite différence température-point de rosée signale une proximité de la saturation.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "This statement is false.\n\nAir contains a variable quantity of water vapour. Relative humidity compares the amount present with saturation at the same temperature. Dew point is the temperature at which air becomes saturated if cooled at approximately constant pressure without changing its water vapour content. A small temperature–dew point spread indicates proximity to saturation.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C01",
+      "concept_title": "Humidité et saturation",
+      "level": 2,
+      "question": "Vrai ou faux ? La définition du point de rosée suppose un refroidissement sans changer la quantité de vapeur.",
+      "question_en": "True or false? The dew point definition assumes cooling without changing water vapour content.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'air contient une quantité variable de vapeur d'eau. L'humidité relative compare la quantité présente à la saturation à la même température. Le point de rosée est la température à laquelle l'air devient saturé si on le refroidit à pression sensiblement constante sans changer sa teneur en vapeur. Une petite différence température-point de rosée signale une proximité de la saturation.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "This statement is true.\n\nAir contains a variable quantity of water vapour. Relative humidity compares the amount present with saturation at the same temperature. Dew point is the temperature at which air becomes saturated if cooled at approximately constant pressure without changing its water vapour content. A small temperature–dew point spread indicates proximity to saturation.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C02",
+      "concept_title": "Refroidissement et condensation",
+      "level": 2,
+      "question": "Vrai ou faux ? L'air qui monte se comprime et se réchauffe systématiquement.",
+      "question_en": "True or false? Rising air systematically compresses and warms.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn air qui s'élève se détend et refroidit. S'il atteint la saturation, des gouttelettes ou cristaux peuvent former un nuage. Un refroidissement près du sol peut former du brouillard. L'humidité ne suffit pas seule à prévoir le phénomène : vent, brassage, relief et évolution thermique interviennent aussi. Une inversion peut limiter le brassage et piéger l'humidité.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "This statement is false.\n\nRising air expands and cools. If it reaches saturation, droplets or crystals may form a cloud. Cooling near the surface may form fog. Humidity alone does not predict the phenomenon: wind, mixing, terrain and temperature evolution also matter. An inversion can limit mixing and trap moisture.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C02",
+      "concept_title": "Refroidissement et condensation",
+      "level": 2,
+      "question": "Vrai ou faux ? Une inversion peut limiter le brassage et retenir l'humidité.",
+      "question_en": "True or false? An inversion can limit mixing and trap moisture.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn air qui s'élève se détend et refroidit. S'il atteint la saturation, des gouttelettes ou cristaux peuvent former un nuage. Un refroidissement près du sol peut former du brouillard. L'humidité ne suffit pas seule à prévoir le phénomène : vent, brassage, relief et évolution thermique interviennent aussi. Une inversion peut limiter le brassage et piéger l'humidité.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "This statement is true.\n\nRising air expands and cools. If it reaches saturation, droplets or crystals may form a cloud. Cooling near the surface may form fog. Humidity alone does not predict the phenomenon: wind, mixing, terrain and temperature evolution also matter. An inversion can limit mixing and trap moisture.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C02",
+      "concept_title": "Refroidissement et condensation",
+      "level": 2,
+      "question": "Vrai ou faux ? L'humidité seule permet de prévoir avec certitude tous les phénomènes de condensation.",
+      "question_en": "True or false? Humidity alone predicts every condensation phenomenon with certainty.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn air qui s'élève se détend et refroidit. S'il atteint la saturation, des gouttelettes ou cristaux peuvent former un nuage. Un refroidissement près du sol peut former du brouillard. L'humidité ne suffit pas seule à prévoir le phénomène : vent, brassage, relief et évolution thermique interviennent aussi. Une inversion peut limiter le brassage et piéger l'humidité.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "This statement is false.\n\nRising air expands and cools. If it reaches saturation, droplets or crystals may form a cloud. Cooling near the surface may form fog. Humidity alone does not predict the phenomenon: wind, mixing, terrain and temperature evolution also matter. An inversion can limit mixing and trap moisture.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C02",
+      "concept_title": "Refroidissement et condensation",
+      "level": 2,
+      "question": "Vrai ou faux ? Le vent et le relief participent à l'évolution de la condensation.",
+      "question_en": "True or false? Wind and terrain contribute to the evolution of condensation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn air qui s'élève se détend et refroidit. S'il atteint la saturation, des gouttelettes ou cristaux peuvent former un nuage. Un refroidissement près du sol peut former du brouillard. L'humidité ne suffit pas seule à prévoir le phénomène : vent, brassage, relief et évolution thermique interviennent aussi. Une inversion peut limiter le brassage et piéger l'humidité.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "This statement is true.\n\nRising air expands and cools. If it reaches saturation, droplets or crystals may form a cloud. Cooling near the surface may form fog. Humidity alone does not predict the phenomenon: wind, mixing, terrain and temperature evolution also matter. An inversion can limit mixing and trap moisture.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C03",
+      "concept_title": "Exemple d'interprétation",
+      "level": 2,
+      "question": "Vrai ou faux ? Avec 12 °C et un point de rosée de 11 °C, l'écart est de 11 °C.",
+      "question_en": "True or false? With 12 °C and an 11 °C dew point, the spread is 11 °C.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne observation donne 12 °C et un point de rosée de 11 °C. L'écart de 1 °C invite à surveiller la visibilité et les nuages bas, surtout si un refroidissement est prévu. Cela ne prouve pas qu'un brouillard existe déjà. Recouper avec les observations, la prévision et l'heure de la journée avant de décider d'un départ VFR.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "This statement is false.\n\nAn observation gives 12 °C with a dew point of 11 °C. The 1 °C spread calls for monitoring visibility and low cloud, particularly if cooling is forecast. It does not prove fog already exists. Cross-check observations, forecasts and time of day before deciding on a VFR departure.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C03",
+      "concept_title": "Exemple d'interprétation",
+      "level": 2,
+      "question": "Vrai ou faux ? Un faible écart impose de surveiller l'évolution, pas d'affirmer qu'il y a déjà du brouillard.",
+      "question_en": "True or false? A small spread calls for monitoring, not a claim that fog already exists.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne observation donne 12 °C et un point de rosée de 11 °C. L'écart de 1 °C invite à surveiller la visibilité et les nuages bas, surtout si un refroidissement est prévu. Cela ne prouve pas qu'un brouillard existe déjà. Recouper avec les observations, la prévision et l'heure de la journée avant de décider d'un départ VFR.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "This statement is true.\n\nAn observation gives 12 °C with a dew point of 11 °C. The 1 °C spread calls for monitoring visibility and low cloud, particularly if cooling is forecast. It does not prove fog already exists. Cross-check observations, forecasts and time of day before deciding on a VFR departure.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_003_C03",
+      "concept_title": "Exemple d'interprétation",
+      "level": 2,
+      "question": "Vrai ou faux ? La prévision de refroidissement est sans intérêt lorsque l'écart est faible.",
+      "question_en": "True or false? Forecast cooling is irrelevant when the spread is small.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne observation donne 12 °C et un point de rosée de 11 °C. L'écart de 1 °C invite à surveiller la visibilité et les nuages bas, surtout si un refroidissement est prévu. Cela ne prouve pas qu'un brouillard existe déjà. Recouper avec les observations, la prévision et l'heure de la journée avant de décider d'un départ VFR.\n\n![Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré.](/illustrations/lapl-met-003.svg)",
+      "explanation_en": "This statement is false.\n\nAn observation gives 12 °C with a dew point of 11 °C. The 1 °C spread calls for monitoring visibility and low cloud, particularly if cooling is forecast. It does not prove fog already exists. Cross-check observations, forecasts and time of day before deciding on a VFR departure.\n\n![Diagram: Temperature and Humidity](/illustrations/en/lapl-met-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

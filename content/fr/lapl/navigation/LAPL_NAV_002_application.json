@@ -1,0 +1,597 @@
+{
+  "metadata": {
+    "module_id": "LAPL_NAV_002",
+    "program": "LAPL",
+    "subject": "Navigation",
+    "chapter_title": "Principes de base de la navigation aérienne",
+    "chapter_title_en": "Basic Principles of Air Navigation",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : se situer et s'orienter; cap, route et relèvement; exemple de conversion.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: position and orientation; heading, track and bearing; a conversion example.",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [],
+    "tags": [
+      "LAPL",
+      "navigation"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 16 : navigation",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      },
+      {
+        "title": "SIA — cartes et informations aéronautiques",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-nav-002.svg",
+      "alt": "Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez."
+    },
+    "exam_subject": "navigation",
+    "coverage_status": "partial",
+    "derived_from": "PPL_NAV_001",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_NAV_002_C01",
+      "title": "Se situer et s'orienter",
+      "title_en": "Position and orientation",
+      "content": "![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)\n\nLa latitude mesure la position au nord ou au sud de l'équateur ; la longitude, à l'est ou à l'ouest du méridien d'origine. Une minute de latitude correspond approximativement à un mille marin, soit 1 852 m. Le nœud représente un mille marin par heure. Sur une carte, utiliser l'échelle et les références adaptées plutôt qu'une conversion improvisée en kilomètres.",
+      "content_en": "![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)\n\nLatitude measures position north or south of the equator; longitude measures position east or west of the prime meridian. One minute of latitude corresponds approximately to one nautical mile, equal to 1,852 m. A knot is one nautical mile per hour. On a chart, use the appropriate scale and references rather than an improvised conversion to kilometres.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "learning_objective": "Se situer et s'orienter"
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C02",
+      "title": "Cap, route et relèvement",
+      "title_en": "Heading, track and bearing",
+      "content": "Le cap est l'orientation de l'axe longitudinal de l'avion. La route est la direction du déplacement au sol. Le vent peut les rendre différents. Un relèvement est une direction vers ou depuis un point selon la convention utilisée. Une valeur angulaire doit préciser sa référence : nord vrai, nord magnétique ou axe de l'avion.",
+      "content_en": "Heading is the orientation of the aircraft's longitudinal axis. Track is the direction of movement over the ground. Wind can make them different. A bearing is a direction to or from a point, depending on the convention used. An angular value must specify its reference: true north, magnetic north or the aircraft's axis.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "learning_objective": "Cap, route et relèvement"
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C03",
+      "title": "Exemple de conversion",
+      "title_en": "A conversion example",
+      "content": "Une route vraie vaut 100° et la déclinaison locale est 3° est. Avec la convention est positive, la route magnétique vaut 100° moins 3°, soit 097°. Cela ne donne pas encore le cap à tenir : il faut ensuite prendre en compte le vent et la déviation éventuelle du compas. Écrire les étapes évite de mélanger les corrections.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "True track is 100° and local variation is 3° east. Taking east as positive, magnetic track is 100° minus 3°, or 097°. This is not yet the heading to fly: wind and any compass deviation must then be considered. Writing down the steps avoids mixing the corrections.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "learning_objective": "Exemple de conversion"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_NAV_002_C01",
+      "concept_title": "Se situer et s'orienter",
+      "level": 1,
+      "question": "Que représente un nœud ?",
+      "question_en": "What does a knot represent?",
+      "options": [
+        "Un mille marin par heure",
+        "Un kilomètre par minute",
+        "Un pied par seconde",
+        "Un mille terrestre par heure"
+      ],
+      "correct_answer": "Un mille marin par heure",
+      "explanation": "Le nœud est une unité de vitesse fondée sur le mille marin.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "The knot is a speed unit based on the nautical mile.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "navigation",
+        "basics",
+        "heading",
+        "track",
+        "bearing",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "One nautical mile per hour",
+        "One kilometre per minute",
+        "One foot per second",
+        "One statute mile per hour"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C02",
+      "concept_title": "Cap, route et relèvement",
+      "level": 1,
+      "question": "Pourquoi cap et route peuvent-ils différer ?",
+      "question_en": "Why can heading and track differ?",
+      "options": [
+        "À cause du numéro de siège",
+        "Ils sont toujours égaux",
+        "Seulement à cause du QNH",
+        "À cause du vent"
+      ],
+      "correct_answer": "À cause du vent",
+      "explanation": "Le déplacement au sol combine vitesse dans l'air et vent.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "Movement over the ground combines velocity through the air and wind.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "navigation",
+        "basics",
+        "heading",
+        "track",
+        "bearing",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Because of the seat number",
+        "They are always equal",
+        "Only because of QNH",
+        "Because of wind"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C03",
+      "concept_title": "Exemple de conversion",
+      "level": 1,
+      "question": "Route vraie 100°, déclinaison 3° est : route magnétique ?",
+      "question_en": "True track 100°, variation 3° east: what is magnetic track?",
+      "options": [
+        "100°",
+        "003°",
+        "097°",
+        "103°"
+      ],
+      "correct_answer": "097°",
+      "explanation": "On retranche la déclinaison est à la direction vraie.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "Subtract easterly variation from the true direction.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "navigation",
+        "basics",
+        "heading",
+        "track",
+        "bearing",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "100°",
+        "003°",
+        "097°",
+        "103°"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C01",
+      "concept_title": "Se situer et s'orienter",
+      "level": 2,
+      "question": "Quelle distance correspond à 2 NM ?",
+      "question_en": "What distance is equal to 2 NM?",
+      "options": [
+        "3 200 m",
+        "3 704 m",
+        "2 000 m",
+        "1 852 m"
+      ],
+      "correct_answer": "3 704 m",
+      "explanation": "Un mille marin vaut 1 852 m. Deux milles marins représentent donc 2 × 1 852 = 3 704 m.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "One nautical mile equals 1,852 m. Two nautical miles therefore equal 2 × 1,852 = 3,704 m.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "navigation",
+        "basics",
+        "heading",
+        "track",
+        "bearing",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "3,200 m",
+        "3,704 m",
+        "2,000 m",
+        "1,852 m"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C03",
+      "concept_title": "Exemple de conversion",
+      "level": 2,
+      "question": "Une route vraie vaut 080° et la déclinaison est 5° est. Quelle route magnétique obtient-on ?",
+      "question_en": "True track is 080° and variation is 5° east. What magnetic track results?",
+      "options": [
+        "075°",
+        "085°",
+        "080°",
+        "095°"
+      ],
+      "correct_answer": "075°",
+      "explanation": "Avec la convention est positive, route magnétique = route vraie − déclinaison : 080° − 5° = 075°. Le vent reste à prendre en compte pour déterminer un cap.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "With east taken as positive, magnetic track = true track − variation: 080° − 5° = 075°. Wind still has to be considered to determine a heading.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "navigation",
+        "basics",
+        "heading",
+        "track",
+        "bearing",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "075°",
+        "085°",
+        "080°",
+        "095°"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C01",
+      "concept_title": "Se situer et s'orienter",
+      "level": 2,
+      "question": "Vrai ou faux ? La latitude indique une position au nord ou au sud de l'équateur.",
+      "question_en": "True or false? Latitude indicates position north or south of the equator.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa latitude mesure la position au nord ou au sud de l'équateur ; la longitude, à l'est ou à l'ouest du méridien d'origine. Une minute de latitude correspond approximativement à un mille marin, soit 1 852 m. Le nœud représente un mille marin par heure. Sur une carte, utiliser l'échelle et les références adaptées plutôt qu'une conversion improvisée en kilomètres.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "This statement is true.\n\nLatitude measures position north or south of the equator; longitude measures position east or west of the prime meridian. One minute of latitude corresponds approximately to one nautical mile, equal to 1,852 m. A knot is one nautical mile per hour. On a chart, use the appropriate scale and references rather than an improvised conversion to kilometres.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C01",
+      "concept_title": "Se situer et s'orienter",
+      "level": 2,
+      "question": "Vrai ou faux ? La longitude se mesure uniquement depuis le pôle Nord.",
+      "question_en": "True or false? Longitude is measured only from the North Pole.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa latitude mesure la position au nord ou au sud de l'équateur ; la longitude, à l'est ou à l'ouest du méridien d'origine. Une minute de latitude correspond approximativement à un mille marin, soit 1 852 m. Le nœud représente un mille marin par heure. Sur une carte, utiliser l'échelle et les références adaptées plutôt qu'une conversion improvisée en kilomètres.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "This statement is false.\n\nLatitude measures position north or south of the equator; longitude measures position east or west of the prime meridian. One minute of latitude corresponds approximately to one nautical mile, equal to 1,852 m. A knot is one nautical mile per hour. On a chart, use the appropriate scale and references rather than an improvised conversion to kilometres.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C01",
+      "concept_title": "Se situer et s'orienter",
+      "level": 2,
+      "question": "Vrai ou faux ? Une minute de latitude correspond approximativement à une mille nautique.",
+      "question_en": "True or false? One minute of latitude is approximately one nautical mile.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa latitude mesure la position au nord ou au sud de l'équateur ; la longitude, à l'est ou à l'ouest du méridien d'origine. Une minute de latitude correspond approximativement à un mille marin, soit 1 852 m. Le nœud représente un mille marin par heure. Sur une carte, utiliser l'échelle et les références adaptées plutôt qu'une conversion improvisée en kilomètres.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "This statement is true.\n\nLatitude measures position north or south of the equator; longitude measures position east or west of the prime meridian. One minute of latitude corresponds approximately to one nautical mile, equal to 1,852 m. A knot is one nautical mile per hour. On a chart, use the appropriate scale and references rather than an improvised conversion to kilometres.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C01",
+      "concept_title": "Se situer et s'orienter",
+      "level": 2,
+      "question": "Vrai ou faux ? Une mille nautique vaut exactement un kilomètre.",
+      "question_en": "True or false? A nautical mile equals exactly one kilometre.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa latitude mesure la position au nord ou au sud de l'équateur ; la longitude, à l'est ou à l'ouest du méridien d'origine. Une minute de latitude correspond approximativement à un mille marin, soit 1 852 m. Le nœud représente un mille marin par heure. Sur une carte, utiliser l'échelle et les références adaptées plutôt qu'une conversion improvisée en kilomètres.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "This statement is false.\n\nLatitude measures position north or south of the equator; longitude measures position east or west of the prime meridian. One minute of latitude corresponds approximately to one nautical mile, equal to 1,852 m. A knot is one nautical mile per hour. On a chart, use the appropriate scale and references rather than an improvised conversion to kilometres.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C02",
+      "concept_title": "Cap, route et relèvement",
+      "level": 2,
+      "question": "Vrai ou faux ? Le cap décrit l'orientation de l'axe longitudinal de l'avion.",
+      "question_en": "True or false? Heading describes the orientation of the aircraft's longitudinal axis.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe cap est l'orientation de l'axe longitudinal de l'avion. La route est la direction du déplacement au sol. Le vent peut les rendre différents. Un relèvement est une direction vers ou depuis un point selon la convention utilisée. Une valeur angulaire doit préciser sa référence : nord vrai, nord magnétique ou axe de l'avion.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "This statement is true.\n\nHeading is the orientation of the aircraft's longitudinal axis. Track is the direction of movement over the ground. Wind can make them different. A bearing is a direction to or from a point, depending on the convention used. An angular value must specify its reference: true north, magnetic north or the aircraft's axis.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C02",
+      "concept_title": "Cap, route et relèvement",
+      "level": 2,
+      "question": "Vrai ou faux ? Une route sol est nécessairement la direction du nez de l'avion.",
+      "question_en": "True or false? Ground track must be the direction of the aircraft's nose.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe cap est l'orientation de l'axe longitudinal de l'avion. La route est la direction du déplacement au sol. Le vent peut les rendre différents. Un relèvement est une direction vers ou depuis un point selon la convention utilisée. Une valeur angulaire doit préciser sa référence : nord vrai, nord magnétique ou axe de l'avion.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "This statement is false.\n\nHeading is the orientation of the aircraft's longitudinal axis. Track is the direction of movement over the ground. Wind can make them different. A bearing is a direction to or from a point, depending on the convention used. An angular value must specify its reference: true north, magnetic north or the aircraft's axis.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C02",
+      "concept_title": "Cap, route et relèvement",
+      "level": 2,
+      "question": "Vrai ou faux ? Une valeur angulaire doit préciser sa référence.",
+      "question_en": "True or false? An angular value must specify its reference.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe cap est l'orientation de l'axe longitudinal de l'avion. La route est la direction du déplacement au sol. Le vent peut les rendre différents. Un relèvement est une direction vers ou depuis un point selon la convention utilisée. Une valeur angulaire doit préciser sa référence : nord vrai, nord magnétique ou axe de l'avion.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "This statement is true.\n\nHeading is the orientation of the aircraft's longitudinal axis. Track is the direction of movement over the ground. Wind can make them different. A bearing is a direction to or from a point, depending on the convention used. An angular value must specify its reference: true north, magnetic north or the aircraft's axis.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C03",
+      "concept_title": "Exemple de conversion",
+      "level": 2,
+      "question": "Vrai ou faux ? Soustraire la déclinaison suffit à déterminer le cap sans considérer le vent.",
+      "question_en": "True or false? Subtracting variation determines heading without considering wind.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne route vraie vaut 100° et la déclinaison locale est 3° est. Avec la convention est positive, la route magnétique vaut 100° moins 3°, soit 097°. Cela ne donne pas encore le cap à tenir : il faut ensuite prendre en compte le vent et la déviation éventuelle du compas. Écrire les étapes évite de mélanger les corrections.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "This statement is false.\n\nTrue track is 100° and local variation is 3° east. Taking east as positive, magnetic track is 100° minus 3°, or 097°. This is not yet the heading to fly: wind and any compass deviation must then be considered. Writing down the steps avoids mixing the corrections.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C03",
+      "concept_title": "Exemple de conversion",
+      "level": 2,
+      "question": "Vrai ou faux ? La déviation du compas constitue une correction distincte de la déclinaison.",
+      "question_en": "True or false? Compass deviation is a correction distinct from variation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne route vraie vaut 100° et la déclinaison locale est 3° est. Avec la convention est positive, la route magnétique vaut 100° moins 3°, soit 097°. Cela ne donne pas encore le cap à tenir : il faut ensuite prendre en compte le vent et la déviation éventuelle du compas. Écrire les étapes évite de mélanger les corrections.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "This statement is true.\n\nTrue track is 100° and local variation is 3° east. Taking east as positive, magnetic track is 100° minus 3°, or 097°. This is not yet the heading to fly: wind and any compass deviation must then be considered. Writing down the steps avoids mixing the corrections.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_002_C03",
+      "concept_title": "Exemple de conversion",
+      "level": 2,
+      "question": "Vrai ou faux ? Dans l'exemple, 100° vrai avec 3° est donne 103° magnétique.",
+      "question_en": "True or false? In the example, 100° true with 3° east gives 103° magnetic.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne route vraie vaut 100° et la déclinaison locale est 3° est. Avec la convention est positive, la route magnétique vaut 100° moins 3°, soit 097°. Cela ne donne pas encore le cap à tenir : il faut ensuite prendre en compte le vent et la déviation éventuelle du compas. Écrire les étapes évite de mélanger les corrections.\n\n![Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez.](/illustrations/lapl-nav-002.svg)",
+      "explanation_en": "This statement is false.\n\nTrue track is 100° and local variation is 3° east. Taking east as positive, magnetic track is 100° minus 3°, or 097°. This is not yet the heading to fly: wind and any compass deviation must then be considered. Writing down the steps avoids mixing the corrections.\n\n![Diagram: Basic Principles of Air Navigation](/illustrations/en/lapl-nav-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

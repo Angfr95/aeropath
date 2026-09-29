@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "module_id": "LAPL_AC_004",
+    "program": "LAPL",
+    "subject": "Aircraft General",
+    "chapter_title": "Instruments de vol",
+    "chapter_title_en": "Flight Instruments",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : pressions et indications; attitude et direction; exemple et limites.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: pressures and indications; attitude and direction; example and limitations.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AC_001"
+    ],
+    "tags": [
+      "LAPL",
+      "aircraft_general"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-ac-004.svg",
+      "alt": "L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique."
+    },
+    "exam_subject": "aircraft_general",
+    "coverage_status": "partial",
+    "derived_from": "PPL_AC_004",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_AC_004_C01",
+      "title": "Pressions et indications",
+      "title_en": "Pressures and indications",
+      "content": "![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)\n\nL'anémomètre exploite la différence entre pression totale et pression statique. L'altimètre utilise la pression statique et son calage pour afficher une altitude barométrique. Le variomètre renseigne sur la variation d'altitude barométrique. Une obstruction peut toucher plusieurs instruments à la fois : trois indications cohérentes en apparence ne sont pas forcément trois mesures indépendantes.",
+      "content_en": "![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)\n\nThe airspeed indicator uses the difference between total and static pressure. The altimeter uses static pressure and its setting to display barometric altitude. The vertical speed indicator shows the rate of change of barometric altitude. A blockage may affect several instruments: three apparently consistent indications are not necessarily three independent measurements.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Pressions et indications"
+    },
+    {
+      "concept_id": "LAPL_AC_004_C02",
+      "title": "Attitude et direction",
+      "title_en": "Attitude and direction",
+      "content": "L'horizon artificiel indique une attitude ; le conservateur de cap ou système équivalent indique une direction. L'alimentation peut être électrique, pneumatique ou intégrée à une centrale électronique. Le compas magnétique est sensible aux accélérations, aux virages et à la déviation propre à l'avion. Les recoupements se font dans des conditions adaptées, conformément au manuel.",
+      "content_en": "The attitude indicator shows attitude; the heading indicator or equivalent system shows direction. Power may be electrical, pneumatic or integrated into an electronic reference system. The magnetic compass is affected by acceleration, turns and aircraft-specific deviation. Cross-checks are made under suitable conditions in accordance with the manual.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Attitude et direction"
+    },
+    {
+      "concept_id": "LAPL_AC_004_C03",
+      "title": "Exemple et limites",
+      "title_en": "Example and limitations",
+      "content": "Avant départ, l'altimètre calé au QNH doit être cohérent avec l'altitude du terrain dans les tolérances applicables. Une vitesse GNSS est une vitesse sol : elle ne remplace pas directement l'anémomètre, car le vent sépare vitesse dans l'air et déplacement au sol. En cas de désaccord, conserver des références fiables et appliquer la procédure d'indications douteuses.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "Before departure, an altimeter set to QNH should agree with aerodrome elevation within the applicable tolerances. GNSS speed is groundspeed: it does not directly replace the airspeed indicator, because wind separates movement through the air from movement over the ground. If indications disagree, retain reliable references and apply the unreliable-indications procedure.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Exemple et limites"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_AC_004_C01",
+      "concept_title": "Pressions et indications",
+      "level": 1,
+      "question": "Quel instrument utilise pression totale et statique ?",
+      "question_en": "Which instrument uses total and static pressure?",
+      "options": [
+        "La jauge carburant",
+        "Le compas",
+        "L'anémomètre",
+        "Le compte-tours"
+      ],
+      "correct_answer": "L'anémomètre",
+      "explanation": "La différence de pression permet d'estimer la vitesse indiquée.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "The pressure difference is used to determine indicated airspeed.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "instruments",
+        "pitot-static",
+        "gyro",
+        "compass",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "The fuel gauge",
+        "The compass",
+        "The airspeed indicator",
+        "The tachometer"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C02",
+      "concept_title": "Attitude et direction",
+      "level": 1,
+      "question": "La vitesse GNSS est principalement une vitesse…",
+      "question_en": "GNSS speed is primarily a speed…",
+      "options": [
+        "De rotation moteur",
+        "Par rapport au sol",
+        "Indiquée par le tube Pitot",
+        "De décrochage"
+      ],
+      "correct_answer": "Par rapport au sol",
+      "explanation": "Le GNSS mesure le déplacement par rapport à la Terre.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "GNSS measures movement relative to the Earth.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "instruments",
+        "pitot-static",
+        "gyro",
+        "compass",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Of engine rotation",
+        "Relative to the ground",
+        "Indicated by the Pitot tube",
+        "At the stall"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C03",
+      "concept_title": "Exemple et limites",
+      "level": 1,
+      "question": "Un défaut de pression statique peut-il affecter plusieurs instruments ?",
+      "question_en": "Can a static pressure fault affect several instruments?",
+      "options": [
+        "Oui",
+        "Non",
+        "Seulement la radio",
+        "Seulement le compte-tours"
+      ],
+      "correct_answer": "Oui",
+      "explanation": "Altimètre, variomètre et anémomètre peuvent utiliser la même source statique.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "The altimeter, vertical speed indicator and airspeed indicator may share a static source.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "instruments",
+        "pitot-static",
+        "gyro",
+        "compass",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Yes",
+        "No",
+        "Only the radio",
+        "Only the tachometer"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C01",
+      "concept_title": "Pressions et indications",
+      "level": 2,
+      "question": "Quelle grandeur alimente directement le fonctionnement d'un altimètre barométrique classique ?",
+      "question_en": "Which quantity directly drives a conventional barometric altimeter?",
+      "options": [
+        "La vitesse sol GNSS",
+        "La pression d'huile",
+        "La pression totale seule",
+        "La pression statique"
+      ],
+      "correct_answer": "La pression statique",
+      "explanation": "L'altimètre exploite la pression statique et un calage de référence. L'anémomètre, lui, utilise la différence entre pression totale et statique.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "The altimeter uses static pressure and a reference setting. The airspeed indicator uses the difference between total and static pressure.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "instruments",
+        "pitot-static",
+        "gyro",
+        "compass",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "GNSS groundspeed",
+        "Oil pressure",
+        "Total pressure alone",
+        "Static pressure"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C02",
+      "concept_title": "Attitude et direction",
+      "level": 2,
+      "question": "L'horizon artificiel et le conservateur de cap renseignent respectivement sur…",
+      "question_en": "The attitude indicator and heading indicator respectively show…",
+      "options": [
+        "L'altitude et la masse",
+        "La dérive et le carburant utilisable",
+        "L'attitude et la direction",
+        "La vitesse et la consommation"
+      ],
+      "correct_answer": "L'attitude et la direction",
+      "explanation": "L'horizon artificiel représente l'attitude de l'avion. Le conservateur de cap fournit une indication de direction ; ni l'un ni l'autre ne mesure directement la vitesse sol.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "The attitude indicator represents the aircraft's attitude. The heading indicator gives direction; neither directly measures groundspeed.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "instruments",
+        "pitot-static",
+        "gyro",
+        "compass",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Altitude and mass",
+        "Drift and usable fuel",
+        "Attitude and direction",
+        "Speed and consumption"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C01",
+      "concept_title": "Pressions et indications",
+      "level": 2,
+      "question": "Vrai ou faux ? Le variomètre indique une variation d'altitude barométrique dans le temps.",
+      "question_en": "True or false? The vertical speed indicator shows barometric altitude change over time.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'anémomètre exploite la différence entre pression totale et pression statique. L'altimètre utilise la pression statique et son calage pour afficher une altitude barométrique. Le variomètre renseigne sur la variation d'altitude barométrique. Une obstruction peut toucher plusieurs instruments à la fois : trois indications cohérentes en apparence ne sont pas forcément trois mesures indépendantes.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "This statement is true.\n\nThe airspeed indicator uses the difference between total and static pressure. The altimeter uses static pressure and its setting to display barometric altitude. The vertical speed indicator shows the rate of change of barometric altitude. A blockage may affect several instruments: three apparently consistent indications are not necessarily three independent measurements.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C01",
+      "concept_title": "Pressions et indications",
+      "level": 2,
+      "question": "Vrai ou faux ? Trois instruments cohérents constituent toujours trois mesures indépendantes.",
+      "question_en": "True or false? Three consistent instruments always provide three independent measurements.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'anémomètre exploite la différence entre pression totale et pression statique. L'altimètre utilise la pression statique et son calage pour afficher une altitude barométrique. Le variomètre renseigne sur la variation d'altitude barométrique. Une obstruction peut toucher plusieurs instruments à la fois : trois indications cohérentes en apparence ne sont pas forcément trois mesures indépendantes.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "This statement is false.\n\nThe airspeed indicator uses the difference between total and static pressure. The altimeter uses static pressure and its setting to display barometric altitude. The vertical speed indicator shows the rate of change of barometric altitude. A blockage may affect several instruments: three apparently consistent indications are not necessarily three independent measurements.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C01",
+      "concept_title": "Pressions et indications",
+      "level": 2,
+      "question": "Vrai ou faux ? Le calage fait partie des éléments qui déterminent l'indication altimétrique.",
+      "question_en": "True or false? The setting is one factor determining the altimeter indication.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'anémomètre exploite la différence entre pression totale et pression statique. L'altimètre utilise la pression statique et son calage pour afficher une altitude barométrique. Le variomètre renseigne sur la variation d'altitude barométrique. Une obstruction peut toucher plusieurs instruments à la fois : trois indications cohérentes en apparence ne sont pas forcément trois mesures indépendantes.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "This statement is true.\n\nThe airspeed indicator uses the difference between total and static pressure. The altimeter uses static pressure and its setting to display barometric altitude. The vertical speed indicator shows the rate of change of barometric altitude. A blockage may affect several instruments: three apparently consistent indications are not necessarily three independent measurements.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C02",
+      "concept_title": "Attitude et direction",
+      "level": 2,
+      "question": "Vrai ou faux ? L'alimentation de tous les horizons artificiels est obligatoirement pneumatique.",
+      "question_en": "True or false? Every attitude indicator must have pneumatic power.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'horizon artificiel indique une attitude ; le conservateur de cap ou système équivalent indique une direction. L'alimentation peut être électrique, pneumatique ou intégrée à une centrale électronique. Le compas magnétique est sensible aux accélérations, aux virages et à la déviation propre à l'avion. Les recoupements se font dans des conditions adaptées, conformément au manuel.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "This statement is false.\n\nThe attitude indicator shows attitude; the heading indicator or equivalent system shows direction. Power may be electrical, pneumatic or integrated into an electronic reference system. The magnetic compass is affected by acceleration, turns and aircraft-specific deviation. Cross-checks are made under suitable conditions in accordance with the manual.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C02",
+      "concept_title": "Attitude et direction",
+      "level": 2,
+      "question": "Vrai ou faux ? Des accélérations peuvent affecter les indications du compas magnétique.",
+      "question_en": "True or false? Acceleration can affect magnetic compass indications.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'horizon artificiel indique une attitude ; le conservateur de cap ou système équivalent indique une direction. L'alimentation peut être électrique, pneumatique ou intégrée à une centrale électronique. Le compas magnétique est sensible aux accélérations, aux virages et à la déviation propre à l'avion. Les recoupements se font dans des conditions adaptées, conformément au manuel.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "This statement is true.\n\nThe attitude indicator shows attitude; the heading indicator or equivalent system shows direction. Power may be electrical, pneumatic or integrated into an electronic reference system. The magnetic compass is affected by acceleration, turns and aircraft-specific deviation. Cross-checks are made under suitable conditions in accordance with the manual.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C02",
+      "concept_title": "Attitude et direction",
+      "level": 2,
+      "question": "Vrai ou faux ? L'indicateur de cap mesure directement la vitesse verticale.",
+      "question_en": "True or false? The heading indicator directly measures vertical speed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'horizon artificiel indique une attitude ; le conservateur de cap ou système équivalent indique une direction. L'alimentation peut être électrique, pneumatique ou intégrée à une centrale électronique. Le compas magnétique est sensible aux accélérations, aux virages et à la déviation propre à l'avion. Les recoupements se font dans des conditions adaptées, conformément au manuel.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "This statement is false.\n\nThe attitude indicator shows attitude; the heading indicator or equivalent system shows direction. Power may be electrical, pneumatic or integrated into an electronic reference system. The magnetic compass is affected by acceleration, turns and aircraft-specific deviation. Cross-checks are made under suitable conditions in accordance with the manual.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C03",
+      "concept_title": "Exemple et limites",
+      "level": 2,
+      "question": "Vrai ou faux ? Un contrôle altimétrique au sol doit tenir compte des tolérances applicables.",
+      "question_en": "True or false? A ground altimeter check must account for applicable tolerances.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nAvant départ, l'altimètre calé au QNH doit être cohérent avec l'altitude du terrain dans les tolérances applicables. Une vitesse GNSS est une vitesse sol : elle ne remplace pas directement l'anémomètre, car le vent sépare vitesse dans l'air et déplacement au sol. En cas de désaccord, conserver des références fiables et appliquer la procédure d'indications douteuses.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "This statement is true.\n\nBefore departure, an altimeter set to QNH should agree with aerodrome elevation within the applicable tolerances. GNSS speed is groundspeed: it does not directly replace the airspeed indicator, because wind separates movement through the air from movement over the ground. If indications disagree, retain reliable references and apply the unreliable-indications procedure.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C03",
+      "concept_title": "Exemple et limites",
+      "level": 2,
+      "question": "Vrai ou faux ? Le vent n'intervient jamais dans la différence entre vitesse air et vitesse sol.",
+      "question_en": "True or false? Wind never affects the difference between airspeed and groundspeed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nAvant départ, l'altimètre calé au QNH doit être cohérent avec l'altitude du terrain dans les tolérances applicables. Une vitesse GNSS est une vitesse sol : elle ne remplace pas directement l'anémomètre, car le vent sépare vitesse dans l'air et déplacement au sol. En cas de désaccord, conserver des références fiables et appliquer la procédure d'indications douteuses.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "This statement is false.\n\nBefore departure, an altimeter set to QNH should agree with aerodrome elevation within the applicable tolerances. GNSS speed is groundspeed: it does not directly replace the airspeed indicator, because wind separates movement through the air from movement over the ground. If indications disagree, retain reliable references and apply the unreliable-indications procedure.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C03",
+      "concept_title": "Exemple et limites",
+      "level": 2,
+      "question": "Vrai ou faux ? En cas d'indications incohérentes, il faut identifier les références encore fiables.",
+      "question_en": "True or false? When indications disagree, the remaining reliable references must be identified.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nAvant départ, l'altimètre calé au QNH doit être cohérent avec l'altitude du terrain dans les tolérances applicables. Une vitesse GNSS est une vitesse sol : elle ne remplace pas directement l'anémomètre, car le vent sépare vitesse dans l'air et déplacement au sol. En cas de désaccord, conserver des références fiables et appliquer la procédure d'indications douteuses.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "This statement is true.\n\nBefore departure, an altimeter set to QNH should agree with aerodrome elevation within the applicable tolerances. GNSS speed is groundspeed: it does not directly replace the airspeed indicator, because wind separates movement through the air from movement over the ground. If indications disagree, retain reliable references and apply the unreliable-indications procedure.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_004_C03",
+      "concept_title": "Exemple et limites",
+      "level": 2,
+      "question": "Vrai ou faux ? Une indication GNSS plausible prouve que le circuit statique fonctionne.",
+      "question_en": "True or false? A plausible GNSS indication proves the static system works.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nAvant départ, l'altimètre calé au QNH doit être cohérent avec l'altitude du terrain dans les tolérances applicables. Une vitesse GNSS est une vitesse sol : elle ne remplace pas directement l'anémomètre, car le vent sépare vitesse dans l'air et déplacement au sol. En cas de désaccord, conserver des références fiables et appliquer la procédure d'indications douteuses.\n\n![L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique.](/illustrations/lapl-ac-004.svg)",
+      "explanation_en": "This statement is false.\n\nBefore departure, an altimeter set to QNH should agree with aerodrome elevation within the applicable tolerances. GNSS speed is groundspeed: it does not directly replace the airspeed indicator, because wind separates movement through the air from movement over the ground. If indications disagree, retain reliable references and apply the unreliable-indications procedure.\n\n![Diagram: Flight Instruments](/illustrations/en/lapl-ac-004.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

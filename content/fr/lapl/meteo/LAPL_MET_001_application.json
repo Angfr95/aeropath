@@ -1,0 +1,597 @@
+{
+  "metadata": {
+    "module_id": "LAPL_MET_001",
+    "program": "LAPL",
+    "subject": "Meteorology",
+    "chapter_title": "L'atmosphère terrestre",
+    "chapter_title_en": "The Earth's Atmosphere",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : une enveloppe d'air variable; le modèle isa; exemple et conséquences.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: a variable envelope of air; the isa model; example and consequences.",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [],
+    "tags": [
+      "LAPL",
+      "meteo"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "Météo-France — Guide aviation",
+        "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+      },
+      {
+        "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-met-001.svg",
+      "alt": "Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence."
+    },
+    "exam_subject": "meteorology",
+    "coverage_status": "partial",
+    "derived_from": "PPL_MET_001",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_MET_001_C01",
+      "title": "Une enveloppe d'air variable",
+      "title_en": "A variable envelope of air",
+      "content": "![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)\n\nL'atmosphère est un mélange de gaz ; l'air sec contient principalement de l'azote et de l'oxygène. La vapeur d'eau varie selon les lieux et les situations. La plupart des phénomènes météorologiques intéressant le pilote léger se produisent dans la troposphère. La pression et la densité diminuent généralement avec l'altitude, mais la température ne suit pas toujours une diminution régulière.",
+      "content_en": "![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)\n\nThe atmosphere is a mixture of gases; dry air consists mainly of nitrogen and oxygen. Water vapour varies with location and conditions. Most weather affecting light aircraft occurs in the troposphere. Pressure and density generally decrease with altitude, but temperature does not always decrease steadily.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Une enveloppe d'air variable"
+    },
+    {
+      "concept_id": "LAPL_MET_001_C02",
+      "title": "Le modèle ISA",
+      "title_en": "The ISA model",
+      "content": "L'atmosphère standard ISA est une référence de calcul, pas une prévision. Au niveau moyen de la mer, elle utilise 15 °C et 1 013,25 hPa. Dans sa troposphère, la température décroît de 6,5 °C par kilomètre, soit environ 2 °C par 1 000 ft. Une inversion réelle correspond au contraire à une augmentation de température avec l'altitude.",
+      "content_en": "The International Standard Atmosphere is a calculation reference, not a forecast. At mean sea level it uses 15 °C and 1,013.25 hPa. In its troposphere, temperature decreases by 6.5 °C per kilometre, approximately 2 °C per 1,000 ft. A real temperature inversion, by contrast, is an increase in temperature with altitude.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Le modèle ISA"
+    },
+    {
+      "concept_id": "LAPL_MET_001_C03",
+      "title": "Exemple et conséquences",
+      "title_en": "Example and consequences",
+      "content": "À 3 000 ft dans la troposphère ISA, on attend environ 9 °C. S'il fait 24 °C, l'écart est proche d'ISA +15. Cette information aide à comprendre pourquoi les performances peuvent être moins bonnes que par temps standard. Pour calculer une distance de décollage, employer les données réelles dans le manuel, et non la seule valeur ISA.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "At 3,000 ft in the ISA troposphere, temperature is approximately 9 °C. If the actual temperature is 24 °C, the deviation is about ISA +15. This helps explain why performance may be poorer than under standard conditions. To calculate take-off distance, use actual conditions in the manual rather than the ISA value alone.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Exemple et conséquences"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_MET_001_C01",
+      "concept_title": "Une enveloppe d'air variable",
+      "level": 1,
+      "question": "L'ISA est-elle une prévision météo ?",
+      "question_en": "Is ISA a weather forecast?",
+      "options": [
+        "Oui pour les prochaines 24 heures",
+        "Oui uniquement en Europe",
+        "Oui au niveau de la mer",
+        "Non, c'est un modèle de référence"
+      ],
+      "correct_answer": "Non, c'est un modèle de référence",
+      "explanation": "Elle fournit des conditions standard pour comparer et calculer.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "It supplies standard conditions for comparison and calculation.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "atmosphere",
+        "pressure",
+        "temperature",
+        "ISA",
+        "basic",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Yes, for the next 24 hours",
+        "Yes, only in Europe",
+        "Yes, at sea level",
+        "No, it is a reference model"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C02",
+      "concept_title": "Le modèle ISA",
+      "level": 1,
+      "question": "Quelle température ISA utilise-t-on au niveau de la mer ?",
+      "question_en": "What ISA temperature is used at sea level?",
+      "options": [
+        "25 °C",
+        "-15 °C",
+        "15 °C",
+        "0 °C"
+      ],
+      "correct_answer": "15 °C",
+      "explanation": "La référence ISA au niveau de la mer est 15 °C.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "The ISA sea-level temperature is 15 °C.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "atmosphere",
+        "pressure",
+        "temperature",
+        "ISA",
+        "basic",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "25 °C",
+        "-15 °C",
+        "15 °C",
+        "0 °C"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C03",
+      "concept_title": "Exemple et conséquences",
+      "level": 1,
+      "question": "Quelle température ISA approximative trouve-t-on à 3 000 ft ?",
+      "question_en": "What is the approximate ISA temperature at 3,000 ft?",
+      "options": [
+        "30 °C",
+        "9 °C",
+        "21 °C",
+        "3 °C"
+      ],
+      "correct_answer": "9 °C",
+      "explanation": "Avec environ 2 °C de diminution par 1 000 ft, on obtient 15 moins 6.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "Using a decrease of about 2 °C per 1,000 ft gives 15 minus 6.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "atmosphere",
+        "pressure",
+        "temperature",
+        "ISA",
+        "basic",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "30 °C",
+        "9 °C",
+        "21 °C",
+        "3 °C"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C02",
+      "concept_title": "Le modèle ISA",
+      "level": 2,
+      "question": "À 5 000 ft dans la troposphère ISA, avec la règle approchée de 2 °C par 1 000 ft, quelle température obtient-on ?",
+      "question_en": "At 5,000 ft in the ISA troposphere, using approximately 2 °C per 1,000 ft, what temperature results?",
+      "options": [
+        "5 °C",
+        "10 °C",
+        "25 °C",
+        "−10 °C"
+      ],
+      "correct_answer": "5 °C",
+      "explanation": "On part de 15 °C au niveau de la mer et on retire environ 5 × 2 = 10 °C : il reste 5 °C. C'est une valeur de référence approchée, pas une prévision.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "Start at 15 °C at sea level and subtract about 5 × 2 = 10 °C, leaving 5 °C. This is an approximate reference value, not a forecast.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "atmosphere",
+        "pressure",
+        "temperature",
+        "ISA",
+        "basic",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "5 °C",
+        "10 °C",
+        "25 °C",
+        "−10 °C"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C02",
+      "concept_title": "Le modèle ISA",
+      "level": 2,
+      "question": "Que caractérise une inversion de température ?",
+      "question_en": "What characterises a temperature inversion?",
+      "options": [
+        "Une pression qui augmente toujours avec l'altitude",
+        "Une température constante dans toute l'atmosphère",
+        "Une diminution de 2 °C tous les 1 000 ft en toute situation",
+        "Une température qui augmente avec l'altitude dans la couche concernée"
+      ],
+      "correct_answer": "Une température qui augmente avec l'altitude dans la couche concernée",
+      "explanation": "Dans une inversion, l'évolution de température est opposée à la décroissance habituelle du modèle troposphérique ISA. L'atmosphère réelle ne suit pas toujours ce modèle.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "In an inversion, temperature changes in the opposite direction to the usual decrease in the ISA troposphere model. The real atmosphere does not always follow this model.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "atmosphere",
+        "pressure",
+        "temperature",
+        "ISA",
+        "basic",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Pressure always increasing with altitude",
+        "Constant temperature throughout the atmosphere",
+        "A decrease of 2 °C per 1,000 ft in every situation",
+        "Temperature increasing with altitude in the layer concerned"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C01",
+      "concept_title": "Une enveloppe d'air variable",
+      "level": 2,
+      "question": "Vrai ou faux ? L'azote et l'oxygène sont les principaux constituants de l'air sec.",
+      "question_en": "True or false? Nitrogen and oxygen are the main constituents of dry air.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'atmosphère est un mélange de gaz ; l'air sec contient principalement de l'azote et de l'oxygène. La vapeur d'eau varie selon les lieux et les situations. La plupart des phénomènes météorologiques intéressant le pilote léger se produisent dans la troposphère. La pression et la densité diminuent généralement avec l'altitude, mais la température ne suit pas toujours une diminution régulière.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe atmosphere is a mixture of gases; dry air consists mainly of nitrogen and oxygen. Water vapour varies with location and conditions. Most weather affecting light aircraft occurs in the troposphere. Pressure and density generally decrease with altitude, but temperature does not always decrease steadily.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C01",
+      "concept_title": "Une enveloppe d'air variable",
+      "level": 2,
+      "question": "Vrai ou faux ? La quantité de vapeur d'eau est identique partout dans l'atmosphère.",
+      "question_en": "True or false? Water vapour content is identical throughout the atmosphere.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'atmosphère est un mélange de gaz ; l'air sec contient principalement de l'azote et de l'oxygène. La vapeur d'eau varie selon les lieux et les situations. La plupart des phénomènes météorologiques intéressant le pilote léger se produisent dans la troposphère. La pression et la densité diminuent généralement avec l'altitude, mais la température ne suit pas toujours une diminution régulière.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "This statement is false.\n\nThe atmosphere is a mixture of gases; dry air consists mainly of nitrogen and oxygen. Water vapour varies with location and conditions. Most weather affecting light aircraft occurs in the troposphere. Pressure and density generally decrease with altitude, but temperature does not always decrease steadily.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C01",
+      "concept_title": "Une enveloppe d'air variable",
+      "level": 2,
+      "question": "Vrai ou faux ? La majorité des phénomènes affectant l'avion léger se produit dans la troposphère.",
+      "question_en": "True or false? Most weather affecting light aircraft occurs in the troposphere.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'atmosphère est un mélange de gaz ; l'air sec contient principalement de l'azote et de l'oxygène. La vapeur d'eau varie selon les lieux et les situations. La plupart des phénomènes météorologiques intéressant le pilote léger se produisent dans la troposphère. La pression et la densité diminuent généralement avec l'altitude, mais la température ne suit pas toujours une diminution régulière.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe atmosphere is a mixture of gases; dry air consists mainly of nitrogen and oxygen. Water vapour varies with location and conditions. Most weather affecting light aircraft occurs in the troposphere. Pressure and density generally decrease with altitude, but temperature does not always decrease steadily.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C01",
+      "concept_title": "Une enveloppe d'air variable",
+      "level": 2,
+      "question": "Vrai ou faux ? La densité augmente systématiquement avec l'altitude.",
+      "question_en": "True or false? Density systematically increases with altitude.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'atmosphère est un mélange de gaz ; l'air sec contient principalement de l'azote et de l'oxygène. La vapeur d'eau varie selon les lieux et les situations. La plupart des phénomènes météorologiques intéressant le pilote léger se produisent dans la troposphère. La pression et la densité diminuent généralement avec l'altitude, mais la température ne suit pas toujours une diminution régulière.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "This statement is false.\n\nThe atmosphere is a mixture of gases; dry air consists mainly of nitrogen and oxygen. Water vapour varies with location and conditions. Most weather affecting light aircraft occurs in the troposphere. Pressure and density generally decrease with altitude, but temperature does not always decrease steadily.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C02",
+      "concept_title": "Le modèle ISA",
+      "level": 2,
+      "question": "Vrai ou faux ? Le modèle ISA utilise 1 013,25 hPa au niveau moyen de la mer.",
+      "question_en": "True or false? ISA uses 1,013.25 hPa at mean sea level.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'atmosphère standard ISA est une référence de calcul, pas une prévision. Au niveau moyen de la mer, elle utilise 15 °C et 1 013,25 hPa. Dans sa troposphère, la température décroît de 6,5 °C par kilomètre, soit environ 2 °C par 1 000 ft. Une inversion réelle correspond au contraire à une augmentation de température avec l'altitude.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe International Standard Atmosphere is a calculation reference, not a forecast. At mean sea level it uses 15 °C and 1,013.25 hPa. In its troposphere, temperature decreases by 6.5 °C per kilometre, approximately 2 °C per 1,000 ft. A real temperature inversion, by contrast, is an increase in temperature with altitude.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C02",
+      "concept_title": "Le modèle ISA",
+      "level": 2,
+      "question": "Vrai ou faux ? Une inversion réelle doit être ignorée puisque l'ISA prévoit une baisse de température.",
+      "question_en": "True or false? A real inversion should be ignored because ISA predicts decreasing temperature.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'atmosphère standard ISA est une référence de calcul, pas une prévision. Au niveau moyen de la mer, elle utilise 15 °C et 1 013,25 hPa. Dans sa troposphère, la température décroît de 6,5 °C par kilomètre, soit environ 2 °C par 1 000 ft. Une inversion réelle correspond au contraire à une augmentation de température avec l'altitude.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "This statement is false.\n\nThe International Standard Atmosphere is a calculation reference, not a forecast. At mean sea level it uses 15 °C and 1,013.25 hPa. In its troposphere, temperature decreases by 6.5 °C per kilometre, approximately 2 °C per 1,000 ft. A real temperature inversion, by contrast, is an increase in temperature with altitude.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C02",
+      "concept_title": "Le modèle ISA",
+      "level": 2,
+      "question": "Vrai ou faux ? Dans la troposphère ISA, la baisse est de 6,5 °C par kilomètre.",
+      "question_en": "True or false? In the ISA troposphere, the decrease is 6.5 °C per kilometre.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'atmosphère standard ISA est une référence de calcul, pas une prévision. Au niveau moyen de la mer, elle utilise 15 °C et 1 013,25 hPa. Dans sa troposphère, la température décroît de 6,5 °C par kilomètre, soit environ 2 °C par 1 000 ft. Une inversion réelle correspond au contraire à une augmentation de température avec l'altitude.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe International Standard Atmosphere is a calculation reference, not a forecast. At mean sea level it uses 15 °C and 1,013.25 hPa. In its troposphere, temperature decreases by 6.5 °C per kilometre, approximately 2 °C per 1,000 ft. A real temperature inversion, by contrast, is an increase in temperature with altitude.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C03",
+      "concept_title": "Exemple et conséquences",
+      "level": 2,
+      "question": "Vrai ou faux ? À 3 000 ft, une température réelle de 24 °C est forcément ISA standard.",
+      "question_en": "True or false? At 3,000 ft, an actual temperature of 24 °C must be standard ISA.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÀ 3 000 ft dans la troposphère ISA, on attend environ 9 °C. S'il fait 24 °C, l'écart est proche d'ISA +15. Cette information aide à comprendre pourquoi les performances peuvent être moins bonnes que par temps standard. Pour calculer une distance de décollage, employer les données réelles dans le manuel, et non la seule valeur ISA.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "This statement is false.\n\nAt 3,000 ft in the ISA troposphere, temperature is approximately 9 °C. If the actual temperature is 24 °C, the deviation is about ISA +15. This helps explain why performance may be poorer than under standard conditions. To calculate take-off distance, use actual conditions in the manual rather than the ISA value alone.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C03",
+      "concept_title": "Exemple et conséquences",
+      "level": 2,
+      "question": "Vrai ou faux ? Une température de 24 °C comparée à une référence de 9 °C donne ISA +15.",
+      "question_en": "True or false? A temperature of 24 °C against a 9 °C reference gives ISA +15.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÀ 3 000 ft dans la troposphère ISA, on attend environ 9 °C. S'il fait 24 °C, l'écart est proche d'ISA +15. Cette information aide à comprendre pourquoi les performances peuvent être moins bonnes que par temps standard. Pour calculer une distance de décollage, employer les données réelles dans le manuel, et non la seule valeur ISA.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "This statement is true.\n\nAt 3,000 ft in the ISA troposphere, temperature is approximately 9 °C. If the actual temperature is 24 °C, the deviation is about ISA +15. This helps explain why performance may be poorer than under standard conditions. To calculate take-off distance, use actual conditions in the manual rather than the ISA value alone.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_001_C03",
+      "concept_title": "Exemple et conséquences",
+      "level": 2,
+      "question": "Vrai ou faux ? La seule température ISA suffit pour calculer le décollage du jour.",
+      "question_en": "True or false? ISA temperature alone is sufficient to calculate today's take-off.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÀ 3 000 ft dans la troposphère ISA, on attend environ 9 °C. S'il fait 24 °C, l'écart est proche d'ISA +15. Cette information aide à comprendre pourquoi les performances peuvent être moins bonnes que par temps standard. Pour calculer une distance de décollage, employer les données réelles dans le manuel, et non la seule valeur ISA.\n\n![Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence.](/illustrations/lapl-met-001.svg)",
+      "explanation_en": "This statement is false.\n\nAt 3,000 ft in the ISA troposphere, temperature is approximately 9 °C. If the actual temperature is 24 °C, the deviation is about ISA +15. This helps explain why performance may be poorer than under standard conditions. To calculate take-off distance, use actual conditions in the manual rather than the ISA value alone.\n\n![Diagram: The Earth's Atmosphere](/illustrations/en/lapl-met-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

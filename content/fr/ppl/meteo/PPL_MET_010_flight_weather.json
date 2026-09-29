@@ -5,13 +5,574 @@
     "subject": "Meteorology",
     "chapter_title": "Météorologie pour le vol à vue (VFR)",
     "chapter_title_en": "Weather for VFR Flight",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : construire un dossier cohérent; minima et marges personnelles; scénario de réévaluation.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: building a coherent weather briefing; minima and personal margins; a reassessment scenario.",
     "difficulty": "advanced",
-    "estimated_duration_minutes": 25,
-    "prerequisites": ["PPL_MET_009"],
-    "tags": ["VFR", "weather briefing", "wind chart", "significant weather"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_MET_009"
+    ],
+    "tags": [
+      "VFR",
+      "weather briefing",
+      "wind chart",
+      "significant weather"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "Météo-France — Guide aviation",
+        "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+      },
+      {
+        "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-met-010.svg",
+      "alt": "Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli."
+    },
+    "exam_subject": "meteorology",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_MET_010_C01",
+      "title": "Construire un dossier cohérent",
+      "title_en": "Building a coherent weather briefing",
+      "content": "![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)\n\nLa préparation VFR combine météo du départ, de la route, de la destination et des solutions de dégagement. Considérer la période entière, y compris un retard ou un retour. Le relief transforme une même hauteur de nuage en marges très différentes. Lire une prévision à une seule station ne suffit pas pour une traversée de région.",
+      "content_en": "![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)\n\nVFR preparation combines weather for departure, the route, destination and diversion options. Consider the whole period, including delays or a return flight. Terrain means the same cloud height can provide very different margins. A forecast for one station alone is not enough for crossing a region.",
+      "difficulty": "advanced",
+      "tags": [
+        "VFR",
+        "weather briefing",
+        "wind chart",
+        "significant weather"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Construire un dossier cohérent"
+    },
+    {
+      "concept_id": "PPL_MET_010_C02",
+      "title": "Minima et marges personnelles",
+      "title_en": "Minima and personal margins",
+      "content": "Les minima réglementaires dépendent notamment de l'espace, de l'altitude et des conditions du vol. Une limite légale n'est pas une cible pédagogique. L'expérience récente, la connaissance de l'avion, le terrain et la possibilité de demi-tour justifient des marges plus élevées. Fixer ces marges avant le départ évite de les réduire sous la pression de l'objectif.",
+      "content_en": "Regulatory minima depend on factors including airspace, altitude and flight conditions. A legal limit is not a training target. Recent experience, familiarity with the aircraft, terrain and turn-back options justify greater margins. Establishing them before departure helps prevent reducing them under pressure to reach the destination.",
+      "difficulty": "advanced",
+      "tags": [
+        "VFR",
+        "weather briefing",
+        "wind chart",
+        "significant weather"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Minima et marges personnelles"
+    },
+    {
+      "concept_id": "PPL_MET_010_C03",
+      "title": "Scénario de réévaluation",
+      "title_en": "A reassessment scenario",
+      "content": "La visibilité diminue et le plafond s'abaisse plus vite que prévu. Comparer la situation aux seuils décidés, puis se dérouter ou interrompre le vol tant que des options sûres existent. Demander de l'information et de l'aide assez tôt. Une bonne décision météo ne se limite pas au départ : elle se renouvelle à chaque point de route important.",
+      "content_en": "Visibility decreases and the ceiling lowers faster than forecast. Compare conditions with the predetermined thresholds, then divert or discontinue the flight while safe options remain. Ask for information and assistance early enough. Weather decisions do not stop at departure: reassess at each important point along the route.",
+      "difficulty": "advanced",
+      "tags": [
+        "VFR",
+        "weather briefing",
+        "wind chart",
+        "significant weather"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Scénario de réévaluation"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_MET_010_C01",
+      "concept_title": "Construire un dossier cohérent",
+      "level": 1,
+      "question": "Le dossier météo doit-il couvrir seulement l'heure du départ ?",
+      "question_en": "Should a weather briefing cover only departure time?",
+      "options": [
+        "Oui",
+        "Oui pour moins d'une heure",
+        "Oui sur avion léger",
+        "Non, toute la période du vol"
+      ],
+      "correct_answer": "Non, toute la période du vol",
+      "explanation": "Destination, route, retour et aléas horaires doivent être considérés.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "Consider destination, route, return and timing uncertainties.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "VFR",
+        "weather briefing",
+        "wind chart",
+        "significant weather",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Yes",
+        "Yes, for flights under one hour",
+        "Yes, in light aircraft",
+        "No, the entire flight period"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C02",
+      "concept_title": "Minima et marges personnelles",
+      "level": 1,
+      "question": "Les minima légaux sont-ils toujours une marge suffisante pour un élève ?",
+      "question_en": "Are legal minima always a sufficient margin for a student?",
+      "options": [
+        "Oui avec un GPS",
+        "Oui sans passager",
+        "Non",
+        "Oui"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Les marges personnelles doivent tenir compte de l'expérience et du contexte.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "Personal margins must account for experience and context.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "VFR",
+        "weather briefing",
+        "wind chart",
+        "significant weather",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Yes, with GPS",
+        "Yes, without passengers",
+        "No",
+        "Yes"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C03",
+      "concept_title": "Scénario de réévaluation",
+      "level": 1,
+      "question": "Quand réagir à une dégradation plus rapide que prévu ?",
+      "question_en": "When should you react to faster-than-forecast deterioration?",
+      "options": [
+        "Uniquement à destination",
+        "Avant de perdre ses options sûres",
+        "Seulement dans les nuages",
+        "Après épuisement du carburant"
+      ],
+      "correct_answer": "Avant de perdre ses options sûres",
+      "explanation": "Une décision précoce préserve les possibilités de repli.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "An early decision preserves fallback options.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "VFR",
+        "weather briefing",
+        "wind chart",
+        "significant weather",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Only at the destination",
+        "Before losing safe options",
+        "Only inside clouds",
+        "After fuel is exhausted"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C01",
+      "concept_title": "Construire un dossier cohérent",
+      "level": 2,
+      "question": "Un retard d'une heure survient avant le départ. Quelle partie du dossier météo faut-il réévaluer ?",
+      "question_en": "A one-hour delay occurs before departure. What part of the weather briefing needs reassessment?",
+      "options": [
+        "La validité et l'évolution pour les nouveaux horaires du trajet et des replis",
+        "Uniquement la météo observée la veille",
+        "Seulement la couleur des cartes",
+        "Aucune, puisque le dossier était correct une heure plus tôt"
+      ],
+      "correct_answer": "La validité et l'évolution pour les nouveaux horaires du trajet et des replis",
+      "explanation": "Un décalage change les heures auxquelles les secteurs seront traversés. Les prévisions et options doivent rester pertinentes pour la période réelle du vol.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "A delay changes the times at which sectors will be crossed. Forecasts and options must remain relevant to the actual flight period.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "VFR",
+        "weather briefing",
+        "wind chart",
+        "significant weather",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Validity and evolution for the new route and fallback timings",
+        "Only yesterday's observed weather",
+        "Only chart colours",
+        "None, because the briefing was correct an hour earlier"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C02",
+      "concept_title": "Minima et marges personnelles",
+      "level": 2,
+      "question": "Pourquoi fixer les marges personnelles avant le départ ?",
+      "question_en": "Why set personal margins before departure?",
+      "options": [
+        "Pour remplacer les minima réglementaires par des seuils plus bas",
+        "Pour éviter toute réévaluation en route",
+        "Pour rendre toute météo acceptable après décollage",
+        "Pour limiter leur réduction sous la pression de poursuivre"
+      ],
+      "correct_answer": "Pour limiter leur réduction sous la pression de poursuivre",
+      "explanation": "Des critères préparés aident à résister à la pression de l'objectif. Ils complètent les exigences réglementaires et doivent être confrontés aux conditions réelles pendant le vol.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "Prepared criteria help resist pressure to complete the plan. They supplement regulatory requirements and must be compared with actual conditions during flight.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "VFR",
+        "weather briefing",
+        "wind chart",
+        "significant weather",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "To replace regulatory minima with lower thresholds",
+        "To avoid any reassessment en route",
+        "To make all weather acceptable after take-off",
+        "To limit their reduction under pressure to continue"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C01",
+      "concept_title": "Construire un dossier cohérent",
+      "level": 2,
+      "question": "Vrai ou faux ? Les aérodromes de repli font partie du dossier météorologique.",
+      "question_en": "True or false? Fallback aerodromes are part of the weather briefing.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa préparation VFR combine météo du départ, de la route, de la destination et des solutions de dégagement. Considérer la période entière, y compris un retard ou un retour. Le relief transforme une même hauteur de nuage en marges très différentes. Lire une prévision à une seule station ne suffit pas pour une traversée de région.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "This statement is true.\n\nVFR preparation combines weather for departure, the route, destination and diversion options. Consider the whole period, including delays or a return flight. Terrain means the same cloud height can provide very different margins. A forecast for one station alone is not enough for crossing a region.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C01",
+      "concept_title": "Construire un dossier cohérent",
+      "level": 2,
+      "question": "Vrai ou faux ? La même hauteur de nuages donne toujours la même marge sur tous les reliefs.",
+      "question_en": "True or false? The same cloud height always provides the same margin over every terrain.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa préparation VFR combine météo du départ, de la route, de la destination et des solutions de dégagement. Considérer la période entière, y compris un retard ou un retour. Le relief transforme une même hauteur de nuage en marges très différentes. Lire une prévision à une seule station ne suffit pas pour une traversée de région.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "This statement is false.\n\nVFR preparation combines weather for departure, the route, destination and diversion options. Consider the whole period, including delays or a return flight. Terrain means the same cloud height can provide very different margins. A forecast for one station alone is not enough for crossing a region.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C01",
+      "concept_title": "Construire un dossier cohérent",
+      "level": 2,
+      "question": "Vrai ou faux ? Une éventuelle attente ou un retard doit entrer dans la période étudiée.",
+      "question_en": "True or false? Possible holding or delay must be included in the period studied.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa préparation VFR combine météo du départ, de la route, de la destination et des solutions de dégagement. Considérer la période entière, y compris un retard ou un retour. Le relief transforme une même hauteur de nuage en marges très différentes. Lire une prévision à une seule station ne suffit pas pour une traversée de région.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "This statement is true.\n\nVFR preparation combines weather for departure, the route, destination and diversion options. Consider the whole period, including delays or a return flight. Terrain means the same cloud height can provide very different margins. A forecast for one station alone is not enough for crossing a region.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C02",
+      "concept_title": "Minima et marges personnelles",
+      "level": 2,
+      "question": "Vrai ou faux ? Une limite réglementaire est nécessairement une cible d'entraînement adaptée.",
+      "question_en": "True or false? A regulatory limit is necessarily a suitable training target.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes minima réglementaires dépendent notamment de l'espace, de l'altitude et des conditions du vol. Une limite légale n'est pas une cible pédagogique. L'expérience récente, la connaissance de l'avion, le terrain et la possibilité de demi-tour justifient des marges plus élevées. Fixer ces marges avant le départ évite de les réduire sous la pression de l'objectif.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "This statement is false.\n\nRegulatory minima depend on factors including airspace, altitude and flight conditions. A legal limit is not a training target. Recent experience, familiarity with the aircraft, terrain and turn-back options justify greater margins. Establishing them before departure helps prevent reducing them under pressure to reach the destination.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C02",
+      "concept_title": "Minima et marges personnelles",
+      "level": 2,
+      "question": "Vrai ou faux ? La connaissance de l'avion intervient dans le choix des marges personnelles.",
+      "question_en": "True or false? Familiarity with the aircraft affects personal margin selection.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes minima réglementaires dépendent notamment de l'espace, de l'altitude et des conditions du vol. Une limite légale n'est pas une cible pédagogique. L'expérience récente, la connaissance de l'avion, le terrain et la possibilité de demi-tour justifient des marges plus élevées. Fixer ces marges avant le départ évite de les réduire sous la pression de l'objectif.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "This statement is true.\n\nRegulatory minima depend on factors including airspace, altitude and flight conditions. A legal limit is not a training target. Recent experience, familiarity with the aircraft, terrain and turn-back options justify greater margins. Establishing them before departure helps prevent reducing them under pressure to reach the destination.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C02",
+      "concept_title": "Minima et marges personnelles",
+      "level": 2,
+      "question": "Vrai ou faux ? La pression d'arriver permet de diminuer les minima applicables.",
+      "question_en": "True or false? Pressure to arrive permits reducing applicable minima.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes minima réglementaires dépendent notamment de l'espace, de l'altitude et des conditions du vol. Une limite légale n'est pas une cible pédagogique. L'expérience récente, la connaissance de l'avion, le terrain et la possibilité de demi-tour justifient des marges plus élevées. Fixer ces marges avant le départ évite de les réduire sous la pression de l'objectif.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "This statement is false.\n\nRegulatory minima depend on factors including airspace, altitude and flight conditions. A legal limit is not a training target. Recent experience, familiarity with the aircraft, terrain and turn-back options justify greater margins. Establishing them before departure helps prevent reducing them under pressure to reach the destination.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C03",
+      "concept_title": "Scénario de réévaluation",
+      "level": 2,
+      "question": "Vrai ou faux ? Il faut confronter les conditions réelles aux seuils décidés avant le vol.",
+      "question_en": "True or false? Actual conditions must be compared with thresholds decided before flight.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa visibilité diminue et le plafond s'abaisse plus vite que prévu. Comparer la situation aux seuils décidés, puis se dérouter ou interrompre le vol tant que des options sûres existent. Demander de l'information et de l'aide assez tôt. Une bonne décision météo ne se limite pas au départ : elle se renouvelle à chaque point de route important.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "This statement is true.\n\nVisibility decreases and the ceiling lowers faster than forecast. Compare conditions with the predetermined thresholds, then divert or discontinue the flight while safe options remain. Ask for information and assistance early enough. Weather decisions do not stop at departure: reassess at each important point along the route.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C03",
+      "concept_title": "Scénario de réévaluation",
+      "level": 2,
+      "question": "Vrai ou faux ? La décision météorologique est définitivement acquise après le décollage.",
+      "question_en": "True or false? The weather decision is permanently settled after take-off.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa visibilité diminue et le plafond s'abaisse plus vite que prévu. Comparer la situation aux seuils décidés, puis se dérouter ou interrompre le vol tant que des options sûres existent. Demander de l'information et de l'aide assez tôt. Une bonne décision météo ne se limite pas au départ : elle se renouvelle à chaque point de route important.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "This statement is false.\n\nVisibility decreases and the ceiling lowers faster than forecast. Compare conditions with the predetermined thresholds, then divert or discontinue the flight while safe options remain. Ask for information and assistance early enough. Weather decisions do not stop at departure: reassess at each important point along the route.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C03",
+      "concept_title": "Scénario de réévaluation",
+      "level": 2,
+      "question": "Vrai ou faux ? Demander de l'information assez tôt peut préserver les possibilités de repli.",
+      "question_en": "True or false? Requesting information early enough can preserve fallback options.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa visibilité diminue et le plafond s'abaisse plus vite que prévu. Comparer la situation aux seuils décidés, puis se dérouter ou interrompre le vol tant que des options sûres existent. Demander de l'information et de l'aide assez tôt. Une bonne décision météo ne se limite pas au départ : elle se renouvelle à chaque point de route important.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "This statement is true.\n\nVisibility decreases and the ceiling lowers faster than forecast. Compare conditions with the predetermined thresholds, then divert or discontinue the flight while safe options remain. Ask for information and assistance early enough. Weather decisions do not stop at departure: reassess at each important point along the route.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_010_C03",
+      "concept_title": "Scénario de réévaluation",
+      "level": 2,
+      "question": "Vrai ou faux ? Une dégradation plus rapide que prévu justifie de retarder toute réévaluation.",
+      "question_en": "True or false? Faster-than-forecast deterioration justifies delaying reassessment.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa visibilité diminue et le plafond s'abaisse plus vite que prévu. Comparer la situation aux seuils décidés, puis se dérouter ou interrompre le vol tant que des options sûres existent. Demander de l'information et de l'aide assez tôt. Une bonne décision météo ne se limite pas au départ : elle se renouvelle à chaque point de route important.\n\n![Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.](/illustrations/ppl-met-010.svg)",
+      "explanation_en": "This statement is false.\n\nVisibility decreases and the ceiling lowers faster than forecast. Compare conditions with the predetermined thresholds, then divert or discontinue the flight while safe options remain. Ask for information and assistance early enough. Weather decisions do not stop at departure: reassess at each important point along the route.\n\n![Diagram: Weather for VFR Flight](/illustrations/en/ppl-met-010.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    }
+  ]
 }

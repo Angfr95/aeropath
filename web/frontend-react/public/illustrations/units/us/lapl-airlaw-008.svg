@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Trois services à distinguer</title><desc id="desc">Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Trois services à distinguer</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Le service reçu dépend de l’organisme, de l’espace et du vol.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_AIRLAW_008</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<rect x="60" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<rect x="93" y="254" width="50" height="55" rx="7" fill="#14253b" stroke="#58dfed"/>
+<path d="M130 254L143 223" fill="none" stroke="#58dfed" stroke-width="3"/>
+<rect x="104" y="264" width="28" height="12" rx="2" fill="#58dfed" stroke="none"/>
+<path d="M105 287L131 287" fill="none" stroke="#58dfed" stroke-width="2"/>
+<path d="M105 296L131 296" fill="none" stroke="#58dfed" stroke-width="2"/>
+<path d="M155 249q25 20 0 40" fill="none" stroke="#58dfed" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<text x="365" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">01</text>
+<text x="84" y="357" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Contrôle</text>
+<text x="84" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Clairances et services de</text>
+<text x="84" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">séparation selon le cadre</text>
+<text x="84" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">applicable.</text>
+<rect x="425" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<path d="M438 274Q483 229 528 274Q483 319 438 274Z" fill="none" stroke="#ffcd70" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<circle cx="483" cy="274" r="14" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="730" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">02</text>
+<text x="449" y="357" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Information de vol</text>
+<text x="449" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Renseignements utiles ;</text>
+<text x="449" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">pas une séparation</text>
+<text x="449" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">universelle.</text>
+<rect x="790" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<path d="M848 234L883 250V278Q878 302 848 317Q818 302 813 278V250Z" fill="none" stroke="#bbabff" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<path d="M831 274L845 289L869 259" fill="none" stroke="#bbabff" stroke-width="4" stroke-linejoin="round" opacity="1"/>
+<text x="1095" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">03</text>
+<text x="814" y="357" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Alerte</text>
+<text x="814" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Mobilisation des moyens</text>
+<text x="814" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">d’assistance appropriés.</text>
+</svg>

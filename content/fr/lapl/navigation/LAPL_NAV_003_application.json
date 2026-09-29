@@ -1,0 +1,599 @@
+{
+  "metadata": {
+    "module_id": "LAPL_NAV_003",
+    "program": "LAPL",
+    "subject": "Navigation",
+    "chapter_title": "Cartes aéronautiques (ICAO 1:500 000)",
+    "chapter_title_en": "Aeronautical Charts (ICAO 1:500,000)",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : lire une carte aéronautique; comprendre la dimension verticale; exemple de préparation.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: reading an aeronautical chart; understanding the vertical dimension; a preparation example.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_NAV_001"
+    ],
+    "tags": [
+      "LAPL",
+      "navigation"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 16 : navigation",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      },
+      {
+        "title": "SIA — cartes et informations aéronautiques",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-nav-003.svg",
+      "alt": "Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original."
+    },
+    "exam_subject": "navigation",
+    "coverage_status": "partial",
+    "derived_from": "PPL_NAV_002",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_NAV_003_C01",
+      "title": "Lire une carte aéronautique",
+      "title_en": "Reading an aeronautical chart",
+      "content": "![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)\n\nUne carte représente relief, obstacles, aérodromes et espaces, selon une légende précise. Vérifier son édition et les unités : une altitude d'obstacle et sa hauteur au-dessus du sol ne décrivent pas la même chose. À l'échelle 1:500 000, un centimètre représente cinq kilomètres sur le terrain. Cette échelle générale doit être complétée par la documentation d'aérodrome.",
+      "content_en": "![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)\n\nA chart depicts terrain, obstacles, aerodromes and airspace using a specific legend. Check its edition and units: an obstacle's altitude and its height above ground are different things. At 1:500,000 scale, one centimetre represents five kilometres on the ground. This general chart must be supplemented by aerodrome documentation.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "learning_objective": "Lire une carte aéronautique"
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C02",
+      "title": "Comprendre la dimension verticale",
+      "title_en": "Understanding the vertical dimension",
+      "content": "Un espace possède des limites latérales et verticales, parfois des horaires d'activité. Lire ensemble plancher, plafond et référence : SFC, hauteur par rapport au sol, altitude ou niveau de vol. Un tracé qui semble contourner une zone sur la carte peut rester incompatible avec son extension verticale ou une restriction temporaire.",
+      "content_en": "Airspace has lateral and vertical limits, sometimes with activity times. Read its base, top and reference together: SFC, height above ground, altitude or flight level. A line that seems to avoid an area on the chart may still conflict with its vertical extent or a temporary restriction.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "learning_objective": "Comprendre la dimension verticale"
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C03",
+      "title": "Exemple de préparation",
+      "title_en": "A preparation example",
+      "content": "Un obstacle porte une altitude de 1 450 ft et une hauteur de 300 ft. Le terrain local est donc à environ 1 150 ft. Pour le franchissement, ne pas comparer seulement la hauteur de 300 ft avec l'altimètre au QNH. Recouper la carte avec les informations aéronautiques à jour et les NOTAM pertinents, car la carte imprimée n'intègre pas tous les changements temporaires.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "An obstacle is marked with an altitude of 1,450 ft and a height of 300 ft. The local terrain elevation is therefore approximately 1,150 ft. For clearance, do not compare only the 300 ft height with a QNH altimeter. Cross-check the chart against current aeronautical information and relevant NOTAMs, because a printed chart cannot contain every temporary change.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "learning_objective": "Exemple de préparation"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_NAV_003_C01",
+      "concept_title": "Lire une carte aéronautique",
+      "level": 1,
+      "question": "Sur une carte 1:500 000, que représente 1 cm ?",
+      "question_en": "On a 1:500,000 chart, what does 1 cm represent?",
+      "options": [
+        "500 m",
+        "50 km",
+        "1 NM",
+        "5 km"
+      ],
+      "correct_answer": "5 km",
+      "explanation": "500 000 cm correspondent à 5 km.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "500,000 cm corresponds to 5 km.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "charts",
+        "maps",
+        "ICAO",
+        "symbols",
+        "topography",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "500 m",
+        "50 km",
+        "1 NM",
+        "5 km"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C02",
+      "concept_title": "Comprendre la dimension verticale",
+      "level": 1,
+      "question": "Pourquoi lire le plancher d'un espace ?",
+      "question_en": "Why read an airspace's lower limit?",
+      "options": [
+        "Pour déterminer le nombre de pistes",
+        "Pour remplacer les NOTAM",
+        "Pour savoir à partir de quel niveau il s'applique",
+        "Pour connaître le prix du carburant"
+      ],
+      "correct_answer": "Pour savoir à partir de quel niveau il s'applique",
+      "explanation": "La limite latérale seule ne décrit pas le volume d'espace.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "The lateral boundary alone does not describe the airspace volume.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "charts",
+        "maps",
+        "ICAO",
+        "symbols",
+        "topography",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "To determine the number of runways",
+        "To replace NOTAMs",
+        "To know the level from which it applies",
+        "To find the fuel price"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C03",
+      "concept_title": "Exemple de préparation",
+      "level": 1,
+      "question": "Altitude d'obstacle 1 450 ft, hauteur 300 ft : altitude du sol ?",
+      "question_en": "Obstacle altitude 1,450 ft, height 300 ft: what is ground elevation?",
+      "options": [
+        "1 450 ft",
+        "1 150 ft",
+        "1 750 ft",
+        "300 ft"
+      ],
+      "correct_answer": "1 150 ft",
+      "explanation": "L'altitude du sommet moins sa hauteur donne l'altitude du terrain local.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "The top altitude minus its height gives the local terrain elevation.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "charts",
+        "maps",
+        "ICAO",
+        "symbols",
+        "topography",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "1,450 ft",
+        "1,150 ft",
+        "1,750 ft",
+        "300 ft"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C01",
+      "concept_title": "Lire une carte aéronautique",
+      "level": 2,
+      "question": "Sur une carte originale au 1:500 000, une branche mesure 4 cm. Quelle distance au sol représente-t-elle ?",
+      "question_en": "On an original 1:500,000 chart, a leg measures 4 cm. What ground distance does it represent?",
+      "options": [
+        "20 km",
+        "2 km",
+        "200 km",
+        "4 NM"
+      ],
+      "correct_answer": "20 km",
+      "explanation": "À cette échelle, 1 cm représente 5 km. Donc 4 cm représentent 4 × 5 = 20 km ; cette conversion ne donne pas directement des milles marins.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "At this scale, 1 cm represents 5 km. Therefore 4 cm represents 4 × 5 = 20 km; this conversion does not directly give nautical miles.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "charts",
+        "maps",
+        "ICAO",
+        "symbols",
+        "topography",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "20 km",
+        "2 km",
+        "200 km",
+        "4 NM"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C03",
+      "concept_title": "Exemple de préparation",
+      "level": 2,
+      "question": "Pourquoi compléter une carte imprimée récente par les NOTAM pertinents ?",
+      "question_en": "Why supplement a recent printed chart with relevant NOTAMs?",
+      "options": [
+        "Les NOTAM remplacent toute la lecture du relief",
+        "Une carte récente ne contient aucune information d'espace",
+        "Les NOTAM donnent toujours le carburant utilisable de l'avion",
+        "Des changements temporaires peuvent être postérieurs à son édition"
+      ],
+      "correct_answer": "Des changements temporaires peuvent être postérieurs à son édition",
+      "explanation": "La carte ne peut pas intégrer tous les changements publiés après son édition. La préparation utilise aussi les informations aéronautiques actualisées pertinentes au vol.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "A chart cannot include every change published after its edition. Preparation also uses current aeronautical information relevant to the flight.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "charts",
+        "maps",
+        "ICAO",
+        "symbols",
+        "topography",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "NOTAMs replace all terrain reading",
+        "A recent chart has no airspace information",
+        "NOTAMs always give the aircraft's usable fuel",
+        "Temporary changes may post-date its edition"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C01",
+      "concept_title": "Lire une carte aéronautique",
+      "level": 2,
+      "question": "Vrai ou faux ? L'édition de la carte doit être vérifiée avant son utilisation.",
+      "question_en": "True or false? The chart edition must be checked before use.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne carte représente relief, obstacles, aérodromes et espaces, selon une légende précise. Vérifier son édition et les unités : une altitude d'obstacle et sa hauteur au-dessus du sol ne décrivent pas la même chose. À l'échelle 1:500 000, un centimètre représente cinq kilomètres sur le terrain. Cette échelle générale doit être complétée par la documentation d'aérodrome.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "This statement is true.\n\nA chart depicts terrain, obstacles, aerodromes and airspace using a specific legend. Check its edition and units: an obstacle's altitude and its height above ground are different things. At 1:500,000 scale, one centimetre represents five kilometres on the ground. This general chart must be supplemented by aerodrome documentation.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C01",
+      "concept_title": "Lire une carte aéronautique",
+      "level": 2,
+      "question": "Vrai ou faux ? La hauteur d'un obstacle et l'altitude de son sommet désignent toujours la même valeur.",
+      "question_en": "True or false? Obstacle height and top altitude always mean the same value.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne carte représente relief, obstacles, aérodromes et espaces, selon une légende précise. Vérifier son édition et les unités : une altitude d'obstacle et sa hauteur au-dessus du sol ne décrivent pas la même chose. À l'échelle 1:500 000, un centimètre représente cinq kilomètres sur le terrain. Cette échelle générale doit être complétée par la documentation d'aérodrome.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "This statement is false.\n\nA chart depicts terrain, obstacles, aerodromes and airspace using a specific legend. Check its edition and units: an obstacle's altitude and its height above ground are different things. At 1:500,000 scale, one centimetre represents five kilometres on the ground. This general chart must be supplemented by aerodrome documentation.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C01",
+      "concept_title": "Lire une carte aéronautique",
+      "level": 2,
+      "question": "Vrai ou faux ? La légende précise la signification des symboles.",
+      "question_en": "True or false? The legend explains the symbols.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne carte représente relief, obstacles, aérodromes et espaces, selon une légende précise. Vérifier son édition et les unités : une altitude d'obstacle et sa hauteur au-dessus du sol ne décrivent pas la même chose. À l'échelle 1:500 000, un centimètre représente cinq kilomètres sur le terrain. Cette échelle générale doit être complétée par la documentation d'aérodrome.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "This statement is true.\n\nA chart depicts terrain, obstacles, aerodromes and airspace using a specific legend. Check its edition and units: an obstacle's altitude and its height above ground are different things. At 1:500,000 scale, one centimetre represents five kilometres on the ground. This general chart must be supplemented by aerodrome documentation.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C01",
+      "concept_title": "Lire une carte aéronautique",
+      "level": 2,
+      "question": "Vrai ou faux ? Une carte générale remplace toute documentation d'aérodrome.",
+      "question_en": "True or false? A general chart replaces all aerodrome documentation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne carte représente relief, obstacles, aérodromes et espaces, selon une légende précise. Vérifier son édition et les unités : une altitude d'obstacle et sa hauteur au-dessus du sol ne décrivent pas la même chose. À l'échelle 1:500 000, un centimètre représente cinq kilomètres sur le terrain. Cette échelle générale doit être complétée par la documentation d'aérodrome.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "This statement is false.\n\nA chart depicts terrain, obstacles, aerodromes and airspace using a specific legend. Check its edition and units: an obstacle's altitude and its height above ground are different things. At 1:500,000 scale, one centimetre represents five kilometres on the ground. This general chart must be supplemented by aerodrome documentation.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C02",
+      "concept_title": "Comprendre la dimension verticale",
+      "level": 2,
+      "question": "Vrai ou faux ? Un espace aérien peut être soumis à des horaires d'activité.",
+      "question_en": "True or false? Airspace may have activity times.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn espace possède des limites latérales et verticales, parfois des horaires d'activité. Lire ensemble plancher, plafond et référence : SFC, hauteur par rapport au sol, altitude ou niveau de vol. Un tracé qui semble contourner une zone sur la carte peut rester incompatible avec son extension verticale ou une restriction temporaire.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "This statement is true.\n\nAirspace has lateral and vertical limits, sometimes with activity times. Read its base, top and reference together: SFC, height above ground, altitude or flight level. A line that seems to avoid an area on the chart may still conflict with its vertical extent or a temporary restriction.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C02",
+      "concept_title": "Comprendre la dimension verticale",
+      "level": 2,
+      "question": "Vrai ou faux ? Le tracé latéral seul permet de savoir si une route évite un espace aérien.",
+      "question_en": "True or false? The lateral outline alone determines whether a route avoids airspace.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn espace possède des limites latérales et verticales, parfois des horaires d'activité. Lire ensemble plancher, plafond et référence : SFC, hauteur par rapport au sol, altitude ou niveau de vol. Un tracé qui semble contourner une zone sur la carte peut rester incompatible avec son extension verticale ou une restriction temporaire.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "This statement is false.\n\nAirspace has lateral and vertical limits, sometimes with activity times. Read its base, top and reference together: SFC, height above ground, altitude or flight level. A line that seems to avoid an area on the chart may still conflict with its vertical extent or a temporary restriction.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C02",
+      "concept_title": "Comprendre la dimension verticale",
+      "level": 2,
+      "question": "Vrai ou faux ? SFC et un niveau de vol ne désignent pas la même référence verticale.",
+      "question_en": "True or false? SFC and a flight level do not describe the same vertical reference.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn espace possède des limites latérales et verticales, parfois des horaires d'activité. Lire ensemble plancher, plafond et référence : SFC, hauteur par rapport au sol, altitude ou niveau de vol. Un tracé qui semble contourner une zone sur la carte peut rester incompatible avec son extension verticale ou une restriction temporaire.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "This statement is true.\n\nAirspace has lateral and vertical limits, sometimes with activity times. Read its base, top and reference together: SFC, height above ground, altitude or flight level. A line that seems to avoid an area on the chart may still conflict with its vertical extent or a temporary restriction.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C03",
+      "concept_title": "Exemple de préparation",
+      "level": 2,
+      "question": "Vrai ou faux ? Un obstacle de 300 ft de hauteur a toujours son sommet à 300 ft au QNH.",
+      "question_en": "True or false? A 300 ft-high obstacle always has its top at 300 ft on QNH.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn obstacle porte une altitude de 1 450 ft et une hauteur de 300 ft. Le terrain local est donc à environ 1 150 ft. Pour le franchissement, ne pas comparer seulement la hauteur de 300 ft avec l'altimètre au QNH. Recouper la carte avec les informations aéronautiques à jour et les NOTAM pertinents, car la carte imprimée n'intègre pas tous les changements temporaires.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "This statement is false.\n\nAn obstacle is marked with an altitude of 1,450 ft and a height of 300 ft. The local terrain elevation is therefore approximately 1,150 ft. For clearance, do not compare only the 300 ft height with a QNH altimeter. Cross-check the chart against current aeronautical information and relevant NOTAMs, because a printed chart cannot contain every temporary change.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C03",
+      "concept_title": "Exemple de préparation",
+      "level": 2,
+      "question": "Vrai ou faux ? Les changements temporaires peuvent nécessiter une information publiée après l'édition.",
+      "question_en": "True or false? Temporary changes may require information published after the chart edition.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn obstacle porte une altitude de 1 450 ft et une hauteur de 300 ft. Le terrain local est donc à environ 1 150 ft. Pour le franchissement, ne pas comparer seulement la hauteur de 300 ft avec l'altimètre au QNH. Recouper la carte avec les informations aéronautiques à jour et les NOTAM pertinents, car la carte imprimée n'intègre pas tous les changements temporaires.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "This statement is true.\n\nAn obstacle is marked with an altitude of 1,450 ft and a height of 300 ft. The local terrain elevation is therefore approximately 1,150 ft. For clearance, do not compare only the 300 ft height with a QNH altimeter. Cross-check the chart against current aeronautical information and relevant NOTAMs, because a printed chart cannot contain every temporary change.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_003_C03",
+      "concept_title": "Exemple de préparation",
+      "level": 2,
+      "question": "Vrai ou faux ? Pour déduire l'élévation du sol, on ajoute la hauteur à l'altitude du sommet.",
+      "question_en": "True or false? To derive ground elevation, add height to top altitude.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn obstacle porte une altitude de 1 450 ft et une hauteur de 300 ft. Le terrain local est donc à environ 1 150 ft. Pour le franchissement, ne pas comparer seulement la hauteur de 300 ft avec l'altimètre au QNH. Recouper la carte avec les informations aéronautiques à jour et les NOTAM pertinents, car la carte imprimée n'intègre pas tous les changements temporaires.\n\n![Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original.](/illustrations/lapl-nav-003.svg)",
+      "explanation_en": "This statement is false.\n\nAn obstacle is marked with an altitude of 1,450 ft and a height of 300 ft. The local terrain elevation is therefore approximately 1,150 ft. For clearance, do not compare only the 300 ft height with a QNH altimeter. Cross-check the chart against current aeronautical information and relevant NOTAMs, because a printed chart cannot contain every temporary change.\n\n![Diagram: Aeronautical Charts (ICAO 1:500,000)](/illustrations/en/lapl-nav-003.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "metadata": {
+    "module_id": "LAPL_AIRLAW_012",
+    "program": "LAPL",
+    "subject": "air_law",
+    "chapter_title": "Priorités et prévention des collisions",
+    "chapter_title_en": "Right of way and collision avoidance",
+    "learning_objective": "Expliquer et appliquer : face-à-face et convergence, exceptions et dépassement, approche et atterrissage, roulage, piste et barre d’arrêt.",
+    "learning_objective_en": "Explain and apply: head-on and converging traffic, exceptions and overtaking, approach and landing, taxiing, runway and stop bar.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": [
+      "PPL_AIRLAW_011"
+    ],
+    "tags": [
+      "LAPL",
+      "air_law"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "Référence du chapitre",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-airlaw-012.svg",
+      "alt": "Priorités et prévention des collisions"
+    },
+    "exam_subject": "airlaw",
+    "coverage_status": "partial",
+    "derived_from": "PPL_AIRLAW_012",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_AIRLAW_012_C01",
+      "title": "Face-à-face et convergence",
+      "title_en": "Head-on and converging traffic",
+      "content": "![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)\n\nObjectif : reconnaître la géométrie de rencontre avant de choisir une action. En rapprochement de face avec risque de collision, chacun vire à sa droite. En convergence à peu près au même niveau entre deux avions motorisés ordinaires, celui qui voit l’autre à sa droite cède le passage. L’avion prioritaire maintient normalement cap et vitesse, mais la responsabilité d’éviter une collision demeure pour les deux pilotes. Celui qui cède évite de passer devant, au-dessus ou au-dessous, sauf en restant largement à l’écart et en tenant compte du sillage. Exemple : vous volez vers le nord, un avion vient de l’est vers votre trajectoire : il est à votre droite, vous cédez.",
+      "content_en": "![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)\n\nObjective: identify encounter geometry before selecting an action. In a head-on encounter with collision risk, both aircraft turn to their own right. When two ordinary powered aeroplanes converge at approximately the same level, the pilot with the other aircraft on the right gives way. The aircraft with priority normally maintains heading and speed, but both pilots remain responsible for avoiding collision. The yielding aircraft avoids passing ahead, above or below unless well clear and accounting for wake turbulence. Example: you fly north and an aircraft approaches your track from the east: it is on your right, so you give way.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "regulatory_reference": "SERA.3201; SERA.3210(c)(1)-(2)",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Face-à-face et convergence"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C02",
+      "title": "Exceptions et dépassement",
+      "title_en": "Exceptions and overtaking",
+      "content": "En convergence, un avion motorisé cède aux dirigeables, planeurs et ballons ; un dirigeable cède aux planeurs et ballons ; un planeur cède aux ballons. Un aéronef motorisé cède aussi à un aéronef vu remorquant un autre aéronef ou un objet. Céder également à un aéronef dont on sait la manœuvrabilité dégradée. Le dépassement est une autre situation : l’aéronef rattrapé est prioritaire. Un avion qui le dépasse modifie son cap à droite et reste responsable de l’écartement jusqu’à être entièrement passé et dégagé, même si les positions relatives évoluent. Un planeur dépassant un autre planeur peut passer à droite ou à gauche : ne pas généraliser cette exception aux avions.",
+      "content_en": "When converging, a powered aeroplane gives way to airships, sailplanes and balloons; an airship gives way to sailplanes and balloons; a sailplane gives way to balloons. A powered aircraft also gives way to an aircraft seen towing another aircraft or object. Give way to an aircraft known to have impaired manoeuvrability. Overtaking is a different encounter: the overtaken aircraft has priority. An overtaking aeroplane alters heading to the right and remains responsible for keeping clear until entirely past and clear, even if relative positions change. A sailplane overtaking another sailplane may pass on either side; this exception does not apply to aeroplanes.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "regulatory_reference": "SERA.3210(b); (c)(2)-(3)",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Exceptions et dépassement"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C03",
+      "title": "Approche et atterrissage",
+      "title_en": "Approach and landing",
+      "content": "Les aéronefs en vol ou au sol cèdent à ceux qui atterrissent ou sont en finale. Entre deux aéronefs plus lourds que l’air en approche, le plus haut cède au plus bas ; ce dernier ne peut pas utiliser cette règle pour couper devant un aéronef en finale ou le dépasser. Les avions motorisés cèdent aux planeurs. Un aéronef connu en atterrissage forcé reçoit la priorité. Ces règles ne dispensent jamais de surveiller ni de respecter les instructions applicables : une priorité ne justifie pas une trajectoire dangereuse.",
+      "content_en": "Aircraft in flight or on the surface give way to aircraft landing or on final approach. Between two heavier-than-air aircraft approaching to land, the higher gives way to the lower; the lower aircraft must not use this rule to cut ahead of or overtake an aircraft on final. Powered aeroplanes give way to sailplanes. Give priority to an aircraft known to be making a forced landing. These rules never remove the need for lookout or compliance with applicable instructions: priority does not justify a hazardous flight path.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "regulatory_reference": "SERA.3210(c)(4)",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Approche et atterrissage"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C04",
+      "title": "Roulage, piste et barre d’arrêt",
+      "title_en": "Taxiing, runway and stop bar",
+      "content": "Au roulage, céder aux aéronefs au décollage ou sur le point de décoller. En convergence au sol, céder à celui qui vient de droite. Face à face, s’arrêter ou, si possible, tourner à droite en restant largement à l’écart. Sur un aérodrome contrôlé, s’arrêter aux points d’attente de piste sauf clairance explicite d’entrée ou de traversée. Une barre d’arrêt allumée impose l’arrêt : une clairance radio seule ne suffit pas à la franchir. Il faut son extinction et la clairance requise. En cas de contradiction, rester arrêté et demander une clarification ; les procédures de panne sont gérées par l’organisme compétent.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "When taxiing, give way to aircraft taking off or about to take off. For converging surface traffic, give way to the aircraft on your right. Head-on, stop or, where practicable, turn right while keeping well clear. At a controlled aerodrome, stop at runway holding positions unless explicitly cleared to enter or cross. A lighted stop bar requires a stop: a radio clearance alone does not authorise crossing it. It must be extinguished and the required clearance obtained. If indications conflict, remain stopped and request clarification; equipment failure contingencies are managed by the responsible unit.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "regulatory_reference": "SERA.3210(c)(5); (d)",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Roulage, piste et barre d’arrêt"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_AIRLAW_012_C01",
+      "concept_title": "Face-à-face et convergence",
+      "level": 2,
+      "question": "Deux avions se rapprochent de face avec risque de collision. Quelle action est prévue ?",
+      "question_en": "Two aeroplanes approach head-on with collision risk. What action is prescribed?",
+      "options": [
+        "Chacun vire à sa droite",
+        "Chacun vire à sa gauche",
+        "Seul le plus rapide vire",
+        "Chacun monte"
+      ],
+      "options_en": [
+        "Both turn to their own right",
+        "Both turn to their own left",
+        "Only the faster turns",
+        "Both climb"
+      ],
+      "correct_answer": "Chacun vire à sa droite",
+      "explanation": "SERA.3210(c)(1) prescrit une modification de cap à droite pour chacun.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "SERA.3210(c)(1) prescribes a heading change to the right for both.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3201; SERA.3210(c)(1)-(2)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C01",
+      "concept_title": "Face-à-face et convergence",
+      "level": 2,
+      "question": "Vous volez vers le nord. Un avion motorisé ordinaire converge depuis l’est au même niveau, sans autre exception. Qui cède ?",
+      "question_en": "You fly north. An ordinary powered aeroplane converges from the east at the same level, with no other exception. Who gives way?",
+      "options": [
+        "L’autre, car vous êtes à sa gauche",
+        "Celui dont le cap est le plus petit",
+        "Celui qui vole vers l’ouest",
+        "Vous, car il est à votre droite"
+      ],
+      "options_en": [
+        "The other, because you are on its left",
+        "The aircraft with the smaller heading",
+        "The aircraft flying west",
+        "You, because it is on your right"
+      ],
+      "correct_answer": "Vous, car il est à votre droite",
+      "explanation": "Identifier droite et gauche depuis le cockpit : le trafic venant de l’est est à droite du pilote orienté au nord.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "Identify sides from the cockpit: traffic from the east is on the right of a northbound pilot.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3201; SERA.3210(c)(1)-(2)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C01",
+      "concept_title": "Face-à-face et convergence",
+      "level": 2,
+      "question": "Vous êtes prioritaire mais la collision devient imminente. Que faire ?",
+      "question_en": "You have right of way but collision becomes imminent. What should you do?",
+      "options": [
+        "Attendre obligatoirement une clairance",
+        "Fermer la radio pour se concentrer",
+        "Agir pour éviter la collision",
+        "Maintenir la trajectoire quoi qu’il arrive"
+      ],
+      "options_en": [
+        "Always wait for a clearance",
+        "Switch off the radio to concentrate",
+        "Act to avoid collision",
+        "Maintain the flight path regardless"
+      ],
+      "correct_answer": "Agir pour éviter la collision",
+      "explanation": "SERA.3201 maintient la responsabilité d’éviter une collision même lorsqu’on est prioritaire.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "SERA.3201 retains collision avoidance responsibility even with right of way.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3201; SERA.3210(c)(1)-(2)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C01",
+      "concept_title": "Face-à-face et convergence",
+      "level": 2,
+      "question": "En convergence, vous devez céder. Passer juste devant l’autre avion est-il approprié ?",
+      "question_en": "You must give way in a converging encounter. Is passing just ahead appropriate?",
+      "options": [
+        "Oui, si vos vitesses sont égales",
+        "Non, il faut rester largement à l’écart",
+        "Oui, si votre avion est prioritaire au roulage",
+        "Oui, si vous annoncez votre intention"
+      ],
+      "options_en": [
+        "Yes, if speeds are equal",
+        "No, remain well clear",
+        "Yes, if your aircraft has taxi priority",
+        "Yes, if you announce your intention"
+      ],
+      "correct_answer": "Non, il faut rester largement à l’écart",
+      "explanation": "Céder exige un écart suffisant, en tenant compte du sillage ; une annonce ne remplace pas cette obligation.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "Giving way requires sufficient clearance, accounting for wake; an announcement does not replace this duty.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3201; SERA.3210(c)(1)-(2)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C02",
+      "concept_title": "Exceptions et dépassement",
+      "level": 2,
+      "question": "Votre avion motorisé converge avec un planeur au même niveau. Le planeur est à gauche. Qui cède ?",
+      "question_en": "Your powered aeroplane converges with a sailplane at the same level. The sailplane is on the left. Who gives way?",
+      "options": [
+        "Votre avion",
+        "Le planeur, toujours",
+        "Celui qui descend uniquement",
+        "Celui dont la radio est éteinte"
+      ],
+      "options_en": [
+        "Your aeroplane",
+        "The sailplane, always",
+        "Only the descending aircraft",
+        "The aircraft with its radio off"
+      ],
+      "correct_answer": "Votre avion",
+      "explanation": "L’exception en faveur du planeur prime sur la règle générale de convergence.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "The sailplane exception takes precedence over the general convergence rule.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3210(b); (c)(2)-(3)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C02",
+      "concept_title": "Exceptions et dépassement",
+      "level": 2,
+      "question": "Vous voyez un avion remorquer un planeur sur une trajectoire convergente. Quelle règle appliquer ?",
+      "question_en": "You see an aircraft towing a sailplane on a converging track. Which rule applies?",
+      "options": [
+        "Le remorqueur cède toujours",
+        "Le plus lent cède",
+        "La priorité dépend du nombre de passagers",
+        "Votre avion motorisé lui cède"
+      ],
+      "options_en": [
+        "The tug always gives way",
+        "The slower aircraft gives way",
+        "Priority depends on passenger count",
+        "Your powered aeroplane gives way"
+      ],
+      "correct_answer": "Votre avion motorisé lui cède",
+      "explanation": "SERA.3210 prévoit la priorité de l’aéronef vu en remorquage sur l’aéronef motorisé concerné.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "SERA.3210 requires the powered aircraft to give way to an aircraft seen towing.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3210(b); (c)(2)-(3)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C02",
+      "concept_title": "Exceptions et dépassement",
+      "level": 2,
+      "question": "Votre avion rattrape un autre avion par l’arrière. De quel côté le dépasser ?",
+      "question_en": "Your aeroplane overtakes another from behind. On which side should you pass?",
+      "options": [
+        "Du côté de votre choix sans restriction",
+        "Juste au-dessus",
+        "À droite en restant à l’écart",
+        "À gauche obligatoirement"
+      ],
+      "options_en": [
+        "Either side without restriction",
+        "Just above",
+        "On the right while keeping clear",
+        "Always on the left"
+      ],
+      "correct_answer": "À droite en restant à l’écart",
+      "explanation": "Pour un avion, le dépassement s’effectue par modification de cap à droite.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "An overtaking aeroplane alters heading to the right.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3210(b); (c)(2)-(3)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C02",
+      "concept_title": "Exceptions et dépassement",
+      "level": 2,
+      "question": "Pendant votre dépassement, l’avion rattrapé change légèrement de direction. Quand votre obligation de rester à l’écart prend-elle fin ?",
+      "question_en": "During overtaking, the overtaken aircraft changes direction slightly. When does your duty to keep clear end?",
+      "options": [
+        "Dès que vous le voyez sous l’aile",
+        "Une fois entièrement passé et dégagé",
+        "Dès que vous êtes à sa droite",
+        "Dès qu’il change de cap"
+      ],
+      "options_en": [
+        "As soon as you see it below the wing",
+        "When entirely past and clear",
+        "As soon as you are on its right",
+        "As soon as it changes heading"
+      ],
+      "correct_answer": "Une fois entièrement passé et dégagé",
+      "explanation": "L’évolution des positions relatives ne supprime pas l’obligation du pilote qui dépasse.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "Changing relative positions does not remove the overtaking pilot’s obligation.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3210(b); (c)(2)-(3)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C03",
+      "concept_title": "Approche et atterrissage",
+      "level": 2,
+      "question": "Un avion roule et un autre est en finale pour atterrir. Lequel a priorité ?",
+      "question_en": "One aircraft is taxiing and another is on final to land. Which has priority?",
+      "options": [
+        "Celui en finale",
+        "Celui au sol",
+        "Celui dont la masse est supérieure",
+        "Celui qui appelle en premier"
+      ],
+      "options_en": [
+        "The aircraft on final",
+        "The aircraft on the ground",
+        "The heavier aircraft",
+        "The first to call"
+      ],
+      "correct_answer": "Celui en finale",
+      "explanation": "La priorité à l’atterrissage concerne aussi les aéronefs au sol.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "Landing priority also applies to aircraft on the surface.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3210(c)(4)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C03",
+      "concept_title": "Approche et atterrissage",
+      "level": 2,
+      "question": "Vous êtes plus bas qu’un avion déjà établi en finale. Pouvez-vous couper devant lui pour atterrir ?",
+      "question_en": "You are lower than an aircraft already on final. May you cut ahead to land?",
+      "options": [
+        "Oui, la hauteur donne une priorité absolue",
+        "Oui, si vous êtes plus lent",
+        "Oui, si vous réduisez la radio",
+        "Non"
+      ],
+      "options_en": [
+        "Yes, height gives absolute priority",
+        "Yes, if you are slower",
+        "Yes, if you reduce radio use",
+        "No"
+      ],
+      "correct_answer": "Non",
+      "explanation": "La règle du plus bas n’autorise ni à couper devant un aéronef en finale ni à le dépasser.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "The lower-aircraft rule does not permit cutting ahead of or overtaking an aircraft on final.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3210(c)(4)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C03",
+      "concept_title": "Approche et atterrissage",
+      "level": 2,
+      "question": "Vous savez qu’un aéronef doit effectuer un atterrissage forcé. Quelle conduite adopter ?",
+      "question_en": "You know an aircraft must make a forced landing. What should you do?",
+      "options": [
+        "Appliquer uniquement la priorité à droite",
+        "Lui demander de monter avant de décider",
+        "Lui céder le passage",
+        "Exiger qu’il attende votre atterrissage"
+      ],
+      "options_en": [
+        "Apply only the right-hand rule",
+        "Ask it to climb before deciding",
+        "Give way to it",
+        "Require it to wait for your landing"
+      ],
+      "correct_answer": "Lui céder le passage",
+      "explanation": "La situation d’atterrissage forcé impose de lui céder.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "Give way to an aircraft known to be making a forced landing.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3210(c)(4)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C04",
+      "concept_title": "Roulage, piste et barre d’arrêt",
+      "level": 2,
+      "question": "Au roulage, votre trajectoire croise celle d’un avion sur le point de décoller. Qui cède ?",
+      "question_en": "While taxiing, your path conflicts with an aircraft about to take off. Who gives way?",
+      "options": [
+        "Celui qui a le moins de carburant",
+        "Vous",
+        "L’avion au départ",
+        "Celui à gauche, sans autre règle"
+      ],
+      "options_en": [
+        "The aircraft with less fuel",
+        "You",
+        "The departing aircraft",
+        "The aircraft on the left, with no other rule"
+      ],
+      "correct_answer": "Vous",
+      "explanation": "Un aéronef au roulage cède à celui qui décolle ou va décoller.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "A taxiing aircraft gives way to one taking off or about to take off.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3210(c)(5); (d)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C04",
+      "concept_title": "Roulage, piste et barre d’arrêt",
+      "level": 2,
+      "question": "Sur un aérodrome contrôlé, vous atteignez un point d’attente sans clairance d’entrée ni de traversée. Que faire ?",
+      "question_en": "At a controlled aerodrome, you reach a runway holding position without entry or crossing clearance. What should you do?",
+      "options": [
+        "Vous arrêter avant le point d’attente",
+        "Traverser si la piste paraît vide",
+        "Suivre l’avion précédent sans autre échange",
+        "Traverser après une annonce unilatérale"
+      ],
+      "options_en": [
+        "Stop before the holding position",
+        "Cross if the runway looks empty",
+        "Follow the preceding aircraft without further exchange",
+        "Cross after a one-way announcement"
+      ],
+      "correct_answer": "Vous arrêter avant le point d’attente",
+      "explanation": "Une clairance explicite est nécessaire ; voir une piste libre ne suffit pas.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "Explicit clearance is required; seeing an empty runway is insufficient.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3210(c)(5); (d)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C04",
+      "concept_title": "Roulage, piste et barre d’arrêt",
+      "level": 2,
+      "question": "Vous recevez une clairance de traversée mais la barre d’arrêt reste rouge. Quelle action ?",
+      "question_en": "You receive crossing clearance but the stop bar remains red. What should you do?",
+      "options": [
+        "Traverser grâce à la clairance seule",
+        "Traverser si personne ne vient",
+        "Éteindre vos feux et avancer",
+        "Rester arrêté et demander clarification"
+      ],
+      "options_en": [
+        "Cross on the clearance alone",
+        "Cross if no one is approaching",
+        "Switch off your lights and proceed",
+        "Remain stopped and request clarification"
+      ],
+      "correct_answer": "Rester arrêté et demander clarification",
+      "explanation": "La clairance ne permet pas à elle seule de franchir une barre d’arrêt allumée.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "Clearance alone does not permit crossing a lighted stop bar.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3210(c)(5); (d)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_012_C04",
+      "concept_title": "Roulage, piste et barre d’arrêt",
+      "level": 2,
+      "question": "La barre d’arrêt s’éteint mais vous n’avez pas reçu la clairance requise de traversée. Pouvez-vous traverser ?",
+      "question_en": "The stop bar goes out but you have not received the required crossing clearance. May you cross?",
+      "options": [
+        "Oui, après dix secondes",
+        "Oui, avec le transpondeur en marche",
+        "Non, obtenir aussi la clairance",
+        "Oui, l’extinction suffit toujours"
+      ],
+      "options_en": [
+        "Yes, after ten seconds",
+        "Yes, with the transponder on",
+        "No, obtain clearance as well",
+        "Yes, extinction is always sufficient"
+      ],
+      "correct_answer": "Non, obtenir aussi la clairance",
+      "explanation": "Extinction et clairance requise sont deux conditions distinctes.\n\n![Priorités et prévention des collisions](/illustrations/lapl-airlaw-012.svg)",
+      "explanation_en": "An extinguished bar and the required clearance are separate conditions.\n\n![PPL_AIRLAW_012](/illustrations/en/lapl-airlaw-012.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.3210(c)(5); (d)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

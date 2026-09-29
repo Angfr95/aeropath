@@ -1,3 +1,5 @@
+import { questionPreview } from "@/utils/learningLocale";
+import { useLearningLocale } from "@/utils/useLearningLocale";
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { questionsApi } from "@/api/questions";
@@ -8,6 +10,7 @@ import Navbar from "@/components/Navbar";
 
 /** renderQuestions + loadQuestions */
 export default function Questions() {
+  const { text, label } = useLearningLocale();
   const navigate = useNavigate();
   const startRandom = useQuizStore((s) => s.startRandom);
   const [recent, setRecent] = useState<Question[]>([]);
@@ -20,7 +23,7 @@ export default function Questions() {
   }, []);
 
   async function handleRandom() {
-    await startRandom(5);
+    await startRandom(15);
     navigate("/quiz");
   }
 
@@ -31,11 +34,12 @@ export default function Questions() {
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-2xl font-bold text-white">Questions</h1>
           <button onClick={handleRandom} className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm">
-            🧠 Question aléatoire
+            {label("🧠 Question aléatoire")}
           </button>
         </div>
 
-        <h2 className="text-lg font-semibold text-slate-300 mb-3">Choisis une licence</h2>
+        <Link to="/ppl-exam" className="block bg-blue-800 rounded-xl p-4 mb-6">{text("Examen blanc PPL(A) — 9 matières, format français", "PPL(A) practice exam — 9 subjects, French format")}</Link>
+        <h2 className="text-lg font-semibold text-slate-300 mb-3">{label("Choisis une licence")}</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 mb-8">
           {LICENSES.map((l) => (
             <Link
@@ -45,16 +49,16 @@ export default function Questions() {
             >
               <div className="text-3xl mb-2">{l.icon}</div>
               <div className="text-white font-bold">{l.label}</div>
-              <div className="text-xs text-slate-400">{l.desc}</div>
+              <div className="text-xs text-slate-400">{label(l.desc)}</div>
             </Link>
           ))}
         </div>
 
-        <h2 className="text-lg font-semibold text-slate-300 mb-3">Dernières questions</h2>
+        <h2 className="text-lg font-semibold text-slate-300 mb-3">{label("Dernières questions")}</h2>
         {loading ? (
           <div className="space-y-3">{[1, 2, 3].map((i) => <div key={i} className="skeleton h-20 rounded-xl" />)}</div>
         ) : recent.length === 0 ? (
-          <p className="text-slate-400 text-center py-8">Aucune question trouvée</p>
+          <p className="text-slate-400 text-center py-8">{label("Aucune question trouvée")}</p>
         ) : (
           <div className="space-y-3">
             {recent.map((q) => (
@@ -65,11 +69,11 @@ export default function Questions() {
               >
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
-                    <p className="text-white font-medium">{q.question_fr || q.question_en}</p>
+                    <p className="text-white font-medium">{questionPreview(text(q.question_fr, q.question_en, q.question_es))}</p>
                     <div className="flex gap-2 mt-2 flex-wrap">
                       <span className="text-xs bg-blue-900 text-blue-300 px-2 py-0.5 rounded">{q.license}</span>
                       <span className="text-xs bg-purple-900 text-purple-300 px-2 py-0.5 rounded">{q.category}</span>
-                      <span className="text-xs bg-amber-900 text-amber-300 px-2 py-0.5 rounded">Niv. {q.difficulty}</span>
+                      <span className="text-xs bg-amber-900 text-amber-300 px-2 py-0.5 rounded">{label("Niv.")} {q.difficulty}</span>
                       <span className="text-xs bg-green-900 text-green-300 px-2 py-0.5 rounded">{q.theme}</span>
                     </div>
                   </div>

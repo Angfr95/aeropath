@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Pitot-static: reason from pressures</title><desc id="desc">Pitot-static: reason from pressures</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / CPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Pitot-static: reason from pressures</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Fictional exercise · Diagram not to scale</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">CPL_PITOT_REASONING</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Read the diagram with the lesson explanations and references.</text>
+<text x="65" y="215" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Write the received pressures before concluding</text>
+<rect x="65" y="242" width="515" height="272" rx="12" fill="#1c344b" stroke="#304961"/>
+<rect x="620" y="242" width="515" height="272" rx="12" fill="#1c344b" stroke="#304961"/>
+<text x="83" y="282" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Trapped Pt, open Ps</text>
+<text x="83" y="327" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Difference = trapped Pt − current Ps</text>
+<text x="83" y="376" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Ps falls → difference increases</text>
+<text x="83" y="417" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Ps rises → difference decreases</text>
+<text x="83" y="468" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Pitot inlet AND drain blocked.</text>
+<text x="638" y="282" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Trapped Ps, open pitot</text>
+<text x="638" y="327" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Compare at the same instant:</text>
+<text x="638" y="369" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Received: Pt − trapped Ps</text>
+<text x="638" y="409" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Correct: Pt − external Ps</text>
+<text x="638" y="461" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Direction of movement alone does not give</text>
+<text x="638" y="486" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">the error sign.</text>
+<text x="65" y="554" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">BOTH Pt and Ps trapped → constant difference in the ideal model.</text>
+<text x="65" y="592" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Assumptions: no leaks or thermal effects; hPa ≠ kt.</text>
+</svg>

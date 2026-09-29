@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Panne radio : signaux et messages</title><desc id="desc">Panne radio : signaux et messages</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Panne radio : signaux et messages</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_COM_002</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="65" y="212" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Signaux : choisir la bonne situation</text>
+<text x="65" y="256" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Signal</text>
+<text x="430" y="256" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">En vol</text>
+<text x="820" y="256" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Au sol</text>
+<text x="65" y="301" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Vert continu</text>
+<text x="430" y="301" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Atterrissage autorisé</text>
+<text x="820" y="301" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Décollage autorisé</text>
+<path d="M65 317L1125 317" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="354" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Éclats verts</text>
+<text x="430" y="354" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Revenir pour atterrir*</text>
+<text x="820" y="354" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Roulage autorisé</text>
+<path d="M65 370L1125 370" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="407" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Rouge continu</text>
+<text x="430" y="407" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Céder, rester en circuit</text>
+<text x="820" y="407" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Arrêter</text>
+<path d="M65 423L1125 423" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="463" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">* Autorisation d’atterrir à suivre.</text>
+<text x="65" y="515" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">MAYDAY : danger et assistance immédiate. PAN PAN : sécurité concernée sans ce besoin</text>
+<text x="65" y="545" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">immédiat.</text>
+<text x="65" y="594" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Signal → identité → problème → intentions → position / niveau / cap</text>
+</svg>

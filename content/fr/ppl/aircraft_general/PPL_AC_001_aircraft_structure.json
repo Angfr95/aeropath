@@ -5,13 +5,562 @@
     "subject": "Aircraft General",
     "chapter_title": "Structure de l'aéronef",
     "chapter_title_en": "Aircraft Structure",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : reconnaître les éléments porteurs; comprendre les efforts; exemple et vérification.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: recognising structural components; understanding loads; example and inspection.",
     "difficulty": "beginner",
-    "estimated_duration_minutes": 25,
+    "estimated_duration_minutes": 10,
     "prerequisites": [],
-    "tags": ["structure", "fuselage", "wings", "empennage", "basic"]
+    "tags": [
+      "structure",
+      "fuselage",
+      "wings",
+      "empennage",
+      "basic"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-ac-001.svg",
+      "alt": "Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage."
+    },
+    "exam_subject": "aircraft_general",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_AC_001_C01",
+      "title": "Reconnaître les éléments porteurs",
+      "title_en": "Recognising structural components",
+      "content": "![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)\n\nLe fuselage accueille occupants et équipements. Les ailes produisent l'essentiel de la portance ; l'empennage contribue à la stabilité et au contrôle. Le train permet les déplacements au sol et absorbe les efforts d'atterrissage. Une aile comporte des longerons, des nervures et un revêtement : selon la construction, le revêtement participe lui aussi à la reprise des charges. Une peau extérieure endommagée n'est donc pas nécessairement un défaut esthétique.",
+      "content_en": "![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)\n\nThe fuselage houses occupants and equipment. The wings produce most of the lift; the tail contributes to stability and control. The landing gear supports ground movement and absorbs landing loads. A wing contains spars, ribs and skin: depending on its construction, the skin also carries loads. Damaged outer skin is therefore not necessarily just a cosmetic defect.",
+      "difficulty": "beginner",
+      "tags": [
+        "structure",
+        "fuselage",
+        "wings",
+        "empennage",
+        "basic"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Reconnaître les éléments porteurs"
+    },
+    {
+      "concept_id": "PPL_AC_001_C02",
+      "title": "Comprendre les efforts",
+      "title_en": "Understanding loads",
+      "content": "En vol, les charges sollicitent la structure en traction, compression, flexion, torsion et cisaillement. Une rafale ou une action brutale aux commandes augmente les efforts. La masse, la vitesse et le facteur de charge interagissent : rester sous une vitesse limite ne permet pas toutes les manœuvres. Sur les composites, un choc peut provoquer des dommages internes difficiles à voir.",
+      "content_en": "In flight, the structure is subjected to tension, compression, bending, torsion and shear. A gust or abrupt control input increases the loads. Mass, speed and load factor interact: remaining below a speed limit does not permit every manoeuvre. An impact on a composite component may cause internal damage that is difficult to see.",
+      "difficulty": "beginner",
+      "tags": [
+        "structure",
+        "fuselage",
+        "wings",
+        "empennage",
+        "basic"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Comprendre les efforts"
+    },
+    {
+      "concept_id": "PPL_AC_001_C03",
+      "title": "Exemple et vérification",
+      "title_en": "Example and inspection",
+      "content": "Lors de la visite prévol, une fissure apparaît près d'une fixation de hauban. Comparer son aspect avec un autre avion ne suffit pas à conclure. Faire examiner l'anomalie selon l'organisation de maintenance avant de voler. Retenir la distinction entre observation du pilote et diagnostic technique : le contrôle extérieur recherche aussi les fixations manquantes, les fuites et la liberté des gouvernes.",
+      "content_en": "During the preflight inspection, a crack appears near a strut attachment. Comparing its appearance with another aircraft is not enough to reach a conclusion. Have the anomaly assessed through the maintenance organisation before flying. Distinguish the pilot's observations from a technical diagnosis: external inspection also looks for missing fasteners, leaks and freedom of control movement.",
+      "difficulty": "beginner",
+      "tags": [
+        "structure",
+        "fuselage",
+        "wings",
+        "empennage",
+        "basic"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Exemple et vérification"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AC_001_C01",
+      "concept_title": "Reconnaître les éléments porteurs",
+      "level": 1,
+      "question": "Quel élément reprend notamment la flexion de l'aile ?",
+      "question_en": "Which component carries, among other loads, wing bending?",
+      "options": [
+        "La prise statique",
+        "Le longeron",
+        "Le microphone",
+        "La boussole"
+      ],
+      "correct_answer": "Le longeron",
+      "explanation": "Le longeron fait partie de la structure résistante de l'aile.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "The spar is part of the wing's load-bearing structure.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "structure",
+        "fuselage",
+        "wings",
+        "empennage",
+        "basic",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "The static port",
+        "The spar",
+        "The microphone",
+        "The compass"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C02",
+      "concept_title": "Comprendre les efforts",
+      "level": 1,
+      "question": "Un choc sur une pièce composite peut-il créer un dommage peu visible ?",
+      "question_en": "Can an impact on a composite component cause damage that is not easily visible?",
+      "options": [
+        "Oui, un dommage interne est possible",
+        "Non, tout dommage est visible",
+        "Seulement sur le train",
+        "Uniquement moteur arrêté"
+      ],
+      "correct_answer": "Oui, un dommage interne est possible",
+      "explanation": "La surface peut masquer une délamination interne.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "The surface can conceal internal delamination.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "structure",
+        "fuselage",
+        "wings",
+        "empennage",
+        "basic",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Yes, internal damage is possible",
+        "No, all damage is visible",
+        "Only on the landing gear",
+        "Only with the engine stopped"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C03",
+      "concept_title": "Exemple et vérification",
+      "level": 1,
+      "question": "Que faire devant une fissure inhabituelle avant le vol ?",
+      "question_en": "What should you do about an unusual crack found before flight?",
+      "options": [
+        "Décoller pour tester",
+        "La masquer",
+        "Augmenter la vitesse",
+        "Faire évaluer l'anomalie avant de voler"
+      ],
+      "correct_answer": "Faire évaluer l'anomalie avant de voler",
+      "explanation": "Une anomalie structurale exige une évaluation adaptée.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "A structural anomaly requires an appropriate assessment.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "structure",
+        "fuselage",
+        "wings",
+        "empennage",
+        "basic",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Take off to test it",
+        "Cover it up",
+        "Increase speed",
+        "Have the anomaly assessed before flying"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C01",
+      "concept_title": "Reconnaître les éléments porteurs",
+      "level": 2,
+      "question": "Pourquoi un revêtement d'aile abîmé n'est-il pas nécessairement un défaut esthétique ?",
+      "question_en": "Why is damaged wing skin not necessarily just cosmetic?",
+      "options": [
+        "Il remplace toujours tous les longerons",
+        "Il n'est sollicité qu'au sol",
+        "Il peut participer à la reprise des charges",
+        "Il ne sert qu'à fixer la peinture"
+      ],
+      "correct_answer": "Il peut participer à la reprise des charges",
+      "explanation": "Selon la construction, le revêtement contribue à la résistance de l'ensemble. Le pilote ne peut donc pas conclure à l'absence de conséquence structurale sur le seul aspect extérieur.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "Depending on the construction, the skin contributes to structural strength. Its external appearance alone does not allow the pilot to rule out structural consequences.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "structure",
+        "fuselage",
+        "wings",
+        "empennage",
+        "basic",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "It always replaces all the spars",
+        "It carries loads only on the ground",
+        "It may carry structural loads",
+        "It only supports the paint"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C02",
+      "concept_title": "Comprendre les efforts",
+      "level": 2,
+      "question": "Quel événement peut augmenter les efforts appliqués à la structure en vol ?",
+      "question_en": "Which event can increase structural loads in flight?",
+      "options": [
+        "La mise à jour d'un log de navigation",
+        "Une rafale ou une action brusque aux commandes",
+        "La seule consultation d'une fréquence radio",
+        "Un changement de destination dans le GPS"
+      ],
+      "correct_answer": "Une rafale ou une action brusque aux commandes",
+      "explanation": "Les rafales et manœuvres modifient les charges aérodynamiques. Vitesse, masse et facteur de charge doivent être considérés ensemble dans le respect des limitations.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "Gusts and manoeuvres change aerodynamic loads. Speed, mass and load factor must be considered together while observing the limitations.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "structure",
+        "fuselage",
+        "wings",
+        "empennage",
+        "basic",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Updating a navigation log",
+        "A gust or abrupt control input",
+        "Simply looking up a radio frequency",
+        "Changing the GPS destination"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C01",
+      "concept_title": "Reconnaître les éléments porteurs",
+      "level": 2,
+      "question": "Vrai ou faux ? Le fuselage accueille les occupants et les équipements.",
+      "question_en": "True or false? The fuselage houses occupants and equipment.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe fuselage accueille occupants et équipements. Les ailes produisent l'essentiel de la portance ; l'empennage contribue à la stabilité et au contrôle. Le train permet les déplacements au sol et absorbe les efforts d'atterrissage. Une aile comporte des longerons, des nervures et un revêtement : selon la construction, le revêtement participe lui aussi à la reprise des charges. Une peau extérieure endommagée n'est donc pas nécessairement un défaut esthétique.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe fuselage houses occupants and equipment. The wings produce most of the lift; the tail contributes to stability and control. The landing gear supports ground movement and absorbs landing loads. A wing contains spars, ribs and skin: depending on its construction, the skin also carries loads. Damaged outer skin is therefore not necessarily just a cosmetic defect.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C01",
+      "concept_title": "Reconnaître les éléments porteurs",
+      "level": 2,
+      "question": "Vrai ou faux ? L'empennage sert uniquement à soutenir l'avion au sol.",
+      "question_en": "True or false? The tail serves only to support the aircraft on the ground.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe fuselage accueille occupants et équipements. Les ailes produisent l'essentiel de la portance ; l'empennage contribue à la stabilité et au contrôle. Le train permet les déplacements au sol et absorbe les efforts d'atterrissage. Une aile comporte des longerons, des nervures et un revêtement : selon la construction, le revêtement participe lui aussi à la reprise des charges. Une peau extérieure endommagée n'est donc pas nécessairement un défaut esthétique.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "This statement is false.\n\nThe fuselage houses occupants and equipment. The wings produce most of the lift; the tail contributes to stability and control. The landing gear supports ground movement and absorbs landing loads. A wing contains spars, ribs and skin: depending on its construction, the skin also carries loads. Damaged outer skin is therefore not necessarily just a cosmetic defect.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C01",
+      "concept_title": "Reconnaître les éléments porteurs",
+      "level": 2,
+      "question": "Vrai ou faux ? Les nervures font partie de la structure d'une aile.",
+      "question_en": "True or false? Ribs are part of a wing's structure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe fuselage accueille occupants et équipements. Les ailes produisent l'essentiel de la portance ; l'empennage contribue à la stabilité et au contrôle. Le train permet les déplacements au sol et absorbe les efforts d'atterrissage. Une aile comporte des longerons, des nervures et un revêtement : selon la construction, le revêtement participe lui aussi à la reprise des charges. Une peau extérieure endommagée n'est donc pas nécessairement un défaut esthétique.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe fuselage houses occupants and equipment. The wings produce most of the lift; the tail contributes to stability and control. The landing gear supports ground movement and absorbs landing loads. A wing contains spars, ribs and skin: depending on its construction, the skin also carries loads. Damaged outer skin is therefore not necessarily just a cosmetic defect.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C01",
+      "concept_title": "Reconnaître les éléments porteurs",
+      "level": 2,
+      "question": "Vrai ou faux ? Le train d'atterrissage ne subit aucune charge à la prise de contact.",
+      "question_en": "True or false? Landing gear carries no load at touchdown.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe fuselage accueille occupants et équipements. Les ailes produisent l'essentiel de la portance ; l'empennage contribue à la stabilité et au contrôle. Le train permet les déplacements au sol et absorbe les efforts d'atterrissage. Une aile comporte des longerons, des nervures et un revêtement : selon la construction, le revêtement participe lui aussi à la reprise des charges. Une peau extérieure endommagée n'est donc pas nécessairement un défaut esthétique.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "This statement is false.\n\nThe fuselage houses occupants and equipment. The wings produce most of the lift; the tail contributes to stability and control. The landing gear supports ground movement and absorbs landing loads. A wing contains spars, ribs and skin: depending on its construction, the skin also carries loads. Damaged outer skin is therefore not necessarily just a cosmetic defect.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C02",
+      "concept_title": "Comprendre les efforts",
+      "level": 2,
+      "question": "Vrai ou faux ? La torsion est une sollicitation que peut subir la structure en vol.",
+      "question_en": "True or false? Torsion is a load the structure can experience in flight.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nEn vol, les charges sollicitent la structure en traction, compression, flexion, torsion et cisaillement. Une rafale ou une action brutale aux commandes augmente les efforts. La masse, la vitesse et le facteur de charge interagissent : rester sous une vitesse limite ne permet pas toutes les manœuvres. Sur les composites, un choc peut provoquer des dommages internes difficiles à voir.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "This statement is true.\n\nIn flight, the structure is subjected to tension, compression, bending, torsion and shear. A gust or abrupt control input increases the loads. Mass, speed and load factor interact: remaining below a speed limit does not permit every manoeuvre. An impact on a composite component may cause internal damage that is difficult to see.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C02",
+      "concept_title": "Comprendre les efforts",
+      "level": 2,
+      "question": "Vrai ou faux ? La masse n'a aucune influence sur les sollicitations de la structure.",
+      "question_en": "True or false? Mass has no influence on structural loads.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nEn vol, les charges sollicitent la structure en traction, compression, flexion, torsion et cisaillement. Une rafale ou une action brutale aux commandes augmente les efforts. La masse, la vitesse et le facteur de charge interagissent : rester sous une vitesse limite ne permet pas toutes les manœuvres. Sur les composites, un choc peut provoquer des dommages internes difficiles à voir.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "This statement is false.\n\nIn flight, the structure is subjected to tension, compression, bending, torsion and shear. A gust or abrupt control input increases the loads. Mass, speed and load factor interact: remaining below a speed limit does not permit every manoeuvre. An impact on a composite component may cause internal damage that is difficult to see.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C02",
+      "concept_title": "Comprendre les efforts",
+      "level": 2,
+      "question": "Vrai ou faux ? Respecter une vitesse limite autorise toute combinaison de manœuvres.",
+      "question_en": "True or false? Staying below a speed limit permits any combination of manoeuvres.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nEn vol, les charges sollicitent la structure en traction, compression, flexion, torsion et cisaillement. Une rafale ou une action brutale aux commandes augmente les efforts. La masse, la vitesse et le facteur de charge interagissent : rester sous une vitesse limite ne permet pas toutes les manœuvres. Sur les composites, un choc peut provoquer des dommages internes difficiles à voir.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "This statement is false.\n\nIn flight, the structure is subjected to tension, compression, bending, torsion and shear. A gust or abrupt control input increases the loads. Mass, speed and load factor interact: remaining below a speed limit does not permit every manoeuvre. An impact on a composite component may cause internal damage that is difficult to see.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C03",
+      "concept_title": "Exemple et vérification",
+      "level": 2,
+      "question": "Vrai ou faux ? La visite extérieure recherche aussi des fixations manquantes.",
+      "question_en": "True or false? The external inspection also checks for missing fasteners.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLors de la visite prévol, une fissure apparaît près d'une fixation de hauban. Comparer son aspect avec un autre avion ne suffit pas à conclure. Faire examiner l'anomalie selon l'organisation de maintenance avant de voler. Retenir la distinction entre observation du pilote et diagnostic technique : le contrôle extérieur recherche aussi les fixations manquantes, les fuites et la liberté des gouvernes.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "This statement is true.\n\nDuring the preflight inspection, a crack appears near a strut attachment. Comparing its appearance with another aircraft is not enough to reach a conclusion. Have the anomaly assessed through the maintenance organisation before flying. Distinguish the pilot's observations from a technical diagnosis: external inspection also looks for missing fasteners, leaks and freedom of control movement.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C03",
+      "concept_title": "Exemple et vérification",
+      "level": 2,
+      "question": "Vrai ou faux ? Comparer une fissure à celle d'un autre avion remplace un diagnostic technique.",
+      "question_en": "True or false? Comparing a crack with one on another aircraft replaces a technical diagnosis.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLors de la visite prévol, une fissure apparaît près d'une fixation de hauban. Comparer son aspect avec un autre avion ne suffit pas à conclure. Faire examiner l'anomalie selon l'organisation de maintenance avant de voler. Retenir la distinction entre observation du pilote et diagnostic technique : le contrôle extérieur recherche aussi les fixations manquantes, les fuites et la liberté des gouvernes.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "This statement is false.\n\nDuring the preflight inspection, a crack appears near a strut attachment. Comparing its appearance with another aircraft is not enough to reach a conclusion. Have the anomaly assessed through the maintenance organisation before flying. Distinguish the pilot's observations from a technical diagnosis: external inspection also looks for missing fasteners, leaks and freedom of control movement.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_001_C03",
+      "concept_title": "Exemple et vérification",
+      "level": 2,
+      "question": "Vrai ou faux ? La liberté de mouvement des commandes se vérifie pendant l'inspection appropriée.",
+      "question_en": "True or false? Freedom of control movement is checked during the appropriate inspection.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLors de la visite prévol, une fissure apparaît près d'une fixation de hauban. Comparer son aspect avec un autre avion ne suffit pas à conclure. Faire examiner l'anomalie selon l'organisation de maintenance avant de voler. Retenir la distinction entre observation du pilote et diagnostic technique : le contrôle extérieur recherche aussi les fixations manquantes, les fuites et la liberté des gouvernes.\n\n![Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage.](/illustrations/ppl-ac-001.svg)",
+      "explanation_en": "This statement is true.\n\nDuring the preflight inspection, a crack appears near a strut attachment. Comparing its appearance with another aircraft is not enough to reach a conclusion. Have the anomaly assessed through the maintenance organisation before flying. Distinguish the pilot's observations from a technical diagnosis: external inspection also looks for missing fasteners, leaks and freedom of control movement.\n\n![Diagram: Aircraft Structure](/illustrations/en/ppl-ac-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    }
+  ]
 }

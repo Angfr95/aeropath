@@ -15,24 +15,26 @@ import (
 // QuestionRepo implémente domain.QuestionRepository avec PostgreSQL.
 //
 // 📖 DDIA Chapitre 3 : "Storage and Retrieval"
-//    Les questions sont stockées dans une table PostgreSQL avec des index.
-//    Les index accélèrent les recherches fréquentes :
-//    - Index sur (license, category) pour "questions PPL de météo"
-//    - Index sur (theme) pour "toutes les questions de navigation"
-//    - Index sur (difficulty) pour "questions niveau 3"
 //
-//    Sans index, PostgreSQL ferait un "full table scan" (lire TOUTE la table).
-//    Avec 10 000 questions, un full scan prend ~50ms.
-//    Avec un index, la même requête prend ~0.1ms.
+//	Les questions sont stockées dans une table PostgreSQL avec des index.
+//	Les index accélèrent les recherches fréquentes :
+//	- Index sur (license, category) pour "questions PPL de météo"
+//	- Index sur (theme) pour "toutes les questions de navigation"
+//	- Index sur (difficulty) pour "questions niveau 3"
+//
+//	Sans index, PostgreSQL ferait un "full table scan" (lire TOUTE la table).
+//	Avec 10 000 questions, un full scan prend ~50ms.
+//	Avec un index, la même requête prend ~0.1ms.
 //
 // 📖 DDIA Chapitre 4 : "Encoding and Evolution"
-//    Les options sont stockées en JSON dans PostgreSQL.
-//    Pourquoi pas une table séparée "options" ?
-//    - Les options n'ont pas besoin d'être requêtées individuellement
-//    - On les charge toujours avec la question
-//    - C'est plus simple et plus rapide (pas de JOIN)
-//    C'est le principe de "schemaless" : on utilise JSON pour
-//    les données qui n'ont pas besoin d'être filtrées.
+//
+//	Les options sont stockées en JSON dans PostgreSQL.
+//	Pourquoi pas une table séparée "options" ?
+//	- Les options n'ont pas besoin d'être requêtées individuellement
+//	- On les charge toujours avec la question
+//	- C'est plus simple et plus rapide (pas de JOIN)
+//	C'est le principe de "schemaless" : on utilise JSON pour
+//	les données qui n'ont pas besoin d'être filtrées.
 type QuestionRepo struct {
 	pool *pgxpool.Pool
 }
@@ -41,18 +43,21 @@ func NewQuestionRepo(pool *pgxpool.Pool) *QuestionRepo {
 	return &QuestionRepo{pool: pool}
 }
 
-const questionColumns = `id, lesson_id, license, category, theme, subtopic, difficulty, question_fr, question_en, options, answer_key, explanation_fr, explanation_en, created_at`
+const questionColumns = `id, lesson_id, license, category, theme, subtopic, difficulty, question_fr, question_en, options, answer_key, explanation_fr, explanation_en, created_at, options_en, question_es, explanation_es, options_es, COALESCE(tags, '[]'::jsonb)`
 
 func scanQuestion(scanner interface {
 	Scan(dest ...interface{}) error
 }) (*domain.Question, error) {
 	q := &domain.Question{}
 	var optionsJSON []byte
+	var optionsEnJSON []byte
+	var optionsEsJSON []byte
+	var tagsJSON []byte
 	var lessonID *string
 	err := scanner.Scan(&q.ID, &lessonID, &q.License, &q.Category,
 		&q.Theme, &q.Subtopic, &q.Difficulty,
 		&q.QuestionFr, &q.QuestionEn, &optionsJSON, &q.AnswerKey,
-		&q.ExplanationFr, &q.ExplanationEn, &q.CreatedAt)
+		&q.ExplanationFr, &q.ExplanationEn, &q.CreatedAt, &optionsEnJSON, &q.QuestionEs, &q.ExplanationEs, &optionsEsJSON, &tagsJSON)
 	if err != nil {
 		return nil, err
 	}
@@ -62,9 +67,18 @@ func scanQuestion(scanner interface {
 	if err := json.Unmarshal(optionsJSON, &q.Options); err != nil {
 		return nil, fmt.Errorf("unmarshal options: %w", err)
 	}
+	if err := json.Unmarshal(optionsEnJSON, &q.OptionsEn); err != nil {
+		return nil, fmt.Errorf("unmarshal English options: %w", err)
+	}
+	if err := json.Unmarshal(optionsEsJSON, &q.OptionsEs); err != nil {
+		return nil, fmt.Errorf("unmarshal Spanish options: %w", err)
+	}
+
+	if err := json.Unmarshal(tagsJSON, &q.Tags); err != nil {
+		return nil, fmt.Errorf("unmarshal question tags: %w", err)
+	}
 	return q, nil
 }
-
 
 func (r *QuestionRepo) Create(q *domain.Question) error {
 	optionsJSON, err := json.Marshal(q.Options)
@@ -72,9 +86,21 @@ func (r *QuestionRepo) Create(q *domain.Question) error {
 		return fmt.Errorf("marshal options: %w", err)
 	}
 
+	optionsEnJSON, err := json.Marshal(q.OptionsEn)
+	if err != nil {
+		return fmt.Errorf("marshal English options: %w", err)
+	}
+	if q.OptionsEn == nil {
+		optionsEnJSON = []byte("[]")
+	}
+
+	optionsEsJSON, _ := json.Marshal(q.OptionsEs)
+	if q.OptionsEs == nil {
+		optionsEsJSON = []byte("[]")
+	}
 	query := `
-		INSERT INTO questions (lesson_id, license, category, theme, subtopic, difficulty, question_fr, question_en, options, answer_key, explanation_fr, explanation_en)
-		VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
+		INSERT INTO questions (lesson_id, license, category, theme, subtopic, difficulty, question_fr, question_en, options, answer_key, explanation_fr, explanation_en, options_en, question_es, explanation_es, options_es)
+		VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16)
 		RETURNING id, created_at`
 
 	lessonID := &q.LessonID
@@ -87,10 +113,9 @@ func (r *QuestionRepo) Create(q *domain.Question) error {
 		q.Theme, q.Subtopic, q.Difficulty,
 		q.QuestionFr, q.QuestionEn,
 		optionsJSON, q.AnswerKey,
-		q.ExplanationFr, q.ExplanationEn,
+		q.ExplanationFr, q.ExplanationEn, optionsEnJSON, q.QuestionEs, q.ExplanationEs, optionsEsJSON,
 	).Scan(&q.ID, &q.CreatedAt)
 }
-
 
 func (r *QuestionRepo) FindByID(id string) (*domain.Question, error) {
 	query := fmt.Sprintf(`SELECT %s FROM questions WHERE id = $1`, questionColumns)
@@ -171,21 +196,33 @@ func (r *QuestionRepo) Update(q *domain.Question) error {
 		lessonID = nil
 	}
 
+	optionsEnJSON, err := json.Marshal(q.OptionsEn)
+	if err != nil {
+		return fmt.Errorf("marshal English options: %w", err)
+	}
+	if q.OptionsEn == nil {
+		optionsEnJSON = []byte("[]")
+	}
+
+	optionsEsJSON, _ := json.Marshal(q.OptionsEs)
+	if q.OptionsEs == nil {
+		optionsEsJSON = []byte("[]")
+	}
 	query := `
 		UPDATE questions SET
 			lesson_id = $1, license = $2, category = $3,
 			theme = $4, subtopic = $5, difficulty = $6,
 			question_fr = $7, question_en = $8,
 			options = $9, answer_key = $10,
-			explanation_fr = $11, explanation_en = $12
-		WHERE id = $13`
+			explanation_fr = $11, explanation_en = $12, options_en = $13, question_es = $14, explanation_es = $15, options_es = $16
+		WHERE id = $17`
 
 	tag, err := r.pool.Exec(context.Background(), query,
 		lessonID, q.License, q.Category,
 		q.Theme, q.Subtopic, q.Difficulty,
 		q.QuestionFr, q.QuestionEn,
 		optionsJSON, q.AnswerKey,
-		q.ExplanationFr, q.ExplanationEn,
+		q.ExplanationFr, q.ExplanationEn, optionsEnJSON, q.QuestionEs, q.ExplanationEs, optionsEsJSON,
 		q.ID,
 	)
 	if err != nil {
@@ -217,11 +254,12 @@ func (r *QuestionRepo) Count() (int, error) {
 // FindRandom retourne des questions aléatoires avec filtres optionnels.
 //
 // 📖 DDIA Chapitre 1 : "Scalability"
-//    ORDER BY RANDOM() est lent sur de grandes tables car PostgreSQL
-//    doit charger TOUTES les lignes pour les mélanger.
-//    Pour 10 000 questions, ça reste acceptable (< 100ms).
-//    Pour 1 million de questions, il faudrait une autre approche
-//    (ex: sélectionner un ID aléatoire avec un index).
+//
+//	ORDER BY RANDOM() est lent sur de grandes tables car PostgreSQL
+//	doit charger TOUTES les lignes pour les mélanger.
+//	Pour 10 000 questions, ça reste acceptable (< 100ms).
+//	Pour 1 million de questions, il faudrait une autre approche
+//	(ex: sélectionner un ID aléatoire avec un index).
 func (r *QuestionRepo) FindRandom(limit int, license *domain.License, category *domain.Category, theme *string) ([]*domain.Question, error) {
 	query := fmt.Sprintf(`SELECT %s FROM questions WHERE 1=1`, questionColumns)
 	var args []interface{}
@@ -255,17 +293,18 @@ func (r *QuestionRepo) FindRandom(limit int, license *domain.License, category *
 // Search cherche des questions par texte libre.
 //
 // 📖 DDIA Chapitre 3 : "Storage and Retrieval"
-//    On utilise la recherche full-text PostgreSQL (to_tsvector).
-//    C'est plus intelligent qu'un simple LIKE :
-//    - to_tsvector('french', question_fr) crée un index de mots
-//    - plainto_tsquery($1) normalise la recherche
-//    - @@ fait la correspondance
 //
-//    Exemple : chercher "altimètre" trouve aussi "altimètres"
-//    (grâce à la normalisation morphologique).
+//	On utilise la recherche full-text PostgreSQL (to_tsvector).
+//	C'est plus intelligent qu'un simple LIKE :
+//	- to_tsvector('french', question_fr) crée un index de mots
+//	- plainto_tsquery($1) normalise la recherche
+//	- @@ fait la correspondance
 //
-//    On combine avec ILIKE pour les cas où la recherche
-//    full-text ne suffit pas (mots partiels, codes, etc.).
+//	Exemple : chercher "altimètre" trouve aussi "altimètres"
+//	(grâce à la normalisation morphologique).
+//
+//	On combine avec ILIKE pour les cas où la recherche
+//	full-text ne suffit pas (mots partiels, codes, etc.).
 func (r *QuestionRepo) Search(query string) ([]*domain.Question, error) {
 	sqlQuery := fmt.Sprintf(`SELECT %s FROM questions WHERE
 		to_tsvector('french', COALESCE(question_fr, '')) || to_tsvector('english', COALESCE(question_en, '')) @@ plainto_tsquery($1)

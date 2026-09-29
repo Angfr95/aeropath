@@ -73,7 +73,11 @@ func main() {
 	r.POST("/auth/logout", httptransport.LogoutHandler(authSvc))
 
 	// Routes protégées (nécessitent un JWT valide)
+	public := r.Group("/api")
+	practice := r.Group("/api", middleware.OptionalAuth(os.Getenv("JWT_SECRET")))
 	protected := r.Group("/api", middleware.RequireAuth(os.Getenv("JWT_SECRET")))
+	adminOnly := middleware.RequireAdmin(studentRepo)
+	ownerOrAdmin := middleware.RequireOwnerOrAdmin(studentRepo)
 	{
 		// Profil
 		protected.GET("/me", func(c *gin.Context) {
@@ -87,36 +91,39 @@ func main() {
 		protected.PATCH("/me/lang", httptransport.UpdateLangHandler(authSvc))
 
 		// Étudiants (admin)
-		protected.GET("/students", httptransport.ListStudentsHandler(studentRepo))
-		protected.GET("/students/count", httptransport.StudentCountHandler(studentRepo))
-		protected.GET("/students/:id", httptransport.GetStudentHandler(studentRepo))
+		protected.GET("/students", adminOnly, httptransport.ListStudentsHandler(studentRepo))
+		protected.GET("/students/count", adminOnly, httptransport.StudentCountHandler(studentRepo))
+		protected.GET("/students/:id", ownerOrAdmin, httptransport.GetStudentHandler(studentRepo))
 		protected.PUT("/students/:id", httptransport.UpdateStudentHandler(studentRepo))
-		protected.DELETE("/students/:id", httptransport.DeleteStudentHandler(studentRepo))
+		protected.DELETE("/students/:id", ownerOrAdmin, httptransport.DeleteStudentHandler(studentRepo))
 
 		// Leçons
-		protected.GET("/lessons", httptransport.ListLessonsHandler(lessonRepo))
-		protected.GET("/lessons/count", httptransport.LessonCountHandler(lessonRepo))
-		protected.GET("/lessons/count/by-license/:license", httptransport.LessonCountByLicenseHandler(lessonRepo))
-		protected.GET("/lessons/count/by-category/:category", httptransport.LessonCountByCategoryHandler(lessonRepo))
-		protected.GET("/lessons/theme/:theme", httptransport.ListLessonsByThemeHandler(lessonRepo))
-		protected.GET("/lessons/license/:license", httptransport.ListLessonsByLicenseHandler(lessonRepo))
-		protected.GET("/lessons/category/:category", httptransport.ListLessonsByCategoryHandler(lessonRepo))
-		protected.GET("/lessons/by-license/:license/category/:category", httptransport.ListLessonsByLicenseAndCategoryHandler(lessonRepo))
-		protected.GET("/lessons/by-difficulty/:level", httptransport.ListLessonsByDifficultyHandler(lessonRepo))
-		protected.GET("/lessons/:id", httptransport.GetLessonHandler(lessonRepo))
-		protected.POST("/lessons", httptransport.CreateLessonHandler(lessonRepo))
-		protected.PUT("/lessons/:id", httptransport.UpdateLessonHandler(lessonRepo))
-		protected.DELETE("/lessons/:id", httptransport.DeleteLessonHandler(lessonRepo))
+		public.GET("/lessons", httptransport.ListLessonsHandler(lessonRepo))
+		public.GET("/lessons/count", httptransport.LessonCountHandler(lessonRepo))
+		public.GET("/lessons/count/by-license/:license", httptransport.LessonCountByLicenseHandler(lessonRepo))
+		public.GET("/lessons/count/by-category/:category", httptransport.LessonCountByCategoryHandler(lessonRepo))
+		public.GET("/lessons/theme/:theme", httptransport.ListLessonsByThemeHandler(lessonRepo))
+		public.GET("/lessons/license/:license", httptransport.ListLessonsByLicenseHandler(lessonRepo))
+		public.GET("/lessons/category/:category", httptransport.ListLessonsByCategoryHandler(lessonRepo))
+		public.GET("/lessons/by-license/:license/category/:category", httptransport.ListLessonsByLicenseAndCategoryHandler(lessonRepo))
+		public.GET("/lessons/by-difficulty/:level", httptransport.ListLessonsByDifficultyHandler(lessonRepo))
+		public.GET("/lessons/:id", httptransport.GetLessonHandler(lessonRepo))
+		protected.POST("/lessons", adminOnly, httptransport.CreateLessonHandler(lessonRepo))
+		protected.PUT("/lessons/:id", adminOnly, httptransport.UpdateLessonHandler(lessonRepo))
+		protected.DELETE("/lessons/:id", adminOnly, httptransport.DeleteLessonHandler(lessonRepo))
 
 		// Quiz de leçon (3 questions pour vérifier la compréhension)
-		protected.GET("/lessons/:id/quiz", httptransport.LessonQuizHandler(engine))
+		public.GET("/lessons/:id/quiz", httptransport.LessonQuizHandler(engine))
 
-		// Examen de thème (10 questions)
-		protected.GET("/exam/:theme", httptransport.StartExamHandler(engine))
-		protected.POST("/exam/submit", httptransport.SubmitExamHandler(engine, historyRepo, questionRepo))
+		public.GET("/ppl/exam-papers", httptransport.PPLExamPapersHandler())
+		public.GET("/ppl/exam-papers/:subject", httptransport.PPLExamHandler(engine))
+
+		// Quiz de révision par thème
+		practice.GET("/exam/:theme", httptransport.StartExamHandler(engine))
+		practice.POST("/exam/submit", httptransport.SubmitExamHandler(engine, historyRepo, questionRepo))
 
 		// Examen par licence et catégorie
-		protected.GET("/exam/license/:license/category/:category", func(c *gin.Context) {
+		public.GET("/exam/license/:license/category/:category", func(c *gin.Context) {
 			license := domain.License(c.Param("license"))
 			category := domain.Category(c.Param("category"))
 			questions, err := engine.ExamByLicenseAndCategory(license, category, learning.ExamSize)
@@ -135,6 +142,9 @@ func main() {
 					"question_fr": q.QuestionFr,
 					"question_en": q.QuestionEn,
 					"options":     q.Options,
+					"options_en":  q.OptionsEn,
+					"options_es":  q.OptionsEs,
+					"question_es": q.QuestionEs,
 				})
 			}
 			c.JSON(http.StatusOK, gin.H{
@@ -146,24 +156,24 @@ func main() {
 		})
 
 		// Questions
-		protected.GET("/questions", httptransport.ListQuestionsHandler(questionRepo))
-		protected.GET("/questions/count", httptransport.QuestionCountHandler(questionRepo))
-		protected.GET("/questions/count/by-license/:license", httptransport.QuestionCountByLicenseHandler(questionRepo))
-		protected.GET("/questions/count/by-category/:category", httptransport.QuestionCountByCategoryHandler(questionRepo))
-		protected.GET("/questions/count/by-theme/:theme", httptransport.QuestionCountByThemeHandler(questionRepo))
-		protected.GET("/questions/by-license/:license", httptransport.QuestionsByLicenseHandler(questionRepo))
-		protected.GET("/questions/by-category/:category", httptransport.QuestionsByCategoryHandler(questionRepo))
-		protected.GET("/questions/by-theme/:theme", httptransport.QuestionsByThemeHandler(questionRepo))
-		protected.GET("/questions/by-license/:license/category/:category", httptransport.QuestionsByLicenseAndCategoryHandler(questionRepo))
-		protected.GET("/questions/by-difficulty/:level", httptransport.QuestionsByDifficultyHandler(questionRepo))
-		protected.GET("/questions/by-subtopic/:subtopic", httptransport.QuestionsBySubtopicHandler(questionRepo))
-		protected.GET("/questions/random", httptransport.RandomQuestionHandler(questionRepo))
-		protected.GET("/questions/search", httptransport.SearchQuestionsHandler(questionRepo))
-		protected.GET("/questions/:id", httptransport.GetQuestionHandler(questionRepo))
-		protected.POST("/questions", httptransport.CreateQuestionHandler(questionRepo))
-		protected.PUT("/questions/:id", httptransport.UpdateQuestionHandler(questionRepo))
-		protected.DELETE("/questions/:id", httptransport.DeleteQuestionHandler(questionRepo))
-		protected.POST("/questions/answer", httptransport.AnswerQuestionHandler(engine, historyRepo, questionRepo))
+		public.GET("/questions", httptransport.ListQuestionsHandler(questionRepo))
+		public.GET("/questions/count", httptransport.QuestionCountHandler(questionRepo))
+		public.GET("/questions/count/by-license/:license", httptransport.QuestionCountByLicenseHandler(questionRepo))
+		public.GET("/questions/count/by-category/:category", httptransport.QuestionCountByCategoryHandler(questionRepo))
+		public.GET("/questions/count/by-theme/:theme", httptransport.QuestionCountByThemeHandler(questionRepo))
+		public.GET("/questions/by-license/:license", httptransport.QuestionsByLicenseHandler(questionRepo))
+		public.GET("/questions/by-category/:category", httptransport.QuestionsByCategoryHandler(questionRepo))
+		public.GET("/questions/by-theme/:theme", httptransport.QuestionsByThemeHandler(questionRepo))
+		public.GET("/questions/by-license/:license/category/:category", httptransport.QuestionsByLicenseAndCategoryHandler(questionRepo))
+		public.GET("/questions/by-difficulty/:level", httptransport.QuestionsByDifficultyHandler(questionRepo))
+		public.GET("/questions/by-subtopic/:subtopic", httptransport.QuestionsBySubtopicHandler(questionRepo))
+		public.GET("/questions/random", httptransport.RandomQuestionHandler(questionRepo))
+		public.GET("/questions/search", httptransport.SearchQuestionsHandler(questionRepo))
+		public.GET("/questions/:id", httptransport.GetQuestionHandler(questionRepo))
+		protected.POST("/questions", adminOnly, httptransport.CreateQuestionHandler(questionRepo))
+		protected.PUT("/questions/:id", adminOnly, httptransport.UpdateQuestionHandler(questionRepo))
+		protected.DELETE("/questions/:id", adminOnly, httptransport.DeleteQuestionHandler(questionRepo))
+		practice.POST("/questions/answer", httptransport.AnswerQuestionHandler(engine, historyRepo, questionRepo))
 
 		// Historique
 		protected.GET("/history", httptransport.HistoryHandler(historyRepo, questionRepo))
@@ -172,7 +182,7 @@ func main() {
 		protected.GET("/stats", httptransport.StatsHandler(historyRepo))
 
 		// Administration
-		protected.GET("/admin/stats", httptransport.AdminStatsHandler(studentRepo, questionRepo, historyRepo))
+		protected.GET("/admin/stats", adminOnly, httptransport.AdminStatsHandler(studentRepo, questionRepo, historyRepo))
 
 		// Recommandations adaptatives
 		protected.GET("/recommendations", httptransport.RecommendationHandler(adaptiveEngine))

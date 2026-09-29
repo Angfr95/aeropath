@@ -5,13 +5,602 @@
     "subject": "Air Law",
     "chapter_title": "Services de la circulation aérienne (ATC)",
     "chapter_title_en": "Air Traffic Services (ATC)",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : trois fonctions à distinguer; identifier le service reçu; exemple d'échange.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: three different functions; identifying the service provided; an example exchange.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 30,
-    "prerequisites": ["PPL_AIRLAW_005"],
-    "tags": ["ATC", "ATS", "control", "approach", "area"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AIRLAW_005"
+    ],
+    "tags": [
+      "ATC",
+      "ATS",
+      "control",
+      "approach",
+      "area"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "EASA — SERA, règles de l’air",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "EASA — Aircrew, Part-FCL",
+        "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+      },
+      {
+        "title": "SIA — informations aéronautiques françaises",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-airlaw-008.svg",
+      "alt": "Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance."
+    },
+    "exam_subject": "airlaw",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_AIRLAW_008_C01",
+      "title": "Trois fonctions à distinguer",
+      "title_en": "Three different functions",
+      "content": "![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)\n\nLes services de circulation aérienne comprennent le contrôle, l'information de vol et l'alerte. Le contrôle délivre des clairances et assure les services prévus selon la classe d'espace et les règles de vol. L'information de vol apporte des renseignements utiles ; elle n'assure pas à elle seule toutes les séparations. Le service d'alerte participe à la mise en œuvre de l'assistance nécessaire.",
+      "content_en": "![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)\n\nAir traffic services include control, flight information and alerting. Control issues clearances and provides services appropriate to the airspace class and flight rules. Flight information offers useful information; it does not by itself provide all separation. The alerting service helps initiate the necessary assistance.",
+      "difficulty": "intermediate",
+      "tags": [
+        "ATC",
+        "ATS",
+        "control",
+        "approach",
+        "area"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Trois fonctions à distinguer"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C02",
+      "title": "Identifier le service reçu",
+      "title_en": "Identifying the service provided",
+      "content": "Une tour de contrôle, un organisme d'information et un service AFIS n'ont pas exactement les mêmes fonctions. Connaître le statut du terrain et les horaires évite de prendre une information pour une autorisation. Une information de trafic ne garantit pas l'absence d'autres aéronefs. Le pilote poursuit sa surveillance et respecte les règles d'intégration applicables.",
+      "content_en": "A control tower, a flight information unit and AFIS do not have exactly the same functions. Knowing the aerodrome's status and service hours prevents confusing information with permission. Traffic information does not guarantee that no other aircraft are present. The pilot continues lookout and follows the applicable joining procedures.",
+      "difficulty": "intermediate",
+      "tags": [
+        "ATC",
+        "ATS",
+        "control",
+        "approach",
+        "area"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Identifier le service reçu"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C03",
+      "title": "Exemple d'échange",
+      "title_en": "An example exchange",
+      "content": "Un organisme signale un trafic proche. Rechercher le trafic tout en conservant la trajectoire et répondre conformément à la phraséologie. Si l'information n'est pas comprise, demander précision. Avant d'entrer dans un espace exigeant une clairance, vérifier qu'une autorisation explicite a été reçue ; le fait d'être suivi par un service d'information ne remplace pas cette étape.",
+      "content_en": "A unit reports nearby traffic. Look for it while maintaining your flight path and respond using the appropriate phraseology. Ask for clarification if the information is not understood. Before entering airspace requiring a clearance, confirm that explicit authorisation has been received; receiving a flight information service does not replace this step.",
+      "difficulty": "intermediate",
+      "tags": [
+        "ATC",
+        "ATS",
+        "control",
+        "approach",
+        "area"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Exemple d'échange"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AIRLAW_008_C01",
+      "concept_title": "Trois fonctions à distinguer",
+      "level": 1,
+      "question": "L'information de vol équivaut-elle à une séparation de tous les trafics ?",
+      "question_en": "Does flight information provide separation from all traffic?",
+      "options": [
+        "Oui avec un code transpondeur",
+        "Oui sous 3 000 ft",
+        "Non",
+        "Oui"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Les services rendus dépendent du cadre applicable.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "The services provided depend on the applicable framework.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "ATC",
+        "ATS",
+        "control",
+        "approach",
+        "area",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes, with a transponder code",
+        "Yes, below 3,000 ft",
+        "No",
+        "Yes"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C02",
+      "concept_title": "Identifier le service reçu",
+      "level": 1,
+      "question": "Une tour et un AFIS ont-ils exactement les mêmes fonctions ?",
+      "question_en": "Do a control tower and AFIS have exactly the same functions?",
+      "options": [
+        "Oui sur piste revêtue",
+        "Non",
+        "Oui",
+        "Oui de jour"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Le statut du service détermine ses fonctions et les procédures.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "The service's status determines its functions and procedures.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "ATC",
+        "ATS",
+        "control",
+        "approach",
+        "area",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes, on a paved runway",
+        "No",
+        "Yes",
+        "Yes, by day"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C03",
+      "concept_title": "Exemple d'échange",
+      "level": 1,
+      "question": "Quel service contribue au déclenchement de l'assistance en cas de besoin ?",
+      "question_en": "Which service helps initiate assistance when needed?",
+      "options": [
+        "Le service d'alerte",
+        "Le service carburant",
+        "Le service bagages",
+        "Le service commercial"
+      ],
+      "correct_answer": "Le service d'alerte",
+      "explanation": "L'alerte fait partie des services de circulation aérienne.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "Alerting is one of the air traffic services.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "ATC",
+        "ATS",
+        "control",
+        "approach",
+        "area",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "The alerting service",
+        "The fuel service",
+        "The baggage service",
+        "The sales service"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C02",
+      "concept_title": "Identifier le service reçu",
+      "level": 2,
+      "question": "Un service vous signale un trafic, puis la fréquence reste silencieuse. Que pouvez-vous en conclure ?",
+      "question_en": "A service reports traffic, then the frequency remains silent. What can you conclude?",
+      "options": [
+        "Tous les autres trafics sont nécessairement séparés",
+        "L'espace est devenu réservé à votre avion",
+        "Vous avez reçu une autorisation implicite de traverser toute zone",
+        "La surveillance doit continuer : d'autres trafics peuvent exister"
+      ],
+      "correct_answer": "La surveillance doit continuer : d'autres trafics peuvent exister",
+      "explanation": "Une information de trafic ne constitue pas une liste exhaustive des aéronefs présents. Le pilote doit continuer sa surveillance et respecter les conditions d'accès aux espaces.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "A traffic report is not an exhaustive list of aircraft present. Continue lookout and comply with airspace entry conditions.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "ATC",
+        "ATS",
+        "control",
+        "approach",
+        "area",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "All other traffic is necessarily separated",
+        "The airspace is now reserved for your aircraft",
+        "You have implicit clearance to cross any area",
+        "Lookout must continue: other traffic may be present"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C02",
+      "concept_title": "Identifier le service reçu",
+      "level": 2,
+      "question": "Pourquoi vérifier les horaires du service d'un aérodrome ?",
+      "question_en": "Why check an aerodrome service's operating hours?",
+      "options": [
+        "Les règles de circulation cessent hors horaires",
+        "Une fréquence publiée garantit toujours un contrôleur présent",
+        "Le service effectivement disponible peut changer selon l'heure",
+        "La piste change nécessairement de longueur à la fermeture"
+      ],
+      "correct_answer": "Le service effectivement disponible peut changer selon l'heure",
+      "explanation": "Le statut et les horaires permettent d'identifier le service réellement fourni et les procédures applicables. La seule présence d'une fréquence sur la carte ne suffit pas.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "Status and operating hours identify the actual service and applicable procedures. A frequency shown on a chart is not enough.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "ATC",
+        "ATS",
+        "control",
+        "approach",
+        "area",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Traffic rules cease outside those hours",
+        "A published frequency always guarantees a controller is present",
+        "The service available may change with the time",
+        "The runway necessarily changes length when the service closes"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C01",
+      "concept_title": "Trois fonctions à distinguer",
+      "level": 2,
+      "question": "Vrai ou faux ? Contrôle, information de vol et alerte correspondent à des fonctions différentes.",
+      "question_en": "True or false? Control, flight information and alerting are different functions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes services de circulation aérienne comprennent le contrôle, l'information de vol et l'alerte. Le contrôle délivre des clairances et assure les services prévus selon la classe d'espace et les règles de vol. L'information de vol apporte des renseignements utiles ; elle n'assure pas à elle seule toutes les séparations. Le service d'alerte participe à la mise en œuvre de l'assistance nécessaire.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "This statement is true.\n\nAir traffic services include control, flight information and alerting. Control issues clearances and provides services appropriate to the airspace class and flight rules. Flight information offers useful information; it does not by itself provide all separation. The alerting service helps initiate the necessary assistance.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C01",
+      "concept_title": "Trois fonctions à distinguer",
+      "level": 2,
+      "question": "Vrai ou faux ? L'information de vol assure à elle seule toutes les séparations.",
+      "question_en": "True or false? Flight information alone provides every separation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes services de circulation aérienne comprennent le contrôle, l'information de vol et l'alerte. Le contrôle délivre des clairances et assure les services prévus selon la classe d'espace et les règles de vol. L'information de vol apporte des renseignements utiles ; elle n'assure pas à elle seule toutes les séparations. Le service d'alerte participe à la mise en œuvre de l'assistance nécessaire.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "This statement is false.\n\nAir traffic services include control, flight information and alerting. Control issues clearances and provides services appropriate to the airspace class and flight rules. Flight information offers useful information; it does not by itself provide all separation. The alerting service helps initiate the necessary assistance.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C01",
+      "concept_title": "Trois fonctions à distinguer",
+      "level": 2,
+      "question": "Vrai ou faux ? Les services rendus dépendent notamment de la classe d'espace.",
+      "question_en": "True or false? Services provided depend in part on airspace class.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes services de circulation aérienne comprennent le contrôle, l'information de vol et l'alerte. Le contrôle délivre des clairances et assure les services prévus selon la classe d'espace et les règles de vol. L'information de vol apporte des renseignements utiles ; elle n'assure pas à elle seule toutes les séparations. Le service d'alerte participe à la mise en œuvre de l'assistance nécessaire.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "This statement is true.\n\nAir traffic services include control, flight information and alerting. Control issues clearances and provides services appropriate to the airspace class and flight rules. Flight information offers useful information; it does not by itself provide all separation. The alerting service helps initiate the necessary assistance.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C02",
+      "concept_title": "Identifier le service reçu",
+      "level": 2,
+      "question": "Vrai ou faux ? La présence d'une fréquence publiée prouve la présence permanente d'un contrôleur.",
+      "question_en": "True or false? A published frequency proves a controller is always present.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne tour de contrôle, un organisme d'information et un service AFIS n'ont pas exactement les mêmes fonctions. Connaître le statut du terrain et les horaires évite de prendre une information pour une autorisation. Une information de trafic ne garantit pas l'absence d'autres aéronefs. Le pilote poursuit sa surveillance et respecte les règles d'intégration applicables.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "This statement is false.\n\nA control tower, a flight information unit and AFIS do not have exactly the same functions. Knowing the aerodrome's status and service hours prevents confusing information with permission. Traffic information does not guarantee that no other aircraft are present. The pilot continues lookout and follows the applicable joining procedures.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C02",
+      "concept_title": "Identifier le service reçu",
+      "level": 2,
+      "question": "Vrai ou faux ? Le statut du service doit être identifié pour comprendre la portée des messages.",
+      "question_en": "True or false? Service status must be identified to understand the scope of messages.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne tour de contrôle, un organisme d'information et un service AFIS n'ont pas exactement les mêmes fonctions. Connaître le statut du terrain et les horaires évite de prendre une information pour une autorisation. Une information de trafic ne garantit pas l'absence d'autres aéronefs. Le pilote poursuit sa surveillance et respecte les règles d'intégration applicables.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "This statement is true.\n\nA control tower, a flight information unit and AFIS do not have exactly the same functions. Knowing the aerodrome's status and service hours prevents confusing information with permission. Traffic information does not guarantee that no other aircraft are present. The pilot continues lookout and follows the applicable joining procedures.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C02",
+      "concept_title": "Identifier le service reçu",
+      "level": 2,
+      "question": "Vrai ou faux ? Une information peut toujours être assimilée à une permission.",
+      "question_en": "True or false? Information can always be treated as permission.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne tour de contrôle, un organisme d'information et un service AFIS n'ont pas exactement les mêmes fonctions. Connaître le statut du terrain et les horaires évite de prendre une information pour une autorisation. Une information de trafic ne garantit pas l'absence d'autres aéronefs. Le pilote poursuit sa surveillance et respecte les règles d'intégration applicables.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "This statement is false.\n\nA control tower, a flight information unit and AFIS do not have exactly the same functions. Knowing the aerodrome's status and service hours prevents confusing information with permission. Traffic information does not guarantee that no other aircraft are present. The pilot continues lookout and follows the applicable joining procedures.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C03",
+      "concept_title": "Exemple d'échange",
+      "level": 2,
+      "question": "Vrai ou faux ? Rechercher un trafic signalé doit se faire en conservant sa trajectoire.",
+      "question_en": "True or false? Searching for reported traffic must preserve the flight path.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn organisme signale un trafic proche. Rechercher le trafic tout en conservant la trajectoire et répondre conformément à la phraséologie. Si l'information n'est pas comprise, demander précision. Avant d'entrer dans un espace exigeant une clairance, vérifier qu'une autorisation explicite a été reçue ; le fait d'être suivi par un service d'information ne remplace pas cette étape.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "This statement is true.\n\nA unit reports nearby traffic. Look for it while maintaining your flight path and respond using the appropriate phraseology. Ask for clarification if the information is not understood. Before entering airspace requiring a clearance, confirm that explicit authorisation has been received; receiving a flight information service does not replace this step.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C03",
+      "concept_title": "Exemple d'échange",
+      "level": 2,
+      "question": "Vrai ou faux ? Une information incomprise ne doit jamais faire l'objet d'une demande de précision.",
+      "question_en": "True or false? Unclear information must never prompt a clarification request.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn organisme signale un trafic proche. Rechercher le trafic tout en conservant la trajectoire et répondre conformément à la phraséologie. Si l'information n'est pas comprise, demander précision. Avant d'entrer dans un espace exigeant une clairance, vérifier qu'une autorisation explicite a été reçue ; le fait d'être suivi par un service d'information ne remplace pas cette étape.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "This statement is false.\n\nA unit reports nearby traffic. Look for it while maintaining your flight path and respond using the appropriate phraseology. Ask for clarification if the information is not understood. Before entering airspace requiring a clearance, confirm that explicit authorisation has been received; receiving a flight information service does not replace this step.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C03",
+      "concept_title": "Exemple d'échange",
+      "level": 2,
+      "question": "Vrai ou faux ? Le pilote poursuit les procédures d'intégration applicables malgré l'assistance reçue.",
+      "question_en": "True or false? The pilot continues applicable joining procedures despite receiving assistance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn organisme signale un trafic proche. Rechercher le trafic tout en conservant la trajectoire et répondre conformément à la phraséologie. Si l'information n'est pas comprise, demander précision. Avant d'entrer dans un espace exigeant une clairance, vérifier qu'une autorisation explicite a été reçue ; le fait d'être suivi par un service d'information ne remplace pas cette étape.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "This statement is true.\n\nA unit reports nearby traffic. Look for it while maintaining your flight path and respond using the appropriate phraseology. Ask for clarification if the information is not understood. Before entering airspace requiring a clearance, confirm that explicit authorisation has been received; receiving a flight information service does not replace this step.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_008_C03",
+      "concept_title": "Exemple d'échange",
+      "level": 2,
+      "question": "Vrai ou faux ? Recevoir le service d'information remplace toute autorisation d'entrée nécessaire.",
+      "question_en": "True or false? Receiving flight information replaces any required entry clearance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn organisme signale un trafic proche. Rechercher le trafic tout en conservant la trajectoire et répondre conformément à la phraséologie. Si l'information n'est pas comprise, demander précision. Avant d'entrer dans un espace exigeant une clairance, vérifier qu'une autorisation explicite a été reçue ; le fait d'être suivi par un service d'information ne remplace pas cette étape.\n\n![Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.](/illustrations/ppl-airlaw-008.svg)",
+      "explanation_en": "This statement is false.\n\nA unit reports nearby traffic. Look for it while maintaining your flight path and respond using the appropriate phraseology. Ask for clarification if the information is not understood. Before entering airspace requiring a clearance, confirm that explicit authorisation has been received; receiving a flight information service does not replace this step.\n\n![Diagram: Air Traffic Services (ATC)](/illustrations/en/ppl-airlaw-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    }
+  ]
 }

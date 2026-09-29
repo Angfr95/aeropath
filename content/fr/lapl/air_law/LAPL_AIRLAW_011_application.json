@@ -1,0 +1,608 @@
+{
+  "metadata": {
+    "module_id": "LAPL_AIRLAW_011",
+    "program": "LAPL",
+    "subject": "air_law",
+    "chapter_title": "Appliquer les minima VMC de jour",
+    "chapter_title_en": "Applying daytime VMC minima",
+    "learning_objective": "Expliquer et appliquer : choisir la bonne ligne, basses couches et exceptions, exemples et décision.",
+    "learning_objective_en": "Explain and apply: choose the correct row, lower levels and exceptions, examples and decision.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": [],
+    "tags": [
+      "LAPL",
+      "air_law"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "Référence du chapitre",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-airlaw-011.svg",
+      "alt": "Appliquer les minima VMC de jour"
+    },
+    "exam_subject": "airlaw",
+    "coverage_status": "partial",
+    "derived_from": "PPL_AIRLAW_011",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_AIRLAW_011_C01",
+      "title": "Choisir la bonne ligne",
+      "title_en": "Choose the correct row",
+      "content": "![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)\n\nSERA.5001 distingue classe d’espace et tranche d’altitude. À partir de 10 000 ft AMSL, la visibilité en vol de référence est 8 km, avec 1 500 m horizontalement et 1 000 ft verticalement par rapport aux nuages. Sous ce seuil, au-dessus de la plus haute des deux surfaces 3 000 ft AMSL ou 1 000 ft au-dessus du relief, la visibilité est 5 km avec les mêmes distances aux nuages. Lorsque l’altitude de transition est inférieure à 10 000 ft, le tableau utilise FL 100 à la place de 10 000 ft. Les exercices précisent la référence pour éviter cette ambiguïté. La présence de la classe A dans le tableau n’autorise pas le VFR en classe A.",
+      "content_en": "![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)\n\nSERA.5001 distinguishes airspace class and altitude band. At and above 10,000 ft AMSL the reference flight visibility is 8 km, with 1,500 m horizontal and 1,000 ft vertical separation from cloud. Below that level, above the higher of 3,000 ft AMSL or 1,000 ft above terrain, visibility is 5 km with the same cloud distances. Where transition altitude is below 10,000 ft, the table uses FL 100 instead. Exercises specify the reference to avoid ambiguity. Including Class A in the table does not authorise VFR in Class A.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Choisir la bonne ligne"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C02",
+      "title": "Basses couches et exceptions",
+      "title_en": "Lower levels and exceptions",
+      "content": "À ou sous la plus haute des surfaces 3 000 ft AMSL ou 1 000 ft au-dessus du relief, les classes B à E gardent 5 km, 1 500 m horizontalement et 1 000 ft verticalement. En F/G, la référence est 5 km, hors des nuages et en vue de la surface. Une réduction de visibilité ne s’applique que si l’autorité compétente l’a prescrite et si ses conditions sont remplies ; 140 kt ou moins ne constitue pas à lui seul une autorisation générale. Les exercices de cette leçon excluent les réductions nationales, le VFR spécial et le vol de nuit.",
+      "content_en": "At or below the higher of 3,000 ft AMSL or 1,000 ft above terrain, Classes B to E retain 5 km, 1,500 m horizontal and 1,000 ft vertical cloud separation. In F/G the reference is 5 km, clear of cloud and with the surface in sight. Reduced visibility applies only where prescribed by the competent authority and its conditions are met; 140 kt or less alone is not a general authorisation. Exercises here exclude national reductions, special VFR and night flight.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Basses couches et exceptions"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C03",
+      "title": "Exemples et décision",
+      "title_en": "Examples and decision",
+      "content": "Exemple 1 : relief à 2 500 ft AMSL. La surface relief + 1 000 ft est à 3 500 ft AMSL, donc au-dessus de 3 000 ft ; c’est 3 500 ft qui délimite les basses couches. Exemple 2 : en classe D à 4 000 ft AMSL, relief bas, sous le seuil supérieur applicable, les minima de référence sont 5 km et 1 500 m/1 000 ft aux nuages. Une visibilité de 4 km ne convient pas au VFR normal de ce cas. Respecter un minimum météo ne remplace pas une clairance requise, ne garantit pas le franchissement du relief et n’impose pas de partir : ajouter ses marges personnelles.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "Example 1: terrain at 2,500 ft AMSL. Terrain plus 1,000 ft is 3,500 ft AMSL, above 3,000 ft; 3,500 ft is therefore the lower-band boundary. Example 2: Class D at 4,000 ft AMSL over low terrain and below the applicable upper threshold uses 5 km and 1,500 m/1,000 ft from cloud. A visibility of 4 km does not meet normal VFR minima in this case. Meeting weather minima does not replace required clearance, guarantee terrain clearance or require departure: add personal margins.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Exemples et décision"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_AIRLAW_011_C01",
+      "concept_title": "Choisir la bonne ligne",
+      "level": 2,
+      "question": "Dans SERA.5001, quelle visibilité s’applique à ou au-dessus du seuil supérieur de 10 000 ft/FL 100 selon le cas ?",
+      "question_en": "In SERA.5001, what visibility applies at or above the applicable 10,000 ft/FL 100 upper threshold?",
+      "options": [
+        "8 km",
+        "5 km",
+        "1,5 km",
+        "800 m"
+      ],
+      "options_en": [
+        "8 km",
+        "5 km",
+        "1.5 km",
+        "800 m"
+      ],
+      "correct_answer": "8 km",
+      "explanation": "La ligne supérieure du tableau demande 8 km.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "The upper table row requires 8 km.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C01",
+      "concept_title": "Choisir la bonne ligne",
+      "level": 2,
+      "question": "En classe D sous le seuil supérieur, quelle distance horizontale aux nuages s’applique en VFR normal ?",
+      "question_en": "In Class D below the upper threshold, what horizontal cloud distance applies in normal VFR?",
+      "options": [
+        "150 m",
+        "500 m",
+        "3 000 m",
+        "1 500 m"
+      ],
+      "options_en": [
+        "150 m",
+        "500 m",
+        "3,000 m",
+        "1,500 m"
+      ],
+      "correct_answer": "1 500 m",
+      "explanation": "La distance horizontale de référence est 1 500 m.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "The reference horizontal distance is 1,500 m.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C01",
+      "concept_title": "Choisir la bonne ligne",
+      "level": 2,
+      "question": "En classe D, sous le seuil supérieur applicable de SERA.5001, quelle distance verticale aux nuages s’applique en VFR normal de jour ?",
+      "question_en": "In Class D below the applicable SERA.5001 upper threshold, what vertical cloud distance applies in normal daytime VFR?",
+      "options": [
+        "500 ft",
+        "3 000 ft",
+        "1 000 ft",
+        "100 ft"
+      ],
+      "options_en": [
+        "500 ft",
+        "3,000 ft",
+        "1,000 ft",
+        "100 ft"
+      ],
+      "correct_answer": "1 000 ft",
+      "explanation": "Le tableau donne 300 m, soit 1 000 ft.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "The table specifies 300 m, or 1,000 ft.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C01",
+      "concept_title": "Choisir la bonne ligne",
+      "level": 2,
+      "question": "La ligne VMC de classe A autorise-t-elle le VFR dans cet espace ?",
+      "question_en": "Does the Class A VMC row authorise VFR there?",
+      "options": [
+        "Oui, sous 140 kt",
+        "Non",
+        "Oui, avec 8 km",
+        "Oui, hors des nuages"
+      ],
+      "options_en": [
+        "Yes, below 140 kt",
+        "No",
+        "Yes, with 8 km",
+        "Yes, clear of cloud"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Les valeurs de classe A sont indicatives, sans autorisation VFR.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "Class A values are guidance and do not authorise VFR.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C01",
+      "concept_title": "Choisir la bonne ligne",
+      "level": 2,
+      "question": "Altitude de transition inférieure à 10 000 ft : quelle référence remplace 10 000 ft dans le tableau ?",
+      "question_en": "Transition altitude below 10,000 ft: which reference replaces 10,000 ft in the table?",
+      "options": [
+        "FL 100",
+        "FL 50",
+        "1 000 ft AGL",
+        "Le niveau de la piste"
+      ],
+      "options_en": [
+        "FL 100",
+        "FL 50",
+        "1,000 ft AGL",
+        "Runway elevation"
+      ],
+      "correct_answer": "FL 100",
+      "explanation": "La note du tableau prévoit FL 100 dans ce cas.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "The table note specifies FL 100 in this case.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C02",
+      "concept_title": "Basses couches et exceptions",
+      "level": 2,
+      "question": "La limite des basses couches est la…",
+      "question_en": "The lower-band boundary is the…",
+      "options": [
+        "Plus basse de ces deux surfaces",
+        "Somme de 3 000 et 10 000 ft",
+        "Hauteur fixe de 500 ft",
+        "Plus haute de 3 000 ft AMSL et relief + 1 000 ft"
+      ],
+      "options_en": [
+        "Lower of those two surfaces",
+        "Sum of 3,000 and 10,000 ft",
+        "Fixed height of 500 ft",
+        "Higher of 3,000 ft AMSL and terrain + 1,000 ft"
+      ],
+      "correct_answer": "Plus haute de 3 000 ft AMSL et relief + 1 000 ft",
+      "explanation": "Il faut comparer les deux surfaces dans la même référence.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "Compare both surfaces using the same datum.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C02",
+      "concept_title": "Basses couches et exceptions",
+      "level": 2,
+      "question": "Relief à 2 500 ft AMSL : quelle limite basse obtient-on ?",
+      "question_en": "Terrain at 2,500 ft AMSL: what lower-band boundary results?",
+      "options": [
+        "1 000 ft AMSL",
+        "2 500 ft AMSL",
+        "3 500 ft AMSL",
+        "3 000 ft AMSL"
+      ],
+      "options_en": [
+        "1,000 ft AMSL",
+        "2,500 ft AMSL",
+        "3,500 ft AMSL",
+        "3,000 ft AMSL"
+      ],
+      "correct_answer": "3 500 ft AMSL",
+      "explanation": "Max(3 000, 2 500 + 1 000) = 3 500 ft.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "Max(3,000, 2,500 + 1,000) = 3,500 ft.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C02",
+      "concept_title": "Basses couches et exceptions",
+      "level": 2,
+      "question": "En G dans les basses couches, sans réduction nationale, quelle visibilité de référence ?",
+      "question_en": "In lower-band Class G with no national reduction, what reference visibility applies?",
+      "options": [
+        "10 km",
+        "5 km",
+        "1 km",
+        "800 m"
+      ],
+      "options_en": [
+        "10 km",
+        "5 km",
+        "1 km",
+        "800 m"
+      ],
+      "correct_answer": "5 km",
+      "explanation": "L’exercice exclut les réductions : la référence est 5 km.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "Reductions are excluded: the reference is 5 km.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C02",
+      "concept_title": "Basses couches et exceptions",
+      "level": 2,
+      "question": "En classe G dans les basses couches définies par SERA.5001, en VFR de jour sans réduction nationale, quelle condition s’applique aux nuages et à la surface ?",
+      "question_en": "In the SERA.5001 lower band in Class G, daytime VFR with no national reduction, what cloud and surface condition applies?",
+      "options": [
+        "Hors des nuages et surface en vue",
+        "Dans les nuages avec GPS",
+        "Surface invisible mais radio active",
+        "Toujours 3 000 ft sous les nuages"
+      ],
+      "options_en": [
+        "Clear of cloud and surface in sight",
+        "Inside cloud with GPS",
+        "Surface invisible but radio operating",
+        "Always 3,000 ft below cloud"
+      ],
+      "correct_answer": "Hors des nuages et surface en vue",
+      "explanation": "Les deux conditions doivent être satisfaites.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "Both conditions must be met.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C02",
+      "concept_title": "Basses couches et exceptions",
+      "level": 2,
+      "question": "En classe D dans les basses couches, être simplement hors des nuages suffit-il ?",
+      "question_en": "In lower-band Class D, is merely being clear of cloud sufficient?",
+      "options": [
+        "Oui, comme en G",
+        "Oui, sous 140 kt",
+        "Oui, avec le sol en vue uniquement",
+        "Non, les distances chiffrées restent applicables"
+      ],
+      "options_en": [
+        "Yes, as in G",
+        "Yes, below 140 kt",
+        "Yes, with surface in sight alone",
+        "No, numerical cloud distances still apply"
+      ],
+      "correct_answer": "Non, les distances chiffrées restent applicables",
+      "explanation": "Ne pas transposer la ligne F/G aux classes B à E.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "Do not apply the F/G row to Classes B to E.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C03",
+      "concept_title": "Exemples et décision",
+      "level": 2,
+      "question": "Classe D, sous le seuil supérieur, visibilité 4 km, VFR normal : le critère de visibilité est-il satisfait ?",
+      "question_en": "Class D below the upper threshold, visibility 4 km, normal VFR: is the visibility criterion met?",
+      "options": [
+        "Oui, si l’avion est léger",
+        "Oui, si le vol dure 10 minutes",
+        "Non, il faut 5 km",
+        "Oui, il suffit de 3 km"
+      ],
+      "options_en": [
+        "Yes, if the aircraft is light",
+        "Yes, for a 10-minute flight",
+        "No, 5 km is required",
+        "Yes, 3 km is enough"
+      ],
+      "correct_answer": "Non, il faut 5 km",
+      "explanation": "4 km est inférieur aux 5 km requis dans ce cas.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "4 km is below the 5 km required here.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C03",
+      "concept_title": "Exemples et décision",
+      "level": 2,
+      "question": "Une vitesse de 120 kt autorise-t-elle automatiquement toute réduction de visibilité ?",
+      "question_en": "Does 120 kt automatically authorise every visibility reduction?",
+      "options": [
+        "Oui, en classe A",
+        "Non, vérifier les dispositions applicables",
+        "Oui, partout",
+        "Oui, même de nuit"
+      ],
+      "options_en": [
+        "Yes, in Class A",
+        "No, check applicable provisions",
+        "Yes, everywhere",
+        "Yes, even at night"
+      ],
+      "correct_answer": "Non, vérifier les dispositions applicables",
+      "explanation": "La vitesse seule ne suffit pas à rendre une réduction applicable.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "Speed alone does not make a reduction applicable.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C03",
+      "concept_title": "Exemples et décision",
+      "level": 2,
+      "question": "Les minima météo sont respectés en D. Peut-on entrer sans clairance requise ?",
+      "question_en": "Weather minima are met in D. May you enter without required clearance?",
+      "options": [
+        "Non",
+        "Oui, la météo remplace la clairance",
+        "Oui, avec un GPS",
+        "Oui, sous la base des nuages"
+      ],
+      "options_en": [
+        "No",
+        "Yes, weather replaces clearance",
+        "Yes, with GPS",
+        "Yes, below cloud base"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Météo et autorisation d’accès sont deux conditions distinctes.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "Weather and access authorisation are separate conditions.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C03",
+      "concept_title": "Exemples et décision",
+      "level": 2,
+      "question": "Atteindre juste le minimum réglementaire oblige-t-il à partir ?",
+      "question_en": "Does just meeting the legal minimum require departure?",
+      "options": [
+        "Oui, si le vol est réservé",
+        "Oui, si le passager insiste",
+        "Oui, si la radio fonctionne",
+        "Non, il faut aussi apprécier les marges et risques"
+      ],
+      "options_en": [
+        "Yes, if the flight is booked",
+        "Yes, if the passenger insists",
+        "Yes, if the radio works",
+        "No, margins and risks must also be assessed"
+      ],
+      "correct_answer": "Non, il faut aussi apprécier les marges et risques",
+      "explanation": "Un minimum n’est pas une garantie de sécurité pour toute situation.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "A minimum is not a safety guarantee for every situation.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_011_C03",
+      "concept_title": "Exemples et décision",
+      "level": 2,
+      "question": "Les cas de cette leçon permettent-ils de déduire directement tous les minima de nuit ?",
+      "question_en": "Do this lesson’s cases directly determine all night minima?",
+      "options": [
+        "Oui, en divisant la visibilité par deux",
+        "Oui, en supprimant la vue du sol",
+        "Non, les dispositions de nuit doivent être étudiées séparément",
+        "Oui, sans autre condition"
+      ],
+      "options_en": [
+        "Yes, by halving visibility",
+        "Yes, by removing surface sight",
+        "No, night provisions must be studied separately",
+        "Yes, without other conditions"
+      ],
+      "correct_answer": "Non, les dispositions de nuit doivent être étudiées séparément",
+      "explanation": "Le périmètre annoncé est le VFR de jour sans exceptions.\n\n![Appliquer les minima VMC de jour](/illustrations/lapl-airlaw-011.svg)",
+      "explanation_en": "The stated scope is daytime VFR without exceptions.\n\n![PPL_AIRLAW_011](/illustrations/en/lapl-airlaw-011.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

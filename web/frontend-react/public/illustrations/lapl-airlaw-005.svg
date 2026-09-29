@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Règles de vol et conditions météo</title><desc id="desc">Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Règles de vol et conditions météo</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">VFR / IFR et VMC / IMC ne décrivent pas la même chose.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_AIRLAW_005</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<rect x="60" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<rect x="88" y="236" width="60" height="76" rx="6" fill="#14253b" stroke="#58dfed"/>
+<path d="M101 257L135 257" fill="none" stroke="#58dfed" stroke-width="3"/>
+<path d="M101 274L135 274" fill="none" stroke="#58dfed" stroke-width="3"/>
+<path d="M101 291L135 291" fill="none" stroke="#58dfed" stroke-width="3"/>
+<text x="365" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">01</text>
+<text x="84" y="357" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">VFR / IFR</text>
+<text x="84" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Le régime de règles sous</text>
+<text x="84" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">lequel le vol est</text>
+<text x="84" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">conduit.</text>
+<rect x="425" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<g transform="translate(483 282) scale(0.55)">
+<path d="M-60 15C-88 10-78-25-52-25C-52-58-9-64 5-39C35-62 65-38 60-13C91-12 93 19 67 23H-60Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<text x="730" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">02</text>
+<text x="449" y="357" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">VMC / IMC</text>
+<text x="449" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Des conditions météo</text>
+<text x="449" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">comparées à des critères</text>
+<text x="449" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">définis.</text>
+<rect x="790" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<path d="M848 234L883 250V278Q878 302 848 317Q818 302 813 278V250Z" fill="none" stroke="#bbabff" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<path d="M831 274L845 289L869 259" fill="none" stroke="#bbabff" stroke-width="4" stroke-linejoin="round" opacity="1"/>
+<text x="1095" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">03</text>
+<text x="814" y="357" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Compatibilité</text>
+<text x="814" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Qualifications,</text>
+<text x="814" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">équipement, minima et</text>
+<text x="814" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">autorisations à vérifier.</text>
+</svg>

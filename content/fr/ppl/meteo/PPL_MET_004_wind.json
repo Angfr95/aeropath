@@ -5,13 +5,583 @@
     "subject": "Meteorology",
     "chapter_title": "Vent et circulation atmosphérique",
     "chapter_title_en": "Wind and Atmospheric Circulation",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : origine et description du vent; vent local et relief; exemple de composantes.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: the origin and description of wind; local wind and terrain; a component example.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 25,
-    "prerequisites": ["PPL_MET_001"],
-    "tags": ["wind", "circulation", "jet stream", "geostrophic", "gradient"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_MET_001"
+    ],
+    "tags": [
+      "wind",
+      "circulation",
+      "jet stream",
+      "geostrophic",
+      "gradient"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "Météo-France — Guide aviation",
+        "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+      },
+      {
+        "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-met-004.svg",
+      "alt": "Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face."
+    },
+    "exam_subject": "meteorology",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_MET_004_C01",
+      "title": "Origine et description du vent",
+      "title_en": "The origin and description of wind",
+      "content": "![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)\n\nLe gradient de pression contribue à mettre l'air en mouvement. La rotation terrestre et le frottement modifient sa direction et sa vitesse. Des isobares rapprochées suggèrent généralement un gradient plus fort, sans fournir à elles seules le vent exact sur un terrain. Le vent est nommé par la direction d'où il vient : un vent du nord souffle vers le sud.",
+      "content_en": "![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)\n\nThe pressure gradient helps set air in motion. Earth's rotation and friction modify its direction and speed. Closely spaced isobars generally suggest a stronger gradient without directly giving the exact wind at an aerodrome. Wind is named for where it comes from: a northerly wind blows towards the south.",
+      "difficulty": "intermediate",
+      "tags": [
+        "wind",
+        "circulation",
+        "jet stream",
+        "geostrophic",
+        "gradient"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Origine et description du vent"
+    },
+    {
+      "concept_id": "PPL_MET_004_C02",
+      "title": "Vent local et relief",
+      "title_en": "Local wind and terrain",
+      "content": "Les brises, les vallées et les obstacles modifient le vent régional. Sous le vent d'un relief, turbulences et mouvements descendants peuvent dépasser les capacités de montée d'un avion léger. Une manche à air montre une situation locale et instantanée ; elle ne décrit pas le vent à toute altitude. Les rafales imposent de considérer la variabilité, pas seulement la moyenne.",
+      "content_en": "Breezes, valleys and obstacles modify regional wind. On the lee side of terrain, turbulence and downdraughts may exceed a light aircraft's climbing capability. A windsock shows local, instantaneous conditions; it does not describe wind at every altitude. Gusts require consideration of variability, not just the mean.",
+      "difficulty": "intermediate",
+      "tags": [
+        "wind",
+        "circulation",
+        "jet stream",
+        "geostrophic",
+        "gradient"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Vent local et relief"
+    },
+    {
+      "concept_id": "PPL_MET_004_C03",
+      "title": "Exemple de composantes",
+      "title_en": "A component example",
+      "content": "Dans un exercice utilisant la même référence directionnelle, une piste orientée 090° reçoit un vent de 060° à 20 kt. L'angle est 30° : composante traversière = 20 × sin 30°, soit 10 kt ; composante de face ≈ 17 kt. Avant une application réelle, vérifier les références vrai/magnétique et les limites de l'avion ainsi que celles retenues pour le pilote.",
+      "content_en": "In an exercise using the same directional reference, a runway oriented 090° receives wind from 060° at 20 kt. The angle is 30°: crosswind = 20 × sin 30°, or 10 kt; the headwind component is approximately 17 kt. Before real use, check true/magnetic references, aircraft limits and the limits adopted for the pilot.",
+      "difficulty": "intermediate",
+      "tags": [
+        "wind",
+        "circulation",
+        "jet stream",
+        "geostrophic",
+        "gradient"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Exemple de composantes"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_MET_004_C01",
+      "concept_title": "Origine et description du vent",
+      "level": 1,
+      "question": "D'où vient un vent annoncé 270° ?",
+      "question_en": "Where does a reported 270° wind come from?",
+      "options": [
+        "De l'ouest",
+        "De l'est",
+        "Du nord",
+        "Du sud"
+      ],
+      "correct_answer": "De l'ouest",
+      "explanation": "La direction du vent indique son origine.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "Wind direction indicates its origin.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "wind",
+        "circulation",
+        "jet stream",
+        "geostrophic",
+        "gradient",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "The west",
+        "The east",
+        "The north",
+        "The south"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C02",
+      "concept_title": "Vent local et relief",
+      "level": 1,
+      "question": "À 30° de l'axe, quelle composante traversière donne un vent de 20 kt ?",
+      "question_en": "At 30° to the runway axis, what crosswind component does a 20 kt wind produce?",
+      "options": [
+        "20 kt",
+        "0 kt",
+        "30 kt",
+        "10 kt"
+      ],
+      "correct_answer": "10 kt",
+      "explanation": "20 multiplié par sin 30° donne 10 kt.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "20 multiplied by sin 30° gives 10 kt.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "wind",
+        "circulation",
+        "jet stream",
+        "geostrophic",
+        "gradient",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "20 kt",
+        "0 kt",
+        "30 kt",
+        "10 kt"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C03",
+      "concept_title": "Exemple de composantes",
+      "level": 1,
+      "question": "Une manche à air décrit-elle tout le vent en altitude ?",
+      "question_en": "Does a windsock describe all wind conditions aloft?",
+      "options": [
+        "Oui par ciel bleu",
+        "Oui si elle est neuve",
+        "Non",
+        "Oui"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Elle renseigne sur les conditions locales au voisinage du sol.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "It provides information about local conditions near the ground.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "wind",
+        "circulation",
+        "jet stream",
+        "geostrophic",
+        "gradient",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Yes, under blue skies",
+        "Yes, if it is new",
+        "No",
+        "Yes"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C03",
+      "concept_title": "Exemple de composantes",
+      "level": 2,
+      "question": "Dans un exercice où les directions ont la même référence, un vent de 20 kt est exactement perpendiculaire à la piste. Quelle est sa composante traversière ?",
+      "question_en": "Using a common directional reference, a 20 kt wind is perpendicular to the runway. What is its crosswind component?",
+      "options": [
+        "40 kt",
+        "20 kt",
+        "10 kt",
+        "0 kt"
+      ],
+      "correct_answer": "20 kt",
+      "explanation": "La composante traversière vaut vitesse du vent × sinus de l'angle avec l'axe. À 90°, le sinus vaut 1 : toute la vitesse de 20 kt est traversière.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "Crosswind equals wind speed multiplied by the sine of the angle to the axis. At 90°, the sine is 1, so the full 20 kt is crosswind.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "wind",
+        "circulation",
+        "jet stream",
+        "geostrophic",
+        "gradient",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "40 kt",
+        "20 kt",
+        "10 kt",
+        "0 kt"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C02",
+      "concept_title": "Vent local et relief",
+      "level": 2,
+      "question": "Pourquoi le secteur sous le vent d'un relief mérite-t-il une attention particulière ?",
+      "question_en": "Why does the lee side of terrain require particular attention?",
+      "options": [
+        "Des turbulences et mouvements descendants peuvent y être importants",
+        "Le vent y est toujours nul",
+        "La capacité de montée y augmente systématiquement",
+        "Les rafales y sont impossibles"
+      ],
+      "correct_answer": "Des turbulences et mouvements descendants peuvent y être importants",
+      "explanation": "Le relief peut provoquer des turbulences et des courants descendants, parfois supérieurs aux capacités de montée d'un avion léger. Le vent régional seul ne décrit pas ces effets locaux.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "Terrain may produce turbulence and downdraughts that sometimes exceed a light aircraft's climbing capability. Regional wind alone does not describe these local effects.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "wind",
+        "circulation",
+        "jet stream",
+        "geostrophic",
+        "gradient",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Turbulence and downdraughts may be significant",
+        "Wind is always zero there",
+        "Climbing capability always increases there",
+        "Gusts are impossible there"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C01",
+      "concept_title": "Origine et description du vent",
+      "level": 2,
+      "question": "Vrai ou faux ? Le gradient de pression contribue à mettre l'air en mouvement.",
+      "question_en": "True or false? The pressure gradient helps set air in motion.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe gradient de pression contribue à mettre l'air en mouvement. La rotation terrestre et le frottement modifient sa direction et sa vitesse. Des isobares rapprochées suggèrent généralement un gradient plus fort, sans fournir à elles seules le vent exact sur un terrain. Le vent est nommé par la direction d'où il vient : un vent du nord souffle vers le sud.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "This statement is true.\n\nThe pressure gradient helps set air in motion. Earth's rotation and friction modify its direction and speed. Closely spaced isobars generally suggest a stronger gradient without directly giving the exact wind at an aerodrome. Wind is named for where it comes from: a northerly wind blows towards the south.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C01",
+      "concept_title": "Origine et description du vent",
+      "level": 2,
+      "question": "Vrai ou faux ? La rotation terrestre et le frottement n'influencent jamais le vent.",
+      "question_en": "True or false? Earth's rotation and friction never influence wind.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe gradient de pression contribue à mettre l'air en mouvement. La rotation terrestre et le frottement modifient sa direction et sa vitesse. Des isobares rapprochées suggèrent généralement un gradient plus fort, sans fournir à elles seules le vent exact sur un terrain. Le vent est nommé par la direction d'où il vient : un vent du nord souffle vers le sud.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "This statement is false.\n\nThe pressure gradient helps set air in motion. Earth's rotation and friction modify its direction and speed. Closely spaced isobars generally suggest a stronger gradient without directly giving the exact wind at an aerodrome. Wind is named for where it comes from: a northerly wind blows towards the south.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C01",
+      "concept_title": "Origine et description du vent",
+      "level": 2,
+      "question": "Vrai ou faux ? Des isobares serrées suggèrent généralement un gradient plus fort.",
+      "question_en": "True or false? Closely spaced isobars generally suggest a stronger gradient.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe gradient de pression contribue à mettre l'air en mouvement. La rotation terrestre et le frottement modifient sa direction et sa vitesse. Des isobares rapprochées suggèrent généralement un gradient plus fort, sans fournir à elles seules le vent exact sur un terrain. Le vent est nommé par la direction d'où il vient : un vent du nord souffle vers le sud.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "This statement is true.\n\nThe pressure gradient helps set air in motion. Earth's rotation and friction modify its direction and speed. Closely spaced isobars generally suggest a stronger gradient without directly giving the exact wind at an aerodrome. Wind is named for where it comes from: a northerly wind blows towards the south.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C01",
+      "concept_title": "Origine et description du vent",
+      "level": 2,
+      "question": "Vrai ou faux ? Un vent du nord souffle vers le nord.",
+      "question_en": "True or false? A northerly wind blows towards the north.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe gradient de pression contribue à mettre l'air en mouvement. La rotation terrestre et le frottement modifient sa direction et sa vitesse. Des isobares rapprochées suggèrent généralement un gradient plus fort, sans fournir à elles seules le vent exact sur un terrain. Le vent est nommé par la direction d'où il vient : un vent du nord souffle vers le sud.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "This statement is false.\n\nThe pressure gradient helps set air in motion. Earth's rotation and friction modify its direction and speed. Closely spaced isobars generally suggest a stronger gradient without directly giving the exact wind at an aerodrome. Wind is named for where it comes from: a northerly wind blows towards the south.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C02",
+      "concept_title": "Vent local et relief",
+      "level": 2,
+      "question": "Vrai ou faux ? Les obstacles peuvent modifier le vent régional à l'échelle locale.",
+      "question_en": "True or false? Obstacles can modify regional wind locally.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes brises, les vallées et les obstacles modifient le vent régional. Sous le vent d'un relief, turbulences et mouvements descendants peuvent dépasser les capacités de montée d'un avion léger. Une manche à air montre une situation locale et instantanée ; elle ne décrit pas le vent à toute altitude. Les rafales imposent de considérer la variabilité, pas seulement la moyenne.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "This statement is true.\n\nBreezes, valleys and obstacles modify regional wind. On the lee side of terrain, turbulence and downdraughts may exceed a light aircraft's climbing capability. A windsock shows local, instantaneous conditions; it does not describe wind at every altitude. Gusts require consideration of variability, not just the mean.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C02",
+      "concept_title": "Vent local et relief",
+      "level": 2,
+      "question": "Vrai ou faux ? La moyenne du vent suffit toujours, même en présence de rafales.",
+      "question_en": "True or false? Mean wind is always sufficient, even with gusts.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes brises, les vallées et les obstacles modifient le vent régional. Sous le vent d'un relief, turbulences et mouvements descendants peuvent dépasser les capacités de montée d'un avion léger. Une manche à air montre une situation locale et instantanée ; elle ne décrit pas le vent à toute altitude. Les rafales imposent de considérer la variabilité, pas seulement la moyenne.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "This statement is false.\n\nBreezes, valleys and obstacles modify regional wind. On the lee side of terrain, turbulence and downdraughts may exceed a light aircraft's climbing capability. A windsock shows local, instantaneous conditions; it does not describe wind at every altitude. Gusts require consideration of variability, not just the mean.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C02",
+      "concept_title": "Vent local et relief",
+      "level": 2,
+      "question": "Vrai ou faux ? Les descendances peuvent dépasser la capacité de montée d'un avion léger.",
+      "question_en": "True or false? Downdraughts may exceed a light aircraft's climbing capability.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes brises, les vallées et les obstacles modifient le vent régional. Sous le vent d'un relief, turbulences et mouvements descendants peuvent dépasser les capacités de montée d'un avion léger. Une manche à air montre une situation locale et instantanée ; elle ne décrit pas le vent à toute altitude. Les rafales imposent de considérer la variabilité, pas seulement la moyenne.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "This statement is true.\n\nBreezes, valleys and obstacles modify regional wind. On the lee side of terrain, turbulence and downdraughts may exceed a light aircraft's climbing capability. A windsock shows local, instantaneous conditions; it does not describe wind at every altitude. Gusts require consideration of variability, not just the mean.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C03",
+      "concept_title": "Exemple de composantes",
+      "level": 2,
+      "question": "Vrai ou faux ? On peut mélanger direction vraie du vent et axe magnétique sans vérification.",
+      "question_en": "True or false? True wind direction and magnetic runway direction can be mixed without checking.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDans un exercice utilisant la même référence directionnelle, une piste orientée 090° reçoit un vent de 060° à 20 kt. L'angle est 30° : composante traversière = 20 × sin 30°, soit 10 kt ; composante de face ≈ 17 kt. Avant une application réelle, vérifier les références vrai/magnétique et les limites de l'avion ainsi que celles retenues pour le pilote.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "This statement is false.\n\nIn an exercise using the same directional reference, a runway oriented 090° receives wind from 060° at 20 kt. The angle is 30°: crosswind = 20 × sin 30°, or 10 kt; the headwind component is approximately 17 kt. Before real use, check true/magnetic references, aircraft limits and the limits adopted for the pilot.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C03",
+      "concept_title": "Exemple de composantes",
+      "level": 2,
+      "question": "Vrai ou faux ? Pour le vent à 30° de l'exemple, une composante de face subsiste.",
+      "question_en": "True or false? For the example's wind at 30°, a headwind component remains.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDans un exercice utilisant la même référence directionnelle, une piste orientée 090° reçoit un vent de 060° à 20 kt. L'angle est 30° : composante traversière = 20 × sin 30°, soit 10 kt ; composante de face ≈ 17 kt. Avant une application réelle, vérifier les références vrai/magnétique et les limites de l'avion ainsi que celles retenues pour le pilote.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "This statement is true.\n\nIn an exercise using the same directional reference, a runway oriented 090° receives wind from 060° at 20 kt. The angle is 30°: crosswind = 20 × sin 30°, or 10 kt; the headwind component is approximately 17 kt. Before real use, check true/magnetic references, aircraft limits and the limits adopted for the pilot.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_004_C03",
+      "concept_title": "Exemple de composantes",
+      "level": 2,
+      "question": "Vrai ou faux ? La limite retenue pour le pilote doit nécessairement être égale à celle de l'avion.",
+      "question_en": "True or false? The limit adopted for the pilot must equal the aircraft's limit.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDans un exercice utilisant la même référence directionnelle, une piste orientée 090° reçoit un vent de 060° à 20 kt. L'angle est 30° : composante traversière = 20 × sin 30°, soit 10 kt ; composante de face ≈ 17 kt. Avant une application réelle, vérifier les références vrai/magnétique et les limites de l'avion ainsi que celles retenues pour le pilote.\n\n![Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.](/illustrations/ppl-met-004.svg)",
+      "explanation_en": "This statement is false.\n\nIn an exercise using the same directional reference, a runway oriented 090° receives wind from 060° at 20 kt. The angle is 30°: crosswind = 20 × sin 30°, or 10 kt; the headwind component is approximately 17 kt. Before real use, check true/magnetic references, aircraft limits and the limits adopted for the pilot.\n\n![Diagram: Wind and Atmospheric Circulation](/illustrations/en/ppl-met-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    }
+  ]
 }

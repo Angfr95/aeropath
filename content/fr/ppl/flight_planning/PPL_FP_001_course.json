@@ -1,0 +1,540 @@
+{
+  "metadata": {
+    "module_id": "PPL_FP_001",
+    "program": "PPL",
+    "subject": "Flight Planning",
+    "chapter_title": "Bilan carburant, autonomie et réserves",
+    "chapter_title_en": "Fuel planning, endurance and reserves",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: building the fuel plan; reserve and monitoring; a training example.",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "tags": [
+      "flight_planning",
+      "PPL"
+    ],
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : construire le bilan carburant; réserve et suivi; exemple pédagogique.",
+    "estimated_duration_minutes": 10,
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "EASA — Air Operations, Part-NCO, NCO.OP.125",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-fp-001.svg",
+      "alt": "72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte."
+    },
+    "exam_subject": "flight_performance_planning",
+    "coverage_status": "partial",
+    "editorial_review": "2026-09-30: FR/EN lesson text read; pedagogical gaps recorded in ppl-content-review-2026-09-30.md; coverage remains partial."
+  },
+  "concepts": [
+    {
+      "concept_id": "PPL_FP_001_C01",
+      "title": "Construire le bilan carburant",
+      "title_en": "Building the fuel plan",
+      "content": "![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)\n\nLe bilan tient compte du carburant utilisable, des phases prévues, du vent, des aléas et des réserves applicables. La consommation horaire doit correspondre au régime et aux conditions retenus. L'autonomie exprime une durée ; la distance franchissable exprime une distance et dépend aussi de la vitesse sol. Le rayon d'action avec retour suppose de pouvoir effectuer l'aller et le retour : ne pas le confondre avec une distance aller simple. Avec du vent, les durées aller et retour peuvent différer. Un vent contraire augmente le temps nécessaire pour une même distance.",
+      "content_en": "![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)\n\nThe fuel plan considers usable fuel, planned phases, wind, contingencies and applicable reserves. Hourly consumption must match the selected power setting and conditions. Endurance is a duration; range is a distance and also depends on groundspeed. A radius of action with return requires enough fuel for both outbound and inbound legs; it is not a one-way range. Wind can make outbound and inbound times different. A headwind increases the time needed for a given distance.",
+      "difficulty": "beginner",
+      "tags": [
+        "flight_planning",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "learning_objective": "Construire le bilan carburant"
+    },
+    {
+      "concept_id": "PPL_FP_001_C02",
+      "title": "Réserve et suivi",
+      "title_en": "Reserve and monitoring",
+      "content": "Les exigences de carburant se vérifient dans Part-NCO et les moyens de conformité applicables au vol. La réserve finale n'est pas un supplément à consommer volontairement pour tenir l'horaire. Fixer des points de contrôle en vol pour comparer consommation attendue et indications disponibles. Une divergence doit être expliquée et intégrée à la décision.",
+      "content_en": "Check fuel requirements in Part-NCO and the means of compliance applicable to the flight. Final reserve is not extra fuel to deliberately use to keep to a schedule. Set in-flight checkpoints to compare expected consumption with available indications. Explain and incorporate discrepancies into decisions.",
+      "difficulty": "beginner",
+      "tags": [
+        "flight_planning",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "learning_objective": "Réserve et suivi"
+    },
+    {
+      "concept_id": "PPL_FP_001_C03",
+      "title": "Exemple pédagogique",
+      "title_en": "A training example",
+      "content": "Avec 72 L utilisables et un débit constant fictif de 24 L/h, l'autonomie théorique est de 3 heures. Cela ne signifie pas qu'un trajet de 3 heures soit acceptable : départ, montée, aléas, déroutement et réserve doivent être comptés. Si le vent rallonge la route, recalculer l'heure et le carburant prévus à l'atterrissage suffisamment tôt pour changer de destination.",
+      "content_en": "With 72 L usable and a fictional constant flow of 24 L/h, theoretical endurance is 3 hours. This does not mean a 3-hour journey is acceptable: departure, climb, contingencies, diversion and reserve must be accounted for. If wind increases journey time, recalculate landing time and expected fuel early enough to change destination.",
+      "difficulty": "beginner",
+      "tags": [
+        "flight_planning",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "learning_objective": "Exemple pédagogique"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_FP_001_C01",
+      "concept_title": "Construire le bilan carburant",
+      "level": 1,
+      "question": "72 L utilisables à 24 L/h donnent quelle autonomie théorique ?\n\n![72 L utilisables et débit fictif constant de 24 L/h. Autonomie théorique à déterminer.](/illustrations/quiz-ppl-fp-001-1.svg)",
+      "question_en": "What theoretical endurance do 72 L usable at 24 L/h provide?\n\n![Exercise data: Fuel planning, endurance and reserves](/illustrations/en/quiz-ppl-fp-001-1.svg)",
+      "options": [
+        "2 heures",
+        "4 heures",
+        "1 heure",
+        "3 heures"
+      ],
+      "correct_answer": "3 heures",
+      "explanation": "72 divisé par 24 donne 3 ; les autres besoins restent à prendre en compte.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "72 divided by 24 is 3; other needs must still be considered.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "flight_planning",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "2 hours",
+        "4 hours",
+        "1 hour",
+        "3 hours"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C02",
+      "concept_title": "Réserve et suivi",
+      "level": 1,
+      "question": "Autonomie et distance franchissable sont-elles identiques ?",
+      "question_en": "Are endurance and range identical?",
+      "options": [
+        "Oui sans vent annoncé",
+        "Oui avec les pleins",
+        "Non",
+        "Oui"
+      ],
+      "correct_answer": "Non",
+      "explanation": "L'une est une durée, l'autre une distance dépendant notamment de la vitesse sol.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "One is a duration; the other is a distance depending particularly on groundspeed.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "flight_planning",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "Yes, if no wind is reported",
+        "Yes, with full tanks",
+        "No",
+        "Yes"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C03",
+      "concept_title": "Exemple pédagogique",
+      "level": 1,
+      "question": "La réserve finale sert-elle à prolonger volontairement le trajet normal ?",
+      "question_en": "Is final reserve intended to deliberately extend the normal journey?",
+      "options": [
+        "Oui si le terrain est proche",
+        "Non",
+        "Oui",
+        "Oui pour respecter l'horaire"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Elle constitue une protection à préserver conformément aux critères applicables.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "It is a protection to preserve under the applicable criteria.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "flight_planning",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "Yes, if the aerodrome is nearby",
+        "No",
+        "Yes",
+        "Yes, to keep the schedule"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C03",
+      "concept_title": "Exemple pédagogique",
+      "level": 2,
+      "question": "Dans un exercice à débit constant de 24 L/h, combien consomment 45 minutes de vol ?\n\n![Durée de 45 minutes à un débit fictif constant de 24 L/h. Consommation à déterminer.](/illustrations/quiz-ppl-fp-001-4.svg)",
+      "question_en": "In an exercise with a constant flow of 24 L/h, how much fuel does 45 minutes consume?\n\n![Exercise data: Fuel planning, endurance and reserves](/illustrations/en/quiz-ppl-fp-001-4.svg)",
+      "options": [
+        "18 L",
+        "24 L",
+        "32 L",
+        "1,8 L"
+      ],
+      "correct_answer": "18 L",
+      "explanation": "45 minutes représentent 0,75 heure. Le calcul est 24 × 0,75 = 18 L. Cette consommation d'exercice n'inclut pas à elle seule l'ensemble des postes du bilan carburant.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "45 minutes is 0.75 hour. The calculation is 24 × 0.75 = 18 L. This exercise consumption does not by itself include every fuel-planning item.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "flight_planning",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "18 L",
+        "24 L",
+        "32 L",
+        "1.8 L"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C01",
+      "concept_title": "Construire le bilan carburant",
+      "level": 2,
+      "question": "À débit horaire inchangé, un vent de face augmente le temps de trajet. Quel effet attendre sur le carburant de trajet ?",
+      "question_en": "At unchanged hourly flow, a headwind increases journey time. What happens to trip fuel?",
+      "options": [
+        "Une consommation de trajet inchangée par définition",
+        "Une consommation nécessairement plus faible",
+        "Une augmentation du carburant utilisable à bord",
+        "Une consommation de trajet plus élevée"
+      ],
+      "correct_answer": "Une consommation de trajet plus élevée",
+      "explanation": "Le carburant consommé dépend du débit et de la durée. Si la vitesse sol diminue sur la même distance, le temps puis le carburant de trajet augmentent.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "Fuel consumed depends on flow and duration. If groundspeed decreases over the same distance, time and then trip fuel increase.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "flight_planning",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "Trip consumption is unchanged by definition",
+        "Consumption must decrease",
+        "Usable fuel on board increases",
+        "Trip consumption increases"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C01",
+      "concept_title": "Construire le bilan carburant",
+      "level": 2,
+      "question": "Vrai ou faux ? Le débit retenu doit correspondre au régime et aux conditions envisagés.",
+      "question_en": "True or false? The selected fuel flow must match the planned power setting and conditions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe bilan tient compte du carburant utilisable, des phases prévues, du vent, des aléas et des réserves applicables. La consommation horaire doit correspondre au régime et aux conditions retenus. L'autonomie exprime une durée ; la distance franchissable exprime une distance et dépend aussi de la vitesse sol. Le rayon d'action avec retour suppose de pouvoir effectuer l'aller et le retour : ne pas le confondre avec une distance aller simple. Avec du vent, les durées aller et retour peuvent différer. Un vent contraire augmente le temps nécessaire pour une même distance.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe fuel plan considers usable fuel, planned phases, wind, contingencies and applicable reserves. Hourly consumption must match the selected power setting and conditions. Endurance is a duration; range is a distance and also depends on groundspeed. A radius of action with return requires enough fuel for both outbound and inbound legs; it is not a one-way range. Wind can make outbound and inbound times different. A headwind increases the time needed for a given distance.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C01",
+      "concept_title": "Construire le bilan carburant",
+      "level": 2,
+      "question": "Vrai ou faux ? Le carburant non utilisable peut être compté pour prolonger l'autonomie moteur.",
+      "question_en": "True or false? Unusable fuel may be counted to extend engine endurance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe bilan tient compte du carburant utilisable, des phases prévues, du vent, des aléas et des réserves applicables. La consommation horaire doit correspondre au régime et aux conditions retenus. L'autonomie exprime une durée ; la distance franchissable exprime une distance et dépend aussi de la vitesse sol. Le rayon d'action avec retour suppose de pouvoir effectuer l'aller et le retour : ne pas le confondre avec une distance aller simple. Avec du vent, les durées aller et retour peuvent différer. Un vent contraire augmente le temps nécessaire pour une même distance.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "This statement is false.\n\nThe fuel plan considers usable fuel, planned phases, wind, contingencies and applicable reserves. Hourly consumption must match the selected power setting and conditions. Endurance is a duration; range is a distance and also depends on groundspeed. A radius of action with return requires enough fuel for both outbound and inbound legs; it is not a one-way range. Wind can make outbound and inbound times different. A headwind increases the time needed for a given distance.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C01",
+      "concept_title": "Construire le bilan carburant",
+      "level": 2,
+      "question": "Vrai ou faux ? Le vent intervient dans le temps nécessaire pour une distance donnée.",
+      "question_en": "True or false? Wind affects the time needed for a given distance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe bilan tient compte du carburant utilisable, des phases prévues, du vent, des aléas et des réserves applicables. La consommation horaire doit correspondre au régime et aux conditions retenus. L'autonomie exprime une durée ; la distance franchissable exprime une distance et dépend aussi de la vitesse sol. Le rayon d'action avec retour suppose de pouvoir effectuer l'aller et le retour : ne pas le confondre avec une distance aller simple. Avec du vent, les durées aller et retour peuvent différer. Un vent contraire augmente le temps nécessaire pour une même distance.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe fuel plan considers usable fuel, planned phases, wind, contingencies and applicable reserves. Hourly consumption must match the selected power setting and conditions. Endurance is a duration; range is a distance and also depends on groundspeed. A radius of action with return requires enough fuel for both outbound and inbound legs; it is not a one-way range. Wind can make outbound and inbound times different. A headwind increases the time needed for a given distance.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C02",
+      "concept_title": "Réserve et suivi",
+      "level": 2,
+      "question": "Vrai ou faux ? La réserve finale est une marge destinée à être consommée pour respecter l'horaire.",
+      "question_en": "True or false? Final reserve is intended to be consumed to keep the schedule.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes exigences de carburant se vérifient dans Part-NCO et les moyens de conformité applicables au vol. La réserve finale n'est pas un supplément à consommer volontairement pour tenir l'horaire. Fixer des points de contrôle en vol pour comparer consommation attendue et indications disponibles. Une divergence doit être expliquée et intégrée à la décision.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "This statement is false.\n\nCheck fuel requirements in Part-NCO and the means of compliance applicable to the flight. Final reserve is not extra fuel to deliberately use to keep to a schedule. Set in-flight checkpoints to compare expected consumption with available indications. Explain and incorporate discrepancies into decisions.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C02",
+      "concept_title": "Réserve et suivi",
+      "level": 2,
+      "question": "Vrai ou faux ? Des points de contrôle servent à confronter consommation prévue et indications disponibles.",
+      "question_en": "True or false? Checkpoints compare planned consumption with available indications.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes exigences de carburant se vérifient dans Part-NCO et les moyens de conformité applicables au vol. La réserve finale n'est pas un supplément à consommer volontairement pour tenir l'horaire. Fixer des points de contrôle en vol pour comparer consommation attendue et indications disponibles. Une divergence doit être expliquée et intégrée à la décision.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "This statement is true.\n\nCheck fuel requirements in Part-NCO and the means of compliance applicable to the flight. Final reserve is not extra fuel to deliberately use to keep to a schedule. Set in-flight checkpoints to compare expected consumption with available indications. Explain and incorporate discrepancies into decisions.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C02",
+      "concept_title": "Réserve et suivi",
+      "level": 2,
+      "question": "Vrai ou faux ? Une consommation supérieure au plan n'a pas à modifier les décisions.",
+      "question_en": "True or false? Consumption above the plan need not affect decisions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes exigences de carburant se vérifient dans Part-NCO et les moyens de conformité applicables au vol. La réserve finale n'est pas un supplément à consommer volontairement pour tenir l'horaire. Fixer des points de contrôle en vol pour comparer consommation attendue et indications disponibles. Une divergence doit être expliquée et intégrée à la décision.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "This statement is false.\n\nCheck fuel requirements in Part-NCO and the means of compliance applicable to the flight. Final reserve is not extra fuel to deliberately use to keep to a schedule. Set in-flight checkpoints to compare expected consumption with available indications. Explain and incorporate discrepancies into decisions.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C03",
+      "concept_title": "Exemple pédagogique",
+      "level": 2,
+      "question": "Vrai ou faux ? À débit constant de 24 L/h, 48 L donnent deux heures d'autonomie théorique.\n\n![48 L utilisables et débit fictif constant de 24 L/h. Autonomie théorique à déterminer.](/illustrations/quiz-ppl-fp-001-12.svg)",
+      "question_en": "True or false? At a constant 24 L/h, 48 L gives two hours of theoretical endurance.\n\n![Exercise data: Fuel planning, endurance and reserves](/illustrations/en/quiz-ppl-fp-001-12.svg)",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\n48 / 24 = 2 heures, avant prise en compte des autres besoins.\n\nAvec 72 L utilisables et un débit constant fictif de 24 L/h, l'autonomie théorique est de 3 heures. Cela ne signifie pas qu'un trajet de 3 heures soit acceptable : départ, montée, aléas, déroutement et réserve doivent être comptés. Si le vent rallonge la route, recalculer l'heure et le carburant prévus à l'atterrissage suffisamment tôt pour changer de destination.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "This statement is true.\n\n48 / 24 = 2 hours, before allowing for other needs.\n\nWith 72 L usable and a fictional constant flow of 24 L/h, theoretical endurance is 3 hours. This does not mean a 3-hour journey is acceptable: departure, climb, contingencies, diversion and reserve must be accounted for. If wind increases journey time, recalculate landing time and expected fuel early enough to change destination.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C03",
+      "concept_title": "Exemple pédagogique",
+      "level": 2,
+      "question": "Vrai ou faux ? À débit constant de 20 L/h, 60 L donnent quatre heures d'autonomie théorique.\n\n![60 L utilisables et débit fictif constant de 20 L/h. Autonomie théorique à déterminer.](/illustrations/quiz-ppl-fp-001-13.svg)",
+      "question_en": "True or false? At a constant 20 L/h, 60 L gives four hours of theoretical endurance.\n\n![Exercise data: Fuel planning, endurance and reserves](/illustrations/en/quiz-ppl-fp-001-13.svg)",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\n60 / 20 = 3 heures, et non 4.\n\nAvec 72 L utilisables et un débit constant fictif de 24 L/h, l'autonomie théorique est de 3 heures. Cela ne signifie pas qu'un trajet de 3 heures soit acceptable : départ, montée, aléas, déroutement et réserve doivent être comptés. Si le vent rallonge la route, recalculer l'heure et le carburant prévus à l'atterrissage suffisamment tôt pour changer de destination.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "This statement is false.\n\n60 / 20 = 3 hours, not 4.\n\nWith 72 L usable and a fictional constant flow of 24 L/h, theoretical endurance is 3 hours. This does not mean a 3-hour journey is acceptable: departure, climb, contingencies, diversion and reserve must be accounted for. If wind increases journey time, recalculate landing time and expected fuel early enough to change destination.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C03",
+      "concept_title": "Exemple pédagogique",
+      "level": 2,
+      "question": "Vrai ou faux ? Le calcul d'autonomie théorique ne valide pas à lui seul la durée acceptable du voyage.",
+      "question_en": "True or false? Theoretical endurance alone does not validate an acceptable journey duration.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nAvec 72 L utilisables et un débit constant fictif de 24 L/h, l'autonomie théorique est de 3 heures. Cela ne signifie pas qu'un trajet de 3 heures soit acceptable : départ, montée, aléas, déroutement et réserve doivent être comptés. Si le vent rallonge la route, recalculer l'heure et le carburant prévus à l'atterrissage suffisamment tôt pour changer de destination.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "This statement is true.\n\nWith 72 L usable and a fictional constant flow of 24 L/h, theoretical endurance is 3 hours. This does not mean a 3-hour journey is acceptable: departure, climb, contingencies, diversion and reserve must be accounted for. If wind increases journey time, recalculate landing time and expected fuel early enough to change destination.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    },
+    {
+      "concept_id": "PPL_FP_001_C03",
+      "concept_title": "Exemple pédagogique",
+      "level": 2,
+      "question": "Vrai ou faux ? Un vent de face plus fort justifie d'attendre l'arrivée pour recalculer le carburant.",
+      "question_en": "True or false? A stronger headwind justifies waiting until arrival to recalculate fuel.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nAvec 72 L utilisables et un débit constant fictif de 24 L/h, l'autonomie théorique est de 3 heures. Cela ne signifie pas qu'un trajet de 3 heures soit acceptable : départ, montée, aléas, déroutement et réserve doivent être comptés. Si le vent rallonge la route, recalculer l'heure et le carburant prévus à l'atterrissage suffisamment tôt pour changer de destination.\n\n![72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.](/illustrations/ppl-fp-001.svg)",
+      "explanation_en": "This statement is false.\n\nWith 72 L usable and a fictional constant flow of 24 L/h, theoretical endurance is 3 hours. This does not mean a 3-hour journey is acceptable: departure, climb, contingencies, diversion and reserve must be accounted for. If wind increases journey time, recalculate landing time and expected fuel early enough to change destination.\n\n![Diagram: Fuel planning, endurance and reserves](/illustrations/en/ppl-fp-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+      ]
+    }
+  ]
+}

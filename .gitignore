@@ -27,6 +27,12 @@ web/frontend-react/node_modules/
 # Build output
 web/frontend-react/dist/
 dist/
+*.tsbuildinfo
+
+# Local runtime files, database backups and Python caches
+.local/
+__pycache__/
+*.py[cod]
 
 # IDE
 .vscode/

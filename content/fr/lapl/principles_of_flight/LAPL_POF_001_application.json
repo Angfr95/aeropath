@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "module_id": "LAPL_POF_001",
+    "program": "LAPL",
+    "subject": "Principles of Flight",
+    "chapter_title": "Portance, traînée et équilibre du vol",
+    "chapter_title_en": "Lift, drag and flight equilibrium",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: four forces and equilibrium; angle of attack and lift; example and drag.",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "tags": [
+      "LAPL",
+      "principles_of_flight"
+    ],
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : quatre forces et équilibre; incidence et portance; exemple et traînée.",
+    "estimated_duration_minutes": 10,
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 5 : aérodynamique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-pof-001.svg",
+      "alt": "En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée."
+    },
+    "exam_subject": "principles_of_flight",
+    "coverage_status": "partial",
+    "derived_from": "PPL_POF_001",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_POF_001_C01",
+      "title": "Quatre forces et équilibre",
+      "title_en": "Four forces and equilibrium",
+      "content": "![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)\n\nLes quatre forces principales sont le poids, la portance, la traînée et la traction. En vol rectiligne horizontal stabilisé sans accélération, leur résultante est nulle : la portance équilibre approximativement le poids et la traction la traînée. Une force déséquilibrée provoque une accélération, qui peut modifier la vitesse ou la direction du mouvement.",
+      "content_en": "![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)\n\nThe four main forces are weight, lift, drag and thrust. In steady straight-and-level flight without acceleration, their resultant is zero: lift approximately balances weight and thrust balances drag. An unbalanced force causes acceleration, which can change speed or direction of motion.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "learning_objective": "Quatre forces et équilibre"
+    },
+    {
+      "concept_id": "LAPL_POF_001_C02",
+      "title": "Incidence et portance",
+      "title_en": "Angle of attack and lift",
+      "content": "L'incidence est l'angle entre une référence de l'aile, souvent la corde, et le vent relatif. Elle n'est pas l'assiette de l'avion par rapport à l'horizon. La portance dépend notamment de la densité, de la vitesse, de la surface et du coefficient de portance lié au profil et à l'incidence. Augmenter l'incidence augmente généralement la portance jusqu'à une limite critique.",
+      "content_en": "Angle of attack is the angle between a wing reference, usually the chord, and the relative airflow. It is not the aircraft's pitch attitude relative to the horizon. Lift depends on density, speed, area and the lift coefficient associated with aerofoil shape and angle of attack. Increasing angle of attack generally increases lift up to a critical limit.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "learning_objective": "Incidence et portance"
+    },
+    {
+      "concept_id": "LAPL_POF_001_C03",
+      "title": "Exemple et traînée",
+      "title_en": "Example and drag",
+      "content": "À faible vitesse en palier, il faut généralement une incidence plus élevée pour soutenir le même poids. La traînée induite augmente alors ; à grande vitesse, la traînée parasite devient importante. Tirer davantage ne crée pas une réserve illimitée de portance. Comprendre cette relation aide à distinguer gestion de vitesse, puissance et trajectoire.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "At low speed in level flight, a higher angle of attack is generally needed to support the same weight. Induced drag then increases; at high speed, parasite drag becomes important. Pulling farther back does not create an unlimited supply of lift. This relationship helps distinguish management of speed, power and flight path.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "learning_objective": "Exemple et traînée"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_POF_001_C01",
+      "concept_title": "Quatre forces et équilibre",
+      "level": 1,
+      "question": "En palier rectiligne stabilisé, la résultante des forces est…",
+      "question_en": "In steady straight-and-level flight, the resultant force is…",
+      "options": [
+        "Nulle",
+        "Toujours vers le haut",
+        "Toujours vers l'avant",
+        "Égale à la masse en kg"
+      ],
+      "correct_answer": "Nulle",
+      "explanation": "L'absence d'accélération correspond à un équilibre des forces.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "No acceleration corresponds to balanced forces.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "principles_of_flight",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "options_en": [
+        "Zero",
+        "Always upward",
+        "Always forward",
+        "Equal to mass in kg"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C02",
+      "concept_title": "Incidence et portance",
+      "level": 1,
+      "question": "L'incidence est-elle identique à l'assiette ?",
+      "question_en": "Is angle of attack identical to pitch attitude?",
+      "options": [
+        "Oui",
+        "Oui en virage",
+        "Oui au sol",
+        "Non"
+      ],
+      "correct_answer": "Non",
+      "explanation": "L'incidence se mesure par rapport au vent relatif, l'assiette par rapport à l'horizon.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "Angle of attack is measured against relative airflow; pitch attitude is measured against the horizon.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "principles_of_flight",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "options_en": [
+        "Yes",
+        "Yes, in a turn",
+        "Yes, on the ground",
+        "No"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C03",
+      "concept_title": "Exemple et traînée",
+      "level": 1,
+      "question": "À faible vitesse en palier, l'incidence doit généralement…",
+      "question_en": "At low speed in level flight, angle of attack generally has to…",
+      "options": [
+        "Disparaître",
+        "Rester obligatoirement identique",
+        "Augmenter",
+        "Devenir toujours nulle"
+      ],
+      "correct_answer": "Augmenter",
+      "explanation": "Une incidence plus élevée compense la moindre vitesse jusqu'aux limites aérodynamiques.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "A higher angle of attack compensates for reduced speed up to the aerodynamic limits.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "principles_of_flight",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "options_en": [
+        "Disappear",
+        "Necessarily remain unchanged",
+        "Increase",
+        "Always become zero"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C01",
+      "concept_title": "Quatre forces et équilibre",
+      "level": 2,
+      "question": "En vol rectiligne horizontal stabilisé dans le modèle simplifié de la leçon, quelle force équilibre la traînée ?",
+      "question_en": "In the lesson's simplified model of steady straight-and-level flight, which force balances drag?",
+      "options": [
+        "Une force centrifuge indépendante",
+        "La traction",
+        "Le poids",
+        "La seule composante verticale de la portance"
+      ],
+      "correct_answer": "La traction",
+      "explanation": "Sans accélération dans ce modèle, la traction équilibre la traînée et la portance équilibre approximativement le poids. Un déséquilibre produit une accélération.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "Without acceleration in this model, thrust balances drag and lift approximately balances weight. An imbalance produces acceleration.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "principles_of_flight",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "options_en": [
+        "An independent centrifugal force",
+        "Thrust",
+        "Weight",
+        "Only the vertical component of lift"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C03",
+      "concept_title": "Exemple et traînée",
+      "level": 2,
+      "question": "À masse constante, réduire la vitesse tout en maintenant le palier demande généralement quoi avant le décrochage ?",
+      "question_en": "At constant mass, what is generally required when reducing speed while maintaining level flight before the stall?",
+      "options": [
+        "Une incidence plus élevée, avec davantage de traînée induite",
+        "Une incidence systématiquement nulle",
+        "La disparition de la portance",
+        "Une diminution illimitée de la traînée induite"
+      ],
+      "correct_answer": "Une incidence plus élevée, avec davantage de traînée induite",
+      "explanation": "À plus faible vitesse, le coefficient de portance nécessaire augmente pour soutenir le même poids. L'incidence et la traînée induite augmentent généralement, jusqu'aux limites aérodynamiques.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "At lower speed, a higher lift coefficient is required to support the same weight. Angle of attack and induced drag generally increase, up to the aerodynamic limits.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "principles_of_flight",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "options_en": [
+        "A higher angle of attack with more induced drag",
+        "Always zero angle of attack",
+        "The disappearance of lift",
+        "An unlimited reduction in induced drag"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C01",
+      "concept_title": "Quatre forces et équilibre",
+      "level": 2,
+      "question": "Vrai ou faux ? Une force résultante non nulle produit une accélération.",
+      "question_en": "True or false? A non-zero resultant force produces acceleration.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes quatre forces principales sont le poids, la portance, la traînée et la traction. En vol rectiligne horizontal stabilisé sans accélération, leur résultante est nulle : la portance équilibre approximativement le poids et la traction la traînée. Une force déséquilibrée provoque une accélération, qui peut modifier la vitesse ou la direction du mouvement.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe four main forces are weight, lift, drag and thrust. In steady straight-and-level flight without acceleration, their resultant is zero: lift approximately balances weight and thrust balances drag. An unbalanced force causes acceleration, which can change speed or direction of motion.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C01",
+      "concept_title": "Quatre forces et équilibre",
+      "level": 2,
+      "question": "Vrai ou faux ? Une accélération ne peut changer que la vitesse, jamais la direction.",
+      "question_en": "True or false? Acceleration can change only speed, never direction.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes quatre forces principales sont le poids, la portance, la traînée et la traction. En vol rectiligne horizontal stabilisé sans accélération, leur résultante est nulle : la portance équilibre approximativement le poids et la traction la traînée. Une force déséquilibrée provoque une accélération, qui peut modifier la vitesse ou la direction du mouvement.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "This statement is false.\n\nThe four main forces are weight, lift, drag and thrust. In steady straight-and-level flight without acceleration, their resultant is zero: lift approximately balances weight and thrust balances drag. An unbalanced force causes acceleration, which can change speed or direction of motion.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C01",
+      "concept_title": "Quatre forces et équilibre",
+      "level": 2,
+      "question": "Vrai ou faux ? Le poids est une des quatre forces du modèle.",
+      "question_en": "True or false? Weight is one of the model's four forces.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes quatre forces principales sont le poids, la portance, la traînée et la traction. En vol rectiligne horizontal stabilisé sans accélération, leur résultante est nulle : la portance équilibre approximativement le poids et la traction la traînée. Une force déséquilibrée provoque une accélération, qui peut modifier la vitesse ou la direction du mouvement.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe four main forces are weight, lift, drag and thrust. In steady straight-and-level flight without acceleration, their resultant is zero: lift approximately balances weight and thrust balances drag. An unbalanced force causes acceleration, which can change speed or direction of motion.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C02",
+      "concept_title": "Incidence et portance",
+      "level": 2,
+      "question": "Vrai ou faux ? L'incidence est définie uniquement par rapport à l'horizon.",
+      "question_en": "True or false? Angle of attack is defined only relative to the horizon.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'incidence est l'angle entre une référence de l'aile, souvent la corde, et le vent relatif. Elle n'est pas l'assiette de l'avion par rapport à l'horizon. La portance dépend notamment de la densité, de la vitesse, de la surface et du coefficient de portance lié au profil et à l'incidence. Augmenter l'incidence augmente généralement la portance jusqu'à une limite critique.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "This statement is false.\n\nAngle of attack is the angle between a wing reference, usually the chord, and the relative airflow. It is not the aircraft's pitch attitude relative to the horizon. Lift depends on density, speed, area and the lift coefficient associated with aerofoil shape and angle of attack. Increasing angle of attack generally increases lift up to a critical limit.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C02",
+      "concept_title": "Incidence et portance",
+      "level": 2,
+      "question": "Vrai ou faux ? La densité de l'air intervient dans la portance.",
+      "question_en": "True or false? Air density affects lift.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'incidence est l'angle entre une référence de l'aile, souvent la corde, et le vent relatif. Elle n'est pas l'assiette de l'avion par rapport à l'horizon. La portance dépend notamment de la densité, de la vitesse, de la surface et du coefficient de portance lié au profil et à l'incidence. Augmenter l'incidence augmente généralement la portance jusqu'à une limite critique.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "This statement is true.\n\nAngle of attack is the angle between a wing reference, usually the chord, and the relative airflow. It is not the aircraft's pitch attitude relative to the horizon. Lift depends on density, speed, area and the lift coefficient associated with aerofoil shape and angle of attack. Increasing angle of attack generally increases lift up to a critical limit.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C02",
+      "concept_title": "Incidence et portance",
+      "level": 2,
+      "question": "Vrai ou faux ? La surface alaire intervient aussi dans la portance.",
+      "question_en": "True or false? Wing area also affects lift.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'incidence est l'angle entre une référence de l'aile, souvent la corde, et le vent relatif. Elle n'est pas l'assiette de l'avion par rapport à l'horizon. La portance dépend notamment de la densité, de la vitesse, de la surface et du coefficient de portance lié au profil et à l'incidence. Augmenter l'incidence augmente généralement la portance jusqu'à une limite critique.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "This statement is true.\n\nAngle of attack is the angle between a wing reference, usually the chord, and the relative airflow. It is not the aircraft's pitch attitude relative to the horizon. Lift depends on density, speed, area and the lift coefficient associated with aerofoil shape and angle of attack. Increasing angle of attack generally increases lift up to a critical limit.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C02",
+      "concept_title": "Incidence et portance",
+      "level": 2,
+      "question": "Vrai ou faux ? La portance augmente sans limite avec l'incidence.",
+      "question_en": "True or false? Lift increases without limit with angle of attack.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'incidence est l'angle entre une référence de l'aile, souvent la corde, et le vent relatif. Elle n'est pas l'assiette de l'avion par rapport à l'horizon. La portance dépend notamment de la densité, de la vitesse, de la surface et du coefficient de portance lié au profil et à l'incidence. Augmenter l'incidence augmente généralement la portance jusqu'à une limite critique.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "This statement is false.\n\nAngle of attack is the angle between a wing reference, usually the chord, and the relative airflow. It is not the aircraft's pitch attitude relative to the horizon. Lift depends on density, speed, area and the lift coefficient associated with aerofoil shape and angle of attack. Increasing angle of attack generally increases lift up to a critical limit.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C03",
+      "concept_title": "Exemple et traînée",
+      "level": 2,
+      "question": "Vrai ou faux ? La traînée parasite est toujours négligeable à grande vitesse.",
+      "question_en": "True or false? Parasite drag is always negligible at high speed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÀ faible vitesse en palier, il faut généralement une incidence plus élevée pour soutenir le même poids. La traînée induite augmente alors ; à grande vitesse, la traînée parasite devient importante. Tirer davantage ne crée pas une réserve illimitée de portance. Comprendre cette relation aide à distinguer gestion de vitesse, puissance et trajectoire.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "This statement is false.\n\nAt low speed in level flight, a higher angle of attack is generally needed to support the same weight. Induced drag then increases; at high speed, parasite drag becomes important. Pulling farther back does not create an unlimited supply of lift. This relationship helps distinguish management of speed, power and flight path.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C03",
+      "concept_title": "Exemple et traînée",
+      "level": 2,
+      "question": "Vrai ou faux ? La gestion de puissance et de trajectoire doit tenir compte de la traînée.",
+      "question_en": "True or false? Power and flight-path management must account for drag.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÀ faible vitesse en palier, il faut généralement une incidence plus élevée pour soutenir le même poids. La traînée induite augmente alors ; à grande vitesse, la traînée parasite devient importante. Tirer davantage ne crée pas une réserve illimitée de portance. Comprendre cette relation aide à distinguer gestion de vitesse, puissance et trajectoire.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "This statement is true.\n\nAt low speed in level flight, a higher angle of attack is generally needed to support the same weight. Induced drag then increases; at high speed, parasite drag becomes important. Pulling farther back does not create an unlimited supply of lift. This relationship helps distinguish management of speed, power and flight path.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_001_C03",
+      "concept_title": "Exemple et traînée",
+      "level": 2,
+      "question": "Vrai ou faux ? À masse identique, ralentir en palier exige toujours de réduire l'incidence.",
+      "question_en": "True or false? At the same mass, slowing in level flight always requires reducing angle of attack.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÀ faible vitesse en palier, il faut généralement une incidence plus élevée pour soutenir le même poids. La traînée induite augmente alors ; à grande vitesse, la traînée parasite devient importante. Tirer davantage ne crée pas une réserve illimitée de portance. Comprendre cette relation aide à distinguer gestion de vitesse, puissance et trajectoire.\n\n![En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.](/illustrations/lapl-pof-001.svg)",
+      "explanation_en": "This statement is false.\n\nAt low speed in level flight, a higher angle of attack is generally needed to support the same weight. Induced drag then increases; at high speed, parasite drag becomes important. Pulling farther back does not create an unlimited supply of lift. This relationship helps distinguish management of speed, power and flight path.\n\n![Diagram: Lift, drag and flight equilibrium](/illustrations/en/lapl-pof-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

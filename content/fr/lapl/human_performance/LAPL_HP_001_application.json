@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "module_id": "LAPL_HP_001",
+    "program": "LAPL",
+    "subject": "Human Performance",
+    "chapter_title": "Aptitude du pilote et limites physiologiques",
+    "chapter_title_en": "Pilot fitness and physiological limitations",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: fitness on the day; perception and altitude; a decision example.",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "tags": [
+      "LAPL",
+      "human_performance"
+    ],
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : aptitude du jour; perception et altitude; exemple de décision.",
+    "estimated_duration_minutes": 10,
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitres 2 et 17 : décision et facteurs aéromédicaux",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-hp-001.svg",
+      "alt": "Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison."
+    },
+    "exam_subject": "human_performance",
+    "coverage_status": "partial",
+    "derived_from": "PPL_HP_001",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_HP_001_C01",
+      "title": "Aptitude du jour",
+      "title_en": "Fitness on the day",
+      "content": "![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)\n\nÊtre administrativement apte ne signifie pas être dans une condition favorable à chaque vol. Fatigue, maladie, stress, alcool, médicaments et manque d'alimentation peuvent altérer attention et jugement. Une baisse de performance est parfois difficile à percevoir soi-même. Le pilote doit réévaluer son état avant le vol et demander un avis aéromédical pour les situations qui le nécessitent.",
+      "content_en": "![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)\n\nAdministrative fitness does not mean being in a suitable condition for every flight. Fatigue, illness, stress, alcohol, medication and inadequate food can impair attention and judgement. Reduced performance is sometimes difficult to recognise in oneself. Reassess fitness before flight and seek aeromedical advice when the situation requires it.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "learning_objective": "Aptitude du jour"
+    },
+    {
+      "concept_id": "LAPL_HP_001_C02",
+      "title": "Perception et altitude",
+      "title_en": "Perception and altitude",
+      "content": "L'hypoxie correspond à un apport insuffisant d'oxygène aux tissus et peut dégrader le jugement. La désorientation spatiale apparaît lorsque les perceptions donnent une représentation erronée de l'attitude ou du mouvement. Sans références visuelles fiables, les sensations corporelles peuvent tromper. Un pilote VFR doit éviter de se placer volontairement dans cette situation et maintenir des options de repli.",
+      "content_en": "Hypoxia is an inadequate oxygen supply to tissues and can degrade judgement. Spatial disorientation occurs when perceptions misrepresent attitude or motion. Without reliable visual references, bodily sensations can mislead. A VFR pilot should avoid deliberately entering such a situation and retain fallback options.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "learning_objective": "Perception et altitude"
+    },
+    {
+      "concept_id": "LAPL_HP_001_C03",
+      "title": "Exemple de décision",
+      "title_en": "A decision example",
+      "content": "Après une nuit très courte, un pilote prévoit une navigation longue dans une météo limite. Le cumul fatigue, charge de travail et faible marge météo compte davantage qu'un seul facteur pris isolément. Reporter le vol ou réduire l'objectif peut être la décision adaptée. Un médicament habituel ne doit pas être supposé compatible avec le vol sans vérification appropriée.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "After a very short night's sleep, a pilot plans a long navigation in marginal weather. The combined fatigue, workload and small weather margin matter more than any single factor in isolation. Postponing or reducing the objective may be appropriate. Do not assume a familiar medication is compatible with flying without appropriate checks.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "learning_objective": "Exemple de décision"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_HP_001_C01",
+      "concept_title": "Aptitude du jour",
+      "level": 1,
+      "question": "Une aptitude médicale valide garantit-elle une vigilance suffisante chaque jour ?",
+      "question_en": "Does a valid medical guarantee sufficient alertness every day?",
+      "options": [
+        "Oui après un café",
+        "Non",
+        "Oui",
+        "Oui de jour"
+      ],
+      "correct_answer": "Non",
+      "explanation": "La fatigue et l'état de santé du jour doivent aussi être évalués.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "Fatigue and health on the day must also be assessed.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "human_performance",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Yes, after coffee",
+        "No",
+        "Yes",
+        "Yes, by day"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C02",
+      "concept_title": "Perception et altitude",
+      "level": 1,
+      "question": "Les sensations corporelles sont-elles toujours fiables sans horizon visible ?",
+      "question_en": "Are bodily sensations always reliable without a visible horizon?",
+      "options": [
+        "Non",
+        "Oui",
+        "Oui après quelques minutes",
+        "Oui à faible vitesse"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Le système sensoriel peut produire des illusions de mouvement et d'attitude.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "The sensory system can create illusions of movement and attitude.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "human_performance",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "No",
+        "Yes",
+        "Yes, after a few minutes",
+        "Yes, at low speed"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C03",
+      "concept_title": "Exemple de décision",
+      "level": 1,
+      "question": "Pourquoi évaluer plusieurs menaces ensemble ?",
+      "question_en": "Why assess several threats together?",
+      "options": [
+        "Elles s'annulent toujours",
+        "Une seule compte légalement",
+        "Cela remplace la préparation météo",
+        "Leurs effets peuvent se cumuler"
+      ],
+      "correct_answer": "Leurs effets peuvent se cumuler",
+      "explanation": "La combinaison fatigue, météo et charge de travail peut dépasser les marges disponibles.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "The combination of fatigue, weather and workload may exceed available margins.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "human_performance",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "They always cancel out",
+        "Only one matters legally",
+        "It replaces weather preparation",
+        "Their effects can combine"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C01",
+      "concept_title": "Aptitude du jour",
+      "level": 2,
+      "question": "Vous avez très peu dormi avant une navigation exigeante. Quelle réponse tient compte du risque ?",
+      "question_en": "You have slept very little before a demanding navigation. Which response accounts for the risk?",
+      "options": [
+        "Supposer que la motivation compense toujours la fatigue",
+        "Attendre la première erreur en vol pour décider",
+        "Réévaluer le projet, jusqu'au report si nécessaire",
+        "Se fier uniquement à la validité du certificat médical"
+      ],
+      "correct_answer": "Réévaluer le projet, jusqu'au report si nécessaire",
+      "explanation": "L'aptitude du jour dépend notamment de la fatigue et de la charge prévue. Une validité administrative ne garantit pas la vigilance nécessaire à ce vol.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "Fitness on the day depends on fatigue and expected workload, among other things. Administrative validity does not guarantee the alertness this flight requires.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "human_performance",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Assume motivation always compensates for fatigue",
+        "Wait for the first in-flight error before deciding",
+        "Reassess the plan, including postponement if necessary",
+        "Rely only on medical certificate validity"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C02",
+      "concept_title": "Perception et altitude",
+      "level": 2,
+      "question": "Pourquoi une dégradation du jugement liée à l'hypoxie est-elle particulièrement trompeuse ?",
+      "question_en": "Why is impaired judgement from hypoxia particularly deceptive?",
+      "options": [
+        "Elle est exclue dès que la météo est dégagée",
+        "Le pilote peut mal percevoir sa propre baisse de performance",
+        "Elle améliore toujours la capacité d'autoévaluation",
+        "Elle concerne seulement la précision du GPS"
+      ],
+      "correct_answer": "Le pilote peut mal percevoir sa propre baisse de performance",
+      "explanation": "L'hypoxie peut altérer les fonctions mentales et le jugement. L'autoévaluation n'est donc pas une protection suffisante ; les limites et procédures applicables doivent être anticipées.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "Hypoxia may impair mental function and judgement. Self-assessment alone is therefore insufficient protection; anticipate the applicable limits and procedures.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "human_performance",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "It is excluded whenever the weather is clear",
+        "The pilot may poorly recognise their own performance decline",
+        "It always improves self-assessment",
+        "It affects only GPS accuracy"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C01",
+      "concept_title": "Aptitude du jour",
+      "level": 2,
+      "question": "Vrai ou faux ? La maladie et une alimentation inadaptée peuvent altérer l'attention.",
+      "question_en": "True or false? Illness and inadequate food can impair attention.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÊtre administrativement apte ne signifie pas être dans une condition favorable à chaque vol. Fatigue, maladie, stress, alcool, médicaments et manque d'alimentation peuvent altérer attention et jugement. Une baisse de performance est parfois difficile à percevoir soi-même. Le pilote doit réévaluer son état avant le vol et demander un avis aéromédical pour les situations qui le nécessitent.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "This statement is true.\n\nAdministrative fitness does not mean being in a suitable condition for every flight. Fatigue, illness, stress, alcohol, medication and inadequate food can impair attention and judgement. Reduced performance is sometimes difficult to recognise in oneself. Reassess fitness before flight and seek aeromedical advice when the situation requires it.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C01",
+      "concept_title": "Aptitude du jour",
+      "level": 2,
+      "question": "Vrai ou faux ? Une baisse de performance est toujours facilement reconnue par celui qui la subit.",
+      "question_en": "True or false? A performance decline is always easily recognised by the person experiencing it.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÊtre administrativement apte ne signifie pas être dans une condition favorable à chaque vol. Fatigue, maladie, stress, alcool, médicaments et manque d'alimentation peuvent altérer attention et jugement. Une baisse de performance est parfois difficile à percevoir soi-même. Le pilote doit réévaluer son état avant le vol et demander un avis aéromédical pour les situations qui le nécessitent.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "This statement is false.\n\nAdministrative fitness does not mean being in a suitable condition for every flight. Fatigue, illness, stress, alcohol, medication and inadequate food can impair attention and judgement. Reduced performance is sometimes difficult to recognise in oneself. Reassess fitness before flight and seek aeromedical advice when the situation requires it.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C01",
+      "concept_title": "Aptitude du jour",
+      "level": 2,
+      "question": "Vrai ou faux ? Un avis aéromédical peut être nécessaire selon la situation.",
+      "question_en": "True or false? Aeromedical advice may be needed depending on the situation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÊtre administrativement apte ne signifie pas être dans une condition favorable à chaque vol. Fatigue, maladie, stress, alcool, médicaments et manque d'alimentation peuvent altérer attention et jugement. Une baisse de performance est parfois difficile à percevoir soi-même. Le pilote doit réévaluer son état avant le vol et demander un avis aéromédical pour les situations qui le nécessitent.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "This statement is true.\n\nAdministrative fitness does not mean being in a suitable condition for every flight. Fatigue, illness, stress, alcohol, medication and inadequate food can impair attention and judgement. Reduced performance is sometimes difficult to recognise in oneself. Reassess fitness before flight and seek aeromedical advice when the situation requires it.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C02",
+      "concept_title": "Perception et altitude",
+      "level": 2,
+      "question": "Vrai ou faux ? La désorientation spatiale donne toujours une représentation exacte de l'attitude.",
+      "question_en": "True or false? Spatial disorientation always gives an accurate perception of attitude.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'hypoxie correspond à un apport insuffisant d'oxygène aux tissus et peut dégrader le jugement. La désorientation spatiale apparaît lorsque les perceptions donnent une représentation erronée de l'attitude ou du mouvement. Sans références visuelles fiables, les sensations corporelles peuvent tromper. Un pilote VFR doit éviter de se placer volontairement dans cette situation et maintenir des options de repli.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "This statement is false.\n\nHypoxia is an inadequate oxygen supply to tissues and can degrade judgement. Spatial disorientation occurs when perceptions misrepresent attitude or motion. Without reliable visual references, bodily sensations can mislead. A VFR pilot should avoid deliberately entering such a situation and retain fallback options.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C02",
+      "concept_title": "Perception et altitude",
+      "level": 2,
+      "question": "Vrai ou faux ? L'hypoxie correspond à un apport insuffisant d'oxygène aux tissus.",
+      "question_en": "True or false? Hypoxia is an inadequate oxygen supply to tissues.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'hypoxie correspond à un apport insuffisant d'oxygène aux tissus et peut dégrader le jugement. La désorientation spatiale apparaît lorsque les perceptions donnent une représentation erronée de l'attitude ou du mouvement. Sans références visuelles fiables, les sensations corporelles peuvent tromper. Un pilote VFR doit éviter de se placer volontairement dans cette situation et maintenir des options de repli.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "This statement is true.\n\nHypoxia is an inadequate oxygen supply to tissues and can degrade judgement. Spatial disorientation occurs when perceptions misrepresent attitude or motion. Without reliable visual references, bodily sensations can mislead. A VFR pilot should avoid deliberately entering such a situation and retain fallback options.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C02",
+      "concept_title": "Perception et altitude",
+      "level": 2,
+      "question": "Vrai ou faux ? Un pilote VFR peut rechercher volontairement la perte des références visuelles sans précaution.",
+      "question_en": "True or false? A VFR pilot may deliberately seek loss of visual references without precautions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'hypoxie correspond à un apport insuffisant d'oxygène aux tissus et peut dégrader le jugement. La désorientation spatiale apparaît lorsque les perceptions donnent une représentation erronée de l'attitude ou du mouvement. Sans références visuelles fiables, les sensations corporelles peuvent tromper. Un pilote VFR doit éviter de se placer volontairement dans cette situation et maintenir des options de repli.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "This statement is false.\n\nHypoxia is an inadequate oxygen supply to tissues and can degrade judgement. Spatial disorientation occurs when perceptions misrepresent attitude or motion. Without reliable visual references, bodily sensations can mislead. A VFR pilot should avoid deliberately entering such a situation and retain fallback options.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Fatigue et météo marginale doivent être évaluées conjointement.",
+      "question_en": "True or false? Fatigue and marginal weather should be assessed together.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nAprès une nuit très courte, un pilote prévoit une navigation longue dans une météo limite. Le cumul fatigue, charge de travail et faible marge météo compte davantage qu'un seul facteur pris isolément. Reporter le vol ou réduire l'objectif peut être la décision adaptée. Un médicament habituel ne doit pas être supposé compatible avec le vol sans vérification appropriée.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "This statement is true.\n\nAfter a very short night's sleep, a pilot plans a long navigation in marginal weather. The combined fatigue, workload and small weather margin matter more than any single factor in isolation. Postponing or reducing the objective may be appropriate. Do not assume a familiar medication is compatible with flying without appropriate checks.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Un médicament familier est automatiquement compatible avec le vol.",
+      "question_en": "True or false? A familiar medication is automatically compatible with flying.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nAprès une nuit très courte, un pilote prévoit une navigation longue dans une météo limite. Le cumul fatigue, charge de travail et faible marge météo compte davantage qu'un seul facteur pris isolément. Reporter le vol ou réduire l'objectif peut être la décision adaptée. Un médicament habituel ne doit pas être supposé compatible avec le vol sans vérification appropriée.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "This statement is false.\n\nAfter a very short night's sleep, a pilot plans a long navigation in marginal weather. The combined fatigue, workload and small weather margin matter more than any single factor in isolation. Postponing or reducing the objective may be appropriate. Do not assume a familiar medication is compatible with flying without appropriate checks.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Réduire l'objectif du voyage peut être une décision adaptée à l'état du jour.",
+      "question_en": "True or false? Reducing the journey objective may suit the pilot's condition on the day.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nAprès une nuit très courte, un pilote prévoit une navigation longue dans une météo limite. Le cumul fatigue, charge de travail et faible marge météo compte davantage qu'un seul facteur pris isolément. Reporter le vol ou réduire l'objectif peut être la décision adaptée. Un médicament habituel ne doit pas être supposé compatible avec le vol sans vérification appropriée.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "This statement is true.\n\nAfter a very short night's sleep, a pilot plans a long navigation in marginal weather. The combined fatigue, workload and small weather margin matter more than any single factor in isolation. Postponing or reducing the objective may be appropriate. Do not assume a familiar medication is compatible with flying without appropriate checks.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_001_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? La motivation garantit de compenser une nuit très courte.",
+      "question_en": "True or false? Motivation guarantees compensation for a very short night's sleep.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nAprès une nuit très courte, un pilote prévoit une navigation longue dans une météo limite. Le cumul fatigue, charge de travail et faible marge météo compte davantage qu'un seul facteur pris isolément. Reporter le vol ou réduire l'objectif peut être la décision adaptée. Un médicament habituel ne doit pas être supposé compatible avec le vol sans vérification appropriée.\n\n![Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.](/illustrations/lapl-hp-001.svg)",
+      "explanation_en": "This statement is false.\n\nAfter a very short night's sleep, a pilot plans a long navigation in marginal weather. The combined fatigue, workload and small weather margin matter more than any single factor in isolation. Postponing or reducing the objective may be appropriate. Do not assume a familiar medication is compatible with flying without appropriate checks.\n\n![Diagram: Pilot fitness and physiological limitations](/illustrations/en/lapl-hp-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

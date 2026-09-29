@@ -1,0 +1,628 @@
+{
+  "metadata": {
+    "module_id": "IR_040_001",
+    "program": "IR",
+    "subject": "human_performance",
+    "chapter_title": "Perception, désorientation et capacités en IMC",
+    "chapter_title_en": "Perception, disorientation and capability in IMC",
+    "reference_checked_on": "2026-09-27",
+    "learning_objective": "Résoudre et vérifier les exercices de perception, désorientation et capacités en imc.",
+    "learning_objective_en": "Solve and cross-check exercises on perception, disorientation and capability in imc.",
+    "estimated_duration_minutes": 35,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Calcul des proportions et des durées ; bases PPL du sujet"
+    ],
+    "exam_subject": "040",
+    "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040",
+    "official_subject_format": {
+      "questions": 35,
+      "minutes": 60,
+      "pass_percent": 75,
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+    },
+    "sources": [
+      {
+        "title": "EASA — programme Part-FCL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+      },
+      {
+        "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      },
+      {
+        "title": "FAA AIM — medical facts for pilots",
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      }
+    ],
+    "content_status": "draft",
+    "coverage_status": "partial",
+    "scope": "IR(A), France / EASA",
+    "quiz_format": "chapter_practice",
+    "tags": [
+      "IR",
+      "mcq-four-options"
+    ],
+    "illustration": {
+      "src": "/illustrations/ir-040-001.svg",
+      "alt": "Perception, désorientation et capacités en IMC"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "IR_040_001_C01",
+      "title": "Recouper les références",
+      "title_en": "Cross-check references",
+      "content": "![IR_040_001](/illustrations/ir-040-001.svg)\n\nSans horizon extérieur fiable, les sensations corporelles ne suffisent pas à connaître l’attitude. Les canaux semi-circulaires répondent aux accélérations angulaires ; une rotation prolongée peut ne plus être ressentie. Les organes otolithiques répondent à l’accélération résultante, sans distinguer parfaitement gravité et accélération linéaire. Maintenir un circuit de surveillance des instruments fiables, recouper leurs indications et appliquer la procédure de panne si elles divergent.",
+      "content_en": "![IR_040_001](/illustrations/en/ir-040-001.svg)\n\nWithout a reliable external horizon, bodily sensations cannot reliably establish attitude. Semicircular canals respond to angular acceleration; prolonged rotation may cease to be sensed. Otolith organs respond to resultant acceleration without perfectly distinguishing gravity from linear acceleration. Maintain a scan of reliable instruments, cross-check indications and follow failure procedures if they disagree.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 040",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_040_001_C02",
+      "title": "Reconnaître les illusions",
+      "title_en": "Recognise illusions",
+      "content": "Une accélération longitudinale peut être perçue comme une augmentation de l’assiette : c’est l’illusion somatogravique. Pousser pour corriger cette sensation sans vérifier les instruments peut abaisser dangereusement la trajectoire. Après un virage prolongé, la remise à plat peut donner une impression de virage opposé. Un mouvement brusque de tête pendant une rotation peut déclencher une illusion de Coriolis. Ces mécanismes justifient l’entraînement instrumental et des mouvements de tête mesurés.",
+      "content_en": "Longitudinal acceleration can be perceived as increasing pitch: the somatogravic illusion. Pushing to correct that sensation without checking instruments can dangerously lower the flight path. After a prolonged turn, levelling the wings may feel like turning in the opposite direction. An abrupt head movement during rotation may trigger a Coriolis illusion. These mechanisms support instrument training and restrained head movements.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 040",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_040_001_C03",
+      "title": "Distinguer les mécanismes respiratoires",
+      "title_en": "Distinguish respiratory mechanisms",
+      "content": "L’hypoxie est un manque d’oxygène utilisable par les tissus ; elle peut altérer le jugement avant que le pilote identifie le problème. En altitude, la baisse de pression réduit la pression partielle d’oxygène sans diminuer fortement sa proportion dans l’air. L’hyperventilation élimine trop de CO₂ ; certains symptômes ressemblent à ceux de l’hypoxie. Ne pas conclure au stress seul : assurer le pilotage, appliquer les procédures d’oxygène et de descente pertinentes. Le CO, incolore et inodore, gêne le transport d’oxygène ; sa présence peut provenir d’une fuite d’échappement.",
+      "content_en": "Hypoxia is insufficient oxygen available to tissues; it can impair judgement before the pilot recognises the problem. At altitude, reduced pressure lowers oxygen partial pressure without greatly changing its proportion in air. Hyperventilation removes too much CO₂; some symptoms resemble hypoxia. Do not assume stress alone: maintain aircraft control and apply relevant oxygen and descent procedures. Colourless, odourless CO impairs oxygen transport and may enter through an exhaust leak.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 040",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_040_001_C04",
+      "title": "Préserver l’attention",
+      "title_en": "Preserve attention",
+      "content": "La fixation sur une indication fait négliger d’autres paramètres ; un balayage structuré limite ce risque. Une alarme doit être analysée avec la trajectoire et des indications recoupées, sans ignorer ses procédures. Fatigue et charge de travail réduisent les ressources disponibles. Préparer les changements avant les phases chargées, différer ce qui peut attendre et demander de l’aide ou du temps. En cas de symptômes compatibles avec une contamination, appliquer la procédure de l’avion et atterrir dès que possible en sécurité ; ne pas attendre une preuve olfactive.\n\n**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. La matière 040 comporte 35 questions en 60 minutes dans le tableau EASA cité. Ce chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.",
+      "content_en": "Fixation on one indication neglects other parameters; a structured scan limits this risk. Analyse a warning with flight-path information and cross-checked indications, while following its procedures. Fatigue and workload reduce available resources. Prepare changes before busy phases, defer non-essential work and request help or time. For symptoms compatible with contamination, follow aircraft procedures and land as soon as safely possible; do not wait for an odour as proof.\n\n**Practice format:** 15 chapter MCQs, four choices and one correct answer. Subject 040 has 35 questions in 60 minutes in the cited EASA table. This chapter covers only part of the subject and is not a full paper. EASA framework, including with English or US/British units.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 040",
+      "tags": [
+        "IR"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "IR_040_001_C01",
+      "concept_title": "Recouper les références",
+      "level": 3,
+      "question": "En IMC sans horizon visible, une sensation de vol à plat suffit-elle à établir l’attitude ?",
+      "question_en": "In IMC without a visible horizon, is a sensation of level flight sufficient to establish attitude?",
+      "options": [
+        "Non, recouper les instruments fiables",
+        "Oui, si elle dure longtemps",
+        "Oui, si la vitesse paraît constante",
+        "Oui, pour un pilote expérimenté"
+      ],
+      "options_en": [
+        "No, cross-check reliable instruments",
+        "Yes, if prolonged",
+        "Yes, if speed feels constant",
+        "Yes, for an experienced pilot"
+      ],
+      "correct_answer": "Non, recouper les instruments fiables",
+      "explanation": "Les sensations vestibulaires peuvent devenir trompeuses.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "Vestibular sensations may be misleading.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C01",
+      "concept_title": "Recouper les références",
+      "level": 3,
+      "question": "Les canaux semi-circulaires répondent principalement aux…",
+      "question_en": "Semicircular canals primarily respond to…",
+      "options": [
+        "Accélérations linéaires seules",
+        "Inclinaisons statiques mesurées sans ambiguïté",
+        "Vitesses de rotation constantes ressenties indéfiniment",
+        "Accélérations angulaires"
+      ],
+      "options_en": [
+        "Linear accelerations alone",
+        "Unambiguously measured static bank angles",
+        "Constant rotation rates sensed indefinitely",
+        "Angular accelerations"
+      ],
+      "correct_answer": "Accélérations angulaires",
+      "explanation": "Distinguer accélération et vitesse de rotation : la sensation peut s’atténuer pendant un virage prolongé. Les canaux ne donnent pas une mesure absolue d’inclinaison.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "Distinguish acceleration from rotation rate: sensation may fade during a prolonged turn. The canals do not provide an absolute bank measurement.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C01",
+      "concept_title": "Recouper les références",
+      "level": 3,
+      "question": "Pourquoi une accélération longitudinale peut-elle être prise pour un changement d’assiette ?",
+      "question_en": "Why can longitudinal acceleration be mistaken for a pitch change?",
+      "options": [
+        "Les otolithes isolent parfaitement la gravité",
+        "La vision périphérique donne toujours l’horizon réel",
+        "Les otolithes répondent à la résultante gravité-accélération",
+        "Les canaux semi-circulaires mesurent directement la pente"
+      ],
+      "options_en": [
+        "Otolith organs perfectly isolate gravity",
+        "Peripheral vision always provides the true horizon",
+        "Otolith organs respond to the combined gravity-acceleration vector",
+        "Semicircular canals directly measure flight-path angle"
+      ],
+      "correct_answer": "Les otolithes répondent à la résultante gravité-accélération",
+      "explanation": "Sans repère visuel fiable, la résultante peut être interprétée comme une inclinaison du corps. La gravité n’est pas isolée de l’accélération linéaire.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "Without a reliable visual reference, the resultant may be interpreted as body tilt. Gravity is not isolated from linear acceleration.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C02",
+      "concept_title": "Reconnaître les illusions",
+      "level": 3,
+      "question": "Au décollage de nuit sans horizon, une forte accélération longitudinale peut créer l’impression…",
+      "question_en": "During a night take-off without a visible horizon, strong forward acceleration can create the impression of…",
+      "options": [
+        "Une assiette fiable tant que l’accélération persiste",
+        "Une assiette plus cabrée",
+        "Une assiette plus piquée",
+        "Une inclinaison latérale liée au seul sens de la piste"
+      ],
+      "options_en": [
+        "A reliable pitch attitude while acceleration continues",
+        "A more nose-up attitude",
+        "A more nose-down attitude",
+        "Bank determined solely by runway direction"
+      ],
+      "correct_answer": "Une assiette plus cabrée",
+      "explanation": "L’illusion somatogravique peut faire croire à un cabré excessif. La réponse sûre repose sur les instruments fiables ; la sensation ne constitue pas une mesure d’assiette.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "The somatogravic illusion may suggest excessive pitch-up. A safe response relies on reliable instruments; sensation is not a pitch measurement.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C02",
+      "concept_title": "Reconnaître les illusions",
+      "level": 3,
+      "question": "En accélération IMC, le pilote ressent un cabré excessif alors que les instruments fiables montrent l’assiette prévue. Quel danger présente une poussée fondée sur la seule sensation ?",
+      "question_en": "During acceleration in IMC, the pilot feels excessive pitch-up while reliable instruments show the intended attitude. What risk comes from pushing based solely on sensation?",
+      "options": [
+        "Abaisser la trajectoire alors que l’assiette était correcte",
+        "Maintenir nécessairement la trajectoire initiale",
+        "Corriger un décrochage démontré par cette sensation",
+        "Rétablir une référence vestibulaire plus fiable que les instruments"
+      ],
+      "options_en": [
+        "Lowering the flight path when attitude was correct",
+        "Necessarily maintaining the original flight path",
+        "Correcting a stall proven by that sensation",
+        "Restoring a vestibular reference more reliable than instruments"
+      ],
+      "correct_answer": "Abaisser la trajectoire alors que l’assiette était correcte",
+      "explanation": "L’illusion somatogravique peut conduire à une commande inadaptée. Une sensation de cabré ne démontre ni incidence critique ni erreur des instruments recoupés.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "The somatogravic illusion may lead to an inappropriate input. A pitch-up sensation proves neither critical angle of attack nor failure of cross-checked instruments.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C02",
+      "concept_title": "Reconnaître les illusions",
+      "level": 3,
+      "question": "Après un virage prolongé à droite, une remise à plat correcte aux instruments peut donner l’impression…",
+      "question_en": "After a prolonged right turn, correctly levelling the wings on instruments may feel like…",
+      "options": [
+        "Une preuve que le virage à droite continue",
+        "Une mesure exacte d’inclinaison nulle",
+        "Une accélération longitudinale nécessairement positive",
+        "Un virage à gauche"
+      ],
+      "options_en": [
+        "Proof that the right turn continues",
+        "An exact zero-bank measurement",
+        "Necessarily positive longitudinal acceleration",
+        "A left turn"
+      ],
+      "correct_answer": "Un virage à gauche",
+      "explanation": "La sortie du virage stimule le système adapté à la rotation précédente. Suivre cette impression en rétablissant le virage initial recréerait une inclinaison réelle.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "Rollout stimulates the system adapted to the previous rotation. Following that sensation by restoring the original turn would recreate a real bank.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C02",
+      "concept_title": "Reconnaître les illusions",
+      "level": 3,
+      "question": "En virage IMC prolongé, le pilote baisse brusquement la tête vers une carte et perçoit un basculement complexe. Mécanisme le plus évocateur ?",
+      "question_en": "During a prolonged IMC turn, the pilot abruptly looks down at a chart and senses complex tumbling. Most suggestive mechanism?",
+      "options": [
+        "Illusion de largeur de piste",
+        "Illusion somatogravique par seule accélération rectiligne",
+        "Illusion de Coriolis",
+        "Autocinésie d’un point lumineux fixe"
+      ],
+      "options_en": [
+        "Runway-width illusion",
+        "Somatogravic illusion from straight-line acceleration alone",
+        "Coriolis illusion",
+        "Autokinesis of a stationary light"
+      ],
+      "correct_answer": "Illusion de Coriolis",
+      "explanation": "Le mouvement de tête pendant la rotation stimule plusieurs axes vestibulaires. Les autres propositions décrivent des déclencheurs différents ; ce scénario ne constitue pas un diagnostic médical.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "Head movement during rotation stimulates multiple vestibular axes. The alternatives describe different triggers; this scenario is not a medical diagnosis.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C03",
+      "concept_title": "Distinguer les mécanismes respiratoires",
+      "level": 3,
+      "question": "En altitude, la cause de l’hypoxie hypoxique est surtout…",
+      "question_en": "At altitude, hypoxic hypoxia is primarily caused by…",
+      "options": [
+        "La seule baisse de température",
+        "La baisse de pression partielle d’oxygène",
+        "La disparition de tout oxygène dans l’air",
+        "La hausse du CO₂ atmosphérique"
+      ],
+      "options_en": [
+        "Lower temperature alone",
+        "Reduced oxygen partial pressure",
+        "All oxygen disappearing from air",
+        "Increased atmospheric CO₂"
+      ],
+      "correct_answer": "La baisse de pression partielle d’oxygène",
+      "explanation": "La proportion d’oxygène reste voisine, mais sa pression partielle diminue.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "The oxygen proportion remains similar, but partial pressure decreases.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C03",
+      "concept_title": "Distinguer les mécanismes respiratoires",
+      "level": 3,
+      "question": "Une ventilation excessive par rapport aux besoins métaboliques provoque notamment…",
+      "question_en": "Ventilation excessive relative to metabolic needs particularly causes…",
+      "options": [
+        "Une élimination excessive de CO₂",
+        "Une accumulation de CO₂ par cette seule ventilation",
+        "Une fixation du CO sur l’hémoglobine",
+        "Une baisse obligatoire de la proportion d’oxygène ambiant"
+      ],
+      "options_en": [
+        "Excessive CO₂ loss",
+        "CO₂ accumulation from that ventilation alone",
+        "CO binding to haemoglobin",
+        "A necessary fall in ambient oxygen proportion"
+      ],
+      "correct_answer": "Une élimination excessive de CO₂",
+      "explanation": "L’hyperventilation abaisse le CO₂ sanguin. La fixation du CO relève d’une intoxication différente ; la composition de l’air ambiant n’est pas modifiée par ce mécanisme.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "Hyperventilation lowers blood CO₂. CO binding is a different poisoning mechanism; ambient air composition is not altered by this mechanism.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C03",
+      "concept_title": "Distinguer les mécanismes respiratoires",
+      "level": 3,
+      "question": "Des symptômes compatibles avec hypoxie et hyperventilation permettent-ils de conclure au stress seul ?",
+      "question_en": "Do symptoms compatible with both hypoxia and hyperventilation establish stress alone as the cause?",
+      "options": [
+        "Oui, si le pilote est inquiet",
+        "Oui, si le vol est court",
+        "Oui, avec une bonne visibilité extérieure",
+        "Non"
+      ],
+      "options_en": [
+        "Yes, if the pilot is anxious",
+        "Yes, on a short flight",
+        "Yes, with good outside visibility",
+        "No"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Des symptômes similaires peuvent avoir des mécanismes différents.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "Similar symptoms may have different mechanisms.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C03",
+      "concept_title": "Distinguer les mécanismes respiratoires",
+      "level": 3,
+      "question": "Pourquoi une contamination au CO peut-elle entraîner une hypoxie même à basse altitude ?",
+      "question_en": "Why can CO contamination cause hypoxia even at low altitude?",
+      "options": [
+        "Le CO agit uniquement en augmentant la ventilation",
+        "Une hypoxie exige toujours une altitude élevée",
+        "Le CO gêne le transport d’oxygène par l’hémoglobine",
+        "Le CO réduit nécessairement la pression cabine"
+      ],
+      "options_en": [
+        "CO acts only by increasing ventilation",
+        "Hypoxia always requires high altitude",
+        "CO impairs oxygen transport by haemoglobin",
+        "CO necessarily lowers cabin pressure"
+      ],
+      "correct_answer": "Le CO gêne le transport d’oxygène par l’hémoglobine",
+      "explanation": "L’apport d’oxygène aux tissus peut être compromis malgré une pression ambiante normale. La baisse de pression en altitude est un autre mécanisme d’hypoxie.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "Oxygen delivery to tissues may be compromised despite normal ambient pressure. Reduced pressure at altitude is a different hypoxia mechanism.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C04",
+      "concept_title": "Préserver l’attention",
+      "level": 3,
+      "question": "L’absence d’odeur permet-elle d’écarter une contamination au CO ?",
+      "question_en": "Does absence of odour rule out CO contamination?",
+      "options": [
+        "Oui, avant toute céphalée",
+        "Non, le CO est inodore",
+        "Oui, dans un avion à piston",
+        "Oui, si le chauffage fonctionne"
+      ],
+      "options_en": [
+        "Yes, before any headache",
+        "No, CO is odourless",
+        "Yes, in a piston aircraft",
+        "Yes, if heating works"
+      ],
+      "correct_answer": "Non, le CO est inodore",
+      "explanation": "Ne pas attendre une preuve olfactive pour appliquer les procédures pertinentes.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "Do not wait for smell as proof before applying relevant procedures.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C04",
+      "concept_title": "Préserver l’attention",
+      "level": 3,
+      "question": "Fixer longtemps un seul instrument favorise…",
+      "question_en": "Staring at one instrument for a long time promotes…",
+      "options": [
+        "La négligence d’autres paramètres",
+        "Une surveillance complète",
+        "L’indépendance des capteurs",
+        "La disparition des erreurs d’attention"
+      ],
+      "options_en": [
+        "Neglect of other parameters",
+        "Complete monitoring",
+        "Sensor independence",
+        "Elimination of attention errors"
+      ],
+      "correct_answer": "La négligence d’autres paramètres",
+      "explanation": "Un circuit de surveillance permet de conserver une vue d’ensemble.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "A scan helps maintain an overall picture.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C04",
+      "concept_title": "Préserver l’attention",
+      "level": 3,
+      "question": "Une préparation tardive surcharge le pilote en approche. Mesure adaptée ?",
+      "question_en": "Late preparation overloads the pilot on approach. Appropriate measure?",
+      "options": [
+        "Terminer toutes les saisies avant de surveiller l’altitude",
+        "Ignorer toutes les alarmes",
+        "Accélérer pour terminer plus tôt",
+        "Prioriser la trajectoire et demander du temps si nécessaire"
+      ],
+      "options_en": [
+        "Finish every entry before monitoring altitude",
+        "Ignore every warning",
+        "Accelerate to finish sooner",
+        "Prioritise flight path and request time if necessary"
+      ],
+      "correct_answer": "Prioriser la trajectoire et demander du temps si nécessaire",
+      "explanation": "La conduite du vol reste prioritaire sur les tâches différables.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "Flight control takes priority over tasks that can be deferred.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    },
+    {
+      "concept_id": "IR_040_001_C04",
+      "concept_title": "Préserver l’attention",
+      "level": 3,
+      "question": "Des instruments divergent. Que signifie « faire confiance aux instruments » ?",
+      "question_en": "Instruments disagree. What does “trust the instruments” mean?",
+      "options": [
+        "Choisir l’indication la plus rassurante",
+        "Remplacer toutes les mesures par les sensations",
+        "Recouper les indications et appliquer les procédures de panne",
+        "Croire aveuglément le premier affichage"
+      ],
+      "options_en": [
+        "Choose the most reassuring indication",
+        "Replace all measurements with sensations",
+        "Cross-check indications and apply failure procedures",
+        "Blindly believe the first display"
+      ],
+      "correct_answer": "Recouper les indications et appliquer les procédures de panne",
+      "explanation": "La fiabilité doit être évaluée par recoupement, pas supposée pour chaque capteur.\n\n![IR_040_001](/illustrations/ir-040-001.svg)",
+      "explanation_en": "Reliability must be assessed by cross-checking, not assumed for every sensor.\n\n![IR_040_001](/illustrations/en/ir-040-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:040"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 040"
+    }
+  ]
+}

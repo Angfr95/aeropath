@@ -1,0 +1,576 @@
+{
+  "metadata": {
+    "module_id": "LAPL_AC_008",
+    "program": "LAPL",
+    "subject": "Aircraft General",
+    "chapter_title": "Limitations d'utilisation",
+    "chapter_title_en": "Operating Limitations",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : lire les limites applicables; comprendre les vitesses; exemple de lecture.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: reading applicable limits; understanding speeds; a reading example.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AC_001",
+      "PPL_AC_006"
+    ],
+    "tags": [
+      "LAPL",
+      "aircraft_general"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-ac-008.svg",
+      "alt": "VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser."
+    },
+    "exam_subject": "aircraft_general",
+    "coverage_status": "partial",
+    "derived_from": "PPL_AC_008",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_AC_008_C01",
+      "title": "Lire les limites applicables",
+      "title_en": "Reading applicable limits",
+      "content": "![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)\n\nLe manuel de vol approuvé, ses suppléments et les plaquettes décrivent les limites de l'avion réel. Elles concernent notamment masse, centrage, vitesse, facteur de charge, moteur et équipements. Une fiche trouvée pour le même modèle peut être inadaptée à une variante ou une modification. Les limitations sont à distinguer des performances et des recommandations.",
+      "content_en": "![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)\n\nThe approved flight manual, supplements and placards describe the actual aircraft's limits. These include mass, CG, speed, load factor, engine and equipment. A sheet for the same model may be unsuitable for a variant or modification. Distinguish limitations from performance data and recommendations.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Lire les limites applicables"
+    },
+    {
+      "concept_id": "LAPL_AC_008_C02",
+      "title": "Comprendre les vitesses",
+      "title_en": "Understanding speeds",
+      "content": "VNE est une vitesse à ne jamais dépasser. VFE est liée à l'utilisation des volets ; plusieurs valeurs peuvent exister selon leur position. VA concerne la manœuvre dans les conditions définies par le constructeur et peut varier avec la masse. Être sous VA ne protège pas de toutes les rafales ni des actions répétées ou combinées aux commandes.",
+      "content_en": "VNE is the never-exceed speed. VFE relates to flap use; different flap positions may have different limits. VA concerns manoeuvring under manufacturer-defined conditions and can vary with mass. Flying below VA does not protect against every gust or repeated or combined control inputs.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Comprendre les vitesses"
+    },
+    {
+      "concept_id": "LAPL_AC_008_C03",
+      "title": "Exemple de lecture",
+      "title_en": "A reading example",
+      "content": "Une limitation de volet s'applique à la vitesse indiquée spécifiée dans le manuel, pas à la vitesse sol GNSS. Avec un vent arrière, ces valeurs peuvent fortement différer. Avant le vol, identifier les vitesses utiles, leurs unités, la configuration associée et les restrictions particulières. En cas d'incertitude sur une limite, résoudre le doute avant de partir.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "A flap limit applies to the indicated airspeed specified in the manual, not GNSS groundspeed. With a tailwind, these values may differ greatly. Before flight, identify relevant speeds, units, associated configuration and specific restrictions. Resolve uncertainty about a limitation before departure.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Exemple de lecture"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_AC_008_C01",
+      "concept_title": "Lire les limites applicables",
+      "level": 1,
+      "question": "Où rechercher les limitations de l'avion utilisé ?",
+      "question_en": "Where should you find the limitations for the aircraft being used?",
+      "options": [
+        "Dans la météo seule",
+        "Dans le GPS seul",
+        "Dans son manuel approuvé et ses suppléments",
+        "Dans n'importe quelle publicité du modèle"
+      ],
+      "correct_answer": "Dans son manuel approuvé et ses suppléments",
+      "explanation": "Les documents doivent correspondre à l'appareil et à sa configuration.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "The documents must match the aircraft and its configuration.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "limitations",
+        "V-speeds",
+        "MTOW",
+        "envelope",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Only in the weather report",
+        "Only in the GPS",
+        "In its approved manual and supplements",
+        "In any advertisement for the model"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C02",
+      "concept_title": "Comprendre les vitesses",
+      "level": 1,
+      "question": "Que désigne VFE ?",
+      "question_en": "What does VFE denote?",
+      "options": [
+        "La finesse maximale",
+        "Une limite liée aux volets",
+        "Une vitesse sol minimale",
+        "Le régime maximal moteur"
+      ],
+      "correct_answer": "Une limite liée aux volets",
+      "explanation": "VFE est la vitesse maximale avec les volets dans la configuration spécifiée.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "VFE is the maximum speed with flaps in the specified configuration.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "limitations",
+        "V-speeds",
+        "MTOW",
+        "envelope",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Maximum glide ratio",
+        "A flap-related limit",
+        "Minimum groundspeed",
+        "Maximum engine RPM"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C03",
+      "concept_title": "Exemple de lecture",
+      "level": 1,
+      "question": "Voler sous VA autorise-t-il toute action aux commandes ?",
+      "question_en": "Does flying below VA permit every control input?",
+      "options": [
+        "Non",
+        "Oui",
+        "Oui avec peu de carburant",
+        "Oui en air calme"
+      ],
+      "correct_answer": "Non",
+      "explanation": "VA ne couvre pas toutes les combinaisons et répétitions d'efforts.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "VA does not cover every combination and repetition of loads.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "limitations",
+        "V-speeds",
+        "MTOW",
+        "envelope",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "No",
+        "Yes",
+        "Yes, with little fuel",
+        "Yes, in calm air"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C03",
+      "concept_title": "Exemple de lecture",
+      "level": 2,
+      "question": "Pour comparer la vitesse à VFE, quelle indication utiliser lorsque le manuel spécifie une vitesse indiquée ?",
+      "question_en": "To compare speed with VFE when the manual specifies indicated airspeed, which indication should you use?",
+      "options": [
+        "La vitesse sol affichée par le GNSS",
+        "La moyenne entre vitesse sol et vitesse indiquée",
+        "La vitesse moyenne calculée sur la navigation",
+        "L'indication anémométrique prévue par le manuel"
+      ],
+      "correct_answer": "L'indication anémométrique prévue par le manuel",
+      "explanation": "La limite s'applique à la grandeur et aux unités spécifiées. La vitesse sol dépend du vent et ne remplace pas la vitesse indiquée pour vérifier cette limitation.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "The limit applies to the specified quantity and units. Groundspeed depends on wind and does not replace indicated airspeed for checking this limit.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "limitations",
+        "V-speeds",
+        "MTOW",
+        "envelope",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "GNSS groundspeed",
+        "The average of groundspeed and indicated airspeed",
+        "Average speed calculated over the navigation",
+        "The airspeed indication specified in the manual"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C01",
+      "concept_title": "Lire les limites applicables",
+      "level": 2,
+      "question": "Une fiche de vitesses concerne une autre variante du même modèle. Peut-on la reprendre telle quelle ?",
+      "question_en": "A speed sheet concerns another variant of the same model. Can you use it unchanged?",
+      "options": [
+        "Oui, si les chiffres paraissent plus favorables",
+        "Oui, si l'appareil a la même couleur",
+        "Non, vérifier les limites de l'avion réel et ses suppléments",
+        "Oui, si le nom commercial est identique"
+      ],
+      "correct_answer": "Non, vérifier les limites de l'avion réel et ses suppléments",
+      "explanation": "Les variantes et modifications peuvent changer les limitations. Le manuel approuvé, les suppléments et les plaquettes de l'avion utilisé constituent les références pertinentes.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "Variants and modifications may alter limitations. The approved manual, supplements and placards of the aircraft in use are the relevant references.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "limitations",
+        "V-speeds",
+        "MTOW",
+        "envelope",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Yes, if the numbers look more favourable",
+        "Yes, if the aircraft has the same colour",
+        "No; check the actual aircraft's limits and supplements",
+        "Yes, if the commercial name is identical"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C01",
+      "concept_title": "Lire les limites applicables",
+      "level": 2,
+      "question": "Vrai ou faux ? Un supplément peut modifier les limitations applicables à l'avion.",
+      "question_en": "True or false? A supplement may change the limitations applicable to the aircraft.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe manuel de vol approuvé, ses suppléments et les plaquettes décrivent les limites de l'avion réel. Elles concernent notamment masse, centrage, vitesse, facteur de charge, moteur et équipements. Une fiche trouvée pour le même modèle peut être inadaptée à une variante ou une modification. Les limitations sont à distinguer des performances et des recommandations.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "This statement is true.\n\nThe approved flight manual, supplements and placards describe the actual aircraft's limits. These include mass, CG, speed, load factor, engine and equipment. A sheet for the same model may be unsuitable for a variant or modification. Distinguish limitations from performance data and recommendations.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C01",
+      "concept_title": "Lire les limites applicables",
+      "level": 2,
+      "question": "Vrai ou faux ? Une recommandation et une limitation ont toujours exactement le même statut.",
+      "question_en": "True or false? A recommendation and a limitation always have exactly the same status.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe manuel de vol approuvé, ses suppléments et les plaquettes décrivent les limites de l'avion réel. Elles concernent notamment masse, centrage, vitesse, facteur de charge, moteur et équipements. Une fiche trouvée pour le même modèle peut être inadaptée à une variante ou une modification. Les limitations sont à distinguer des performances et des recommandations.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "This statement is false.\n\nThe approved flight manual, supplements and placards describe the actual aircraft's limits. These include mass, CG, speed, load factor, engine and equipment. A sheet for the same model may be unsuitable for a variant or modification. Distinguish limitations from performance data and recommendations.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C01",
+      "concept_title": "Lire les limites applicables",
+      "level": 2,
+      "question": "Vrai ou faux ? Les limitations concernent aussi le moteur et les équipements.",
+      "question_en": "True or false? Limitations also concern the engine and equipment.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe manuel de vol approuvé, ses suppléments et les plaquettes décrivent les limites de l'avion réel. Elles concernent notamment masse, centrage, vitesse, facteur de charge, moteur et équipements. Une fiche trouvée pour le même modèle peut être inadaptée à une variante ou une modification. Les limitations sont à distinguer des performances et des recommandations.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "This statement is true.\n\nThe approved flight manual, supplements and placards describe the actual aircraft's limits. These include mass, CG, speed, load factor, engine and equipment. A sheet for the same model may be unsuitable for a variant or modification. Distinguish limitations from performance data and recommendations.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C02",
+      "concept_title": "Comprendre les vitesses",
+      "level": 2,
+      "question": "Vrai ou faux ? VNE est une vitesse de montée à rechercher après le décollage.",
+      "question_en": "True or false? VNE is a climb speed to aim for after take-off.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nVNE est une vitesse à ne jamais dépasser. VFE est liée à l'utilisation des volets ; plusieurs valeurs peuvent exister selon leur position. VA concerne la manœuvre dans les conditions définies par le constructeur et peut varier avec la masse. Être sous VA ne protège pas de toutes les rafales ni des actions répétées ou combinées aux commandes.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "This statement is false.\n\nVNE is the never-exceed speed. VFE relates to flap use; different flap positions may have different limits. VA concerns manoeuvring under manufacturer-defined conditions and can vary with mass. Flying below VA does not protect against every gust or repeated or combined control inputs.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C02",
+      "concept_title": "Comprendre les vitesses",
+      "level": 2,
+      "question": "Vrai ou faux ? Plusieurs positions de volets peuvent avoir des limites différentes.",
+      "question_en": "True or false? Different flap positions may have different limits.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nVNE est une vitesse à ne jamais dépasser. VFE est liée à l'utilisation des volets ; plusieurs valeurs peuvent exister selon leur position. VA concerne la manœuvre dans les conditions définies par le constructeur et peut varier avec la masse. Être sous VA ne protège pas de toutes les rafales ni des actions répétées ou combinées aux commandes.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "This statement is true.\n\nVNE is the never-exceed speed. VFE relates to flap use; different flap positions may have different limits. VA concerns manoeuvring under manufacturer-defined conditions and can vary with mass. Flying below VA does not protect against every gust or repeated or combined control inputs.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C02",
+      "concept_title": "Comprendre les vitesses",
+      "level": 2,
+      "question": "Vrai ou faux ? La valeur de VA peut varier avec la masse.",
+      "question_en": "True or false? VA may vary with mass.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nVNE est une vitesse à ne jamais dépasser. VFE est liée à l'utilisation des volets ; plusieurs valeurs peuvent exister selon leur position. VA concerne la manœuvre dans les conditions définies par le constructeur et peut varier avec la masse. Être sous VA ne protège pas de toutes les rafales ni des actions répétées ou combinées aux commandes.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "This statement is true.\n\nVNE is the never-exceed speed. VFE relates to flap use; different flap positions may have different limits. VA concerns manoeuvring under manufacturer-defined conditions and can vary with mass. Flying below VA does not protect against every gust or repeated or combined control inputs.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C02",
+      "concept_title": "Comprendre les vitesses",
+      "level": 2,
+      "question": "Vrai ou faux ? Sous VA, les actions répétées et combinées sur les commandes sont toutes protégées.",
+      "question_en": "True or false? Below VA, every repeated and combined control input is protected.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nVNE est une vitesse à ne jamais dépasser. VFE est liée à l'utilisation des volets ; plusieurs valeurs peuvent exister selon leur position. VA concerne la manœuvre dans les conditions définies par le constructeur et peut varier avec la masse. Être sous VA ne protège pas de toutes les rafales ni des actions répétées ou combinées aux commandes.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "This statement is false.\n\nVNE is the never-exceed speed. VFE relates to flap use; different flap positions may have different limits. VA concerns manoeuvring under manufacturer-defined conditions and can vary with mass. Flying below VA does not protect against every gust or repeated or combined control inputs.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C03",
+      "concept_title": "Exemple de lecture",
+      "level": 2,
+      "question": "Vrai ou faux ? Une valeur de vitesse sans unité suffit à vérifier une limitation.",
+      "question_en": "True or false? A speed value without units is sufficient to check a limitation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne limitation de volet s'applique à la vitesse indiquée spécifiée dans le manuel, pas à la vitesse sol GNSS. Avec un vent arrière, ces valeurs peuvent fortement différer. Avant le vol, identifier les vitesses utiles, leurs unités, la configuration associée et les restrictions particulières. En cas d'incertitude sur une limite, résoudre le doute avant de partir.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "This statement is false.\n\nA flap limit applies to the indicated airspeed specified in the manual, not GNSS groundspeed. With a tailwind, these values may differ greatly. Before flight, identify relevant speeds, units, associated configuration and specific restrictions. Resolve uncertainty about a limitation before departure.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C03",
+      "concept_title": "Exemple de lecture",
+      "level": 2,
+      "question": "Vrai ou faux ? Une incertitude sur une limitation doit être résolue avant le départ.",
+      "question_en": "True or false? Uncertainty about a limitation must be resolved before departure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne limitation de volet s'applique à la vitesse indiquée spécifiée dans le manuel, pas à la vitesse sol GNSS. Avec un vent arrière, ces valeurs peuvent fortement différer. Avant le vol, identifier les vitesses utiles, leurs unités, la configuration associée et les restrictions particulières. En cas d'incertitude sur une limite, résoudre le doute avant de partir.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "This statement is true.\n\nA flap limit applies to the indicated airspeed specified in the manual, not GNSS groundspeed. With a tailwind, these values may differ greatly. Before flight, identify relevant speeds, units, associated configuration and specific restrictions. Resolve uncertainty about a limitation before departure.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_008_C03",
+      "concept_title": "Exemple de lecture",
+      "level": 2,
+      "question": "Vrai ou faux ? Un vent arrière rend vitesse indiquée et vitesse sol nécessairement identiques.",
+      "question_en": "True or false? A tailwind necessarily makes indicated airspeed and groundspeed identical.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne limitation de volet s'applique à la vitesse indiquée spécifiée dans le manuel, pas à la vitesse sol GNSS. Avec un vent arrière, ces valeurs peuvent fortement différer. Avant le vol, identifier les vitesses utiles, leurs unités, la configuration associée et les restrictions particulières. En cas d'incertitude sur une limite, résoudre le doute avant de partir.\n\n![VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.](/illustrations/lapl-ac-008.svg)",
+      "explanation_en": "This statement is false.\n\nA flap limit applies to the indicated airspeed specified in the manual, not GNSS groundspeed. With a tailwind, these values may differ greatly. Before flight, identify relevant speeds, units, associated configuration and specific restrictions. Resolve uncertainty about a limitation before departure.\n\n![Diagram: Operating Limitations](/illustrations/en/lapl-ac-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

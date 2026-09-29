@@ -21,7 +21,9 @@ export default function LanguageSelector() {
       }
     }
     document.addEventListener("mousedown", handleClick);
-    return () => document.removeEventListener("mousedown", handleClick);
+    const caption = currentLang.startsWith("es") ? "Idioma" : currentLang.startsWith("en") ? "Language" : "Langue";
+
+  return () => document.removeEventListener("mousedown", handleClick);
   }, []);
 
   function handleSelect(code: string) {
@@ -30,12 +32,17 @@ export default function LanguageSelector() {
     setOpen(false);
   }
 
+  const caption = currentLang.startsWith("es") ? "Idioma" : currentLang.startsWith("en") ? "Language" : "Langue";
+
   return (
     <div ref={ref} className="relative">
+      <span className="block text-xs text-slate-400 mb-0.5">{caption}</span>
       <button
         onClick={() => setOpen((o) => !o)}
         className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm text-slate-300 hover:bg-slate-700 transition"
-        title="Changer la langue"
+        title={caption}
+        aria-label={caption}
+        aria-expanded={open}
       >
         <span>{current.flag}</span>
         <span className="hidden sm:inline">{current.label}</span>

@@ -5,13 +5,574 @@
     "subject": "Navigation",
     "chapter_title": "Planification de vol approfondie",
     "chapter_title_en": "Advanced Flight Planning",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : construire une route praticable; réunir les contraintes; exemple de décision anticipée.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: building a usable route; combining constraints; an early-decision example.",
     "difficulty": "advanced",
-    "estimated_duration_minutes": 30,
-    "prerequisites": ["PPL_NAV_006"],
-    "tags": ["flight planning", "fuel planning", "alternate", "FPL"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_NAV_006"
+    ],
+    "tags": [
+      "flight planning",
+      "fuel planning",
+      "alternate",
+      "FPL"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 16 : navigation",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      },
+      {
+        "title": "SIA — cartes et informations aéronautiques",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-nav-008.svg",
+      "alt": "Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre."
+    },
+    "exam_subject": "navigation",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_NAV_008_C01",
+      "title": "Construire une route praticable",
+      "title_en": "Building a usable route",
+      "content": "![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)\n\nUne préparation complète associe trajectoire, météo, espaces, relief, performances, carburant et contraintes d'aérodrome. La ligne la plus courte n'est pas toujours la plus adaptée. Prévoir des points de décision et des alternatives atteignables avant les secteurs difficiles. Un terrain de dégagement doit être utilisable à l'heure prévue, pas seulement présent sur la carte.",
+      "content_en": "![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)\n\nComplete preparation combines flight path, weather, airspace, terrain, performance, fuel and aerodrome constraints. The shortest line is not always the best route. Plan decision points and reachable alternatives before difficult sectors. An alternate must be usable at the expected time, not merely shown on the chart.",
+      "difficulty": "advanced",
+      "tags": [
+        "flight planning",
+        "fuel planning",
+        "alternate",
+        "FPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Construire une route praticable"
+    },
+    {
+      "concept_id": "PPL_NAV_008_C02",
+      "title": "Réunir les contraintes",
+      "title_en": "Combining constraints",
+      "content": "Vérifier les informations aéronautiques à jour, l'état des pistes, les horaires et les éventuelles autorisations. Évaluer aussi la fatigue, les passagers et les contraintes de retour. Le plan de vol déposé pour les services de circulation aérienne ne remplace pas le dossier de navigation personnel. Une clairance attendue doit avoir une solution de rechange si elle n'est pas obtenue.",
+      "content_en": "Check current aeronautical information, runway conditions, operating hours and any required permissions. Also consider fatigue, passengers and return constraints. The flight plan filed with air traffic services does not replace the pilot's navigation preparation. An expected clearance needs an alternative if it is not received.",
+      "difficulty": "advanced",
+      "tags": [
+        "flight planning",
+        "fuel planning",
+        "alternate",
+        "FPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Réunir les contraintes"
+    },
+    {
+      "concept_id": "PPL_NAV_008_C03",
+      "title": "Exemple de décision anticipée",
+      "title_en": "An early-decision example",
+      "content": "Une traversée dépend d'un passage VFR entre relief et couche nuageuse. Définir avant départ un point où poursuivre reste compatible avec les marges, et un terrain de repli avant ce passage. Si les conditions ne sont pas réunies, appliquer le plan de repli. Une bonne préparation explique non seulement où aller, mais aussi à quel moment renoncer à une branche.",
+      "content_en": "A crossing depends on a VFR passage between terrain and cloud. Before departure, define a point at which continuing is still compatible with margins, and an alternate before the passage. If conditions are not met, use the fallback plan. Good preparation explains not only where to go but when to abandon a leg.",
+      "difficulty": "advanced",
+      "tags": [
+        "flight planning",
+        "fuel planning",
+        "alternate",
+        "FPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Exemple de décision anticipée"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_NAV_008_C01",
+      "concept_title": "Construire une route praticable",
+      "level": 1,
+      "question": "Le trajet le plus court est-il toujours le plus adapté ?",
+      "question_en": "Is the shortest route always the most suitable?",
+      "options": [
+        "Oui sans vent",
+        "Non",
+        "Oui",
+        "Oui en VFR"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Les contraintes d'espace, de météo et de relief peuvent favoriser une autre route.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "Airspace, weather and terrain constraints may favour another route.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "flight planning",
+        "fuel planning",
+        "alternate",
+        "FPL",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Yes, without wind",
+        "No",
+        "Yes",
+        "Yes, under VFR"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C02",
+      "concept_title": "Réunir les contraintes",
+      "level": 1,
+      "question": "Un terrain sur la carte est-il automatiquement un dégagement utilisable ?",
+      "question_en": "Is an aerodrome shown on a chart automatically a usable alternate?",
+      "options": [
+        "Non",
+        "Oui",
+        "Oui s'il possède une piste",
+        "Oui s'il est proche"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Il faut vérifier conditions, horaires, performances et restrictions.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "Check conditions, operating hours, performance and restrictions.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "flight planning",
+        "fuel planning",
+        "alternate",
+        "FPL",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "No",
+        "Yes",
+        "Yes, if it has a runway",
+        "Yes, if it is nearby"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C03",
+      "concept_title": "Exemple de décision anticipée",
+      "level": 1,
+      "question": "À quoi sert un point de décision ?",
+      "question_en": "What is a decision point for?",
+      "options": [
+        "À supprimer la réserve",
+        "À éviter toute préparation",
+        "À garantir une clairance",
+        "À choisir assez tôt entre poursuite et repli"
+      ],
+      "correct_answer": "À choisir assez tôt entre poursuite et repli",
+      "explanation": "Il préserve des alternatives avant un secteur contraignant.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "It preserves alternatives before a restrictive sector.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "flight planning",
+        "fuel planning",
+        "alternate",
+        "FPL",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Removing the reserve",
+        "Avoiding all preparation",
+        "Guaranteeing a clearance",
+        "Choosing early enough between continuing and falling back"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C02",
+      "concept_title": "Réunir les contraintes",
+      "level": 2,
+      "question": "La route prévue dépend d'une clairance qui n'est pas obtenue. Qu'aurait dû prévoir la préparation ?",
+      "question_en": "The planned route depends on a clearance that is not obtained. What should preparation have provided?",
+      "options": [
+        "Une exemption liée au dépôt du plan de vol",
+        "Le suivi d'un autre avion autorisé",
+        "Une solution de rechange compatible avec les contraintes du vol",
+        "Une entrée automatique après le premier appel radio"
+      ],
+      "correct_answer": "Une solution de rechange compatible avec les contraintes du vol",
+      "explanation": "Une clairance attendue n'est pas garantie. Prévoir une route de rechange évite que le refus impose une improvisation tardive près des limites d'espace.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "An expected clearance is not guaranteed. An alternative route prevents a refusal from forcing late improvisation near airspace boundaries.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "flight planning",
+        "fuel planning",
+        "alternate",
+        "FPL",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "An exemption from filing a flight plan",
+        "Following another cleared aircraft",
+        "An alternative compatible with the flight's constraints",
+        "Automatic entry after the first radio call"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C03",
+      "concept_title": "Exemple de décision anticipée",
+      "level": 2,
+      "question": "Où placer utilement un point de décision avant un passage météo délicat ?",
+      "question_en": "Where is a useful decision point before a difficult weather passage?",
+      "options": [
+        "À un endroit choisi seulement pour sa proximité de la destination",
+        "Avant que les options sûres de retour ou de déroutement se réduisent",
+        "Uniquement après la perte des références visuelles",
+        "Toujours après avoir consommé la réserve finale"
+      ],
+      "correct_answer": "Avant que les options sûres de retour ou de déroutement se réduisent",
+      "explanation": "Le point de décision doit permettre d'appliquer un repli réalisable. Attendre d'être engagé dans le secteur difficile peut supprimer les marges qui rendaient ce repli possible.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "The decision point must allow a feasible fallback. Waiting until committed to the difficult sector may remove the margins that made the fallback possible.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "flight planning",
+        "fuel planning",
+        "alternate",
+        "FPL",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Somewhere chosen only for proximity to the destination",
+        "Before safe turn-back or diversion options diminish",
+        "Only after visual references are lost",
+        "Always after the final reserve has been used"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C01",
+      "concept_title": "Construire une route praticable",
+      "level": 2,
+      "question": "Vrai ou faux ? Une solution de repli doit être atteignable et utilisable à l'heure prévue.",
+      "question_en": "True or false? A fallback must be reachable and usable at the expected time.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne préparation complète associe trajectoire, météo, espaces, relief, performances, carburant et contraintes d'aérodrome. La ligne la plus courte n'est pas toujours la plus adaptée. Prévoir des points de décision et des alternatives atteignables avant les secteurs difficiles. Un terrain de dégagement doit être utilisable à l'heure prévue, pas seulement présent sur la carte.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "This statement is true.\n\nComplete preparation combines flight path, weather, airspace, terrain, performance, fuel and aerodrome constraints. The shortest line is not always the best route. Plan decision points and reachable alternatives before difficult sectors. An alternate must be usable at the expected time, not merely shown on the chart.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C01",
+      "concept_title": "Construire une route praticable",
+      "level": 2,
+      "question": "Vrai ou faux ? La présence d'un aérodrome sur une carte garantit son ouverture.",
+      "question_en": "True or false? An aerodrome appearing on a chart guarantees it is open.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne préparation complète associe trajectoire, météo, espaces, relief, performances, carburant et contraintes d'aérodrome. La ligne la plus courte n'est pas toujours la plus adaptée. Prévoir des points de décision et des alternatives atteignables avant les secteurs difficiles. Un terrain de dégagement doit être utilisable à l'heure prévue, pas seulement présent sur la carte.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "This statement is false.\n\nComplete preparation combines flight path, weather, airspace, terrain, performance, fuel and aerodrome constraints. The shortest line is not always the best route. Plan decision points and reachable alternatives before difficult sectors. An alternate must be usable at the expected time, not merely shown on the chart.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C01",
+      "concept_title": "Construire une route praticable",
+      "level": 2,
+      "question": "Vrai ou faux ? La préparation associe relief, météo, carburant et performances.",
+      "question_en": "True or false? Preparation combines terrain, weather, fuel and performance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne préparation complète associe trajectoire, météo, espaces, relief, performances, carburant et contraintes d'aérodrome. La ligne la plus courte n'est pas toujours la plus adaptée. Prévoir des points de décision et des alternatives atteignables avant les secteurs difficiles. Un terrain de dégagement doit être utilisable à l'heure prévue, pas seulement présent sur la carte.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "This statement is true.\n\nComplete preparation combines flight path, weather, airspace, terrain, performance, fuel and aerodrome constraints. The shortest line is not always the best route. Plan decision points and reachable alternatives before difficult sectors. An alternate must be usable at the expected time, not merely shown on the chart.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C02",
+      "concept_title": "Réunir les contraintes",
+      "level": 2,
+      "question": "Vrai ou faux ? Un plan déposé remplace le travail personnel de navigation.",
+      "question_en": "True or false? A filed plan replaces the pilot's navigation preparation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nVérifier les informations aéronautiques à jour, l'état des pistes, les horaires et les éventuelles autorisations. Évaluer aussi la fatigue, les passagers et les contraintes de retour. Le plan de vol déposé pour les services de circulation aérienne ne remplace pas le dossier de navigation personnel. Une clairance attendue doit avoir une solution de rechange si elle n'est pas obtenue.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "This statement is false.\n\nCheck current aeronautical information, runway conditions, operating hours and any required permissions. Also consider fatigue, passengers and return constraints. The flight plan filed with air traffic services does not replace the pilot's navigation preparation. An expected clearance needs an alternative if it is not received.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C02",
+      "concept_title": "Réunir les contraintes",
+      "level": 2,
+      "question": "Vrai ou faux ? Les contraintes de retour participent à la préparation.",
+      "question_en": "True or false? Return constraints are part of preparation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nVérifier les informations aéronautiques à jour, l'état des pistes, les horaires et les éventuelles autorisations. Évaluer aussi la fatigue, les passagers et les contraintes de retour. Le plan de vol déposé pour les services de circulation aérienne ne remplace pas le dossier de navigation personnel. Une clairance attendue doit avoir une solution de rechange si elle n'est pas obtenue.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "This statement is true.\n\nCheck current aeronautical information, runway conditions, operating hours and any required permissions. Also consider fatigue, passengers and return constraints. The flight plan filed with air traffic services does not replace the pilot's navigation preparation. An expected clearance needs an alternative if it is not received.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C02",
+      "concept_title": "Réunir les contraintes",
+      "level": 2,
+      "question": "Vrai ou faux ? Une permission nécessaire doit être vérifiée avant de compter sur l'aérodrome.",
+      "question_en": "True or false? A required permission must be checked before relying on an aerodrome.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nVérifier les informations aéronautiques à jour, l'état des pistes, les horaires et les éventuelles autorisations. Évaluer aussi la fatigue, les passagers et les contraintes de retour. Le plan de vol déposé pour les services de circulation aérienne ne remplace pas le dossier de navigation personnel. Une clairance attendue doit avoir une solution de rechange si elle n'est pas obtenue.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "This statement is true.\n\nCheck current aeronautical information, runway conditions, operating hours and any required permissions. Also consider fatigue, passengers and return constraints. The flight plan filed with air traffic services does not replace the pilot's navigation preparation. An expected clearance needs an alternative if it is not received.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C02",
+      "concept_title": "Réunir les contraintes",
+      "level": 2,
+      "question": "Vrai ou faux ? Une clairance attendue est une clairance garantie.",
+      "question_en": "True or false? An expected clearance is guaranteed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nVérifier les informations aéronautiques à jour, l'état des pistes, les horaires et les éventuelles autorisations. Évaluer aussi la fatigue, les passagers et les contraintes de retour. Le plan de vol déposé pour les services de circulation aérienne ne remplace pas le dossier de navigation personnel. Une clairance attendue doit avoir une solution de rechange si elle n'est pas obtenue.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "This statement is false.\n\nCheck current aeronautical information, runway conditions, operating hours and any required permissions. Also consider fatigue, passengers and return constraints. The flight plan filed with air traffic services does not replace the pilot's navigation preparation. An expected clearance needs an alternative if it is not received.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C03",
+      "concept_title": "Exemple de décision anticipée",
+      "level": 2,
+      "question": "Vrai ou faux ? Un point de décision est utile même si aucune alternative n'y reste possible.",
+      "question_en": "True or false? A decision point is useful even if no alternative remains there.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne traversée dépend d'un passage VFR entre relief et couche nuageuse. Définir avant départ un point où poursuivre reste compatible avec les marges, et un terrain de repli avant ce passage. Si les conditions ne sont pas réunies, appliquer le plan de repli. Une bonne préparation explique non seulement où aller, mais aussi à quel moment renoncer à une branche.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "This statement is false.\n\nA crossing depends on a VFR passage between terrain and cloud. Before departure, define a point at which continuing is still compatible with margins, and an alternate before the passage. If conditions are not met, use the fallback plan. Good preparation explains not only where to go but when to abandon a leg.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C03",
+      "concept_title": "Exemple de décision anticipée",
+      "level": 2,
+      "question": "Vrai ou faux ? La préparation doit indiquer quand renoncer à un tronçon.",
+      "question_en": "True or false? Preparation should identify when to abandon a leg.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne traversée dépend d'un passage VFR entre relief et couche nuageuse. Définir avant départ un point où poursuivre reste compatible avec les marges, et un terrain de repli avant ce passage. Si les conditions ne sont pas réunies, appliquer le plan de repli. Une bonne préparation explique non seulement où aller, mais aussi à quel moment renoncer à une branche.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "This statement is true.\n\nA crossing depends on a VFR passage between terrain and cloud. Before departure, define a point at which continuing is still compatible with margins, and an alternate before the passage. If conditions are not met, use the fallback plan. Good preparation explains not only where to go but when to abandon a leg.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_008_C03",
+      "concept_title": "Exemple de décision anticipée",
+      "level": 2,
+      "question": "Vrai ou faux ? Un passage entre relief et nuages doit être poursuivi parce qu'il a été prévu au sol.",
+      "question_en": "True or false? A gap between terrain and clouds must be continued through because it was planned on the ground.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne traversée dépend d'un passage VFR entre relief et couche nuageuse. Définir avant départ un point où poursuivre reste compatible avec les marges, et un terrain de repli avant ce passage. Si les conditions ne sont pas réunies, appliquer le plan de repli. Une bonne préparation explique non seulement où aller, mais aussi à quel moment renoncer à une branche.\n\n![Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre.](/illustrations/ppl-nav-008.svg)",
+      "explanation_en": "This statement is false.\n\nA crossing depends on a VFR passage between terrain and cloud. Before departure, define a point at which continuing is still compatible with margins, and an alternate before the passage. If conditions are not met, use the fallback plan. Good preparation explains not only where to go but when to abandon a leg.\n\n![Diagram: Advanced Flight Planning](/illustrations/en/ppl-nav-008.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Take-off and obstacle clearance</title><desc id="desc">A departure path includes ground roll and climb to a reference height; performance depends on flight conditions.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Take-off and obstacle clearance</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Ground roll does not describe the entire departure path.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_AC_006</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<rect x="86" y="464" width="667" height="44" rx="5" fill="#35465b" stroke="none"/>
+<rect x="100" y="483" width="35" height="5" rx="0" fill="#bdcbdc" stroke="none"/>
+<rect x="165" y="483" width="35" height="5" rx="0" fill="#bdcbdc" stroke="none"/>
+<rect x="230" y="483" width="35" height="5" rx="0" fill="#bdcbdc" stroke="none"/>
+<rect x="295" y="483" width="35" height="5" rx="0" fill="#bdcbdc" stroke="none"/>
+<rect x="360" y="483" width="35" height="5" rx="0" fill="#bdcbdc" stroke="none"/>
+<rect x="425" y="483" width="35" height="5" rx="0" fill="#bdcbdc" stroke="none"/>
+<rect x="490" y="483" width="35" height="5" rx="0" fill="#bdcbdc" stroke="none"/>
+<rect x="555" y="483" width="35" height="5" rx="0" fill="#bdcbdc" stroke="none"/>
+<rect x="620" y="483" width="35" height="5" rx="0" fill="#bdcbdc" stroke="none"/>
+<rect x="685" y="483" width="35" height="5" rx="0" fill="#bdcbdc" stroke="none"/>
+<path d="M112 458H422Q510 444 715 291" fill="none" stroke="#58dfed" stroke-width="5" stroke-linejoin="round" opacity="1"/>
+<g transform="translate(593 385) rotate(56) scale(0.42)">
+<path d="M0-80C-12-74-13-45-10-20L-85 17-85 30-10 15-6 58-30 75-30 83 0 74 30 83 30 75 6 58 10 15 85 30 85 17 10-20C13-45 12-74 0-80Z" fill="#edf5ff" stroke="#7895b3" stroke-width="2" stroke-linejoin="round" opacity="1"/>
+<path d="M-6-42Q0-51 6-42L6-25H-6Z" fill="#18324c" stroke="#18324c" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<rect x="703" y="404" width="20" height="60" rx="0" fill="#af6673" stroke="none"/>
+<path d="M688 404L713 356 737 404Z" fill="#ff8e9c" stroke="#ff8e9c" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<path d="M115 550L421 550" fill="none" stroke="#ffcd70" stroke-width="4"/>
+<path d="M421.0 550.0L407.5 556.5L407.5 543.5Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="268" y="578" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">Ground roll</text>
+<path d="M115 228L718 228" fill="none" stroke="#58dfed" stroke-width="4"/>
+<path d="M718.0 228.0L704.5 234.5L704.5 221.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="414" y="211" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Distance to reference height</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Conditions</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Mass, temperature, pressure</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">altitude, wind.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Runway</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Surface, slope and</text>
+<text x="855" y="406" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">available distance.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Two distances</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Lifting off ≠ clearing an</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">obstacle.</text>
+</svg>

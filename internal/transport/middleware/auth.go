@@ -7,6 +7,20 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 )
 
+// OptionalAuth allows anonymous practice and identifies authenticated students
+// so that only their results are saved. Supplied credentials must remain valid.
+func OptionalAuth(secret string) gin.HandlerFunc {
+	requireAuth := RequireAuth(secret)
+	return func(c *gin.Context) {
+		_, err := c.Cookie("token")
+		if err != nil && c.GetHeader("Authorization") == "" {
+			c.Next()
+			return
+		}
+		requireAuth(c)
+	}
+}
+
 func RequireAuth(secret string) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		// Essaie d'abord le cookie httpOnly, puis le header Authorization

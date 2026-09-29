@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">VOR, NDB and DME: different information</title><desc id="desc">VOR: radial from the station; ADF: direction towards the NDB; DME: slant range between aircraft and station.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">VOR, NDB and DME: different information</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Identify the station and understand the displayed reference.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_NAV_005</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<circle cx="246" cy="391" r="111" fill="none" stroke="#3e5c78" stroke-width="2"/>
+<circle cx="246" cy="391" r="9" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<path d="M257 391L374 391" fill="none" stroke="#58dfed" stroke-width="4"/>
+<path d="M374.0 391.0L360.5 397.5L360.5 384.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="246" y="237" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">VOR</text>
+<text x="246" y="559" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">090 radial: to the east</text>
+<text x="600" y="237" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">NDB / ADF</text>
+<circle cx="653" cy="329" r="9" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<g transform="translate(522 466) rotate(0) scale(0.43)">
+<path d="M0-80C-12-74-13-45-10-20L-85 17-85 30-10 15-6 58-30 75-30 83 0 74 30 83 30 75 6 58 10 15 85 30 85 17 10-20C13-45 12-74 0-80Z" fill="#edf5ff" stroke="#7895b3" stroke-width="2" stroke-linejoin="round" opacity="1"/>
+<path d="M-6-42Q0-51 6-42L6-25H-6Z" fill="#18324c" stroke="#18324c" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<path d="M540 441L644 346" fill="none" stroke="#ffcd70" stroke-width="4"/>
+<path d="M644.0 346.0L638.4 359.9L629.6 350.3Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="600" y="559" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Direction towards the beacon</text>
+<text x="965" y="237" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">DME</text>
+<circle cx="850" cy="487" r="8" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<g transform="translate(1060 321) rotate(70) scale(0.36)">
+<path d="M0-80C-12-74-13-45-10-20L-85 17-85 30-10 15-6 58-30 75-30 83 0 74 30 83 30 75 6 58 10 15 85 30 85 17 10-20C13-45 12-74 0-80Z" fill="#edf5ff" stroke="#7895b3" stroke-width="2" stroke-linejoin="round" opacity="1"/>
+<path d="M-6-42Q0-51 6-42L6-25H-6Z" fill="#18324c" stroke="#18324c" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<path d="M856 480L1043 330" fill="none" stroke="#bbabff" stroke-width="4"/>
+<path d="M850 491L1050 491" fill="none" stroke="#a9bdd3" stroke-width="2" stroke-dasharray="7 7"/>
+<path d="M1050 491L1050 337" fill="none" stroke="#a9bdd3" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="963" y="559" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">Slant range</text>
+</svg>

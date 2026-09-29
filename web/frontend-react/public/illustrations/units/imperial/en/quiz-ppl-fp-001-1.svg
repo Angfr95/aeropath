@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="822" viewBox="0 0 1200 822" role="img" aria-labelledby="title desc"><title id="title">Calculating theoretical endurance</title><desc id="desc">72 L usable at a fictional constant flow of 24 L/h. Find theoretical endurance.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Calculating theoretical endurance</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercise data — choose your answer below.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_FP_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<rect x="205" y="302" width="48" height="68" rx="5" fill="#14253b" stroke="#58dfed"/>
+<rect x="213" y="312" width="32" height="20" rx="3" fill="#58dfed" stroke="none"/>
+<path d="M253 325H267V357Q283 370 283 351V323L270 309" fill="none" stroke="#58dfed" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<circle cx="610" cy="335" r="35" fill="#14253b" stroke="#ffcd70" stroke-width="3"/>
+<path d="M610 335L610 312" fill="none" stroke="#ffcd70" stroke-width="4"/>
+<path d="M610 335L630 347" fill="none" stroke="#ffcd70" stroke-width="4"/>
+<text x="235" y="440" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="700" text-anchor="middle">72 L usable</text>
+<text x="610" y="440" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="700" text-anchor="middle">24 L/h</text>
+<text x="425" y="555" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="middle">Fictional constant flow</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Exercise</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Use the values shown.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Units</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Check their consistency.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Find</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Time in hours: ?</text>
+<rect x="0" y="720" width="1200" height="102" fill="#10243d"/><text x="42" y="754" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18">Rounded equivalents · original values retained for calculations</text><text x="42" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">72 L ≈ 15.84 imp gal</text><text x="432" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">24 L/h ≈ 5.28 imp gal/h</text></svg>

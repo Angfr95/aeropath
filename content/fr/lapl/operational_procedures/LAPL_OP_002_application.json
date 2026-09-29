@@ -1,0 +1,599 @@
+{
+  "metadata": {
+    "module_id": "LAPL_OP_002",
+    "program": "LAPL",
+    "subject": "Operational Procedures",
+    "chapter_title": "Roulage et décollage",
+    "chapter_title_en": "Taxi and Takeoff Procedures",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : roulage et orientation; préparer le décollage; exemple d'incursion évitée.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: taxiing and orientation; preparing for take-off; avoiding an incursion.",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_OP_001"
+    ],
+    "tags": [
+      "LAPL",
+      "operational_procedures"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — Airplane Flying Handbook",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+      },
+      {
+        "title": "EASA — SERA",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-op-002.svg",
+      "alt": "Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée."
+    },
+    "exam_subject": "operational_procedures",
+    "coverage_status": "partial",
+    "derived_from": "PPL_OP_002",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_OP_002_C01",
+      "title": "Roulage et orientation",
+      "title_en": "Taxiing and orientation",
+      "content": "![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)\n\nAvant de rouler, repérer la position, le cheminement et les limites d'autorisation. Les points d'attente protègent une piste ou une zone particulière. Une autorisation de roulage ne vaut pas automatiquement autorisation d'entrer sur une piste. À faible vitesse, surveiller obstacles, autres usagers et indications de freinage selon la procédure de l'avion.",
+      "content_en": "![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)\n\nBefore taxiing, identify your position, route and clearance limits. Holding points protect a runway or particular area. A taxi clearance does not automatically authorise entering a runway. At low speed, monitor obstacles, other users and braking indications in accordance with the aircraft procedure.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Roulage et orientation"
+    },
+    {
+      "concept_id": "LAPL_OP_002_C02",
+      "title": "Préparer le décollage",
+      "title_en": "Preparing for take-off",
+      "content": "Le briefing fixe piste, configuration, vitesses du manuel, trajectoire initiale et conduite prévue en cas d'anomalie. Vérifier le vent et la cohérence de l'orientation de piste. La décision de poursuivre dépend des performances calculées et des conditions réelles. Les actions en panne immédiatement après décollage doivent avoir été enseignées sur le type et adaptées au terrain.",
+      "content_en": "The briefing establishes runway, configuration, manual speeds, initial flight path and planned response to an anomaly. Check the wind and consistency of runway orientation. Continuing depends on calculated performance and actual conditions. Actions following a failure immediately after take-off must have been taught on type and adapted to the aerodrome.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Préparer le décollage"
+    },
+    {
+      "concept_id": "LAPL_OP_002_C03",
+      "title": "Exemple d'incursion évitée",
+      "title_en": "Avoiding an incursion",
+      "content": "Une instruction radio n'est pas comprise à l'approche d'un point d'attente. Rester hors de la piste, demander répétition et clarifier. Ne pas suivre simplement l'avion précédent. Au décollage, une accélération ou une indication moteur inhabituelle appelle la décision prévue au briefing ; improviser sous pression augmente le risque.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "A radio instruction is not understood near a holding point. Stay clear of the runway, request repetition and clarify. Do not simply follow the preceding aircraft. On take-off, unusual acceleration or engine indications call for the decision prepared in the briefing; improvising under pressure increases risk.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Exemple d'incursion évitée"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_OP_002_C01",
+      "concept_title": "Roulage et orientation",
+      "level": 1,
+      "question": "Une autorisation de roulage autorise-t-elle toujours à traverser une piste ?",
+      "question_en": "Does a taxi clearance always authorise crossing a runway?",
+      "options": [
+        "Oui sans trafic visible",
+        "Non",
+        "Oui",
+        "Oui derrière un autre avion"
+      ],
+      "correct_answer": "Non",
+      "explanation": "L'entrée ou la traversée exige l'autorisation requise.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "Entry or crossing requires the necessary authorisation.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "taxi",
+        "takeoff",
+        "runway",
+        "crosswind",
+        "PAPI",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Yes, with no visible traffic",
+        "No",
+        "Yes",
+        "Yes, behind another aircraft"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C02",
+      "concept_title": "Préparer le décollage",
+      "level": 1,
+      "question": "Quand préparer les actions face à une anomalie au décollage ?",
+      "question_en": "When should responses to a take-off anomaly be prepared?",
+      "options": [
+        "Avant le décollage",
+        "Après la rotation seulement",
+        "Après l'arrivée",
+        "Uniquement quand elle survient"
+      ],
+      "correct_answer": "Avant le décollage",
+      "explanation": "Le briefing réduit la charge de travail au moment critique.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "The briefing reduces workload at a critical moment.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "taxi",
+        "takeoff",
+        "runway",
+        "crosswind",
+        "PAPI",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Before take-off",
+        "Only after rotation",
+        "After arrival",
+        "Only when the anomaly occurs"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C03",
+      "concept_title": "Exemple d'incursion évitée",
+      "level": 1,
+      "question": "Que faire devant une instruction incomprise avant une piste ?",
+      "question_en": "What should you do with an unclear instruction before a runway?",
+      "options": [
+        "Entrer pour libérer le taxiway",
+        "Suivre un autre avion",
+        "Choisir l'interprétation la plus rapide",
+        "Rester hors piste et demander clarification"
+      ],
+      "correct_answer": "Rester hors piste et demander clarification",
+      "explanation": "L'ambiguïté doit être levée avant de franchir la limite.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "Resolve ambiguity before crossing the boundary.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "taxi",
+        "takeoff",
+        "runway",
+        "crosswind",
+        "PAPI",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Enter to clear the taxiway",
+        "Follow another aircraft",
+        "Choose the quickest interpretation",
+        "Stay off the runway and request clarification"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C02",
+      "concept_title": "Préparer le décollage",
+      "level": 2,
+      "question": "Quel ensemble appartient au briefing décollage ?",
+      "question_en": "Which items belong in the take-off briefing?",
+      "options": [
+        "Seulement le dernier score au quiz",
+        "La fréquence de destination à l'exclusion du reste",
+        "Piste, configuration, vitesses, trajectoire initiale et conduite en cas d'anomalie",
+        "Uniquement l'heure prévue d'arrivée"
+      ],
+      "correct_answer": "Piste, configuration, vitesses, trajectoire initiale et conduite en cas d'anomalie",
+      "explanation": "Le briefing prépare les éléments du décollage et les décisions face aux anomalies. Les valeurs et actions sont celles du manuel et de l'instruction sur type.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "The briefing prepares take-off elements and decisions in case of anomalies. Values and actions come from the manual and training on type.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "taxi",
+        "takeoff",
+        "runway",
+        "crosswind",
+        "PAPI",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Only the latest quiz score",
+        "The destination frequency and nothing else",
+        "Runway, configuration, speeds, initial flight path and response to anomalies",
+        "Only estimated arrival time"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C03",
+      "concept_title": "Exemple d'incursion évitée",
+      "level": 2,
+      "question": "Au roulage, l'avion précédent traverse une piste. Votre autorisation ne permet pas clairement cette traversée. Que faire ?",
+      "question_en": "While taxiing, the preceding aircraft crosses a runway. Your clearance does not clearly permit crossing. What should you do?",
+      "options": [
+        "Considérer son autorisation comme valable pour les deux avions",
+        "Rester hors de la piste et clarifier sa propre autorisation",
+        "Le suivre pour conserver l'espacement",
+        "Traverser si aucune voix n'est entendue"
+      ],
+      "correct_answer": "Rester hors de la piste et clarifier sa propre autorisation",
+      "explanation": "Une autorisation concerne son destinataire. Le mouvement de l'avion précédent ne remplace pas l'instruction nécessaire pour votre propre traversée.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "A clearance applies to its recipient. The preceding aircraft's movement does not replace the instruction required for your own crossing.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "taxi",
+        "takeoff",
+        "runway",
+        "crosswind",
+        "PAPI",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Treat its clearance as valid for both aircraft",
+        "Stay off the runway and clarify your own clearance",
+        "Follow to maintain spacing",
+        "Cross if no voices are heard"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C01",
+      "concept_title": "Roulage et orientation",
+      "level": 2,
+      "question": "Vrai ou faux ? Avant le roulage, il faut identifier les limites de l'autorisation reçue.",
+      "question_en": "True or false? Before taxiing, identify the limits of the clearance received.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nAvant de rouler, repérer la position, le cheminement et les limites d'autorisation. Les points d'attente protègent une piste ou une zone particulière. Une autorisation de roulage ne vaut pas automatiquement autorisation d'entrer sur une piste. À faible vitesse, surveiller obstacles, autres usagers et indications de freinage selon la procédure de l'avion.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "This statement is true.\n\nBefore taxiing, identify your position, route and clearance limits. Holding points protect a runway or particular area. A taxi clearance does not automatically authorise entering a runway. At low speed, monitor obstacles, other users and braking indications in accordance with the aircraft procedure.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C01",
+      "concept_title": "Roulage et orientation",
+      "level": 2,
+      "question": "Vrai ou faux ? Le point d'attente ne protège jamais la piste.",
+      "question_en": "True or false? A holding point never protects the runway.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nAvant de rouler, repérer la position, le cheminement et les limites d'autorisation. Les points d'attente protègent une piste ou une zone particulière. Une autorisation de roulage ne vaut pas automatiquement autorisation d'entrer sur une piste. À faible vitesse, surveiller obstacles, autres usagers et indications de freinage selon la procédure de l'avion.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "This statement is false.\n\nBefore taxiing, identify your position, route and clearance limits. Holding points protect a runway or particular area. A taxi clearance does not automatically authorise entering a runway. At low speed, monitor obstacles, other users and braking indications in accordance with the aircraft procedure.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C01",
+      "concept_title": "Roulage et orientation",
+      "level": 2,
+      "question": "Vrai ou faux ? Les indications de freinage s'observent selon la procédure du type.",
+      "question_en": "True or false? Braking indications are checked according to the type procedure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nAvant de rouler, repérer la position, le cheminement et les limites d'autorisation. Les points d'attente protègent une piste ou une zone particulière. Une autorisation de roulage ne vaut pas automatiquement autorisation d'entrer sur une piste. À faible vitesse, surveiller obstacles, autres usagers et indications de freinage selon la procédure de l'avion.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "This statement is true.\n\nBefore taxiing, identify your position, route and clearance limits. Holding points protect a runway or particular area. A taxi clearance does not automatically authorise entering a runway. At low speed, monitor obstacles, other users and braking indications in accordance with the aircraft procedure.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C02",
+      "concept_title": "Préparer le décollage",
+      "level": 2,
+      "question": "Vrai ou faux ? La vitesse de décollage doit être reprise d'un autre modèle si elle est connue par cœur.",
+      "question_en": "True or false? Take-off speed should be taken from another model if memorised.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe briefing fixe piste, configuration, vitesses du manuel, trajectoire initiale et conduite prévue en cas d'anomalie. Vérifier le vent et la cohérence de l'orientation de piste. La décision de poursuivre dépend des performances calculées et des conditions réelles. Les actions en panne immédiatement après décollage doivent avoir été enseignées sur le type et adaptées au terrain.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "This statement is false.\n\nThe briefing establishes runway, configuration, manual speeds, initial flight path and planned response to an anomaly. Check the wind and consistency of runway orientation. Continuing depends on calculated performance and actual conditions. Actions following a failure immediately after take-off must have been taught on type and adapted to the aerodrome.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C02",
+      "concept_title": "Préparer le décollage",
+      "level": 2,
+      "question": "Vrai ou faux ? L'orientation de la piste doit être cohérente avec celle attendue.",
+      "question_en": "True or false? Runway orientation must agree with what is expected.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe briefing fixe piste, configuration, vitesses du manuel, trajectoire initiale et conduite prévue en cas d'anomalie. Vérifier le vent et la cohérence de l'orientation de piste. La décision de poursuivre dépend des performances calculées et des conditions réelles. Les actions en panne immédiatement après décollage doivent avoir été enseignées sur le type et adaptées au terrain.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "This statement is true.\n\nThe briefing establishes runway, configuration, manual speeds, initial flight path and planned response to an anomaly. Check the wind and consistency of runway orientation. Continuing depends on calculated performance and actual conditions. Actions following a failure immediately after take-off must have been taught on type and adapted to the aerodrome.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C02",
+      "concept_title": "Préparer le décollage",
+      "level": 2,
+      "question": "Vrai ou faux ? Les réactions à une panne juste après le décollage se préparent pour le terrain concerné.",
+      "question_en": "True or false? Responses to a failure just after take-off are prepared for the aerodrome concerned.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe briefing fixe piste, configuration, vitesses du manuel, trajectoire initiale et conduite prévue en cas d'anomalie. Vérifier le vent et la cohérence de l'orientation de piste. La décision de poursuivre dépend des performances calculées et des conditions réelles. Les actions en panne immédiatement après décollage doivent avoir été enseignées sur le type et adaptées au terrain.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "This statement is true.\n\nThe briefing establishes runway, configuration, manual speeds, initial flight path and planned response to an anomaly. Check the wind and consistency of runway orientation. Continuing depends on calculated performance and actual conditions. Actions following a failure immediately after take-off must have been taught on type and adapted to the aerodrome.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C02",
+      "concept_title": "Préparer le décollage",
+      "level": 2,
+      "question": "Vrai ou faux ? La configuration au décollage n'a pas besoin de figurer dans le briefing.",
+      "question_en": "True or false? Take-off configuration does not need to be in the briefing.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe briefing fixe piste, configuration, vitesses du manuel, trajectoire initiale et conduite prévue en cas d'anomalie. Vérifier le vent et la cohérence de l'orientation de piste. La décision de poursuivre dépend des performances calculées et des conditions réelles. Les actions en panne immédiatement après décollage doivent avoir été enseignées sur le type et adaptées au terrain.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "This statement is false.\n\nThe briefing establishes runway, configuration, manual speeds, initial flight path and planned response to an anomaly. Check the wind and consistency of runway orientation. Continuing depends on calculated performance and actual conditions. Actions following a failure immediately after take-off must have been taught on type and adapted to the aerodrome.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C03",
+      "concept_title": "Exemple d'incursion évitée",
+      "level": 2,
+      "question": "Vrai ou faux ? Suivre le précédent permet de remplacer une instruction incomprise.",
+      "question_en": "True or false? Following the preceding aircraft replaces an unclear instruction.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne instruction radio n'est pas comprise à l'approche d'un point d'attente. Rester hors de la piste, demander répétition et clarifier. Ne pas suivre simplement l'avion précédent. Au décollage, une accélération ou une indication moteur inhabituelle appelle la décision prévue au briefing ; improviser sous pression augmente le risque.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "This statement is false.\n\nA radio instruction is not understood near a holding point. Stay clear of the runway, request repetition and clarify. Do not simply follow the preceding aircraft. On take-off, unusual acceleration or engine indications call for the decision prepared in the briefing; improvising under pressure increases risk.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C03",
+      "concept_title": "Exemple d'incursion évitée",
+      "level": 2,
+      "question": "Vrai ou faux ? Une accélération inhabituelle doit être rapprochée de la décision préparée.",
+      "question_en": "True or false? Unusual acceleration should be assessed against the prepared decision.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne instruction radio n'est pas comprise à l'approche d'un point d'attente. Rester hors de la piste, demander répétition et clarifier. Ne pas suivre simplement l'avion précédent. Au décollage, une accélération ou une indication moteur inhabituelle appelle la décision prévue au briefing ; improviser sous pression augmente le risque.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "This statement is true.\n\nA radio instruction is not understood near a holding point. Stay clear of the runway, request repetition and clarify. Do not simply follow the preceding aircraft. On take-off, unusual acceleration or engine indications call for the decision prepared in the briefing; improvising under pressure increases risk.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_002_C03",
+      "concept_title": "Exemple d'incursion évitée",
+      "level": 2,
+      "question": "Vrai ou faux ? Une instruction ambiguë doit être clarifiée seulement après avoir franchi le point d'attente.",
+      "question_en": "True or false? An ambiguous instruction should be clarified only after passing the holding point.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne instruction radio n'est pas comprise à l'approche d'un point d'attente. Rester hors de la piste, demander répétition et clarifier. Ne pas suivre simplement l'avion précédent. Au décollage, une accélération ou une indication moteur inhabituelle appelle la décision prévue au briefing ; improviser sous pression augmente le risque.\n\n![Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée.](/illustrations/lapl-op-002.svg)",
+      "explanation_en": "This statement is false.\n\nA radio instruction is not understood near a holding point. Stay clear of the runway, request repetition and clarify. Do not simply follow the preceding aircraft. On take-off, unusual acceleration or engine indications call for the decision prepared in the briefing; improvising under pressure increases risk.\n\n![Diagram: Taxi and Takeoff Procedures](/illustrations/en/lapl-op-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

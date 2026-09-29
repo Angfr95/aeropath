@@ -46,23 +46,24 @@ const (
 
 // Lesson représente une leçon pédagogique enrichie.
 type Lesson struct {
-	ID               string            `json:"id"`
-	License          License           `json:"license"`
-	Category         Category          `json:"category"`
-	Theme            string            `json:"theme"`
-	TitleFr          string            `json:"title_fr"`
-	TitleEn          string            `json:"title_en"`
-	ContentFr        string            `json:"content_fr"`
-	ContentEn        string            `json:"content_en"`
-	Level            int               `json:"level"`                        // 1=Basic, 2=Intermediate, 3=Advanced
-	Difficulty       int               `json:"difficulty"`
-	OrderIndex       int               `json:"order_index"`
-	DurationMinutes  int               `json:"duration_minutes"`             // Durée estimée de la leçon
-	Tags             []string          `json:"tags,omitempty"`               // Mots-clés
-	LearningObjectives []string        `json:"learning_objectives,omitempty"` // Objectifs pédagogiques
-	CreatedAt        time.Time         `json:"created_at"`
+	ID                 string    `json:"id"`
+	License            License   `json:"license"`
+	Category           Category  `json:"category"`
+	Theme              string    `json:"theme"`
+	TitleFr            string    `json:"title_fr"`
+	TitleEn            string    `json:"title_en"`
+	TitleEs            string    `json:"title_es"`
+	ContentFr          string    `json:"content_fr"`
+	ContentEn          string    `json:"content_en"`
+	ContentEs          string    `json:"content_es"`
+	Level              int       `json:"level"` // 1=Basic, 2=Intermediate, 3=Advanced
+	Difficulty         int       `json:"difficulty"`
+	OrderIndex         int       `json:"order_index"`
+	DurationMinutes    int       `json:"duration_minutes"`              // Durée estimée de la leçon
+	Tags               []string  `json:"tags,omitempty"`                // Mots-clés
+	LearningObjectives []string  `json:"learning_objectives,omitempty"` // Objectifs pédagogiques
+	CreatedAt          time.Time `json:"created_at"`
 }
-
 
 // LessonRepository définit le contrat pour accéder aux leçons.
 type LessonRepository interface {

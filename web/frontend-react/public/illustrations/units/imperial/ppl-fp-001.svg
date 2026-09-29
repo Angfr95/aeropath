@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="822" viewBox="0 0 1200 822" role="img" aria-labelledby="title desc"><title id="title">Autonomie théorique et bilan carburant</title><desc id="desc">72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Autonomie théorique et bilan carburant</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Une division donne une durée ; elle ne valide pas à elle seule le vol.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_FP_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<rect x="115" y="249" width="201" height="295" rx="20" fill="#102033" stroke="#5e7c99"/>
+<rect x="129" y="270" width="173" height="260" rx="12" fill="#236377" stroke="none"/>
+<text x="215" y="375" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="49" font-weight="700" text-anchor="middle">72 L</text>
+<text x="215" y="411" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="middle">utilisables</text>
+<text x="385" y="387" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="400" text-anchor="middle">÷</text>
+<text x="536" y="374" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">24 L/h</text>
+<text x="536" y="418" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">débit fictif constant</text>
+<text x="713" y="387" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="45" font-weight="400" text-anchor="middle">=</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">3 heures</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Autonomie théorique, pas</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">durée de trajet autorisée.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">À comptabiliser</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Phases du vol, aléas et</text>
+<text x="855" y="406" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">dégagement.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">À préserver</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Les réserves applicables au</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">vol.</text>
+<rect x="0" y="720" width="1200" height="102" fill="#10243d"/><text x="42" y="754" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18">Équivalences arrondies · valeurs d’origine conservées pour les calculs</text><text x="42" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">72 L ≈ 15,84 imp gal</text><text x="432" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">24 L/h ≈ 5,28 imp gal/h</text></svg>

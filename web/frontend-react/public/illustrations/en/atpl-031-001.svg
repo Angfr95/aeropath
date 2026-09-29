@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Mass and balance: read the envelope</title><desc id="desc">Mass and balance: read the envelope</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / ATPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Mass and balance: read the envelope</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Fictional exercise · Scaled axes</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">ATPL_031_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Read the diagram with the lesson explanations and references.</text>
+<text x="65" y="211" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Fictional envelope · Boundaries included</text>
+<path d="M130 540.0L830 540.0" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="116" y="546.0" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="end">8 000</text>
+<path d="M130 475.0L830 475.0" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="116" y="481.0" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="end">9 000</text>
+<path d="M130 410.0L830 410.0" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="116" y="416.0" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="end">10 000</text>
+<path d="M130 345.0L830 345.0" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="116" y="351.0" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="end">11 000</text>
+<path d="M130 280.0L830 280.0" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="116" y="286.0" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="end">12 000</text>
+<path d="M130 270L130 540" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="130" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">10</text>
+<path d="M230 270L230 540" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="230" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">15</text>
+<path d="M330 270L330 540" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="330" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">20</text>
+<path d="M430 270L430 540" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="430" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">25</text>
+<path d="M530 270L530 540" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="530" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">30</text>
+<path d="M630 270L630 540" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="630" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">35</text>
+<path d="M730 270L730 540" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="730" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">40</text>
+<path d="M830 270L830 540" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="830" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">45</text>
+<path d="M230 540.0L430 280.0L630 280.0L630 540.0Z" fill="#234553" stroke="#58dfed" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<text x="485" y="413" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="middle">Permitted region</text>
+<text x="65" y="247" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Mass (kg)</text>
+<text x="500" y="603" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">CG (%MAC)</text>
+<text x="865" y="294" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Forward: 15% at 8,000</text>
+<text x="865" y="323" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">kg; 25% at 12,000 kg.</text>
+<text x="865" y="352" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Linear interpolation.</text>
+<text x="865" y="450" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Aft: 35%. Check every</text>
+<text x="865" y="479" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">state in the sequence.</text>
+</svg>

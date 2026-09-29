@@ -1,0 +1,628 @@
+{
+  "metadata": {
+    "module_id": "ATPL_021_001",
+    "program": "ATPL",
+    "subject": "aircraft_general",
+    "chapter_title": "Turbines : cycle et surveillance",
+    "chapter_title_en": "Turbines: cycle and monitoring",
+    "reference_checked_on": "2026-09-26",
+    "learning_objective": "Résoudre et vérifier les exercices de turbines : cycle et surveillance.",
+    "learning_objective_en": "Solve and cross-check exercises on turbines: cycle and monitoring.",
+    "estimated_duration_minutes": 35,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Calcul des proportions et des durées ; bases PPL du sujet"
+    ],
+    "exam_subject": "021",
+    "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021",
+    "official_subject_format": {
+      "questions": 80,
+      "minutes": 120,
+      "pass_percent": 75,
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+    },
+    "sources": [
+      {
+        "title": "EASA — programme Part-FCL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+      },
+      {
+        "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      },
+      {
+        "title": "FAA PHAK — turbines et systèmes",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      }
+    ],
+    "content_status": "draft",
+    "coverage_status": "partial",
+    "scope": "ATPL(A), France / EASA",
+    "quiz_format": "chapter_practice",
+    "tags": [
+      "ATPL",
+      "mcq-four-options"
+    ],
+    "illustration": {
+      "src": "/illustrations/atpl-021-001.svg",
+      "alt": "Turbines : cycle et surveillance"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "ATPL_021_001_C01",
+      "title": "Suivre le flux gazeux",
+      "title_en": "Follow the gas path",
+      "content": "![ATPL_021_001](/illustrations/atpl-021-001.svg)\n\nDans le cœur d’une turbine, l’air passe par compression, combustion, détente dans la turbine puis échappement. Le compresseur élève la pression et demande de la puissance mécanique ; la turbine extrait de l’énergie des gaz pour entraîner le compresseur et, selon le moteur, une soufflante ou une hélice. Le modèle idéal de Brayton comporte un apport de chaleur à pression constante ; un moteur réel présente des pertes, notamment dans la chambre de combustion.",
+      "content_en": "![ATPL_021_001](/illustrations/en/atpl-021-001.svg)\n\nIn a turbine core, air undergoes compression, combustion, expansion through the turbine and exhaust. The compressor raises pressure and requires shaft power; the turbine extracts gas energy to drive the compressor and, depending on engine type, a fan or propeller. The ideal Brayton model adds heat at constant pressure; real engines have losses, including in the combustor.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 021",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_021_001_C02",
+      "title": "Identifier les architectures",
+      "title_en": "Identify architectures",
+      "content": "Un turboréacteur utilise principalement le jet pour la poussée. Un turbofan fait passer une partie du débit autour du cœur ; le taux de dilution est débit secondaire / débit du cœur. Exemple : 800 kg/s autour du cœur pour 100 kg/s dans le cœur donnent 8. Un turbopropulseur fournit l’essentiel de sa propulsion par l’hélice. Les arbres basse et haute pression peuvent tourner à des vitesses différentes ; N1 et N2 désignent des ensembles propres à l’architecture du moteur.",
+      "content_en": "A turbojet mainly uses its jet for thrust. A turbofan passes part of the airflow around the core; bypass ratio is bypass flow / core flow. Example: 800 kg/s around the core and 100 kg/s through it give 8. A turboprop obtains most propulsion from its propeller. Low- and high-pressure spools may rotate at different speeds; N1 and N2 refer to assemblies specific to engine architecture.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 021",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_021_001_C03",
+      "title": "Reconnaître un démarrage anormal",
+      "title_en": "Recognise an abnormal start",
+      "content": "Surveiller la séquence et les limites du manuel : rotation, allumage, température, accélération et pression d’huile. Un hot start correspond à une température de démarrage excessive ; un hung start à une accélération insuffisante, le régime restant sous le ralenti autonome attendu. Une absence d’allumage après admission de carburant peut accumuler du carburant non brûlé. Les seuils, délais et actions d’interruption sont propres au moteur ; ce chapitre n’en invente pas.",
+      "content_en": "Monitor the manual’s sequence and limits: rotation, ignition, temperature, acceleration and oil pressure. A hot start involves excessive starting temperature; a hung start involves insufficient acceleration, with speed remaining below expected self-sustaining idle. Failure to light after fuel admission may accumulate unburned fuel. Limits, timings and abort actions are engine-specific; this chapter does not invent them.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 021",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_021_001_C04",
+      "title": "Distinguer les anomalies en fonctionnement",
+      "title_en": "Distinguish running abnormalities",
+      "content": "Un décrochage compresseur est une perturbation aérodynamique de l’écoulement sur les aubages ; un pompage peut concerner l’ensemble du système de compression, avec oscillations et parfois inversion de débit. Bruits, variations de régime ou de température et perte de poussée sont des indices possibles, pas un diagnostic exclusif. Une extinction de flamme est distincte. Les corps étrangers peuvent endommager les aubes. Un FADEC peut assurer des protections, mais ne supprime pas les limitations ni la surveillance du pilote.\n\n**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. La matière 021 comporte 80 questions en 120 minutes dans le tableau EASA cité. Ce chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.",
+      "content_en": "Compressor stall is aerodynamic flow breakdown over compressor blades; surge may involve the entire compression system, with oscillations and sometimes flow reversal. Noise, speed or temperature fluctuations and thrust loss are possible indications, not an exclusive diagnosis. Flameout is different. Foreign objects can damage blades. FADEC may provide protections but does not remove limitations or pilot monitoring.\n\n**Practice format:** 15 chapter MCQs, four choices and one correct answer. Subject 021 has 80 questions in 120 minutes in the cited EASA table. This chapter covers only part of the subject and is not a full paper. EASA framework, including with English or US/British units.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 021",
+      "tags": [
+        "ATPL"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "ATPL_021_001_C01",
+      "concept_title": "Suivre le flux gazeux",
+      "level": 3,
+      "question": "Quel ordre décrit le flux dans le cœur d’une turbine ?",
+      "question_en": "Which sequence describes flow through a turbine core?",
+      "options": [
+        "Compression, combustion, turbine, échappement",
+        "Combustion, échappement, compression, turbine",
+        "Turbine, compression, échappement, combustion",
+        "Échappement, combustion, turbine, compression"
+      ],
+      "options_en": [
+        "Compression, combustion, turbine, exhaust",
+        "Combustion, exhaust, compression, turbine",
+        "Turbine, compression, exhaust, combustion",
+        "Exhaust, combustion, turbine, compression"
+      ],
+      "correct_answer": "Compression, combustion, turbine, échappement",
+      "explanation": "La compression précède l’apport de chaleur, puis la détente.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "Compression precedes heat addition, then expansion.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C01",
+      "concept_title": "Suivre le flux gazeux",
+      "level": 3,
+      "question": "Quel organe extrait l’énergie des gaz pour entraîner le compresseur ?",
+      "question_en": "Which component extracts gas energy to drive the compressor?",
+      "options": [
+        "Le réservoir",
+        "Le tube Pitot",
+        "La prise statique",
+        "La turbine"
+      ],
+      "options_en": [
+        "The tank",
+        "The pitot tube",
+        "The static port",
+        "The turbine"
+      ],
+      "correct_answer": "La turbine",
+      "explanation": "La turbine fournit du travail mécanique sur l’arbre.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "The turbine supplies shaft work.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C01",
+      "concept_title": "Suivre le flux gazeux",
+      "level": 3,
+      "question": "Le compresseur…",
+      "question_en": "The compressor…",
+      "options": [
+        "Est toujours entraîné seulement par le vent",
+        "Remplace la combustion",
+        "Consomme de la puissance pour augmenter la pression",
+        "Crée du carburant"
+      ],
+      "options_en": [
+        "Is always driven only by wind",
+        "Replaces combustion",
+        "Consumes power to increase pressure",
+        "Creates fuel"
+      ],
+      "correct_answer": "Consomme de la puissance pour augmenter la pression",
+      "explanation": "L’augmentation de pression demande de l’énergie.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "Raising pressure requires energy.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C01",
+      "concept_title": "Suivre le flux gazeux",
+      "level": 3,
+      "question": "Dans le cycle idéal de Brayton, l’apport de chaleur est modélisé à…",
+      "question_en": "In the ideal Brayton cycle, heat addition is modelled at…",
+      "options": [
+        "Pression nécessairement nulle",
+        "Pression constante",
+        "Volume nul",
+        "Température constante sans énergie"
+      ],
+      "options_en": [
+        "Necessarily zero pressure",
+        "Constant pressure",
+        "Zero volume",
+        "Constant temperature without energy"
+      ],
+      "correct_answer": "Pression constante",
+      "explanation": "C’est une idéalisation ; le moteur réel comporte des pertes.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "This is an idealisation; real engines have losses.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C02",
+      "concept_title": "Identifier les architectures",
+      "level": 3,
+      "question": "Débit secondaire 800 kg/s, débit du cœur 100 kg/s. Taux de dilution ?",
+      "question_en": "Bypass flow 800 kg/s, core flow 100 kg/s. Bypass ratio?",
+      "options": [
+        "8",
+        "9",
+        "0,125",
+        "700"
+      ],
+      "options_en": [
+        "8",
+        "9",
+        "0.125",
+        "700"
+      ],
+      "correct_answer": "8",
+      "explanation": "800/100 = 8 ; ne pas utiliser le débit total au numérateur.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "800/100 = 8; do not use total flow as numerator.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C02",
+      "concept_title": "Identifier les architectures",
+      "level": 3,
+      "question": "Quelle architecture fournit principalement sa propulsion par l’hélice ?",
+      "question_en": "Which architecture mainly propels the aircraft with a propeller?",
+      "options": [
+        "Turboréacteur pur",
+        "Ramjet sans hélice",
+        "Moteur-fusée",
+        "Turbopropulseur"
+      ],
+      "options_en": [
+        "Pure turbojet",
+        "Propeller-free ramjet",
+        "Rocket engine",
+        "Turboprop"
+      ],
+      "correct_answer": "Turbopropulseur",
+      "explanation": "La puissance à l’arbre entraîne l’hélice.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "Shaft power drives the propeller.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C02",
+      "concept_title": "Identifier les architectures",
+      "level": 3,
+      "question": "Deux arbres indépendants d’un moteur à double corps doivent-ils tourner à la même vitesse ?",
+      "question_en": "Must two independent spools of a two-spool engine rotate at equal speed?",
+      "options": [
+        "Oui, dès l’allumage",
+        "Oui, parce que N1 et N2 sont identiques",
+        "Non",
+        "Oui, toujours"
+      ],
+      "options_en": [
+        "Yes, from ignition",
+        "Yes, because N1 and N2 are identical",
+        "No",
+        "Yes, always"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Les ensembles peuvent avoir des vitesses différentes.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "The assemblies can have different speeds.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C03",
+      "concept_title": "Reconnaître un démarrage anormal",
+      "level": 3,
+      "question": "Une température de démarrage dépasse sa limite. Quel terme décrit cette anomalie ?",
+      "question_en": "Starting temperature exceeds its limit. Which term describes this abnormality?",
+      "options": [
+        "Extinction nécessairement confirmée",
+        "Hot start",
+        "Hung start par définition",
+        "Démarrage normal"
+      ],
+      "options_en": [
+        "Necessarily confirmed flameout",
+        "Hot start",
+        "Hung start by definition",
+        "Normal start"
+      ],
+      "correct_answer": "Hot start",
+      "explanation": "Le critère est ici la température excessive.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "The criterion here is excessive temperature.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C03",
+      "concept_title": "Reconnaître un démarrage anormal",
+      "level": 3,
+      "question": "Le moteur s’allume mais son régime stagne sous le ralenti autonome attendu. Quelle anomalie évoquer ?",
+      "question_en": "The engine lights but speed stagnates below expected self-sustaining idle. Which abnormality is suggested?",
+      "options": [
+        "Hung start",
+        "Démarrage normal achevé",
+        "Survitesse confirmée",
+        "Simple variation de QNH"
+      ],
+      "options_en": [
+        "Hung start",
+        "Completed normal start",
+        "Confirmed overspeed",
+        "Simple QNH change"
+      ],
+      "correct_answer": "Hung start",
+      "explanation": "L’accélération est insuffisante pour achever le démarrage.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "Acceleration is insufficient to complete the start.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C03",
+      "concept_title": "Reconnaître un démarrage anormal",
+      "level": 3,
+      "question": "Les délais d’allumage et températures limites viennent…",
+      "question_en": "Ignition time limits and temperature limits come from…",
+      "options": [
+        "D’une valeur universelle pour toutes les turbines",
+        "Du nombre de passagers",
+        "De la langue du cockpit",
+        "Du manuel propre au moteur et à l’avion"
+      ],
+      "options_en": [
+        "One universal value for all turbines",
+        "Passenger count",
+        "Cockpit language",
+        "The engine- and aircraft-specific manual"
+      ],
+      "correct_answer": "Du manuel propre au moteur et à l’avion",
+      "explanation": "Les séquences et protections varient selon l’installation.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "Sequences and protections vary with installation.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C03",
+      "concept_title": "Reconnaître un démarrage anormal",
+      "level": 3,
+      "question": "L’absence d’allumage après admission de carburant peut entraîner…",
+      "question_en": "No light-up after fuel admission may cause…",
+      "options": [
+        "Une température extérieure plus basse",
+        "Un compresseur sans besoin d’énergie",
+        "Une accumulation de carburant non brûlé",
+        "Une combustion nécessairement normale"
+      ],
+      "options_en": [
+        "Lower outside temperature",
+        "A compressor requiring no energy",
+        "Accumulation of unburned fuel",
+        "Necessarily normal combustion"
+      ],
+      "correct_answer": "Une accumulation de carburant non brûlé",
+      "explanation": "Appliquer la procédure propre au moteur ; ne pas prolonger arbitrairement.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "Follow the engine-specific procedure; do not arbitrarily extend the start.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C04",
+      "concept_title": "Distinguer les anomalies en fonctionnement",
+      "level": 3,
+      "question": "Un décrochage compresseur concerne d’abord…",
+      "question_en": "Compressor stall primarily concerns…",
+      "options": [
+        "Le calage de l’altimètre",
+        "L’écoulement aérodynamique sur les aubages",
+        "Le décrochage de l’aile uniquement",
+        "La pression des pneus"
+      ],
+      "options_en": [
+        "Altimeter setting",
+        "Aerodynamic flow over blades",
+        "Only wing stall",
+        "Tyre pressure"
+      ],
+      "correct_answer": "L’écoulement aérodynamique sur les aubages",
+      "explanation": "Le terme désigne une instabilité du compresseur.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "The term describes compressor instability.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C04",
+      "concept_title": "Distinguer les anomalies en fonctionnement",
+      "level": 3,
+      "question": "Une extinction de flamme est-elle synonyme de tout décrochage compresseur ?",
+      "question_en": "Is flameout synonymous with every compressor stall?",
+      "options": [
+        "Non",
+        "Oui",
+        "Oui, pour N1 seulement",
+        "Oui, au ralenti seulement"
+      ],
+      "options_en": [
+        "No",
+        "Yes",
+        "Yes, for N1 only",
+        "Yes, only at idle"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Ce sont des phénomènes distincts même s’ils peuvent être liés.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "They are distinct phenomena even if they may be related.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C04",
+      "concept_title": "Distinguer les anomalies en fonctionnement",
+      "level": 3,
+      "question": "Pourquoi surveiller l’entrée d’air et les corps étrangers ?",
+      "question_en": "Why monitor the intake and foreign objects?",
+      "options": [
+        "Ils améliorent le taux de compression",
+        "Ils remplacent le filtre à carburant",
+        "Ils annulent le risque de pompage",
+        "Ils peuvent endommager les aubes"
+      ],
+      "options_en": [
+        "They improve compression ratio",
+        "They replace the fuel filter",
+        "They eliminate surge risk",
+        "They can damage blades"
+      ],
+      "correct_answer": "Ils peuvent endommager les aubes",
+      "explanation": "L’ingestion peut affecter l’intégrité et les performances.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "Ingestion can affect integrity and performance.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_001_C04",
+      "concept_title": "Distinguer les anomalies en fonctionnement",
+      "level": 3,
+      "question": "La présence d’un FADEC dispense-t-elle de respecter les limitations et surveiller le moteur ?",
+      "question_en": "Does FADEC remove the need to observe limits and monitor the engine?",
+      "options": [
+        "Oui, au démarrage seulement",
+        "Oui, si N1 est affiché",
+        "Non",
+        "Oui, pour toutes les phases"
+      ],
+      "options_en": [
+        "Yes, only during start",
+        "Yes, if N1 is displayed",
+        "No",
+        "Yes, in all phases"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Les protections automatiques ne suppriment pas les obligations de surveillance.\n\n![ATPL_021_001](/illustrations/atpl-021-001.svg)",
+      "explanation_en": "Automatic protections do not remove monitoring duties.\n\n![ATPL_021_001](/illustrations/en/atpl-021-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-7-aircraft-systems"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    }
+  ]
+}

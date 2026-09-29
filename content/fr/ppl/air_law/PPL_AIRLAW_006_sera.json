@@ -5,13 +5,593 @@
     "subject": "Air Law",
     "chapter_title": "SERA — Règles de l'air standardisées",
     "chapter_title_en": "SERA — Standardised European Rules of the Air",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : le rôle de sera; responsabilité et prévention; application à une situation.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: the role of sera; responsibility and prevention; applying the rules to a situation.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 35,
-    "prerequisites": ["PPL_AIRLAW_001"],
-    "tags": ["SERA", "rules", "Europe", "EASA"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AIRLAW_001"
+    ],
+    "tags": [
+      "SERA",
+      "rules",
+      "Europe",
+      "EASA"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "EASA — SERA, règles de l’air",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "EASA — Aircrew, Part-FCL",
+        "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+      },
+      {
+        "title": "SIA — informations aéronautiques françaises",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-airlaw-006.svg",
+      "alt": "SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation."
+    },
+    "exam_subject": "airlaw",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_AIRLAW_006_C01",
+      "title": "Le rôle de SERA",
+      "title_en": "The role of SERA",
+      "content": "![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)\n\nSERA rassemble les règles de l'air communes dans le cadre européen. Ces dispositions se lisent avec les autres règlements applicables et les publications nationales. L'AIP renseigne notamment sur l'organisation locale, les procédures et différences publiées. Une règle apprise à l'étranger ou dans un ancien manuel doit être vérifiée avant application.",
+      "content_en": "![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)\n\nSERA brings together common European rules of the air. Read these provisions alongside other applicable regulations and national publications. The AIP provides local organisation, procedures and published differences. Check a rule learned abroad or from an old manual before applying it.",
+      "difficulty": "intermediate",
+      "tags": [
+        "SERA",
+        "rules",
+        "Europe",
+        "EASA"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Le rôle de SERA"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C02",
+      "title": "Responsabilité et prévention",
+      "title_en": "Responsibility and prevention",
+      "content": "Le commandant de bord est responsable de la conduite du vol dans le cadre applicable. Les règles de priorité et de prévention des collisions n'autorisent jamais à maintenir volontairement une situation dangereuse. La surveillance et l'anticipation restent nécessaires même en présence d'un service de contrôle. Une instruction incompatible avec la sécurité doit être signalée et clarifiée.",
+      "content_en": "The pilot-in-command is responsible for conducting the flight within the applicable framework. Right-of-way and collision avoidance rules never authorise deliberately maintaining a dangerous situation. Lookout and anticipation remain necessary even when an air traffic control service is provided. Report and clarify an instruction incompatible with safety.",
+      "difficulty": "intermediate",
+      "tags": [
+        "SERA",
+        "rules",
+        "Europe",
+        "EASA"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Responsabilité et prévention"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C03",
+      "title": "Application à une situation",
+      "title_en": "Applying the rules to a situation",
+      "content": "Deux aéronefs semblent converger. Savoir lequel doit céder le passage est utile, mais observer tôt et maintenir une séparation sûre reste essentiel. Les règles exactes varient selon les situations : convergence, face-à-face, dépassement ou approche. Étudier séparément ces cas dans SERA.3210 plutôt que mémoriser une formule générale qui serait fausse dans certains contextes.",
+      "content_en": "Two aircraft appear to be converging. Knowing which must give way is useful, but early observation and safe separation remain essential. The exact rules differ for convergence, head-on encounters, overtaking and approach. Study these cases separately in SERA.3210 rather than memorising a general formula that would be wrong in some circumstances.",
+      "difficulty": "intermediate",
+      "tags": [
+        "SERA",
+        "rules",
+        "Europe",
+        "EASA"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Application à une situation"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AIRLAW_006_C01",
+      "concept_title": "Le rôle de SERA",
+      "level": 1,
+      "question": "Une priorité autorise-t-elle à provoquer un rapprochement dangereux ?",
+      "question_en": "Does having right of way permit creating a dangerous close encounter?",
+      "options": [
+        "Non",
+        "Oui",
+        "Oui si l'autre avion est à gauche",
+        "Oui avec une clairance"
+      ],
+      "correct_answer": "Non",
+      "explanation": "La prévention des collisions demeure une responsabilité essentielle.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "Collision avoidance remains an essential responsibility.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "SERA",
+        "rules",
+        "Europe",
+        "EASA",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "No",
+        "Yes",
+        "Yes, if the other aircraft is on the left",
+        "Yes, with a clearance"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C02",
+      "concept_title": "Responsabilité et prévention",
+      "level": 1,
+      "question": "L'AIP complète-t-il la lecture des règles communes ?",
+      "question_en": "Does the AIP complement the common rules?",
+      "options": [
+        "Non",
+        "Seulement pour le carburant",
+        "Seulement pour les compagnies",
+        "Oui"
+      ],
+      "correct_answer": "Oui",
+      "explanation": "Il fournit les informations et procédures propres au territoire.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "It provides information and procedures specific to the territory.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "SERA",
+        "rules",
+        "Europe",
+        "EASA",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "No",
+        "Only for fuel",
+        "Only for airlines",
+        "Yes"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C03",
+      "concept_title": "Application à une situation",
+      "level": 1,
+      "question": "Pourquoi distinguer convergence et dépassement ?",
+      "question_en": "Why distinguish converging from overtaking?",
+      "options": [
+        "Pour éviter de regarder dehors",
+        "Pour changer de licence",
+        "Les règles applicables ne sont pas identiques",
+        "Pour utiliser une autre unité de masse"
+      ],
+      "correct_answer": "Les règles applicables ne sont pas identiques",
+      "explanation": "Chaque situation possède ses dispositions spécifiques.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "Each situation has its own specific provisions.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "SERA",
+        "rules",
+        "Europe",
+        "EASA",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "To avoid looking outside",
+        "To change licence",
+        "The applicable rules differ",
+        "To use a different unit of mass"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C02",
+      "concept_title": "Responsabilité et prévention",
+      "level": 2,
+      "question": "Une instruction reçue paraît incompatible avec la sécurité du vol. Quelle réaction est adaptée ?",
+      "question_en": "An instruction appears incompatible with flight safety. What is an appropriate response?",
+      "options": [
+        "Supposer qu'elle transfère la responsabilité du pilote",
+        "Signaler la difficulté et demander clarification",
+        "L'exécuter sans examiner la situation",
+        "L'ignorer sans en informer l'organisme"
+      ],
+      "correct_answer": "Signaler la difficulté et demander clarification",
+      "explanation": "Le pilote conserve ses responsabilités. Il doit faire connaître une difficulté de sécurité et clarifier l'instruction plutôt que l'appliquer aveuglément ou laisser croire qu'elle sera exécutée.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "The pilot retains responsibility. Explain the safety concern and clarify the instruction instead of blindly following it or leaving the unit believing it will be followed.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "SERA",
+        "rules",
+        "Europe",
+        "EASA",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Assume it transfers the pilot's responsibility",
+        "Report the difficulty and request clarification",
+        "Follow it without assessing the situation",
+        "Ignore it without telling the unit"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C03",
+      "concept_title": "Application à une situation",
+      "level": 2,
+      "question": "Deux trafics convergent, mais vous n'êtes pas certain de la règle de priorité applicable. Quelle action reste nécessaire ?",
+      "question_en": "Two aircraft are converging, but you are unsure which right-of-way rule applies. What action remains necessary?",
+      "options": [
+        "Surveiller et agir pour prévenir un rapprochement dangereux",
+        "Maintenir la trajectoire sans observer l'autre trafic",
+        "Attendre une alerte électronique avant toute action",
+        "Considérer que l'aéronef le plus rapide a toujours priorité"
+      ],
+      "correct_answer": "Surveiller et agir pour prévenir un rapprochement dangereux",
+      "explanation": "La prévention des collisions reste nécessaire quelle que soit la priorité. Identifier la situation aide à appliquer la règle correcte, mais ne justifie jamais de laisser se développer un danger.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "Collision prevention remains necessary regardless of priority. Identifying the situation helps apply the correct rule but never justifies allowing a hazard to develop.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "SERA",
+        "rules",
+        "Europe",
+        "EASA",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Maintain lookout and act to prevent a dangerous close encounter",
+        "Maintain course without observing the other aircraft",
+        "Wait for an electronic alert before taking any action",
+        "Assume the faster aircraft always has priority"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C01",
+      "concept_title": "Le rôle de SERA",
+      "level": 2,
+      "question": "Vrai ou faux ? SERA se lit avec les autres textes et publications applicables.",
+      "question_en": "True or false? SERA is read alongside other applicable rules and publications.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nSERA rassemble les règles de l'air communes dans le cadre européen. Ces dispositions se lisent avec les autres règlements applicables et les publications nationales. L'AIP renseigne notamment sur l'organisation locale, les procédures et différences publiées. Une règle apprise à l'étranger ou dans un ancien manuel doit être vérifiée avant application.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "This statement is true.\n\nSERA brings together common European rules of the air. Read these provisions alongside other applicable regulations and national publications. The AIP provides local organisation, procedures and published differences. Check a rule learned abroad or from an old manual before applying it.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C01",
+      "concept_title": "Le rôle de SERA",
+      "level": 2,
+      "question": "Vrai ou faux ? Une règle mémorisée à l'étranger est automatiquement applicable partout.",
+      "question_en": "True or false? A rule memorised abroad automatically applies everywhere.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSERA rassemble les règles de l'air communes dans le cadre européen. Ces dispositions se lisent avec les autres règlements applicables et les publications nationales. L'AIP renseigne notamment sur l'organisation locale, les procédures et différences publiées. Une règle apprise à l'étranger ou dans un ancien manuel doit être vérifiée avant application.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "This statement is false.\n\nSERA brings together common European rules of the air. Read these provisions alongside other applicable regulations and national publications. The AIP provides local organisation, procedures and published differences. Check a rule learned abroad or from an old manual before applying it.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C01",
+      "concept_title": "Le rôle de SERA",
+      "level": 2,
+      "question": "Vrai ou faux ? L'AIP donne des informations sur l'organisation locale.",
+      "question_en": "True or false? The AIP provides information about local organisation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nSERA rassemble les règles de l'air communes dans le cadre européen. Ces dispositions se lisent avec les autres règlements applicables et les publications nationales. L'AIP renseigne notamment sur l'organisation locale, les procédures et différences publiées. Une règle apprise à l'étranger ou dans un ancien manuel doit être vérifiée avant application.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "This statement is true.\n\nSERA brings together common European rules of the air. Read these provisions alongside other applicable regulations and national publications. The AIP provides local organisation, procedures and published differences. Check a rule learned abroad or from an old manual before applying it.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C02",
+      "concept_title": "Responsabilité et prévention",
+      "level": 2,
+      "question": "Vrai ou faux ? Un service de contrôle dispense le pilote de toute veille extérieure.",
+      "question_en": "True or false? An air traffic control service removes all need for external lookout.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe commandant de bord est responsable de la conduite du vol dans le cadre applicable. Les règles de priorité et de prévention des collisions n'autorisent jamais à maintenir volontairement une situation dangereuse. La surveillance et l'anticipation restent nécessaires même en présence d'un service de contrôle. Une instruction incompatible avec la sécurité doit être signalée et clarifiée.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "This statement is false.\n\nThe pilot-in-command is responsible for conducting the flight within the applicable framework. Right-of-way and collision avoidance rules never authorise deliberately maintaining a dangerous situation. Lookout and anticipation remain necessary even when an air traffic control service is provided. Report and clarify an instruction incompatible with safety.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C02",
+      "concept_title": "Responsabilité et prévention",
+      "level": 2,
+      "question": "Vrai ou faux ? La responsabilité du commandant de bord persiste lorsqu'une instruction est reçue.",
+      "question_en": "True or false? Pilot-in-command responsibility remains when an instruction is received.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe commandant de bord est responsable de la conduite du vol dans le cadre applicable. Les règles de priorité et de prévention des collisions n'autorisent jamais à maintenir volontairement une situation dangereuse. La surveillance et l'anticipation restent nécessaires même en présence d'un service de contrôle. Une instruction incompatible avec la sécurité doit être signalée et clarifiée.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "This statement is true.\n\nThe pilot-in-command is responsible for conducting the flight within the applicable framework. Right-of-way and collision avoidance rules never authorise deliberately maintaining a dangerous situation. Lookout and anticipation remain necessary even when an air traffic control service is provided. Report and clarify an instruction incompatible with safety.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C02",
+      "concept_title": "Responsabilité et prévention",
+      "level": 2,
+      "question": "Vrai ou faux ? Avoir priorité autorise à maintenir délibérément une situation dangereuse.",
+      "question_en": "True or false? Having right of way permits deliberately maintaining a dangerous situation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe commandant de bord est responsable de la conduite du vol dans le cadre applicable. Les règles de priorité et de prévention des collisions n'autorisent jamais à maintenir volontairement une situation dangereuse. La surveillance et l'anticipation restent nécessaires même en présence d'un service de contrôle. Une instruction incompatible avec la sécurité doit être signalée et clarifiée.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "This statement is false.\n\nThe pilot-in-command is responsible for conducting the flight within the applicable framework. Right-of-way and collision avoidance rules never authorise deliberately maintaining a dangerous situation. Lookout and anticipation remain necessary even when an air traffic control service is provided. Report and clarify an instruction incompatible with safety.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C03",
+      "concept_title": "Application à une situation",
+      "level": 2,
+      "question": "Vrai ou faux ? Une rencontre de face et un dépassement sont des cas distincts.",
+      "question_en": "True or false? A head-on encounter and overtaking are different cases.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDeux aéronefs semblent converger. Savoir lequel doit céder le passage est utile, mais observer tôt et maintenir une séparation sûre reste essentiel. Les règles exactes varient selon les situations : convergence, face-à-face, dépassement ou approche. Étudier séparément ces cas dans SERA.3210 plutôt que mémoriser une formule générale qui serait fausse dans certains contextes.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "This statement is true.\n\nTwo aircraft appear to be converging. Knowing which must give way is useful, but early observation and safe separation remain essential. The exact rules differ for convergence, head-on encounters, overtaking and approach. Study these cases separately in SERA.3210 rather than memorising a general formula that would be wrong in some circumstances.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C03",
+      "concept_title": "Application à une situation",
+      "level": 2,
+      "question": "Vrai ou faux ? La même formule simplifiée de priorité convient forcément à toutes les rencontres.",
+      "question_en": "True or false? The same simplified priority formula necessarily fits every encounter.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDeux aéronefs semblent converger. Savoir lequel doit céder le passage est utile, mais observer tôt et maintenir une séparation sûre reste essentiel. Les règles exactes varient selon les situations : convergence, face-à-face, dépassement ou approche. Étudier séparément ces cas dans SERA.3210 plutôt que mémoriser une formule générale qui serait fausse dans certains contextes.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "This statement is false.\n\nTwo aircraft appear to be converging. Knowing which must give way is useful, but early observation and safe separation remain essential. The exact rules differ for convergence, head-on encounters, overtaking and approach. Study these cases separately in SERA.3210 rather than memorising a general formula that would be wrong in some circumstances.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C03",
+      "concept_title": "Application à une situation",
+      "level": 2,
+      "question": "Vrai ou faux ? Une observation précoce aide à prévenir le rapprochement dangereux.",
+      "question_en": "True or false? Early observation helps prevent a dangerous close encounter.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDeux aéronefs semblent converger. Savoir lequel doit céder le passage est utile, mais observer tôt et maintenir une séparation sûre reste essentiel. Les règles exactes varient selon les situations : convergence, face-à-face, dépassement ou approche. Étudier séparément ces cas dans SERA.3210 plutôt que mémoriser une formule générale qui serait fausse dans certains contextes.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "This statement is true.\n\nTwo aircraft appear to be converging. Knowing which must give way is useful, but early observation and safe separation remain essential. The exact rules differ for convergence, head-on encounters, overtaking and approach. Study these cases separately in SERA.3210 rather than memorising a general formula that would be wrong in some circumstances.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_006_C03",
+      "concept_title": "Application à une situation",
+      "level": 2,
+      "question": "Vrai ou faux ? L'incertitude sur la priorité justifie de cesser de surveiller l'autre avion.",
+      "question_en": "True or false? Uncertainty about priority justifies stopping observation of the other aircraft.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDeux aéronefs semblent converger. Savoir lequel doit céder le passage est utile, mais observer tôt et maintenir une séparation sûre reste essentiel. Les règles exactes varient selon les situations : convergence, face-à-face, dépassement ou approche. Étudier séparément ces cas dans SERA.3210 plutôt que mémoriser une formule générale qui serait fausse dans certains contextes.\n\n![SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.](/illustrations/ppl-airlaw-006.svg)",
+      "explanation_en": "This statement is false.\n\nTwo aircraft appear to be converging. Knowing which must give way is useful, but early observation and safe separation remain essential. The exact rules differ for convergence, head-on encounters, overtaking and approach. Study these cases separately in SERA.3210 rather than memorising a general formula that would be wrong in some circumstances.\n\n![Diagram: SERA — Standardised European Rules of the Air](/illustrations/en/ppl-airlaw-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    }
+  ]
 }

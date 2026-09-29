@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Commandes de vol : roulis, tangage et lacet</title>
+  <desc id="desc">Trois schémas présentent les mouvements de l'avion. Les ailerons commandent le roulis autour de l'axe longitudinal. La gouverne de profondeur commande le tangage autour de l'axe transversal. La gouverne de direction commande le lacet autour de l'axe vertical. Les gouvernes sont mises en couleur et les flèches indiquent les mouvements possibles.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#0f2138"/>
+      <stop offset="1" stop-color="#080f1e"/>
+    </linearGradient>
+    <marker id="cyan" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#58dfed"/></marker>
+    <marker id="amber" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#ffcd70"/></marker>
+    <marker id="violet" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#bbabff"/></marker>
+    <g id="top-plane" stroke="#b8cbdf" stroke-width="2" stroke-linejoin="round">
+      <path d="M-12-32-126 20-126 39-13 21-8 91-45 110-45 120 0 112 45 120 45 110 8 91 13 21 126 39 126 20 12-32Z" fill="#627e9b"/>
+      <path d="M0-112C-14-104-16-67-13-26L-8 87 0 113 8 87 13-26C16-67 14-104 0-112Z" fill="#d7e5f2"/>
+      <path d="M-8-59Q0-71 8-59L8-35Q0-29-8-35Z" fill="#203b57" stroke="none"/>
+    </g>
+    <style>
+      text { font-family: Inter, 'Segoe UI', Arial, sans-serif; }
+      .label { font-size: 15px; fill: #a8bbd1; }
+      .body { font-size: 18px; fill: #d7e5f2; }
+      .heading { font-size: 29px; font-weight: 700; fill: #f2f7ff; }
+      .axis { stroke: #9bafc6; stroke-width: 1.5; stroke-dasharray: 5 7; fill: none; }
+    </style>
+  </defs>
+  <rect width="1200" height="720" rx="24" fill="url(#bg)"/>
+  <text x="48" y="47" font-size="13" font-weight="700" letter-spacing="2.5" fill="#58dfed">AEROPATH / PPL / CONNAISSANCE DE L’AVION</text>
+  <text x="48" y="99" font-size="40" font-weight="700" fill="#f2f7ff">Commandes de vol</text>
+  <text x="48" y="134" font-size="19" fill="#a8bbd1">Trois mouvements, trois axes, trois gouvernes principales.</text>
+
+  <g transform="translate(40 170)">
+    <rect width="360" height="454" rx="20" fill="#14253b" stroke="#2a4059"/>
+    <text x="24" y="39" font-size="13" font-weight="700" letter-spacing="2" fill="#58dfed">01 / INCLINER</text>
+    <text x="24" y="78" class="heading">Roulis</text>
+    <text x="24" y="106" class="label">Autour de l’axe longitudinal</text>
+    <g transform="translate(180 251)">
+      <use href="#top-plane"/>
+      <path d="M-125 27-65 17-65 29-125 38Z M65 17 125 27 125 38 65 29Z" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+      <path d="M0-132V135" class="axis"/>
+      <path d="M-55-60C-92-112 92-112 55-60" fill="none" stroke="#58dfed" stroke-width="3" marker-start="url(#cyan)" marker-end="url(#cyan)"/>
+    </g>
+    <rect x="20" y="391" width="320" height="43" rx="10" fill="#1b3c4d"/>
+    <text x="36" y="419" font-size="18" font-weight="650" fill="#58dfed">Ailerons</text>
+    <text x="321" y="419" text-anchor="end" class="label">sur les ailes</text>
+  </g>
+
+  <g transform="translate(420 170)">
+    <rect width="360" height="454" rx="20" fill="#14253b" stroke="#2a4059"/>
+    <text x="24" y="39" font-size="13" font-weight="700" letter-spacing="2" fill="#ffcd70">02 / CABRER · PIQUER</text>
+    <text x="24" y="78" class="heading">Tangage</text>
+    <text x="24" y="106" class="label">Autour de l’axe transversal</text>
+    <g transform="translate(180 255)">
+      <path d="M-106-52A119 85 0 0 1 108-52" fill="none" stroke="#ffcd70" stroke-width="3" marker-start="url(#amber)" marker-end="url(#amber)"/>
+      <path d="M-132 8Q-139-3-117-10L-52-14-27-37 3-37 25-13 91-8 108-57 122-57 119 7 141 12 117 20-81 21Q-119 19-132 8Z" fill="#d7e5f2" stroke="#b8cbdf" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M-39-16-23-31-3-31 12-15Z" fill="#203b57"/>
+      <path d="M-23 6 36 33 52 33 11 4Z" fill="#627e9b" stroke="#b8cbdf" stroke-width="2"/>
+      <path d="M88 6 132 10 138 17 91 15Z" fill="#ffcd70"/>
+      <circle r="11" fill="#14253b" stroke="#ffcd70" stroke-width="2"/>
+      <circle r="3" fill="#ffcd70"/>
+      <path d="M0 19V91" class="axis"/>
+      <text x="0" y="116" text-anchor="middle" class="label">Axe perpendiculaire à l’image</text>
+    </g>
+    <rect x="20" y="391" width="320" height="43" rx="10" fill="#3b3540"/>
+    <text x="36" y="419" font-size="18" font-weight="650" fill="#ffcd70">Gouverne de profondeur</text>
+  </g>
+
+  <g transform="translate(800 170)">
+    <rect width="360" height="454" rx="20" fill="#14253b" stroke="#2a4059"/>
+    <text x="24" y="39" font-size="13" font-weight="700" letter-spacing="2" fill="#bbabff">03 / PIVOTER</text>
+    <text x="24" y="78" class="heading">Lacet</text>
+    <text x="24" y="106" class="label">Autour de l’axe vertical</text>
+    <g transform="translate(180 251)">
+      <path d="M-88-87A125 125 0 0 1 88-87" fill="none" stroke="#bbabff" stroke-width="3" marker-start="url(#violet)" marker-end="url(#violet)"/>
+      <use href="#top-plane"/>
+      <path d="M0 76V111" stroke="#bbabff" stroke-width="7" stroke-linecap="round"/>
+      <circle r="11" fill="#14253b" stroke="#bbabff" stroke-width="2"/>
+      <circle r="3" fill="#bbabff"/>
+    </g>
+    <rect x="20" y="391" width="320" height="43" rx="10" fill="#302e50"/>
+    <text x="36" y="419" font-size="18" font-weight="650" fill="#bbabff">Gouverne de direction</text>
+  </g>
+  <circle cx="55" cy="663" r="5" fill="#58dfed"/>
+  <text x="70" y="669" class="label">En couleur : les gouvernes concernées.</text>
+  <text x="1152" y="669" text-anchor="end" class="label">Vues de dessus et de profil · Schémas de principe</text>
+  <text x="48" y="699" font-size="12" fill="#7f96b1">PPL_AC_007 — Commandes de vol</text>
+</svg>

@@ -8,8 +8,8 @@ import (
 )
 
 const (
-	QuizSize  = 3 // Nombre de questions par quiz de leçon
-	ExamSize  = 10 // Nombre de questions par examen de thème
+	QuizSize = 15 // Nombre de questions par quiz de leçon
+	ExamSize = 15 // Nombre de questions par examen de thème
 )
 
 // Engine est le moteur d'apprentissage adaptatif.

@@ -5,13 +5,574 @@
     "subject": "Navigation",
     "chapter_title": "Navigation à l'estime (Dead Reckoning)",
     "chapter_title_en": "Dead Reckoning Navigation",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : le principe de l'estime; temps et correction; exemple guidé.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: the principle of dead reckoning; time and correction; a worked example.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 30,
-    "prerequisites": ["PPL_NAV_001"],
-    "tags": ["dead reckoning", "wind correction", "heading", "ground speed"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_NAV_001"
+    ],
+    "tags": [
+      "dead reckoning",
+      "wind correction",
+      "heading",
+      "ground speed"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 16 : navigation",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      },
+      {
+        "title": "SIA — cartes et informations aéronautiques",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-nav-003.svg",
+      "alt": "Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime."
+    },
+    "exam_subject": "navigation",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_NAV_003_C01",
+      "title": "Le principe de l'estime",
+      "title_en": "The principle of dead reckoning",
+      "content": "![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)\n\nLa navigation à l'estime prévoit une position à partir d'une position connue, d'une direction, d'une vitesse et d'une durée. Elle reste utile pour contrôler une navigation électronique. La vitesse sol est issue de la combinaison vectorielle de la vitesse de l'avion dans l'air et du vent. Un vent traversier crée de la dérive, et non simplement une perte uniforme de vitesse.",
+      "content_en": "![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)\n\nDead reckoning predicts position from a known position, direction, speed and elapsed time. It remains useful for checking electronic navigation. Ground velocity is the vector combination of the aircraft's velocity through the air and the wind. A crosswind produces drift, not merely a uniform reduction in speed.",
+      "difficulty": "intermediate",
+      "tags": [
+        "dead reckoning",
+        "wind correction",
+        "heading",
+        "ground speed"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Le principe de l'estime"
+    },
+    {
+      "concept_id": "PPL_NAV_003_C02",
+      "title": "Temps et correction",
+      "title_en": "Time and correction",
+      "content": "Le temps en minutes vaut 60 × distance en NM / vitesse sol en kt. Une erreur de cap ou de vent s'accumule avec le temps : un contrôle régulier sur des repères fiables est préférable à une grande correction tardive. La règle du 1 pour 60 fournit une approximation angulaire pour de petites erreurs, à utiliser avec prudence et unités cohérentes.",
+      "content_en": "Time in minutes equals 60 × distance in NM / groundspeed in kt. A heading or wind error accumulates with time: regular checks against reliable landmarks are preferable to a large late correction. The 1-in-60 rule gives an angular approximation for small errors and must be used carefully with consistent units.",
+      "difficulty": "intermediate",
+      "tags": [
+        "dead reckoning",
+        "wind correction",
+        "heading",
+        "ground speed"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Temps et correction"
+    },
+    {
+      "concept_id": "PPL_NAV_003_C03",
+      "title": "Exemple guidé",
+      "title_en": "A worked example",
+      "content": "Une branche de 30 NM parcourue à 90 kt sol demande 20 minutes. Si le point prévu n'est pas visible à cette heure, ne pas prolonger indéfiniment au même cap. Vérifier chronométrage, identification des repères, direction, vitesse et vent. Rechercher une confirmation indépendante de position, tout en surveillant le carburant et les limites d'espace.",
+      "content_en": "A 30 NM leg at 90 kt groundspeed takes 20 minutes. If the expected landmark is not visible then, do not continue indefinitely on the same heading. Check timing, landmark identification, direction, speed and wind. Seek an independent position confirmation while monitoring fuel and airspace boundaries.",
+      "difficulty": "intermediate",
+      "tags": [
+        "dead reckoning",
+        "wind correction",
+        "heading",
+        "ground speed"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Exemple guidé"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_NAV_003_C01",
+      "concept_title": "Le principe de l'estime",
+      "level": 1,
+      "question": "À 90 kt sol, combien de temps faut-il pour 30 NM ?\n\n![Branche de 30 NM entre A et B, vitesse sol constante de 90 kt. Durée à déterminer.](/illustrations/quiz-ppl-nav-003-1.svg)",
+      "question_en": "At 90 kt groundspeed, how long does 30 NM take?\n\n![Exercise data: Dead Reckoning Navigation](/illustrations/en/quiz-ppl-nav-003-1.svg)",
+      "options": [
+        "45 minutes",
+        "10 minutes",
+        "20 minutes",
+        "30 minutes"
+      ],
+      "correct_answer": "20 minutes",
+      "explanation": "60 multiplié par 30 puis divisé par 90 donne 20 minutes.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "60 multiplied by 30 and divided by 90 gives 20 minutes.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "dead reckoning",
+        "wind correction",
+        "heading",
+        "ground speed",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "45 minutes",
+        "10 minutes",
+        "20 minutes",
+        "30 minutes"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C02",
+      "concept_title": "Temps et correction",
+      "level": 1,
+      "question": "Quelle vitesse sert à calculer le temps sur une distance au sol ?",
+      "question_en": "Which speed is used to calculate time over a ground distance?",
+      "options": [
+        "La vitesse de décrochage",
+        "La vitesse sol",
+        "La vitesse de rotation moteur",
+        "Toujours la vitesse indiquée"
+      ],
+      "correct_answer": "La vitesse sol",
+      "explanation": "Le temps de trajet dépend du déplacement réel sur le sol.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "Journey time depends on actual movement over the ground.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "dead reckoning",
+        "wind correction",
+        "heading",
+        "ground speed",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Stall speed",
+        "Groundspeed",
+        "Engine rotational speed",
+        "Always indicated airspeed"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C03",
+      "concept_title": "Exemple guidé",
+      "level": 1,
+      "question": "Une erreur de cap non corrigée tend à…",
+      "question_en": "An uncorrected heading error tends to…",
+      "options": [
+        "Augmenter l'écart latéral avec la distance",
+        "Disparaître automatiquement",
+        "Modifier le QNH",
+        "Réduire la distance restante à zéro"
+      ],
+      "correct_answer": "Augmenter l'écart latéral avec la distance",
+      "explanation": "L'erreur de direction s'accumule au fil du trajet.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "A directional error accumulates along the route.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "dead reckoning",
+        "wind correction",
+        "heading",
+        "ground speed",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Increase lateral displacement with distance",
+        "Disappear automatically",
+        "Change QNH",
+        "Reduce remaining distance to zero"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C02",
+      "concept_title": "Temps et correction",
+      "level": 2,
+      "question": "À 120 kt de vitesse sol, combien de temps demande une branche de 40 NM ?\n\n![Branche de 40 NM entre A et B, vitesse sol constante de 120 kt. Durée à déterminer.](/illustrations/quiz-ppl-nav-003-4.svg)",
+      "question_en": "At 120 kt groundspeed, how long does a 40 NM leg take?\n\n![Exercise data: Dead Reckoning Navigation](/illustrations/en/quiz-ppl-nav-003-4.svg)",
+      "options": [
+        "30 minutes",
+        "40 minutes",
+        "15 minutes",
+        "20 minutes"
+      ],
+      "correct_answer": "20 minutes",
+      "explanation": "Temps = 60 × distance / vitesse sol = 60 × 40 / 120 = 20 minutes. Les unités NM et kt sont cohérentes.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "Time = 60 × distance / groundspeed = 60 × 40 / 120 = 20 minutes. NM and kt are consistent units.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "dead reckoning",
+        "wind correction",
+        "heading",
+        "ground speed",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "30 minutes",
+        "40 minutes",
+        "15 minutes",
+        "20 minutes"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C03",
+      "concept_title": "Exemple guidé",
+      "level": 2,
+      "question": "Le repère n'apparaît pas à l'heure estimée. Quelle démarche évite d'accumuler l'incertitude ?",
+      "question_en": "The landmark does not appear at the estimated time. What helps prevent uncertainty from accumulating?",
+      "options": [
+        "Déclarer automatiquement la carte incorrecte",
+        "Modifier au hasard le cap pour trouver un village",
+        "Vérifier temps, direction, vent et identification avec une confirmation indépendante",
+        "Continuer indéfiniment au même cap"
+      ],
+      "correct_answer": "Vérifier temps, direction, vent et identification avec une confirmation indépendante",
+      "explanation": "L'estime doit être confrontée aux observations. Une recherche structurée et des recoupements évitent de prolonger une erreur tout en préservant carburant et marges d'espace.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "Compare dead reckoning with observations. A structured search and cross-checks avoid prolonging an error while preserving fuel and airspace margins.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "dead reckoning",
+        "wind correction",
+        "heading",
+        "ground speed",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Automatically declare the chart wrong",
+        "Change heading randomly to find a village",
+        "Check time, direction, wind and identification with independent confirmation",
+        "Continue indefinitely on the same heading"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C01",
+      "concept_title": "Le principe de l'estime",
+      "level": 2,
+      "question": "Vrai ou faux ? L'estime part d'une position connue.",
+      "question_en": "True or false? Dead reckoning starts from a known position.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa navigation à l'estime prévoit une position à partir d'une position connue, d'une direction, d'une vitesse et d'une durée. Elle reste utile pour contrôler une navigation électronique. La vitesse sol est issue de la combinaison vectorielle de la vitesse de l'avion dans l'air et du vent. Un vent traversier crée de la dérive, et non simplement une perte uniforme de vitesse.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "This statement is true.\n\nDead reckoning predicts position from a known position, direction, speed and elapsed time. It remains useful for checking electronic navigation. Ground velocity is the vector combination of the aircraft's velocity through the air and the wind. A crosswind produces drift, not merely a uniform reduction in speed.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C01",
+      "concept_title": "Le principe de l'estime",
+      "level": 2,
+      "question": "Vrai ou faux ? Le vent traversier produit seulement une baisse uniforme de vitesse, sans dérive.",
+      "question_en": "True or false? Crosswind produces only a uniform speed reduction, without drift.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa navigation à l'estime prévoit une position à partir d'une position connue, d'une direction, d'une vitesse et d'une durée. Elle reste utile pour contrôler une navigation électronique. La vitesse sol est issue de la combinaison vectorielle de la vitesse de l'avion dans l'air et du vent. Un vent traversier crée de la dérive, et non simplement une perte uniforme de vitesse.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "This statement is false.\n\nDead reckoning predicts position from a known position, direction, speed and elapsed time. It remains useful for checking electronic navigation. Ground velocity is the vector combination of the aircraft's velocity through the air and the wind. A crosswind produces drift, not merely a uniform reduction in speed.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C01",
+      "concept_title": "Le principe de l'estime",
+      "level": 2,
+      "question": "Vrai ou faux ? L'estime peut servir à contrôler la navigation électronique.",
+      "question_en": "True or false? Dead reckoning can check electronic navigation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa navigation à l'estime prévoit une position à partir d'une position connue, d'une direction, d'une vitesse et d'une durée. Elle reste utile pour contrôler une navigation électronique. La vitesse sol est issue de la combinaison vectorielle de la vitesse de l'avion dans l'air et du vent. Un vent traversier crée de la dérive, et non simplement une perte uniforme de vitesse.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "This statement is true.\n\nDead reckoning predicts position from a known position, direction, speed and elapsed time. It remains useful for checking electronic navigation. Ground velocity is the vector combination of the aircraft's velocity through the air and the wind. A crosswind produces drift, not merely a uniform reduction in speed.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C02",
+      "concept_title": "Temps et correction",
+      "level": 2,
+      "question": "Vrai ou faux ? Dans la formule en minutes, il suffit de diviser la distance en NM par la vitesse en kt.",
+      "question_en": "True or false? For time in minutes, simply divide NM distance by speed in kt.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe temps en minutes vaut 60 × distance en NM / vitesse sol en kt. Une erreur de cap ou de vent s'accumule avec le temps : un contrôle régulier sur des repères fiables est préférable à une grande correction tardive. La règle du 1 pour 60 fournit une approximation angulaire pour de petites erreurs, à utiliser avec prudence et unités cohérentes.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "This statement is false.\n\nTime in minutes equals 60 × distance in NM / groundspeed in kt. A heading or wind error accumulates with time: regular checks against reliable landmarks are preferable to a large late correction. The 1-in-60 rule gives an angular approximation for small errors and must be used carefully with consistent units.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C02",
+      "concept_title": "Temps et correction",
+      "level": 2,
+      "question": "Vrai ou faux ? Des contrôles réguliers évitent d'attendre une correction tardive importante.",
+      "question_en": "True or false? Regular checks avoid waiting for a large late correction.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe temps en minutes vaut 60 × distance en NM / vitesse sol en kt. Une erreur de cap ou de vent s'accumule avec le temps : un contrôle régulier sur des repères fiables est préférable à une grande correction tardive. La règle du 1 pour 60 fournit une approximation angulaire pour de petites erreurs, à utiliser avec prudence et unités cohérentes.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "This statement is true.\n\nTime in minutes equals 60 × distance in NM / groundspeed in kt. A heading or wind error accumulates with time: regular checks against reliable landmarks are preferable to a large late correction. The 1-in-60 rule gives an angular approximation for small errors and must be used carefully with consistent units.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C02",
+      "concept_title": "Temps et correction",
+      "level": 2,
+      "question": "Vrai ou faux ? La règle du 1 pour 60 est une approximation pour de petites erreurs.",
+      "question_en": "True or false? The 1-in-60 rule is an approximation for small errors.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe temps en minutes vaut 60 × distance en NM / vitesse sol en kt. Une erreur de cap ou de vent s'accumule avec le temps : un contrôle régulier sur des repères fiables est préférable à une grande correction tardive. La règle du 1 pour 60 fournit une approximation angulaire pour de petites erreurs, à utiliser avec prudence et unités cohérentes.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "This statement is true.\n\nTime in minutes equals 60 × distance in NM / groundspeed in kt. A heading or wind error accumulates with time: regular checks against reliable landmarks are preferable to a large late correction. The 1-in-60 rule gives an angular approximation for small errors and must be used carefully with consistent units.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C02",
+      "concept_title": "Temps et correction",
+      "level": 2,
+      "question": "Vrai ou faux ? Une erreur de vent initiale cesse d'influencer l'estime après une minute.",
+      "question_en": "True or false? An initial wind error stops affecting dead reckoning after one minute.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe temps en minutes vaut 60 × distance en NM / vitesse sol en kt. Une erreur de cap ou de vent s'accumule avec le temps : un contrôle régulier sur des repères fiables est préférable à une grande correction tardive. La règle du 1 pour 60 fournit une approximation angulaire pour de petites erreurs, à utiliser avec prudence et unités cohérentes.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "This statement is false.\n\nTime in minutes equals 60 × distance in NM / groundspeed in kt. A heading or wind error accumulates with time: regular checks against reliable landmarks are preferable to a large late correction. The 1-in-60 rule gives an angular approximation for small errors and must be used carefully with consistent units.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C03",
+      "concept_title": "Exemple guidé",
+      "level": 2,
+      "question": "Vrai ou faux ? Un repère absent prouve immédiatement une erreur de carte.",
+      "question_en": "True or false? A missing landmark immediately proves the chart is wrong.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne branche de 30 NM parcourue à 90 kt sol demande 20 minutes. Si le point prévu n'est pas visible à cette heure, ne pas prolonger indéfiniment au même cap. Vérifier chronométrage, identification des repères, direction, vitesse et vent. Rechercher une confirmation indépendante de position, tout en surveillant le carburant et les limites d'espace.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "This statement is false.\n\nA 30 NM leg at 90 kt groundspeed takes 20 minutes. If the expected landmark is not visible then, do not continue indefinitely on the same heading. Check timing, landmark identification, direction, speed and wind. Seek an independent position confirmation while monitoring fuel and airspace boundaries.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C03",
+      "concept_title": "Exemple guidé",
+      "level": 2,
+      "question": "Vrai ou faux ? En recherchant sa position, il faut aussi surveiller carburant et limites d'espace.",
+      "question_en": "True or false? While finding position, fuel and airspace boundaries must also be monitored.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne branche de 30 NM parcourue à 90 kt sol demande 20 minutes. Si le point prévu n'est pas visible à cette heure, ne pas prolonger indéfiniment au même cap. Vérifier chronométrage, identification des repères, direction, vitesse et vent. Rechercher une confirmation indépendante de position, tout en surveillant le carburant et les limites d'espace.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "This statement is true.\n\nA 30 NM leg at 90 kt groundspeed takes 20 minutes. If the expected landmark is not visible then, do not continue indefinitely on the same heading. Check timing, landmark identification, direction, speed and wind. Seek an independent position confirmation while monitoring fuel and airspace boundaries.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_003_C03",
+      "concept_title": "Exemple guidé",
+      "level": 2,
+      "question": "Vrai ou faux ? Le temps de passage prévu dispense de vérifier l'identification du repère.",
+      "question_en": "True or false? The expected passage time removes the need to identify the landmark.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne branche de 30 NM parcourue à 90 kt sol demande 20 minutes. Si le point prévu n'est pas visible à cette heure, ne pas prolonger indéfiniment au même cap. Vérifier chronométrage, identification des repères, direction, vitesse et vent. Rechercher une confirmation indépendante de position, tout en surveillant le carburant et les limites d'espace.\n\n![Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime.](/illustrations/ppl-nav-003.svg)",
+      "explanation_en": "This statement is false.\n\nA 30 NM leg at 90 kt groundspeed takes 20 minutes. If the expected landmark is not visible then, do not continue indefinitely on the same heading. Check timing, landmark identification, direction, speed and wind. Seek an independent position confirmation while monitoring fuel and airspace boundaries.\n\n![Diagram: Dead Reckoning Navigation](/illustrations/en/ppl-nav-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    }
+  ]
 }

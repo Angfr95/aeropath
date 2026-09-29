@@ -1,0 +1,613 @@
+{
+  "metadata": {
+    "module_id": "LAPL_AIRLAW_005",
+    "program": "LAPL",
+    "subject": "Air Law",
+    "chapter_title": "Règles de vol (VFR/IFR)",
+    "chapter_title_en": "Flight Rules (VFR/IFR)",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : règles de vol et météo; déterminer les minima pertinents; exemple de décision.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: flight rules and weather; identifying the applicable minima; a decision example.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AIRLAW_001"
+    ],
+    "tags": [
+      "LAPL",
+      "air_law"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "EASA — SERA, règles de l’air",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "EASA — Aircrew, Part-FCL",
+        "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+      },
+      {
+        "title": "SIA — informations aéronautiques françaises",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-airlaw-005.svg",
+      "alt": "Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol."
+    },
+    "exam_subject": "airlaw",
+    "coverage_status": "partial",
+    "derived_from": "PPL_AIRLAW_005",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_AIRLAW_005_C01",
+      "title": "Règles de vol et météo",
+      "title_en": "Flight rules and weather",
+      "content": "![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)\n\nVFR et IFR désignent des règles de vol ; VMC et IMC décrivent des conditions météorologiques par rapport à des critères définis. Un ciel clair n'efface pas les exigences d'un vol IFR et un équipement instrumental ne transforme pas un pilote VFR en pilote autorisé à voler en IMC. Licence, qualifications, avion et conditions doivent être compatibles.",
+      "content_en": "![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)\n\nVFR and IFR describe flight rules; VMC and IMC describe weather conditions relative to defined criteria. Clear skies do not remove the requirements of an IFR flight, and instrument equipment does not authorise a VFR pilot to fly in IMC. The licence, ratings, aircraft and conditions must all be compatible.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Règles de vol et météo"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C02",
+      "title": "Déterminer les minima pertinents",
+      "title_en": "Identifying the applicable minima",
+      "content": "Les minima VMC de SERA dépendent de la classe d'espace, de l'altitude et, pour certaines dispositions, d'autres conditions. Il faut identifier le cas applicable avant de choisir visibilité et distances aux nuages. Le VFR spécial est un régime encadré avec clairance et conditions propres ; il ne constitue pas une permission générale de poursuivre sous les minima.",
+      "content_en": "SERA VMC minima depend on airspace class, altitude and, for certain provisions, other conditions. Identify the applicable case before selecting visibility and cloud separation requirements. Special VFR is a regulated arrangement with its own clearance and conditions; it is not general permission to continue below the minima.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Déterminer les minima pertinents"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C03",
+      "title": "Exemple de décision",
+      "title_en": "A decision example",
+      "content": "Une route VFR traverse un secteur où la couche s'abaisse vers le relief. La présence d'un horizon artificiel ne permet pas d'entrer volontairement dans les nuages sans les qualifications et conditions nécessaires. Décider assez tôt d'un demi-tour, d'un déroutement ou d'un report. Pour un vol réel, consulter SERA.5001, SERA.5005 et les dispositions nationales pertinentes.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "A VFR route crosses a sector where cloud is lowering towards the terrain. An attitude indicator does not authorise deliberate cloud entry without the required qualifications and conditions. Decide early enough to turn back, divert or postpone. For an actual flight, consult SERA.5001, SERA.5005 and relevant national provisions.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Exemple de décision"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_AIRLAW_005_C01",
+      "concept_title": "Règles de vol et météo",
+      "level": 1,
+      "question": "VFR désigne…",
+      "question_en": "VFR describes…",
+      "options": [
+        "Un calage altimétrique",
+        "Des règles de vol",
+        "Une hauteur de nuage",
+        "Un type de moteur"
+      ],
+      "correct_answer": "Des règles de vol",
+      "explanation": "VFR et IFR sont des régimes de règles de vol.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "VFR and IFR are sets of flight rules.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "VFR",
+        "IFR",
+        "flight rules",
+        "SERA",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "An altimeter setting",
+        "Flight rules",
+        "A cloud height",
+        "An engine type"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C02",
+      "concept_title": "Déterminer les minima pertinents",
+      "level": 1,
+      "question": "Un horizon artificiel autorise-t-il à lui seul un vol en IMC ?",
+      "question_en": "Does an attitude indicator alone authorise flight in IMC?",
+      "options": [
+        "Non",
+        "Oui",
+        "Oui dans un petit nuage",
+        "Oui avec un GPS"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Il faut aussi les qualifications, autorisations et conditions applicables.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "The applicable qualifications, authorisations and conditions are also required.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "VFR",
+        "IFR",
+        "flight rules",
+        "SERA",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "No",
+        "Yes",
+        "Yes, in a small cloud",
+        "Yes, with GPS"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C03",
+      "concept_title": "Exemple de décision",
+      "level": 1,
+      "question": "Les minima VMC sont-ils identiques dans tous les espaces et à toutes altitudes ?",
+      "question_en": "Are VMC minima identical in all airspace and at every altitude?",
+      "options": [
+        "Oui",
+        "Oui pour le PPL",
+        "Oui de jour",
+        "Non"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Le cas réglementaire doit être identifié avant d'appliquer les valeurs.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "Identify the applicable regulatory case before applying its values.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "VFR",
+        "IFR",
+        "flight rules",
+        "SERA",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes",
+        "Yes, for PPL holders",
+        "Yes, by day",
+        "No"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C01",
+      "concept_title": "Règles de vol et météo",
+      "level": 2,
+      "question": "Quelle paire décrit des conditions météorologiques, et non des règles de vol ?",
+      "question_en": "Which pair describes meteorological conditions rather than flight rules?",
+      "options": [
+        "VFR et VMC",
+        "IFR et IMC",
+        "VMC et IMC",
+        "VFR et IFR"
+      ],
+      "correct_answer": "VMC et IMC",
+      "explanation": "VMC et IMC décrivent les conditions météorologiques par rapport à des critères définis. VFR et IFR désignent les règles selon lesquelles le vol est conduit.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "VMC and IMC describe weather conditions against defined criteria. VFR and IFR describe the rules under which a flight is conducted.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "VFR",
+        "IFR",
+        "flight rules",
+        "SERA",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "VFR and VMC",
+        "IFR and IMC",
+        "VMC and IMC",
+        "VFR and IFR"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "En navigation VFR, le plafond s'abaisse vers le relief sur la route prévue. Quelle décision préserve les options ?",
+      "question_en": "During VFR navigation, the ceiling lowers towards terrain along the planned route. Which decision preserves options?",
+      "options": [
+        "Poursuivre parce que le départ était en VMC",
+        "Évaluer tôt un demi-tour ou un déroutement",
+        "Attendre de perdre l'horizon pour décider",
+        "Suivre la route en se fiant uniquement au GPS"
+      ],
+      "correct_answer": "Évaluer tôt un demi-tour ou un déroutement",
+      "explanation": "Une dégradation devant le relief réduit les marges. Décider avant d'être enfermé permet de choisir une solution compatible avec les conditions et les qualifications du pilote.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "Deterioration ahead of terrain reduces margins. Deciding before becoming trapped allows a choice compatible with the conditions and the pilot's qualifications.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "VFR",
+        "IFR",
+        "flight rules",
+        "SERA",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Continue because departure was in VMC",
+        "Consider an early turn-back or diversion",
+        "Wait until the horizon disappears before deciding",
+        "Follow the route using only GPS"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C01",
+      "concept_title": "Règles de vol et météo",
+      "level": 2,
+      "question": "Vrai ou faux ? Un ciel dégagé ne supprime pas les exigences d'un vol IFR.",
+      "question_en": "True or false? Clear skies do not remove IFR flight requirements.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nVFR et IFR désignent des règles de vol ; VMC et IMC décrivent des conditions météorologiques par rapport à des critères définis. Un ciel clair n'efface pas les exigences d'un vol IFR et un équipement instrumental ne transforme pas un pilote VFR en pilote autorisé à voler en IMC. Licence, qualifications, avion et conditions doivent être compatibles.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "This statement is true.\n\nVFR and IFR describe flight rules; VMC and IMC describe weather conditions relative to defined criteria. Clear skies do not remove the requirements of an IFR flight, and instrument equipment does not authorise a VFR pilot to fly in IMC. The licence, ratings, aircraft and conditions must all be compatible.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C01",
+      "concept_title": "Règles de vol et météo",
+      "level": 2,
+      "question": "Vrai ou faux ? IMC est le nom d'une qualification de pilote.",
+      "question_en": "True or false? IMC is the name of a pilot rating.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nVFR et IFR désignent des règles de vol ; VMC et IMC décrivent des conditions météorologiques par rapport à des critères définis. Un ciel clair n'efface pas les exigences d'un vol IFR et un équipement instrumental ne transforme pas un pilote VFR en pilote autorisé à voler en IMC. Licence, qualifications, avion et conditions doivent être compatibles.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "This statement is false.\n\nVFR and IFR describe flight rules; VMC and IMC describe weather conditions relative to defined criteria. Clear skies do not remove the requirements of an IFR flight, and instrument equipment does not authorise a VFR pilot to fly in IMC. The licence, ratings, aircraft and conditions must all be compatible.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C01",
+      "concept_title": "Règles de vol et météo",
+      "level": 2,
+      "question": "Vrai ou faux ? Qualifications, avion et conditions doivent être compatibles avec le vol.",
+      "question_en": "True or false? Qualifications, aircraft and conditions must be compatible with the flight.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nVFR et IFR désignent des règles de vol ; VMC et IMC décrivent des conditions météorologiques par rapport à des critères définis. Un ciel clair n'efface pas les exigences d'un vol IFR et un équipement instrumental ne transforme pas un pilote VFR en pilote autorisé à voler en IMC. Licence, qualifications, avion et conditions doivent être compatibles.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "This statement is true.\n\nVFR and IFR describe flight rules; VMC and IMC describe weather conditions relative to defined criteria. Clear skies do not remove the requirements of an IFR flight, and instrument equipment does not authorise a VFR pilot to fly in IMC. The licence, ratings, aircraft and conditions must all be compatible.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C02",
+      "concept_title": "Déterminer les minima pertinents",
+      "level": 2,
+      "question": "Vrai ou faux ? Le VFR spécial est une permission générale de continuer sous tous les minima.",
+      "question_en": "True or false? Special VFR is general permission to continue below every minimum.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes minima VMC de SERA dépendent de la classe d'espace, de l'altitude et, pour certaines dispositions, d'autres conditions. Il faut identifier le cas applicable avant de choisir visibilité et distances aux nuages. Le VFR spécial est un régime encadré avec clairance et conditions propres ; il ne constitue pas une permission générale de poursuivre sous les minima.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "This statement is false.\n\nSERA VMC minima depend on airspace class, altitude and, for certain provisions, other conditions. Identify the applicable case before selecting visibility and cloud separation requirements. Special VFR is a regulated arrangement with its own clearance and conditions; it is not general permission to continue below the minima.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C02",
+      "concept_title": "Déterminer les minima pertinents",
+      "level": 2,
+      "question": "Vrai ou faux ? Identifier le cas réglementaire précède le choix des minima applicables.",
+      "question_en": "True or false? Identifying the regulatory case comes before selecting applicable minima.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes minima VMC de SERA dépendent de la classe d'espace, de l'altitude et, pour certaines dispositions, d'autres conditions. Il faut identifier le cas applicable avant de choisir visibilité et distances aux nuages. Le VFR spécial est un régime encadré avec clairance et conditions propres ; il ne constitue pas une permission générale de poursuivre sous les minima.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "This statement is true.\n\nSERA VMC minima depend on airspace class, altitude and, for certain provisions, other conditions. Identify the applicable case before selecting visibility and cloud separation requirements. Special VFR is a regulated arrangement with its own clearance and conditions; it is not general permission to continue below the minima.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C02",
+      "concept_title": "Déterminer les minima pertinents",
+      "level": 2,
+      "question": "Vrai ou faux ? La classe d'espace n'intervient jamais dans les minima VMC.",
+      "question_en": "True or false? Airspace class never affects VMC minima.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes minima VMC de SERA dépendent de la classe d'espace, de l'altitude et, pour certaines dispositions, d'autres conditions. Il faut identifier le cas applicable avant de choisir visibilité et distances aux nuages. Le VFR spécial est un régime encadré avec clairance et conditions propres ; il ne constitue pas une permission générale de poursuivre sous les minima.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "This statement is false.\n\nSERA VMC minima depend on airspace class, altitude and, for certain provisions, other conditions. Identify the applicable case before selecting visibility and cloud separation requirements. Special VFR is a regulated arrangement with its own clearance and conditions; it is not general permission to continue below the minima.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? La présence d'un horizon artificiel ne remplace pas les qualifications requises.",
+      "question_en": "True or false? An attitude indicator does not replace required qualifications.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne route VFR traverse un secteur où la couche s'abaisse vers le relief. La présence d'un horizon artificiel ne permet pas d'entrer volontairement dans les nuages sans les qualifications et conditions nécessaires. Décider assez tôt d'un demi-tour, d'un déroutement ou d'un report. Pour un vol réel, consulter SERA.5001, SERA.5005 et les dispositions nationales pertinentes.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "This statement is true.\n\nA VFR route crosses a sector where cloud is lowering towards the terrain. An attitude indicator does not authorise deliberate cloud entry without the required qualifications and conditions. Decide early enough to turn back, divert or postpone. For an actual flight, consult SERA.5001, SERA.5005 and relevant national provisions.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Il faut attendre la perte des repères pour envisager le demi-tour.",
+      "question_en": "True or false? One should wait until references are lost before considering turn-back.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne route VFR traverse un secteur où la couche s'abaisse vers le relief. La présence d'un horizon artificiel ne permet pas d'entrer volontairement dans les nuages sans les qualifications et conditions nécessaires. Décider assez tôt d'un demi-tour, d'un déroutement ou d'un report. Pour un vol réel, consulter SERA.5001, SERA.5005 et les dispositions nationales pertinentes.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "This statement is false.\n\nA VFR route crosses a sector where cloud is lowering towards the terrain. An attitude indicator does not authorise deliberate cloud entry without the required qualifications and conditions. Decide early enough to turn back, divert or postpone. For an actual flight, consult SERA.5001, SERA.5005 and relevant national provisions.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Un déroutement précoce peut préserver une option compatible avec le VFR.",
+      "question_en": "True or false? An early diversion can preserve an option compatible with VFR.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne route VFR traverse un secteur où la couche s'abaisse vers le relief. La présence d'un horizon artificiel ne permet pas d'entrer volontairement dans les nuages sans les qualifications et conditions nécessaires. Décider assez tôt d'un demi-tour, d'un déroutement ou d'un report. Pour un vol réel, consulter SERA.5001, SERA.5005 et les dispositions nationales pertinentes.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "This statement is true.\n\nA VFR route crosses a sector where cloud is lowering towards the terrain. An attitude indicator does not authorise deliberate cloud entry without the required qualifications and conditions. Decide early enough to turn back, divert or postpone. For an actual flight, consult SERA.5001, SERA.5005 and relevant national provisions.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_005_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Une météo favorable au départ valide forcément tous les secteurs suivants.",
+      "question_en": "True or false? Favourable departure weather necessarily validates all later sectors.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne route VFR traverse un secteur où la couche s'abaisse vers le relief. La présence d'un horizon artificiel ne permet pas d'entrer volontairement dans les nuages sans les qualifications et conditions nécessaires. Décider assez tôt d'un demi-tour, d'un déroutement ou d'un report. Pour un vol réel, consulter SERA.5001, SERA.5005 et les dispositions nationales pertinentes.\n\n![Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.](/illustrations/lapl-airlaw-005.svg)",
+      "explanation_en": "This statement is false.\n\nA VFR route crosses a sector where cloud is lowering towards the terrain. An attitude indicator does not authorise deliberate cloud entry without the required qualifications and conditions. Decide early enough to turn back, divert or postpone. For an actual flight, consult SERA.5001, SERA.5005 and relevant national provisions.\n\n![Diagram: Flight Rules (VFR/IFR)](/illustrations/en/lapl-airlaw-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

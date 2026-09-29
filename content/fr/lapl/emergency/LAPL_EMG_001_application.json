@@ -1,0 +1,574 @@
+{
+  "metadata": {
+    "module_id": "LAPL_EMG_001",
+    "program": "LAPL",
+    "subject": "Emergency",
+    "chapter_title": "Déroutement : décider avant de manquer d'options",
+    "chapter_title_en": "Diversion decisions and preserving options",
+    "learning_objective": "Déclencher un déroutement assez tôt et comparer les destinations selon leur accessibilité réelle.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: define triggers; choose a usable aerodrome; a numerical comparison; communicate and follow the new plan.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 15,
+    "prerequisites": [
+      "PPL_NAV_008",
+      "PPL_FP_001"
+    ],
+    "tags": [
+      "LAPL",
+      "emergency"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — Airplane Flying Handbook, procédures et décisions",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-emg-001.svg",
+      "alt": "Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité."
+    },
+    "exam_subject": "operational_procedures",
+    "coverage_status": "partial",
+    "derived_from": "PPL_EMG_001",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_EMG_001_C01",
+      "title": "Définir des déclencheurs",
+      "title_en": "Define triggers",
+      "content": "![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)\n\nUn déroutement modifie la destination ou la route pour préserver la sécurité ou répondre à une contrainte. Il peut être décidé bien avant une détresse : météo moins favorable, fermeture de piste, passager malade ou anomalie technique. Avant le vol, choisir des critères qui conduiront à réévaluer le plan. Ces critères doivent laisser du temps et du carburant pour une alternative ; un seuil atteint seulement quand toute solution disparaît ne protège pas efficacement.",
+      "content_en": "![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)\n\nA diversion changes destination or route to preserve safety or respond to a constraint. It can be decided well before distress: worse weather, a runway closure, an unwell passenger or a technical anomaly. Before flight, choose criteria that will trigger reassessment. They must leave time and fuel for an alternative; a threshold reached only when every option has disappeared is ineffective protection.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Définir des déclencheurs"
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C02",
+      "title": "Choisir un terrain utilisable",
+      "title_en": "Choose a usable aerodrome",
+      "content": "Le terrain le plus proche en distance n'est pas toujours le plus accessible. Comparer météo, relief, espaces, piste disponible, vent, horaires et performances. La nature de l'anomalie peut rendre le temps avant l'atterrissage plus important que le confort de la destination. Une destination doit être confirmée à l'aide d'informations disponibles, sans transformer cette recherche en distraction qui fait perdre le contrôle de la trajectoire.",
+      "content_en": "The nearest aerodrome by distance is not always the most accessible. Compare weather, terrain, airspace, available runway, wind, operating hours and performance. The nature of an anomaly may make time to landing more important than convenience at the destination. Confirm the destination using available information without allowing the search to distract from flight-path control.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Choisir un terrain utilisable"
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C03",
+      "title": "Exemple chiffré de comparaison",
+      "title_en": "A numerical comparison",
+      "content": "Dans un exercice fictif, le terrain A est à 24 NM avec 80 kt sol prévus ; le temps de trajet est de 18 minutes. Le terrain B est à 30 NM avec 120 kt sol prévus ; il demande 15 minutes. B est donc plus éloigné mais plus rapide à rejoindre sous ces hypothèses. Ce classement ne suffit pas : une piste inadaptée ou une route obstruée par la météo peut éliminer B. Les estimations doivent aussi intégrer les phases et marges pertinentes.",
+      "content_en": "In a fictional exercise, aerodrome A is 24 NM away with an expected groundspeed of 80 kt; journey time is 18 minutes. Aerodrome B is 30 NM away at 120 kt groundspeed; it takes 15 minutes. B is farther but quicker to reach under these assumptions. That ranking is not enough: an unsuitable runway or weather-blocked route may rule B out. Estimates must also include the relevant phases and margins.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Exemple chiffré de comparaison"
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C04",
+      "title": "Communiquer et suivre le nouveau plan",
+      "title_en": "Communicate and follow the new plan",
+      "content": "Une fois la décision prise, organiser les tâches : trajectoire compatible avec les marges, nouveau bilan temps-carburant, informations du terrain, communication et préparation des occupants. Demander une assistance adaptée si la charge de travail ou la situation le nécessite. Réévaluer si les faits changent encore. Une panne exigeant des actions immédiates se traite selon la procédure du manuel ; cette méthode de comparaison de terrains ne remplace pas les actions urgentes enseignées sur l'avion.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "Once the decision is made, organise tasks: a flight path compatible with margins, updated time and fuel calculations, aerodrome information, communication and occupant preparation. Request appropriate assistance if workload or circumstances require it. Reassess if facts change again. A failure requiring immediate actions is handled according to the manual; this aerodrome-comparison method does not replace urgent actions taught for the aircraft.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Communiquer et suivre le nouveau plan"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_EMG_001_C01",
+      "concept_title": "Définir des déclencheurs",
+      "level": 2,
+      "question": "Un déroutement est-il réservé à une situation de détresse ?",
+      "question_en": "Is diversion reserved for distress situations?",
+      "options": [
+        "Non, il peut être préventif",
+        "Oui, uniquement après MAYDAY",
+        "Oui, uniquement après panne moteur",
+        "Oui, uniquement sans carburant"
+      ],
+      "correct_answer": "Non, il peut être préventif",
+      "explanation": "Changer tôt le plan peut empêcher une situation de devenir urgente.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "Changing the plan early can prevent a situation from becoming urgent.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "No, it can be preventive",
+        "Yes, only after MAYDAY",
+        "Yes, only after engine failure",
+        "Yes, only with no fuel"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C02",
+      "concept_title": "Choisir un terrain utilisable",
+      "level": 2,
+      "question": "Le terrain le plus proche est-il toujours le plus adapté ?",
+      "question_en": "Is the nearest aerodrome always the most suitable?",
+      "options": [
+        "Oui, quelle que soit sa piste",
+        "Oui, même derrière un relief infranchissable",
+        "Oui, indépendamment du vent",
+        "Non, il faut comparer son utilisation réelle"
+      ],
+      "correct_answer": "Non, il faut comparer son utilisation réelle",
+      "explanation": "Distance, temps, météo et caractéristiques du terrain doivent être évalués ensemble.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "Distance, time, weather and aerodrome characteristics must be considered together.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Yes, regardless of runway",
+        "Yes, even beyond impassable terrain",
+        "Yes, regardless of wind",
+        "No; assess its actual usability"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C03",
+      "concept_title": "Exemple chiffré de comparaison",
+      "level": 2,
+      "question": "24 NM à 80 kt sol donnent…",
+      "question_en": "24 NM at 80 kt groundspeed gives…",
+      "options": [
+        "24 minutes",
+        "30 minutes",
+        "18 minutes",
+        "12 minutes"
+      ],
+      "correct_answer": "18 minutes",
+      "explanation": "60 × 24 / 80 = 18 minutes.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "60 × 24 / 80 = 18 minutes.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "24 minutes",
+        "30 minutes",
+        "18 minutes",
+        "12 minutes"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C03",
+      "concept_title": "Exemple chiffré de comparaison",
+      "level": 2,
+      "question": "30 NM à 120 kt sol donnent…",
+      "question_en": "30 NM at 120 kt groundspeed gives…",
+      "options": [
+        "30 minutes",
+        "15 minutes",
+        "20 minutes",
+        "25 minutes"
+      ],
+      "correct_answer": "15 minutes",
+      "explanation": "120 kt représentent 2 NM/min : 30 NM demandent 15 minutes.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "120 kt is 2 NM/min: 30 NM takes 15 minutes.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "30 minutes",
+        "15 minutes",
+        "20 minutes",
+        "25 minutes"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C04",
+      "concept_title": "Communiquer et suivre le nouveau plan",
+      "level": 2,
+      "question": "Si une anomalie impose des actions immédiates, faut-il commencer par comparer longuement les terrains ?",
+      "question_en": "If an anomaly requires immediate action, should you start with a lengthy aerodrome comparison?",
+      "options": [
+        "Non, il faut préserver le pilotage et appliquer les actions adaptées",
+        "Oui, la comparaison passe toujours avant la trajectoire",
+        "Oui, jusqu'à trouver le terrain idéal",
+        "Oui, sans consulter la procédure"
+      ],
+      "correct_answer": "Non, il faut préserver le pilotage et appliquer les actions adaptées",
+      "explanation": "La méthode de déroutement ne remplace pas les priorités et procédures d'urgence.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "The diversion method does not replace emergency priorities and procedures.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "No; preserve aircraft control and apply appropriate actions",
+        "Yes, comparison always comes before the flight path",
+        "Yes, until the ideal aerodrome is found",
+        "Yes, without consulting the procedure"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C01",
+      "concept_title": "Définir des déclencheurs",
+      "level": 2,
+      "question": "Vrai ou faux ? Un passager souffrant peut motiver un déroutement préventif.",
+      "question_en": "True or false? An unwell passenger may motivate a preventive diversion.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn déroutement modifie la destination ou la route pour préserver la sécurité ou répondre à une contrainte. Il peut être décidé bien avant une détresse : météo moins favorable, fermeture de piste, passager malade ou anomalie technique. Avant le vol, choisir des critères qui conduiront à réévaluer le plan. Ces critères doivent laisser du temps et du carburant pour une alternative ; un seuil atteint seulement quand toute solution disparaît ne protège pas efficacement.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "This statement is true.\n\nA diversion changes destination or route to preserve safety or respond to a constraint. It can be decided well before distress: worse weather, a runway closure, an unwell passenger or a technical anomaly. Before flight, choose criteria that will trigger reassessment. They must leave time and fuel for an alternative; a threshold reached only when every option has disappeared is ineffective protection.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C01",
+      "concept_title": "Définir des déclencheurs",
+      "level": 2,
+      "question": "Vrai ou faux ? Un seuil atteint après disparition de toutes les options constitue une protection efficace.",
+      "question_en": "True or false? A threshold reached after every option disappears provides effective protection.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn déroutement modifie la destination ou la route pour préserver la sécurité ou répondre à une contrainte. Il peut être décidé bien avant une détresse : météo moins favorable, fermeture de piste, passager malade ou anomalie technique. Avant le vol, choisir des critères qui conduiront à réévaluer le plan. Ces critères doivent laisser du temps et du carburant pour une alternative ; un seuil atteint seulement quand toute solution disparaît ne protège pas efficacement.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "This statement is false.\n\nA diversion changes destination or route to preserve safety or respond to a constraint. It can be decided well before distress: worse weather, a runway closure, an unwell passenger or a technical anomaly. Before flight, choose criteria that will trigger reassessment. They must leave time and fuel for an alternative; a threshold reached only when every option has disappeared is ineffective protection.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C02",
+      "concept_title": "Choisir un terrain utilisable",
+      "level": 2,
+      "question": "Vrai ou faux ? La nature d'une anomalie peut rendre prioritaire le temps jusqu'à l'atterrissage.",
+      "question_en": "True or false? The nature of an anomaly can make time to landing the priority.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe terrain le plus proche en distance n'est pas toujours le plus accessible. Comparer météo, relief, espaces, piste disponible, vent, horaires et performances. La nature de l'anomalie peut rendre le temps avant l'atterrissage plus important que le confort de la destination. Une destination doit être confirmée à l'aide d'informations disponibles, sans transformer cette recherche en distraction qui fait perdre le contrôle de la trajectoire.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe nearest aerodrome by distance is not always the most accessible. Compare weather, terrain, airspace, available runway, wind, operating hours and performance. The nature of an anomaly may make time to landing more important than convenience at the destination. Confirm the destination using available information without allowing the search to distract from flight-path control.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C02",
+      "concept_title": "Choisir un terrain utilisable",
+      "level": 2,
+      "question": "Vrai ou faux ? Les horaires d'ouverture n'ont aucune importance dans le choix d'un déroutement.",
+      "question_en": "True or false? Operating hours do not matter when choosing a diversion.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe terrain le plus proche en distance n'est pas toujours le plus accessible. Comparer météo, relief, espaces, piste disponible, vent, horaires et performances. La nature de l'anomalie peut rendre le temps avant l'atterrissage plus important que le confort de la destination. Une destination doit être confirmée à l'aide d'informations disponibles, sans transformer cette recherche en distraction qui fait perdre le contrôle de la trajectoire.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "This statement is false.\n\nThe nearest aerodrome by distance is not always the most accessible. Compare weather, terrain, airspace, available runway, wind, operating hours and performance. The nature of an anomaly may make time to landing more important than convenience at the destination. Confirm the destination using available information without allowing the search to distract from flight-path control.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C03",
+      "concept_title": "Exemple chiffré de comparaison",
+      "level": 2,
+      "question": "Vrai ou faux ? Dans l'exemple, le terrain B est plus éloigné mais plus rapide à rejoindre.",
+      "question_en": "True or false? In the example, aerodrome B is farther away but quicker to reach.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDans un exercice fictif, le terrain A est à 24 NM avec 80 kt sol prévus ; le temps de trajet est de 18 minutes. Le terrain B est à 30 NM avec 120 kt sol prévus ; il demande 15 minutes. B est donc plus éloigné mais plus rapide à rejoindre sous ces hypothèses. Ce classement ne suffit pas : une piste inadaptée ou une route obstruée par la météo peut éliminer B. Les estimations doivent aussi intégrer les phases et marges pertinentes.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "This statement is true.\n\nIn a fictional exercise, aerodrome A is 24 NM away with an expected groundspeed of 80 kt; journey time is 18 minutes. Aerodrome B is 30 NM away at 120 kt groundspeed; it takes 15 minutes. B is farther but quicker to reach under these assumptions. That ranking is not enough: an unsuitable runway or weather-blocked route may rule B out. Estimates must also include the relevant phases and margins.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C03",
+      "concept_title": "Exemple chiffré de comparaison",
+      "level": 2,
+      "question": "Vrai ou faux ? Un temps estimé plus court suffit à valider un terrain dont la piste est inadaptée.",
+      "question_en": "True or false? A shorter estimated time validates an aerodrome with an unsuitable runway.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDans un exercice fictif, le terrain A est à 24 NM avec 80 kt sol prévus ; le temps de trajet est de 18 minutes. Le terrain B est à 30 NM avec 120 kt sol prévus ; il demande 15 minutes. B est donc plus éloigné mais plus rapide à rejoindre sous ces hypothèses. Ce classement ne suffit pas : une piste inadaptée ou une route obstruée par la météo peut éliminer B. Les estimations doivent aussi intégrer les phases et marges pertinentes.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "This statement is false.\n\nIn a fictional exercise, aerodrome A is 24 NM away with an expected groundspeed of 80 kt; journey time is 18 minutes. Aerodrome B is 30 NM away at 120 kt groundspeed; it takes 15 minutes. B is farther but quicker to reach under these assumptions. That ranking is not enough: an unsuitable runway or weather-blocked route may rule B out. Estimates must also include the relevant phases and margins.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C03",
+      "concept_title": "Exemple chiffré de comparaison",
+      "level": 2,
+      "question": "Vrai ou faux ? Un terrain à 20 NM rejoint à 80 kt sol demande 15 minutes de trajet.\n\n![Branche de 20 NM entre A et B, vitesse sol constante de 80 kt. Durée à déterminer.](/illustrations/quiz-ppl-emg-001-12.svg)",
+      "question_en": "True or false? An aerodrome 20 NM away at 80 kt groundspeed requires 15 minutes of travel.\n\n![Exercise data: Diversion decisions and preserving options](/illustrations/en/quiz-ppl-emg-001-12.svg)",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\n60 × 20 / 80 = 15 minutes, sans les autres phases.\n\nDans un exercice fictif, le terrain A est à 24 NM avec 80 kt sol prévus ; le temps de trajet est de 18 minutes. Le terrain B est à 30 NM avec 120 kt sol prévus ; il demande 15 minutes. B est donc plus éloigné mais plus rapide à rejoindre sous ces hypothèses. Ce classement ne suffit pas : une piste inadaptée ou une route obstruée par la météo peut éliminer B. Les estimations doivent aussi intégrer les phases et marges pertinentes.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "This statement is true.\n\n60 × 20 / 80 = 15 minutes, excluding other phases.\n\nIn a fictional exercise, aerodrome A is 24 NM away with an expected groundspeed of 80 kt; journey time is 18 minutes. Aerodrome B is 30 NM away at 120 kt groundspeed; it takes 15 minutes. B is farther but quicker to reach under these assumptions. That ranking is not enough: an unsuitable runway or weather-blocked route may rule B out. Estimates must also include the relevant phases and margins.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C03",
+      "concept_title": "Exemple chiffré de comparaison",
+      "level": 2,
+      "question": "Vrai ou faux ? Un terrain à 40 NM rejoint à 120 kt sol demande 10 minutes de trajet.\n\n![Branche de 40 NM entre A et B, vitesse sol constante de 120 kt. Durée à déterminer.](/illustrations/quiz-ppl-emg-001-13.svg)",
+      "question_en": "True or false? An aerodrome 40 NM away at 120 kt groundspeed requires 10 minutes of travel.\n\n![Exercise data: Diversion decisions and preserving options](/illustrations/en/quiz-ppl-emg-001-13.svg)",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\n60 × 40 / 120 = 20 minutes, et non 10.\n\nDans un exercice fictif, le terrain A est à 24 NM avec 80 kt sol prévus ; le temps de trajet est de 18 minutes. Le terrain B est à 30 NM avec 120 kt sol prévus ; il demande 15 minutes. B est donc plus éloigné mais plus rapide à rejoindre sous ces hypothèses. Ce classement ne suffit pas : une piste inadaptée ou une route obstruée par la météo peut éliminer B. Les estimations doivent aussi intégrer les phases et marges pertinentes.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "This statement is false.\n\n60 × 40 / 120 = 20 minutes, not 10.\n\nIn a fictional exercise, aerodrome A is 24 NM away with an expected groundspeed of 80 kt; journey time is 18 minutes. Aerodrome B is 30 NM away at 120 kt groundspeed; it takes 15 minutes. B is farther but quicker to reach under these assumptions. That ranking is not enough: an unsuitable runway or weather-blocked route may rule B out. Estimates must also include the relevant phases and margins.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C04",
+      "concept_title": "Communiquer et suivre le nouveau plan",
+      "level": 2,
+      "question": "Vrai ou faux ? Le déroutement implique de mettre à jour temps et carburant.",
+      "question_en": "True or false? Diversion involves updating time and fuel.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne fois la décision prise, organiser les tâches : trajectoire compatible avec les marges, nouveau bilan temps-carburant, informations du terrain, communication et préparation des occupants. Demander une assistance adaptée si la charge de travail ou la situation le nécessite. Réévaluer si les faits changent encore. Une panne exigeant des actions immédiates se traite selon la procédure du manuel ; cette méthode de comparaison de terrains ne remplace pas les actions urgentes enseignées sur l'avion.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "This statement is true.\n\nOnce the decision is made, organise tasks: a flight path compatible with margins, updated time and fuel calculations, aerodrome information, communication and occupant preparation. Request appropriate assistance if workload or circumstances require it. Reassess if facts change again. A failure requiring immediate actions is handled according to the manual; this aerodrome-comparison method does not replace urgent actions taught for the aircraft.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_EMG_001_C04",
+      "concept_title": "Communiquer et suivre le nouveau plan",
+      "level": 2,
+      "question": "Vrai ou faux ? Une fois le déroutement choisi, toute nouvelle information doit être ignorée.",
+      "question_en": "True or false? Once a diversion is chosen, all new information must be ignored.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne fois la décision prise, organiser les tâches : trajectoire compatible avec les marges, nouveau bilan temps-carburant, informations du terrain, communication et préparation des occupants. Demander une assistance adaptée si la charge de travail ou la situation le nécessite. Réévaluer si les faits changent encore. Une panne exigeant des actions immédiates se traite selon la procédure du manuel ; cette méthode de comparaison de terrains ne remplace pas les actions urgentes enseignées sur l'avion.\n\n![Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité.](/illustrations/lapl-emg-001.svg)",
+      "explanation_en": "This statement is false.\n\nOnce the decision is made, organise tasks: a flight path compatible with margins, updated time and fuel calculations, aerodrome information, communication and occupant preparation. Request appropriate assistance if workload or circumstances require it. Reassess if facts change again. A failure requiring immediate actions is handled according to the manual; this aerodrome-comparison method does not replace urgent actions taught for the aircraft.\n\n![Diagram: Diversion decisions and preserving options](/illustrations/en/lapl-emg-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

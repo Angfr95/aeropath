@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Reconstruct the clearance</title><desc id="desc">Reconstruct the clearance</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / IR / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Reconstruct the clearance</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Fictional exercise · Diagram not to scale</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">IR_090_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Read the diagram with the lesson explanations and references.</text>
+<text x="65" y="215" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Dialogue brief: retain unchanged items</text>
+<rect x="65" y="255" width="1070" height="72" rx="10" fill="#1c344b" stroke="none"/>
+<text x="85" y="298" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">1</text>
+<text x="150" y="298" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">AER452</text>
+<text x="385" y="298" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Heading 220 · 4,000 ft · 170 kt</text>
+<rect x="65" y="345" width="1070" height="72" rx="10" fill="#1c344b" stroke="none"/>
+<text x="85" y="388" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">2</text>
+<text x="150" y="388" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">AER425</text>
+<text x="385" y="388" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Speed 160 kt</text>
+<rect x="65" y="435" width="1070" height="72" rx="10" fill="#1c344b" stroke="none"/>
+<text x="85" y="478" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">3</text>
+<text x="150" y="478" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">AER452</text>
+<text x="385" y="478" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Heading 230 · maintain 3,000 ft</text>
+<text x="65" y="555" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">For each line: who is addressed? Which item changes? What remains in force?</text>
+</svg>

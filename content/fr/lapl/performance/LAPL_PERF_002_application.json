@@ -1,0 +1,612 @@
+{
+  "metadata": {
+    "module_id": "LAPL_PERF_002",
+    "program": "LAPL",
+    "subject": "Performance",
+    "chapter_title": "Taux de montée, pente et altitude-densité",
+    "chapter_title_en": "Climb rate, gradient and density altitude",
+    "learning_objective": "Distinguer hauteur gagnée par minute et par distance, puis expliquer l'effet du vent et de la densité.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: two ways of measuring a climb; a groundspeed example; understanding the effect of wind; density and speed selection.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 15,
+    "prerequisites": [
+      "PPL_PERF_001",
+      "PPL_MET_001"
+    ],
+    "tags": [
+      "LAPL",
+      "performance"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — altitude-densité",
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html"
+      },
+      {
+        "title": "FAA — départs : relation taux de montée et pente",
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html"
+      },
+      {
+        "title": "FAA — Airplane Flying Handbook, décollage et montée",
+        "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-perf-002.svg",
+      "alt": "À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur."
+    },
+    "exam_subject": "flight_performance_planning",
+    "coverage_status": "partial",
+    "derived_from": "PPL_PERF_002",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_PERF_002_C01",
+      "title": "Deux façons de mesurer une montée",
+      "title_en": "Two ways of measuring a climb",
+      "content": "![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)\n\nLe taux de montée exprime une hauteur gagnée par unité de temps, souvent en ft/min. La pente par rapport au sol exprime une hauteur gagnée par distance horizontale au sol, par exemple en ft/NM ou en pourcentage. Une montée de 500 ft/min peut être satisfaisante pour atteindre une altitude mais insuffisante pour franchir un obstacle proche. Avant un calcul, identifier la grandeur réellement nécessaire et ne pas confondre les unités.",
+      "content_en": "![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)\n\nRate of climb is height gained per unit of time, often ft/min. Gradient relative to the ground is height gained per horizontal ground distance, for example ft/NM or a percentage. A 500 ft/min climb may be satisfactory for reaching an altitude but insufficient to clear a nearby obstacle. Before calculating, identify the quantity actually required and do not confuse units.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "learning_objective": "Deux façons de mesurer une montée"
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C02",
+      "title": "Exemple avec vitesse sol",
+      "title_en": "A groundspeed example",
+      "content": "À 90 kt sol, l'avion parcourt 1,5 NM par minute. Avec un taux constant fictif de 450 ft/min, la pente vaut 450 / 1,5 = 300 ft/NM. À 120 kt sol pour le même taux, il parcourt 2 NM/min : la pente n'est plus que 225 ft/NM. Le calcul suppose un mouvement stabilisé et ne décrit ni la rotation ni les transitions. Un obstacle ne doit pas être évalué à partir d'une seule lecture momentanée du variomètre.",
+      "content_en": "At 90 kt groundspeed, the aircraft travels 1.5 NM per minute. With a fictional constant climb rate of 450 ft/min, gradient is 450 / 1.5 = 300 ft/NM. At 120 kt groundspeed with the same rate, it travels 2 NM/min: gradient is only 225 ft/NM. The calculation assumes steady motion and does not describe rotation or transitions. Do not assess an obstacle using one momentary vertical-speed indication.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "learning_objective": "Exemple avec vitesse sol"
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C03",
+      "title": "Comprendre le rôle du vent",
+      "title_en": "Understanding the effect of wind",
+      "content": "À conditions aérodynamiques et taux de montée identiques, un vent arrière augmente la distance au sol parcourue pendant la montée et dégrade la pente par rapport au sol. Un vent de face a l'effet inverse. Cela ne signifie pas que le moteur produit davantage de puissance face au vent. Les variations de vent et les rabattants ajoutent d'autres effets. Distinguer ainsi les performances dans la masse d'air et la trajectoire par rapport au terrain.",
+      "content_en": "At identical aerodynamic conditions and rate of climb, a tailwind increases ground distance travelled during the climb and reduces the gradient relative to the ground. A headwind has the opposite effect. This does not mean the engine produces more power into wind. Wind variations and downdraughts introduce other effects. Distinguish performance within the air mass from the path relative to terrain.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "learning_objective": "Comprendre le rôle du vent"
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C04",
+      "title": "Densité et choix de vitesse",
+      "title_en": "Density and speed selection",
+      "content": "L'altitude-densité représente l'altitude du modèle standard correspondant à la densité rencontrée. Air chaud et pression faible peuvent conduire à une altitude-densité élevée même sans terrain très élevé. Les performances de propulsion et de montée peuvent alors diminuer. VX et VY répondent à des objectifs différents de montée et leurs valeurs dépendent de l'avion et des conditions ; elles se recherchent dans le manuel. Décoller du sol ne garantit pas de pouvoir poursuivre la montée au-dessus des obstacles.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "Density altitude is the altitude in the standard model corresponding to the density encountered. Hot air and low pressure can produce a high density altitude even at a relatively low aerodrome. Propulsive and climb performance may then decrease. VX and VY serve different climbing objectives and their values depend on aircraft and conditions; find them in the manual. Leaving the ground does not guarantee continued climb above obstacles.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "learning_objective": "Densité et choix de vitesse"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_PERF_002_C01",
+      "concept_title": "Deux façons de mesurer une montée",
+      "level": 2,
+      "question": "Le taux de montée s'exprime couramment en…",
+      "question_en": "Rate of climb is commonly expressed in…",
+      "options": [
+        "kt/min",
+        "ft/NM uniquement",
+        "kg/min",
+        "ft/min"
+      ],
+      "correct_answer": "ft/min",
+      "explanation": "Il décrit une hauteur gagnée pendant une durée.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "It describes height gained over time.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "performance",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "kt/min",
+        "ft/NM only",
+        "kg/min",
+        "ft/min"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C02",
+      "concept_title": "Exemple avec vitesse sol",
+      "level": 2,
+      "question": "90 kt sol représentent…",
+      "question_en": "90 kt groundspeed represents…",
+      "options": [
+        "90 NM/min",
+        "2 NM/min",
+        "1,5 NM/min",
+        "0,9 NM/min"
+      ],
+      "correct_answer": "1,5 NM/min",
+      "explanation": "90 NM par heure divisés par 60 donnent 1,5 NM par minute.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "90 NM per hour divided by 60 gives 1.5 NM per minute.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "performance",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "90 NM/min",
+        "2 NM/min",
+        "1.5 NM/min",
+        "0.9 NM/min"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C02",
+      "concept_title": "Exemple avec vitesse sol",
+      "level": 2,
+      "question": "450 ft/min à 90 kt sol donnent une pente de…",
+      "question_en": "450 ft/min at 90 kt groundspeed gives a gradient of…",
+      "options": [
+        "675 ft/NM",
+        "300 ft/NM",
+        "225 ft/NM",
+        "450 ft/NM"
+      ],
+      "correct_answer": "300 ft/NM",
+      "explanation": "On divise le taux de montée par la distance parcourue au sol en une minute.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "Divide rate of climb by the ground distance travelled in one minute.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "performance",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "675 ft/NM",
+        "300 ft/NM",
+        "225 ft/NM",
+        "450 ft/NM"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C03",
+      "concept_title": "Comprendre le rôle du vent",
+      "level": 2,
+      "question": "À taux de montée identique, davantage de vent arrière produit généralement…",
+      "question_en": "At the same rate of climb, more tailwind generally produces…",
+      "options": [
+        "Une pente par rapport au sol plus faible",
+        "Une pente par rapport au sol plus forte",
+        "Un taux automatiquement doublé",
+        "Une distance horizontale plus faible"
+      ],
+      "correct_answer": "Une pente par rapport au sol plus faible",
+      "explanation": "Le même gain de hauteur est réparti sur une plus grande distance au sol.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "The same height gain is spread over a greater ground distance.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "performance",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "A shallower gradient relative to the ground",
+        "A steeper gradient relative to the ground",
+        "An automatically doubled climb rate",
+        "A shorter horizontal distance"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C04",
+      "concept_title": "Densité et choix de vitesse",
+      "level": 2,
+      "question": "Un avion quitte le sol par forte chaleur : que peut-on conclure sur la suite ?",
+      "question_en": "An aircraft lifts off in hot weather. What can be concluded about the next phase?",
+      "options": [
+        "Il franchira nécessairement tous les obstacles",
+        "Sa densité d'air est devenue standard",
+        "Le calcul de montée devient inutile",
+        "Il faut encore disposer de performances de montée suffisantes"
+      ],
+      "correct_answer": "Il faut encore disposer de performances de montée suffisantes",
+      "explanation": "La sustentation près du sol ne garantit pas une montée suffisante dans les conditions réelles.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "Becoming airborne near the ground does not guarantee an adequate climb in the actual conditions.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "performance",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "It will necessarily clear every obstacle",
+        "Air density has become standard",
+        "Climb calculations are now unnecessary",
+        "Sufficient climb performance is still required"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C01",
+      "concept_title": "Deux façons de mesurer une montée",
+      "level": 2,
+      "question": "Vrai ou faux ? Un gradient de montée peut s'exprimer en pourcentage.",
+      "question_en": "True or false? A climb gradient may be expressed as a percentage.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe taux de montée exprime une hauteur gagnée par unité de temps, souvent en ft/min. La pente par rapport au sol exprime une hauteur gagnée par distance horizontale au sol, par exemple en ft/NM ou en pourcentage. Une montée de 500 ft/min peut être satisfaisante pour atteindre une altitude mais insuffisante pour franchir un obstacle proche. Avant un calcul, identifier la grandeur réellement nécessaire et ne pas confondre les unités.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "This statement is true.\n\nRate of climb is height gained per unit of time, often ft/min. Gradient relative to the ground is height gained per horizontal ground distance, for example ft/NM or a percentage. A 500 ft/min climb may be satisfactory for reaching an altitude but insufficient to clear a nearby obstacle. Before calculating, identify the quantity actually required and do not confuse units.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C01",
+      "concept_title": "Deux façons de mesurer une montée",
+      "level": 2,
+      "question": "Vrai ou faux ? Un taux de montée et un gradient décrivent forcément la même grandeur.",
+      "question_en": "True or false? Rate of climb and gradient necessarily describe the same quantity.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe taux de montée exprime une hauteur gagnée par unité de temps, souvent en ft/min. La pente par rapport au sol exprime une hauteur gagnée par distance horizontale au sol, par exemple en ft/NM ou en pourcentage. Une montée de 500 ft/min peut être satisfaisante pour atteindre une altitude mais insuffisante pour franchir un obstacle proche. Avant un calcul, identifier la grandeur réellement nécessaire et ne pas confondre les unités.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "This statement is false.\n\nRate of climb is height gained per unit of time, often ft/min. Gradient relative to the ground is height gained per horizontal ground distance, for example ft/NM or a percentage. A 500 ft/min climb may be satisfactory for reaching an altitude but insufficient to clear a nearby obstacle. Before calculating, identify the quantity actually required and do not confuse units.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C02",
+      "concept_title": "Exemple avec vitesse sol",
+      "level": 2,
+      "question": "Vrai ou faux ? À 120 kt sol, l'avion parcourt 2 NM par minute.",
+      "question_en": "True or false? At 120 kt groundspeed, the aircraft travels 2 NM per minute.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÀ 90 kt sol, l'avion parcourt 1,5 NM par minute. Avec un taux constant fictif de 450 ft/min, la pente vaut 450 / 1,5 = 300 ft/NM. À 120 kt sol pour le même taux, il parcourt 2 NM/min : la pente n'est plus que 225 ft/NM. Le calcul suppose un mouvement stabilisé et ne décrit ni la rotation ni les transitions. Un obstacle ne doit pas être évalué à partir d'une seule lecture momentanée du variomètre.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "This statement is true.\n\nAt 90 kt groundspeed, the aircraft travels 1.5 NM per minute. With a fictional constant climb rate of 450 ft/min, gradient is 450 / 1.5 = 300 ft/NM. At 120 kt groundspeed with the same rate, it travels 2 NM/min: gradient is only 225 ft/NM. The calculation assumes steady motion and does not describe rotation or transitions. Do not assess an obstacle using one momentary vertical-speed indication.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C02",
+      "concept_title": "Exemple avec vitesse sol",
+      "level": 2,
+      "question": "Vrai ou faux ? À 450 ft/min et 120 kt sol, le gradient est de 450 ft/NM.",
+      "question_en": "True or false? At 450 ft/min and 120 kt groundspeed, gradient is 450 ft/NM.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÀ 90 kt sol, l'avion parcourt 1,5 NM par minute. Avec un taux constant fictif de 450 ft/min, la pente vaut 450 / 1,5 = 300 ft/NM. À 120 kt sol pour le même taux, il parcourt 2 NM/min : la pente n'est plus que 225 ft/NM. Le calcul suppose un mouvement stabilisé et ne décrit ni la rotation ni les transitions. Un obstacle ne doit pas être évalué à partir d'une seule lecture momentanée du variomètre.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "This statement is false.\n\nAt 90 kt groundspeed, the aircraft travels 1.5 NM per minute. With a fictional constant climb rate of 450 ft/min, gradient is 450 / 1.5 = 300 ft/NM. At 120 kt groundspeed with the same rate, it travels 2 NM/min: gradient is only 225 ft/NM. The calculation assumes steady motion and does not describe rotation or transitions. Do not assess an obstacle using one momentary vertical-speed indication.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C02",
+      "concept_title": "Exemple avec vitesse sol",
+      "level": 2,
+      "question": "Vrai ou faux ? Une indication instantanée de variomètre ne suffit pas à évaluer un obstacle.",
+      "question_en": "True or false? A momentary vertical speed reading is insufficient to assess an obstacle.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÀ 90 kt sol, l'avion parcourt 1,5 NM par minute. Avec un taux constant fictif de 450 ft/min, la pente vaut 450 / 1,5 = 300 ft/NM. À 120 kt sol pour le même taux, il parcourt 2 NM/min : la pente n'est plus que 225 ft/NM. Le calcul suppose un mouvement stabilisé et ne décrit ni la rotation ni les transitions. Un obstacle ne doit pas être évalué à partir d'une seule lecture momentanée du variomètre.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "This statement is true.\n\nAt 90 kt groundspeed, the aircraft travels 1.5 NM per minute. With a fictional constant climb rate of 450 ft/min, gradient is 450 / 1.5 = 300 ft/NM. At 120 kt groundspeed with the same rate, it travels 2 NM/min: gradient is only 225 ft/NM. The calculation assumes steady motion and does not describe rotation or transitions. Do not assess an obstacle using one momentary vertical-speed indication.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C03",
+      "concept_title": "Comprendre le rôle du vent",
+      "level": 2,
+      "question": "Vrai ou faux ? Un meilleur gradient sol face au vent prouve une hausse de puissance moteur.",
+      "question_en": "True or false? A better ground gradient into wind proves increased engine power.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÀ conditions aérodynamiques et taux de montée identiques, un vent arrière augmente la distance au sol parcourue pendant la montée et dégrade la pente par rapport au sol. Un vent de face a l'effet inverse. Cela ne signifie pas que le moteur produit davantage de puissance face au vent. Les variations de vent et les rabattants ajoutent d'autres effets. Distinguer ainsi les performances dans la masse d'air et la trajectoire par rapport au terrain.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "This statement is false.\n\nAt identical aerodynamic conditions and rate of climb, a tailwind increases ground distance travelled during the climb and reduces the gradient relative to the ground. A headwind has the opposite effect. This does not mean the engine produces more power into wind. Wind variations and downdraughts introduce other effects. Distinguish performance within the air mass from the path relative to terrain.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C03",
+      "concept_title": "Comprendre le rôle du vent",
+      "level": 2,
+      "question": "Vrai ou faux ? Il faut distinguer performance dans la masse d'air et trajectoire sur le terrain.",
+      "question_en": "True or false? Performance within the air mass must be distinguished from the path over the ground.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÀ conditions aérodynamiques et taux de montée identiques, un vent arrière augmente la distance au sol parcourue pendant la montée et dégrade la pente par rapport au sol. Un vent de face a l'effet inverse. Cela ne signifie pas que le moteur produit davantage de puissance face au vent. Les variations de vent et les rabattants ajoutent d'autres effets. Distinguer ainsi les performances dans la masse d'air et la trajectoire par rapport au terrain.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "This statement is true.\n\nAt identical aerodynamic conditions and rate of climb, a tailwind increases ground distance travelled during the climb and reduces the gradient relative to the ground. A headwind has the opposite effect. This does not mean the engine produces more power into wind. Wind variations and downdraughts introduce other effects. Distinguish performance within the air mass from the path relative to terrain.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C04",
+      "concept_title": "Densité et choix de vitesse",
+      "level": 2,
+      "question": "Vrai ou faux ? Un terrain bas garantit toujours une faible altitude-densité.",
+      "question_en": "True or false? A low aerodrome always guarantees low density altitude.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'altitude-densité représente l'altitude du modèle standard correspondant à la densité rencontrée. Air chaud et pression faible peuvent conduire à une altitude-densité élevée même sans terrain très élevé. Les performances de propulsion et de montée peuvent alors diminuer. VX et VY répondent à des objectifs différents de montée et leurs valeurs dépendent de l'avion et des conditions ; elles se recherchent dans le manuel. Décoller du sol ne garantit pas de pouvoir poursuivre la montée au-dessus des obstacles.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "This statement is false.\n\nDensity altitude is the altitude in the standard model corresponding to the density encountered. Hot air and low pressure can produce a high density altitude even at a relatively low aerodrome. Propulsive and climb performance may then decrease. VX and VY serve different climbing objectives and their values depend on aircraft and conditions; find them in the manual. Leaving the ground does not guarantee continued climb above obstacles.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C04",
+      "concept_title": "Densité et choix de vitesse",
+      "level": 2,
+      "question": "Vrai ou faux ? VX et VY répondent à des objectifs de montée différents.",
+      "question_en": "True or false? VX and VY serve different climb objectives.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'altitude-densité représente l'altitude du modèle standard correspondant à la densité rencontrée. Air chaud et pression faible peuvent conduire à une altitude-densité élevée même sans terrain très élevé. Les performances de propulsion et de montée peuvent alors diminuer. VX et VY répondent à des objectifs différents de montée et leurs valeurs dépendent de l'avion et des conditions ; elles se recherchent dans le manuel. Décoller du sol ne garantit pas de pouvoir poursuivre la montée au-dessus des obstacles.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "This statement is true.\n\nDensity altitude is the altitude in the standard model corresponding to the density encountered. Hot air and low pressure can produce a high density altitude even at a relatively low aerodrome. Propulsive and climb performance may then decrease. VX and VY serve different climbing objectives and their values depend on aircraft and conditions; find them in the manual. Leaving the ground does not guarantee continued climb above obstacles.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_PERF_002_C04",
+      "concept_title": "Densité et choix de vitesse",
+      "level": 2,
+      "question": "Vrai ou faux ? Décoller suffit à prouver qu'on franchira tous les obstacles suivants.",
+      "question_en": "True or false? Becoming airborne proves every subsequent obstacle will be cleared.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'altitude-densité représente l'altitude du modèle standard correspondant à la densité rencontrée. Air chaud et pression faible peuvent conduire à une altitude-densité élevée même sans terrain très élevé. Les performances de propulsion et de montée peuvent alors diminuer. VX et VY répondent à des objectifs différents de montée et leurs valeurs dépendent de l'avion et des conditions ; elles se recherchent dans le manuel. Décoller du sol ne garantit pas de pouvoir poursuivre la montée au-dessus des obstacles.\n\n![À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur.](/illustrations/lapl-perf-002.svg)",
+      "explanation_en": "This statement is false.\n\nDensity altitude is the altitude in the standard model corresponding to the density encountered. Hot air and low pressure can produce a high density altitude even at a relatively low aerodrome. Propulsive and climb performance may then decrease. VX and VY serve different climbing objectives and their values depend on aircraft and conditions; find them in the manual. Leaving the ground does not guarantee continued climb above obstacles.\n\n![Diagram: Climb rate, gradient and density altitude](/illustrations/en/lapl-perf-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html",
+        "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

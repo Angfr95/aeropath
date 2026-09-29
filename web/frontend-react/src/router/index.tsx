@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import PPLExam from "@/pages/PPLExam";
 import ProtectedRoute from "./ProtectedRoute";
 
 // Pages publiques
@@ -47,18 +48,21 @@ export default function AppRouter() {
       <Route path="/" element={<HomePage />} />
       <Route path="/login" element={<LoginPage />} />
 
-      {/* Authentifié */}
+      {/* Apprentissage public */}
+      <Route path="/questions" element={<Questions />} />
+      <Route path="/questions/:license" element={<QuestionsByLicense />} />
+      <Route path="/questions/:license/:category" element={<QuestionsByCategory />} />
+      <Route path="/questions/:license/:category/:questionId" element={<QuestionDetail />} />
+      <Route path="/quiz" element={<Quiz />} />
+      <Route path="/ppl-exam" element={<PPLExam />} />
+      <Route path="/lessons" element={<Lessons />} />
+      <Route path="/lessons/:license" element={<LessonsByLicense />} />
+      <Route path="/lessons/:license/:category" element={<LessonsByCategory />} />
+      <Route path="/lessons/:license/:category/:lessonId" element={<LessonDetail />} />
+
+      {/* Suivi personnel */}
       <Route element={<ProtectedRoute />}>
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/questions" element={<Questions />} />
-        <Route path="/questions/:license" element={<QuestionsByLicense />} />
-        <Route path="/questions/:license/:category" element={<QuestionsByCategory />} />
-        <Route path="/questions/:license/:category/:questionId" element={<QuestionDetail />} />
-        <Route path="/quiz" element={<Quiz />} />
-        <Route path="/lessons" element={<Lessons />} />
-        <Route path="/lessons/:license" element={<LessonsByLicense />} />
-        <Route path="/lessons/:license/:category" element={<LessonsByCategory />} />
-        <Route path="/lessons/:license/:category/:lessonId" element={<LessonDetail />} />
         <Route path="/history" element={<HistoryPage />} />
         <Route path="/stats" element={<Stats />} />
         <Route path="/recommendations" element={<Recommendations />} />

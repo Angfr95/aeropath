@@ -1,0 +1,628 @@
+{
+  "metadata": {
+    "module_id": "ATPL_021_002",
+    "program": "ATPL",
+    "subject": "aircraft_general",
+    "chapter_title": "Pressurisation : pression, altitude cabine et surveillance",
+    "chapter_title_en": "Pressurisation: pressure, cabin altitude and monitoring",
+    "reference_checked_on": "2026-09-26",
+    "learning_objective": "Résoudre et vérifier les exercices de pressurisation : pression, altitude cabine et surveillance.",
+    "learning_objective_en": "Solve and cross-check exercises on pressurisation: pressure, cabin altitude and monitoring.",
+    "estimated_duration_minutes": 35,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Calcul des proportions et des durées ; bases PPL du sujet"
+    ],
+    "exam_subject": "021",
+    "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021",
+    "official_subject_format": {
+      "questions": 80,
+      "minutes": 120,
+      "pass_percent": 75,
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+    },
+    "sources": [
+      {
+        "title": "EASA — programme Part-FCL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+      },
+      {
+        "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      },
+      {
+        "title": "FAA PHAK — aircraft systems",
+        "url": "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      }
+    ],
+    "content_status": "draft",
+    "coverage_status": "partial",
+    "scope": "ATPL(A), France / EASA",
+    "quiz_format": "chapter_practice",
+    "tags": [
+      "ATPL",
+      "mcq-four-options"
+    ],
+    "illustration": {
+      "src": "/illustrations/atpl-021-002.svg",
+      "alt": "Pressurisation : pression, altitude cabine et surveillance"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "ATPL_021_002_C01",
+      "title": "Trois indications différentes",
+      "title_en": "Three different indications",
+      "content": "![ATPL_021_002](/illustrations/atpl-021-002.svg)\n\nL’altitude cabine est l’altitude de l’atmosphère standard correspondant à la pression dans la cabine. Ce n’est ni l’altitude réelle de l’avion ni une mesure de sa hauteur au-dessus du terrain. La pression différentielle est Δp = p cabine − p extérieure, dans la même unité. Le variomètre cabine indique la vitesse de variation de l’altitude cabine. Exemple fictif : 75 kPa à l’intérieur et 30 kPa à l’extérieur donnent 45 kPa de différentiel.",
+      "content_en": "![ATPL_021_002](/illustrations/en/atpl-021-002.svg)\n\nCabin altitude is the standard-atmosphere altitude corresponding to cabin pressure. It is neither the aircraft’s true altitude nor its height above terrain. Differential pressure is Δp = cabin pressure − outside pressure, using the same unit. Cabin vertical speed indicates the rate of change of cabin altitude. Fictional example: 75 kPa inside and 30 kPa outside give a 45 kPa differential.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 021",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_021_002_C02",
+      "title": "Réguler le débit de sortie",
+      "title_en": "Regulate outflow",
+      "content": "Sur un système classique alimenté en air, le contrôleur agit sur la vanne de décharge (outflow valve) pour régler la pression cabine. À alimentation et conditions extérieures comparables, ouvrir davantage la sortie tend à réduire la pression cabine et à augmenter son altitude ; fermer la sortie produit la tendance inverse. Ce raisonnement suppose un débit entrant disponible et ne remplace pas le schéma propre à l’avion. Ventilation, température et pressurisation sont liées mais ne mesurent pas la même fonction.",
+      "content_en": "In a conventional air-supplied system, the controller operates the outflow valve to regulate cabin pressure. With comparable supply and external conditions, opening the outlet further tends to reduce cabin pressure and increase cabin altitude; closing it produces the opposite tendency. This reasoning assumes available inflow and does not replace the aircraft-specific schematic. Ventilation, temperature and pressurisation are related but are not the same function.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 021",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_021_002_C03",
+      "title": "Respecter les limites de structure",
+      "title_en": "Respect structural limits",
+      "content": "En montée de l’avion, une pression cabine constante et une pression extérieure décroissante augmentent Δp. Une fois la limite différentielle atteinte, le système ne peut pas conserver indéfiniment la même altitude cabine : celle-ci augmente si l’avion continue sa montée. La soupape de surpression limite un différentiel positif excessif ; une protection de pression négative évite un différentiel extérieur supérieur à l’intérieur au-delà des limites prévues. Les valeurs limites sont propres au type.",
+      "content_en": "As the aircraft climbs, constant cabin pressure and decreasing outside pressure increase Δp. Once the differential limit is reached, the system cannot indefinitely maintain the same cabin altitude: cabin altitude increases if the aircraft continues climbing. A positive-pressure relief valve limits excessive positive differential; negative-pressure protection prevents outside pressure exceeding inside pressure beyond the intended limits. Limit values are type-specific.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 021",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_021_002_C04",
+      "title": "Surveiller et réagir",
+      "title_en": "Monitor and respond",
+      "content": "Une perte de pressurisation peut accroître rapidement l’altitude cabine et provoquer une hypoxie. La réponse suit les procédures de l’avion : utilisation rapide de l’oxygène si requise, maîtrise de la trajectoire et descente d’urgence lorsque nécessaire, en tenant compte du relief et des contraintes pertinentes. Il n’existe pas de seuil universel inventé pour ce chapitre. Une pression cabine proche de la pression extérieure ne prouve pas que l’air est respirable à haute altitude. Avant ouverture des portes, vérifier la dépressurisation selon la procédure.\n\n**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. La matière 021 comporte 80 questions en 120 minutes dans le tableau EASA cité. Ce chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.",
+      "content_en": "Loss of pressurisation can rapidly increase cabin altitude and cause hypoxia. Follow aircraft procedures: prompt oxygen use when required, flight-path control and emergency descent when necessary, considering terrain and relevant constraints. This chapter invents no universal threshold. Cabin pressure close to outside pressure does not establish breathable conditions at high altitude. Before opening doors, verify depressurisation according to procedure.\n\n**Practice format:** 15 chapter MCQs, four choices and one correct answer. Subject 021 has 80 questions in 120 minutes in the cited EASA table. This chapter covers only part of the subject and is not a full paper. EASA framework, including with English or US/British units.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 021",
+      "tags": [
+        "ATPL"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "ATPL_021_002_C01",
+      "concept_title": "Trois indications différentes",
+      "level": 3,
+      "question": "Pression cabine 75 kPa, extérieure 30 kPa. Quel différentiel ?\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "question_en": "Cabin pressure 75 kPa, outside 30 kPa. What differential?\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "options": [
+        "45 kPa",
+        "105 kPa",
+        "30 kPa",
+        "2,5 kPa"
+      ],
+      "options_en": [
+        "45 kPa",
+        "105 kPa",
+        "30 kPa",
+        "2.5 kPa"
+      ],
+      "correct_answer": "45 kPa",
+      "explanation": "Δp = 75 − 30 = 45 kPa.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "Δp = 75 − 30 = 45 kPa.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": true,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C01",
+      "concept_title": "Trois indications différentes",
+      "level": 3,
+      "question": "L’altitude cabine représente…",
+      "question_en": "Cabin altitude represents…",
+      "options": [
+        "La hauteur radio de l’avion",
+        "L’altitude vraie de l’avion",
+        "La distance au terrain de destination",
+        "Une altitude standard équivalente à la pression cabine"
+      ],
+      "options_en": [
+        "Aircraft radio height",
+        "Aircraft true altitude",
+        "Distance to destination",
+        "A standard altitude equivalent to cabin pressure"
+      ],
+      "correct_answer": "Une altitude standard équivalente à la pression cabine",
+      "explanation": "Elle est déduite de la pression cabine selon l’atmosphère standard.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "It is derived from cabin pressure using the standard atmosphere.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C01",
+      "concept_title": "Trois indications différentes",
+      "level": 3,
+      "question": "Une pression cabine qui diminue correspond à une altitude cabine qui…",
+      "question_en": "Decreasing cabin pressure corresponds to cabin altitude that…",
+      "options": [
+        "Reste toujours nulle",
+        "Devient une vitesse",
+        "Augmente",
+        "Diminue"
+      ],
+      "options_en": [
+        "Always stays zero",
+        "Becomes a speed",
+        "Increases",
+        "Decreases"
+      ],
+      "correct_answer": "Augmente",
+      "explanation": "Dans l’atmosphère standard, une pression plus faible correspond à une altitude plus élevée.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "In the standard atmosphere, lower pressure corresponds to higher altitude.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C01",
+      "concept_title": "Trois indications différentes",
+      "level": 3,
+      "question": "Le variomètre cabine indique…",
+      "question_en": "The cabin vertical-speed indicator shows…",
+      "options": [
+        "Le débit carburant",
+        "La variation d’altitude cabine par unité de temps",
+        "La vitesse sol",
+        "Le différentiel en kPa"
+      ],
+      "options_en": [
+        "Fuel flow",
+        "Cabin-altitude change per unit time",
+        "Groundspeed",
+        "Differential pressure in kPa"
+      ],
+      "correct_answer": "La variation d’altitude cabine par unité de temps",
+      "explanation": "Il mesure une évolution de l’altitude cabine.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "It measures change in cabin altitude.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C02",
+      "concept_title": "Réguler le débit de sortie",
+      "level": 3,
+      "question": "À alimentation comparable, ouvrir davantage l’outflow valve tend à…",
+      "question_en": "With comparable supply, opening the outflow valve further tends to…",
+      "options": [
+        "Réduire la pression cabine",
+        "Augmenter la pression cabine",
+        "Bloquer toute sortie d’air",
+        "Augmenter le débit carburant directement"
+      ],
+      "options_en": [
+        "Reduce cabin pressure",
+        "Increase cabin pressure",
+        "Block all air outflow",
+        "Directly increase fuel flow"
+      ],
+      "correct_answer": "Réduire la pression cabine",
+      "explanation": "Une sortie accrue tend à diminuer la pression intérieure.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "Increased outflow tends to decrease internal pressure.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C02",
+      "concept_title": "Réguler le débit de sortie",
+      "level": 3,
+      "question": "La fermeture de la sortie, avec un débit entrant disponible, tend à…",
+      "question_en": "Closing the outlet, with inflow available, tends to…",
+      "options": [
+        "Augmenter l’altitude cabine",
+        "Supprimer le débit entrant par définition",
+        "Égaliser immédiatement les pressions",
+        "Augmenter la pression cabine"
+      ],
+      "options_en": [
+        "Increase cabin altitude",
+        "Remove inflow by definition",
+        "Immediately equalise pressures",
+        "Increase cabin pressure"
+      ],
+      "correct_answer": "Augmenter la pression cabine",
+      "explanation": "La rétention d’air tend à accroître la pression et réduire l’altitude cabine.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "Retaining air tends to increase pressure and reduce cabin altitude.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C02",
+      "concept_title": "Réguler le débit de sortie",
+      "level": 3,
+      "question": "Une température cabine confortable prouve-t-elle une pressurisation correcte ?",
+      "question_en": "Does comfortable cabin temperature prove correct pressurisation?",
+      "options": [
+        "Oui, au-dessus de tout relief",
+        "Oui, avec ventilation audible",
+        "Non",
+        "Oui, toujours"
+      ],
+      "options_en": [
+        "Yes, above all terrain",
+        "Yes, with audible ventilation",
+        "No",
+        "Yes, always"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Température et pression sont des grandeurs distinctes.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "Temperature and pressure are distinct quantities.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C03",
+      "concept_title": "Respecter les limites de structure",
+      "level": 3,
+      "question": "Cabine maintenue à 75 kPa, extérieur passant de 30 à 25 kPa. Nouveau Δp ?",
+      "question_en": "Cabin held at 75 kPa, outside falling from 30 to 25 kPa. New Δp?",
+      "options": [
+        "25 kPa",
+        "50 kPa",
+        "45 kPa",
+        "100 kPa"
+      ],
+      "options_en": [
+        "25 kPa",
+        "50 kPa",
+        "45 kPa",
+        "100 kPa"
+      ],
+      "correct_answer": "50 kPa",
+      "explanation": "75 − 25 = 50 kPa : le différentiel augmente.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "75 − 25 = 50 kPa: differential increases.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C03",
+      "concept_title": "Respecter les limites de structure",
+      "level": 3,
+      "question": "À différentiel maximal, l’avion continue de monter. L’altitude cabine peut devoir…",
+      "question_en": "At maximum differential, the aircraft keeps climbing. Cabin altitude may need to…",
+      "options": [
+        "Augmenter",
+        "Rester toujours constante",
+        "Devenir négative nécessairement",
+        "Suivre la vitesse indiquée"
+      ],
+      "options_en": [
+        "Increase",
+        "Always remain constant",
+        "Necessarily become negative",
+        "Follow indicated airspeed"
+      ],
+      "correct_answer": "Augmenter",
+      "explanation": "La pression cabine doit diminuer pour respecter Δp lorsque la pression extérieure baisse.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "Cabin pressure must decrease to respect Δp as outside pressure falls.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C03",
+      "concept_title": "Respecter les limites de structure",
+      "level": 3,
+      "question": "La soupape de surpression positive protège contre…",
+      "question_en": "The positive-pressure relief valve protects against…",
+      "options": [
+        "Toute hypoxie sans oxygène",
+        "Une vitesse sol excessive",
+        "Un défaut de navigation",
+        "Un différentiel positif excessif"
+      ],
+      "options_en": [
+        "All hypoxia without oxygen",
+        "Excessive groundspeed",
+        "A navigation error",
+        "Excessive positive differential"
+      ],
+      "correct_answer": "Un différentiel positif excessif",
+      "explanation": "Sa fonction est de limiter la charge de pression prévue par la conception.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "Its function is to limit the pressure load specified by design.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C03",
+      "concept_title": "Respecter les limites de structure",
+      "level": 3,
+      "question": "Cabine 60 kPa, extérieur 65 kPa : Δp vaut…",
+      "question_en": "Cabin 60 kPa, outside 65 kPa: Δp is…",
+      "options": [
+        "125 kPa",
+        "65 kPa",
+        "−5 kPa",
+        "5 kPa"
+      ],
+      "options_en": [
+        "125 kPa",
+        "65 kPa",
+        "−5 kPa",
+        "5 kPa"
+      ],
+      "correct_answer": "−5 kPa",
+      "explanation": "60 − 65 = −5 kPa : différentiel négatif.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "60 − 65 = −5 kPa: negative differential.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C04",
+      "concept_title": "Surveiller et réagir",
+      "level": 3,
+      "question": "Une hausse rapide d’altitude cabine en croisière peut signaler…",
+      "question_en": "A rapid cabin-altitude increase in cruise may indicate…",
+      "options": [
+        "Un fonctionnement toujours normal",
+        "Une perte de pressurisation",
+        "Une meilleure oxygénation garantie",
+        "Une baisse certaine d’altitude avion"
+      ],
+      "options_en": [
+        "Always normal operation",
+        "Loss of pressurisation",
+        "Guaranteed better oxygenation",
+        "A definite decrease in aircraft altitude"
+      ],
+      "correct_answer": "Une perte de pressurisation",
+      "explanation": "L’altitude cabine augmente lorsque la pression cabine diminue.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "Cabin altitude rises as cabin pressure falls.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C04",
+      "concept_title": "Surveiller et réagir",
+      "level": 3,
+      "question": "En dépressurisation, quelle référence guide les actions immédiates ?",
+      "question_en": "During depressurisation, what guides immediate actions?",
+      "options": [
+        "Les procédures du type d’avion",
+        "Un seuil unique valable pour tous les avions",
+        "Le confort thermique seul",
+        "La vitesse sol seule"
+      ],
+      "options_en": [
+        "Aircraft-type procedures",
+        "One threshold valid for every aircraft",
+        "Thermal comfort alone",
+        "Groundspeed alone"
+      ],
+      "correct_answer": "Les procédures du type d’avion",
+      "explanation": "Les systèmes, alertes et procédures dépendent de l’avion.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "Systems, warnings and procedures depend on the aircraft.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C04",
+      "concept_title": "Surveiller et réagir",
+      "level": 3,
+      "question": "À haute altitude, Δp proche de zéro garantit-il un air suffisamment pressurisé pour les occupants ?",
+      "question_en": "At high altitude, does Δp near zero guarantee adequate cabin pressure for occupants?",
+      "options": [
+        "Oui, toujours",
+        "Oui, si les portes sont fermées",
+        "Oui, si le chauffage fonctionne",
+        "Non"
+      ],
+      "options_en": [
+        "Yes, always",
+        "Yes, if doors are closed",
+        "Yes, if heating works",
+        "No"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Un différentiel nul peut signifier une cabine à la faible pression extérieure.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "Zero differential can mean the cabin is at low outside pressure.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    },
+    {
+      "concept_id": "ATPL_021_002_C04",
+      "concept_title": "Surveiller et réagir",
+      "level": 3,
+      "question": "Avant l’ouverture d’une porte au sol, il faut notamment vérifier…",
+      "question_en": "Before opening a door on the ground, verify in particular…",
+      "options": [
+        "Seulement le cap parking",
+        "Uniquement le niveau carburant",
+        "La dépressurisation selon la procédure",
+        "Uniquement la température extérieure"
+      ],
+      "options_en": [
+        "Only parking heading",
+        "Only fuel level",
+        "Depressurisation according to procedure",
+        "Only outside temperature"
+      ],
+      "correct_answer": "La dépressurisation selon la procédure",
+      "explanation": "Une pression résiduelle peut présenter un danger lors de l’ouverture.\n\n![ATPL_021_002](/illustrations/atpl-021-002.svg)",
+      "explanation_en": "Residual pressure may create a hazard when opening.\n\n![ATPL_021_002](/illustrations/en/atpl-021-002.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:021"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 021"
+    }
+  ]
+}

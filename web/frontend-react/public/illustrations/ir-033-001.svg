@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Préparation IFR : journal de navigation</title><desc id="desc">Préparation IFR : journal de navigation</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / IR / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Préparation IFR : journal de navigation</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">IR_033_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="85" y="235" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Segment</text>
+<text x="485" y="235" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Distance</text>
+<text x="845" y="235" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Vitesse sol</text>
+<text x="85" y="295" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">A → B</text>
+<text x="485" y="295" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">120 NM</text>
+<text x="845" y="295" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">120 kt</text>
+<path d="M85 309L1115 309" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="85" y="350" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">B → C</text>
+<text x="485" y="350" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">90 NM</text>
+<text x="845" y="350" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">180 kt</text>
+<path d="M85 364L1115 364" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="85" y="590" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Calculer les temps avec la vitesse sol, puis le carburant avec le débit fourni.</text>
+<text x="85" y="465" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Débit constant : 40 L/h</text>
+<text x="85" y="515" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Départ A : 10:20 UTC</text>
+</svg>

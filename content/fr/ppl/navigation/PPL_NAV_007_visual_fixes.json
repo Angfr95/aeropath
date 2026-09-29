@@ -5,13 +5,583 @@
     "subject": "Navigation",
     "chapter_title": "Repérage visuel et points de report",
     "chapter_title_en": "Visual Fixes and Reporting Points",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : choisir de bons repères; contrôler l'identification; en cas de doute.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: choosing good landmarks; checking identification; when in doubt.",
     "difficulty": "beginner",
-    "estimated_duration_minutes": 20,
-    "prerequisites": ["PPL_NAV_002"],
-    "tags": ["visual", "fixes", "reporting points", "landmarks", "VFR"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_NAV_002"
+    ],
+    "tags": [
+      "visual",
+      "fixes",
+      "reporting points",
+      "landmarks",
+      "VFR"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 16 : navigation",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      },
+      {
+        "title": "SIA — cartes et informations aéronautiques",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-nav-007.svg",
+      "alt": "Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage."
+    },
+    "exam_subject": "navigation",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_NAV_007_C01",
+      "title": "Choisir de bons repères",
+      "title_en": "Choosing good landmarks",
+      "content": "![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)\n\nUn repère utile est identifiable sans ambiguïté et suffisamment visible dans les conditions attendues. Un croisement de voies, une côte ou une confluence peuvent être plus fiables qu'un village isolé ressemblant à ses voisins. Combiner forme, orientation, position relative et chronométrage. Un seul détail qui ressemble à la carte ne suffit pas à confirmer une position.",
+      "content_en": "![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)\n\nA useful landmark is unambiguous and sufficiently visible in the expected conditions. A junction, coastline or river confluence may be more reliable than an isolated village resembling its neighbours. Combine shape, orientation, relative position and timing. A single detail that resembles the chart is not enough to confirm position.",
+      "difficulty": "beginner",
+      "tags": [
+        "visual",
+        "fixes",
+        "reporting points",
+        "landmarks",
+        "VFR"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Choisir de bons repères"
+    },
+    {
+      "concept_id": "PPL_NAV_007_C02",
+      "title": "Contrôler l'identification",
+      "title_en": "Checking identification",
+      "content": "Comparer la carte au terrain puis le terrain à la carte limite le biais de confirmation. Des repères de part et d'autre de la route aident à détecter une dérive. Fixer une heure attendue permet de remarquer tôt un écart. Préserver la surveillance extérieure et éviter de garder les yeux longtemps dans le cockpit pour chercher un détail.",
+      "content_en": "Comparing chart to ground and then ground to chart limits confirmation bias. Landmarks on either side of the route help detect drift. Setting an expected time makes discrepancies apparent early. Maintain external lookout and avoid keeping your eyes inside for too long while searching for a detail.",
+      "difficulty": "beginner",
+      "tags": [
+        "visual",
+        "fixes",
+        "reporting points",
+        "landmarks",
+        "VFR"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Contrôler l'identification"
+    },
+    {
+      "concept_id": "PPL_NAV_007_C03",
+      "title": "En cas de doute",
+      "title_en": "When in doubt",
+      "content": "Si deux villages semblent possibles, ne pas annoncer une position certaine. Maintenir une trajectoire compatible avec les marges, chercher une confirmation et solliciter le service approprié si nécessaire. Une montée éventuelle doit rester compatible avec météo, espaces et performances. Agir avant que le carburant ou la proximité d'une zone réglementée ne réduise les options.",
+      "content_en": "If two villages seem possible, do not report a definite position. Maintain a flight path compatible with your margins, seek confirmation and contact the appropriate service if needed. Any climb must remain compatible with weather, airspace and performance. Act before fuel or proximity to restricted airspace reduces the options.",
+      "difficulty": "beginner",
+      "tags": [
+        "visual",
+        "fixes",
+        "reporting points",
+        "landmarks",
+        "VFR"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "En cas de doute"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_NAV_007_C01",
+      "concept_title": "Choisir de bons repères",
+      "level": 1,
+      "question": "Quel repère est généralement le plus robuste ?",
+      "question_en": "Which landmark is generally most reliable?",
+      "options": [
+        "Un village quelconque",
+        "Le premier champ visible",
+        "Un ensemble de caractéristiques concordantes",
+        "Un toit de la bonne couleur"
+      ],
+      "correct_answer": "Un ensemble de caractéristiques concordantes",
+      "explanation": "La combinaison de plusieurs indices réduit l'ambiguïté.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "Combining several clues reduces ambiguity.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "visual",
+        "fixes",
+        "reporting points",
+        "landmarks",
+        "VFR",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Any village",
+        "The first visible field",
+        "A combination of matching features",
+        "A roof of the right colour"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C02",
+      "concept_title": "Contrôler l'identification",
+      "level": 1,
+      "question": "À quoi sert l'heure estimée d'un repère ?",
+      "question_en": "What is the estimated time at a landmark useful for?",
+      "options": [
+        "À connaître la masse",
+        "À détecter une incohérence de navigation",
+        "À remplacer la carte",
+        "À garantir le QNH"
+      ],
+      "correct_answer": "À détecter une incohérence de navigation",
+      "explanation": "Le temps est une vérification indépendante de l'identification visuelle.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "Time is a check independent of visual identification.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "visual",
+        "fixes",
+        "reporting points",
+        "landmarks",
+        "VFR",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Knowing mass",
+        "Detecting a navigation inconsistency",
+        "Replacing the chart",
+        "Guaranteeing QNH"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C03",
+      "concept_title": "En cas de doute",
+      "level": 1,
+      "question": "Si la position est incertaine, faut-il l'annoncer comme certaine ?",
+      "question_en": "If position is uncertain, should it be reported as certain?",
+      "options": [
+        "Non",
+        "Oui pour rassurer",
+        "Oui si le GPS est éteint",
+        "Oui près d'un terrain"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Signaler l'incertitude permet une aide adaptée.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "Reporting uncertainty allows appropriate assistance.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "visual",
+        "fixes",
+        "reporting points",
+        "landmarks",
+        "VFR",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "No",
+        "Yes, for reassurance",
+        "Yes, if GPS is off",
+        "Yes, near an aerodrome"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C02",
+      "concept_title": "Contrôler l'identification",
+      "level": 2,
+      "question": "Quel usage de repères situés de part et d'autre de la route aide à suivre la navigation ?",
+      "question_en": "How can landmarks on both sides of the route help navigation?",
+      "options": [
+        "Garantir une route correcte sans consulter le temps",
+        "Remplacer entièrement la surveillance extérieure",
+        "Déterminer directement le carburant restant",
+        "Détecter un écart latéral par comparaison avec la carte"
+      ],
+      "correct_answer": "Détecter un écart latéral par comparaison avec la carte",
+      "explanation": "Des repères latéraux donnent une information sur la position par rapport à la route. Leur identification doit être cohérente avec la carte, l'orientation et le chronométrage.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "Lateral landmarks indicate position relative to the route. Their identification must agree with the chart, orientation and timing.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "visual",
+        "fixes",
+        "reporting points",
+        "landmarks",
+        "VFR",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Guarantee the correct track without checking time",
+        "Entirely replace external lookout",
+        "Directly determine remaining fuel",
+        "Detect lateral displacement by comparison with the chart"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C03",
+      "concept_title": "En cas de doute",
+      "level": 2,
+      "question": "Deux villages peuvent correspondre à votre position. Quelle communication est appropriée ?",
+      "question_en": "Two villages could match your position. What communication is appropriate?",
+      "options": [
+        "Donner une position choisie au hasard",
+        "Retarder toute demande d'aide jusqu'à épuisement des options",
+        "Annoncer l'incertitude et chercher une confirmation",
+        "Annoncer le premier village comme certain pour simplifier"
+      ],
+      "correct_answer": "Annoncer l'incertitude et chercher une confirmation",
+      "explanation": "Une position incertaine ne doit pas être présentée comme confirmée. La signaler permet d'obtenir une aide adaptée tout en poursuivant les recoupements.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "An uncertain position must not be presented as confirmed. Reporting it allows appropriate assistance while cross-checking continues.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "visual",
+        "fixes",
+        "reporting points",
+        "landmarks",
+        "VFR",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Give a randomly chosen position",
+        "Delay asking for help until options are exhausted",
+        "Report the uncertainty and seek confirmation",
+        "Report the first village as certain for simplicity"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C01",
+      "concept_title": "Choisir de bons repères",
+      "level": 2,
+      "question": "Vrai ou faux ? Une confluence peut être plus identifiable qu'un village ressemblant à ses voisins.",
+      "question_en": "True or false? A confluence may be easier to identify than a village resembling its neighbours.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn repère utile est identifiable sans ambiguïté et suffisamment visible dans les conditions attendues. Un croisement de voies, une côte ou une confluence peuvent être plus fiables qu'un village isolé ressemblant à ses voisins. Combiner forme, orientation, position relative et chronométrage. Un seul détail qui ressemble à la carte ne suffit pas à confirmer une position.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "This statement is true.\n\nA useful landmark is unambiguous and sufficiently visible in the expected conditions. A junction, coastline or river confluence may be more reliable than an isolated village resembling its neighbours. Combine shape, orientation, relative position and timing. A single detail that resembles the chart is not enough to confirm position.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C01",
+      "concept_title": "Choisir de bons repères",
+      "level": 2,
+      "question": "Vrai ou faux ? La couleur d'un seul toit suffit toujours à confirmer une position.",
+      "question_en": "True or false? The colour of one roof always confirms position.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn repère utile est identifiable sans ambiguïté et suffisamment visible dans les conditions attendues. Un croisement de voies, une côte ou une confluence peuvent être plus fiables qu'un village isolé ressemblant à ses voisins. Combiner forme, orientation, position relative et chronométrage. Un seul détail qui ressemble à la carte ne suffit pas à confirmer une position.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "This statement is false.\n\nA useful landmark is unambiguous and sufficiently visible in the expected conditions. A junction, coastline or river confluence may be more reliable than an isolated village resembling its neighbours. Combine shape, orientation, relative position and timing. A single detail that resembles the chart is not enough to confirm position.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C01",
+      "concept_title": "Choisir de bons repères",
+      "level": 2,
+      "question": "Vrai ou faux ? La visibilité prévue influence le choix des repères.",
+      "question_en": "True or false? Expected visibility influences landmark selection.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn repère utile est identifiable sans ambiguïté et suffisamment visible dans les conditions attendues. Un croisement de voies, une côte ou une confluence peuvent être plus fiables qu'un village isolé ressemblant à ses voisins. Combiner forme, orientation, position relative et chronométrage. Un seul détail qui ressemble à la carte ne suffit pas à confirmer une position.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "This statement is true.\n\nA useful landmark is unambiguous and sufficiently visible in the expected conditions. A junction, coastline or river confluence may be more reliable than an isolated village resembling its neighbours. Combine shape, orientation, relative position and timing. A single detail that resembles the chart is not enough to confirm position.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C02",
+      "concept_title": "Contrôler l'identification",
+      "level": 2,
+      "question": "Vrai ou faux ? Chercher seulement les détails confirmant son idée élimine le biais de confirmation.",
+      "question_en": "True or false? Seeking only details supporting an idea eliminates confirmation bias.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nComparer la carte au terrain puis le terrain à la carte limite le biais de confirmation. Des repères de part et d'autre de la route aident à détecter une dérive. Fixer une heure attendue permet de remarquer tôt un écart. Préserver la surveillance extérieure et éviter de garder les yeux longtemps dans le cockpit pour chercher un détail.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "This statement is false.\n\nComparing chart to ground and then ground to chart limits confirmation bias. Landmarks on either side of the route help detect drift. Setting an expected time makes discrepancies apparent early. Maintain external lookout and avoid keeping your eyes inside for too long while searching for a detail.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C02",
+      "concept_title": "Contrôler l'identification",
+      "level": 2,
+      "question": "Vrai ou faux ? Comparer du sol vers la carte complète la comparaison de la carte vers le sol.",
+      "question_en": "True or false? Comparing ground to chart complements comparing chart to ground.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nComparer la carte au terrain puis le terrain à la carte limite le biais de confirmation. Des repères de part et d'autre de la route aident à détecter une dérive. Fixer une heure attendue permet de remarquer tôt un écart. Préserver la surveillance extérieure et éviter de garder les yeux longtemps dans le cockpit pour chercher un détail.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "This statement is true.\n\nComparing chart to ground and then ground to chart limits confirmation bias. Landmarks on either side of the route help detect drift. Setting an expected time makes discrepancies apparent early. Maintain external lookout and avoid keeping your eyes inside for too long while searching for a detail.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C02",
+      "concept_title": "Contrôler l'identification",
+      "level": 2,
+      "question": "Vrai ou faux ? La recherche d'un repère justifie de supprimer longtemps la veille extérieure.",
+      "question_en": "True or false? Searching for a landmark justifies prolonged loss of external lookout.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nComparer la carte au terrain puis le terrain à la carte limite le biais de confirmation. Des repères de part et d'autre de la route aident à détecter une dérive. Fixer une heure attendue permet de remarquer tôt un écart. Préserver la surveillance extérieure et éviter de garder les yeux longtemps dans le cockpit pour chercher un détail.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "This statement is false.\n\nComparing chart to ground and then ground to chart limits confirmation bias. Landmarks on either side of the route help detect drift. Setting an expected time makes discrepancies apparent early. Maintain external lookout and avoid keeping your eyes inside for too long while searching for a detail.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C03",
+      "concept_title": "En cas de doute",
+      "level": 2,
+      "question": "Vrai ou faux ? Une montée éventuelle doit rester compatible avec météo, espace et performances.",
+      "question_en": "True or false? Any climb must remain compatible with weather, airspace and performance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nSi deux villages semblent possibles, ne pas annoncer une position certaine. Maintenir une trajectoire compatible avec les marges, chercher une confirmation et solliciter le service approprié si nécessaire. Une montée éventuelle doit rester compatible avec météo, espaces et performances. Agir avant que le carburant ou la proximité d'une zone réglementée ne réduise les options.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "This statement is true.\n\nIf two villages seem possible, do not report a definite position. Maintain a flight path compatible with your margins, seek confirmation and contact the appropriate service if needed. Any climb must remain compatible with weather, airspace and performance. Act before fuel or proximity to restricted airspace reduces the options.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C03",
+      "concept_title": "En cas de doute",
+      "level": 2,
+      "question": "Vrai ou faux ? Demander une assistance ne devient utile qu'après épuisement du carburant.",
+      "question_en": "True or false? Requesting assistance becomes useful only after fuel exhaustion.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSi deux villages semblent possibles, ne pas annoncer une position certaine. Maintenir une trajectoire compatible avec les marges, chercher une confirmation et solliciter le service approprié si nécessaire. Une montée éventuelle doit rester compatible avec météo, espaces et performances. Agir avant que le carburant ou la proximité d'une zone réglementée ne réduise les options.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "This statement is false.\n\nIf two villages seem possible, do not report a definite position. Maintain a flight path compatible with your margins, seek confirmation and contact the appropriate service if needed. Any climb must remain compatible with weather, airspace and performance. Act before fuel or proximity to restricted airspace reduces the options.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C03",
+      "concept_title": "En cas de doute",
+      "level": 2,
+      "question": "Vrai ou faux ? Il faut agir avant que la proximité d'une zone interdite réduise les options.",
+      "question_en": "True or false? Action is needed before proximity to prohibited airspace reduces options.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nSi deux villages semblent possibles, ne pas annoncer une position certaine. Maintenir une trajectoire compatible avec les marges, chercher une confirmation et solliciter le service approprié si nécessaire. Une montée éventuelle doit rester compatible avec météo, espaces et performances. Agir avant que le carburant ou la proximité d'une zone réglementée ne réduise les options.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "This statement is true.\n\nIf two villages seem possible, do not report a definite position. Maintain a flight path compatible with your margins, seek confirmation and contact the appropriate service if needed. Any climb must remain compatible with weather, airspace and performance. Act before fuel or proximity to restricted airspace reduces the options.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_007_C03",
+      "concept_title": "En cas de doute",
+      "level": 2,
+      "question": "Vrai ou faux ? Une position incertaine doit être annoncée comme certaine pour rassurer le contrôleur.",
+      "question_en": "True or false? An uncertain position should be reported as certain to reassure the controller.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSi deux villages semblent possibles, ne pas annoncer une position certaine. Maintenir une trajectoire compatible avec les marges, chercher une confirmation et solliciter le service approprié si nécessaire. Une montée éventuelle doit rester compatible avec météo, espaces et performances. Agir avant que le carburant ou la proximité d'une zone réglementée ne réduise les options.\n\n![Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage.](/illustrations/ppl-nav-007.svg)",
+      "explanation_en": "This statement is false.\n\nIf two villages seem possible, do not report a definite position. Maintain a flight path compatible with your margins, seek confirmation and contact the appropriate service if needed. Any climb must remain compatible with weather, airspace and performance. Act before fuel or proximity to restricted airspace reduces the options.\n\n![Diagram: Visual Fixes and Reporting Points](/illustrations/en/ppl-nav-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,638 @@
+{
+  "metadata": {
+    "module_id": "CPL_031_001",
+    "program": "CPL",
+    "subject": "mass_and_balance",
+    "chapter_title": "Chargement et déplacement du centrage",
+    "chapter_title_en": "Loading and CG movement",
+    "reference_checked_on": "2026-09-26",
+    "learning_objective": "Construire et contrôler un bilan de moments, distinguer déplacement et retrait, résoudre un déplacement inverse et convertir le centrage en pourcentage MAC.",
+    "learning_objective_en": "Build and cross-check a moment balance, distinguish shifting from removal, solve an inverse shift and convert CG to percentage MAC.",
+    "estimated_duration_minutes": 45,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Bilan de masse et moments PPL",
+      "Calcul signé et proportions",
+      "Datum, bras et limites de chargement"
+    ],
+    "exam_subject": "031",
+    "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031",
+    "official_subject_format": {
+      "questions": 21,
+      "minutes": 60,
+      "pass_percent": 75,
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+    },
+    "sources": [
+      {
+        "title": "EASA — programme Part-FCL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+      },
+      {
+        "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      },
+      {
+        "title": "FAA Weight and Balance Handbook — méthodes de calcul et déplacements de charge",
+        "url": "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      }
+    ],
+    "content_status": "draft",
+    "coverage_status": "partial",
+    "scope": "CPL(A), France / EASA",
+    "quiz_format": "chapter_practice",
+    "tags": [
+      "CPL",
+      "mcq-four-options"
+    ],
+    "illustration": {
+      "src": "/illustrations/cpl-031-001.svg",
+      "alt": "Chargement et déplacement du centrage"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "CPL_031_001_C01",
+      "title": "Établir la masse et le moment",
+      "title_en": "Establish mass and moment",
+      "content": "![CPL_031_001](/illustrations/cpl-031-001.svg)\n\nUtiliser un même plan de référence et des bras signés cohérents. Le moment vaut masse × bras ; le centrage vaut somme des moments / masse totale. Exemple fictif : avion 1 800 kg au bras 2,00 m, charge 300 kg au bras 3,00 m, carburant 200 kg au bras 2,50 m. Masse totale = 2 300 kg ; moment = 3 600 + 900 + 500 = 5 000 kg·m ; centrage = 2,174 m. Ne pas moyenner directement les bras. Les données du schéma sont celles de cet exemple, pas d’un modèle réel.\n\n### Construire un bilan contrôlable\n\nPour cet exercice, les bras augmentent vers l’arrière. Une ligne de chargement doit toujours associer une masse, son bras depuis le datum commun et son moment. Ne pas mélanger bras depuis le datum et distances depuis le CG. La division (kg·m)/kg restitue un bras en mètres.\n\n**Contrôle indépendant :** le CG 2,174 m est entre les bras extrêmes 2,00 et 3,00 m et proche du bras de l’avion initial, qui porte la plus grande masse. La moyenne simple des bras donnerait 2,50 m et surpondérerait les petites charges.\n\nSi le datum est déplacé et que chaque bras augmente de 1 m, le moment total augmente de 2 300 kg·m et le CG exprimé dans la nouvelle référence augmente de 1 m. Le chargement physique n’a pourtant pas bougé : il faut également exprimer les limites dans la même référence. Une valeur numérique de bras n’a de sens qu’avec son datum.",
+      "content_en": "![CPL_031_001](/illustrations/en/cpl-031-001.svg)\n\nUse one datum and consistent signed arms. Moment equals mass × arm; CG equals total moment / total mass. Fictional example: aircraft 1,800 kg at 2.00 m, load 300 kg at 3.00 m, fuel 200 kg at 2.50 m. Total mass = 2,300 kg; moment = 3,600 + 900 + 500 = 5,000 kg·m; CG = 2.174 m. Do not average the arms directly. Diagram data belong to this exercise, not a real aircraft.\n\n### Build a balance that can be checked\n\nIn this exercise, arms increase aft. Each loading entry must associate mass, arm from the common datum and moment. Do not mix arms from datum with distances from CG. Dividing (kg·m)/kg returns an arm in metres.\n\n**Independent check:** CG 2.174 m lies between extreme arms 2.00 and 3.00 m and near the initial aircraft’s arm, which carries most mass. Simply averaging arms gives 2.50 m and overweights the small loads.\n\nIf the datum is changed so every arm increases by 1 m, total moment increases by 2,300 kg·m and CG in the new reference increases by 1 m. Physical loading has not moved: limits must also use the same reference. A numerical arm only has meaning with its datum.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 031",
+      "tags": [
+        "CPL"
+      ]
+    },
+    {
+      "concept_id": "CPL_031_001_C02",
+      "title": "Déplacer une masse déjà embarquée",
+      "title_en": "Move a mass already on board",
+      "content": "Sans ajout ni retrait de masse, variation du centrage = masse déplacée × déplacement du bras / masse totale. Déplacer 100 kg de 3,00 m à 1,00 m dans un avion de 2 300 kg change le moment de −200 kg·m et avance le centrage de 0,087 m. Le nouveau centrage de l’exemple est 4 800 / 2 300 = 2,087 m. Le signe indique le sens ; la masse totale reste inchangée. Vérifier aussi limites des compartiments, arrimage et chargement admissible.\n\n### Retrouver la formule et la contrôler\n\nUn déplacement interne retire le moment m × ancien bras puis ajoute m × nouveau bras. La différence vaut m × (nouveau − ancien). Puisque la masse totale M ne change pas, ΔCG = Δmoment/M. Ce raisonnement explique le signe ; il évite de mémoriser une formule sans savoir quand l’utiliser.\n\n**Contrôle par deux méthodes :** dans l’exemple, nouveau moment 5 000 − 100 × 3 + 100 × 1 = 4 800 kg·m, donc CG 2,086956… m. Avec les valeurs non arrondies, ancien CG 5 000/2 300 diminué de 200/2 300 donne exactement le même résultat.\n\n**Problème inverse :** pour avancer le CG de 0,05 m dans un avion de 2 300 kg, en déplaçant une charge de 2 m vers l’avant, il faut déplacer 2 300 × 0,05/2 = **57,5 kg**. Ce résultat est une masse à déplacer, pas une masse à débarquer. Vérifier ensuite que le compartiment de destination et l’arrimage le permettent.",
+      "content_en": "With no mass added or removed, CG change = moved mass × arm change / total mass. Moving 100 kg from 3.00 m to 1.00 m in a 2,300 kg aircraft changes moment by −200 kg·m and moves CG forward by 0.087 m. The example’s new CG is 4,800 / 2,300 = 2.087 m. The sign indicates direction; total mass is unchanged. Also check compartment limits, restraint and permitted loading.\n\n### Derive and cross-check the formula\n\nAn internal movement removes moment m × old arm and adds m × new arm. The difference is m × (new − old). Since total mass M is unchanged, ΔCG = Δmoment/M. This reasoning explains the sign and avoids memorising a formula without its conditions.\n\n**Two-method check:** new moment is 5,000 − 100 × 3 + 100 × 1 = 4,800 kg·m, so CG is 2.086956… m. Using unrounded values, original CG 5,000/2,300 minus 200/2,300 gives exactly the same result.\n\n**Inverse problem:** moving CG forward by 0.05 m in a 2,300 kg aircraft by moving a load 2 m forward requires moving 2,300 × 0.05/2 = **57.5 kg**. This is mass to reposition, not mass to unload. Then verify destination compartment limits and restraint.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 031",
+      "tags": [
+        "CPL"
+      ]
+    },
+    {
+      "concept_id": "CPL_031_001_C03",
+      "title": "Retirer ou consommer une masse",
+      "title_en": "Remove or consume mass",
+      "content": "Lors d’un retrait, soustraire la masse ET son moment. À partir de l’état initial 2 300 kg / 5 000 kg·m, consommer 100 kg de carburant au bras 2,50 m donne 2 200 kg / 4 750 kg·m, soit 2,159 m. Le centrage avance ici parce que le carburant retiré était derrière le centrage initial. Cette direction dépend du réservoir : elle n’est pas universelle. À masse variable, la formule du simple déplacement interne ne convient pas.\n\n### Distinguer retrait et déplacement\n\nLa différence de CG après retrait d’une masse m au bras a est m × (CG initial − a)/(M − m). Le dénominateur est la masse restante, contrairement au déplacement interne. Cette expression confirme le sens : retirer une masse derrière le CG le fait avancer ; la retirer devant le fait reculer.\n\n**Cas autonome :** repartir de 2 300 kg et 5 000 kg·m, puis ajouter 50 kg au bras 4 m. Les nouveaux totaux sont 2 350 kg et 5 200 kg·m ; CG = **2,213 m** arrondi. Le déplacement vers l’arrière est cohérent avec la position ajoutée. Ne pas confondre ce cas avec la consommation précédente.\n\nSi le bras du carburant varie avec la quantité, le modèle à bras constant ne suffit plus : employer les données de réservoir et la méthode applicables. Toujours nommer l’état de référence avant de soustraire un carburant déjà déduit dans un calcul antérieur.\n\n### Enchaîner plusieurs changements sans mélanger les états\n\nCréer deux colonnes de variations : masse et moment. Un déplacement interne inscrit zéro en masse ; un retrait inscrit une masse négative et son moment négatif ; un ajout inscrit les deux positifs. Calculer ensuite les deux totaux finaux, puis leur quotient. Ne pas réutiliser un CG arrondi comme point de départ si les totaux exacts sont disponibles.\n\n**Exemple guidé distinct :** état initial 2 300 kg et 5 000 kg·m ; retirer 50 kg au bras 3 m, puis ajouter 20 kg au bras 1 m. Masse finale 2 270 kg ; moment final 4 870 kg·m ; CG = **2,145 m** arrondi. Retrait arrière et ajout avant font tous deux avancer le CG, ce qui contrôle le sens. Ce résultat arithmétique ne vérifie pas à lui seul l’enveloppe ou les compartiments.",
+      "content_en": "When removing mass, subtract both mass AND its moment. From the initial 2,300 kg / 5,000 kg·m condition, burning 100 kg of fuel at 2.50 m leaves 2,200 kg / 4,750 kg·m, giving 2.159 m. CG moves forward here because removed fuel was aft of the original CG. The direction depends on tank location; it is not universal. The simple internal-shift formula is inappropriate when total mass changes.\n\n### Distinguish removal from movement\n\nCG change after removing mass m at arm a is m × (initial CG − a)/(M − m). The denominator is remaining mass, unlike an internal shift. This confirms direction: removing mass aft of CG moves it forward; removing mass forward moves it aft.\n\n**Independent case:** start from 2,300 kg and 5,000 kg·m, then add 50 kg at arm 4 m. New totals are 2,350 kg and 5,200 kg·m; CG = **2.213 m** rounded. Aft movement is consistent with the added position. Do not combine this case with the preceding fuel burn.\n\nIf fuel arm changes with quantity, the constant-arm model is insufficient: use applicable tank data and methods. Always name the reference condition before subtracting fuel already deducted in an earlier calculation.\n\n### Combine changes without mixing states\n\nMake two columns of changes: mass and moment. An internal shift records zero mass change; removal records negative mass and its negative moment; addition records both as positive. Then calculate both final totals and their quotient. Do not reuse a rounded CG as the starting point when exact totals are available.\n\n**Separate guided example:** initial state 2,300 kg and 5,000 kg·m; remove 50 kg at arm 3 m, then add 20 kg at arm 1 m. Final mass 2,270 kg; final moment 4,870 kg·m; CG = **2.145 m** rounded. Aft removal and forward addition both move CG forward, providing a direction check. This arithmetic result alone does not verify the envelope or compartments.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 031",
+      "tags": [
+        "CPL"
+      ]
+    },
+    {
+      "concept_id": "CPL_031_001_C04",
+      "title": "MAC et limites simultanées",
+      "title_en": "MAC and simultaneous limits",
+      "content": "Pour exprimer le centrage en pourcentage de corde aérodynamique moyenne : %MAC = 100 × (bras CG − bras du bord d’attaque de la MAC) / longueur MAC. Si CG = 2,20 m, bord d’attaque = 1,80 m et MAC = 1,60 m, le résultat est 25 %. Les limites sont celles du manuel. Une masse sous la limite ne prouve ni le respect du centrage, ni celui des compartiments. Contrôler les états pertinents, notamment départ et arrivée, et toute modification de dernière minute.\n\n### Changer de représentation sans changer de référence\n\nLa MAC est une longueur ; son bord d’attaque possède un bras depuis le datum. Soustraire d’abord ce bras au bras du CG pour obtenir une distance depuis le bord d’attaque, puis diviser par la longueur MAC. Le résultat est sans unité avant multiplication par 100.\n\n**Contrôle inverse du 25 % :** 1,80 + 0,25 × 1,60 = 2,20 m. Utiliser directement 2,20/1,60 donnerait 137,5 % en oubliant le bord d’attaque. Une conversion correcte doit revenir au même bras.\n\n**Décision :** si une limite arrière inclusive vaut 30 %MAC, 31 % est hors limite, quelle que soit la marge de masse. Replacer le point dans l’enveloppe à la masse considérée et vérifier départ, états en vol pertinents et arrivée. Les exemples sont fictifs ; les contraintes de compartiment et les changements de dernière minute font partie du bilan à contrôler.\n\n**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. La matière 031 comporte 21 questions en 60 minutes dans le tableau EASA cité. Ce chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.",
+      "content_en": "Express CG as percentage mean aerodynamic chord using %MAC = 100 × (CG arm − MAC leading-edge arm) / MAC length. With CG = 2.20 m, leading edge = 1.80 m and MAC = 1.60 m, the result is 25%. Limits come from the manual. Being below a mass limit does not prove CG or compartment compliance. Check relevant conditions, including departure and arrival, and every last-minute loading change.\n\n### Change representation without changing reference\n\nMAC is a length; its leading edge has an arm from datum. First subtract that arm from CG arm to obtain distance from the leading edge, then divide by MAC length. The result is dimensionless before multiplication by 100.\n\n**Reverse check of 25%:** 1.80 + 0.25 × 1.60 = 2.20 m. Using 2.20/1.60 directly gives 137.5% by omitting the leading edge. A correct conversion must return the same arm.\n\n**Decision:** with an inclusive aft limit of 30% MAC, 31% is outside, regardless of mass margin. Plot the point at the relevant mass and check departure, relevant in-flight conditions and arrival. Examples are fictional; compartment constraints and last-minute changes form part of the balance to verify.\n\n**Practice format:** 15 chapter MCQs, four choices and one correct answer. Subject 031 has 21 questions in 60 minutes in the cited EASA table. This chapter covers only part of the subject and is not a full paper. EASA framework, including with English or US/British units.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 031",
+      "tags": [
+        "CPL"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "CPL_031_001_C01",
+      "concept_title": "Établir la masse et le moment",
+      "level": 3,
+      "question": "Avion 1 800 kg au bras 2,00 m, charge 300 kg à 3,00 m, carburant 200 kg à 2,50 m : masse totale ?\n\n![CPL_031_001](/illustrations/cpl-031-001.svg)",
+      "question_en": "Aircraft 1,800 kg at 2.00 m, load 300 kg at 3.00 m, fuel 200 kg at 2.50 m: total mass?\n\n![CPL_031_001](/illustrations/en/cpl-031-001.svg)",
+      "options": [
+        "2 300 kg",
+        "2 100 kg",
+        "2 000 kg",
+        "2 500 kg"
+      ],
+      "options_en": [
+        "2,300 kg",
+        "2,100 kg",
+        "2,000 kg",
+        "2,500 kg"
+      ],
+      "correct_answer": "2 300 kg",
+      "explanation": "1 800 + 300 + 200 = 2 300 kg. 2 100 kg omet le carburant ; additionner un moment à ces masses mélangerait des unités différentes.\n\n![CPL_031_001](/illustrations/cpl-031-001.svg)",
+      "explanation_en": "1,800 + 300 + 200 = 2,300 kg. 2,100 kg omits fuel; adding a moment to these masses would mix different units.\n\n![CPL_031_001](/illustrations/en/cpl-031-001.svg)",
+      "use_exercise_svg": true,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C01",
+      "concept_title": "Établir la masse et le moment",
+      "level": 3,
+      "question": "Une charge de 300 kg au bras 3,00 m produit quel moment ?",
+      "question_en": "What moment does a 300 kg load at 3.00 m produce?",
+      "options": [
+        "100 kg·m",
+        "303 kg·m",
+        "3 000 kg·m",
+        "900 kg·m"
+      ],
+      "options_en": [
+        "100 kg·m",
+        "303 kg·m",
+        "3,000 kg·m",
+        "900 kg·m"
+      ],
+      "correct_answer": "900 kg·m",
+      "explanation": "300 × 3 = 900 kg·m. 100 résulte d’une division ; 303 additionne masse et bras, ce qui ne produit pas un moment.\n\n![CPL_031_001](/illustrations/cpl-031-001.svg)",
+      "explanation_en": "300 × 3 = 900 kg·m. 100 comes from division; 303 adds mass and arm, which does not produce a moment.\n\n![CPL_031_001](/illustrations/en/cpl-031-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C01",
+      "concept_title": "Établir la masse et le moment",
+      "level": 3,
+      "question": "Masse totale 2 300 kg, moment total 5 000 kg·m : centrage arrondi à 0,001 m ?",
+      "question_en": "Total mass 2,300 kg, total moment 5,000 kg·m: CG rounded to 0.001 m?",
+      "options": [
+        "2,500 m",
+        "2,000 m",
+        "2,174 m",
+        "0,460 m"
+      ],
+      "options_en": [
+        "2.500 m",
+        "2.000 m",
+        "2.174 m",
+        "0.460 m"
+      ],
+      "correct_answer": "2,174 m",
+      "explanation": "5 000/2 300 = 2,173913… m, soit 2,174 m. 0,460 inverse le rapport ; 2,500 ne pondère pas correctement les bras de l’exemple.\n\n![CPL_031_001](/illustrations/cpl-031-001.svg)",
+      "explanation_en": "5,000/2,300 = 2.173913… m, rounded to 2.174 m. 0.460 reverses the ratio; 2.500 does not correctly weight the example’s arms.\n\n![CPL_031_001](/illustrations/en/cpl-031-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C01",
+      "concept_title": "Établir la masse et le moment",
+      "level": 3,
+      "question": "Deux charges de masses différentes occupent deux bras différents. Quelle méthode donne leur centrage combiné ?",
+      "question_en": "Two unequal masses have different arms. Which method gives their combined CG?",
+      "options": [
+        "Différence des masses divisée par somme des bras",
+        "Somme des moments divisée par somme des masses",
+        "Moyenne simple des bras",
+        "Somme des bras"
+      ],
+      "options_en": [
+        "Mass difference divided by sum of arms",
+        "Total moment divided by total mass",
+        "Simple average of arms",
+        "Sum of arms"
+      ],
+      "correct_answer": "Somme des moments divisée par somme des masses",
+      "explanation": "Chaque bras doit être pondéré par la masse qu’il porte. Diviser le total des moments par le total des masses donne cette moyenne pondérée et conserve l’unité de longueur.\n\n![CPL_031_001](/illustrations/cpl-031-001.svg)",
+      "explanation_en": "Each arm must be weighted by the mass at that arm. Total moment divided by total mass gives this weighted average and retains the length unit.\n\n![CPL_031_001](/illustrations/en/cpl-031-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C02",
+      "concept_title": "Déplacer une masse déjà embarquée",
+      "level": 3,
+      "question": "On déplace 100 kg du bras 3,00 m au bras 1,00 m. Variation du moment total ?",
+      "question_en": "100 kg is moved from arm 3.00 m to arm 1.00 m. Change in total moment?",
+      "options": [
+        "−200 kg·m",
+        "+200 kg·m",
+        "−100 kg·m",
+        "+400 kg·m"
+      ],
+      "options_en": [
+        "−200 kg·m",
+        "+200 kg·m",
+        "−100 kg·m",
+        "+400 kg·m"
+      ],
+      "correct_answer": "−200 kg·m",
+      "explanation": "100 × (1 − 3) = −200 kg·m. Le signe négatif correspond au déplacement vers les bras plus petits ; +200 inverse le sens du déplacement.\n\n![CPL_031_001](/illustrations/mass-balance-method.svg)",
+      "explanation_en": "100 × (1 − 3) = −200 kg·m. The negative sign corresponds to movement towards smaller arms; +200 reverses movement direction.\n\n![CPL_031_001](/illustrations/en/mass-balance-method.svg)",
+      "use_exercise_svg": false,
+      "explanation_illustration": "/illustrations/mass-balance-method.svg",
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C02",
+      "concept_title": "Déplacer une masse déjà embarquée",
+      "level": 3,
+      "question": "Dans un avion de 2 300 kg, déplacer 100 kg de 2,00 m vers l’avant fait varier le centrage de…",
+      "question_en": "In a 2,300 kg aircraft, moving 100 kg forward by 2.00 m changes CG by…",
+      "options": [
+        "0,087 m vers l’arrière",
+        "0,870 m vers l’avant",
+        "2,000 m vers l’avant",
+        "0,087 m vers l’avant"
+      ],
+      "options_en": [
+        "0.087 m aft",
+        "0.870 m forward",
+        "2.000 m forward",
+        "0.087 m forward"
+      ],
+      "correct_answer": "0,087 m vers l’avant",
+      "explanation": "100 × 2/2 300 = 0,086956… m vers l’avant. Le CG se déplace moins que la charge : celle-ci ne représente qu’une fraction de la masse totale.\n\n![CPL_031_001](/illustrations/mass-balance-method.svg)",
+      "explanation_en": "100 × 2/2,300 = 0.086956… m forward. CG moves less than the load because the load is only a fraction of total mass.\n\n![CPL_031_001](/illustrations/en/mass-balance-method.svg)",
+      "use_exercise_svg": false,
+      "explanation_illustration": "/illustrations/mass-balance-method.svg",
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C02",
+      "concept_title": "Déplacer une masse déjà embarquée",
+      "level": 3,
+      "question": "Avion de 2 400 kg, CG initial à 2,20 m. On veut obtenir 2,10 m en déplaçant une charge de 3,00 m vers l’avant, sans ajout ni retrait. Quelle masse déplacer ?",
+      "question_en": "Aircraft mass 2,400 kg, initial CG 2.20 m. Target CG is 2.10 m by moving a load 3.00 m forward, without addition or removal. What mass must be moved?",
+      "options": [
+        "240 kg",
+        "8 kg",
+        "80 kg",
+        "120 kg"
+      ],
+      "options_en": [
+        "240 kg",
+        "8 kg",
+        "80 kg",
+        "120 kg"
+      ],
+      "correct_answer": "80 kg",
+      "explanation": "Le déplacement souhaité vaut 0,10 m. La variation de moment requise est 2 400 × 0,10 = 240 kg·m ; divisée par 3 m, elle impose 80 kg. 240 est un moment, pas la masse à déplacer ; 120 utilise une distance de 2 m au lieu de 3 m.\n\n![CPL_031_001](/illustrations/mass-balance-method.svg)",
+      "explanation_en": "Required CG movement is 0.10 m. Required moment change is 2,400 × 0.10 = 240 kg·m; dividing by 3 m requires 80 kg. 240 is a moment, not the mass to move; 120 uses 2 m rather than 3 m.\n\n![CPL_031_001](/illustrations/en/mass-balance-method.svg)",
+      "use_exercise_svg": false,
+      "explanation_illustration": "/illustrations/mass-balance-method.svg",
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C02",
+      "concept_title": "Déplacer une masse déjà embarquée",
+      "level": 3,
+      "question": "Masse 2 300 kg et moment 5 000 kg·m. Un déplacement interne réduit le moment de 200 kg·m. Nouveau centrage ?",
+      "question_en": "Mass 2,300 kg and moment 5,000 kg·m. An internal shift reduces moment by 200 kg·m. New CG?",
+      "options": [
+        "1,913 m",
+        "2,087 m",
+        "2,364 m",
+        "2,174 m"
+      ],
+      "options_en": [
+        "1.913 m",
+        "2.087 m",
+        "2.364 m",
+        "2.174 m"
+      ],
+      "correct_answer": "2,087 m",
+      "explanation": "Nouveau moment 4 800 kg·m ; masse toujours 2 300 kg. Le quotient vaut 2,087 m arrondi. Ajouter 200 au moment inverserait l’effet ; garder 5 000 ignorerait le déplacement.\n\n![CPL_031_001](/illustrations/mass-balance-method.svg)",
+      "explanation_en": "New moment is 4,800 kg·m; mass remains 2,300 kg. The quotient rounds to 2.087 m. Adding 200 reverses the effect; retaining 5,000 ignores the shift.\n\n![CPL_031_001](/illustrations/en/mass-balance-method.svg)",
+      "use_exercise_svg": false,
+      "explanation_illustration": "/illustrations/mass-balance-method.svg",
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C03",
+      "concept_title": "Retirer ou consommer une masse",
+      "level": 3,
+      "question": "État initial 2 300 kg / 5 000 kg·m. On consomme 100 kg au bras 2,50 m. Nouveau moment ?",
+      "question_en": "Initial condition 2,300 kg / 5,000 kg·m. 100 kg is burned at arm 2.50 m. New moment?",
+      "options": [
+        "4 750 kg·m",
+        "4 900 kg·m",
+        "5 250 kg·m",
+        "4 500 kg·m"
+      ],
+      "options_en": [
+        "4,750 kg·m",
+        "4,900 kg·m",
+        "5,250 kg·m",
+        "4,500 kg·m"
+      ],
+      "correct_answer": "4 750 kg·m",
+      "explanation": "Le moment du carburant retiré est 100 × 2,50 = 250 kg·m. Il faut le soustraire de 5 000 ; retirer seulement 100 confond masse et moment.\n\n![CPL_031_001](/illustrations/mass-balance-method.svg)",
+      "explanation_en": "Removed fuel moment is 100 × 2.50 = 250 kg·m. Subtract it from 5,000; subtracting only 100 confuses mass and moment.\n\n![CPL_031_001](/illustrations/en/mass-balance-method.svg)",
+      "use_exercise_svg": false,
+      "explanation_illustration": "/illustrations/mass-balance-method.svg",
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C03",
+      "concept_title": "Retirer ou consommer une masse",
+      "level": 3,
+      "question": "Après consommation, masse 2 200 kg et moment 4 750 kg·m. Nouveau centrage ?",
+      "question_en": "After fuel burn, mass is 2,200 kg and moment 4,750 kg·m. New CG?",
+      "options": [
+        "2,065 m",
+        "2,273 m",
+        "2,500 m",
+        "2,159 m"
+      ],
+      "options_en": [
+        "2.065 m",
+        "2.273 m",
+        "2.500 m",
+        "2.159 m"
+      ],
+      "correct_answer": "2,159 m",
+      "explanation": "4 750/2 200 = 2,15909… m. 2,065 m utilise l’ancienne masse 2 300 kg ; 2,273 m oublie de retirer le moment du carburant.\n\n![CPL_031_001](/illustrations/mass-balance-method.svg)",
+      "explanation_en": "4,750/2,200 = 2.15909… m. 2.065 m uses the old mass of 2,300 kg; 2.273 m fails to remove fuel moment.\n\n![CPL_031_001](/illustrations/en/mass-balance-method.svg)",
+      "use_exercise_svg": false,
+      "explanation_illustration": "/illustrations/mass-balance-method.svg",
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C03",
+      "concept_title": "Retirer ou consommer une masse",
+      "level": 3,
+      "question": "État initial : 2 300 kg et 5 000 kg·m. On consomme 100 kg au bras 2,50 m, puis on ajoute 50 kg au bras 1,00 m, sans autre changement. Bras depuis le même datum : CG final arrondi à 0,001 m ?",
+      "question_en": "Initial state: 2,300 kg and 5,000 kg·m. Burn 100 kg at arm 2.50 m, then add 50 kg at arm 1.00 m, with no other change. All arms use the same datum: final CG rounded to 0.001 m?",
+      "options": [
+        "2,087 m",
+        "2,356 m",
+        "2,133 m",
+        "2,159 m"
+      ],
+      "options_en": [
+        "2.087 m",
+        "2.356 m",
+        "2.133 m",
+        "2.159 m"
+      ],
+      "correct_answer": "2,133 m",
+      "explanation": "Masse finale = 2 300 − 100 + 50 = 2 250 kg. Moment final = 5 000 − 250 + 50 = 4 800 kg·m. CG = 4 800/2 250 = 2,133 m. 2,159 oublie l’ajout ; 2,087 conserve la masse initiale ; 2,356 ajoute le moment du carburant au lieu de le retirer.\n\n![CPL_031_001](/illustrations/mass-balance-method.svg)",
+      "explanation_en": "Final mass = 2,300 − 100 + 50 = 2,250 kg. Final moment = 5,000 − 250 + 50 = 4,800 kg·m. CG = 4,800/2,250 = 2.133 m. 2.159 omits the addition; 2.087 retains initial mass; 2.356 adds fuel moment instead of removing it.\n\n![CPL_031_001](/illustrations/en/mass-balance-method.svg)",
+      "use_exercise_svg": false,
+      "explanation_illustration": "/illustrations/mass-balance-method.svg",
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C04",
+      "concept_title": "MAC et limites simultanées",
+      "level": 3,
+      "question": "CG 2,20 m ; bord d’attaque MAC 1,80 m ; longueur MAC 1,60 m. Centrage en %MAC ?",
+      "question_en": "CG 2.20 m; MAC leading edge 1.80 m; MAC length 1.60 m. CG in %MAC?",
+      "options": [
+        "112,5 %",
+        "25 %",
+        "40 %",
+        "137,5 %"
+      ],
+      "options_en": [
+        "112.5%",
+        "25%",
+        "40%",
+        "137.5%"
+      ],
+      "correct_answer": "25 %",
+      "explanation": "Distance depuis le bord d’attaque : 2,20 − 1,80 = 0,40 m. Diviser par 1,60 puis multiplier par 100 donne 25 %. 137,5 % oublie la soustraction.\n\n![CPL_031_001](/illustrations/cpl-031-001.svg)",
+      "explanation_en": "Distance from leading edge: 2.20 − 1.80 = 0.40 m. Divide by 1.60 and multiply by 100 to obtain 25%. 137.5% omits the subtraction.\n\n![CPL_031_001](/illustrations/en/cpl-031-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C04",
+      "concept_title": "MAC et limites simultanées",
+      "level": 3,
+      "question": "Limites fictives 20–30 %MAC incluses. Un centrage à 31 %MAC est…",
+      "question_en": "Fictional limits are 20–30% MAC inclusive. A CG at 31% MAC is…",
+      "options": [
+        "Hors limite arrière",
+        "Acceptable si la masse est faible",
+        "Hors limite avant",
+        "Acceptable avec davantage de carburant dans tous les cas"
+      ],
+      "options_en": [
+        "Beyond the aft limit",
+        "Acceptable if mass is low",
+        "Beyond the forward limit",
+        "Always acceptable with more fuel"
+      ],
+      "correct_answer": "Hors limite arrière",
+      "explanation": "31 % dépasse la limite arrière de 30 %. Une masse faible ne donne pas une dérogation à cette limite ; toute modification de carburant demande un nouveau calcul.\n\n![CPL_031_001](/illustrations/cpl-031-001.svg)",
+      "explanation_en": "31% exceeds the 30% aft limit. Low mass does not waive this limit; any fuel change requires a new calculation.\n\n![CPL_031_001](/illustrations/en/cpl-031-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C04",
+      "concept_title": "MAC et limites simultanées",
+      "level": 3,
+      "question": "La masse de départ respecte son maximum. Quelle conclusion peut-on tirer sur le chargement ?",
+      "question_en": "Departure mass meets its maximum. What can be concluded about loading?",
+      "options": [
+        "Le centrage est automatiquement acceptable",
+        "Les limites de compartiment ne s’appliquent plus",
+        "Le seul respect du départ garantit l’état à l’arrivée",
+        "Centrage et autres limites de chargement restent à vérifier aux états pertinents"
+      ],
+      "options_en": [
+        "CG is automatically acceptable",
+        "Compartment limits no longer apply",
+        "Departure compliance alone guarantees arrival compliance",
+        "CG and other loading limits still need checking at relevant conditions"
+      ],
+      "correct_answer": "Centrage et autres limites de chargement restent à vérifier aux états pertinents",
+      "explanation": "Le respect d’une masse maximale ne prouve pas le respect du CG, des compartiments ou des autres états de vol. Il faut vérifier ces contraintes simultanément avec les données applicables.\n\n![CPL_031_001](/illustrations/cpl-031-001.svg)",
+      "explanation_en": "Meeting a maximum mass does not establish CG, compartment or other flight-condition compliance. Check these constraints together using applicable data.\n\n![CPL_031_001](/illustrations/en/cpl-031-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    },
+    {
+      "concept_id": "CPL_031_001_C04",
+      "concept_title": "MAC et limites simultanées",
+      "level": 3,
+      "question": "Une charge est déplacée après le devis sans ajout ni retrait. Quelle action ?",
+      "question_en": "A load is moved after the calculation without addition or removal. What action is needed?",
+      "options": [
+        "Ajouter la masse déplacée au total",
+        "Vérifier uniquement la masse maximale",
+        "Recalculer le moment et vérifier les limites",
+        "Conserver le moment car la masse est identique"
+      ],
+      "options_en": [
+        "Add the moved mass to the total",
+        "Check maximum mass only",
+        "Recalculate moment and check limits",
+        "Keep moment because mass is unchanged"
+      ],
+      "correct_answer": "Recalculer le moment et vérifier les limites",
+      "explanation": "Un déplacement interne change le moment même à masse constante. Recalculer son effet puis vérifier l’enveloppe et les limites locales ; ne pas ajouter une seconde fois la charge déjà embarquée.\n\n![CPL_031_001](/illustrations/mass-balance-method.svg)",
+      "explanation_en": "An internal movement changes moment even at constant mass. Recalculate its effect and check the envelope and local limits; do not add the already loaded mass again.\n\n![CPL_031_001](/illustrations/en/mass-balance-method.svg)",
+      "use_exercise_svg": false,
+      "explanation_illustration": "/illustrations/mass-balance-method.svg",
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:031"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 031"
+    }
+  ]
+}

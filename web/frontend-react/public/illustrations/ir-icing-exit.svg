@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Givrage : comparer deux issues</title><desc id="desc">Givrage : comparer deux issues</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / IR / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Givrage : comparer deux issues</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">IR_ICING_EXIT</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="65" y="216" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Q14 — profils fixes ; autres contraintes vérifiées pour B</text>
+<text x="65" y="251" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">GS : 120 kt ; minimum applicable aux deux trajets : 7 000 ft</text>
+<rect x="65" y="280" width="515" height="190" rx="12" fill="#1c344b" stroke="#304961"/>
+<text x="83" y="316" fill="#ff8e9c" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">A</text>
+<text x="140" y="316" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">8 NM · 6 500 ft</text>
+<text x="83" y="366" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Temps : 4 min</text>
+<text x="83" y="423" fill="#ff8e9c" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Sous le minimum → exclue</text>
+<rect x="620" y="280" width="515" height="190" rx="12" fill="#1c344b" stroke="#304961"/>
+<text x="638" y="316" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">B</text>
+<text x="695" y="316" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">24 NM · 8 000 ft</text>
+<text x="638" y="366" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Temps : 12 min</text>
+<text x="638" y="423" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Compatible avec les données</text>
+<text x="65" y="514" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">t (min) = 60 × d (NM) / GS (kt)</text>
+<text x="65" y="558" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Éliminer les options incompatibles avant de comparer les temps.</text>
+</svg>

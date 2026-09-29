@@ -5,13 +5,593 @@
     "subject": "Air Law",
     "chapter_title": "Planification de vol et dépôt de plan de vol",
     "chapter_title_en": "Flight Planning and Flight Plan Filing",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : dossier personnel et plan déposé; des informations exploitables; avant et après le vol.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: your preparation and the filed flight plan; usable information; before and after flight.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 25,
-    "prerequisites": ["PPL_AIRLAW_005"],
-    "tags": ["flight plan", "planning", "AIS", "NOTAM"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AIRLAW_005"
+    ],
+    "tags": [
+      "flight plan",
+      "planning",
+      "AIS",
+      "NOTAM"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "EASA — SERA, règles de l’air",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "EASA — Aircrew, Part-FCL",
+        "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+      },
+      {
+        "title": "SIA — informations aéronautiques françaises",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-airlaw-007.svg",
+      "alt": "Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable."
+    },
+    "exam_subject": "airlaw",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_AIRLAW_007_C01",
+      "title": "Dossier personnel et plan déposé",
+      "title_en": "Your preparation and the filed flight plan",
+      "content": "![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)\n\nLe dossier de préparation sert au pilote pour conduire le vol : météo, route, carburant, performances et solutions de repli. Le plan de vol transmis aux services de circulation aérienne est un message normalisé. Les situations où il est exigé se vérifient dans SERA.4001 et les publications applicables, notamment selon espace, frontière, horaires et services nécessaires.",
+      "content_en": "![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)\n\nThe pilot's preparation supports flight management: weather, route, fuel, performance and fallback options. The flight plan submitted to air traffic services is a standardised message. Check when it is required in SERA.4001 and applicable publications, considering airspace, borders, times and services needed.",
+      "difficulty": "intermediate",
+      "tags": [
+        "flight plan",
+        "planning",
+        "AIS",
+        "NOTAM"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Dossier personnel et plan déposé"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C02",
+      "title": "Des informations exploitables",
+      "title_en": "Usable information",
+      "content": "Le plan renseigne identification, règles de vol, type d'aéronef, équipements, départ, route, destination et durées, avec des informations complémentaires pour l'assistance. Un équipement déclaré doit correspondre à ce qui est utilisable à bord. Le dépôt ne vaut pas clairance et ne garantit ni la disponibilité d'un aérodrome ni la conformité météo.",
+      "content_en": "The plan gives identification, flight rules, aircraft type, equipment, departure, route, destination and times, with supplementary information for assistance. Declared equipment must match what is usable on board. Filing is not a clearance and guarantees neither aerodrome availability nor suitable weather.",
+      "difficulty": "intermediate",
+      "tags": [
+        "flight plan",
+        "planning",
+        "AIS",
+        "NOTAM"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Des informations exploitables"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C03",
+      "title": "Avant et après le vol",
+      "title_en": "Before and after flight",
+      "content": "Prévoir le traitement d'un retard, d'un changement de route ou d'une annulation. L'activation et la clôture suivent la procédure du service et du terrain concernés. Après une arrivée sur un terrain sans clôture automatique appropriée, oublier le compte rendu d'arrivée peut déclencher des recherches inutiles. Noter à la préparation comment et auprès de qui effectuer les démarches.",
+      "content_en": "Plan how to handle a delay, route change or cancellation. Activation and closure follow the procedures of the service and aerodrome concerned. After arriving at a field without appropriate automatic closure, forgetting the arrival report may trigger unnecessary searches. During preparation, note how and with whom to complete the required actions.",
+      "difficulty": "intermediate",
+      "tags": [
+        "flight plan",
+        "planning",
+        "AIS",
+        "NOTAM"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Avant et après le vol"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AIRLAW_007_C01",
+      "concept_title": "Dossier personnel et plan déposé",
+      "level": 1,
+      "question": "Le dépôt d'un plan de vol vaut-il clairance ?",
+      "question_en": "Does filing a flight plan constitute a clearance?",
+      "options": [
+        "Oui",
+        "Oui s'il est accepté",
+        "Oui en VFR",
+        "Non"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Le plan informe les services ; la clairance est une autorisation distincte.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "The plan informs the services; a clearance is a separate authorisation.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "flight plan",
+        "planning",
+        "AIS",
+        "NOTAM",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes",
+        "Yes, if it is accepted",
+        "Yes, for VFR",
+        "No"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C02",
+      "concept_title": "Des informations exploitables",
+      "level": 1,
+      "question": "Quel équipement déclarer ?",
+      "question_en": "What equipment should be declared?",
+      "options": [
+        "Celui de l'avion précédent",
+        "Aucun si le ciel est clair",
+        "L'équipement réellement disponible et utilisable",
+        "Tous les équipements possibles du modèle"
+      ],
+      "correct_answer": "L'équipement réellement disponible et utilisable",
+      "explanation": "La déclaration doit représenter les capacités effectives de l'avion.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "The declaration must reflect the aircraft's actual capabilities.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "flight plan",
+        "planning",
+        "AIS",
+        "NOTAM",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "That of the preceding aircraft",
+        "None if the sky is clear",
+        "Equipment actually available and usable",
+        "Every possible item fitted to that model"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C03",
+      "concept_title": "Avant et après le vol",
+      "level": 1,
+      "question": "Pourquoi prévoir la clôture du plan ?",
+      "question_en": "Why plan how to close the flight plan?",
+      "options": [
+        "Pour modifier le centrage",
+        "Pour éviter une alerte liée à une arrivée non signalée",
+        "Pour augmenter la vitesse",
+        "Pour annuler la météo"
+      ],
+      "correct_answer": "Pour éviter une alerte liée à une arrivée non signalée",
+      "explanation": "L'information d'arrivée contribue au fonctionnement du service d'alerte.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "Arrival information supports the alerting service.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "flight plan",
+        "planning",
+        "AIS",
+        "NOTAM",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "To change the centre of gravity",
+        "To avoid an alert caused by an unreported arrival",
+        "To increase speed",
+        "To cancel the weather"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C01",
+      "concept_title": "Dossier personnel et plan déposé",
+      "level": 2,
+      "question": "Un plan de vol a été déposé. Quel travail reste à la charge du pilote ?",
+      "question_en": "A flight plan has been filed. What remains the pilot's responsibility?",
+      "options": [
+        "Vérifier météo, carburant, performances et solutions de repli",
+        "Attendre que le dépôt valide automatiquement la météo",
+        "Considérer la destination comme disponible sans vérification",
+        "Remplacer le bilan carburant par la durée inscrite"
+      ],
+      "correct_answer": "Vérifier météo, carburant, performances et solutions de repli",
+      "explanation": "Le plan transmis aux services et le dossier de préparation ont des fonctions différentes. Le dépôt ne certifie ni la faisabilité du trajet ni l'accessibilité de la destination.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "The filed plan and the pilot's preparation serve different purposes. Filing does not certify route feasibility or destination accessibility.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "flight plan",
+        "planning",
+        "AIS",
+        "NOTAM",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Check weather, fuel, performance and fallback options",
+        "Wait for filing to validate the weather automatically",
+        "Treat the destination as available without checking",
+        "Replace the fuel calculation with the time entered"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C03",
+      "concept_title": "Avant et après le vol",
+      "level": 2,
+      "question": "Vous annulez un vol pour lequel un plan a été déposé. Que faut-il prévoir ?",
+      "question_en": "You cancel a flight for which a plan was filed. What should you do?",
+      "options": [
+        "Laisser le plan inchangé puisque l'avion reste au sol",
+        "Envoyer un compte rendu d'arrivée fictif",
+        "Modifier uniquement le log personnel",
+        "Signaler l'annulation selon la procédure applicable"
+      ],
+      "correct_answer": "Signaler l'annulation selon la procédure applicable",
+      "explanation": "Un changement ou une annulation doit être traité auprès du service concerné selon la procédure applicable. Modifier son dossier personnel ne met pas à jour le plan transmis.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "A change or cancellation must be handled with the relevant service under its procedure. Updating personal notes does not update the submitted flight plan.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "flight plan",
+        "planning",
+        "AIS",
+        "NOTAM",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Leave the plan unchanged because the aircraft stays on the ground",
+        "Send a fictitious arrival report",
+        "Change only your personal navigation log",
+        "Notify the cancellation using the applicable procedure"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C01",
+      "concept_title": "Dossier personnel et plan déposé",
+      "level": 2,
+      "question": "Vrai ou faux ? Le plan déposé est un message normalisé destiné aux services.",
+      "question_en": "True or false? A filed flight plan is a standardised message for the services.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe dossier de préparation sert au pilote pour conduire le vol : météo, route, carburant, performances et solutions de repli. Le plan de vol transmis aux services de circulation aérienne est un message normalisé. Les situations où il est exigé se vérifient dans SERA.4001 et les publications applicables, notamment selon espace, frontière, horaires et services nécessaires.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "This statement is true.\n\nThe pilot's preparation supports flight management: weather, route, fuel, performance and fallback options. The flight plan submitted to air traffic services is a standardised message. Check when it is required in SERA.4001 and applicable publications, considering airspace, borders, times and services needed.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C01",
+      "concept_title": "Dossier personnel et plan déposé",
+      "level": 2,
+      "question": "Vrai ou faux ? La préparation personnelle consiste uniquement à remplir le plan déposé.",
+      "question_en": "True or false? Personal preparation consists only of completing the filed plan.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe dossier de préparation sert au pilote pour conduire le vol : météo, route, carburant, performances et solutions de repli. Le plan de vol transmis aux services de circulation aérienne est un message normalisé. Les situations où il est exigé se vérifient dans SERA.4001 et les publications applicables, notamment selon espace, frontière, horaires et services nécessaires.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "This statement is false.\n\nThe pilot's preparation supports flight management: weather, route, fuel, performance and fallback options. The flight plan submitted to air traffic services is a standardised message. Check when it is required in SERA.4001 and applicable publications, considering airspace, borders, times and services needed.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C01",
+      "concept_title": "Dossier personnel et plan déposé",
+      "level": 2,
+      "question": "Vrai ou faux ? Le franchissement d'une frontière peut intervenir dans les exigences de dépôt.",
+      "question_en": "True or false? Crossing a border may affect filing requirements.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe dossier de préparation sert au pilote pour conduire le vol : météo, route, carburant, performances et solutions de repli. Le plan de vol transmis aux services de circulation aérienne est un message normalisé. Les situations où il est exigé se vérifient dans SERA.4001 et les publications applicables, notamment selon espace, frontière, horaires et services nécessaires.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "This statement is true.\n\nThe pilot's preparation supports flight management: weather, route, fuel, performance and fallback options. The flight plan submitted to air traffic services is a standardised message. Check when it is required in SERA.4001 and applicable publications, considering airspace, borders, times and services needed.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C02",
+      "concept_title": "Des informations exploitables",
+      "level": 2,
+      "question": "Vrai ou faux ? Le dépôt garantit que l'aérodrome sera disponible à l'arrivée.",
+      "question_en": "True or false? Filing guarantees that the aerodrome will be available on arrival.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe plan renseigne identification, règles de vol, type d'aéronef, équipements, départ, route, destination et durées, avec des informations complémentaires pour l'assistance. Un équipement déclaré doit correspondre à ce qui est utilisable à bord. Le dépôt ne vaut pas clairance et ne garantit ni la disponibilité d'un aérodrome ni la conformité météo.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "This statement is false.\n\nThe plan gives identification, flight rules, aircraft type, equipment, departure, route, destination and times, with supplementary information for assistance. Declared equipment must match what is usable on board. Filing is not a clearance and guarantees neither aerodrome availability nor suitable weather.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C02",
+      "concept_title": "Des informations exploitables",
+      "level": 2,
+      "question": "Vrai ou faux ? Les capacités déclarées doivent correspondre aux équipements utilisables.",
+      "question_en": "True or false? Declared capabilities must match usable equipment.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe plan renseigne identification, règles de vol, type d'aéronef, équipements, départ, route, destination et durées, avec des informations complémentaires pour l'assistance. Un équipement déclaré doit correspondre à ce qui est utilisable à bord. Le dépôt ne vaut pas clairance et ne garantit ni la disponibilité d'un aérodrome ni la conformité météo.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "This statement is true.\n\nThe plan gives identification, flight rules, aircraft type, equipment, departure, route, destination and times, with supplementary information for assistance. Declared equipment must match what is usable on board. Filing is not a clearance and guarantees neither aerodrome availability nor suitable weather.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C02",
+      "concept_title": "Des informations exploitables",
+      "level": 2,
+      "question": "Vrai ou faux ? Un équipement hors service doit toujours être déclaré comme disponible.",
+      "question_en": "True or false? Unserviceable equipment must always be declared as available.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe plan renseigne identification, règles de vol, type d'aéronef, équipements, départ, route, destination et durées, avec des informations complémentaires pour l'assistance. Un équipement déclaré doit correspondre à ce qui est utilisable à bord. Le dépôt ne vaut pas clairance et ne garantit ni la disponibilité d'un aérodrome ni la conformité météo.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "This statement is false.\n\nThe plan gives identification, flight rules, aircraft type, equipment, departure, route, destination and times, with supplementary information for assistance. Declared equipment must match what is usable on board. Filing is not a clearance and guarantees neither aerodrome availability nor suitable weather.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C03",
+      "concept_title": "Avant et après le vol",
+      "level": 2,
+      "question": "Vrai ou faux ? Un retard ou un changement de route peut nécessiter une démarche auprès du service.",
+      "question_en": "True or false? A delay or route change may require action with the service.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nPrévoir le traitement d'un retard, d'un changement de route ou d'une annulation. L'activation et la clôture suivent la procédure du service et du terrain concernés. Après une arrivée sur un terrain sans clôture automatique appropriée, oublier le compte rendu d'arrivée peut déclencher des recherches inutiles. Noter à la préparation comment et auprès de qui effectuer les démarches.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "This statement is true.\n\nPlan how to handle a delay, route change or cancellation. Activation and closure follow the procedures of the service and aerodrome concerned. After arriving at a field without appropriate automatic closure, forgetting the arrival report may trigger unnecessary searches. During preparation, note how and with whom to complete the required actions.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C03",
+      "concept_title": "Avant et après le vol",
+      "level": 2,
+      "question": "Vrai ou faux ? Arriver au terrain garantit toujours une clôture automatique.",
+      "question_en": "True or false? Arriving at an aerodrome always guarantees automatic closure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nPrévoir le traitement d'un retard, d'un changement de route ou d'une annulation. L'activation et la clôture suivent la procédure du service et du terrain concernés. Après une arrivée sur un terrain sans clôture automatique appropriée, oublier le compte rendu d'arrivée peut déclencher des recherches inutiles. Noter à la préparation comment et auprès de qui effectuer les démarches.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "This statement is false.\n\nPlan how to handle a delay, route change or cancellation. Activation and closure follow the procedures of the service and aerodrome concerned. After arriving at a field without appropriate automatic closure, forgetting the arrival report may trigger unnecessary searches. During preparation, note how and with whom to complete the required actions.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C03",
+      "concept_title": "Avant et après le vol",
+      "level": 2,
+      "question": "Vrai ou faux ? Une arrivée non signalée peut déclencher des recherches inutiles.",
+      "question_en": "True or false? An unreported arrival may trigger unnecessary searches.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nPrévoir le traitement d'un retard, d'un changement de route ou d'une annulation. L'activation et la clôture suivent la procédure du service et du terrain concernés. Après une arrivée sur un terrain sans clôture automatique appropriée, oublier le compte rendu d'arrivée peut déclencher des recherches inutiles. Noter à la préparation comment et auprès de qui effectuer les démarches.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "This statement is true.\n\nPlan how to handle a delay, route change or cancellation. Activation and closure follow the procedures of the service and aerodrome concerned. After arriving at a field without appropriate automatic closure, forgetting the arrival report may trigger unnecessary searches. During preparation, note how and with whom to complete the required actions.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_007_C03",
+      "concept_title": "Avant et après le vol",
+      "level": 2,
+      "question": "Vrai ou faux ? Modifier son journal personnel met automatiquement à jour le plan déposé.",
+      "question_en": "True or false? Changing a personal log automatically updates the filed plan.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nPrévoir le traitement d'un retard, d'un changement de route ou d'une annulation. L'activation et la clôture suivent la procédure du service et du terrain concernés. Après une arrivée sur un terrain sans clôture automatique appropriée, oublier le compte rendu d'arrivée peut déclencher des recherches inutiles. Noter à la préparation comment et auprès de qui effectuer les démarches.\n\n![Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.](/illustrations/ppl-airlaw-007.svg)",
+      "explanation_en": "This statement is false.\n\nPlan how to handle a delay, route change or cancellation. Activation and closure follow the procedures of the service and aerodrome concerned. After arriving at a field without appropriate automatic closure, forgetting the arrival report may trigger unnecessary searches. During preparation, note how and with whom to complete the required actions.\n\n![Diagram: Flight Planning and Flight Plan Filing](/illustrations/en/ppl-airlaw-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,8657 @@
+{
+  "checked_on": "2026-09-29",
+  "purpose": "editorial_triage_not_certification",
+  "priority_languages": [
+    "fr",
+    "en"
+  ],
+  "deferred_languages": [
+    "es"
+  ],
+  "thresholds": {
+    "brief_content_words": 500,
+    "short_explanation_words": 12,
+    "position_bias_fraction": 0.8
+  },
+  "chapters": 148,
+  "questions": 2220,
+  "chapters_by_flag": {
+    "brief_content_review_depth": 140,
+    "short_explanations_review_reasoning": 140,
+    "possible_context_dependency": 5,
+    "objective_needs_specific_outcomes": 16,
+    "generic_prerequisites": 16
+  },
+  "records": [
+    {
+      "module": "PPL_AIRLAW_001",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_001_icao.json",
+      "questions": 15,
+      "fr_words": 229,
+      "en_words": 192,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            9,
+            10,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_002",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_002_easa_faa.json",
+      "questions": 15,
+      "fr_words": 325,
+      "en_words": 278,
+      "estimated_minutes": 30,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            8,
+            11,
+            13,
+            14
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_003",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_003_certificats.json",
+      "questions": 15,
+      "fr_words": 267,
+      "en_words": 230,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_004",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_004_airspace.json",
+      "questions": 15,
+      "fr_words": 174,
+      "en_words": 154,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_005",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_005_flight_rules.json",
+      "questions": 15,
+      "fr_words": 168,
+      "en_words": 147,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_006",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_006_sera.json",
+      "questions": 15,
+      "fr_words": 159,
+      "en_words": 139,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_007",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_007_flight_planning.json",
+      "questions": 15,
+      "fr_words": 164,
+      "en_words": 135,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_008",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_008_ats.json",
+      "questions": 15,
+      "fr_words": 169,
+      "en_words": 144,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_009",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_009_emergencies.json",
+      "questions": 15,
+      "fr_words": 170,
+      "en_words": 147,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_010",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_010_documentation.json",
+      "questions": 15,
+      "fr_words": 159,
+      "en_words": 134,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_011",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_011_application.json",
+      "questions": 15,
+      "fr_words": 327,
+      "en_words": 272,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_012",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_012_application.json",
+      "questions": 15,
+      "fr_words": 400,
+      "en_words": 383,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            11,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_013",
+      "program": "PPL",
+      "subject": "airlaw",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_013_application.json",
+      "questions": 15,
+      "fr_words": 456,
+      "en_words": 407,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            3,
+            5,
+            6,
+            7,
+            9,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AC_001",
+      "program": "PPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_001_aircraft_structure.json",
+      "questions": 15,
+      "fr_words": 186,
+      "en_words": 165,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AC_002",
+      "program": "PPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_002_powerplant.json",
+      "questions": 15,
+      "fr_words": 186,
+      "en_words": 164,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AC_003",
+      "program": "PPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_003_systems.json",
+      "questions": 15,
+      "fr_words": 169,
+      "en_words": 151,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AC_004",
+      "program": "PPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_004_instruments.json",
+      "questions": 15,
+      "fr_words": 160,
+      "en_words": 149,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AC_005",
+      "program": "PPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_005_electronics.json",
+      "questions": 15,
+      "fr_words": 165,
+      "en_words": 137,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AC_006",
+      "program": "PPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_006_performance.json",
+      "questions": 15,
+      "fr_words": 170,
+      "en_words": 134,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AC_007",
+      "program": "PPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_007_flight_controls.json",
+      "questions": 15,
+      "fr_words": 177,
+      "en_words": 157,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_AC_008",
+      "program": "PPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_008_limitations.json",
+      "questions": 15,
+      "fr_words": 167,
+      "en_words": 127,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_COM_001",
+      "program": "PPL",
+      "subject": "communications",
+      "path": "content/fr/ppl/communications/PPL_COM_001_course.json",
+      "questions": 15,
+      "fr_words": 158,
+      "en_words": 134,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_COM_002",
+      "program": "PPL",
+      "subject": "communications",
+      "path": "content/fr/ppl/communications/PPL_COM_002_course.json",
+      "questions": 15,
+      "fr_words": 163,
+      "en_words": 136,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_EMG_001",
+      "program": "PPL",
+      "subject": "operational_procedures",
+      "path": "content/fr/ppl/emergency/PPL_EMG_001_course.json",
+      "questions": 15,
+      "fr_words": 289,
+      "en_words": 247,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        12,
+        13
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_FP_001",
+      "program": "PPL",
+      "subject": "flight_performance_planning",
+      "path": "content/fr/ppl/flight_planning/PPL_FP_001_course.json",
+      "questions": 15,
+      "fr_words": 168,
+      "en_words": 141,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1,
+        4,
+        12,
+        13
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_HP_001",
+      "program": "PPL",
+      "subject": "human_performance",
+      "path": "content/fr/ppl/human_performance/PPL_HP_001_course.json",
+      "questions": 15,
+      "fr_words": 172,
+      "en_words": 143,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_HP_002",
+      "program": "PPL",
+      "subject": "human_performance",
+      "path": "content/fr/ppl/human_performance/PPL_HP_002_course.json",
+      "questions": 15,
+      "fr_words": 166,
+      "en_words": 149,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_HP_003",
+      "program": "PPL",
+      "subject": "human_performance",
+      "path": "content/fr/ppl/human_performance/PPL_HP_003_application.json",
+      "questions": 15,
+      "fr_words": 336,
+      "en_words": 279,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_INS_001",
+      "program": "PPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/ppl/instrumentation/PPL_INS_001_course.json",
+      "questions": 15,
+      "fr_words": 298,
+      "en_words": 238,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        14,
+        15
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_INS_002",
+      "program": "PPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/ppl/instrumentation/PPL_INS_002_course.json",
+      "questions": 15,
+      "fr_words": 269,
+      "en_words": 253,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            4,
+            5
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MB_001",
+      "program": "PPL",
+      "subject": "flight_performance_planning",
+      "path": "content/fr/ppl/mass_and_balance/PPL_MB_001_course.json",
+      "questions": 15,
+      "fr_words": 172,
+      "en_words": 151,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        4,
+        12,
+        13
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MB_002",
+      "program": "PPL",
+      "subject": "flight_performance_planning",
+      "path": "content/fr/ppl/mass_and_balance/PPL_MB_002_application.json",
+      "questions": 15,
+      "fr_words": 890,
+      "en_words": 816,
+      "estimated_minutes": 40,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MET_001",
+      "program": "PPL",
+      "subject": "meteorology",
+      "path": "content/fr/ppl/meteo/PPL_MET_001_atmosphere.json",
+      "questions": 15,
+      "fr_words": 174,
+      "en_words": 154,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MET_002",
+      "program": "PPL",
+      "subject": "meteorology",
+      "path": "content/fr/ppl/meteo/PPL_MET_002_pressure.json",
+      "questions": 15,
+      "fr_words": 175,
+      "en_words": 151,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MET_003",
+      "program": "PPL",
+      "subject": "meteorology",
+      "path": "content/fr/ppl/meteo/PPL_MET_003_temperature.json",
+      "questions": 15,
+      "fr_words": 171,
+      "en_words": 146,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MET_004",
+      "program": "PPL",
+      "subject": "meteorology",
+      "path": "content/fr/ppl/meteo/PPL_MET_004_wind.json",
+      "questions": 15,
+      "fr_words": 176,
+      "en_words": 148,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MET_005",
+      "program": "PPL",
+      "subject": "meteorology",
+      "path": "content/fr/ppl/meteo/PPL_MET_005_clouds.json",
+      "questions": 15,
+      "fr_words": 180,
+      "en_words": 142,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        3,
+        4
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MET_006",
+      "program": "PPL",
+      "subject": "meteorology",
+      "path": "content/fr/ppl/meteo/PPL_MET_006_visibility.json",
+      "questions": 15,
+      "fr_words": 160,
+      "en_words": 128,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MET_007",
+      "program": "PPL",
+      "subject": "meteorology",
+      "path": "content/fr/ppl/meteo/PPL_MET_007_air_masses.json",
+      "questions": 15,
+      "fr_words": 161,
+      "en_words": 133,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MET_008",
+      "program": "PPL",
+      "subject": "meteorology",
+      "path": "content/fr/ppl/meteo/PPL_MET_008_hazards.json",
+      "questions": 15,
+      "fr_words": 166,
+      "en_words": 151,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MET_009",
+      "program": "PPL",
+      "subject": "meteorology",
+      "path": "content/fr/ppl/meteo/PPL_MET_009_metar_taf.json",
+      "questions": 15,
+      "fr_words": 174,
+      "en_words": 159,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_MET_010",
+      "program": "PPL",
+      "subject": "meteorology",
+      "path": "content/fr/ppl/meteo/PPL_MET_010_flight_weather.json",
+      "questions": 15,
+      "fr_words": 168,
+      "en_words": 139,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_NAV_001",
+      "program": "PPL",
+      "subject": "navigation",
+      "path": "content/fr/ppl/navigation/PPL_NAV_001_basics.json",
+      "questions": 15,
+      "fr_words": 169,
+      "en_words": 158,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_NAV_002",
+      "program": "PPL",
+      "subject": "navigation",
+      "path": "content/fr/ppl/navigation/PPL_NAV_002_charts.json",
+      "questions": 15,
+      "fr_words": 170,
+      "en_words": 157,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_NAV_003",
+      "program": "PPL",
+      "subject": "navigation",
+      "path": "content/fr/ppl/navigation/PPL_NAV_003_dead_reckoning.json",
+      "questions": 15,
+      "fr_words": 174,
+      "en_words": 142,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1,
+        4
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_NAV_004",
+      "program": "PPL",
+      "subject": "navigation",
+      "path": "content/fr/ppl/navigation/PPL_NAV_004_radio_nav.json",
+      "questions": 15,
+      "fr_words": 169,
+      "en_words": 138,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_NAV_005",
+      "program": "PPL",
+      "subject": "navigation",
+      "path": "content/fr/ppl/navigation/PPL_NAV_005_gps.json",
+      "questions": 15,
+      "fr_words": 162,
+      "en_words": 143,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_NAV_006",
+      "program": "PPL",
+      "subject": "navigation",
+      "path": "content/fr/ppl/navigation/PPL_NAV_006_flight_log.json",
+      "questions": 15,
+      "fr_words": 169,
+      "en_words": 146,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1,
+        2,
+        4
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_NAV_007",
+      "program": "PPL",
+      "subject": "navigation",
+      "path": "content/fr/ppl/navigation/PPL_NAV_007_visual_fixes.json",
+      "questions": 15,
+      "fr_words": 168,
+      "en_words": 145,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_NAV_008",
+      "program": "PPL",
+      "subject": "navigation",
+      "path": "content/fr/ppl/navigation/PPL_NAV_008_flight_planning_nav.json",
+      "questions": 15,
+      "fr_words": 172,
+      "en_words": 144,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_NAV_009",
+      "program": "PPL",
+      "subject": "navigation",
+      "path": "content/fr/ppl/navigation/PPL_NAV_009_application.json",
+      "questions": 15,
+      "fr_words": 262,
+      "en_words": 206,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_OP_001",
+      "program": "PPL",
+      "subject": "operational_procedures",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_001_preflight.json",
+      "questions": 15,
+      "fr_words": 155,
+      "en_words": 141,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_OP_002",
+      "program": "PPL",
+      "subject": "operational_procedures",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_002_taxi_takeoff.json",
+      "questions": 15,
+      "fr_words": 154,
+      "en_words": 139,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "code": "possible_context_dependency",
+          "questions": [
+            5,
+            13
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_OP_003",
+      "program": "PPL",
+      "subject": "operational_procedures",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_003_landing.json",
+      "questions": 15,
+      "fr_words": 151,
+      "en_words": 132,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "code": "possible_context_dependency",
+          "questions": [
+            10
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_OP_004",
+      "program": "PPL",
+      "subject": "communications",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_004_communication.json",
+      "questions": 15,
+      "fr_words": 156,
+      "en_words": 132,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_OP_005",
+      "program": "PPL",
+      "subject": "operational_procedures",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_005_emergency_proc.json",
+      "questions": 15,
+      "fr_words": 169,
+      "en_words": 142,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_OP_006",
+      "program": "PPL",
+      "subject": "human_performance",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_006_human_factors.json",
+      "questions": 15,
+      "fr_words": 166,
+      "en_words": 145,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_PERF_001",
+      "program": "PPL",
+      "subject": "flight_performance_planning",
+      "path": "content/fr/ppl/performance/PPL_PERF_001_course.json",
+      "questions": 15,
+      "fr_words": 288,
+      "en_words": 240,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 6,
+        "1": 4
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            2,
+            3,
+            5
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_PERF_002",
+      "program": "PPL",
+      "subject": "flight_performance_planning",
+      "path": "content/fr/ppl/performance/PPL_PERF_002_course.json",
+      "questions": 15,
+      "fr_words": 303,
+      "en_words": 263,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            4
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_POF_001",
+      "program": "PPL",
+      "subject": "principles_of_flight",
+      "path": "content/fr/ppl/principles_of_flight/PPL_POF_001_course.json",
+      "questions": 15,
+      "fr_words": 163,
+      "en_words": 151,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_POF_002",
+      "program": "PPL",
+      "subject": "principles_of_flight",
+      "path": "content/fr/ppl/principles_of_flight/PPL_POF_002_course.json",
+      "questions": 15,
+      "fr_words": 167,
+      "en_words": 157,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_POF_003",
+      "program": "PPL",
+      "subject": "principles_of_flight",
+      "path": "content/fr/ppl/principles_of_flight/PPL_POF_003_application.json",
+      "questions": 15,
+      "fr_words": 297,
+      "en_words": 254,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "PPL_RAD_001",
+      "program": "PPL",
+      "subject": "communications",
+      "path": "content/fr/ppl/radio_procedure/PPL_RAD_001_course.json",
+      "questions": 15,
+      "fr_words": 272,
+      "en_words": 225,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_001",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_001_application.json",
+      "questions": 15,
+      "fr_words": 270,
+      "en_words": 224,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            9,
+            10,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_002",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_002_application.json",
+      "questions": 15,
+      "fr_words": 366,
+      "en_words": 310,
+      "estimated_minutes": 30,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            8,
+            11,
+            13,
+            14
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_003",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_003_application.json",
+      "questions": 15,
+      "fr_words": 308,
+      "en_words": 262,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_004",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_004_application.json",
+      "questions": 15,
+      "fr_words": 215,
+      "en_words": 186,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_005",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_005_application.json",
+      "questions": 15,
+      "fr_words": 209,
+      "en_words": 179,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_006",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_006_application.json",
+      "questions": 15,
+      "fr_words": 200,
+      "en_words": 171,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_007",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_007_application.json",
+      "questions": 15,
+      "fr_words": 205,
+      "en_words": 167,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_008",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_008_application.json",
+      "questions": 15,
+      "fr_words": 210,
+      "en_words": 176,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_009",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_009_application.json",
+      "questions": 15,
+      "fr_words": 211,
+      "en_words": 179,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_010",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_010_application.json",
+      "questions": 15,
+      "fr_words": 200,
+      "en_words": 166,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_011",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_011_application.json",
+      "questions": 15,
+      "fr_words": 368,
+      "en_words": 304,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_012",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_012_application.json",
+      "questions": 15,
+      "fr_words": 441,
+      "en_words": 415,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            3,
+            5,
+            7,
+            8,
+            9,
+            11,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AIRLAW_013",
+      "program": "LAPL",
+      "subject": "airlaw",
+      "path": "content/fr/lapl/air_law/LAPL_AIRLAW_013_application.json",
+      "questions": 15,
+      "fr_words": 497,
+      "en_words": 439,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            3,
+            5,
+            6,
+            7,
+            9,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AC_001",
+      "program": "LAPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/lapl/aircraft_general/LAPL_AC_001_application.json",
+      "questions": 15,
+      "fr_words": 227,
+      "en_words": 197,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AC_002",
+      "program": "LAPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/lapl/aircraft_general/LAPL_AC_002_application.json",
+      "questions": 15,
+      "fr_words": 227,
+      "en_words": 196,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AC_003",
+      "program": "LAPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/lapl/aircraft_general/LAPL_AC_003_application.json",
+      "questions": 15,
+      "fr_words": 210,
+      "en_words": 183,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AC_004",
+      "program": "LAPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/lapl/aircraft_general/LAPL_AC_004_application.json",
+      "questions": 15,
+      "fr_words": 201,
+      "en_words": 181,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AC_005",
+      "program": "LAPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/lapl/aircraft_general/LAPL_AC_005_application.json",
+      "questions": 15,
+      "fr_words": 206,
+      "en_words": 169,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AC_006",
+      "program": "LAPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/lapl/aircraft_general/LAPL_AC_006_application.json",
+      "questions": 15,
+      "fr_words": 211,
+      "en_words": 166,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AC_007",
+      "program": "LAPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/lapl/aircraft_general/LAPL_AC_007_application.json",
+      "questions": 15,
+      "fr_words": 218,
+      "en_words": 189,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_AC_008",
+      "program": "LAPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/lapl/aircraft_general/LAPL_AC_008_application.json",
+      "questions": 15,
+      "fr_words": 208,
+      "en_words": 159,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_COM_001",
+      "program": "LAPL",
+      "subject": "communications",
+      "path": "content/fr/lapl/communications/LAPL_COM_001_application.json",
+      "questions": 15,
+      "fr_words": 199,
+      "en_words": 166,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_COM_002",
+      "program": "LAPL",
+      "subject": "communications",
+      "path": "content/fr/lapl/communications/LAPL_COM_002_application.json",
+      "questions": 15,
+      "fr_words": 204,
+      "en_words": 168,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_EMG_001",
+      "program": "LAPL",
+      "subject": "operational_procedures",
+      "path": "content/fr/lapl/emergency/LAPL_EMG_001_application.json",
+      "questions": 15,
+      "fr_words": 330,
+      "en_words": 279,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        12,
+        13
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_FP_001",
+      "program": "LAPL",
+      "subject": "flight_performance_planning",
+      "path": "content/fr/lapl/flight_planning/LAPL_FP_001_application.json",
+      "questions": 15,
+      "fr_words": 209,
+      "en_words": 173,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1,
+        4,
+        12,
+        13
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_HP_001",
+      "program": "LAPL",
+      "subject": "human_performance",
+      "path": "content/fr/lapl/human_performance/LAPL_HP_001_application.json",
+      "questions": 15,
+      "fr_words": 213,
+      "en_words": 175,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_HP_002",
+      "program": "LAPL",
+      "subject": "human_performance",
+      "path": "content/fr/lapl/human_performance/LAPL_HP_002_application.json",
+      "questions": 15,
+      "fr_words": 207,
+      "en_words": 181,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_HP_003",
+      "program": "LAPL",
+      "subject": "human_performance",
+      "path": "content/fr/lapl/human_performance/LAPL_HP_003_application.json",
+      "questions": 15,
+      "fr_words": 377,
+      "en_words": 311,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_INS_001",
+      "program": "LAPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/lapl/instrumentation/LAPL_INS_001_application.json",
+      "questions": 15,
+      "fr_words": 339,
+      "en_words": 270,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        14,
+        15
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_INS_002",
+      "program": "LAPL",
+      "subject": "aircraft_general",
+      "path": "content/fr/lapl/instrumentation/LAPL_INS_002_application.json",
+      "questions": 15,
+      "fr_words": 310,
+      "en_words": 285,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            4,
+            5
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MB_001",
+      "program": "LAPL",
+      "subject": "flight_performance_planning",
+      "path": "content/fr/lapl/mass_and_balance/LAPL_MB_001_application.json",
+      "questions": 15,
+      "fr_words": 213,
+      "en_words": 183,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        4,
+        12,
+        13
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MB_002",
+      "program": "LAPL",
+      "subject": "flight_performance_planning",
+      "path": "content/fr/lapl/mass_and_balance/LAPL_MB_002_application.json",
+      "questions": 15,
+      "fr_words": 931,
+      "en_words": 848,
+      "estimated_minutes": 40,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MET_001",
+      "program": "LAPL",
+      "subject": "meteorology",
+      "path": "content/fr/lapl/meteo/LAPL_MET_001_application.json",
+      "questions": 15,
+      "fr_words": 215,
+      "en_words": 186,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MET_002",
+      "program": "LAPL",
+      "subject": "meteorology",
+      "path": "content/fr/lapl/meteo/LAPL_MET_002_application.json",
+      "questions": 15,
+      "fr_words": 216,
+      "en_words": 183,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MET_003",
+      "program": "LAPL",
+      "subject": "meteorology",
+      "path": "content/fr/lapl/meteo/LAPL_MET_003_application.json",
+      "questions": 15,
+      "fr_words": 212,
+      "en_words": 178,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MET_004",
+      "program": "LAPL",
+      "subject": "meteorology",
+      "path": "content/fr/lapl/meteo/LAPL_MET_004_application.json",
+      "questions": 15,
+      "fr_words": 217,
+      "en_words": 180,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MET_005",
+      "program": "LAPL",
+      "subject": "meteorology",
+      "path": "content/fr/lapl/meteo/LAPL_MET_005_application.json",
+      "questions": 15,
+      "fr_words": 221,
+      "en_words": 174,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        3,
+        4
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MET_006",
+      "program": "LAPL",
+      "subject": "meteorology",
+      "path": "content/fr/lapl/meteo/LAPL_MET_006_application.json",
+      "questions": 15,
+      "fr_words": 201,
+      "en_words": 160,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MET_007",
+      "program": "LAPL",
+      "subject": "meteorology",
+      "path": "content/fr/lapl/meteo/LAPL_MET_007_application.json",
+      "questions": 15,
+      "fr_words": 202,
+      "en_words": 165,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MET_008",
+      "program": "LAPL",
+      "subject": "meteorology",
+      "path": "content/fr/lapl/meteo/LAPL_MET_008_application.json",
+      "questions": 15,
+      "fr_words": 207,
+      "en_words": 183,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MET_009",
+      "program": "LAPL",
+      "subject": "meteorology",
+      "path": "content/fr/lapl/meteo/LAPL_MET_009_application.json",
+      "questions": 15,
+      "fr_words": 215,
+      "en_words": 191,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_MET_010",
+      "program": "LAPL",
+      "subject": "meteorology",
+      "path": "content/fr/lapl/meteo/LAPL_MET_010_application.json",
+      "questions": 15,
+      "fr_words": 209,
+      "en_words": 171,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_NAV_001",
+      "program": "LAPL",
+      "subject": "navigation",
+      "path": "content/fr/lapl/navigation/LAPL_NAV_001_application.json",
+      "questions": 15,
+      "fr_words": 310,
+      "en_words": 248,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_NAV_002",
+      "program": "LAPL",
+      "subject": "navigation",
+      "path": "content/fr/lapl/navigation/LAPL_NAV_002_application.json",
+      "questions": 15,
+      "fr_words": 210,
+      "en_words": 190,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_NAV_003",
+      "program": "LAPL",
+      "subject": "navigation",
+      "path": "content/fr/lapl/navigation/LAPL_NAV_003_application.json",
+      "questions": 15,
+      "fr_words": 211,
+      "en_words": 189,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_NAV_004",
+      "program": "LAPL",
+      "subject": "navigation",
+      "path": "content/fr/lapl/navigation/LAPL_NAV_004_application.json",
+      "questions": 15,
+      "fr_words": 215,
+      "en_words": 174,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1,
+        4
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_NAV_005",
+      "program": "LAPL",
+      "subject": "navigation",
+      "path": "content/fr/lapl/navigation/LAPL_NAV_005_application.json",
+      "questions": 15,
+      "fr_words": 210,
+      "en_words": 170,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_NAV_006",
+      "program": "LAPL",
+      "subject": "navigation",
+      "path": "content/fr/lapl/navigation/LAPL_NAV_006_application.json",
+      "questions": 15,
+      "fr_words": 203,
+      "en_words": 175,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_NAV_007",
+      "program": "LAPL",
+      "subject": "navigation",
+      "path": "content/fr/lapl/navigation/LAPL_NAV_007_application.json",
+      "questions": 15,
+      "fr_words": 210,
+      "en_words": 178,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1,
+        2,
+        4
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_NAV_008",
+      "program": "LAPL",
+      "subject": "navigation",
+      "path": "content/fr/lapl/navigation/LAPL_NAV_008_application.json",
+      "questions": 15,
+      "fr_words": 209,
+      "en_words": 177,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_NAV_009",
+      "program": "LAPL",
+      "subject": "navigation",
+      "path": "content/fr/lapl/navigation/LAPL_NAV_009_application.json",
+      "questions": 15,
+      "fr_words": 213,
+      "en_words": 176,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_OP_001",
+      "program": "LAPL",
+      "subject": "operational_procedures",
+      "path": "content/fr/lapl/operational_procedures/LAPL_OP_001_application.json",
+      "questions": 15,
+      "fr_words": 196,
+      "en_words": 173,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_OP_002",
+      "program": "LAPL",
+      "subject": "operational_procedures",
+      "path": "content/fr/lapl/operational_procedures/LAPL_OP_002_application.json",
+      "questions": 15,
+      "fr_words": 195,
+      "en_words": 171,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "code": "possible_context_dependency",
+          "questions": [
+            5,
+            13
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_OP_003",
+      "program": "LAPL",
+      "subject": "operational_procedures",
+      "path": "content/fr/lapl/operational_procedures/LAPL_OP_003_application.json",
+      "questions": 15,
+      "fr_words": 192,
+      "en_words": 164,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "code": "possible_context_dependency",
+          "questions": [
+            10
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_OP_004",
+      "program": "LAPL",
+      "subject": "communications",
+      "path": "content/fr/lapl/operational_procedures/LAPL_OP_004_application.json",
+      "questions": 15,
+      "fr_words": 197,
+      "en_words": 164,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_OP_005",
+      "program": "LAPL",
+      "subject": "operational_procedures",
+      "path": "content/fr/lapl/operational_procedures/LAPL_OP_005_application.json",
+      "questions": 15,
+      "fr_words": 210,
+      "en_words": 174,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_OP_006",
+      "program": "LAPL",
+      "subject": "human_performance",
+      "path": "content/fr/lapl/operational_procedures/LAPL_OP_006_application.json",
+      "questions": 15,
+      "fr_words": 207,
+      "en_words": 177,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_PERF_001",
+      "program": "LAPL",
+      "subject": "flight_performance_planning",
+      "path": "content/fr/lapl/performance/LAPL_PERF_001_application.json",
+      "questions": 15,
+      "fr_words": 329,
+      "en_words": 272,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 6,
+        "1": 4
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            2,
+            3,
+            5
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_PERF_002",
+      "program": "LAPL",
+      "subject": "flight_performance_planning",
+      "path": "content/fr/lapl/performance/LAPL_PERF_002_application.json",
+      "questions": 15,
+      "fr_words": 344,
+      "en_words": 295,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            4
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_POF_001",
+      "program": "LAPL",
+      "subject": "principles_of_flight",
+      "path": "content/fr/lapl/principles_of_flight/LAPL_POF_001_application.json",
+      "questions": 15,
+      "fr_words": 204,
+      "en_words": 183,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            3
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_POF_002",
+      "program": "LAPL",
+      "subject": "principles_of_flight",
+      "path": "content/fr/lapl/principles_of_flight/LAPL_POF_002_application.json",
+      "questions": 15,
+      "fr_words": 208,
+      "en_words": 189,
+      "estimated_minutes": 10,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_POF_003",
+      "program": "LAPL",
+      "subject": "principles_of_flight",
+      "path": "content/fr/lapl/principles_of_flight/LAPL_POF_003_application.json",
+      "questions": 15,
+      "fr_words": 338,
+      "en_words": 286,
+      "estimated_minutes": 25,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "LAPL_RAD_001",
+      "program": "LAPL",
+      "subject": "communications",
+      "path": "content/fr/lapl/radio_procedure/LAPL_RAD_001_application.json",
+      "questions": 15,
+      "fr_words": 313,
+      "en_words": 257,
+      "estimated_minutes": 15,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {
+        "0": 5,
+        "1": 5
+      },
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "CPL_090_001",
+      "program": "CPL",
+      "subject": "090",
+      "path": "content/fr/cpl/communications/CPL_090_001_application.json",
+      "questions": 15,
+      "fr_words": 323,
+      "en_words": 287,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "CPL_033_001",
+      "program": "CPL",
+      "subject": "033",
+      "path": "content/fr/cpl/flight_planning/CPL_033_001_application.json",
+      "questions": 15,
+      "fr_words": 361,
+      "en_words": 308,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "code": "possible_context_dependency",
+          "questions": [
+            11
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "CPL_040_001",
+      "program": "CPL",
+      "subject": "040",
+      "path": "content/fr/cpl/human_performance/CPL_040_001_application.json",
+      "questions": 15,
+      "fr_words": 358,
+      "en_words": 300,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "CPL_022_001",
+      "program": "CPL",
+      "subject": "022",
+      "path": "content/fr/cpl/instrumentation/CPL_022_001_application.json",
+      "questions": 15,
+      "fr_words": 1036,
+      "en_words": 953,
+      "estimated_minutes": 45,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "CPL_031_001",
+      "program": "CPL",
+      "subject": "031",
+      "path": "content/fr/cpl/mass_and_balance/CPL_031_001_application.json",
+      "questions": 15,
+      "fr_words": 1126,
+      "en_words": 981,
+      "estimated_minutes": 45,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "CPL_032_001",
+      "program": "CPL",
+      "subject": "032",
+      "path": "content/fr/cpl/performance/CPL_032_001_application.json",
+      "questions": 15,
+      "fr_words": 910,
+      "en_words": 843,
+      "estimated_minutes": 45,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "CPL_081_001",
+      "program": "CPL",
+      "subject": "081",
+      "path": "content/fr/cpl/principles_of_flight/CPL_081_001_application.json",
+      "questions": 15,
+      "fr_words": 341,
+      "en_words": 288,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "ATPL_021_001",
+      "program": "ATPL",
+      "subject": "021",
+      "path": "content/fr/atpl/aircraft_general/ATPL_021_001_application.json",
+      "questions": 15,
+      "fr_words": 349,
+      "en_words": 284,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "ATPL_021_002",
+      "program": "ATPL",
+      "subject": "021",
+      "path": "content/fr/atpl/aircraft_general/ATPL_021_002_application.json",
+      "questions": 15,
+      "fr_words": 356,
+      "en_words": 289,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "ATPL_090_001",
+      "program": "ATPL",
+      "subject": "090",
+      "path": "content/fr/atpl/communications/ATPL_090_001_application.json",
+      "questions": 15,
+      "fr_words": 323,
+      "en_words": 287,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "ATPL_033_001",
+      "program": "ATPL",
+      "subject": "033",
+      "path": "content/fr/atpl/flight_planning/ATPL_033_001_application.json",
+      "questions": 15,
+      "fr_words": 391,
+      "en_words": 350,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            9,
+            10,
+            11,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "ATPL_022_001",
+      "program": "ATPL",
+      "subject": "022",
+      "path": "content/fr/atpl/instrumentation/ATPL_022_001_application.json",
+      "questions": 15,
+      "fr_words": 331,
+      "en_words": 269,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "ATPL_031_001",
+      "program": "ATPL",
+      "subject": "031",
+      "path": "content/fr/atpl/mass_and_balance/ATPL_031_001_application.json",
+      "questions": 15,
+      "fr_words": 1295,
+      "en_words": 1159,
+      "estimated_minutes": 50,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "ATPL_061_001",
+      "program": "ATPL",
+      "subject": "061",
+      "path": "content/fr/atpl/navigation/ATPL_061_001_application.json",
+      "questions": 15,
+      "fr_words": 328,
+      "en_words": 287,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "IR_010_001",
+      "program": "IR",
+      "subject": "010",
+      "path": "content/fr/ir/air_law/IR_010_001_application.json",
+      "questions": 15,
+      "fr_words": 355,
+      "en_words": 308,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "IR_090_001",
+      "program": "IR",
+      "subject": "090",
+      "path": "content/fr/ir/communications/IR_090_001_application.json",
+      "questions": 15,
+      "fr_words": 323,
+      "en_words": 287,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "IR_033_001",
+      "program": "IR",
+      "subject": "033",
+      "path": "content/fr/ir/flight_planning/IR_033_001_application.json",
+      "questions": 15,
+      "fr_words": 399,
+      "en_words": 347,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "IR_040_001",
+      "program": "IR",
+      "subject": "040",
+      "path": "content/fr/ir/human_performance/IR_040_001_application.json",
+      "questions": 15,
+      "fr_words": 353,
+      "en_words": 296,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            8,
+            10,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "IR_022_001",
+      "program": "IR",
+      "subject": "022",
+      "path": "content/fr/ir/instrumentation/IR_022_001_application.json",
+      "questions": 15,
+      "fr_words": 789,
+      "en_words": 716,
+      "estimated_minutes": 45,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "IR_050_001",
+      "program": "IR",
+      "subject": "050",
+      "path": "content/fr/ir/meteo/IR_050_001_application.json",
+      "questions": 15,
+      "fr_words": 1027,
+      "en_words": 872,
+      "estimated_minutes": 45,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "IR_062_001",
+      "program": "IR",
+      "subject": "062",
+      "path": "content/fr/ir/navigation/IR_062_001_application.json",
+      "questions": 15,
+      "fr_words": 402,
+      "en_words": 332,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    },
+    {
+      "module": "IR_062_002",
+      "program": "IR",
+      "subject": "062",
+      "path": "content/fr/ir/navigation/IR_062_002_application.json",
+      "questions": 15,
+      "fr_words": 368,
+      "en_words": 305,
+      "estimated_minutes": 35,
+      "content_status": "draft",
+      "coverage_status": "partial",
+      "unassessed_concepts": [],
+      "illustrated_question_indices": [
+        1
+      ],
+      "deferred_translation_gaps": {
+        "es": {
+          "concepts_incomplete": true,
+          "question_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      },
+      "true_false_positions": {},
+      "missing_images": [],
+      "flags": [
+        {
+          "code": "objective_needs_specific_outcomes",
+          "questions": []
+        },
+        {
+          "code": "generic_prerequisites",
+          "questions": []
+        },
+        {
+          "code": "brief_content_review_depth",
+          "questions": []
+        },
+        {
+          "code": "short_explanations_review_reasoning",
+          "questions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "manual_pedagogical_validation": "not_established"
+    }
+  ]
+}

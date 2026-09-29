@@ -1,0 +1,774 @@
+{
+  "date": "2026-09-30",
+  "scope": "PPL(A), France/EASA",
+  "lessons_read": 63,
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "question_count": 945,
+  "question_formats": {
+    "4": 445,
+    "2": 500
+  },
+  "illustrated_prompts": 18,
+  "missing_image_links": [],
+  "records": [
+    {
+      "module": "PPL_AIRLAW_001",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_001_icao.json",
+      "sha256": "29dc0bce4979514a663934462d1b710b655cf86edcb1f36f382a60d74a259bc5",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Distingue correctement Convention, organisation et règles applicables ; ajouter une recherche guidée dans une publication AIP.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_002",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_002_easa_faa.json",
+      "sha256": "4710cc7a70e224dba4bbfb8c6f43b260b47e2c26042b8325c6991d6419c4e19b",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Distingue formation, licence, qualification, médical et expérience récente ; manque un cas complet de vérification des privilèges à une date donnée.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_003",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_003_certificats.json",
+      "sha256": "c47ba89e3a08a69c9256d99013b41f449245408d9d1c918078a6b70b6d6eb5ca",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Bonne séparation conception, navigabilité et immatriculation ; ajouter un dossier documentaire avec défauts et décisions motivées.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_004",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_004_airspace.json",
+      "sha256": "41244ed248ae077c0369c281064c2d066ea24948062c8ecdbe3e078e502c1162",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "La clairance en D est explicitée ; manque une coupe d'espace avec références verticales, horaires et route de contournement.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_005",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_005_flight_rules.json",
+      "sha256": "625caab7f28d93d873159af1702de72193c80b744059c38d212849cc126ac5a3",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "VFR/IFR et VMC/IMC bien distingués ; minima, VFR spécial, hauteurs minimales et niveaux de croisière restent à développer avec leurs conditions.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_006",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_006_sera.json",
+      "sha256": "4db75d94d4fd3b97bdb280a4d50338526fa682b7bf74264e0d73d19a1b9726a8",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Responsabilité et prévention correctement posées ; le renvoi à SERA.3210 ne suffit pas seul, relier explicitement au chapitre 012.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_007",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_007_flight_planning.json",
+      "sha256": "f408d39c64768909031fe873d56126815349ddfa0119955c27f6cc292938498c",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Le dépôt est distingué de la clairance ; les cas de dépôt, délais, changements et compte rendu d'arrivée ne sont pas effectivement enseignés.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_008",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_008_ats.json",
+      "sha256": "12394a7ec11bbfce1c5618d422eec3bcb84ad563bfbc307e7857f715116ca6a2",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Contrôle, information et alerte distingués ; montrer des échanges ATC/AFIS et les décisions restant au pilote.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_009",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_009_emergencies.json",
+      "sha256": "c2d77fb9a88898cd5030ae9090b63408d2dfe43cf036986601e36add9b9e4489",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Définition de détresse corrigée FR/EN et SVG ; messages et situations restent trop génériques, utiliser le chapitre COM_002 comme approfondissement.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_010",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_010_documentation.json",
+      "sha256": "382e43a8898a4854fa71ee5593e088b000f2f2c0ea20f94fec49922181447109",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Checklist de principes sans pièces à examiner ; ajouter un dossier fictif avec échéances, équipements et exceptions documentaires explicites.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_011",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_011_application.json",
+      "sha256": "e29ca7d7e83385c904984e7c82442ac22760b8cc3bc45e67c9ab2c030c1c8d17",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Seuils et références du tableau VMC explicités, exemples utiles ; les réductions françaises, le SVFR et la nuit sont volontairement exclus et restent à traiter ailleurs.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_012",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_012_application.json",
+      "sha256": "5692c69147d05514d033e045f7c2c5d83cc88e1fd3d7ea6325ea7e1402768664",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Situations de priorité et exceptions enseignées ; ajouter des géométries inédites et un exercice de lecture de signalisation au sol.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AIRLAW_013",
+      "path": "content/fr/ppl/air_law/PPL_AIRLAW_013_application.json",
+      "sha256": "d848e3ac7c18daa3a10fc2f16091174dafd45e48a9b270057928633f1edc39c2",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Distinction accès, séparation, information, RMZ et TMZ solide ; appliquer à une route avec limites et horaires, pas seulement reconnaître des définitions.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AC_001",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_001_aircraft_structure.json",
+      "sha256": "6f82822d93f706f85427c01c09959497a787e4200a3f1756108aa71f6635a0b7",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Efforts et rôle structural du revêtement expliqués ; manque une lecture de schéma associant pièce, effort, dommage et limite de l'observation du pilote.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AC_002",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_002_powerplant.json",
+      "sha256": "90b9152712127ee5591f170c4f0df4a267bda3f59dda2aaa52dc074634ee8310",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Magnétos et givrage carburateur correctement différenciés ; approfondir cycle, richesse, hélice à pas variable et effets sur les indications.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AC_003",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_003_systems.json",
+      "sha256": "6374d3a642540ad6c33f94adb4ad0b8d2e57844c58783f1578c3fe723e0edbf5",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Carburant utilisable et dépendances électriques expliqués ; pas de circuit à suivre ni bilan chiffré de consommation électrique.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AC_004",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_004_instruments.json",
+      "sha256": "66566aeef684d3069a3f3f100f4bdc0dfefe8371b42636ab50885428f7083a33",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Sources de pression et indépendance abordées ; pas de comportement détaillé des gyroscopes, compas ou cas d'indications combinées.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AC_005",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_005_electronics.json",
+      "sha256": "a13c32ea3508a1f16d16c9e53b23e6623ab0e34952859e5126aabfecaf9c4264",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Bonne distinction altitude transmise/QNH et position/base cartographique ; compléter les modes du transpondeur et un scénario de perte de moyens.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AC_006",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_006_performance.json",
+      "sha256": "ce2c358f29de31b41e8b43b21390c8a31ae5c10b34fe6bf5a2504583ccc57eb7",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Écarte les conclusions abusives sur une marge de piste ; reste une introduction, à relier aux calculs détaillés de masse et performances.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AC_007",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_007_flight_controls.json",
+      "sha256": "160b119420e1f41f10758ef8393a014de5bd321c71403f1ba21c0846e160a6dc",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Axes, gouvernes et incidence distincts ; approfondir lacet inverse et effets secondaires par une séquence dessinée.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_AC_008",
+      "path": "content/fr/ppl/aircraft_general/PPL_AC_008_limitations.json",
+      "sha256": "6c6af8d31ccd54bc4894c37bf62ee7c996162640d5a2430fbc65eb47aff3e91e",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "VA n'est pas présentée comme une protection absolue ; manque une lecture concrète de plage instrumentale et de tableau de limitations.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_COM_001",
+      "path": "content/fr/ppl/communications/PPL_COM_001_course.json",
+      "sha256": "70800721fc58a3fa7d4ffd4affe4712940c9f47b68199231c0df2bc5f9076bd2",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Approfondi, à consolider",
+      "observations": "Échange construit, éléments de collationnement et ambiguïtés expliqués ; approfondi, mais alphabet et prononciation complète restent à travailler oralement.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_COM_002",
+      "path": "content/fr/ppl/communications/PPL_COM_002_course.json",
+      "sha256": "f176bdbafc75834c1c809882edf84e64160c1d7b6de28a773ac8fb817324478a",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Approfondi, à consolider",
+      "observations": "Procédure VFR, signaux et messages concrets ; ambiguïté anglaise serious/imminent corrigée en serious and imminent ; entraînement oral et procédures locales restent nécessaires.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_EMG_001",
+      "path": "content/fr/ppl/emergency/PPL_EMG_001_course.json",
+      "sha256": "9a74995bc845c48e43d34404bf5f54a30db1393cfc967a35de6d2eb32cfebfa5",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Comparaison temps/distance utile ; ajouter un cas combinant météo, carburant et aptitude du terrain avec données nouvelles.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_FP_001",
+      "path": "content/fr/ppl/flight_planning/PPL_FP_001_course.json",
+      "sha256": "925fec499966d2e94d2b2eb2a4bed8783876306b862516b04b4581bfc822b7a5",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Autonomie/range précisés, rayon avec retour distingué ; absence de bilan complet et de méthode chiffrée de réserve applicable : reprise prioritaire.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_HP_001",
+      "path": "content/fr/ppl/human_performance/PPL_HP_001_course.json",
+      "sha256": "45bdd33fe5173a5631f96d5cbde29444a2052c1534ed8503da943debc4e5f052",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "L'aptitude administrative est distinguée de l'état du jour ; manque un cas cumulatif et une démarche de décision plus détaillée.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_HP_002",
+      "path": "content/fr/ppl/human_performance/PPL_HP_002_course.json",
+      "sha256": "5d2b70fdbb0e8657ab7d14981a033082ec3db6727eeb0ed5d6119b725d5bc51b",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Biais et attention limités expliqués ; mettre en scène des indices contradictoires pour vérifier une décision, au-delà de nommer un biais.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_HP_003",
+      "path": "content/fr/ppl/human_performance/PPL_HP_003_application.json",
+      "sha256": "23ba6b7f6b01db0e6529f6c87ba5df2629578a33c3c8c455749ee3cb594a832d",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Mécanismes hypoxie, CO, hyperventilation et vision expliqués ; développer des cas comparatifs et limites du diagnostic sans inventer une procédure médicale universelle.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_INS_001",
+      "path": "content/fr/ppl/instrumentation/PPL_INS_001_course.json",
+      "sha256": "8b4b688d71139c5e45e40adfe0f247c604df145b5ef96ea5718d57ccbf380d05",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "IAS/CAS/EAS/TAS/GS distinctes et exemple de temps correct ; il manque une lecture de tableau de correction propre à un avion fictif.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_INS_002",
+      "path": "content/fr/ppl/instrumentation/PPL_INS_002_course.json",
+      "sha256": "bc4105fce5cfc56157d7626e8f1018fe82f44bbdd1b0bed6f057b96a36638d73",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Accord des instruments et indépendance correctement distingués ; le blocage statique reste qualitatif, sans dossier permettant de comparer des hypothèses.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MB_001",
+      "path": "content/fr/ppl/mass_and_balance/PPL_MB_001_course.json",
+      "sha256": "870cfda94a52cfac78c7628db8c4ed326fdeb6b7a6bdf55fccf84ab749eee46d",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Méthode masse/moment correcte ; exemple sans enveloppe, à poursuivre explicitement avec MB_002.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MB_002",
+      "path": "content/fr/ppl/mass_and_balance/PPL_MB_002_application.json",
+      "sha256": "b3f2e194cfa48c6b3d8df2361963438edce8e3f630c9eb5f6a2cc41e85c7276d",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Approfondi, à consolider",
+      "observations": "Méthode, contrôle de vraisemblance, enveloppe et changements d'état détaillés ; ajouter davantage de données indépendantes du cas résolu pour évaluer le transfert.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MET_001",
+      "path": "content/fr/ppl/meteo/PPL_MET_001_atmosphere.json",
+      "sha256": "83e612781a961bebf18b48d9a9bf04e126753c8a772ff4b05cd63be1f0702774",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "ISA et atmosphère réelle distinguées ; structure, stabilité et relations pression/température/densité restent peu développées.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MET_002",
+      "path": "content/fr/ppl/meteo/PPL_MET_002_pressure.json",
+      "sha256": "e569c854d8aea70065eb92540610ecef1d892144acda2612a47bfcf5d173d80d",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Références QNH/QFE/standard et sens des erreurs décrits ; aucun calcul de changement de calage ou cas de transition : reprise prioritaire.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MET_003",
+      "path": "content/fr/ppl/meteo/PPL_MET_003_temperature.json",
+      "sha256": "3c4898f0ffc65e128f1e209da38b71fe0eabd9c984c4a9f3a2fca21d433ae8fe",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Point de rosée correctement interprété sans prédire automatiquement le brouillard ; manque l'explication progressive des gradients sec/saturé et de la stabilité.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MET_004",
+      "path": "content/fr/ppl/meteo/PPL_MET_004_wind.json",
+      "sha256": "dd8d18e7697a89ce945f359e24cf9250023cf14c3710f851e955ca63e46f395d",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Composantes chiffrées cohérentes ; gradient de pression, Coriolis, frottement et brises sont évoqués sans mécanisme suffisamment développé.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MET_005",
+      "path": "content/fr/ppl/meteo/PPL_MET_005_clouds.json",
+      "sha256": "f3930e1bf08eaf13d5ece8da835ef14d92af090df4b7d9f18e4255d7155bfd36",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Conversion hauteur/altitude correcte ; familles de nuages trop générales, identification et association aux phénomènes à approfondir.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MET_006",
+      "path": "content/fr/ppl/meteo/PPL_MET_006_visibility.json",
+      "sha256": "311df7e59b67be935f2e0768a64251f9930baac8ec36b0b8d5ddf66087733487",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Brouillards et contraste distingués ; comparer des observations réelles/fictives et les conditions de formation et dissipation.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MET_007",
+      "path": "content/fr/ppl/meteo/PPL_MET_007_air_masses.json",
+      "sha256": "d25bb9c3aba12b94054f9bbc3ad3601eae31e6dfd3124a5a0dedd74a033e41ed",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Les modèles de fronts ne sont pas présentés comme des certitudes ; manque une coupe verticale et une chronologie de passage détaillée.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MET_008",
+      "path": "content/fr/ppl/meteo/PPL_MET_008_hazards.json",
+      "sha256": "b674a7a873dcbcd3f345615cca8f9d0cd8e498d293b1a93b0e8df1fd3dc8aafb",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Dangers identifiés mais peu expliqués ; approfondir formation des orages, rafales descendantes, givrage et lecture d'un dossier daté.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MET_009",
+      "path": "content/fr/ppl/meteo/PPL_MET_009_metar_taf.json",
+      "sha256": "545b4ac84dbc1e64c8a8493a12b4fd48e7d0732df4761cf6092910787ed9521b",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Approfondi, à consolider",
+      "observations": "Bulletins complets, frise, conditions CAVOK et variations TAF expliqués ; approfondi, SIGMET encore traité par une fiche décodée plutôt qu'un message codé complet.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_MET_010",
+      "path": "content/fr/ppl/meteo/PPL_MET_010_flight_weather.json",
+      "sha256": "2fe782c8e8caeb7a08c4d479716bb796aac95a011d217aa2a33518d5547858a2",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Bonne démarche de réévaluation ; pas de dossier route/retour/dégagement avec heures et marges chiffrées.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_NAV_001",
+      "path": "content/fr/ppl/navigation/PPL_NAV_001_basics.json",
+      "sha256": "e44c7a6c033efac1e05631c43449ff8ce9e33541ee4aea297485e009b40e2b5c",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Références et conversion vrai/magnétique correctes ; traiter aussi la déviation du compas avec un exemple complet.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_NAV_002",
+      "path": "content/fr/ppl/navigation/PPL_NAV_002_charts.json",
+      "sha256": "eda2d46e8fbd29edb1b39f40c0f15fe8300579f4b12f657d612d4f5463aefbc3",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Échelle et altitude/hauteur correctement illustrées par calcul ; manque une vraie lecture de légende et de carte avec plusieurs contraintes.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_NAV_003",
+      "path": "content/fr/ppl/navigation/PPL_NAV_003_dead_reckoning.json",
+      "sha256": "36f7286c6ef6c67fb0e84263f6f009d15287e09eb3062599770fcf72aa9f0222",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Calcul de temps correct ; la règle 1 pour 60 est citée sans calcul ici, à articuler avec NAV_009 et un contrôle de position autonome.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_NAV_004",
+      "path": "content/fr/ppl/navigation/PPL_NAV_004_radio_nav.json",
+      "sha256": "02fa7299e00dcd80809e8bb1ebaae93d9d54d471e7652fccd0ae0bba21bc00bc",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Radial, relèvement et distance oblique distincts ; pas de panneau VOR/ADF à interpréter, ni exercice DME chiffré.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_NAV_005",
+      "path": "content/fr/ppl/navigation/PPL_NAV_005_gps.json",
+      "sha256": "c0c8c7cda671e263128f61f7300c7e60f9f593ffcea83a9d1cbdf229f6970bbf",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Position, carte, intégrité et altitude séparées ; mettre en pratique une panne ou un leurrage avec des indices concurrents.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_NAV_006",
+      "path": "content/fr/ppl/navigation/PPL_NAV_006_flight_log.json",
+      "sha256": "0f01053de349ab3d9f5c499f7aa99eff68acb3e9e57a8db9f781b7265411f647",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Temps et consommation bien calculés ; un log entier avec écarts et nouvelle heure d'arrivée manque.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_NAV_007",
+      "path": "content/fr/ppl/navigation/PPL_NAV_007_visual_fixes.json",
+      "sha256": "6377c81aa33ee538224120dacb401b8310fda36bd529036b5a0abe710c4324c8",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Identification croisée et incertitude expliquées ; une carte et deux repères plausibles sont nécessaires pour exercer réellement la compétence.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_NAV_008",
+      "path": "content/fr/ppl/navigation/PPL_NAV_008_flight_planning_nav.json",
+      "sha256": "cc7df2dbe0d534f438abf057d10c27c167188ad4c9b3a8f18112319a455b3c0d",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Préparation décrite comme une combinaison de contraintes ; pas de dossier complet obligeant à accepter, modifier ou refuser une route.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_NAV_009",
+      "path": "content/fr/ppl/navigation/PPL_NAV_009_application.json",
+      "sha256": "9c5ac5a1d10b13c6c32c5eddd4ac7fcc813e7f49641a07b6f4c85e40fa9eacb7",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Triangle du vent et interception 1 pour 60 chiffrés et cohérents ; poursuivre par une route et un vent nouveaux, avec contrôle de signe.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_OP_001",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_001_preflight.json",
+      "sha256": "7a5fdce6d9b2f1021eaef256dea5aea425d624d6bd5d9fc4890bd70a2004d131",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Interruption et reprise de checklist bien abordées ; préciser comment confronter observation et documentation sur un cas de prévol.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_OP_002",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_002_taxi_takeoff.json",
+      "sha256": "aa44dab07f2e81126c81d598386e6a1fc62868f6a6b2a099031c1f634b2d4634",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Limites de clairance et briefing correctement séparés ; manque un schéma de roulage, signalisation et décision d'arrêt contextualisée.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_OP_003",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_003_landing.json",
+      "sha256": "cbf9c0944bf3a744b71ff4d93571c85ddfbff66412d50f511c3410a29cbb84a1",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Remise de gaz correctement valorisée ; mécanisme et déplacement des turbulences de sillage insuffisamment enseignés.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_OP_004",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_004_communication.json",
+      "sha256": "889cbcea72723eeb76ceda77a190ae118d8332c4ac2e7a88147059127688b1a3",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Rappels utiles mais chevauche COM_001 et RAD_001 ; créer un lien pédagogique ou une application distincte avec dialogue complet.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_OP_005",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_005_emergency_proc.json",
+      "sha256": "72e181df33cd1d974a44147ef8f576d1dfb121b5e7f132b92288ac851ba83b8f",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Priorités de pilotage et limites du diagnostic respectées ; les cas restent génériques, ajouter symptômes, contraintes et actions selon une fiche avion fictive.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_OP_006",
+      "path": "content/fr/ppl/operational_procedures/PPL_OP_006_human_factors.json",
+      "sha256": "20b913261ef03561dde84616a28cf3ae663542aebd6252ecdc14ede0dffcf114",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Menaces, erreurs et ressources distinguées ; exercice à embranchements nécessaire pour dépasser la reconnaissance de comportements souhaitables.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_PERF_001",
+      "path": "content/fr/ppl/performance/PPL_PERF_001_course.json",
+      "sha256": "7dfe1389ca442afd830977ebbf64065d14c6ad670d259d6680d1d0a53678fc39",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Interpolation, facteur et marge expliqués sans coefficient universel ; compléter par un cas nouveau et plusieurs contraintes simultanées.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_PERF_002",
+      "path": "content/fr/ppl/performance/PPL_PERF_002_course.json",
+      "sha256": "eb2b5b2a28fda6bb4da7a862c918f1c7ca93f20be8f30224d72f7ff23344403c",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Taux/pente et effet du vent bien chiffrés ; VX et VY nommées sans définir explicitement leurs objectifs, ce qui doit être complété.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_POF_001",
+      "path": "content/fr/ppl/principles_of_flight/PPL_POF_001_course.json",
+      "sha256": "b9169b7f9b42a39bb18c296b2e897d89145bfb945739366a86df12ee04133b56",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Incidence/assiette et forces distinguées ; approfondir vent relatif, évolution du coefficient de portance et courbe de traînée.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_POF_002",
+      "path": "content/fr/ppl/principles_of_flight/PPL_POF_002_course.json",
+      "sha256": "8cf2af26f0b27be17f805c6e144b49d464a895fbcc7b4e0e450ea1847a882f9f",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Modèle du facteur de charge et vitesse de décrochage cohérent ; manque l'explication des signes précurseurs et du rôle incidence/lacet dans l'amorce de vrille.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_POF_003",
+      "path": "content/fr/ppl/principles_of_flight/PPL_POF_003_application.json",
+      "sha256": "f35b3790e440527a3acecb7999e385cd00a9971c1222d7b2f5835686ea7132ca",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Application partielle",
+      "observations": "Stabilité statique/dynamique et effet de sol bien distingués ; ajouter une lecture de courbes et un cas de plané avec vent et marge.",
+      "official_exam_readiness": "not_established"
+    },
+    {
+      "module": "PPL_RAD_001",
+      "path": "content/fr/ppl/radio_procedure/PPL_RAD_001_course.json",
+      "sha256": "64d9f81e65572adae7b647df315a602896454956f4c3562efe29f5a79b91cc78",
+      "lesson_read_languages": [
+        "fr",
+        "en"
+      ],
+      "pedagogical_assessment": "Introduction à développer",
+      "observations": "Périmètre de clairance et biais d'attente expliqués ; recoupe COM_001, sans dialogue nouveau suffisamment développé.",
+      "official_exam_readiness": "not_established"
+    }
+  ]
+}

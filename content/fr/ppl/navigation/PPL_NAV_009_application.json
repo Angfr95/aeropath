@@ -1,0 +1,586 @@
+{
+  "metadata": {
+    "module_id": "PPL_NAV_009",
+    "program": "PPL",
+    "subject": "navigation",
+    "chapter_title": "Vent, cap et correction de route",
+    "chapter_title_en": "Wind, heading and track correction",
+    "learning_objective": "Expliquer et appliquer : vecteurs et conventions, triangle chiffré, erreur de route et interception.",
+    "learning_objective_en": "Explain and apply: vectors and conventions, numerical wind triangle, track error and interception.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": [],
+    "tags": [
+      "PPL",
+      "navigation"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-18",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "Référence du chapitre",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-nav-009.svg",
+      "alt": "Vent, cap et correction de route"
+    },
+    "exam_subject": "navigation",
+    "coverage_status": "partial"
+  },
+  "concepts": [
+    {
+      "concept_id": "PPL_NAV_009_C01",
+      "title": "Vecteurs et conventions",
+      "title_en": "Vectors and conventions",
+      "content": "![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)\n\nLa vitesse sol est la somme vectorielle de la vitesse vraie de l’avion dans l’air et du vent. Le vent météo est annoncé par la direction d’où il vient. Pour une route au nord, un vent de l’ouest pousse vers l’est : corriger le cap vers l’ouest. Ne pas additionner la vitesse totale du vent comme si elle était toujours de face ou arrière. Utiliser la même référence, vraie ou magnétique, pour route, cap et vent avant le calcul.",
+      "content_en": "![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)\n\nGround velocity is the vector sum of true air velocity and wind. Weather wind direction states where it comes from. On a northbound track, a westerly wind pushes east: correct heading west. Do not add total wind speed as though it were always headwind or tailwind. Use the same true or magnetic reference for track, heading and wind before calculation.",
+      "difficulty": "intermediate",
+      "tags": [
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Vecteurs et conventions"
+    },
+    {
+      "concept_id": "PPL_NAV_009_C02",
+      "title": "Triangle chiffré",
+      "title_en": "Numerical wind triangle",
+      "content": "Exercice fictif : route vraie 000°, TAS 100 kt, vent du 270° à 20 kt. Pour annuler la composante est du vent, la composante ouest de la vitesse air doit être 20 kt. L’angle de correction vaut arcsin(20/100) ≈ 11,5° vers l’ouest : cap vrai ≈ 348,5°. La vitesse sol vers le nord vaut √(100² − 20²) ≈ 98 kt. Avec un vent purement de face de 20 kt sur cette route, le cap resterait 000° et la vitesse sol serait 80 kt ; avec 20 kt arrière, 120 kt.",
+      "content_en": "Fictional exercise: true track 000°, TAS 100 kt, wind from 270° at 20 kt. To cancel the wind’s eastward component, air velocity needs a 20 kt westward component. Correction is arcsin(20/100) ≈ 11.5° west: true heading ≈ 348.5°. Northward groundspeed is √(100² − 20²) ≈ 98 kt. With a pure 20 kt headwind on that track, heading remains 000° and groundspeed is 80 kt; with a 20 kt tailwind, it is 120 kt.",
+      "difficulty": "intermediate",
+      "tags": [
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Triangle chiffré"
+    },
+    {
+      "concept_id": "PPL_NAV_009_C03",
+      "title": "Erreur de route et interception",
+      "title_en": "Track error and interception",
+      "content": "La règle du 1 pour 60 donne une approximation pour de petits angles : erreur en degrés ≈ 60 × écart latéral / distance parcourue, dans les mêmes unités. Après 30 NM, un écart de 2 NM à droite donne environ 4° d’erreur. Corriger de 4° vers la gauche empêche approximativement l’écart de continuer à croître mais ne ramène pas immédiatement sur la route. Pour rejoindre un point sur la route à 30 NM devant, ajouter environ 4° de fermeture : correction totale initiale environ 8° à gauche, puis reprendre la correction de maintien. Recouper avec les repères et le vent réel.",
+      "content_en": "The one-in-sixty rule approximates small angles: error in degrees ≈ 60 × lateral displacement / distance flown, using the same units. After 30 NM, 2 NM right of track means about 4° error. Correcting 4° left approximately stops further divergence but does not immediately regain track. To reach a point on track 30 NM ahead, add about 4° closing angle: initial total correction about 8° left, then use the maintaining correction. Cross-check landmarks and actual wind.",
+      "difficulty": "intermediate",
+      "tags": [
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Erreur de route et interception"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_NAV_009_C01",
+      "concept_title": "Vecteurs et conventions",
+      "level": 2,
+      "question": "Un vent du 270° vient de…",
+      "question_en": "A wind from 270° comes from…",
+      "options": [
+        "L’ouest",
+        "L’est",
+        "Le nord",
+        "Le sud"
+      ],
+      "options_en": [
+        "The west",
+        "The east",
+        "The north",
+        "The south"
+      ],
+      "correct_answer": "L’ouest",
+      "explanation": "La direction météo indique la provenance.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "Weather direction indicates origin.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C01",
+      "concept_title": "Vecteurs et conventions",
+      "level": 2,
+      "question": "Route au nord, vent de l’ouest : la dérive non corrigée est vers…",
+      "question_en": "Northbound track, westerly wind: uncorrected drift is towards…",
+      "options": [
+        "L’ouest",
+        "Le nord uniquement",
+        "Le bas",
+        "L’est"
+      ],
+      "options_en": [
+        "The west",
+        "Only the north",
+        "Downwards",
+        "The east"
+      ],
+      "correct_answer": "L’est",
+      "explanation": "Le vent pousse de l’ouest vers l’est.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "Wind pushes from west to east.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C01",
+      "concept_title": "Vecteurs et conventions",
+      "level": 2,
+      "question": "Route souhaitée au nord, vent de l’ouest : vers où corriger le cap pour maintenir la route ?",
+      "question_en": "Desired northbound track, westerly wind: which way should heading be corrected to maintain track?",
+      "options": [
+        "Le sud uniquement",
+        "Aucune correction quelle que soit la force",
+        "L’ouest",
+        "L’est"
+      ],
+      "options_en": [
+        "Only the south",
+        "No correction regardless of strength",
+        "The west",
+        "The east"
+      ],
+      "correct_answer": "L’ouest",
+      "explanation": "On compense en orientant la vitesse air vers le vent.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "Point the air velocity into wind to compensate.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C01",
+      "concept_title": "Vecteurs et conventions",
+      "level": 2,
+      "question": "Avant de combiner route, cap et vent, il faut…",
+      "question_en": "Before combining track, heading and wind, you must…",
+      "options": [
+        "Ignorer la provenance du vent",
+        "Utiliser une référence directionnelle cohérente",
+        "Mélanger vrai et magnétique sans conversion",
+        "Convertir tous les angles en litres"
+      ],
+      "options_en": [
+        "Ignore wind origin",
+        "Use a consistent directional reference",
+        "Mix true and magnetic without conversion",
+        "Convert all angles into litres"
+      ],
+      "correct_answer": "Utiliser une référence directionnelle cohérente",
+      "explanation": "Les vecteurs doivent être exprimés dans le même repère.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "Vectors must use the same reference.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C02",
+      "concept_title": "Triangle chiffré",
+      "level": 2,
+      "question": "TAS 100 kt, vent de face 20 kt : vitesse sol ?",
+      "question_en": "TAS 100 kt, headwind 20 kt: groundspeed?",
+      "options": [
+        "80 kt",
+        "120 kt",
+        "100 kt",
+        "20 kt"
+      ],
+      "options_en": [
+        "80 kt",
+        "120 kt",
+        "100 kt",
+        "20 kt"
+      ],
+      "correct_answer": "80 kt",
+      "explanation": "100 − 20 = 80 kt.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "100 − 20 = 80 kt.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C02",
+      "concept_title": "Triangle chiffré",
+      "level": 2,
+      "question": "TAS 100 kt, vent arrière 20 kt : vitesse sol ?",
+      "question_en": "TAS 100 kt, tailwind 20 kt: groundspeed?",
+      "options": [
+        "80 kt",
+        "100 kt",
+        "20 kt",
+        "120 kt"
+      ],
+      "options_en": [
+        "80 kt",
+        "100 kt",
+        "20 kt",
+        "120 kt"
+      ],
+      "correct_answer": "120 kt",
+      "explanation": "100 + 20 = 120 kt.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "100 + 20 = 120 kt.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C02",
+      "concept_title": "Triangle chiffré",
+      "level": 2,
+      "question": "Route 000°, TAS 100 kt, vent du 270°/20 kt : cap vrai approché ?",
+      "question_en": "Track 000°, TAS 100 kt, wind 270°/20 kt: approximate true heading?",
+      "options": [
+        "090°",
+        "180°",
+        "348,5°",
+        "011,5°"
+      ],
+      "options_en": [
+        "090°",
+        "180°",
+        "348.5°",
+        "011.5°"
+      ],
+      "correct_answer": "348,5°",
+      "explanation": "La correction est 11,5° à gauche : 360 − 11,5 = 348,5°.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "Correction is 11.5° left: 360 − 11.5 = 348.5°.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C02",
+      "concept_title": "Triangle chiffré",
+      "level": 2,
+      "question": "Route vraie 000°, TAS 100 kt, vent du 270° vrai à 20 kt, dérive corrigée : vitesse sol approchée ?",
+      "question_en": "True track 000°, TAS 100 kt, wind from 270° true at 20 kt, drift corrected: approximate groundspeed?",
+      "options": [
+        "20 kt",
+        "98 kt",
+        "120 kt",
+        "80 kt"
+      ],
+      "options_en": [
+        "20 kt",
+        "98 kt",
+        "120 kt",
+        "80 kt"
+      ],
+      "correct_answer": "98 kt",
+      "explanation": "√(100² − 20²) ≈ 98 kt.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "√(100² − 20²) ≈ 98 kt.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C02",
+      "concept_title": "Triangle chiffré",
+      "level": 2,
+      "question": "Route au nord, TAS 100 kt, vent du 270° à 20 kt : pourquoi ne pas soustraire simplement 20 kt au TAS ?",
+      "question_en": "Northbound track, TAS 100 kt, wind from 270° at 20 kt: why not simply subtract 20 kt from TAS?",
+      "options": [
+        "Le vent et la vitesse air ne sont pas colinéaires",
+        "Le vent n’a aucun effet",
+        "Le TAS est une distance",
+        "Le cap ne compte jamais"
+      ],
+      "options_en": [
+        "Wind and air velocity are not collinear",
+        "Wind has no effect",
+        "TAS is a distance",
+        "Heading never matters"
+      ],
+      "correct_answer": "Le vent et la vitesse air ne sont pas colinéaires",
+      "explanation": "Le calcul est vectoriel, pas une simple différence de modules.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "The calculation is vector addition, not simple subtraction of magnitudes.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C02",
+      "concept_title": "Triangle chiffré",
+      "level": 2,
+      "question": "À 80 kt sol, combien de temps pour 40 NM ?",
+      "question_en": "At 80 kt groundspeed, how long for 40 NM?",
+      "options": [
+        "20 min",
+        "40 min",
+        "60 min",
+        "30 min"
+      ],
+      "options_en": [
+        "20 min",
+        "40 min",
+        "60 min",
+        "30 min"
+      ],
+      "correct_answer": "30 min",
+      "explanation": "60 × 40 / 80 = 30 minutes.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "60 × 40 / 80 = 30 minutes.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C03",
+      "concept_title": "Erreur de route et interception",
+      "level": 2,
+      "question": "Écart de 2 NM après 30 NM : erreur approximative ?",
+      "question_en": "2 NM displacement after 30 NM: approximate track error?",
+      "options": [
+        "15°",
+        "60°",
+        "4°",
+        "2°"
+      ],
+      "options_en": [
+        "15°",
+        "60°",
+        "4°",
+        "2°"
+      ],
+      "correct_answer": "4°",
+      "explanation": "60 × 2 / 30 = 4°.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "60 × 2 / 30 = 4°.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C03",
+      "concept_title": "Erreur de route et interception",
+      "level": 2,
+      "question": "Le contrôle visuel confirme un écart à droite de la route prévue. Vers où corriger pour le réduire ?",
+      "question_en": "Visual cross-check confirms displacement to the right of planned track. Which way should you correct to reduce it?",
+      "options": [
+        "Uniquement monter",
+        "Gauche",
+        "Droite",
+        "Aucune"
+      ],
+      "options_en": [
+        "Only climb",
+        "Left",
+        "Right",
+        "None"
+      ],
+      "correct_answer": "Gauche",
+      "explanation": "Corriger vers la route, donc à gauche dans cet exemple.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "Correct towards track, left in this example.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C03",
+      "concept_title": "Erreur de route et interception",
+      "level": 2,
+      "question": "Corriger seulement l’erreur de route de 4° permet surtout de…",
+      "question_en": "Correcting only the 4° track error mainly…",
+      "options": [
+        "Limiter la divergence future",
+        "Rejoindre instantanément la route",
+        "Supprimer le vent",
+        "Doubler la vitesse sol"
+      ],
+      "options_en": [
+        "Limits further divergence",
+        "Instantly regains track",
+        "Eliminates wind",
+        "Doubles groundspeed"
+      ],
+      "correct_answer": "Limiter la divergence future",
+      "explanation": "Il reste un écart latéral à résorber avec un angle de fermeture.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "A lateral displacement remains and needs a closing angle.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C03",
+      "concept_title": "Erreur de route et interception",
+      "level": 2,
+      "question": "Écart 2 NM, point à rejoindre 30 NM devant : angle de fermeture approché ?",
+      "question_en": "2 NM displacement, target 30 NM ahead: approximate closing angle?",
+      "options": [
+        "30°",
+        "60°",
+        "0°",
+        "4°"
+      ],
+      "options_en": [
+        "30°",
+        "60°",
+        "0°",
+        "4°"
+      ],
+      "correct_answer": "4°",
+      "explanation": "60 × 2 / 30 = 4° de fermeture.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "60 × 2 / 30 = 4° closing angle.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_009_C03",
+      "concept_title": "Erreur de route et interception",
+      "level": 2,
+      "question": "Erreur 4° et fermeture 4° vers la gauche : correction totale initiale ?",
+      "question_en": "4° error and 4° closing angle to the left: initial total correction?",
+      "options": [
+        "0°",
+        "16° droite",
+        "8° gauche",
+        "4° droite"
+      ],
+      "options_en": [
+        "0°",
+        "16° right",
+        "8° left",
+        "4° right"
+      ],
+      "correct_answer": "8° gauche",
+      "explanation": "Ajouter maintien et fermeture : 4 + 4 = 8° gauche.\n\n![Vent, cap et correction de route](/illustrations/ppl-nav-009.svg)",
+      "explanation_en": "Add maintaining and closing corrections: 4 + 4 = 8° left.\n\n![PPL_NAV_009](/illustrations/en/ppl-nav-009.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      ]
+    }
+  ]
+}

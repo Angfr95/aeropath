@@ -1,0 +1,642 @@
+{
+  "metadata": {
+    "module_id": "LAPL_AIRLAW_013",
+    "program": "LAPL",
+    "subject": "air_law",
+    "chapter_title": "Classes d’espace et services ATS",
+    "chapter_title_en": "Airspace classes and ATS services",
+    "learning_objective": "Expliquer et appliquer : identifier le volume et les conditions, comparer c et d en vfr, comprendre e, f et g, rmz et tmz.",
+    "learning_objective_en": "Explain and apply: identify the volume and conditions, compare c and d for vfr, understand e, f and g, rmz and tmz.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": [
+      "PPL_AIRLAW_011"
+    ],
+    "tags": [
+      "LAPL",
+      "air_law"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "Référence du chapitre",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-airlaw-013.svg",
+      "alt": "Classes d’espace et services ATS"
+    },
+    "exam_subject": "airlaw",
+    "coverage_status": "partial",
+    "derived_from": "PPL_AIRLAW_013",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_AIRLAW_013_C01",
+      "title": "Identifier le volume et les conditions",
+      "title_en": "Identify the volume and conditions",
+      "content": "![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)\n\nObjectif : séparer trois décisions : accès autorisé, équipement exigé et service effectivement fourni. Vérifier sur les publications à jour les limites latérales et verticales, les horaires, les zones et NOTAM. Une classe n’est pas une autorisation de pénétration. La classe A admet seulement les vols IFR. Les classes B à G admettent IFR et VFR, sous les conditions applicables. La classe B sépare tous les vols entre eux. Toutes les classes ne sont pas nécessairement utilisées dans chaque pays. Les minima VMC, les restrictions locales et la clairance éventuelle se vérifient séparément. Les unités d’affichage et la langue ne changent pas le cadre européen de ce cours.",
+      "content_en": "![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)\n\nObjective: separate three decisions: permission to enter, required equipment and service actually provided. Check current publications for lateral and vertical limits, operating hours, zones and NOTAMs. A class designation is not an entry authorisation. Class A admits IFR only. Classes B through G admit IFR and VFR subject to applicable conditions. Class B separates all flights from each other. Not every class is necessarily used in every country. Check VMC minima, local restrictions and any clearance requirement separately. Display units and language do not change this course’s European regulatory framework.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "regulatory_reference": "SERA.6001",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Identifier le volume et les conditions"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C02",
+      "title": "Comparer C et D en VFR",
+      "title_en": "Compare C and D for VFR",
+      "content": "En C et D, les vols VFR nécessitent clairance ATC et communications radio bilatérales continues. En C, l’ATC sépare les IFR des IFR et des VFR : un VFR reçoit donc une séparation vis-à-vis des IFR, mais seulement des informations de trafic sur les autres VFR, avec conseil d’évitement sur demande. En D, les IFR sont séparés des autres IFR ; le VFR reçoit des informations de trafic sur les autres vols et des conseils d’évitement sur demande, sans séparation ATC systématique en VFR normal. Exemple : deux VFR en C ne doivent pas déduire de leur clairance qu’ils sont séparés entre eux. La surveillance extérieure reste nécessaire dans les deux classes.",
+      "content_en": "In C and D, VFR flights require ATC clearance and continuous two-way radio communication. In C, ATC separates IFR from IFR and VFR: a VFR flight therefore receives separation from IFR, but traffic information about other VFR flights, with avoidance advice on request. In D, IFR flights are separated from other IFR flights; a VFR flight receives information about other traffic and avoidance advice on request, without systematic ATC separation for normal VFR. Example: two VFR flights in C must not infer from their clearances that they are separated from each other. Outside lookout remains necessary in both classes.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "regulatory_reference": "SERA.6001(c)-(d)",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Comparer C et D en VFR"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C03",
+      "title": "Comprendre E, F et G",
+      "title_en": "Understand E, F and G",
+      "content": "En E, les IFR sont contrôlés et séparés des autres IFR. Le VFR normal ne requiert pas de clairance du seul fait de la classe E ; l’information de trafic est fournie dans la mesure du possible. Des exigences supplémentaires, notamment une RMZ, peuvent imposer la radio. La classe E ne sert pas à une zone de contrôle CTR. En F, les IFR participants reçoivent un service consultatif ; cette classification est temporaire. En F et G, un service d’information de vol est disponible sur demande et la classe seule n’impose pas de clairance ATC. Un contact avec un service d’information de vol ne signifie pas séparation assurée. En VFR, la limite générale est 250 kt IAS sous 10 000 ft AMSL en C à G, sous réserve des exceptions autorisées.",
+      "content_en": "In E, IFR flights are controlled and separated from other IFR flights. Normal VFR does not require clearance solely because the airspace is E; traffic information is provided as far as practicable. Additional requirements, such as an RMZ, may require radio. E is not used for a control zone (CTR). In F, participating IFR flights receive an advisory service; this classification is temporary. In F and G, flight information service is available on request and the class alone does not require ATC clearance. Contact with a flight information service does not mean separation is provided. For VFR, the general speed limit is 250 kt IAS below 10,000 ft AMSL in C through G, subject to authorised exceptions.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "regulatory_reference": "SERA.6001(e)-(g)",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Comprendre E, F et G"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C04",
+      "title": "RMZ et TMZ",
+      "title_en": "RMZ and TMZ",
+      "content": "Une RMZ est une zone à utilisation obligatoire de radio. Pour le VFR en E, F ou G désigné RMZ, maintenir l’écoute et établir les communications bilatérales nécessaires, sauf dispositions alternatives publiées par le prestataire. Avant l’entrée, l’appel initial comporte la station appelée, l’indicatif, le type d’aéronef, la position, le niveau et les intentions, ainsi que les autres éléments prescrits. Une TMZ impose un transpondeur SSR fonctionnel en modes A et C, ou S, sauf dispositions alternatives prescrites ; le mode A seul ne suffit pas. RMZ et TMZ sont publiées dans l’AIP et peuvent se superposer. Ce sont des exigences distinctes, pas de nouvelles classes. Vérifier les procédures locales avant le vol.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "An RMZ is a radio mandatory zone. For VFR in E, F or G designated as an RMZ, maintain a listening watch and establish the necessary two-way communication unless the provider publishes alternative provisions. Before entry, the initial call includes the called station, callsign, aircraft type, position, level and intentions, plus other prescribed information. A TMZ requires an operating SSR transponder in modes A and C, or S, unless prescribed alternatives apply; mode A alone is insufficient. RMZs and TMZs are published in the AIP and can overlap. They are separate requirements, not new classes. Check local procedures before flight.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "regulatory_reference": "SERA.6005",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "RMZ et TMZ"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_AIRLAW_013_C01",
+      "concept_title": "Identifier le volume et les conditions",
+      "level": 2,
+      "question": "Vous prévoyez un transit VFR dans une classe A. Que conclure de la classification standard ?",
+      "question_en": "You plan a VFR transit through class A. What follows from the standard classification?",
+      "options": [
+        "Seuls les vols IFR y sont admis",
+        "Un contact radio autorise le VFR",
+        "Le VFR est admis sans clairance",
+        "Le VFR est admis seulement avec transpondeur"
+      ],
+      "options_en": [
+        "Only IFR flights are admitted",
+        "Radio contact authorises VFR",
+        "VFR is admitted without clearance",
+        "VFR is admitted only with a transponder"
+      ],
+      "correct_answer": "Seuls les vols IFR y sont admis",
+      "explanation": "SERA.6001 réserve la classe A aux vols IFR.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "SERA.6001 reserves class A for IFR flights.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6001",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C01",
+      "concept_title": "Identifier le volume et les conditions",
+      "level": 2,
+      "question": "Une carte montre un espace sur votre route. Quelle vérification permet de savoir si votre trajectoire le traverse réellement ?",
+      "question_en": "A chart shows airspace along your route. What determines whether your flight path actually enters it?",
+      "options": [
+        "La couleur seule, sans légende",
+        "Le nom de l’aéroport voisin uniquement",
+        "La langue choisie dans l’application",
+        "Limites latérales et verticales, activité et informations à jour"
+      ],
+      "options_en": [
+        "Colour alone, without a legend",
+        "Only the nearby airport’s name",
+        "The language selected in the application",
+        "Lateral and vertical limits, activity and current information"
+      ],
+      "correct_answer": "Limites latérales et verticales, activité et informations à jour",
+      "explanation": "L’espace est un volume dont les conditions publiées et l’activité doivent être vérifiées.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "Airspace is a volume whose published conditions and activity must be checked.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6001",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C01",
+      "concept_title": "Identifier le volume et les conditions",
+      "level": 2,
+      "question": "Quelle classe fournit une séparation ATC entre tous les vols IFR et VFR ?",
+      "question_en": "Which class provides ATC separation between all IFR and VFR flights?",
+      "options": [
+        "E",
+        "G",
+        "B",
+        "D"
+      ],
+      "options_en": [
+        "E",
+        "G",
+        "B",
+        "D"
+      ],
+      "correct_answer": "B",
+      "explanation": "En classe B, tous les vols sont séparés entre eux.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "In B, all flights are separated from each other.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6001",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C02",
+      "concept_title": "Comparer C et D en VFR",
+      "level": 2,
+      "question": "Vous êtes VFR en classe C. De quel trafic recevez-vous une séparation ATC ?",
+      "question_en": "You are VFR in class C. From which traffic do you receive ATC separation?",
+      "options": [
+        "D’aucun trafic",
+        "Des IFR",
+        "De tous les VFR seulement",
+        "De tous les vols sans distinction"
+      ],
+      "options_en": [
+        "No traffic",
+        "IFR flights",
+        "Only all VFR flights",
+        "All flights without distinction"
+      ],
+      "correct_answer": "Des IFR",
+      "explanation": "En C, la séparation IFR/VFR est assurée ; les autres VFR font l’objet d’informations de trafic.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "In C, IFR/VFR separation is provided; other VFR flights are subject to traffic information.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6001(c)-(d)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C02",
+      "concept_title": "Comparer C et D en VFR",
+      "level": 2,
+      "question": "Deux VFR disposent chacun d’une clairance en classe C. Leur séparation mutuelle est-elle systématiquement assurée par l’ATC ?",
+      "question_en": "Two VFR flights each have clearance in class C. Does ATC systematically separate them from each other?",
+      "options": [
+        "Non, ils reçoivent des informations de trafic",
+        "Oui, comme en classe B",
+        "Oui, uniquement sous 10 000 ft",
+        "Oui, s’ils parlent anglais"
+      ],
+      "options_en": [
+        "No, they receive traffic information",
+        "Yes, as in class B",
+        "Yes, only below 10,000 ft",
+        "Yes, if they speak English"
+      ],
+      "correct_answer": "Non, ils reçoivent des informations de trafic",
+      "explanation": "Ne pas confondre séparation et information de trafic.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "Do not confuse separation with traffic information.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6001(c)-(d)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C02",
+      "concept_title": "Comparer C et D en VFR",
+      "level": 2,
+      "question": "En VFR normal en classe D, quel service attendre vis-à-vis d’un IFR ?",
+      "question_en": "In normal VFR in class D, what service should you expect concerning an IFR flight?",
+      "options": [
+        "Séparation ATC systématique IFR/VFR",
+        "Aucun renseignement de trafic possible",
+        "Une priorité absolue sur l’IFR",
+        "Information de trafic et conseil d’évitement sur demande"
+      ],
+      "options_en": [
+        "Systematic ATC IFR/VFR separation",
+        "No traffic information can be provided",
+        "Absolute priority over IFR",
+        "Traffic information and avoidance advice on request"
+      ],
+      "correct_answer": "Information de trafic et conseil d’évitement sur demande",
+      "explanation": "La séparation IFR/VFR de la classe C ne doit pas être transférée à la classe D.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "Class C IFR/VFR separation must not be assumed in D.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6001(c)-(d)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C02",
+      "concept_title": "Comparer C et D en VFR",
+      "level": 2,
+      "question": "La station vous répond avec votre indicatif mais ne vous autorise pas à entrer en classe D. Pouvez-vous pénétrer ?",
+      "question_en": "The station replies with your callsign but does not clear entry into class D. May you enter?",
+      "options": [
+        "Oui, en respectant seulement les minima VMC",
+        "Oui, après avoir affiché un code transpondeur",
+        "Non, obtenir la clairance requise",
+        "Oui, l’accusé de réception suffit"
+      ],
+      "options_en": [
+        "Yes, by meeting VMC minima alone",
+        "Yes, after setting a transponder code",
+        "No, obtain the required clearance",
+        "Yes, acknowledgement is sufficient"
+      ],
+      "correct_answer": "Non, obtenir la clairance requise",
+      "explanation": "Un contact radio n’est pas une clairance ATC.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "Radio contact is not an ATC clearance.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6001(c)-(d)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C03",
+      "concept_title": "Comprendre E, F et G",
+      "level": 2,
+      "question": "En VFR normal en classe E, sans zone ni restriction supplémentaire, la classe seule impose-t-elle une clairance ?",
+      "question_en": "In normal VFR in class E, with no additional zone or restriction, does the class alone require clearance?",
+      "options": [
+        "Oui, seulement avec un moteur à pistons",
+        "Non",
+        "Oui, pour tous les VFR",
+        "Oui, seulement si le ciel est dégagé"
+      ],
+      "options_en": [
+        "Yes, only with a piston engine",
+        "No",
+        "Yes, for every VFR flight",
+        "Yes, only in clear skies"
+      ],
+      "correct_answer": "Non",
+      "explanation": "En E, le contrôle et la clairance concernent les IFR ; vérifier les exigences supplémentaires applicables au VFR.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "In E, control and clearance apply to IFR; check additional requirements applicable to VFR.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6001(e)-(g)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C03",
+      "concept_title": "Comprendre E, F et G",
+      "level": 2,
+      "question": "En classe G, vous contactez un service d’information de vol. Cela garantit-il votre séparation des autres aéronefs ?",
+      "question_en": "In class G, you contact a flight information service. Does this guarantee separation from other aircraft?",
+      "options": [
+        "Non",
+        "Oui, dès le premier appel",
+        "Oui, avec un code transpondeur attribué",
+        "Oui, si vous transmettez votre altitude"
+      ],
+      "options_en": [
+        "No",
+        "Yes, from the first call",
+        "Yes, with an assigned transponder code",
+        "Yes, if you report altitude"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Le service d’information de vol ne fournit pas une séparation ATC.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "Flight information service does not provide ATC separation.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6001(e)-(g)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C03",
+      "concept_title": "Comprendre E, F et G",
+      "level": 2,
+      "question": "En VFR à 5 000 ft AMSL en classe D, sans exception autorisée, quelle limite générale IAS s’applique ?",
+      "question_en": "VFR at 5,000 ft AMSL in class D, with no authorised exception: which general IAS limit applies?",
+      "options": [
+        "200 kt",
+        "300 kt",
+        "Aucune limite liée à la classe",
+        "250 kt"
+      ],
+      "options_en": [
+        "200 kt",
+        "300 kt",
+        "No class-related limit",
+        "250 kt"
+      ],
+      "correct_answer": "250 kt",
+      "explanation": "La limite générale de 250 kt IAS s’applique au VFR sous 10 000 ft AMSL en C à G.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "The general 250 kt IAS limit applies to VFR below 10,000 ft AMSL in C through G.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6001(e)-(g)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C03",
+      "concept_title": "Comprendre E, F et G",
+      "level": 2,
+      "question": "Quel service caractérise les IFR participants en classe F ?",
+      "question_en": "Which service characterises participating IFR flights in class F?",
+      "options": [
+        "Clairance VFR obligatoire comme en D",
+        "Absence de tout service possible",
+        "Service consultatif de la circulation aérienne",
+        "Séparation de tous les vols comme en B"
+      ],
+      "options_en": [
+        "Mandatory VFR clearance as in D",
+        "No service can be available",
+        "Air traffic advisory service",
+        "Separation of all flights as in B"
+      ],
+      "correct_answer": "Service consultatif de la circulation aérienne",
+      "explanation": "La classe F prévoit un service consultatif pour les IFR participants et une information de vol sur demande.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "F provides advisory service for participating IFR and flight information on request.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6001(e)-(g)",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C04",
+      "concept_title": "RMZ et TMZ",
+      "level": 2,
+      "question": "Votre route VFR traverse une RMZ en classe G. Sans disposition alternative, quelle préparation est nécessaire ?",
+      "question_en": "Your VFR route crosses an RMZ in class G. Without alternative provisions, what is required?",
+      "options": [
+        "Un appel seulement après la sortie",
+        "Appel initial avant l’entrée, écoute et communications requises",
+        "Aucune radio puisque la classe est G",
+        "Un transpondeur seul remplace la radio"
+      ],
+      "options_en": [
+        "A call only after exit",
+        "Initial call before entry, listening watch and required communication",
+        "No radio because the class is G",
+        "A transponder alone replaces radio"
+      ],
+      "correct_answer": "Appel initial avant l’entrée, écoute et communications requises",
+      "explanation": "La RMZ ajoute une exigence radio à la classe de base.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "An RMZ adds a radio requirement to the underlying class.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6005",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C04",
+      "concept_title": "RMZ et TMZ",
+      "level": 2,
+      "question": "Quel message initial convient avant une entrée en RMZ ?",
+      "question_en": "Which initial call is appropriate before RMZ entry?",
+      "options": [
+        "Station, indicatif, type, position, niveau et intentions",
+        "Indicatif seul sans position",
+        "Nombre de passagers uniquement",
+        "Message après l’entrée sans niveau"
+      ],
+      "options_en": [
+        "Station, callsign, type, position, level and intentions",
+        "Callsign alone without position",
+        "Passenger count only",
+        "Message after entry without level"
+      ],
+      "correct_answer": "Station, indicatif, type, position, niveau et intentions",
+      "explanation": "SERA.6005 énumère ces éléments, complétés par les informations prescrites localement.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "SERA.6005 lists these elements, supplemented by locally prescribed information.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6005",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C04",
+      "concept_title": "RMZ et TMZ",
+      "level": 2,
+      "question": "Une TMZ est publiée sans disposition alternative. Un transpondeur fonctionnant uniquement en mode A suffit-il ?",
+      "question_en": "A TMZ is published without alternative provisions. Is a transponder operating only in mode A sufficient?",
+      "options": [
+        "Oui, tout code suffit",
+        "Oui, avec une radio portative",
+        "Oui, uniquement en VFR",
+        "Non, modes A et C ou S requis"
+      ],
+      "options_en": [
+        "Yes, any code is sufficient",
+        "Yes, with a handheld radio",
+        "Yes, in VFR only",
+        "No, modes A and C or S are required"
+      ],
+      "correct_answer": "Non, modes A et C ou S requis",
+      "explanation": "Le mode A seul ne répond pas à l’exigence de SERA.6005 pour une TMZ.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "Mode A alone does not meet the SERA.6005 TMZ requirement.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6005",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_013_C04",
+      "concept_title": "RMZ et TMZ",
+      "level": 2,
+      "question": "Une zone est à la fois RMZ et TMZ. Que faut-il examiner ?",
+      "question_en": "A zone is both an RMZ and a TMZ. What must be checked?",
+      "options": [
+        "Le transpondeur seulement",
+        "Une nouvelle classe appelée RMZ-TMZ",
+        "Les exigences radio et transpondeur, ainsi que les règles de la classe",
+        "La radio seulement"
+      ],
+      "options_en": [
+        "Transponder only",
+        "A new class called RMZ-TMZ",
+        "Radio and transponder requirements, plus the class rules",
+        "Radio only"
+      ],
+      "correct_answer": "Les exigences radio et transpondeur, ainsi que les règles de la classe",
+      "explanation": "Les deux exigences se cumulent ; elles ne remplacent pas la classification de l’espace.\n\n![Classes d’espace et services ATS](/illustrations/lapl-airlaw-013.svg)",
+      "explanation_en": "Both requirements apply; they do not replace the airspace classification.\n\n![PPL_AIRLAW_013](/illustrations/en/lapl-airlaw-013.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "regulatory_reference": "SERA.6005",
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

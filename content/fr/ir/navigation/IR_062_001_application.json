@@ -1,0 +1,628 @@
+{
+  "metadata": {
+    "module_id": "IR_062_001",
+    "program": "IR",
+    "subject": "navigation",
+    "chapter_title": "VOR et distance oblique DME",
+    "chapter_title_en": "VOR and DME slant range",
+    "reference_checked_on": "2026-09-26",
+    "learning_objective": "Résoudre et vérifier les exercices de vor et distance oblique dme.",
+    "learning_objective_en": "Solve and cross-check exercises on vor and dme slant range.",
+    "estimated_duration_minutes": 35,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Calcul des proportions et des durées ; bases PPL du sujet"
+    ],
+    "exam_subject": "062",
+    "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062",
+    "official_subject_format": {
+      "questions": 44,
+      "minutes": 60,
+      "pass_percent": 75,
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+    },
+    "sources": [
+      {
+        "title": "EASA — programme Part-FCL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+      },
+      {
+        "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      },
+      {
+        "title": "FAA AIM — principes techniques VOR/DME uniquement",
+        "url": "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      }
+    ],
+    "content_status": "draft",
+    "coverage_status": "partial",
+    "scope": "IR(A), France / EASA",
+    "quiz_format": "chapter_practice",
+    "tags": [
+      "IR",
+      "mcq-four-options"
+    ],
+    "illustration": {
+      "src": "/illustrations/ir-062-001.svg",
+      "alt": "VOR et distance oblique DME"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "IR_062_001_C01",
+      "title": "Radial et route vers la station",
+      "title_en": "Radial and course to the station",
+      "content": "![IR_062_001](/illustrations/ir-062-001.svg)\n\nUn radial VOR est une direction depuis la station, généralement référencée au nord magnétique de la station. Un avion à l’est sur le radial 090 peut suivre une route 270 vers la station : radial et route suivie sont différents. Le cap dépend aussi du vent. Pour les exercices, tous les angles utilisent la même référence magnétique, sans écart de déclinaison entre avion et station. Identifier la station, vérifier sa disponibilité et la validité des indications avant emploi.",
+      "content_en": "![IR_062_001](/illustrations/en/ir-062-001.svg)\n\nA VOR radial is a direction from the station, normally referenced to station magnetic north. An aircraft east of the station on radial 090 can track 270 towards it: radial and flown course differ. Heading also depends on wind. Exercise angles use the same magnetic reference, with no variation difference between aircraft and station. Identify the station and check availability and indication validity before use.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 062",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_062_001_C02",
+      "title": "Interpréter TO/FROM",
+      "title_en": "Interpret TO/FROM",
+      "content": "Sur le radial 090 et exactement sur l’axe, OBS 090 donne FROM ; OBS 270 donne TO, hors zone d’ambiguïté et avec signal valide. TO/FROM se rapporte à la route sélectionnée et à la position, pas au cap instantané. Une aiguille centrée ne prouve donc pas que l’avion se dirige vers la station. Vérifier ensemble route sélectionnée, drapeau TO/FROM, position et suivi de route. Ne pas déduire une autorisation de procédure de la seule présence d’un signal.",
+      "content_en": "On radial 090 and exactly on the course line, OBS 090 gives FROM; OBS 270 gives TO, outside ambiguity areas with a valid signal. TO/FROM relates to selected course and position, not instantaneous heading. A centred needle therefore does not prove the aircraft is moving towards the station. Cross-check selected course, TO/FROM flag, position and tracking. Signal reception alone does not authorise a procedure.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 062",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_062_001_C03",
+      "title": "Calculer la distance oblique",
+      "title_en": "Calculate slant range",
+      "content": "Le DME mesure la distance oblique entre les antennes. Dans le modèle géométrique local : s² = d² + h², avec s distance DME, d distance horizontale et h différence de hauteur entre avion et station, toutes dans la même unité. Exemple fictif : d = 4 NM et h = 3 NM donnent s = 5 NM. À la verticale, s = h, pas zéro. Pour convertir la hauteur, utiliser 1 NM = 6 076 ft environ ; soustraire l’altitude de la station à celle de l’avion. Les arrondis de cet exercice ne sont pas une spécification de précision du récepteur.",
+      "content_en": "DME measures slant range between antennas. In the local geometric model: s² = d² + h², where s is DME range, d horizontal distance and h aircraft-to-station height difference, all in the same unit. Fictional example: d = 4 NM and h = 3 NM give s = 5 NM. Directly overhead, s = h, not zero. For height conversion use approximately 1 NM = 6,076 ft; subtract station elevation from aircraft altitude. Exercise rounding is not a receiver accuracy specification.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 062",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_062_001_C04",
+      "title": "Reconnaître les limites",
+      "title_en": "Recognise limitations",
+      "content": "L’écart entre distance oblique et horizontale est surtout sensible près de la verticale et à grande hauteur relative. Le DME ne donne pas un cap. L’affichage de vitesse dérivé de la variation de distance ne représente pas nécessairement la vitesse sol : en arc à distance constante, l’avion se déplace alors que la distance varie peu. Même en route vers la station, l’effet de distance oblique devient important près de celle-ci. Un DME d’approche peut être installé ailleurs qu’au seuil : utiliser la référence publiée. Les principes techniques sont universels ; les procédures et autorisations restent celles du cadre EASA et des publications applicables.\n\n**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. La matière 062 comporte 44 questions en 60 minutes dans le tableau EASA cité. Ce chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.",
+      "content_en": "Slant-versus-horizontal difference is most noticeable near overhead and at large relative height. DME does not provide heading. Speed derived from changing range need not equal groundspeed: on a constant-range arc, the aircraft moves while range changes little. Even when tracking towards the station, slant geometry matters close to it. An approach DME may be located away from the threshold: use the published reference. Technical principles are universal; procedures and approvals remain those of the EASA framework and applicable publications.\n\n**Practice format:** 15 chapter MCQs, four choices and one correct answer. Subject 062 has 44 questions in 60 minutes in the cited EASA table. This chapter covers only part of the subject and is not a full paper. EASA framework, including with English or US/British units.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 062",
+      "tags": [
+        "IR"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "IR_062_001_C03",
+      "concept_title": "Calculer la distance oblique",
+      "level": 3,
+      "question": "Distance horizontale 4 NM, hauteur au-dessus de la station 3 NM. Distance DME idéale ?\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "question_en": "Horizontal distance 4 NM, height above the station 3 NM. Ideal DME range?\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "options": [
+        "5 NM",
+        "7 NM",
+        "1 NM",
+        "4 NM"
+      ],
+      "options_en": [
+        "5 NM",
+        "7 NM",
+        "1 NM",
+        "4 NM"
+      ],
+      "correct_answer": "5 NM",
+      "explanation": "√(4² + 3²) = 5 NM.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "√(4² + 3²) = 5 NM.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": true,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C01",
+      "concept_title": "Radial et route vers la station",
+      "level": 3,
+      "question": "Un avion est à l’est du VOR sur le radial 090. Route magnétique vers la station, avec référence commune ?",
+      "question_en": "An aircraft is east of a VOR on radial 090. Magnetic course to the station, using a common reference?",
+      "options": [
+        "090°",
+        "180°",
+        "360°",
+        "270°"
+      ],
+      "options_en": [
+        "090°",
+        "180°",
+        "360°",
+        "270°"
+      ],
+      "correct_answer": "270°",
+      "explanation": "Le radial part de la station ; la route vers elle est réciproque.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "The radial extends from the station; the inbound course is reciprocal.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C01",
+      "concept_title": "Radial et route vers la station",
+      "level": 3,
+      "question": "Un avion au sud du VOR, même référence magnétique, est sur quel radial ?",
+      "question_en": "An aircraft south of a VOR, with the same magnetic reference, is on which radial?",
+      "options": [
+        "090°",
+        "270°",
+        "180°",
+        "360°"
+      ],
+      "options_en": [
+        "090°",
+        "270°",
+        "180°",
+        "360°"
+      ],
+      "correct_answer": "180°",
+      "explanation": "Le radial indique la direction depuis le VOR vers l’avion.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "The radial indicates direction from the VOR to the aircraft.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C01",
+      "concept_title": "Radial et route vers la station",
+      "level": 3,
+      "question": "Sur le radial 240, quelle route réciproque mène vers le VOR, référence commune ?",
+      "question_en": "On radial 240, which reciprocal course leads to the VOR, using a common reference?",
+      "options": [
+        "300°",
+        "060°",
+        "240°",
+        "120°"
+      ],
+      "options_en": [
+        "300°",
+        "060°",
+        "240°",
+        "120°"
+      ],
+      "correct_answer": "060°",
+      "explanation": "240 − 180 = 060° ; le cap peut différer avec le vent.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "240 − 180 = 060°; heading may differ in wind.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C02",
+      "concept_title": "Interpréter TO/FROM",
+      "level": 3,
+      "question": "Sur le radial 090, aiguille centrée, OBS 270 et signal valide hors ambiguïté : indication attendue ?",
+      "question_en": "On radial 090, needle centred, OBS 270 and valid signal outside ambiguity areas: expected indication?",
+      "options": [
+        "TO",
+        "FROM",
+        "OFF obligatoire",
+        "Aucune indication possible"
+      ],
+      "options_en": [
+        "TO",
+        "FROM",
+        "OFF necessarily",
+        "No indication possible"
+      ],
+      "correct_answer": "TO",
+      "explanation": "La route sélectionnée 270 conduit vers la station depuis cette position.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "Selected course 270 leads towards the station from this position.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C02",
+      "concept_title": "Interpréter TO/FROM",
+      "level": 3,
+      "question": "Sur le radial 090, aiguille centrée, OBS 090 et signal valide hors ambiguïté : indication attendue ?",
+      "question_en": "On radial 090, needle centred, OBS 090 and valid signal outside ambiguity areas: expected indication?",
+      "options": [
+        "TO",
+        "OFF obligatoire",
+        "TO et FROM simultanés",
+        "FROM"
+      ],
+      "options_en": [
+        "TO",
+        "OFF necessarily",
+        "TO and FROM simultaneously",
+        "FROM"
+      ],
+      "correct_answer": "FROM",
+      "explanation": "La route sélectionnée 090 s’éloigne de la station depuis cette position.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "Selected course 090 leads away from the station from this position.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C02",
+      "concept_title": "Interpréter TO/FROM",
+      "level": 3,
+      "question": "Le drapeau TO signifie-t-il que le nez de l’avion pointe nécessairement vers la station ?",
+      "question_en": "Does a TO flag mean the aircraft nose necessarily points towards the station?",
+      "options": [
+        "Oui, même sans signal",
+        "Oui, seulement en virage",
+        "Non, il dépend de la route sélectionnée et de la position",
+        "Oui, toujours"
+      ],
+      "options_en": [
+        "Yes, even without a signal",
+        "Yes, only in a turn",
+        "No, it depends on selected course and position",
+        "Yes, always"
+      ],
+      "correct_answer": "Non, il dépend de la route sélectionnée et de la position",
+      "explanation": "Ne pas confondre cap de l’avion et géométrie TO/FROM.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "Do not confuse aircraft heading with TO/FROM geometry.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C03",
+      "concept_title": "Calculer la distance oblique",
+      "level": 3,
+      "question": "Un avion est exactement à la verticale d’un DME, 6 076 ft au-dessus de sa station. Distance idéale affichée ?",
+      "question_en": "An aircraft is directly over a DME, 6,076 ft above the station. Ideal displayed distance?",
+      "options": [
+        "Environ 60 NM",
+        "Environ 1 NM",
+        "0 NM",
+        "Environ 6 NM"
+      ],
+      "options_en": [
+        "About 60 NM",
+        "About 1 NM",
+        "0 NM",
+        "About 6 NM"
+      ],
+      "correct_answer": "Environ 1 NM",
+      "explanation": "À la verticale, la distance oblique est la hauteur relative.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "Overhead, slant range equals relative height.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C03",
+      "concept_title": "Calculer la distance oblique",
+      "level": 3,
+      "question": "Distance DME 5 NM, différence de hauteur 3 NM. Distance horizontale ?",
+      "question_en": "DME range 5 NM, height difference 3 NM. Horizontal distance?",
+      "options": [
+        "4 NM",
+        "8 NM",
+        "2 NM",
+        "√34 NM"
+      ],
+      "options_en": [
+        "4 NM",
+        "8 NM",
+        "2 NM",
+        "√34 NM"
+      ],
+      "correct_answer": "4 NM",
+      "explanation": "√(5² − 3²) = 4 NM.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "√(5² − 3²) = 4 NM.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C03",
+      "concept_title": "Calculer la distance oblique",
+      "level": 3,
+      "question": "Avion à 7 076 ft AMSL ; station à 1 000 ft AMSL ; distance horizontale nulle. DME idéal ?",
+      "question_en": "Aircraft at 7,076 ft AMSL; station at 1,000 ft AMSL; zero horizontal distance. Ideal DME?",
+      "options": [
+        "Environ 1,16 NM",
+        "0 NM",
+        "Environ 2 NM",
+        "Environ 1 NM"
+      ],
+      "options_en": [
+        "About 1.16 NM",
+        "0 NM",
+        "About 2 NM",
+        "About 1 NM"
+      ],
+      "correct_answer": "Environ 1 NM",
+      "explanation": "Différence de hauteur = 7 076 − 1 000 = 6 076 ft, soit environ 1 NM.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "Height difference = 7,076 − 1,000 = 6,076 ft, approximately 1 NM.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C03",
+      "concept_title": "Calculer la distance oblique",
+      "level": 3,
+      "question": "Avant d’utiliser s² = d² + h² avec d en NM, que faire d’une hauteur en ft ?",
+      "question_en": "Before using s² = d² + h² with d in NM, what must be done with height in ft?",
+      "options": [
+        "La remplacer par le QNH",
+        "L’ajouter directement à la distance en NM",
+        "La convertir en NM",
+        "La conserver en ft"
+      ],
+      "options_en": [
+        "Replace it with QNH",
+        "Add it directly to distance in NM",
+        "Convert it to NM",
+        "Keep it in ft"
+      ],
+      "correct_answer": "La convertir en NM",
+      "explanation": "Les termes de la relation doivent employer la même unité.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "All terms must use the same unit.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C04",
+      "concept_title": "Reconnaître les limites",
+      "level": 3,
+      "question": "Dans quelle situation l’écart relatif entre distance DME et distance horizontale est-il particulièrement important ?",
+      "question_en": "When is the relative difference between DME range and horizontal distance particularly large?",
+      "options": [
+        "Uniquement par vent arrière",
+        "Près de la verticale avec hauteur relative importante",
+        "Très loin avec faible hauteur relative",
+        "Uniquement au sol"
+      ],
+      "options_en": [
+        "Only with a tailwind",
+        "Near overhead with large relative height",
+        "Far away with small relative height",
+        "Only on the ground"
+      ],
+      "correct_answer": "Près de la verticale avec hauteur relative importante",
+      "explanation": "La composante verticale domine alors la distance oblique.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "The vertical component then dominates slant range.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C04",
+      "concept_title": "Reconnaître les limites",
+      "level": 3,
+      "question": "Un avion suit un arc DME à distance constante. Une faible vitesse dérivée du DME prouve-t-elle une faible vitesse sol ?",
+      "question_en": "An aircraft follows a constant-range DME arc. Does low DME-derived speed prove low groundspeed?",
+      "options": [
+        "Non",
+        "Oui, toujours",
+        "Oui, si l’altitude est constante",
+        "Oui, avec un VOR associé"
+      ],
+      "options_en": [
+        "No",
+        "Yes, always",
+        "Yes, if altitude is constant",
+        "Yes, with an associated VOR"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Le DME observe la variation de distance, pas tout le déplacement le long de l’arc.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "DME observes range change, not all motion along the arc.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C04",
+      "concept_title": "Reconnaître les limites",
+      "level": 3,
+      "question": "Une carte précise un DME situé hors du seuil. Peut-on assimiler sa lecture à la distance jusqu’au seuil ?",
+      "question_en": "A chart specifies a DME located away from the threshold. Can its reading be treated as distance to threshold?",
+      "options": [
+        "Oui, tous les DME sont au seuil",
+        "Oui, en soustrayant toujours 1 NM",
+        "Oui, si la fréquence est affichée",
+        "Non, utiliser la référence publiée"
+      ],
+      "options_en": [
+        "Yes, every DME is at the threshold",
+        "Yes, by always subtracting 1 NM",
+        "Yes, if the frequency is displayed",
+        "No, use the published reference"
+      ],
+      "correct_answer": "Non, utiliser la référence publiée",
+      "explanation": "La position de l’installation et la procédure déterminent la référence de distance.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "Facility position and the procedure determine the distance reference.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    },
+    {
+      "concept_id": "IR_062_001_C04",
+      "concept_title": "Reconnaître les limites",
+      "level": 3,
+      "question": "La réception d’un VOR/DME dispense-t-elle de vérifier son identification et les informations de disponibilité ?",
+      "question_en": "Does VOR/DME reception remove the need to verify identification and availability information?",
+      "options": [
+        "Oui, si la distance est plausible",
+        "Oui, en anglais seulement",
+        "Non",
+        "Oui, si l’aiguille est centrée"
+      ],
+      "options_en": [
+        "Yes, if distance looks plausible",
+        "Yes, in English only",
+        "No",
+        "Yes, if the needle is centred"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Une indication plausible ne prouve pas à elle seule l’identification ni la disponibilité opérationnelle.\n\n![IR_062_001](/illustrations/ir-062-001.svg)",
+      "explanation_en": "A plausible indication alone proves neither identification nor operational availability.\n\n![IR_062_001](/illustrations/en/ir-062-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:062"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap1_section_1.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 062"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Following aircraft systems</title><desc id="desc">Three simplified systems: fuel from tank to engine, electricity from sources to equipment, and hydraulics from control to brakes.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Following aircraft systems</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Functional diagram: actual installations vary by aircraft.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_AC_003</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<text x="65" y="245" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start">FUEL</text>
+<rect x="270" y="213" width="244" height="69" rx="10" fill="#20354f" stroke="#58dfed"/>
+<text x="285" y="240" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Tank</text>
+<path d="M520 245L550 245" fill="none" stroke="#58dfed" stroke-width="3"/>
+<path d="M550.0 245.0L536.5 251.5L536.5 238.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="558" y="213" width="244" height="69" rx="10" fill="#20354f" stroke="#58dfed"/>
+<text x="573" y="240" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Selector / pump</text>
+<path d="M808 245L838 245" fill="none" stroke="#58dfed" stroke-width="3"/>
+<path d="M838.0 245.0L824.5 251.5L824.5 238.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="846" y="213" width="244" height="69" rx="10" fill="#20354f" stroke="#58dfed"/>
+<text x="861" y="240" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Engine</text>
+<text x="65" y="365" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start">ELECTRICITY</text>
+<rect x="270" y="333" width="244" height="69" rx="10" fill="#20354f" stroke="#ffcd70"/>
+<text x="285" y="360" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Alternator +</text>
+<text x="285" y="385" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">battery</text>
+<path d="M520 365L550 365" fill="none" stroke="#ffcd70" stroke-width="3"/>
+<path d="M550.0 365.0L536.5 371.5L536.5 358.5Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="558" y="333" width="244" height="69" rx="10" fill="#20354f" stroke="#ffcd70"/>
+<text x="573" y="360" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Electrical bus</text>
+<path d="M808 365L838 365" fill="none" stroke="#ffcd70" stroke-width="3"/>
+<path d="M838.0 365.0L824.5 371.5L824.5 358.5Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="846" y="333" width="244" height="69" rx="10" fill="#20354f" stroke="#ffcd70"/>
+<text x="861" y="360" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Equipment</text>
+<text x="65" y="485" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start">HYDRAULICS</text>
+<rect x="270" y="453" width="244" height="69" rx="10" fill="#20354f" stroke="#bbabff"/>
+<text x="285" y="480" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Brake control</text>
+<path d="M520 485L550 485" fill="none" stroke="#bbabff" stroke-width="3"/>
+<path d="M550.0 485.0L536.5 491.5L536.5 478.5Z" fill="#bbabff" stroke="#bbabff" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="558" y="453" width="244" height="69" rx="10" fill="#20354f" stroke="#bbabff"/>
+<text x="573" y="480" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Fluid pressure</text>
+<path d="M808 485L838 485" fill="none" stroke="#bbabff" stroke-width="3"/>
+<path d="M838.0 485.0L824.5 491.5L824.5 478.5Z" fill="#bbabff" stroke="#bbabff" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="846" y="453" width="244" height="69" rx="10" fill="#20354f" stroke="#bbabff"/>
+<text x="861" y="480" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Brakes</text>
+</svg>

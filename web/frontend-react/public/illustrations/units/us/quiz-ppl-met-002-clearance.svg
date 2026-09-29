@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Altimétrie : vérifier une marge</title><desc id="desc">Altimétrie : vérifier une marge</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Altimétrie : vérifier une marge</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">QUIZ_PPL_MET_002_CLEARANCE</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="65" y="213" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Dossier autonome · Valeurs à exploiter</text>
+<text x="65" y="269" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Indication lue</text>
+<text x="755" y="269" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">3 100 ft</text>
+<path d="M65 288L1130 288" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="330" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Calage utilisé / QNH actuel</text>
+<text x="755" y="330" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">1022 hPa / 1010 hPa</text>
+<path d="M65 349L1130 349" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="391" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Altitude de l’obstacle</text>
+<text x="755" y="391" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">2 300 ft AMSL</text>
+<path d="M65 410L1130 410" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="452" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Marge exigée par cet exercice</text>
+<text x="755" y="452" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">500 ft</text>
+<path d="M65 471L1130 471" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="522" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Approximation fournie : 27 ft/hPa</text>
+<text x="65" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Modèle : altitude au QNH assimilée à l’altitude vraie ; autres erreurs négligées. Aucun</text>
+<text x="65" y="594" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">résultat affiché.</text>
+</svg>

@@ -5,13 +5,583 @@
     "subject": "Navigation",
     "chapter_title": "Navigation par satellite (GPS/GNSS)",
     "chapter_title_en": "Satellite Navigation (GPS/GNSS)",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : ce que fournit le gnss; limites pratiques; exemple de contrôle croisé.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: what gnss provides; practical limitations; a cross-check example.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 20,
-    "prerequisites": ["PPL_NAV_001"],
-    "tags": ["GPS", "GNSS", "satellite", "waypoint", "RAIM"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_NAV_001"
+    ],
+    "tags": [
+      "GPS",
+      "GNSS",
+      "satellite",
+      "waypoint",
+      "RAIM"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 16 : navigation",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      },
+      {
+        "title": "SIA — cartes et informations aéronautiques",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-nav-005.svg",
+      "alt": "Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes."
+    },
+    "exam_subject": "navigation",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_NAV_005_C01",
+      "title": "Ce que fournit le GNSS",
+      "title_en": "What GNSS provides",
+      "content": "![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)\n\nUn système de navigation satellitaire estime position, temps et déplacement à partir de signaux reçus. Le terme GPS désigne un système particulier au sein des GNSS. Les données de position et les informations de carte sont distinctes : une position correcte peut être affichée sur une base d'espaces périmée. La qualité de réception et l'intégrité doivent être surveillées selon l'équipement.",
+      "content_en": "![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)\n\nA satellite navigation system estimates position, time and movement from received signals. GPS is one particular system within GNSS. Position data and chart information are separate: a correct position can be shown on an outdated airspace database. Monitor reception quality and integrity according to the equipment.",
+      "difficulty": "intermediate",
+      "tags": [
+        "GPS",
+        "GNSS",
+        "satellite",
+        "waypoint",
+        "RAIM"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Ce que fournit le GNSS"
+    },
+    {
+      "concept_id": "PPL_NAV_005_C02",
+      "title": "Limites pratiques",
+      "title_en": "Practical limitations",
+      "content": "Brouillage, leurrage, masquage, panne d'alimentation ou erreur de saisie peuvent rendre une navigation électronique inutilisable ou trompeuse. Une tablette ne possède pas nécessairement les fonctions ni l'approbation d'un équipement avionique installé. La hauteur géométrique GNSS n'est pas directement interchangeable avec l'altitude barométrique utilisée pour les procédures et la séparation.",
+      "content_en": "Jamming, spoofing, signal masking, power failure or entry error may make electronic navigation unusable or misleading. A tablet does not necessarily have the functions or approval of installed avionics. Geometric GNSS height is not directly interchangeable with barometric altitude used for procedures and separation.",
+      "difficulty": "intermediate",
+      "tags": [
+        "GPS",
+        "GNSS",
+        "satellite",
+        "waypoint",
+        "RAIM"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Limites pratiques"
+    },
+    {
+      "concept_id": "PPL_NAV_005_C03",
+      "title": "Exemple de contrôle croisé",
+      "title_en": "A cross-check example",
+      "content": "Le symbole avion se décale soudainement alors que les repères visuels restent cohérents. Maintenir le pilotage et comparer avec la carte, l'estime et d'autres informations fiables. Ne pas poursuivre aveuglément la ligne affichée. Avant départ, préparer un moyen de poursuivre ou d'interrompre le vol sans l'appareil principal, et maîtriser les fonctions utiles au sol.",
+      "content_en": "The aircraft symbol suddenly shifts while visual landmarks remain consistent. Maintain aircraft control and compare with the chart, dead reckoning and other reliable information. Do not blindly follow the displayed line. Before departure, prepare a way to continue or discontinue the flight without the primary device, and learn useful functions on the ground.",
+      "difficulty": "intermediate",
+      "tags": [
+        "GPS",
+        "GNSS",
+        "satellite",
+        "waypoint",
+        "RAIM"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Exemple de contrôle croisé"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_NAV_005_C01",
+      "concept_title": "Ce que fournit le GNSS",
+      "level": 1,
+      "question": "GPS et GNSS sont-ils exactement synonymes ?",
+      "question_en": "Are GPS and GNSS exact synonyms?",
+      "options": [
+        "Non, GPS est un système GNSS",
+        "Oui dans tous les contextes",
+        "GNSS est une carte papier",
+        "GPS est une unité de vitesse"
+      ],
+      "correct_answer": "Non, GPS est un système GNSS",
+      "explanation": "GNSS est le terme générique des systèmes satellitaires.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "GNSS is the generic term for satellite navigation systems.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "GPS",
+        "GNSS",
+        "satellite",
+        "waypoint",
+        "RAIM",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "No, GPS is one GNSS system",
+        "Yes, in every context",
+        "GNSS is a paper chart",
+        "GPS is a speed unit"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C02",
+      "concept_title": "Limites pratiques",
+      "level": 1,
+      "question": "Une position correcte garantit-elle une base d'espaces à jour ?",
+      "question_en": "Does a correct position guarantee an up-to-date airspace database?",
+      "options": [
+        "Oui",
+        "Oui en 3D",
+        "Oui avec internet au départ",
+        "Non"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Positionnement et données cartographiques sont deux fonctions distinctes.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "Positioning and chart data are two distinct functions.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "GPS",
+        "GNSS",
+        "satellite",
+        "waypoint",
+        "RAIM",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Yes",
+        "Yes, in 3D",
+        "Yes, with internet at departure",
+        "No"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C03",
+      "concept_title": "Exemple de contrôle croisé",
+      "level": 1,
+      "question": "Que faire face à un saut incohérent de position ?",
+      "question_en": "What should you do after an inconsistent position jump?",
+      "options": [
+        "Ignorer tous les repères visuels",
+        "Éteindre tous les instruments",
+        "Recouper avec des moyens indépendants",
+        "Suivre immédiatement le nouveau tracé"
+      ],
+      "correct_answer": "Recouper avec des moyens indépendants",
+      "explanation": "Un contrôle croisé aide à identifier une information trompeuse.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "Cross-checking helps identify misleading information.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "GPS",
+        "GNSS",
+        "satellite",
+        "waypoint",
+        "RAIM",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Ignore all visual landmarks",
+        "Switch off all instruments",
+        "Cross-check using independent means",
+        "Immediately follow the new displayed route"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C02",
+      "concept_title": "Limites pratiques",
+      "level": 2,
+      "question": "Pourquoi ne pas remplacer directement une altitude barométrique par une hauteur GNSS ?",
+      "question_en": "Why not directly replace barometric altitude with GNSS height?",
+      "options": [
+        "Les deux valeurs ont nécessairement une différence nulle",
+        "Elles reposent sur des mesures et références différentes",
+        "Le GNSS ne peut afficher que des distances horizontales",
+        "L'altitude barométrique est toujours une hauteur au-dessus du sol"
+      ],
+      "correct_answer": "Elles reposent sur des mesures et références différentes",
+      "explanation": "La hauteur géométrique GNSS n'est pas la même grandeur que l'altitude barométrique utilisée avec un calage donné. Leur usage doit respecter les références prévues.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "Geometric GNSS height is not the same quantity as barometric altitude with a given setting. Use must respect the intended references.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "GPS",
+        "GNSS",
+        "satellite",
+        "waypoint",
+        "RAIM",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "The difference between the values must be zero",
+        "They use different measurements and references",
+        "GNSS can display only horizontal distances",
+        "Barometric altitude is always height above ground"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C03",
+      "concept_title": "Exemple de contrôle croisé",
+      "level": 2,
+      "question": "Quel ensemble fournit un recoupement pertinent d'une position GNSS suspecte ?",
+      "question_en": "Which combination provides a useful cross-check of a suspect GNSS position?",
+      "options": [
+        "Repères visuels, carte et estime cohérente",
+        "Deux fenêtres affichant la même source GNSS",
+        "La luminosité de l'écran et son niveau sonore",
+        "Le seul nom de la destination saisie"
+      ],
+      "correct_answer": "Repères visuels, carte et estime cohérente",
+      "explanation": "Comparer des informations indépendantes aide à détecter une indication trompeuse. Deux affichages issus de la même source ne constituent pas deux confirmations indépendantes.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "Comparing independent information helps detect a misleading indication. Two displays using the same source are not two independent confirmations.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "GPS",
+        "GNSS",
+        "satellite",
+        "waypoint",
+        "RAIM",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Visual landmarks, chart and consistent dead reckoning",
+        "Two windows displaying the same GNSS source",
+        "Screen brightness and sound level",
+        "Only the entered destination name"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C01",
+      "concept_title": "Ce que fournit le GNSS",
+      "level": 2,
+      "question": "Vrai ou faux ? Le GNSS estime aussi le temps et le mouvement à partir des signaux reçus.",
+      "question_en": "True or false? GNSS also estimates time and movement from received signals.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn système de navigation satellitaire estime position, temps et déplacement à partir de signaux reçus. Le terme GPS désigne un système particulier au sein des GNSS. Les données de position et les informations de carte sont distinctes : une position correcte peut être affichée sur une base d'espaces périmée. La qualité de réception et l'intégrité doivent être surveillées selon l'équipement.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "This statement is true.\n\nA satellite navigation system estimates position, time and movement from received signals. GPS is one particular system within GNSS. Position data and chart information are separate: a correct position can be shown on an outdated airspace database. Monitor reception quality and integrity according to the equipment.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C01",
+      "concept_title": "Ce que fournit le GNSS",
+      "level": 2,
+      "question": "Vrai ou faux ? Un calcul de position correct valide automatiquement toutes les données cartographiques.",
+      "question_en": "True or false? A correct position calculation automatically validates all chart data.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn système de navigation satellitaire estime position, temps et déplacement à partir de signaux reçus. Le terme GPS désigne un système particulier au sein des GNSS. Les données de position et les informations de carte sont distinctes : une position correcte peut être affichée sur une base d'espaces périmée. La qualité de réception et l'intégrité doivent être surveillées selon l'équipement.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "This statement is false.\n\nA satellite navigation system estimates position, time and movement from received signals. GPS is one particular system within GNSS. Position data and chart information are separate: a correct position can be shown on an outdated airspace database. Monitor reception quality and integrity according to the equipment.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C01",
+      "concept_title": "Ce que fournit le GNSS",
+      "level": 2,
+      "question": "Vrai ou faux ? La qualité de réception doit être surveillée selon l'équipement.",
+      "question_en": "True or false? Reception quality must be monitored according to the equipment.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn système de navigation satellitaire estime position, temps et déplacement à partir de signaux reçus. Le terme GPS désigne un système particulier au sein des GNSS. Les données de position et les informations de carte sont distinctes : une position correcte peut être affichée sur une base d'espaces périmée. La qualité de réception et l'intégrité doivent être surveillées selon l'équipement.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "This statement is true.\n\nA satellite navigation system estimates position, time and movement from received signals. GPS is one particular system within GNSS. Position data and chart information are separate: a correct position can be shown on an outdated airspace database. Monitor reception quality and integrity according to the equipment.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C02",
+      "concept_title": "Limites pratiques",
+      "level": 2,
+      "question": "Vrai ou faux ? Une tablette possède nécessairement les mêmes approbations qu'une avionique installée.",
+      "question_en": "True or false? A tablet necessarily has the same approvals as installed avionics.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nBrouillage, leurrage, masquage, panne d'alimentation ou erreur de saisie peuvent rendre une navigation électronique inutilisable ou trompeuse. Une tablette ne possède pas nécessairement les fonctions ni l'approbation d'un équipement avionique installé. La hauteur géométrique GNSS n'est pas directement interchangeable avec l'altitude barométrique utilisée pour les procédures et la séparation.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "This statement is false.\n\nJamming, spoofing, signal masking, power failure or entry error may make electronic navigation unusable or misleading. A tablet does not necessarily have the functions or approval of installed avionics. Geometric GNSS height is not directly interchangeable with barometric altitude used for procedures and separation.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C02",
+      "concept_title": "Limites pratiques",
+      "level": 2,
+      "question": "Vrai ou faux ? Une erreur de saisie peut rendre le guidage trompeur.",
+      "question_en": "True or false? An entry error can make guidance misleading.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nBrouillage, leurrage, masquage, panne d'alimentation ou erreur de saisie peuvent rendre une navigation électronique inutilisable ou trompeuse. Une tablette ne possède pas nécessairement les fonctions ni l'approbation d'un équipement avionique installé. La hauteur géométrique GNSS n'est pas directement interchangeable avec l'altitude barométrique utilisée pour les procédures et la séparation.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "This statement is true.\n\nJamming, spoofing, signal masking, power failure or entry error may make electronic navigation unusable or misleading. A tablet does not necessarily have the functions or approval of installed avionics. Geometric GNSS height is not directly interchangeable with barometric altitude used for procedures and separation.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C02",
+      "concept_title": "Limites pratiques",
+      "level": 2,
+      "question": "Vrai ou faux ? Le masquage des signaux peut dégrader la navigation électronique.",
+      "question_en": "True or false? Signal masking can degrade electronic navigation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nBrouillage, leurrage, masquage, panne d'alimentation ou erreur de saisie peuvent rendre une navigation électronique inutilisable ou trompeuse. Une tablette ne possède pas nécessairement les fonctions ni l'approbation d'un équipement avionique installé. La hauteur géométrique GNSS n'est pas directement interchangeable avec l'altitude barométrique utilisée pour les procédures et la séparation.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "This statement is true.\n\nJamming, spoofing, signal masking, power failure or entry error may make electronic navigation unusable or misleading. A tablet does not necessarily have the functions or approval of installed avionics. Geometric GNSS height is not directly interchangeable with barometric altitude used for procedures and separation.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C02",
+      "concept_title": "Limites pratiques",
+      "level": 2,
+      "question": "Vrai ou faux ? La hauteur géométrique GNSS est toujours interchangeable avec une altitude barométrique.",
+      "question_en": "True or false? GNSS geometric height is always interchangeable with barometric altitude.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nBrouillage, leurrage, masquage, panne d'alimentation ou erreur de saisie peuvent rendre une navigation électronique inutilisable ou trompeuse. Une tablette ne possède pas nécessairement les fonctions ni l'approbation d'un équipement avionique installé. La hauteur géométrique GNSS n'est pas directement interchangeable avec l'altitude barométrique utilisée pour les procédures et la séparation.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "This statement is false.\n\nJamming, spoofing, signal masking, power failure or entry error may make electronic navigation unusable or misleading. A tablet does not necessarily have the functions or approval of installed avionics. Geometric GNSS height is not directly interchangeable with barometric altitude used for procedures and separation.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C03",
+      "concept_title": "Exemple de contrôle croisé",
+      "level": 2,
+      "question": "Vrai ou faux ? Un saut du symbole impose de virer immédiatement pour rejoindre la ligne affichée.",
+      "question_en": "True or false? A symbol jump requires an immediate turn to regain the displayed line.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe symbole avion se décale soudainement alors que les repères visuels restent cohérents. Maintenir le pilotage et comparer avec la carte, l'estime et d'autres informations fiables. Ne pas poursuivre aveuglément la ligne affichée. Avant départ, préparer un moyen de poursuivre ou d'interrompre le vol sans l'appareil principal, et maîtriser les fonctions utiles au sol.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "This statement is false.\n\nThe aircraft symbol suddenly shifts while visual landmarks remain consistent. Maintain aircraft control and compare with the chart, dead reckoning and other reliable information. Do not blindly follow the displayed line. Before departure, prepare a way to continue or discontinue the flight without the primary device, and learn useful functions on the ground.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C03",
+      "concept_title": "Exemple de contrôle croisé",
+      "level": 2,
+      "question": "Vrai ou faux ? Les fonctions utiles du récepteur doivent être apprises au sol.",
+      "question_en": "True or false? Useful receiver functions should be learned on the ground.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe symbole avion se décale soudainement alors que les repères visuels restent cohérents. Maintenir le pilotage et comparer avec la carte, l'estime et d'autres informations fiables. Ne pas poursuivre aveuglément la ligne affichée. Avant départ, préparer un moyen de poursuivre ou d'interrompre le vol sans l'appareil principal, et maîtriser les fonctions utiles au sol.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "This statement is true.\n\nThe aircraft symbol suddenly shifts while visual landmarks remain consistent. Maintain aircraft control and compare with the chart, dead reckoning and other reliable information. Do not blindly follow the displayed line. Before departure, prepare a way to continue or discontinue the flight without the primary device, and learn useful functions on the ground.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_005_C03",
+      "concept_title": "Exemple de contrôle croisé",
+      "level": 2,
+      "question": "Vrai ou faux ? Préparer le vol sans possibilité de panne du récepteur suffit.",
+      "question_en": "True or false? Preparing the flight without allowing for receiver failure is sufficient.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe symbole avion se décale soudainement alors que les repères visuels restent cohérents. Maintenir le pilotage et comparer avec la carte, l'estime et d'autres informations fiables. Ne pas poursuivre aveuglément la ligne affichée. Avant départ, préparer un moyen de poursuivre ou d'interrompre le vol sans l'appareil principal, et maîtriser les fonctions utiles au sol.\n\n![Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes.](/illustrations/ppl-nav-005.svg)",
+      "explanation_en": "This statement is false.\n\nThe aircraft symbol suddenly shifts while visual landmarks remain consistent. Maintain aircraft control and compare with the chart, dead reckoning and other reliable information. Do not blindly follow the displayed line. Before departure, prepare a way to continue or discontinue the flight without the primary device, and learn useful functions on the ground.\n\n![Diagram: Satellite Navigation (GPS/GNSS)](/illustrations/en/ppl-nav-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    }
+  ]
 }

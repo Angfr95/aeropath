@@ -1,14 +1,14 @@
 package postgres
 
 import (
-    "context"
-    "errors"
-    "fmt"
+	"context"
+	"errors"
+	"fmt"
 
-    "github.com/jackc/pgx/v5"
-    "github.com/jackc/pgx/v5/pgxpool"
+	"github.com/jackc/pgx/v5"
+	"github.com/jackc/pgx/v5/pgxpool"
 
-    "aeropath/internal/domain"
+	"aeropath/internal/domain"
 )
 
 // StudentRepo implémente domain.StudentRepository avec PostgreSQL.
@@ -26,46 +26,46 @@ import (
 //    Les requêtes de lecture (FindByID, FindByEmail) iraient
 //    sur les replicas pour répartir la charge.
 type StudentRepo struct {
-    pool *pgxpool.Pool
+	pool *pgxpool.Pool
 }
 
 func NewStudentRepo(pool *pgxpool.Pool) *StudentRepo {
-    return &StudentRepo{pool: pool}
+	return &StudentRepo{pool: pool}
 }
 
 func (r *StudentRepo) Create(s *domain.Student) error {
-    query := `
+	query := `
         INSERT INTO students (email, password_hash, lang)
         VALUES ($1, $2, $3)
         RETURNING id, created_at`
 
-    return r.pool.QueryRow(context.Background(), query,
-        s.Email, s.PasswordHash, s.Lang,
-    ).Scan(&s.ID, &s.CreatedAt)
+	return r.pool.QueryRow(context.Background(), query,
+		s.Email, s.PasswordHash, s.Lang,
+	).Scan(&s.ID, &s.CreatedAt)
 }
 
 func (r *StudentRepo) FindByEmail(email string) (*domain.Student, error) {
-    s := &domain.Student{}
-    query := `SELECT id, email, password_hash, lang, created_at FROM students WHERE email = $1`
+	s := &domain.Student{}
+	query := `SELECT id, email, password_hash, lang, created_at FROM students WHERE email = $1`
 
-    err := r.pool.QueryRow(context.Background(), query, email).
-        Scan(&s.ID, &s.Email, &s.PasswordHash, &s.Lang, &s.CreatedAt)
-    if errors.Is(err, pgx.ErrNoRows) {
-        return nil, fmt.Errorf("student introuvable")
-    }
-    return s, err
+	err := r.pool.QueryRow(context.Background(), query, email).
+		Scan(&s.ID, &s.Email, &s.PasswordHash, &s.Lang, &s.CreatedAt)
+	if errors.Is(err, pgx.ErrNoRows) {
+		return nil, fmt.Errorf("student introuvable")
+	}
+	return s, err
 }
 
 func (r *StudentRepo) FindByID(id string) (*domain.Student, error) {
-    s := &domain.Student{}
-    query := `SELECT id, email, password_hash, lang, created_at FROM students WHERE id = $1`
+	s := &domain.Student{}
+	query := `SELECT id, email, password_hash, lang, created_at FROM students WHERE id = $1`
 
-    err := r.pool.QueryRow(context.Background(), query, id).
-        Scan(&s.ID, &s.Email, &s.PasswordHash, &s.Lang, &s.CreatedAt)
-    if errors.Is(err, pgx.ErrNoRows) {
-        return nil, fmt.Errorf("student introuvable")
-    }
-    return s, err
+	err := r.pool.QueryRow(context.Background(), query, id).
+		Scan(&s.ID, &s.Email, &s.PasswordHash, &s.Lang, &s.CreatedAt)
+	if errors.Is(err, pgx.ErrNoRows) {
+		return nil, fmt.Errorf("student introuvable")
+	}
+	return s, err
 }
 
 func (r *StudentRepo) Delete(id string) error {
@@ -86,13 +86,21 @@ func (r *StudentRepo) Count() (int, error) {
 }
 
 func (r *StudentRepo) UpdateLang(id, lang string) error {
-    query := `UPDATE students SET lang = $1 WHERE id = $2`
-    tag, err := r.pool.Exec(context.Background(), query, lang, id)
-    if err != nil {
-        return fmt.Errorf("update lang: %w", err)
-    }
-    if tag.RowsAffected() == 0 {
-        return fmt.Errorf("student introuvable")
-    }
-    return nil
+	query := `UPDATE students SET lang = $1 WHERE id = $2`
+	tag, err := r.pool.Exec(context.Background(), query, lang, id)
+	if err != nil {
+		return fmt.Errorf("update lang: %w", err)
+	}
+	if tag.RowsAffected() == 0 {
+		return fmt.Errorf("student introuvable")
+	}
+	return nil
+}
+
+// IsAdmin reads the current database role, so revocation takes effect immediately.
+func (r *StudentRepo) IsAdmin(id string) (bool, error) {
+	var admin bool
+	err := r.pool.QueryRow(context.Background(),
+		`SELECT role = 'admin' FROM students WHERE id = $1`, id).Scan(&admin)
+	return admin, err
 }

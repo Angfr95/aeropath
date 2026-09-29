@@ -5,13 +5,583 @@
     "subject": "Navigation",
     "chapter_title": "Log de navigation et calculs de vol",
     "chapter_title_en": "Navigation Log and Flight Calculations",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : préparer le log; calculer sans mélanger les unités; exemple corrigé.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: preparing the navigation log; calculating with consistent units; a worked example.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 25,
-    "prerequisites": ["PPL_NAV_003"],
-    "tags": ["flight log", "calculations", "fuel", "time", "distance"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_NAV_003"
+    ],
+    "tags": [
+      "flight log",
+      "calculations",
+      "fuel",
+      "time",
+      "distance"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 16 : navigation",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      },
+      {
+        "title": "SIA — cartes et informations aéronautiques",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-nav-006.svg",
+      "alt": "Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres."
+    },
+    "exam_subject": "navigation",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_NAV_006_C01",
+      "title": "Préparer le log",
+      "title_en": "Preparing the navigation log",
+      "content": "![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)\n\nUn log de navigation rassemble points de route, distances, routes, caps prévus, altitudes, temps et carburant. Il peut aussi porter fréquences utiles et solutions de déroutement. Chaque colonne doit avoir une unité et une référence explicites. La préparation réduit le travail en vol, mais les estimations doivent être mises à jour avec les observations réelles.",
+      "content_en": "![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)\n\nA navigation log brings together waypoints, distances, tracks, planned headings, altitudes, times and fuel. It can also include useful frequencies and diversion options. Every column needs an explicit unit and reference. Preparation reduces in-flight workload, but estimates must be updated with actual observations.",
+      "difficulty": "intermediate",
+      "tags": [
+        "flight log",
+        "calculations",
+        "fuel",
+        "time",
+        "distance"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Préparer le log"
+    },
+    {
+      "concept_id": "PPL_NAV_006_C02",
+      "title": "Calculer sans mélanger les unités",
+      "title_en": "Calculating with consistent units",
+      "content": "Temps en minutes = 60 × distance / vitesse sol. Carburant consommé = débit horaire × temps en heures. Les phases de roulage, montée et autres besoins sont comptées séparément si le modèle de calcul l'exige. Une réserve n'est pas une consommation prévue pour terminer normalement le trajet : elle doit rester disponible conformément aux critères applicables.",
+      "content_en": "Time in minutes = 60 × distance / groundspeed. Fuel consumed = hourly flow × time in hours. Taxi, climb and other needs are counted separately if the calculation model requires it. A reserve is not planned consumption for completing the normal route: it must remain available under the applicable criteria.",
+      "difficulty": "intermediate",
+      "tags": [
+        "flight log",
+        "calculations",
+        "fuel",
+        "time",
+        "distance"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Calculer sans mélanger les unités"
+    },
+    {
+      "concept_id": "PPL_NAV_006_C03",
+      "title": "Exemple corrigé",
+      "title_en": "A worked example",
+      "content": "Pour 45 NM à 90 kt sol, le temps est de 30 minutes, soit 0,5 heure. À 24 L/h, la consommation de cette seule branche est 12 L. Si la branche dure finalement 36 minutes à débit identique, elle consomme 14,4 L. Reporter l'écart sur les prévisions suivantes et réévaluer la marge au lieu de garder le plan initial inchangé.",
+      "content_en": "For 45 NM at 90 kt groundspeed, time is 30 minutes, or 0.5 hour. At 24 L/h, this leg alone consumes 12 L. If it actually takes 36 minutes at the same flow, it consumes 14.4 L. Carry the discrepancy into subsequent estimates and reassess the margin instead of leaving the original plan unchanged.",
+      "difficulty": "intermediate",
+      "tags": [
+        "flight log",
+        "calculations",
+        "fuel",
+        "time",
+        "distance"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "learning_objective": "Exemple corrigé"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_NAV_006_C01",
+      "concept_title": "Préparer le log",
+      "level": 1,
+      "question": "45 NM à 90 kt sol correspondent à…\n\n![Branche de 45 NM entre A et B, vitesse sol constante de 90 kt. Durée à déterminer.](/illustrations/quiz-ppl-nav-006-1.svg)",
+      "question_en": "45 NM at 90 kt groundspeed corresponds to…\n\n![Exercise data: Navigation Log and Flight Calculations](/illustrations/en/quiz-ppl-nav-006-1.svg)",
+      "options": [
+        "45 minutes",
+        "60 minutes",
+        "15 minutes",
+        "30 minutes"
+      ],
+      "correct_answer": "30 minutes",
+      "explanation": "La distance représente une demi-heure de vol à cette vitesse.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "The distance represents half an hour at that speed.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "flight log",
+        "calculations",
+        "fuel",
+        "time",
+        "distance",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "45 minutes",
+        "60 minutes",
+        "15 minutes",
+        "30 minutes"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C02",
+      "concept_title": "Calculer sans mélanger les unités",
+      "level": 1,
+      "question": "À 24 L/h pendant 30 minutes, quelle consommation ?\n\n![Durée de 30 minutes à un débit fictif constant de 24 L/h. Consommation à déterminer.](/illustrations/quiz-ppl-nav-006-2.svg)",
+      "question_en": "At 24 L/h for 30 minutes, how much fuel is consumed?\n\n![Exercise data: Navigation Log and Flight Calculations](/illustrations/en/quiz-ppl-nav-006-2.svg)",
+      "options": [
+        "48 L",
+        "6 L",
+        "12 L",
+        "24 L"
+      ],
+      "correct_answer": "12 L",
+      "explanation": "30 minutes représentent 0,5 heure.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "30 minutes is 0.5 hour.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "flight log",
+        "calculations",
+        "fuel",
+        "time",
+        "distance",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "48 L",
+        "6 L",
+        "12 L",
+        "24 L"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 1,
+      "question": "Que faire après un retard sur une branche ?",
+      "question_en": "What should you do after a delay on a leg?",
+      "options": [
+        "Ignorer le vent",
+        "Actualiser temps et carburant prévus",
+        "Conserver toutes les valeurs initiales",
+        "Supprimer la réserve"
+      ],
+      "correct_answer": "Actualiser temps et carburant prévus",
+      "explanation": "Le retard peut modifier la faisabilité de la suite du vol.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "The delay may change the feasibility of the remainder of the flight.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "flight log",
+        "calculations",
+        "fuel",
+        "time",
+        "distance",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Ignore the wind",
+        "Update estimated time and fuel",
+        "Keep all initial values",
+        "Remove the reserve"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Une branche dure 36 minutes à un débit constant fictif de 24 L/h. Quelle consommation obtient-on ?\n\n![Durée de 36 minutes à un débit fictif constant de 24 L/h. Consommation à déterminer.](/illustrations/quiz-ppl-nav-006-4.svg)",
+      "question_en": "A leg takes 36 minutes at a fictional constant flow of 24 L/h. What is the consumption?\n\n![Exercise data: Navigation Log and Flight Calculations](/illustrations/en/quiz-ppl-nav-006-4.svg)",
+      "options": [
+        "14,4 L",
+        "12 L",
+        "8,64 L",
+        "24 L"
+      ],
+      "correct_answer": "14,4 L",
+      "explanation": "36 minutes valent 36 / 60 = 0,6 heure. La consommation est donc 24 × 0,6 = 14,4 L, soit 2,4 L de plus que pour 30 minutes.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "36 minutes is 36 / 60 = 0.6 hour. Consumption is therefore 24 × 0.6 = 14.4 L, or 2.4 L more than for 30 minutes.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "flight log",
+        "calculations",
+        "fuel",
+        "time",
+        "distance",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "14.4 L",
+        "12 L",
+        "8.64 L",
+        "24 L"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C01",
+      "concept_title": "Préparer le log",
+      "level": 2,
+      "question": "Pourquoi noter les unités et références des colonnes du log ?",
+      "question_en": "Why record units and references in log columns?",
+      "options": [
+        "Pour supprimer la nécessité de mesurer les distances",
+        "Pour garantir un vent constant pendant tout le vol",
+        "Pour remplacer la mise à jour des estimations en route",
+        "Pour éviter de mélanger minutes, heures, NM, kilomètres et références angulaires"
+      ],
+      "correct_answer": "Pour éviter de mélanger minutes, heures, NM, kilomètres et références angulaires",
+      "explanation": "Une valeur mal interprétée entraîne des erreurs de temps, de carburant ou de direction. Des unités explicites rendent les calculs contrôlables et facilitent leurs mises à jour.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "Misinterpreted values cause time, fuel or direction errors. Explicit units make calculations checkable and easier to update.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "flight log",
+        "calculations",
+        "fuel",
+        "time",
+        "distance",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "To remove the need to measure distances",
+        "To guarantee constant wind throughout the flight",
+        "To replace updating estimates en route",
+        "To avoid mixing minutes, hours, NM, kilometres and angular references"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C01",
+      "concept_title": "Préparer le log",
+      "level": 2,
+      "question": "Vrai ou faux ? Le journal de navigation peut regrouper les fréquences et possibilités de repli.",
+      "question_en": "True or false? The navigation log can include frequencies and fallback options.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn log de navigation rassemble points de route, distances, routes, caps prévus, altitudes, temps et carburant. Il peut aussi porter fréquences utiles et solutions de déroutement. Chaque colonne doit avoir une unité et une référence explicites. La préparation réduit le travail en vol, mais les estimations doivent être mises à jour avec les observations réelles.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "This statement is true.\n\nA navigation log brings together waypoints, distances, tracks, planned headings, altitudes, times and fuel. It can also include useful frequencies and diversion options. Every column needs an explicit unit and reference. Preparation reduces in-flight workload, but estimates must be updated with actual observations.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C01",
+      "concept_title": "Préparer le log",
+      "level": 2,
+      "question": "Vrai ou faux ? Une estimation préparée au sol ne doit jamais être actualisée.",
+      "question_en": "True or false? An estimate prepared on the ground must never be updated.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn log de navigation rassemble points de route, distances, routes, caps prévus, altitudes, temps et carburant. Il peut aussi porter fréquences utiles et solutions de déroutement. Chaque colonne doit avoir une unité et une référence explicites. La préparation réduit le travail en vol, mais les estimations doivent être mises à jour avec les observations réelles.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "This statement is false.\n\nA navigation log brings together waypoints, distances, tracks, planned headings, altitudes, times and fuel. It can also include useful frequencies and diversion options. Every column needs an explicit unit and reference. Preparation reduces in-flight workload, but estimates must be updated with actual observations.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C01",
+      "concept_title": "Préparer le log",
+      "level": 2,
+      "question": "Vrai ou faux ? Les altitudes et les caps prévus peuvent figurer dans le journal.",
+      "question_en": "True or false? Planned altitudes and headings can appear in the log.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn log de navigation rassemble points de route, distances, routes, caps prévus, altitudes, temps et carburant. Il peut aussi porter fréquences utiles et solutions de déroutement. Chaque colonne doit avoir une unité et une référence explicites. La préparation réduit le travail en vol, mais les estimations doivent être mises à jour avec les observations réelles.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "This statement is true.\n\nA navigation log brings together waypoints, distances, tracks, planned headings, altitudes, times and fuel. It can also include useful frequencies and diversion options. Every column needs an explicit unit and reference. Preparation reduces in-flight workload, but estimates must be updated with actual observations.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C02",
+      "concept_title": "Calculer sans mélanger les unités",
+      "level": 2,
+      "question": "Vrai ou faux ? Pour calculer un volume avec un débit horaire, on multiplie directement par des minutes.",
+      "question_en": "True or false? To calculate volume from hourly flow, multiply directly by minutes.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nTemps en minutes = 60 × distance / vitesse sol. Carburant consommé = débit horaire × temps en heures. Les phases de roulage, montée et autres besoins sont comptées séparément si le modèle de calcul l'exige. Une réserve n'est pas une consommation prévue pour terminer normalement le trajet : elle doit rester disponible conformément aux critères applicables.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "This statement is false.\n\nTime in minutes = 60 × distance / groundspeed. Fuel consumed = hourly flow × time in hours. Taxi, climb and other needs are counted separately if the calculation model requires it. A reserve is not planned consumption for completing the normal route: it must remain available under the applicable criteria.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C02",
+      "concept_title": "Calculer sans mélanger les unités",
+      "level": 2,
+      "question": "Vrai ou faux ? Selon le modèle, roulage et montée sont comptabilisés séparément.",
+      "question_en": "True or false? Depending on the model, taxi and climb are counted separately.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nTemps en minutes = 60 × distance / vitesse sol. Carburant consommé = débit horaire × temps en heures. Les phases de roulage, montée et autres besoins sont comptées séparément si le modèle de calcul l'exige. Une réserve n'est pas une consommation prévue pour terminer normalement le trajet : elle doit rester disponible conformément aux critères applicables.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "This statement is true.\n\nTime in minutes = 60 × distance / groundspeed. Fuel consumed = hourly flow × time in hours. Taxi, climb and other needs are counted separately if the calculation model requires it. A reserve is not planned consumption for completing the normal route: it must remain available under the applicable criteria.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C02",
+      "concept_title": "Calculer sans mélanger les unités",
+      "level": 2,
+      "question": "Vrai ou faux ? La réserve est une consommation normale prévue pour terminer chaque trajet.",
+      "question_en": "True or false? Reserve is normal planned consumption for completing every journey.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nTemps en minutes = 60 × distance / vitesse sol. Carburant consommé = débit horaire × temps en heures. Les phases de roulage, montée et autres besoins sont comptées séparément si le modèle de calcul l'exige. Une réserve n'est pas une consommation prévue pour terminer normalement le trajet : elle doit rester disponible conformément aux critères applicables.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "This statement is false.\n\nTime in minutes = 60 × distance / groundspeed. Fuel consumed = hourly flow × time in hours. Taxi, climb and other needs are counted separately if the calculation model requires it. A reserve is not planned consumption for completing the normal route: it must remain available under the applicable criteria.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? Trente minutes correspondent à une demi-heure.",
+      "question_en": "True or false? Thirty minutes equals half an hour.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nPour 45 NM à 90 kt sol, le temps est de 30 minutes, soit 0,5 heure. À 24 L/h, la consommation de cette seule branche est 12 L. Si la branche dure finalement 36 minutes à débit identique, elle consomme 14,4 L. Reporter l'écart sur les prévisions suivantes et réévaluer la marge au lieu de garder le plan initial inchangé.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "This statement is true.\n\nFor 45 NM at 90 kt groundspeed, time is 30 minutes, or 0.5 hour. At 24 L/h, this leg alone consumes 12 L. If it actually takes 36 minutes at the same flow, it consumes 14.4 L. Carry the discrepancy into subsequent estimates and reassess the margin instead of leaving the original plan unchanged.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? À débit constant, passer de 30 à 36 minutes laisse la consommation inchangée.",
+      "question_en": "True or false? At constant flow, increasing from 30 to 36 minutes leaves consumption unchanged.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nPour 45 NM à 90 kt sol, le temps est de 30 minutes, soit 0,5 heure. À 24 L/h, la consommation de cette seule branche est 12 L. Si la branche dure finalement 36 minutes à débit identique, elle consomme 14,4 L. Reporter l'écart sur les prévisions suivantes et réévaluer la marge au lieu de garder le plan initial inchangé.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "This statement is false.\n\nFor 45 NM at 90 kt groundspeed, time is 30 minutes, or 0.5 hour. At 24 L/h, this leg alone consumes 12 L. If it actually takes 36 minutes at the same flow, it consumes 14.4 L. Carry the discrepancy into subsequent estimates and reassess the margin instead of leaving the original plan unchanged.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? Un écart de consommation doit être reporté dans les estimations suivantes.",
+      "question_en": "True or false? A consumption discrepancy must be carried into subsequent estimates.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nPour 45 NM à 90 kt sol, le temps est de 30 minutes, soit 0,5 heure. À 24 L/h, la consommation de cette seule branche est 12 L. Si la branche dure finalement 36 minutes à débit identique, elle consomme 14,4 L. Reporter l'écart sur les prévisions suivantes et réévaluer la marge au lieu de garder le plan initial inchangé.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "This statement is true.\n\nFor 45 NM at 90 kt groundspeed, time is 30 minutes, or 0.5 hour. At 24 L/h, this leg alone consumes 12 L. If it actually takes 36 minutes at the same flow, it consumes 14.4 L. Carry the discrepancy into subsequent estimates and reassess the margin instead of leaving the original plan unchanged.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_NAV_006_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? Un retard sur un tronçon ne concerne jamais la marge carburant finale.",
+      "question_en": "True or false? A delay on one leg never affects final fuel margin.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nPour 45 NM à 90 kt sol, le temps est de 30 minutes, soit 0,5 heure. À 24 L/h, la consommation de cette seule branche est 12 L. Si la branche dure finalement 36 minutes à débit identique, elle consomme 14,4 L. Reporter l'écart sur les prévisions suivantes et réévaluer la marge au lieu de garder le plan initial inchangé.\n\n![Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.](/illustrations/ppl-nav-006.svg)",
+      "explanation_en": "This statement is false.\n\nFor 45 NM at 90 kt groundspeed, time is 30 minutes, or 0.5 hour. At 24 L/h, this leg alone consumes 12 L. If it actually takes 36 minutes at the same flow, it consumes 14.4 L. Carry the discrepancy into subsequent estimates and reassess the margin instead of leaving the original plan unchanged.\n\n![Diagram: Navigation Log and Flight Calculations](/illustrations/en/ppl-nav-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    }
+  ]
 }

@@ -1,3 +1,5 @@
+import MeasurementSelector from "./MeasurementSelector";
+import { useLearningLocale } from "@/utils/useLearningLocale";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuthStore } from "@/store/authStore";
 import { useUIStore } from "@/store/uiStore";
@@ -16,6 +18,12 @@ const NAV_ITEMS = [
 ];
 
 export default function Navbar() {
+  const { label } = useLearningLocale();
+  const isAuthenticated = useAuthStore((s) => s.isAuthenticated);
+  const navItems = isAuthenticated ? NAV_ITEMS : [
+    { path: "/", label: "Accueil" },
+    ...NAV_ITEMS.filter((item) => ["/questions", "/lessons", "/quiz"].includes(item.path)),
+  ];
   const location = useLocation();
   const navigate = useNavigate();
   const logout = useAuthStore((s) => s.logout);
@@ -24,7 +32,7 @@ export default function Navbar() {
 
   async function handleLogout() {
     await logout();
-    addToast("Déconnecté", "info");
+    addToast(label("Déconnecté"), "info");
     navigate("/");
   }
 
@@ -33,18 +41,18 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-14">
           {/* Logo */}
-          <Link to="/dashboard" className="flex items-center gap-2">
+          <Link to={isAuthenticated ? "/dashboard" : "/"} className="flex items-center gap-2">
             <span className="text-xl">✈️</span>
             <span className="font-bold text-white">AeroPath</span>
           </Link>
 
           {/* Desktop links */}
-          <div className="hidden md:flex items-center gap-1">
-            {NAV_ITEMS.map((item) => {
+          <div className="hidden xl:flex items-center gap-1">
+            {navItems.map((item) => {
               // Comparaison simplifiée : active si le pathname commence par item.path
               const isActive =
-                item.path === "/dashboard"
-                  ? location.pathname === "/dashboard"
+                (item.path === "/dashboard" || item.path === "/")
+                  ? location.pathname === item.path
                   : location.pathname.startsWith(item.path);
               return (
                 <Link
@@ -56,23 +64,24 @@ export default function Navbar() {
                       : "text-slate-300 hover:bg-slate-700"
                   }`}
                 >
-                  {item.label}
+                  {label(item.label)}
                 </Link>
               );
             })}
             <LanguageSelector />
-            <button
+            <MeasurementSelector />
+            {isAuthenticated ? <button
               onClick={handleLogout}
               className="ml-2 px-3 py-1.5 rounded-lg text-sm text-red-400 hover:bg-red-900/30 transition"
             >
-              <span className="hidden lg:inline">Déconnexion</span>
+              <span className="hidden lg:inline">{label("Déconnexion")}</span>
               <LogOut className="w-4 h-4 lg:hidden" />
-            </button>
+            </button> : <Link to="/login" className="ml-2 px-3 py-1.5 rounded-lg text-sm text-blue-300 hover:bg-slate-700">{label("Connexion")}</Link>}
           </div>
 
           {/* Mobile hamburger */}
           <button
-            className="md:hidden p-2 text-slate-300"
+            className="xl:hidden p-2 text-slate-300"
             onClick={() => setMobileOpen((o) => !o)}
             aria-label="Menu"
           >
@@ -82,11 +91,11 @@ export default function Navbar() {
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <div className="md:hidden pb-3 space-y-1 animate-fade-in">
-            {NAV_ITEMS.map((item) => {
+          <div className="xl:hidden pb-3 space-y-1 animate-fade-in">
+            {navItems.map((item) => {
               const isActive =
-                item.path === "/dashboard"
-                  ? location.pathname === "/dashboard"
+                (item.path === "/dashboard" || item.path === "/")
+                  ? location.pathname === item.path
                   : location.pathname.startsWith(item.path);
               return (
                 <Link
@@ -99,18 +108,19 @@ export default function Navbar() {
                       : "text-slate-300 hover:bg-slate-700"
                   }`}
                 >
-                  {item.label}
+                  {label(item.label)}
                 </Link>
               );
             })}
-            <div className="flex items-center gap-2 pt-2">
+            <div className="flex flex-wrap items-center gap-2 pt-2">
               <LanguageSelector />
-              <button
+            <MeasurementSelector />
+              {isAuthenticated ? <button
                 onClick={handleLogout}
                 className="px-3 py-1.5 rounded-lg text-sm text-red-400 hover:bg-red-900/30 transition"
               >
-                Déconnexion
-              </button>
+                {label("Déconnexion")}
+              </button> : <Link to="/login" className="px-3 py-1.5 text-sm text-blue-300">{label("Connexion")}</Link>}
             </div>
           </div>
         )}

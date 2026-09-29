@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Loading: combine the changes</title><desc id="desc">Loading: combine the changes</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / CPL / ATPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Loading: combine the changes</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Fictional exercise · Diagram not to scale</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">MASS_BALANCE_METHOD</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Read the diagram with the lesson explanations and references.</text>
+<text x="65" y="215" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">1. Define the initial state</text>
+<text x="65" y="249" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Mass M; moment J; arms from the same datum.</text>
+<rect x="65" y="277" width="515" height="145" rx="12" fill="#1c344b" stroke="#304961"/>
+<text x="83" y="307" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">Internal movement</text>
+<text x="83" y="345" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">ΔM = 0</text>
+<text x="83" y="385" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">ΔJ = m × (final arm − initial arm)</text>
+<rect x="620" y="277" width="515" height="145" rx="12" fill="#1c344b" stroke="#304961"/>
+<text x="638" y="307" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">Addition / removal</text>
+<text x="638" y="345" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">ΔM = +m (add) or −m (remove)</text>
+<text x="638" y="385" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">ΔJ = ΔM × arm</text>
+<text x="65" y="459" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">2. Update both totals</text>
+<text x="65" y="493" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Final M = M + ΣΔM; final J = J + ΣΔJ</text>
+<text x="65" y="537" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">3. CG = final J / final M</text>
+<text x="65" y="574" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Check direction, units and the envelope at final mass.</text>
+</svg>

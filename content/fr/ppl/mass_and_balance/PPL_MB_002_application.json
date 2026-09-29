@@ -1,0 +1,589 @@
+{
+  "metadata": {
+    "module_id": "PPL_MB_002",
+    "program": "PPL",
+    "subject": "mass_and_balance",
+    "chapter_title": "Chargement et enveloppe de centrage",
+    "chapter_title_en": "Loading and CG envelope",
+    "learning_objective": "Établir un bilan de masse et moments, lire une enveloppe à la masse étudiée et recalculer le centrage après ajout, retrait ou déplacement.",
+    "learning_objective_en": "Build a mass and moment balance, read an envelope at the relevant mass and recalculate CG after addition, removal or movement.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 40,
+    "prerequisites": [
+      "Masse, longueur et unités",
+      "Multiplication, division et proportions"
+    ],
+    "tags": [
+      "PPL",
+      "mass_and_balance"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-27",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "Référence du chapitre",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-mb-002.svg",
+      "alt": "Chargement et enveloppe de centrage"
+    },
+    "exam_subject": "flight_performance_planning",
+    "coverage_status": "partial"
+  },
+  "concepts": [
+    {
+      "concept_id": "PPL_MB_002_C01",
+      "title": "Tableau de chargement",
+      "title_en": "Loading table",
+      "content": "![PPL_MB_002](/illustrations/ppl-mb-002.svg)\n\nToutes les données suivantes sont fictives. Avion vide : 600 kg au bras 1,00 m ; occupants : 150 kg au bras 1,20 m ; carburant : 60 kg au bras 1,50 m ; bagages : 20 kg au bras 2,00 m. Moments respectifs : 600, 180, 90 et 40 kg·m. Total : 830 kg et 910 kg·m. Le centrage vaut 910 / 830 ≈ 1,096 m. Les bras sont mesurés depuis la même référence ; ne pas calculer la moyenne simple des quatre bras.\n\n### Comprendre le calcul avant de l’appliquer\n\nLe centre de gravité (CG) est le point où l’on représente la masse totale pour ce bilan. Une masse importante influence davantage sa position qu’une petite masse. Le datum est le plan de référence des bras ; conserver le datum et le sens des bras du document utilisé. Dans cet exercice, les bras augmentent vers l’arrière.\n\nLa méthode comporte trois étapes : calculer chaque moment de masse en kg·m, additionner séparément masses et moments, puis diviser le moment total par la masse totale. Le résultat a l’unité d’un bras : (kg·m)/kg = m. Ce contrôle élimine une division inversée ou une addition de grandeurs incompatibles.\n\n**Contrôle de vraisemblance.** Les masses étant positives, le CG doit être entre les bras extrêmes 1,00 et 2,00 m. Comme l’avion vide représente 600 des 830 kg, un résultat proche de 1,00 m est cohérent. La moyenne simple 1,425 m donnerait aux 20 kg de bagages autant d’influence qu’aux 600 kg de l’avion vide.\n\n**À faire seul :** deux masses, 80 kg à 1 m et 20 kg à 3 m. Calculer avant de lire la solution : (80 × 1 + 20 × 3)/100 = **1,4 m**, et non 2 m. Les masses réelles, les bras et les limites viennent des documents applicables à l’avion.",
+      "content_en": "![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)\n\nAll following data are fictional. Empty aircraft: 600 kg at arm 1.00 m; occupants: 150 kg at 1.20 m; fuel: 60 kg at 1.50 m; baggage: 20 kg at 2.00 m. Respective moments: 600, 180, 90 and 40 kg·m. Total: 830 kg and 910 kg·m. CG is 910 / 830 ≈ 1.096 m. All arms use the same datum; do not take a simple average of the four arms.\n\n### Understand the calculation before using it\n\nThe centre of gravity (CG) is the point where total mass is represented for this balance. A large mass influences its position more than a small one. The datum is the reference plane for arms; retain the datum and arm direction of the document used. In this exercise, arms increase aft.\n\nThe method has three steps: calculate each mass moment in kg·m, add masses and moments separately, then divide total moment by total mass. The result has the unit of an arm: (kg·m)/kg = m. This check rules out reversing the division or adding incompatible quantities.\n\n**Plausibility check.** With positive masses, CG must lie between the extreme arms of 1.00 and 2.00 m. The empty aircraft accounts for 600 of 830 kg, so a result near 1.00 m is reasonable. The simple average of 1.425 m gives the 20 kg baggage as much influence as the 600 kg empty aircraft.\n\n**Try independently:** two masses, 80 kg at 1 m and 20 kg at 3 m. Calculate before reading the solution: (80 × 1 + 20 × 3)/100 = **1.4 m**, not 2 m. Actual masses, arms and limits come from the documents applicable to the aircraft.",
+      "difficulty": "intermediate",
+      "tags": [
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "learning_objective": "Tableau de chargement"
+    },
+    {
+      "concept_id": "PPL_MB_002_C02",
+      "title": "Lire une enveloppe fictive",
+      "title_en": "Read a fictional envelope",
+      "content": "Pour cet exercice uniquement, l’enveloppe est définie par le tableau suivant : à 700 kg, bras autorisé de 1,00 à 1,20 m ; à 850 kg, de 1,05 à 1,20 m. Entre 700 et 850 kg, interpoler linéairement la limite avant ; la limite arrière reste 1,20 m. Aucune masse au-dessus de 850 kg ou sous 700 kg n’est prévue dans cet exercice. À 830 kg, limite avant = 1,00 + (830 − 700)/(850 − 700) × 0,05 ≈ 1,043 m. Le centrage 1,096 m est dans l’enveloppe. Cette vérification de centrage ne démontre pas la conformité de tous les autres aspects du vol.\n\n### Placer un point, pas seulement comparer une masse\n\nDans le SVG, l’axe horizontal représente le bras et l’axe vertical la masse. Choisir la masse de l’état étudié, lire les deux limites à cette masse, puis placer le bras calculé. Pour le départ à 830 kg, 1,0433… ≤ 1,0964… ≤ 1,20 m : les limites de cet exercice sont respectées.\n\nLa limite avant dépend de la masse : on ne peut pas réutiliser automatiquement celle lue pour un autre état. La fraction d’interpolation (830 − 700)/(850 − 700) est sans unité ; elle multiplie la variation de bras 0,05 m, pas la limite arrière.\n\n**Cas contrasté :** à 800 kg, un bras de 1,25 m reste hors limite arrière même si la masse est inférieure à 850 kg. Une masse acceptable ne compense pas un centrage inacceptable. Près d’une frontière, conserver la précision du calcul et suivre la méthode du manuel : un arrondi d’affichage ne crée pas une marge.\n\nUne enveloppe ne prouve pas à elle seule que les compartiments, l’arrimage, les performances ou les autres conditions du vol sont conformes. Identifier précisément le critère validé.",
+      "content_en": "For this exercise only, the envelope is defined by this table: at 700 kg, permitted arm 1.00 to 1.20 m; at 850 kg, 1.05 to 1.20 m. Between 700 and 850 kg, linearly interpolate the forward limit; the aft limit stays 1.20 m. No mass above 850 kg or below 700 kg is covered by this exercise. At 830 kg, forward limit = 1.00 + (830 − 700)/(850 − 700) × 0.05 ≈ 1.043 m. CG 1.096 m is inside the envelope. This CG check does not establish compliance with every other flight requirement.\n\n### Plot a point, rather than checking mass alone\n\nIn the SVG, the horizontal axis shows arm and the vertical axis shows mass. Select the mass for the condition considered, read both limits at that mass, then plot the calculated arm. At departure mass 830 kg, 1.0433… ≤ 1.0964… ≤ 1.20 m: this exercise’s limits are satisfied.\n\nThe forward limit depends on mass: do not automatically reuse a limit read for another condition. Interpolation fraction (830 − 700)/(850 − 700) is dimensionless; it multiplies the arm change of 0.05 m, not the aft limit.\n\n**Contrasting case:** at 800 kg, an arm of 1.25 m remains beyond the aft limit even though mass is below 850 kg. Acceptable mass cannot compensate for unacceptable CG. Near a boundary, retain calculation precision and follow the manual’s method: display rounding does not create margin.\n\nAn envelope alone does not establish compartment, restraint, performance or other flight compliance. Identify precisely which criterion has been verified.",
+      "difficulty": "intermediate",
+      "tags": [
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "learning_objective": "Lire une enveloppe fictive"
+    },
+    {
+      "concept_id": "PPL_MB_002_C03",
+      "title": "Consommation et déplacement de charge",
+      "title_en": "Fuel burn and load movement",
+      "content": "Après consommation de 30 kg de carburant au bras 1,50 m, retirer 30 kg et 45 kg·m : il reste 800 kg et 865 kg·m, centrage ≈ 1,081 m. La limite avant à 800 kg est ≈ 1,033 m : le point reste dans l’enveloppe. Le centrage s’est déplacé vers l’avant car le carburant consommé était derrière le centre de gravité. Déplacer un bagage de 20 kg de 2,00 m à 1,00 m ne change pas la masse mais diminue le moment de 20 kg·m. Toujours refaire le calcul et vérifier les limites locales de compartiment.\n\n### Choisir la méthode selon ce qui change\n\n**Consommation :** la masse totale change. Repartir des totaux non arrondis et retirer à la fois la masse consommée et son moment : (910 − 30 × 1,50)/(830 − 30) = **1,08125 m**. Garder 830 kg au dénominateur donnerait 1,042 m et mélangerait deux états différents.\n\n**Déplacement interne :** la masse reste constante. Pour le bagage de 20 kg déplacé de 2 à 1 m, Δmoment = 20 × (1 − 2) = −20 kg·m. En repartant séparément de l’état initial, le nouveau CG vaut (910 − 20)/830 = **1,0723 m**. Ce calcul n’est pas la suite de la consommation précédente.\n\n**Exercice de transfert :** repartir de 830 kg et 910 kg·m, puis ajouter 10 kg à 2 m. Solution : masse 840 kg, moment 930 kg·m, CG **1,1071 m**. Le CG recule vers la charge ajoutée. À 840 kg, limite avant 1,0467 m et arrière 1,20 m : ce point est dans l’enveloppe fictive, sous réserve des autres limites.\n\nAvant de valider, nommer l’état initial et final, préciser ajout/retrait/déplacement, vérifier le sens attendu, recalculer le point dans l’enveloppe et les limites locales. Le sens d’un déplacement dû au carburant dépend de la position du carburant retiré par rapport au CG.",
+      "content_en": "After burning 30 kg of fuel at arm 1.50 m, subtract 30 kg and 45 kg·m: 800 kg and 865 kg·m remain, CG ≈ 1.081 m. The forward limit at 800 kg is ≈ 1.033 m: the point remains inside the envelope. CG moved forward because the fuel removed was aft of the CG. Moving 20 kg of baggage from 2.00 m to 1.00 m leaves mass unchanged but reduces moment by 20 kg·m. Recalculate and check local compartment limits.\n\n### Choose the method from what changes\n\n**Fuel burn:** total mass changes. Start from unrounded totals and remove both consumed mass and its moment: (910 − 30 × 1.50)/(830 − 30) = **1.08125 m**. Retaining 830 kg in the denominator gives 1.042 m and mixes two different conditions.\n\n**Internal movement:** mass remains constant. For 20 kg baggage moved from 2 to 1 m, Δmoment = 20 × (1 − 2) = −20 kg·m. Starting separately from the initial condition, new CG is (910 − 20)/830 = **1.0723 m**. This calculation does not follow the preceding fuel burn.\n\n**Transfer exercise:** start again from 830 kg and 910 kg·m, then add 10 kg at 2 m. Solution: mass 840 kg, moment 930 kg·m, CG **1.1071 m**. CG moves aft towards the added load. At 840 kg, forward limit is 1.0467 m and aft limit 1.20 m: the point is inside the fictional envelope, subject to other limits.\n\nBefore accepting a result, name initial and final conditions, identify addition/removal/movement, check expected direction, recalculate the envelope point and check local limits. Fuel-burn CG direction depends on removed fuel’s position relative to CG.",
+      "difficulty": "intermediate",
+      "tags": [
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "learning_objective": "Consommation et déplacement de charge"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_MB_002_C01",
+      "concept_title": "Tableau de chargement",
+      "level": 2,
+      "question": "150 kg au bras 1,20 m : quel moment ?",
+      "question_en": "150 kg at arm 1.20 m: what moment?",
+      "options": [
+        "180 kg·m",
+        "125 kg·m",
+        "151,2 kg·m",
+        "18 kg·m"
+      ],
+      "options_en": [
+        "180 kg·m",
+        "125 kg·m",
+        "151.2 kg·m",
+        "18 kg·m"
+      ],
+      "correct_answer": "180 kg·m",
+      "explanation": "Le moment vaut 150 × 1,20 = 180 kg·m. Diviser donnerait 125 ; additionner masse et bras donnerait 151,2 avec des unités incompatibles.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "Moment is 150 × 1.20 = 180 kg·m. Division gives 125; adding mass and arm gives 151.2 with incompatible units.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C01",
+      "concept_title": "Tableau de chargement",
+      "level": 2,
+      "question": "600 + 150 + 60 + 20 kg : masse totale ?",
+      "question_en": "600 + 150 + 60 + 20 kg: total mass?",
+      "options": [
+        "810 kg",
+        "850 kg",
+        "910 kg",
+        "830 kg"
+      ],
+      "options_en": [
+        "810 kg",
+        "850 kg",
+        "910 kg",
+        "830 kg"
+      ],
+      "correct_answer": "830 kg",
+      "explanation": "Les quatre masses donnent 830 kg. 810 kg omet les bagages ; 910 est le total des moments dans le cours, une autre grandeur.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "All four masses give 830 kg. 810 kg omits baggage; 910 is the lesson’s total moment, a different quantity.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C01",
+      "concept_title": "Tableau de chargement",
+      "level": 2,
+      "question": "Moments 600, 180, 90 et 40 kg·m : somme ?",
+      "question_en": "Moments 600, 180, 90 and 40 kg·m: sum?",
+      "options": [
+        "870 kg·m",
+        "1 000 kg·m",
+        "910 kg·m",
+        "830 kg·m"
+      ],
+      "options_en": [
+        "870 kg·m",
+        "1,000 kg·m",
+        "910 kg·m",
+        "830 kg·m"
+      ],
+      "correct_answer": "910 kg·m",
+      "explanation": "600 + 180 + 90 + 40 = 910 kg·m. 870 omet le moment des bagages ; 830 confond le résultat avec la masse totale.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "600 + 180 + 90 + 40 = 910 kg·m. 870 omits baggage moment; 830 confuses the result with total mass.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C01",
+      "concept_title": "Tableau de chargement",
+      "level": 2,
+      "question": "910 kg·m et 830 kg : bras du centre de gravité ?",
+      "question_en": "910 kg·m and 830 kg: CG arm?",
+      "options": [
+        "Environ 1,200 m",
+        "Environ 1,096 m",
+        "Environ 0,912 m",
+        "Environ 1,425 m"
+      ],
+      "options_en": [
+        "About 1.200 m",
+        "About 1.096 m",
+        "About 0.912 m",
+        "About 1.425 m"
+      ],
+      "correct_answer": "Environ 1,096 m",
+      "explanation": "910/830 = 1,096385… m. 0,912 inverse le quotient ; 1,425 moyenne les bras sans tenir compte des masses. Le résultat conserve une unité de longueur.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "910/830 = 1.096385… m. 0.912 reverses the quotient; 1.425 averages arms without accounting for masses. The result retains a length unit.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C01",
+      "concept_title": "Tableau de chargement",
+      "level": 2,
+      "question": "Les masses 600, 150, 60 et 20 kg sont placées respectivement aux bras 1,00, 1,20, 1,50 et 2,00 m. Pourquoi ne pas moyenner simplement les quatre bras ?",
+      "question_en": "Masses of 600, 150, 60 and 20 kg are at arms 1.00, 1.20, 1.50 and 2.00 m respectively. Why not simply average the four arms?",
+      "options": [
+        "Les masses à chaque bras diffèrent",
+        "Il faut seulement moyenner les deux bras extrêmes",
+        "Le même datum impose une moyenne simple",
+        "Le carburant doit être exclu de tout calcul de CG"
+      ],
+      "options_en": [
+        "Masses at the arms differ",
+        "Only the two extreme arms should be averaged",
+        "A common datum requires a simple average",
+        "Fuel must be excluded from every CG calculation"
+      ],
+      "correct_answer": "Les masses à chaque bras diffèrent",
+      "explanation": "Le centrage pondère chaque bras par sa masse. Une moyenne simple n’est correcte que dans un cas approprié, par exemple des masses égales ; le seul fait d’utiliser le même datum ne suffit pas.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "CG weights each arm by its mass. A simple average works only in an appropriate case, such as equal masses; using the same datum alone is insufficient.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C02",
+      "concept_title": "Lire une enveloppe fictive",
+      "level": 2,
+      "question": "Limite avant 1,00 m à 700 kg et 1,05 m à 850 kg, interpolation linéaire : à 775 kg ?",
+      "question_en": "Forward limit 1.00 m at 700 kg and 1.05 m at 850 kg, linear interpolation: at 775 kg?",
+      "options": [
+        "1,050 m",
+        "1,200 m",
+        "0,500 m",
+        "1,025 m"
+      ],
+      "options_en": [
+        "1.050 m",
+        "1.200 m",
+        "0.500 m",
+        "1.025 m"
+      ],
+      "correct_answer": "1,025 m",
+      "explanation": "(775 − 700)/(850 − 700) = 0,5 ; limite = 1,00 + 0,5 × 0,05 = 1,025 m. 1,05 correspond à 850 kg ; 1,20 est la limite arrière.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "(775 − 700)/(850 − 700) = 0.5; limit = 1.00 + 0.5 × 0.05 = 1.025 m. 1.05 belongs to 850 kg; 1.20 is the aft limit.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C02",
+      "concept_title": "Lire une enveloppe fictive",
+      "level": 2,
+      "question": "Enveloppe fictive définie uniquement entre 700 et 850 kg : quelle masse maximale est couverte ?",
+      "question_en": "A fictional envelope is defined only between 700 and 850 kg: what maximum mass is covered?",
+      "options": [
+        "1 000 kg",
+        "700 kg",
+        "850 kg",
+        "910 kg"
+      ],
+      "options_en": [
+        "1,000 kg",
+        "700 kg",
+        "850 kg",
+        "910 kg"
+      ],
+      "correct_answer": "850 kg",
+      "explanation": "Le domaine fourni se termine à 850 kg. Cela décrit cet exercice ; ce nombre ne devient pas une masse maximale valable pour un avion réel.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "The supplied domain ends at 850 kg. This describes the exercise; the number does not become a maximum mass applicable to a real aircraft.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C02",
+      "concept_title": "Lire une enveloppe fictive",
+      "level": 2,
+      "question": "Enveloppe fictive entre 700 et 850 kg. À 830 kg, bras autorisés de 1,043 à 1,20 m. Pour un CG à 1,096 m, le point est…",
+      "question_en": "Fictional envelope between 700 and 850 kg. At 830 kg, permitted arms are 1.043 to 1.20 m. With CG at 1.096 m, the point is…",
+      "options": [
+        "Au-dessus de la masse maximale",
+        "Dans l’enveloppe",
+        "Trop avant",
+        "Trop arrière"
+      ],
+      "options_en": [
+        "Above maximum mass",
+        "Inside the envelope",
+        "Too far forward",
+        "Too far aft"
+      ],
+      "correct_answer": "Dans l’enveloppe",
+      "explanation": "830 kg appartient au domaine 700–850 kg et 1,096 m se trouve entre les limites fournies. Cette conclusion porte sur l’enveloppe fictive, pas sur toutes les conditions du vol.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "830 kg lies in the 700–850 kg domain and 1.096 m lies between the supplied limits. This conclusion concerns the fictional envelope, not all flight requirements.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C02",
+      "concept_title": "Lire une enveloppe fictive",
+      "level": 2,
+      "question": "800 kg, bras 1,25 m, limite arrière 1,20 m : conclusion ?",
+      "question_en": "800 kg, arm 1.25 m, aft limit 1.20 m: conclusion?",
+      "options": [
+        "Centrage trop arrière",
+        "Acceptable car moins de 850 kg",
+        "Centrage trop avant",
+        "Aucune limite ne s’applique"
+      ],
+      "options_en": [
+        "CG too far aft",
+        "Acceptable because below 850 kg",
+        "CG too far forward",
+        "No limit applies"
+      ],
+      "correct_answer": "Centrage trop arrière",
+      "explanation": "1,25 m dépasse de 0,05 m la limite arrière de 1,20 m. La masse sous son plafond ne compense pas une limite de centrage dépassée.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "1.25 m exceeds the 1.20 m aft limit by 0.05 m. Mass below its ceiling cannot compensate for an exceeded CG limit.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C02",
+      "concept_title": "Lire une enveloppe fictive",
+      "level": 2,
+      "question": "Une enveloppe fictive autorise une interpolation uniquement entre 700 et 850 kg. Peut-on l’extrapoler à 900 kg ?",
+      "question_en": "A fictional envelope permits interpolation only between 700 and 850 kg. May it be extrapolated to 900 kg?",
+      "options": [
+        "Oui, par simple proportion",
+        "Oui, si le centrage est central",
+        "Oui, si la piste est longue",
+        "Non, cette masse dépasse le domaine fourni"
+      ],
+      "options_en": [
+        "Yes, by simple proportion",
+        "Yes, if CG is central",
+        "Yes, if the runway is long",
+        "No, that mass exceeds the supplied domain"
+      ],
+      "correct_answer": "Non, cette masse dépasse le domaine fourni",
+      "explanation": "900 kg est hors du domaine autorisé 700–850 kg. Ni une position centrale du CG ni une piste longue ne justifie de prolonger l’enveloppe fournie.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "900 kg is outside the authorised 700–850 kg domain. Neither central CG nor a long runway justifies extending the supplied envelope.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C03",
+      "concept_title": "Consommation et déplacement de charge",
+      "level": 2,
+      "question": "30 kg de carburant consommés au bras 1,50 m : moment à retirer ?",
+      "question_en": "30 kg fuel burned at arm 1.50 m: moment to subtract?",
+      "options": [
+        "30 kg·m",
+        "90 kg·m",
+        "45 kg·m",
+        "20 kg·m"
+      ],
+      "options_en": [
+        "30 kg·m",
+        "90 kg·m",
+        "45 kg·m",
+        "20 kg·m"
+      ],
+      "correct_answer": "45 kg·m",
+      "explanation": "Moment retiré = 30 × 1,50 = 45 kg·m. 30 est la masse, pas le moment ; 90 correspondrait au moment des 60 kg initiaux.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "Removed moment = 30 × 1.50 = 45 kg·m. 30 is mass, not moment; 90 would be the moment of the initial 60 kg.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C03",
+      "concept_title": "Consommation et déplacement de charge",
+      "level": 2,
+      "question": "Au départ 830 kg et 910 kg·m ; retrait de 30 kg et 45 kg·m, sans autre changement : centrage final ?",
+      "question_en": "Initially 830 kg and 910 kg·m; remove 30 kg and 45 kg·m, with no other change: final CG?",
+      "options": [
+        "Environ 1,138 m",
+        "Environ 1,081 m",
+        "Environ 1,096 m",
+        "Environ 1,042 m"
+      ],
+      "options_en": [
+        "About 1.138 m",
+        "About 1.081 m",
+        "About 1.096 m",
+        "About 1.042 m"
+      ],
+      "correct_answer": "Environ 1,081 m",
+      "explanation": "Masse finale 800 kg, moment final 865 kg·m : 865/800 = 1,08125 m. 1,042 garderait l’ancienne masse ; 1,096 garderait l’ancien centrage.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "Final mass 800 kg, final moment 865 kg·m: 865/800 = 1.08125 m. 1.042 retains the old mass; 1.096 retains the old CG.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C03",
+      "concept_title": "Consommation et déplacement de charge",
+      "level": 2,
+      "question": "On retire du carburant derrière le CG initial, les autres masses restant fixes. Quel effet sur le centrage longitudinal ?",
+      "question_en": "Fuel aft of the initial CG is removed, with other masses fixed. What happens to longitudinal CG?",
+      "options": [
+        "L’avant",
+        "L’arrière",
+        "Aucun déplacement car le carburant est consommé",
+        "Un déplacement nul dès que la masse maximale est respectée"
+      ],
+      "options_en": [
+        "Forward",
+        "Aft",
+        "No movement because fuel is consumed",
+        "No movement whenever maximum mass is respected"
+      ],
+      "correct_answer": "L’avant",
+      "explanation": "Retirer une masse à l’arrière retire proportionnellement davantage de moment que de masse : le bras du CG diminue dans la convention de l’exercice. L’effet inverse existerait pour un retrait à l’avant.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "Removing aft mass removes proportionally more moment than mass: CG arm decreases in the exercise’s convention. Removing forward mass would have the opposite effect.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C03",
+      "concept_title": "Consommation et déplacement de charge",
+      "level": 2,
+      "question": "Déplacer 20 kg de 2 m à 1 m modifie le moment de…",
+      "question_en": "Moving 20 kg from 2 m to 1 m changes moment by…",
+      "options": [
+        "+20 kg·m",
+        "0 kg·m",
+        "−40 kg·m",
+        "−20 kg·m"
+      ],
+      "options_en": [
+        "+20 kg·m",
+        "0 kg·m",
+        "−40 kg·m",
+        "−20 kg·m"
+      ],
+      "correct_answer": "−20 kg·m",
+      "explanation": "Δmoment = 20 × (1 − 2) = −20 kg·m. Le signe négatif décrit le déplacement vers l’avant ; −40 retirerait tout l’ancien moment sans ajouter le nouveau.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "Δmoment = 20 × (1 − 2) = −20 kg·m. The negative sign describes forward movement; −40 removes all old moment without adding the new moment.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    },
+    {
+      "concept_id": "PPL_MB_002_C03",
+      "concept_title": "Consommation et déplacement de charge",
+      "level": 2,
+      "question": "On déplace un bagage de 20 kg du bras 2 m au bras 1 m, sans rien ajouter ni retirer. La masse totale change-t-elle ?",
+      "question_en": "A 20 kg bag is moved from arm 2 m to arm 1 m without adding or removing anything. Does total mass change?",
+      "options": [
+        "Oui, elle augmente de 20 kg",
+        "Oui, elle diminue dans le rapport des bras",
+        "Non, seulement sa répartition",
+        "Oui, elle diminue de 20 kg"
+      ],
+      "options_en": [
+        "Yes, it increases by 20 kg",
+        "Yes, it decreases in proportion to the arms",
+        "No, only its distribution",
+        "Yes, it decreases by 20 kg"
+      ],
+      "correct_answer": "Non, seulement sa répartition",
+      "explanation": "Les 20 kg restent à bord : la masse totale est inchangée. Seule la répartition et donc le moment changent ; ce n’est ni un ajout ni un retrait.\n\n![PPL_MB_002](/illustrations/ppl-mb-002.svg)",
+      "explanation_en": "The 20 kg remains aboard: total mass is unchanged. Distribution and therefore moment change; this is neither an addition nor a removal.\n\n![PPL_MB_002](/illustrations/en/ppl-mb-002.svg)",
+      "tags": [
+        "PPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+      ]
+    }
+  ]
+}

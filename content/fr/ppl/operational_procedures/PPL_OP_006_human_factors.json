@@ -5,13 +5,581 @@
     "subject": "Operational Procedures",
     "chapter_title": "Facteurs humains et gestion des ressources",
     "chapter_title_en": "Human Factors and Crew Resource Management",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : menaces et erreurs; utiliser les ressources; exemple de pression extérieure.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: threats and errors; using resources; external pressure example.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 25,
+    "estimated_duration_minutes": 10,
     "prerequisites": [],
-    "tags": ["human factors", "CRM", "decision making", "fatigue", "stress"]
+    "tags": [
+      "human factors",
+      "CRM",
+      "decision making",
+      "fatigue",
+      "stress"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — Airplane Flying Handbook",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+      },
+      {
+        "title": "EASA — SERA",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-op-006.svg",
+      "alt": "Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée."
+    },
+    "exam_subject": "human_performance",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_OP_006_C01",
+      "title": "Menaces et erreurs",
+      "title_en": "Threats and errors",
+      "content": "![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)\n\nUne menace est une condition qui peut compliquer le vol : vent fort, terrain inconnu, fatigue ou pression horaire. Une erreur est une action ou omission qui s'écarte de ce qui était prévu ou nécessaire. La gestion des menaces et erreurs consiste à anticiper, détecter et limiter leurs conséquences avant qu'elles ne conduisent à une situation dangereuse.",
+      "content_en": "![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)\n\nA threat is a condition that may complicate flight: strong wind, an unfamiliar aerodrome, fatigue or time pressure. An error is an action or omission that departs from what was intended or required. Threat and error management means anticipating, detecting and limiting their consequences before they create a dangerous situation.",
+      "difficulty": "intermediate",
+      "tags": [
+        "human factors",
+        "CRM",
+        "decision making",
+        "fatigue",
+        "stress"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "learning_objective": "Menaces et erreurs"
+    },
+    {
+      "concept_id": "PPL_OP_006_C02",
+      "title": "Utiliser les ressources",
+      "title_en": "Using resources",
+      "content": "Les ressources incluent préparation, checklists, instructeur, autres pilotes, services de circulation aérienne et informations disponibles. Même seul à bord, le pilote peut demander de l'aide. Une communication simple avec les passagers réduit les interruptions. Dire qu'on ne sait pas ou qu'on souhaite se dérouter est un comportement de gestion, pas une perte de compétence.",
+      "content_en": "Resources include preparation, checklists, the instructor, other pilots, air traffic services and available information. Even alone on board, a pilot can ask for help. Simple passenger communication reduces interruptions. Admitting uncertainty or requesting a diversion is a management action, not a loss of competence.",
+      "difficulty": "intermediate",
+      "tags": [
+        "human factors",
+        "CRM",
+        "decision making",
+        "fatigue",
+        "stress"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "learning_objective": "Utiliser les ressources"
+    },
+    {
+      "concept_id": "PPL_OP_006_C03",
+      "title": "Exemple de pression extérieure",
+      "title_en": "External pressure example",
+      "content": "Des passagers attendent une arrivée à heure fixe, mais les conditions se dégradent. Identifier cette pression avant le départ permet d'annoncer une alternative terrestre ou un report. En vol, comparer les faits aux critères décidés et accepter de modifier le plan. La compétence consiste aussi à conserver une marge, même lorsque le trajet a déjà commencé.",
+      "content_en": "Passengers expect to arrive at a fixed time, but conditions deteriorate. Identifying this pressure before departure allows an alternative ground journey or postponement to be discussed. In flight, compare facts against the agreed criteria and accept a change of plan. Competence includes retaining a margin even after the journey has begun.",
+      "difficulty": "intermediate",
+      "tags": [
+        "human factors",
+        "CRM",
+        "decision making",
+        "fatigue",
+        "stress"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "learning_objective": "Exemple de pression extérieure"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_OP_006_C01",
+      "concept_title": "Menaces et erreurs",
+      "level": 1,
+      "question": "La fatigue est-elle une menace à prendre en compte ?",
+      "question_en": "Is fatigue a threat to consider?",
+      "options": [
+        "Seulement la nuit",
+        "Oui",
+        "Non",
+        "Seulement en transport commercial"
+      ],
+      "correct_answer": "Oui",
+      "explanation": "Elle peut réduire la vigilance et la qualité des décisions.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "It can reduce alertness and decision quality.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "human factors",
+        "CRM",
+        "decision making",
+        "fatigue",
+        "stress",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Only at night",
+        "Yes",
+        "No",
+        "Only in commercial transport"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C02",
+      "concept_title": "Utiliser les ressources",
+      "level": 1,
+      "question": "Un pilote seul peut-il utiliser des ressources extérieures ?",
+      "question_en": "Can a pilot flying alone use external resources?",
+      "options": [
+        "Oui",
+        "Non",
+        "Seulement après une panne moteur",
+        "Seulement au sol"
+      ],
+      "correct_answer": "Oui",
+      "explanation": "Les services et autres personnes compétentes peuvent aider.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "Services and other competent people can help.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "human factors",
+        "CRM",
+        "decision making",
+        "fatigue",
+        "stress",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Yes",
+        "No",
+        "Only after an engine failure",
+        "Only on the ground"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C03",
+      "concept_title": "Exemple de pression extérieure",
+      "level": 1,
+      "question": "Quel effet peut avoir une contrainte d'arrivée imposée ?",
+      "question_en": "What effect can an imposed arrival deadline have?",
+      "options": [
+        "Garantir une meilleure décision",
+        "Supprimer les erreurs",
+        "Augmenter la réserve carburant",
+        "Pousser à poursuivre malgré des conditions défavorables"
+      ],
+      "correct_answer": "Pousser à poursuivre malgré des conditions défavorables",
+      "explanation": "La pression de l'objectif peut biaiser l'évaluation du risque.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "Pressure to achieve the goal can bias risk assessment.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "human factors",
+        "CRM",
+        "decision making",
+        "fatigue",
+        "stress",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Guarantee a better decision",
+        "Remove errors",
+        "Increase reserve fuel",
+        "Encourage continuation despite unfavourable conditions"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C01",
+      "concept_title": "Menaces et erreurs",
+      "level": 2,
+      "question": "Dans la gestion des menaces et erreurs, comment classer un vent fort prévu avant le départ ?",
+      "question_en": "In threat and error management, how is strong wind forecast before departure classified?",
+      "options": [
+        "Une preuve que le vol est toujours impossible",
+        "Une autorisation de dépasser les limitations",
+        "Une menace à anticiper",
+        "Une erreur déjà commise par le pilote"
+      ],
+      "correct_answer": "Une menace à anticiper",
+      "explanation": "Une menace est une condition susceptible de compliquer le vol. Elle n'est pas en elle-même une erreur ; la préparation sert à anticiper et gérer ses conséquences.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "A threat is a condition that may complicate the flight. It is not itself an error; preparation anticipates and manages its consequences.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "human factors",
+        "CRM",
+        "decision making",
+        "fatigue",
+        "stress",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Proof that flight is always impossible",
+        "Permission to exceed limitations",
+        "A threat to anticipate",
+        "An error already made by the pilot"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C03",
+      "concept_title": "Exemple de pression extérieure",
+      "level": 2,
+      "question": "Les passagers exigent une arrivée à heure fixe malgré une météo incertaine. Quelle préparation réduit cette pression ?",
+      "question_en": "Passengers demand a fixed arrival time despite uncertain weather. Which preparation reduces this pressure?",
+      "options": [
+        "Cacher les solutions alternatives pour éviter une discussion",
+        "Expliquer avant le départ les options de report ou de transport alternatif",
+        "Promettre l'arrivée quelles que soient les conditions",
+        "Réduire en vol les marges annoncées pour respecter l'horaire"
+      ],
+      "correct_answer": "Expliquer avant le départ les options de report ou de transport alternatif",
+      "explanation": "Une alternative acceptée au sol réduit la pression de poursuivre. En vol, les décisions doivent rester guidées par les conditions et les marges, et non par la promesse d'un horaire.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "An alternative accepted on the ground reduces pressure to continue. In-flight decisions must follow conditions and margins, not a promised schedule.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "human factors",
+        "CRM",
+        "decision making",
+        "fatigue",
+        "stress",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Hide alternatives to avoid discussion",
+        "Explain postponement or alternative transport options before departure",
+        "Promise arrival regardless of conditions",
+        "Reduce stated margins in flight to meet the schedule"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C01",
+      "concept_title": "Menaces et erreurs",
+      "level": 2,
+      "question": "Vrai ou faux ? Un aérodrome inconnu peut constituer une menace à anticiper.",
+      "question_en": "True or false? An unfamiliar aerodrome can be a threat to anticipate.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne menace est une condition qui peut compliquer le vol : vent fort, terrain inconnu, fatigue ou pression horaire. Une erreur est une action ou omission qui s'écarte de ce qui était prévu ou nécessaire. La gestion des menaces et erreurs consiste à anticiper, détecter et limiter leurs conséquences avant qu'elles ne conduisent à une situation dangereuse.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "This statement is true.\n\nA threat is a condition that may complicate flight: strong wind, an unfamiliar aerodrome, fatigue or time pressure. An error is an action or omission that departs from what was intended or required. Threat and error management means anticipating, detecting and limiting their consequences before they create a dangerous situation.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C01",
+      "concept_title": "Menaces et erreurs",
+      "level": 2,
+      "question": "Vrai ou faux ? Une menace est nécessairement une erreur déjà commise.",
+      "question_en": "True or false? A threat is necessarily an error already committed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne menace est une condition qui peut compliquer le vol : vent fort, terrain inconnu, fatigue ou pression horaire. Une erreur est une action ou omission qui s'écarte de ce qui était prévu ou nécessaire. La gestion des menaces et erreurs consiste à anticiper, détecter et limiter leurs conséquences avant qu'elles ne conduisent à une situation dangereuse.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "This statement is false.\n\nA threat is a condition that may complicate flight: strong wind, an unfamiliar aerodrome, fatigue or time pressure. An error is an action or omission that departs from what was intended or required. Threat and error management means anticipating, detecting and limiting their consequences before they create a dangerous situation.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C01",
+      "concept_title": "Menaces et erreurs",
+      "level": 2,
+      "question": "Vrai ou faux ? Une omission peut être une erreur.",
+      "question_en": "True or false? An omission can be an error.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne menace est une condition qui peut compliquer le vol : vent fort, terrain inconnu, fatigue ou pression horaire. Une erreur est une action ou omission qui s'écarte de ce qui était prévu ou nécessaire. La gestion des menaces et erreurs consiste à anticiper, détecter et limiter leurs conséquences avant qu'elles ne conduisent à une situation dangereuse.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "This statement is true.\n\nA threat is a condition that may complicate flight: strong wind, an unfamiliar aerodrome, fatigue or time pressure. An error is an action or omission that departs from what was intended or required. Threat and error management means anticipating, detecting and limiting their consequences before they create a dangerous situation.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C02",
+      "concept_title": "Utiliser les ressources",
+      "level": 2,
+      "question": "Vrai ou faux ? Reconnaître une incertitude signifie perdre toute compétence.",
+      "question_en": "True or false? Acknowledging uncertainty means losing all competence.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes ressources incluent préparation, checklists, instructeur, autres pilotes, services de circulation aérienne et informations disponibles. Même seul à bord, le pilote peut demander de l'aide. Une communication simple avec les passagers réduit les interruptions. Dire qu'on ne sait pas ou qu'on souhaite se dérouter est un comportement de gestion, pas une perte de compétence.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "This statement is false.\n\nResources include preparation, checklists, the instructor, other pilots, air traffic services and available information. Even alone on board, a pilot can ask for help. Simple passenger communication reduces interruptions. Admitting uncertainty or requesting a diversion is a management action, not a loss of competence.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C02",
+      "concept_title": "Utiliser les ressources",
+      "level": 2,
+      "question": "Vrai ou faux ? Les services de circulation aérienne font partie des ressources utilisables.",
+      "question_en": "True or false? Air traffic services are among the resources available.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes ressources incluent préparation, checklists, instructeur, autres pilotes, services de circulation aérienne et informations disponibles. Même seul à bord, le pilote peut demander de l'aide. Une communication simple avec les passagers réduit les interruptions. Dire qu'on ne sait pas ou qu'on souhaite se dérouter est un comportement de gestion, pas une perte de compétence.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "This statement is true.\n\nResources include preparation, checklists, the instructor, other pilots, air traffic services and available information. Even alone on board, a pilot can ask for help. Simple passenger communication reduces interruptions. Admitting uncertainty or requesting a diversion is a management action, not a loss of competence.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C02",
+      "concept_title": "Utiliser les ressources",
+      "level": 2,
+      "question": "Vrai ou faux ? Informer simplement les passagers peut réduire les interruptions.",
+      "question_en": "True or false? Simple passenger information can reduce interruptions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes ressources incluent préparation, checklists, instructeur, autres pilotes, services de circulation aérienne et informations disponibles. Même seul à bord, le pilote peut demander de l'aide. Une communication simple avec les passagers réduit les interruptions. Dire qu'on ne sait pas ou qu'on souhaite se dérouter est un comportement de gestion, pas une perte de compétence.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "This statement is true.\n\nResources include preparation, checklists, the instructor, other pilots, air traffic services and available information. Even alone on board, a pilot can ask for help. Simple passenger communication reduces interruptions. Admitting uncertainty or requesting a diversion is a management action, not a loss of competence.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C02",
+      "concept_title": "Utiliser les ressources",
+      "level": 2,
+      "question": "Vrai ou faux ? Une checklist ne peut jamais aider un pilote seul.",
+      "question_en": "True or false? A checklist can never help a solo pilot.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes ressources incluent préparation, checklists, instructeur, autres pilotes, services de circulation aérienne et informations disponibles. Même seul à bord, le pilote peut demander de l'aide. Une communication simple avec les passagers réduit les interruptions. Dire qu'on ne sait pas ou qu'on souhaite se dérouter est un comportement de gestion, pas une perte de compétence.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "This statement is false.\n\nResources include preparation, checklists, the instructor, other pilots, air traffic services and available information. Even alone on board, a pilot can ask for help. Simple passenger communication reduces interruptions. Admitting uncertainty or requesting a diversion is a management action, not a loss of competence.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C03",
+      "concept_title": "Exemple de pression extérieure",
+      "level": 2,
+      "question": "Vrai ou faux ? Un objectif de voyage fixé avant le départ ne doit jamais être changé.",
+      "question_en": "True or false? A journey goal set before departure must never be changed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDes passagers attendent une arrivée à heure fixe, mais les conditions se dégradent. Identifier cette pression avant le départ permet d'annoncer une alternative terrestre ou un report. En vol, comparer les faits aux critères décidés et accepter de modifier le plan. La compétence consiste aussi à conserver une marge, même lorsque le trajet a déjà commencé.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "This statement is false.\n\nPassengers expect to arrive at a fixed time, but conditions deteriorate. Identifying this pressure before departure allows an alternative ground journey or postponement to be discussed. In flight, compare facts against the agreed criteria and accept a change of plan. Competence includes retaining a margin even after the journey has begun.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C03",
+      "concept_title": "Exemple de pression extérieure",
+      "level": 2,
+      "question": "Vrai ou faux ? Évoquer un transport terrestre de remplacement peut réduire la pression d'arriver.",
+      "question_en": "True or false? Discussing alternative ground transport can reduce arrival pressure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDes passagers attendent une arrivée à heure fixe, mais les conditions se dégradent. Identifier cette pression avant le départ permet d'annoncer une alternative terrestre ou un report. En vol, comparer les faits aux critères décidés et accepter de modifier le plan. La compétence consiste aussi à conserver une marge, même lorsque le trajet a déjà commencé.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "This statement is true.\n\nPassengers expect to arrive at a fixed time, but conditions deteriorate. Identifying this pressure before departure allows an alternative ground journey or postponement to be discussed. In flight, compare facts against the agreed criteria and accept a change of plan. Competence includes retaining a margin even after the journey has begun.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_006_C03",
+      "concept_title": "Exemple de pression extérieure",
+      "level": 2,
+      "question": "Vrai ou faux ? Avoir déjà commencé le trajet suffit à justifier sa poursuite.",
+      "question_en": "True or false? Having already started the journey is enough to justify continuing.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDes passagers attendent une arrivée à heure fixe, mais les conditions se dégradent. Identifier cette pression avant le départ permet d'annoncer une alternative terrestre ou un report. En vol, comparer les faits aux critères décidés et accepter de modifier le plan. La compétence consiste aussi à conserver une marge, même lorsque le trajet a déjà commencé.\n\n![Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.](/illustrations/ppl-op-006.svg)",
+      "explanation_en": "This statement is false.\n\nPassengers expect to arrive at a fixed time, but conditions deteriorate. Identifying this pressure before departure allows an alternative ground journey or postponement to be discussed. In flight, compare facts against the agreed criteria and accept a change of plan. Competence includes retaining a margin even after the journey has begun.\n\n![Diagram: Human Factors and Crew Resource Management](/illustrations/en/ppl-op-006.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    }
+  ]
 }

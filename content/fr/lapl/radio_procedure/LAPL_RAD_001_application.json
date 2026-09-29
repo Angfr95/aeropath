@@ -1,0 +1,573 @@
+{
+  "metadata": {
+    "module_id": "LAPL_RAD_001",
+    "program": "LAPL",
+    "subject": "Radio Procedure",
+    "chapter_title": "Comprendre une clairance et vérifier son collationnement",
+    "chapter_title_en": "Understanding clearances and checking readback",
+    "learning_objective": "Distinguer information et autorisation, puis détecter une erreur dans un échange radio.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: an authorisation with a defined scope; repeat to verify; a ground listening exercise; resolve ambiguity.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 15,
+    "prerequisites": [
+      "PPL_COM_001"
+    ],
+    "tags": [
+      "LAPL",
+      "radio_procedure"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "EASA — SERA.8015 : clairances et collationnement",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-rad-001.svg",
+      "alt": "Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action."
+    },
+    "exam_subject": "communications",
+    "coverage_status": "partial",
+    "derived_from": "PPL_RAD_001",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_RAD_001_C01",
+      "title": "Une autorisation avec un périmètre",
+      "title_en": "An authorisation with a defined scope",
+      "content": "![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)\n\nUne clairance autorise un aéronef à évoluer dans les conditions spécifiées par le contrôle. Elle possède un contenu précis : une instruction de roulage n'implique pas toutes les autorisations qui seront nécessaires ensuite. Noter la limite reçue et identifier la prochaine action qui demandera une nouvelle autorisation. Une information de vent, un accusé de réception ou le simple contact radio ne doivent pas être interprétés comme une clairance supplémentaire.",
+      "content_en": "![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)\n\nA clearance authorises an aircraft to operate under conditions specified by control. Its content is precise: a taxi instruction does not imply every authorisation needed later. Note the received limit and identify the next action requiring further clearance. Wind information, an acknowledgement or simple radio contact must not be treated as an additional clearance.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "learning_objective": "Une autorisation avec un périmètre"
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C02",
+      "title": "Répéter pour vérifier",
+      "title_en": "Repeat to verify",
+      "content": "Le collationnement permet de confronter ce que le pilote a compris à ce qui a été transmis. SERA.8015 définit les éléments de sécurité à reprendre, notamment les clairances de route, les instructions relatives aux pistes et certaines informations de niveau, cap, vitesse, calage et transpondeur. La formulation exacte dépend du message. Une réponse vague comme « reçu » ne remplace pas le collationnement lorsqu'il est requis.",
+      "content_en": "Readback compares what the pilot understood with what was transmitted. SERA.8015 defines safety-related items to repeat, including route clearances, runway instructions and certain level, heading, speed, altimeter-setting and transponder information. Exact wording depends on the message. A vague “roger” does not replace a required readback.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "learning_objective": "Répéter pour vérifier"
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C03",
+      "title": "Exercice d'écoute au sol",
+      "title_en": "A ground listening exercise",
+      "content": "Dans un exercice pédagogique, le pilote entend une instruction lui demandant de rester au point d'attente, mais commence à préparer son entrée sur piste parce qu'il pensait être le prochain au décollage. L'attente mentale a remplacé le message réel. Revenir aux mots reçus et collationner la limite permet de détecter cette erreur. Le collationnement ne crée pas une autorisation absente du message initial : il vérifie une autorisation effectivement reçue.",
+      "content_en": "In a training exercise, the pilot hears an instruction to remain at the holding point but begins preparing to enter the runway because they expected to depart next. Expectation has replaced the actual message. Returning to the received words and reading back the limit helps detect the error. Readback does not create an authorisation absent from the original message: it verifies an authorisation actually received.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "learning_objective": "Exercice d'écoute au sol"
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C04",
+      "title": "Lever une ambiguïté",
+      "title_en": "Resolve ambiguity",
+      "content": "Si l'indicatif, un chiffre ou la limite n'est pas certain, demander clarification avant d'agir. Si le contrôle corrige le collationnement, écouter et confirmer la version correcte. En cas d'instruction impossible à respecter, annoncer la difficulté plutôt que promettre silencieusement une action irréalisable. Les exemples de cette leçon entraînent le raisonnement ; les exercices de phraséologie complète doivent utiliser les procédures et expressions applicables au lieu et à la langue du vol.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "If the callsign, a figure or the limit is uncertain, request clarification before acting. If control corrects the readback, listen and confirm the correct version. If unable to comply, report the difficulty instead of silently promising an impossible action. This lesson's examples practise reasoning; complete phraseology exercises must use the procedures and expressions applicable to the flight's location and language.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "learning_objective": "Lever une ambiguïté"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_RAD_001_C01",
+      "concept_title": "Une autorisation avec un périmètre",
+      "level": 2,
+      "question": "Une information de vent vaut-elle autorisation de décollage ?",
+      "question_en": "Does wind information constitute take-off clearance?",
+      "options": [
+        "Oui si elle contient le numéro de piste",
+        "Oui après le collationnement du vent",
+        "Non",
+        "Oui si la piste est libre"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Une information ne remplace pas la clairance nécessaire.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "Information does not replace the required clearance.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "radio_procedure",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Yes, if it includes the runway number",
+        "Yes, after reading back the wind",
+        "No",
+        "Yes, if the runway is clear"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C02",
+      "concept_title": "Répéter pour vérifier",
+      "level": 2,
+      "question": "À quoi sert principalement le collationnement ?",
+      "question_en": "What is the main purpose of readback?",
+      "options": [
+        "À accélérer l'avion précédent",
+        "À vérifier la compréhension des éléments concernés",
+        "À obtenir automatiquement une nouvelle autorisation",
+        "À remplacer l'écoute de l'indicatif"
+      ],
+      "correct_answer": "À vérifier la compréhension des éléments concernés",
+      "explanation": "Il permet au pilote et au contrôle de détecter une différence de compréhension.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "It enables the pilot and controller to detect a difference in understanding.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "radio_procedure",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "To speed up the preceding aircraft",
+        "To verify understanding of the relevant items",
+        "To obtain a new clearance automatically",
+        "To replace listening for the callsign"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C02",
+      "concept_title": "Répéter pour vérifier",
+      "level": 2,
+      "question": "Dire « reçu » suffit-il pour tous les messages ?",
+      "question_en": "Is “roger” sufficient for every message?",
+      "options": [
+        "Non, certains éléments doivent être collationnés",
+        "Oui, dans tous les cas",
+        "Oui si le pilote est expérimenté",
+        "Oui avec un transpondeur"
+      ],
+      "correct_answer": "Non, certains éléments doivent être collationnés",
+      "explanation": "SERA définit des éléments de sécurité nécessitant un collationnement.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "SERA defines safety-related items requiring readback.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "radio_procedure",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "No, some items must be read back",
+        "Yes, in every case",
+        "Yes, if the pilot is experienced",
+        "Yes, with a transponder"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C03",
+      "concept_title": "Exercice d'écoute au sol",
+      "level": 2,
+      "question": "Le pilote attendait un alignement mais entend de rester au point d'attente : que doit-il suivre ?",
+      "question_en": "The pilot expected line-up clearance but hears an instruction to remain at the holding point. What must they follow?",
+      "options": [
+        "Son attente initiale",
+        "Le mouvement de l'avion devant lui",
+        "Son horaire prévu",
+        "L'instruction effectivement reçue"
+      ],
+      "correct_answer": "L'instruction effectivement reçue",
+      "explanation": "Une attente mentale ne doit pas remplacer le message réel.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "An expectation must not replace the actual message.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "radio_procedure",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Their original expectation",
+        "The aircraft ahead",
+        "Their planned schedule",
+        "The instruction actually received"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C04",
+      "concept_title": "Lever une ambiguïté",
+      "level": 2,
+      "question": "Que faire si la limite d'une clairance n'est pas certaine ?",
+      "question_en": "What should you do if a clearance limit is uncertain?",
+      "options": [
+        "Suivre un autre avion",
+        "Supposer que le silence lève la limite",
+        "Demander clarification avant de franchir cette limite",
+        "Choisir l'interprétation la plus favorable"
+      ],
+      "correct_answer": "Demander clarification avant de franchir cette limite",
+      "explanation": "L'ambiguïté doit être résolue avant l'action concernée.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "Resolve ambiguity before the action concerned.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "radio_procedure",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Follow another aircraft",
+        "Assume silence removes the limit",
+        "Request clarification before crossing the limit",
+        "Choose the most favourable interpretation"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C01",
+      "concept_title": "Une autorisation avec un périmètre",
+      "level": 2,
+      "question": "Vrai ou faux ? Une clairance possède des conditions et une portée précises.",
+      "question_en": "True or false? A clearance has specific conditions and scope.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne clairance autorise un aéronef à évoluer dans les conditions spécifiées par le contrôle. Elle possède un contenu précis : une instruction de roulage n'implique pas toutes les autorisations qui seront nécessaires ensuite. Noter la limite reçue et identifier la prochaine action qui demandera une nouvelle autorisation. Une information de vent, un accusé de réception ou le simple contact radio ne doivent pas être interprétés comme une clairance supplémentaire.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "This statement is true.\n\nA clearance authorises an aircraft to operate under conditions specified by control. Its content is precise: a taxi instruction does not imply every authorisation needed later. Note the received limit and identify the next action requiring further clearance. Wind information, an acknowledgement or simple radio contact must not be treated as an additional clearance.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C01",
+      "concept_title": "Une autorisation avec un périmètre",
+      "level": 2,
+      "question": "Vrai ou faux ? Un simple contact radio autorise automatiquement toutes les actions suivantes.",
+      "question_en": "True or false? Simple radio contact automatically authorises all subsequent actions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne clairance autorise un aéronef à évoluer dans les conditions spécifiées par le contrôle. Elle possède un contenu précis : une instruction de roulage n'implique pas toutes les autorisations qui seront nécessaires ensuite. Noter la limite reçue et identifier la prochaine action qui demandera une nouvelle autorisation. Une information de vent, un accusé de réception ou le simple contact radio ne doivent pas être interprétés comme une clairance supplémentaire.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "This statement is false.\n\nA clearance authorises an aircraft to operate under conditions specified by control. Its content is precise: a taxi instruction does not imply every authorisation needed later. Note the received limit and identify the next action requiring further clearance. Wind information, an acknowledgement or simple radio contact must not be treated as an additional clearance.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C01",
+      "concept_title": "Une autorisation avec un périmètre",
+      "level": 2,
+      "question": "Vrai ou faux ? Il faut identifier l'action suivante qui nécessitera une nouvelle autorisation.",
+      "question_en": "True or false? The next action requiring a further clearance must be identified.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne clairance autorise un aéronef à évoluer dans les conditions spécifiées par le contrôle. Elle possède un contenu précis : une instruction de roulage n'implique pas toutes les autorisations qui seront nécessaires ensuite. Noter la limite reçue et identifier la prochaine action qui demandera une nouvelle autorisation. Une information de vent, un accusé de réception ou le simple contact radio ne doivent pas être interprétés comme une clairance supplémentaire.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "This statement is true.\n\nA clearance authorises an aircraft to operate under conditions specified by control. Its content is precise: a taxi instruction does not imply every authorisation needed later. Note the received limit and identify the next action requiring further clearance. Wind information, an acknowledgement or simple radio contact must not be treated as an additional clearance.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C02",
+      "concept_title": "Répéter pour vérifier",
+      "level": 2,
+      "question": "Vrai ou faux ? Une formule vague remplace toujours la répétition des éléments de sécurité.",
+      "question_en": "True or false? A vague phrase always replaces repeating safety-related items.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe collationnement permet de confronter ce que le pilote a compris à ce qui a été transmis. SERA.8015 définit les éléments de sécurité à reprendre, notamment les clairances de route, les instructions relatives aux pistes et certaines informations de niveau, cap, vitesse, calage et transpondeur. La formulation exacte dépend du message. Une réponse vague comme « reçu » ne remplace pas le collationnement lorsqu'il est requis.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "This statement is false.\n\nReadback compares what the pilot understood with what was transmitted. SERA.8015 defines safety-related items to repeat, including route clearances, runway instructions and certain level, heading, speed, altimeter-setting and transponder information. Exact wording depends on the message. A vague “roger” does not replace a required readback.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C02",
+      "concept_title": "Répéter pour vérifier",
+      "level": 2,
+      "question": "Vrai ou faux ? Le collationnement compare ce qui a été compris à ce qui a été transmis.",
+      "question_en": "True or false? Readback compares what was understood with what was transmitted.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe collationnement permet de confronter ce que le pilote a compris à ce qui a été transmis. SERA.8015 définit les éléments de sécurité à reprendre, notamment les clairances de route, les instructions relatives aux pistes et certaines informations de niveau, cap, vitesse, calage et transpondeur. La formulation exacte dépend du message. Une réponse vague comme « reçu » ne remplace pas le collationnement lorsqu'il est requis.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "This statement is true.\n\nReadback compares what the pilot understood with what was transmitted. SERA.8015 defines safety-related items to repeat, including route clearances, runway instructions and certain level, heading, speed, altimeter-setting and transponder information. Exact wording depends on the message. A vague “roger” does not replace a required readback.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C03",
+      "concept_title": "Exercice d'écoute au sol",
+      "level": 2,
+      "question": "Vrai ou faux ? Le collationnement crée une autorisation absente du message reçu.",
+      "question_en": "True or false? Readback creates an authorisation absent from the received message.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDans un exercice pédagogique, le pilote entend une instruction lui demandant de rester au point d'attente, mais commence à préparer son entrée sur piste parce qu'il pensait être le prochain au décollage. L'attente mentale a remplacé le message réel. Revenir aux mots reçus et collationner la limite permet de détecter cette erreur. Le collationnement ne crée pas une autorisation absente du message initial : il vérifie une autorisation effectivement reçue.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "This statement is false.\n\nIn a training exercise, the pilot hears an instruction to remain at the holding point but begins preparing to enter the runway because they expected to depart next. Expectation has replaced the actual message. Returning to the received words and reading back the limit helps detect the error. Readback does not create an authorisation absent from the original message: it verifies an authorisation actually received.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C03",
+      "concept_title": "Exercice d'écoute au sol",
+      "level": 2,
+      "question": "Vrai ou faux ? Revenir aux mots effectivement reçus aide à détecter une erreur d'attente.",
+      "question_en": "True or false? Returning to the words actually received helps detect an expectation error.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDans un exercice pédagogique, le pilote entend une instruction lui demandant de rester au point d'attente, mais commence à préparer son entrée sur piste parce qu'il pensait être le prochain au décollage. L'attente mentale a remplacé le message réel. Revenir aux mots reçus et collationner la limite permet de détecter cette erreur. Le collationnement ne crée pas une autorisation absente du message initial : il vérifie une autorisation effectivement reçue.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "This statement is true.\n\nIn a training exercise, the pilot hears an instruction to remain at the holding point but begins preparing to enter the runway because they expected to depart next. Expectation has replaced the actual message. Returning to the received words and reading back the limit helps detect the error. Readback does not create an authorisation absent from the original message: it verifies an authorisation actually received.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C04",
+      "concept_title": "Lever une ambiguïté",
+      "level": 2,
+      "question": "Vrai ou faux ? Une correction du contrôleur peut être ignorée après un premier collationnement.",
+      "question_en": "True or false? A controller's correction can be ignored after an initial readback.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSi l'indicatif, un chiffre ou la limite n'est pas certain, demander clarification avant d'agir. Si le contrôle corrige le collationnement, écouter et confirmer la version correcte. En cas d'instruction impossible à respecter, annoncer la difficulté plutôt que promettre silencieusement une action irréalisable. Les exemples de cette leçon entraînent le raisonnement ; les exercices de phraséologie complète doivent utiliser les procédures et expressions applicables au lieu et à la langue du vol.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "This statement is false.\n\nIf the callsign, a figure or the limit is uncertain, request clarification before acting. If control corrects the readback, listen and confirm the correct version. If unable to comply, report the difficulty instead of silently promising an impossible action. This lesson's examples practise reasoning; complete phraseology exercises must use the procedures and expressions applicable to the flight's location and language.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C04",
+      "concept_title": "Lever une ambiguïté",
+      "level": 2,
+      "question": "Vrai ou faux ? L'impossibilité de respecter une instruction doit être signalée.",
+      "question_en": "True or false? Inability to comply with an instruction must be reported.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nSi l'indicatif, un chiffre ou la limite n'est pas certain, demander clarification avant d'agir. Si le contrôle corrige le collationnement, écouter et confirmer la version correcte. En cas d'instruction impossible à respecter, annoncer la difficulté plutôt que promettre silencieusement une action irréalisable. Les exemples de cette leçon entraînent le raisonnement ; les exercices de phraséologie complète doivent utiliser les procédures et expressions applicables au lieu et à la langue du vol.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "This statement is true.\n\nIf the callsign, a figure or the limit is uncertain, request clarification before acting. If control corrects the readback, listen and confirm the correct version. If unable to comply, report the difficulty instead of silently promising an impossible action. This lesson's examples practise reasoning; complete phraseology exercises must use the procedures and expressions applicable to the flight's location and language.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_RAD_001_C04",
+      "concept_title": "Lever une ambiguïté",
+      "level": 2,
+      "question": "Vrai ou faux ? Les mêmes exemples de phraseologie s'appliquent automatiquement à tout lieu et toute langue.",
+      "question_en": "True or false? The same phraseology examples automatically apply in every location and language.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSi l'indicatif, un chiffre ou la limite n'est pas certain, demander clarification avant d'agir. Si le contrôle corrige le collationnement, écouter et confirmer la version correcte. En cas d'instruction impossible à respecter, annoncer la difficulté plutôt que promettre silencieusement une action irréalisable. Les exemples de cette leçon entraînent le raisonnement ; les exercices de phraséologie complète doivent utiliser les procédures et expressions applicables au lieu et à la langue du vol.\n\n![Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.](/illustrations/lapl-rad-001.svg)",
+      "explanation_en": "This statement is false.\n\nIf the callsign, a figure or the limit is uncertain, request clarification before acting. If control corrects the readback, listen and confirm the correct version. If unable to comply, report the difficulty instead of silently promising an impossible action. This lesson's examples practise reasoning; complete phraseology exercises must use the procedures and expressions applicable to the flight's location and language.\n\n![Diagram: Understanding clearances and checking readback](/illustrations/en/lapl-rad-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

@@ -6,297 +6,737 @@
     "chapter_title": "Certificats d'aéronefs (Type, Navigabilité, Immatriculation)",
     "chapter_title_en": "Aircraft Certificates (Type, Airworthiness, Registration)",
     "learning_objective": "Comprendre les 3 certificats essentiels d'un aéronef (Type, Navigabilité, Immatriculation), leur validité, et les documents obligatoires à bord pour un vol PPL.",
-    "learning_objective_en": "Understand the 3 essential aircraft certificates (Type, Airworthiness, Registration), their validity, and mandatory onboard documents for a PPL flight.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: type certificate; airworthiness certificate; registration certificate.",
     "difficulty": "beginner",
     "estimated_duration_minutes": 25,
-    "prerequisites": ["PPL_AIRLAW_001", "PPL_AIRLAW_002"],
-    "tags": ["certificats", "navigabilité", "immatriculation", "type certificate", "airworthiness", "registration", "PPL", "documents"]
+    "prerequisites": [
+      "PPL_AIRLAW_001",
+      "PPL_AIRLAW_002"
+    ],
+    "tags": [
+      "certificats",
+      "navigabilité",
+      "immatriculation",
+      "type certificate",
+      "airworthiness",
+      "registration",
+      "PPL",
+      "documents"
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-airlaw-003.svg",
+      "alt": "Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité."
+    },
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-18",
+    "scope": "PPL(A), France / cadre européen",
+    "editorial_review": "2026-09-18: sources checked; instructor review pending",
+    "sources": [
+      {
+        "title": "DGAC — immatriculation",
+        "url": "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs"
+      },
+      {
+        "title": "EASA — Part-NCO, NCO.GEN.135",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012"
+      },
+      {
+        "title": "EASA — navigabilité initiale et maintien",
+        "url": "https://www.easa.europa.eu/en/regulations"
+      }
+    ],
+    "exam_subject": "airlaw",
+    "coverage_status": "partial"
   },
   "concepts": [
     {
       "concept_id": "PPL_AIRLAW_003_C01",
-      "title": "Certificat de Type (Type Certificate)",
-      "title_en": "Type Certificate",
-      "content": "**Certificat de Type** = Document qui certifie que la **conception** d'un aéronef (avion, moteur, hélice) respecte les **normes de sécurité** de l'autorité aéronautique.\n\n- **Délivré par** : EASA (Europe) ou FAA (USA) ou autorité nationale (DGAC France, AESA Espagne)\n- **Couvre** : Conception du modèle (ex: Cessna 172S, Diamond DA40)\n- **Validité** : **Illimitée** (tant que le modèle reste conforme)\n- **Qui le détient** : Le **constructeur** (ex: Cessna, Piper, Diamond)\n- **Lien avec navigabilité** : Un avion ne peut obtenir un certificat de navigabilité sans certificat de type valide\n\n**Parties du certificat de type** :\n1. **Data Sheet** : Spécifications techniques du modèle\n2. **Condition de limitation** : Restrictions d'exploitation\n3. **Manuels requis** : Manuel de vol, manuel de maintenance\n\n**Pour un pilote PPL** : Tu n'as pas besoin de vérifier le certificat de type (c'est au constructeur), mais tu dois savoir qu'il existe et qu'il est la base de la navigabilité.",
-      "content_en": "**Type Certificate** = Document certifying that the **design** of an aircraft (airplane, engine, propeller) meets **safety standards** of the aviation authority.\n\n- **Issued by** : EASA (Europe) or FAA (USA) or national authority (DGAC France, AESA Spain)\n- **Covers** : Design of the model (e.g., Cessna 172S, Diamond DA40)\n- **Validity** : **Unlimited** (as long as the model remains compliant)\n- **Holder** : The **manufacturer** (e.g., Cessna, Piper, Diamond)\n- **Link to airworthiness** : An aircraft cannot obtain an airworthiness certificate without a valid type certificate\n\n**Parts of type certificate** :\n1. **Data Sheet** : Technical specifications of the model\n2. **Limitation conditions** : Operational restrictions\n3. **Required manuals** : Flight manual, maintenance manual\n\n**For PPL pilots** : You don't need to check the type certificate (it's the manufacturer's responsibility), but you must know it exists and is the basis of airworthiness.",
+      "title": "Conception approuvée",
+      "title_en": "Approved design",
+      "content": "![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)\n\nLe certificat de type concerne une conception approuvée : modèle d’aéronef, moteur ou hélice. Il ne garantit pas l’état d’entretien d’un exemplaire particulier. Son détenteur n’est pas nécessairement le propriétaire de l’avion. Les données de certification et le manuel de vol définissent des limites applicables ; l’exploitant vérifie la configuration de son aéronef. Il existe aussi des régimes particuliers et des laissez-passer : ne pas présenter le certificat de type comme une condition universelle de tout vol.",
+      "content_en": "![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)\n\nA type certificate concerns an approved design: aircraft, engine or propeller model. It does not guarantee the maintenance condition of an individual aircraft. Its holder is not necessarily the aircraft owner. Certification data and the flight manual define applicable limitations; the operator checks the aircraft configuration. Special regimes and permits to fly also exist: a type certificate is not a universal prerequisite for every flight.",
       "difficulty": "easy",
       "risk_level": "low",
-      "phase_of_flight": ["preflight"],
-      "tags": ["type certificate", "conception", "manufacturer", "EASA", "FAA", "basic"],
+      "phase_of_flight": [
+        "preflight"
+      ],
+      "tags": [
+        "type certificate",
+        "conception",
+        "manufacturer",
+        "EASA",
+        "FAA",
+        "basic"
+      ],
       "faa_note": "FAA Type Certificate (TC) is issued under 14 CFR Part 21. EASA Type Certificate is issued under EASA Part 21 Subpart A.",
       "common_errors": [
         "Confondre certificat de type (constructeur) et certificat de navigabilité (exploitant)",
         "Penser que le pilote doit vérifier le certificat de type avant chaque vol"
       ],
-      "related_concepts": ["PPL_AIRLAW_003_C02", "PPL_AIRLAW_003_C03"]
+      "related_concepts": [
+        "PPL_AIRLAW_003_C02",
+        "PPL_AIRLAW_003_C03"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Conception approuvée"
     },
     {
       "concept_id": "PPL_AIRLAW_003_C02",
-      "title": "Certificat de Navigabilité (Airworthiness Certificate)",
-      "title_en": "Airworthiness Certificate",
-      "content": "**Certificat de Navigabilité** = Document qui certifie que **cet aéronef spécifique** (numéro de série) est **en bon état** et conforme au certificat de type.\n\n- **Délivré par** : Autorité nationale (DGAC France, AESA Espagne) après inspection\n- **Couvre** : L'aéronef individuel (ex: F-HXYZ, numéro de série 12345)\n- **Validité** : **Illimitée** SOUS CONDITIONS (maintenance régulière, modifications approuvées)\n- **Qui le détient** : Le **propriétaire/exploitant** (pas le constructeur)\n- **Où il est affiché** : Dans l'avion, généralement dans le cockpit (près du siège pilote) ou dans le manuel de vol\n\n**Conditions de validité** :\n1. Maintenance conforme au **programme de maintenance** (annuel, 100h, etc.)\n2. Pas de modifications non approuvées\n3. Toutes les **Airworthiness Directives (AD)** appliquées\n4. Inspections périodiques effectuées\n\n**Documents requis à bord** (pour un vol PPL) :\n1. **Certificat de navigabilité original** (ou copie certifiée)\n2. **Certificat d'immatriculation original**\n3. **Licence de station d'aéronef** (si radio embarquée)\n4. **Manuel de vol** (Approuvé)\n5. **Journal de bord / Logbook** de l'aéronef\n\n**Attention** : Si le certificat de navigabilité est périmé ou suspendu, **l'avion ne doit pas voler**.",
-      "content_en": "**Airworthiness Certificate** = Document certifying that **this specific aircraft** (serial number) is **in good condition** and compliant with the type certificate.\n\n- **Issued by** : National authority (DGAC France, AESA Spain) after inspection\n- **Covers** : Individual aircraft (e.g., F-HXYZ, serial number 12345)\n- **Validity** : **Unlimited** UNDER CONDITIONS (regular maintenance, approved modifications)\n- **Holder** : The **owner/operator** (not the manufacturer)\n- **Where displayed** : In the aircraft, usually in the cockpit (near pilot seat) or in the flight manual\n\n**Validity conditions** :\n1. Maintenance compliant with **maintenance program** (annual, 100h, etc.)\n2. No unapproved modifications\n3. All **Airworthiness Directives (AD)** applied\n4. Periodic inspections completed\n\n**Required onboard documents** (for a PPL flight) :\n1. **Original Airworthiness Certificate** (or certified copy)\n2. **Original Registration Certificate**\n3. **Aircraft Station License** (if radio onboard)\n4. **Approved Flight Manual**\n5. **Aircraft Logbook**\n\n**Warning** : If the airworthiness certificate is expired or suspended, **the aircraft must not fly**.",
+      "title": "Navigabilité et suivi",
+      "title_en": "Airworthiness and continuing oversight",
+      "content": "Le certificat de navigabilité concerne un aéronef individuel et sa conformité au régime applicable. Il faut aussi vérifier le maintien de navigabilité : entretien, consignes de navigabilité applicables, défauts, modifications et document d’examen de navigabilité lorsqu’il est requis. Une copie de certificat ne prouve pas à elle seule que l’avion peut partir aujourd’hui. Pour les opérations Part-NCO, consulter NCO.GEN.135 et ses exceptions pour les documents à emporter : manuel de vol, certificat d’immatriculation original, certificat de navigabilité original, licence de station si applicable, assurance, carnet de route, cartes et informations nécessaires notamment. Ne pas confondre emport du document et affichage dans le cockpit.",
+      "content_en": "A certificate of airworthiness concerns an individual aircraft and compliance with the applicable regime. Continuing airworthiness also requires checks of maintenance, applicable airworthiness directives, defects, modifications and an airworthiness review document where required. A certificate copy alone does not establish fitness for today’s flight. For Part-NCO operations, consult NCO.GEN.135 and its exceptions for documents to carry: notably the flight manual, original registration and airworthiness certificates, radio station licence if applicable, insurance, journey log, necessary charts and information. Carriage and cockpit display are different requirements.",
       "difficulty": "medium",
       "risk_level": "high",
-      "phase_of_flight": ["preflight"],
-      "tags": ["airworthiness", "navigabilité", "maintenance", "documents à bord", "intermediate"],
+      "phase_of_flight": [
+        "preflight"
+      ],
+      "tags": [
+        "airworthiness",
+        "navigabilité",
+        "maintenance",
+        "documents à bord",
+        "intermediate"
+      ],
       "faa_note": "FAA Airworthiness Certificate (Standard) is issued under 14 CFR Part 21. Must be displayed in the aircraft (visible to passengers). Expired or suspended = no flight allowed.",
       "common_errors": [
         "Confondre validité illimitée (théorique) et conditions de maintenance (pratique)",
         "Oublier que le certificat de navigabilité doit être original à bord",
         "Ne pas vérifier si les AD (Airworthiness Directives) sont appliquées"
       ],
-      "related_concepts": ["PPL_AIRLAW_003_C01", "PPL_AIRLAW_003_C03"]
+      "related_concepts": [
+        "PPL_AIRLAW_003_C01",
+        "PPL_AIRLAW_003_C03"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Navigabilité et suivi"
     },
     {
       "concept_id": "PPL_AIRLAW_003_C03",
-      "title": "Certificat d'Immatriculation (Registration Certificate)",
-      "title_en": "Registration Certificate",
-      "content": "**Certificat d'Immatriculation** = Document qui atteste de l'**enregistrement national** de l'aéronef et de son **propriétaire**.\n\n- **Délivré par** : Autorité nationale (DGAC France, AESA Espagne, CAA UK)\n- **Couvre** : Propriété de l'aéronef (qui le possède)\n- **Immatriculation** : Préfixe national + suffixe unique (ex: **F-HXYZ** pour France, **N12345** pour USA, **G-ABCD** pour UK)\n- **Validité** : **3 ans** (France/Europe) → renouvellement obligatoire\n- **Qui le détient** : Le **propriétaire** (personne physique ou juridique)\n\n**Préfixes nationaux courants** :\n| Pays | Préfixe | Exemple |\n|---|---|---|\n| France | **F-** | F-HXYZ |\n| USA | **N-** | N12345 |\n| Royaume-Uni | **G-** | G-ABCD |\n| Allemagne | **D-** | D-EFGH |\n| Espagne | **EC-** | EC-IJKL |\n| Canada | **C-** | C-MNOP |\n\n**Documents requis à bord** :\n1. **Certificat d'immatriculation original** (valide)\n2. Si l'avion a une radio : **Licence de station d'aéronef** (Valide 5 ans en Europe)\n\n**Ce qui se passe si l'immatriculation expire** :\n- **L'avion ne peut pas voler** jusqu'au renouvellement\n- **Amende possible** si vol avec immatriculation périmée\n- **Assurance non valable** en cas d'accident\n\n**Pour un pilote PPL** : Toujours vérifier l'immatriculation avant de voler (dans le cockpit ou sur le certificat).",
-      "content_en": "**Registration Certificate** = Document attesting to the **national registration** of the aircraft and its **owner**.\n\n- **Issued by** : National authority (DGAC France, AESA Spain, CAA UK)\n- **Covers** : Ownership of the aircraft (who owns it)\n- **Registration** : National prefix + unique suffix (e.g., **F-HXYZ** for France, **N12345** for USA, **G-ABCD** for UK)\n- **Validity** : **3 years** (France/Europe) → mandatory renewal\n- **Holder** : The **owner** (individual or legal entity)\n\n**Common national prefixes** :\n| Country | Prefix | Example |\n|---|---|---|\n| France | **F-** | F-HXYZ |\n| USA | **N-** | N12345 |\n| UK | **G-** | G-ABCD |\n| Germany | **D-** | D-EFGH |\n| Spain | **EC-** | EC-IJKL |\n| Canada | **C-** | C-MNOP |\n\n**Required onboard documents** :\n1. **Original Registration Certificate** (valid)\n2. If aircraft has radio: **Aircraft Station License** (Valid 5 years in Europe)\n\n**What happens if registration expires** :\n- **Aircraft cannot fly** until renewal\n- **Possible fine** if flying with expired registration\n- **Insurance invalid** in case of accident\n\n**For PPL pilots** : Always check registration before flying (in cockpit or on certificate).",
+      "title": "Immatriculation et documents associés",
+      "title_en": "Registration and associated documents",
+      "content": "Le certificat d’immatriculation rattache l’aéronef à un registre national. En France, les marques commencent par F- ; les marques américaines commencent par N. L’immatriculation ne remplace ni la navigabilité ni l’autorisation d’utiliser la radio. Vérifier le document auprès de l’autorité du registre, sa cohérence avec l’avion et les changements de propriétaire ou de situation. On ne peut pas déduire une validité universelle de trois ans pour « l’Europe ». De même, la licence de station et l’assurance ont leurs propres conditions : consulter leurs documents et textes applicables, sans inventer de durée européenne unique.",
+      "content_en": "The registration certificate links the aircraft to a national register. French marks start with F-; US marks start with N. Registration does not replace airworthiness or radio authorisation. Check the document with the registry authority, its match to the aircraft and changes in ownership or status. There is no basis here for a universal three-year “European” validity. Radio station licensing and insurance have their own conditions: consult their documents and applicable rules rather than inventing a single European duration.",
       "difficulty": "easy",
       "risk_level": "medium",
-      "phase_of_flight": ["preflight"],
-      "tags": ["registration", "immatriculation", "prefixes", "propriété", "basic"],
+      "phase_of_flight": [
+        "preflight"
+      ],
+      "tags": [
+        "registration",
+        "immatriculation",
+        "prefixes",
+        "propriété",
+        "basic"
+      ],
       "faa_note": "FAA Registration (N-number) is valid indefinitely (no expiration), unlike Europe (3 years). US owners must renew every 3 years only if ownership changes.",
       "common_errors": [
         "Oublier que l'immatriculation expire (3 ans en Europe, pas aux USA)",
         "Confondre propriétaire (immatriculation) et exploitant (navigabilité)",
         "Ne pas vérifier la licence de station d'aéronef si radio"
       ],
-      "related_concepts": ["PPL_AIRLAW_003_C01", "PPL_AIRLAW_003_C02"]
+      "related_concepts": [
+        "PPL_AIRLAW_003_C01",
+        "PPL_AIRLAW_003_C02"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Immatriculation et documents associés"
     }
   ],
   "questions": [
     {
       "concept_id": "PPL_AIRLAW_003_C01",
-      "concept_title": "Certificat de Type",
-      "question": "Qui détient le Certificat de Type d'un avion ?",
-      "question_en": "Who holds the Type Certificate of an airplane?",
-      "options": ["Le pilote", "Le propriétaire", "Le constructeur", "L'autorité civile"],
-      "correct_answer": "Le constructeur",
-      "explanation": "Bonne réponse ! Le **constructeur** (ex: Cessna, Piper) détient le certificat de type.",
-      "explanation_en": "Correct! The **manufacturer** (e.g., Cessna, Piper) holds the type certificate.",
+      "concept_title": "Conception approuvée",
+      "question": "Quel document concerne la conception approuvée d’un modèle ?",
+      "question_en": "Which document concerns a model’s approved design?",
+      "options": [
+        "Certificat de type",
+        "Certificat d’immatriculation",
+        "Licence du pilote",
+        "Carnet de route du jour"
+      ],
+      "correct_answer": "Certificat de type",
+      "explanation": "Le certificat de type porte sur la conception, pas sur l’état d’un exemplaire aujourd’hui.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "A type certificate concerns design, not today’s condition of an individual aircraft.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "FAA Type Certificate is issued to the manufacturer under 14 CFR Part 21.",
       "difficulty_score": 0.25,
-      "level": 1,
-      "tags": ["type certificate", "manufacturer", "basic"]
+      "level": 2,
+      "tags": [
+        "type certificate",
+        "manufacturer",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Type certificate",
+        "Registration certificate",
+        "Pilot licence",
+        "Today’s journey log"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C01",
-      "concept_title": "Certificat de Type",
-      "question": "Quel est le rôle principal du Certificat de Type ?",
-      "question_en": "What is the main purpose of the Type Certificate?",
+      "concept_title": "Conception approuvée",
+      "question": "Un certificat de type suffit-il à prouver qu’un avion est entretenu à jour ?",
+      "question_en": "Does a type certificate prove an aircraft’s maintenance is current?",
       "options": [
-        "Certifier que l'avion individuel est en bon état",
-        "Certifier que la CONCEPTION du modèle respecte les normes de sécurité",
-        "Identifier le propriétaire de l'avion",
-        "Permettre la vente de l'avion"
+        "Oui, pour tout avion du modèle",
+        "Oui, si le pilote est licencié",
+        "Oui, si l’avion est immatriculé",
+        "Non, le suivi individuel doit être vérifié"
       ],
-      "correct_answer": "Certifier que la CONCEPTION du modèle respecte les normes de sécurité",
-      "explanation": "Le certificat de type certifie la **conception du modèle** (pas l'avion individuel).",
-      "explanation_en": "Type certificate certifies the **model design** (not the individual aircraft).",
+      "correct_answer": "Non, le suivi individuel doit être vérifié",
+      "explanation": "Conception et maintien de navigabilité sont distincts.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "Design approval and continuing airworthiness are distinct.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "",
       "difficulty_score": 0.3,
-      "level": 1,
-      "tags": ["type certificate", "design", "safety", "basic"]
+      "level": 2,
+      "tags": [
+        "type certificate",
+        "design",
+        "safety",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes, for every aircraft of that model",
+        "Yes, if the pilot is licensed",
+        "Yes, if the aircraft is registered",
+        "No, individual records must be checked"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C01",
-      "concept_title": "Certificat de Type",
-      "question": "Quelle est la validité du Certificat de Type ?",
-      "question_en": "What is the validity of the Type Certificate?",
-      "options": ["1 an", "5 ans", "10 ans", "Illimitée"],
-      "correct_answer": "Illimitée",
-      "explanation": "Le certificat de type est **valable illimitément** tant que le modèle reste conforme.",
-      "explanation_en": "Type certificate is **valid indefinitely** as long as the model remains compliant.",
+      "concept_title": "Conception approuvée",
+      "question": "Le détenteur du certificat de type est-il nécessairement le propriétaire de chaque avion ?",
+      "question_en": "Must the type certificate holder own every aircraft of that type?",
+      "options": [
+        "Oui, pour un avion loué",
+        "Oui, après chaque vente",
+        "Non",
+        "Oui, dans tous les cas"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Le détenteur de l’approbation de conception et le propriétaire individuel sont des rôles distincts.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "The design approval holder and individual owner are different roles.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "",
       "difficulty_score": 0.25,
-      "level": 1,
-      "tags": ["type certificate", "validity", "basic"]
+      "level": 2,
+      "tags": [
+        "type certificate",
+        "validity",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes, for leased aircraft",
+        "Yes, after every sale",
+        "No",
+        "Yes, in every case"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C01",
-      "concept_title": "Certificat de Type",
-      "question": "Lequel n'est PAS une partie du Certificat de Type ?",
-      "question_en": "Which is NOT part of the Type Certificate?",
-      "options": ["Data Sheet", "Conditions de limitation", "Manuel de vol", "Journal de bord de l'avion individuel"],
-      "correct_answer": "Journal de bord de l'avion individuel",
-      "explanation": "Le **journal de bord** est pour l'avion individuel, pas pour le certificat de type (modèle).",
-      "explanation_en": "**Logbook** is for individual aircraft, not for type certificate (model).",
+      "concept_title": "Conception approuvée",
+      "question": "Où chercher les limitations opérationnelles propres à l’avion ?",
+      "question_en": "Where should aircraft-specific operating limitations be checked?",
+      "options": [
+        "Dans un quiz générique",
+        "Dans le manuel de vol applicable",
+        "Dans une publicité du constructeur",
+        "Dans le carnet médical du pilote"
+      ],
+      "correct_answer": "Dans le manuel de vol applicable",
+      "explanation": "Le manuel applicable à la configuration fournit les limitations à respecter.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "The manual applicable to the configuration supplies the operating limitations.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "",
       "difficulty_score": 0.35,
-      "level": 1,
-      "tags": ["type certificate", "documentation", "basic"]
+      "level": 2,
+      "tags": [
+        "type certificate",
+        "documentation",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "In a generic quiz",
+        "In the applicable flight manual",
+        "In a manufacturer advertisement",
+        "In the pilot’s medical file"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C02",
-      "concept_title": "Certificat de Navigabilité",
-      "question": "Quel certificat certifie qu'un avion INDIVIDUEL est en bon état ?",
-      "question_en": "Which certificate certifies that an INDIVIDUAL aircraft is in good condition?",
-      "options": ["Certificat de Type", "Certificat de Navigabilité", "Certificat d'Immatriculation", "Licence de pilote"],
-      "correct_answer": "Certificat de Navigabilité",
-      "explanation": "Le **certificat de navigabilité** certifie l'état de l'avion INDIVIDUEL.",
-      "explanation_en": "**Airworthiness Certificate** certifies the condition of the INDIVIDUAL aircraft.",
+      "concept_title": "Navigabilité et suivi",
+      "question": "Quel document de navigabilité concerne un aéronef individuel ?",
+      "question_en": "Which airworthiness document concerns an individual aircraft?",
+      "options": [
+        "Certificat de navigabilité",
+        "Certificat de type seul",
+        "Licence PPL",
+        "Prévision TAF"
+      ],
+      "correct_answer": "Certificat de navigabilité",
+      "explanation": "Le certificat de navigabilité concerne l’exemplaire, le certificat de type la conception.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "Airworthiness certification concerns the individual aircraft; type certification concerns the design.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "",
       "difficulty_score": 0.25,
-      "level": 1,
-      "tags": ["airworthiness", "individual aircraft", "basic"]
+      "level": 2,
+      "tags": [
+        "airworthiness",
+        "individual aircraft",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Certificate of airworthiness",
+        "Type certificate alone",
+        "PPL licence",
+        "TAF forecast"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C02",
-      "concept_title": "Certificat de Navigabilité",
-      "question": "Qui détient le Certificat de Navigabilité ?",
-      "question_en": "Who holds the Airworthiness Certificate?",
-      "options": ["Le constructeur", "Le propriétaire/exploitant", "Le pilote", "L'autorité civile"],
-      "correct_answer": "Le propriétaire/exploitant",
-      "explanation": "Le **propriétaire/exploitant** détient le certificat de navigabilité.",
-      "explanation_en": "The **owner/operator** holds the airworthiness certificate.",
+      "concept_title": "Navigabilité et suivi",
+      "question": "Une consigne de navigabilité applicable n’est pas traitée dans les délais. Que faire ?",
+      "question_en": "An applicable airworthiness directive has not been addressed by its deadline. What follows?",
+      "options": [
+        "L’ignorer si le moteur démarre",
+        "La remplacer par une clairance",
+        "La reporter parce que le vol est court",
+        "Vérifier la conformité avant de remettre l’avion en service"
+      ],
+      "correct_answer": "Vérifier la conformité avant de remettre l’avion en service",
+      "explanation": "Un démarrage normal ne prouve pas le respect des exigences de navigabilité.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "Normal engine starting does not demonstrate compliance with airworthiness requirements.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "FAA Standard Airworthiness Certificate is issued to the aircraft owner.",
       "difficulty_score": 0.3,
-      "level": 1,
-      "tags": ["airworthiness", "owner", "basic"]
+      "level": 2,
+      "tags": [
+        "airworthiness",
+        "owner",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Ignore it if the engine starts",
+        "Replace it with a clearance",
+        "Defer it because the flight is short",
+        "Establish compliance before returning the aircraft to service"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C02",
-      "concept_title": "Certificat de Navigabilité",
-      "question": "Quelle condition est NÉCESSAIRE pour que le certificat de navigabilité reste valide ?",
-      "question_en": "Which condition is NECESSARY for the airworthiness certificate to remain valid?",
+      "concept_title": "Navigabilité et suivi",
+      "question": "Quel ensemble doit être vérifié pour le maintien de navigabilité ?",
+      "question_en": "What should be checked for continuing airworthiness?",
       "options": [
-        "Renouvellement tous les 3 ans",
-        "Maintenance régulière conforme au programme",
-        "Changement de propriétaire",
-        "Modification de l'avion"
+        "Seulement la licence du pilote",
+        "Seulement le dernier plein",
+        "Entretien, défauts, modifications et consignes applicables",
+        "Seulement la peinture"
       ],
-      "correct_answer": "Maintenance régulière conforme au programme",
-      "explanation": "La **maintenance régulière** est la condition clé pour la validité du C of A.",
-      "explanation_en": "**Regular maintenance** is the key condition for C of A validity.",
+      "correct_answer": "Entretien, défauts, modifications et consignes applicables",
+      "explanation": "Plusieurs éléments concourent à la conformité de l’aéronef.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "Several elements determine aircraft compliance.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "FAA requires compliance with Airworthiness Directives (ADs) and periodic inspections.",
       "difficulty_score": 0.4,
       "level": 2,
-      "tags": ["airworthiness", "maintenance", "validity", "intermediate"]
+      "tags": [
+        "airworthiness",
+        "maintenance",
+        "validity",
+        "intermediate",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Only the pilot licence",
+        "Only the last refuelling",
+        "Maintenance, defects, modifications and applicable directives",
+        "Only the paint"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C02",
-      "concept_title": "Certificat de Navigabilité",
-      "question": "Où se trouve généralement le certificat de navigabilité dans l'avion ?",
-      "question_en": "Where is the airworthiness certificate usually located in the aircraft?",
-      "options": ["Dans le coffre", "Dans le cockpit (visible)", "Dans le manuel de vol uniquement", "Sur l'hélice"],
-      "correct_answer": "Dans le cockpit (visible)",
-      "explanation": "Il est **affiché dans le cockpit** (visible pour les passagers).",
-      "explanation_en": "It is **displayed in the cockpit** (visible to passengers).",
+      "concept_title": "Navigabilité et suivi",
+      "question": "« Emporter un document » et « l’afficher dans le cockpit » sont-ils équivalents ?",
+      "question_en": "Are “carry a document” and “display it in the cockpit” equivalent?",
+      "options": [
+        "Oui, si le vol est local",
+        "Non, ce sont deux exigences différentes",
+        "Oui, toujours",
+        "Oui, seulement en VFR"
+      ],
+      "correct_answer": "Non, ce sont deux exigences différentes",
+      "explanation": "La règle d’emport ne crée pas automatiquement une obligation d’affichage.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "A carriage rule does not automatically create a display requirement.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "FAA requires it to be displayed where it is visible to passengers.",
       "difficulty_score": 0.25,
-      "level": 1,
-      "tags": ["airworthiness", "location", "cockpit", "basic"]
+      "level": 2,
+      "tags": [
+        "airworthiness",
+        "location",
+        "cockpit",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes, for local flights",
+        "No, they are different requirements",
+        "Yes, always",
+        "Yes, only in VFR"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C02",
-      "concept_title": "Certificat de Navigabilité",
-      "question": "Quel document N'EST PAS obligatoire à bord pour un vol PPL ?",
-      "question_en": "Which document is NOT mandatory onboard for a PPL flight?",
+      "concept_title": "Navigabilité et suivi",
+      "question": "Quel texte vérifier pour les documents d’une opération Part-NCO ?",
+      "question_en": "Which provision should be checked for Part-NCO flight documents?",
       "options": [
-        "Certificat de navigabilité",
-        "Certificat d'immatriculation",
-        "Certificat de type",
-        "Manuel de vol approuvé"
+        "NCO.GEN.135 et ses exceptions",
+        "Une durée trouvée sur un forum",
+        "Le règlement intérieur seulement",
+        "Le bulletin météo seulement"
       ],
-      "correct_answer": "Certificat de type",
-      "explanation": "Le **certificat de type** n'est pas à bord (le constructeur le détient).",
-      "explanation_en": "**Type certificate** is not onboard (manufacturer holds it).",
+      "correct_answer": "NCO.GEN.135 et ses exceptions",
+      "explanation": "L’exigence dépend de l’opération et des exceptions prévues.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "The requirement depends on the operation and stated exceptions.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "",
       "difficulty_score": 0.35,
-      "level": 1,
-      "tags": ["documents", "onboard", "type certificate", "basic"]
+      "level": 2,
+      "tags": [
+        "documents",
+        "onboard",
+        "type certificate",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "NCO.GEN.135 and its exceptions",
+        "A duration found on a forum",
+        "Only the club rules",
+        "Only the weather bulletin"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C03",
-      "concept_title": "Certificat d'Immatriculation",
-      "question": "Quelle est la validité du certificat d'immatriculation en Europe ?",
-      "question_en": "What is the validity of the registration certificate in Europe?",
-      "options": ["1 an", "3 ans", "5 ans", "Illimitée"],
-      "correct_answer": "3 ans",
-      "explanation": "En Europe, l'immatriculation expire après **3 ans** (renouvellement obligatoire).",
-      "explanation_en": "In Europe, registration expires after **3 years** (mandatory renewal).",
+      "concept_title": "Immatriculation et documents associés",
+      "question": "Peut-on appliquer une validité de trois ans à toute immatriculation européenne ?",
+      "question_en": "Can three-year validity be applied to every European aircraft registration?",
+      "options": [
+        "Oui, sans exception",
+        "Oui, si l’avion est monomoteur",
+        "Oui, si le pilote est PPL",
+        "Non, vérifier le régime du registre concerné"
+      ],
+      "correct_answer": "Non, vérifier le régime du registre concerné",
+      "explanation": "Une durée générale non sourcée ne remplace pas le régime applicable au registre.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "An unsupported general duration cannot replace the applicable registry rules.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "FAA registration (USA) is valid indefinitely, unlike Europe.",
       "difficulty_score": 0.3,
-      "level": 1,
-      "tags": ["registration", "validity", "Europe", "basic"]
+      "level": 2,
+      "tags": [
+        "registration",
+        "validity",
+        "Europe",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes, without exception",
+        "Yes, for single-engine aircraft",
+        "Yes, for PPL pilots",
+        "No, check the relevant registry regime"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C03",
-      "concept_title": "Certificat d'Immatriculation",
-      "question": "Quel est le préfixe d'immatriculation pour la France ?",
-      "question_en": "What is the registration prefix for France?",
-      "options": ["N-", "G-", "F-", "D-"],
+      "concept_title": "Immatriculation et documents associés",
+      "question": "Quel préfixe identifie les marques françaises d’un avion civil ?",
+      "question_en": "Which prefix identifies French civil aeroplane registration marks?",
+      "options": [
+        "D-",
+        "EC-",
+        "F-",
+        "G-"
+      ],
       "correct_answer": "F-",
-      "explanation": "La France utilise le préfixe **F-** (ex: F-HXYZ).",
-      "explanation_en": "France uses prefix **F-** (e.g., F-HXYZ).",
+      "explanation": "Les exemples français commencent par F-.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "French examples begin with F-.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "USA uses N-, UK uses G-, Germany uses D-.",
       "difficulty_score": 0.2,
-      "level": 1,
-      "tags": ["registration", "prefix", "France", "basic"]
+      "level": 2,
+      "tags": [
+        "registration",
+        "prefix",
+        "France",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "D-",
+        "EC-",
+        "F-",
+        "G-"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C03",
-      "concept_title": "Certificat d'Immatriculation",
-      "question": "Quel est le préfixe d'immatriculation pour les USA ?",
-      "question_en": "What is the registration prefix for USA?",
-      "options": ["F-", "N-", "G-", "C-"],
-      "correct_answer": "N-",
-      "explanation": "Les USA utilisent le préfixe **N-** (ex: N12345).",
-      "explanation_en": "USA uses prefix **N-** (e.g., N12345).",
+      "concept_title": "Immatriculation et documents associés",
+      "question": "Quelle marque correspond au préfixe américain ?",
+      "question_en": "Which mark uses the US prefix?",
+      "options": [
+        "D-EFGH",
+        "N12345",
+        "F-HXYZ",
+        "G-ABCD"
+      ],
+      "correct_answer": "N12345",
+      "explanation": "Le préfixe américain est N, sans tiret requis dans cet exemple.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "The US prefix is N, with no hyphen required in this example.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "",
       "difficulty_score": 0.2,
-      "level": 1,
-      "tags": ["registration", "prefix", "USA", "basic"]
+      "level": 2,
+      "tags": [
+        "registration",
+        "prefix",
+        "USA",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "D-EFGH",
+        "N12345",
+        "F-HXYZ",
+        "G-ABCD"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C03",
-      "concept_title": "Certificat d'Immatriculation",
-      "question": "Que se passe-t-il si l'immatriculation expire ?",
-      "question_en": "What happens if registration expires?",
+      "concept_title": "Immatriculation et documents associés",
+      "question": "L’immatriculation prouve-t-elle à elle seule la navigabilité du jour ?",
+      "question_en": "Does registration alone prove current airworthiness?",
       "options": [
-        "L'avion peut toujours voler",
-        "L'avion ne peut pas voler jusqu'au renouvellement",
-        "Seulement une amende, vol autorisé",
-        "L'assurance reste valable"
+        "Non",
+        "Oui, pendant tout vol local",
+        "Oui, tant que le numéro est lisible",
+        "Oui, après un plein"
       ],
-      "correct_answer": "L'avion ne peut pas voler jusqu'au renouvellement",
-      "explanation": "**Vol interdit** jusqu'au renouvellement de l'immatriculation.",
-      "explanation_en": "**Flight prohibited** until registration is renewed.",
+      "correct_answer": "Non",
+      "explanation": "Identité administrative et état de navigabilité sont distincts.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "Administrative identity and airworthiness status are distinct.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "",
       "difficulty_score": 0.35,
-      "level": 1,
-      "tags": ["registration", "expiration", "flight prohibition", "basic"]
+      "level": 2,
+      "tags": [
+        "registration",
+        "expiration",
+        "flight prohibition",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "No",
+        "Yes, during every local flight",
+        "Yes, while the number is readable",
+        "Yes, after refuelling"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C03",
-      "concept_title": "Certificat d'Immatriculation",
-      "question": "Si l'avion a une radio, quel document supplémentaire est requis à bord ?",
-      "question_en": "If the aircraft has a radio, which additional document is required onboard?",
-      "options": ["Certificat de type", "Licence de station d'aéronef", "Journal de bord", "Manuel du pilote"],
-      "correct_answer": "Licence de station d'aéronef",
-      "explanation": "**Licence de station d'aéronef** requise si radio embarquée (valide 5 ans Europe).",
-      "explanation_en": "**Aircraft Station License** required if radio onboard (valid 5 years Europe).",
+      "concept_title": "Immatriculation et documents associés",
+      "question": "Pour une radio embarquée, quel document vérifier lorsqu’il est applicable ?",
+      "question_en": "For installed radio equipment, which document should be checked where applicable?",
+      "options": [
+        "Certificat médical uniquement",
+        "Facture de carburant",
+        "Prévision de vent",
+        "Licence de station d’aéronef"
+      ],
+      "correct_answer": "Licence de station d’aéronef",
+      "explanation": "L’autorisation de station ne se confond pas avec la licence du pilote.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "Station authorisation is distinct from the pilot licence.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "FAA requires FCC radio license for international flights.",
       "difficulty_score": 0.4,
       "level": 2,
-      "tags": ["radio", "station license", "documents", "intermediate"]
+      "tags": [
+        "radio",
+        "station license",
+        "documents",
+        "intermediate",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Medical certificate only",
+        "Fuel receipt",
+        "Wind forecast",
+        "Aircraft radio station licence"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     },
     {
       "concept_id": "PPL_AIRLAW_003_C03",
-      "concept_title": "Certificat d'Immatriculation",
-      "question": "Quel certificat atteste de la propriété de l'avion ?",
-      "question_en": "Which certificate attests to the ownership of the aircraft?",
-      "options": ["Certificat de Type", "Certificat de Navigabilité", "Certificat d'Immatriculation", "Manuel de vol"],
-      "correct_answer": "Certificat d'Immatriculation",
-      "explanation": "Le **certificat d'immatriculation** atteste de la propriété de l'aéronef.",
-      "explanation_en": "**Registration Certificate** attests to aircraft ownership.",
+      "concept_title": "Immatriculation et documents associés",
+      "question": "Les marques du certificat ne correspondent pas à l’avion. Quelle action est adaptée ?",
+      "question_en": "The certificate marks do not match the aircraft. What is appropriate?",
+      "options": [
+        "Ignorer l’écart pour un vol court",
+        "Modifier le certificat à la main",
+        "Clarifier les documents avant le départ",
+        "Utiliser le certificat d’un avion similaire"
+      ],
+      "correct_answer": "Clarifier les documents avant le départ",
+      "explanation": "Les documents doivent correspondre à l’aéronef effectivement utilisé.\n\n![Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.](/illustrations/ppl-airlaw-003.svg)",
+      "explanation_en": "Documents must correspond to the aircraft actually used.\n\n![PPL — PPL_AIRLAW_003](/illustrations/en/ppl-airlaw-003.svg)",
       "faa_note": "",
       "difficulty_score": 0.3,
-      "level": 1,
-      "tags": ["registration", "ownership", "basic"]
+      "level": 2,
+      "tags": [
+        "registration",
+        "ownership",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Ignore it for a short flight",
+        "Amend the certificate by hand",
+        "Resolve the documentation before departure",
+        "Use a similar aircraft’s certificate"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012",
+        "https://www.easa.europa.eu/en/regulations"
+      ]
     }
   ],
   "flashcards": [
@@ -418,7 +858,13 @@
       "solution_en": "**Type Certificate**. NOT mandatory onboard (manufacturer holds it).",
       "risks": "Vol sans certificat de navigabilité ou immatriculation valide = avion interdit de vol (amende, assurance annulée).",
       "risks_en": "Flying without valid airworthiness or registration = flight prohibited (fine, insurance void).",
-      "tags": ["documents", "onboard", "PPL", "preflight", "safety"]
+      "tags": [
+        "documents",
+        "onboard",
+        "PPL",
+        "preflight",
+        "safety"
+      ]
     }
   ],
   "remediation": [
@@ -437,12 +883,26 @@
       "operational_risk": "medium",
       "knowledge_gap": "Confusion entre les 3 certificats (type, navigabilité, immatriculation).",
       "recommended_concepts": [
-        {"concept_id": "PPL_AIRLAW_003_C01", "reason": "Revoir certificat de type"},
-        {"concept_id": "PPL_AIRLAW_003_C02", "reason": "Revoir certificat de navigabilité"}
+        {
+          "concept_id": "PPL_AIRLAW_003_C01",
+          "reason": "Revoir certificat de type"
+        },
+        {
+          "concept_id": "PPL_AIRLAW_003_C02",
+          "reason": "Revoir certificat de navigabilité"
+        }
       ],
       "recommended_actions": [
-        {"action_type": "flashcard", "target": "PPL_AIRLAW_003_C01", "reason": "Répéter flashcard type vs navigabilité"},
-        {"action_type": "review", "target": "PPL_AIRLAW_003_C02", "reason": "Relire concept C02"}
+        {
+          "action_type": "flashcard",
+          "target": "PPL_AIRLAW_003_C01",
+          "reason": "Répéter flashcard type vs navigabilité"
+        },
+        {
+          "action_type": "review",
+          "target": "PPL_AIRLAW_003_C02",
+          "reason": "Relire concept C02"
+        }
       ],
       "instructor_feedback": "Type = CONCEPTION (constructeur), Navigabilité = ÉTAT (propriétaire), Immatriculation = PROPRIÉTÉ (3 ans Europe).",
       "next_learning_step": "Refaire questions sur les 3 certificats avant de passer à la suite."

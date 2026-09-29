@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">DME : géométrie de la distance</title><desc id="desc">DME : géométrie de la distance</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / IR / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">DME : géométrie de la distance</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">IR_062_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<path d="M210 520L900 520" fill="none" stroke="#edf5ff" stroke-width="3"/>
+<path d="M900 520L900 250" fill="none" stroke="#ffcd70" stroke-width="3"/>
+<path d="M210 520L900 250" fill="none" stroke="#58dfed" stroke-width="3"/>
+<rect x="875" y="495" width="25" height="25" rx="0" fill="none" stroke="#edf5ff"/>
+<g transform="translate(900 230) rotate(90) scale(0.28)">
+<path d="M0-80C-12-74-13-45-10-20L-85 17-85 30-10 15-6 58-30 75-30 83 0 74 30 83 30 75 6 58 10 15 85 30 85 17 10-20C13-45 12-74 0-80Z" fill="#edf5ff" stroke="#7895b3" stroke-width="2" stroke-linejoin="round" opacity="1"/>
+<path d="M-6-42Q0-51 6-42L6-25H-6Z" fill="#18324c" stroke="#18324c" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<circle cx="210" cy="520" r="9" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="150" y="566" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">DME</text>
+<text x="555" y="565" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="middle">d = 4 NM</text>
+<text x="928" y="395" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">h = 3 NM</text>
+<text x="490" y="350" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="400" text-anchor="start">s = ?</text>
+<text x="85" y="220" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">s : oblique   d : horizontale   h : hauteur relative</text>
+</svg>

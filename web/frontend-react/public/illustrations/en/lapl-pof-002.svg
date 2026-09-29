@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Load factor changes stall speed</title><desc id="desc">A stall speed of 50 kt at 1 g becomes approximately 71 kt at 2 g using the square-root load-factor relationship.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Load factor changes stall speed</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Example at the same mass and configuration.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_POF_002</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<path d="M133 535L770 535" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<path d="M770.0 535.0L756.5 541.5L756.5 528.5Z" fill="#a9bdd3" stroke="#a9bdd3" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<path d="M133 535L133 221" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<path d="M133.0 221.0L139.5 234.5L126.5 234.5Z" fill="#a9bdd3" stroke="#a9bdd3" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="153" y="223" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Stall speed</text>
+<path d="M250.0 485.0L260.2 480.7L270.5 476.4L280.8 472.1L291.0 467.9L301.2 463.8L311.5 459.7L321.8 455.6L332.0 451.6L342.3 447.6L352.5 443.7L362.7 439.8L373.0 435.9L383.2 432.1L393.5 428.3L403.8 424.6L414.0 420.9L424.2 417.2L434.5 413.5L444.8 409.9L455.0 406.3L465.2 402.8L475.5 399.3L485.8 395.8L496.0 392.3L506.2 388.8L516.5 385.4L526.8 382.0L537.0 378.7L547.2 375.3L557.5 372.0L567.8 368.7L578.0 365.4L588.2 362.2L598.5 358.9L608.8 355.7L619.0 352.6L629.2 349.4L639.5 346.3L649.8 343.1L660.0 340.0" fill="none" stroke="#58dfed" stroke-width="5" stroke-linejoin="round" opacity="1"/>
+<circle cx="250" cy="485" r="8" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="250" y="459" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">50 kt</text>
+<text x="250" y="570" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="middle">1 g</text>
+<circle cx="660" cy="340" r="8" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="660" y="314" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">≈ 71 kt</text>
+<text x="660" y="570" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="middle">2 g</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Same configuration</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Mass and configuration</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">fixed for comparison.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Model relationship</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Vs(n) = Vs(1 g) × √n.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Cause of a stall</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Exceeding critical angle of</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">attack, not a universal</text>
+<text x="855" y="550" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">speed.</text>
+</svg>

@@ -1,0 +1,670 @@
+{
+  "metadata": {
+    "module_id": "LAPL_COM_002",
+    "program": "LAPL",
+    "subject": "Communications",
+    "chapter_title": "Panne radio et communications d’urgence",
+    "chapter_title_en": "Radio failure and emergency communications",
+    "learning_objective_en": "Assess remaining radio capability, apply the VFR failure branch, interpret signals and construct an urgency or distress message.",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "Alphabet radiotéléphonique et prononciation des nombres",
+      "Notions de clairance et de circulation d’aérodrome",
+      "PPL_COM_001 : collationnement et portée des clairances"
+    ],
+    "tags": [
+      "LAPL",
+      "communications"
+    ],
+    "learning_objective": "Diagnostiquer les capacités radio restantes, appliquer la branche VFR de panne, interpréter les signaux et composer un message d’urgence ou de détresse.",
+    "estimated_duration_minutes": 50,
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "EASA — SERA, section 14 : radiotéléphonie",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "SIA — procédures publiées",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      },
+      {
+        "title": "Référence pédagogique vérifiée",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf"
+      },
+      {
+        "title": "DGAC — SERA France 17 janvier 2026, SERA.14095(a)(1)",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-com-002.svg",
+      "alt": "Une absence de réponse amène à vérifier l’installation, identifier les moyens restants et appliquer la procédure adaptée au contexte."
+    },
+    "exam_subject": "communications",
+    "coverage_status": "partial",
+    "editorial_review": "2026-09-30: FR/EN lesson text read; pedagogical gaps recorded in ppl-content-review-2026-09-30.md; coverage remains partial.",
+    "derived_from": "PPL_COM_002",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_COM_002_C01",
+      "title": "Reconnaître la panne et rechercher le contact",
+      "title_en": "Recognise failure and seek contact",
+      "content": "![Panne radio et communications d’urgence](/illustrations/lapl-com-002.svg)\n\n### Un diagnostic à partir d'indices\nL'objectif est de distinguer réglage incorrect, émission défaillante et réception défaillante, puis d'utiliser les moyens restants sans abandonner le pilotage. Connaître fréquence active et secours, sélection audio, volume, casque, microphone et alternat. Les vérifications électriques et toute manipulation de protection de circuit suivent la procédure de l'avion ; ne pas improviser de réarmements.\n\nAprès un changement de canal sans réponse, vérifier le canal réellement actif et la sélection audio. Un affichage de fréquence en attente n'est pas la fréquence utilisée. Écouter d'autres transmissions renseigne sur la réception, pas sur la capacité d'être entendu. Inversement, un relais par un autre avion confirmant votre message démontre qu'une émission a été reçue, même si vous n'entendez pas l'ATC. Un voyant d'émission seul ne prouve pas la réception au sol. La portée et les obstacles restent à considérer.\n\nSERA.14083 prévoit d'essayer le canal précédemment utilisé, puis un autre canal approprié à la route. Si ces essais échouent, rechercher l'ATS concerné, d'autres ATS ou d'autres aéronefs par les moyens disponibles, y compris un relais ou un téléphone si utilisable. Informer que le contact sur le canal assigné a échoué lorsqu'une liaison est retrouvée.\n\n**Exemple :** après transfert, silence complet. La fréquence correcte est affichée en attente, l'ancienne est encore active. Corriger la sélection selon l'installation et réessayer peut restaurer la liaison ; sélectionner immédiatement un code de panne ne répare pas cette erreur. Si la panne persiste après les tentatives prévues, appliquer la procédure correspondant au vol.",
+      "content_en": "![Radio failure and emergency communications](/illustrations/en/lapl-com-002.svg)\n\n### Diagnose from evidence\nDistinguish incorrect selection, failed transmission and failed reception, then use remaining means while maintaining aircraft control. Know active and standby channels, audio selection, volume, headset, microphone and transmit switch. Electrical checks and circuit-protection actions follow the aircraft procedure; do not improvise resets.\n\nAfter an unanswered frequency change, check the active channel and audio selection. A channel shown in standby is not the channel in use. Hearing other transmissions provides evidence about reception, not whether others hear you. Conversely, another aircraft relaying confirmation of your message shows that a transmission was received even if you cannot hear ATC. A transmit indicator alone does not prove ground reception. Range and obstruction also matter.\n\nSERA.14083 calls for attempts on the previously used channel and then another channel appropriate to the route. If unsuccessful, seek the relevant ATS unit, other ATS units or other aircraft by available means, including relay or a usable telephone. When contact is restored, report failure to establish contact on the assigned channel.\n\n**Example:** silence after transfer. The correct channel is displayed in standby while the old one remains active. Correct selection under the installation procedure and another call may restore contact; selecting a failure code does not repair this error. If failure persists after the prescribed attempts, apply the procedure appropriate to the flight.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "learning_objective": "Reconnaître la panne et rechercher le contact"
+    },
+    {
+      "concept_id": "LAPL_COM_002_C02",
+      "title": "Appliquer la procédure VFR et lire les signaux",
+      "title_en": "Apply the VFR procedure and interpret signals",
+      "content": "### Périmètre : vol VFR, France / SERA\nAprès échec des tentatives prévues, sélectionner 7600 en mode A et/ou l'indication ADS-B de perte de communication. En VFR, poursuivre en VMC, atterrir à l'aérodrome approprié le plus proche et signaler l'arrivée à l'ATS compétent par le moyen le plus rapide. « Approprié » prend en compte piste, installations et environnement : le terrain géographiquement le plus proche peut ne pas convenir. Dans la circulation d'un aérodrome contrôlé, surveiller les signaux visuels. Préparer les particularités publiées sur les cartes et à l'AIP.\n\nNe pas appliquer 7601 à tout vol en VMC : SERA.14083(c)(6) le prévoit pour un vol IFR en panne radio dont le commandant décide de continuer en VMC. Ce chapitre enseigne la branche VFR ; la procédure IFR complète, notamment ses branches SID/STAR, demande son propre travail. Une panne ne crée pas une clairance de pénétration dans un espace que l'on attendait de recevoir.\n\n### Émettre sans entendre\nAprès échec des contacts prévus, une transmission en l'air est précédée de « TRANSMISSION EN L'AIR » / “TRANSMITTING BLIND” et le message est envoyé deux fois. En panne de récepteur, annoncer ce motif, répéter le message complet, indiquer la prochaine heure d'émission et, sous ATS, les intentions de poursuite du vol. Exemple de contenu : F-GABC, position cinq NM est de Valmont, altitude 2 000 ft QNH 1016, panne de récepteur, intentions, prochaine émission 14 h 20 UTC. Une transmission n'est pas une preuve d'accusé de réception.\n\n### Signaux dirigés vers l'avion\n- **Vert continu** — En vol : autorisé à atterrir. Au sol : autorisé à décoller.\n- **Éclats verts** — En vol : revenez pour atterrir, autorisation d'atterrissage à suivre. Au sol : autorisé à circuler.\n- **Rouge continu** — En vol : cédez le passage et restez dans le circuit. Au sol : arrêtez.\n- **Éclats rouges** — En vol : aérodrome dangereux, n'atterrissez pas. Au sol : dégagez l'aire d'atterrissage en service.\n- **Éclats blancs** — En vol : atterrissez ici et gagnez l'aire de trafic, autorisations à suivre. Au sol : retournez au point de départ sur l'aérodrome.\n\nL'artifice rouge signifie de ne pas atterrir pour le moment malgré les instructions antérieures. Pour accuser réception de jour en vol, balancer les ailes sauf en base et en finale ; au sol, mouvoir ailerons ou gouverne de direction. De nuit, allumer et éteindre deux fois les phares, ou les feux de navigation si l'avion n'a pas de phares. Lire d'abord la colonne correspondant à la situation : vert fixe n'a pas la même portée au sol et en vol.",
+      "content_en": "### Scope: VFR flight, France / SERA\nAfter unsuccessful prescribed contact attempts, select Mode A 7600 and/or the ADS-B communication-failure indication. Under VFR, remain in VMC, land at the nearest suitable aerodrome and report arrival to the appropriate ATS unit by the quickest means. Suitability includes runway, facilities and operating environment: the geographically closest field may be unsuitable. In controlled-aerodrome traffic, watch for visual signals. Brief published chart and AIP particulars.\n\nDo not apply 7601 to every flight in VMC: SERA.14083(c)(6) provides it for an IFR flight with communication failure whose pilot decides to continue in VMC. This chapter teaches the VFR branch; the full IFR procedure, including SID/STAR branches, needs separate study. Failure does not create an awaited clearance to enter airspace.\n\n### Transmit without hearing\nAfter failed prescribed contact attempts, prefix a blind transmission with “TRANSMITTING BLIND” and send the message twice. With receiver failure, announce that reason, repeat the entire message, give the next transmission time and, when receiving ATS, intentions for continuation of flight. Example content: F-GABC, five NM east of Valmont, altitude 2,000 ft QNH 1016, receiver failure, intentions, next transmission 1420 UTC. Transmission does not establish acknowledgement.\n\n### Signals directed at the aircraft\n- **Steady green** — In flight: cleared to land. On ground: cleared for take-off.\n- **Green flashes** — In flight: return for landing, landing clearance to follow. On ground: cleared to taxi.\n- **Steady red** — In flight: give way and continue circling. On ground: stop.\n- **Red flashes** — In flight: aerodrome unsafe, do not land. On ground: taxi clear of landing area in use.\n- **White flashes** — In flight: land here and proceed to apron, clearances to follow. On ground: return to starting point on aerodrome.\n\nA red pyrotechnic signal means do not land for the time being despite previous instructions. Acknowledge by day in flight by rocking wings, except on base and final; on the ground, move ailerons or rudder. At night, flash landing lights twice, or navigation lights if landing lights are not fitted. First choose the correct column: steady green has different meanings on the ground and in flight.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "learning_objective": "Appliquer la procédure VFR et lire les signaux"
+    },
+    {
+      "concept_id": "LAPL_COM_002_C03",
+      "title": "Distinguer urgence et détresse, composer le message",
+      "title_en": "Distinguish urgency and distress, compose the message",
+      "content": "Une **détresse**, signal MAYDAY, associe danger grave et imminent et besoin d'assistance immédiate. Une **urgence**, signal PAN PAN, concerne la sécurité sans nécessiter cette assistance immédiate. Le nom de la panne ne décide pas seul : apprécier ses effets et leur évolution. Un problème initialement gérable peut devenir une détresse ; ne pas attendre que le premier diagnostic soit confirmé pour demander l'aide nécessaire.\n\nSur la fréquence air-sol en cours d'utilisation, annoncer le signal, de préférence trois fois, puis autant d'éléments utiles que les circonstances permettent : organisme appelé, identification, nature du problème, intentions, position, niveau et cap, autres renseignements utiles. Le 121.5 MHz peut servir si nécessaire ou souhaitable ; quitter automatiquement une fréquence où l'aide est déjà disponible peut perdre du temps. Donner les informations sans retarder le pilotage pour compléter un formulaire parfait.\n\n**Message fictif de détresse, contenu écrit :** « MAYDAY MAYDAY MAYDAY, Valmont Tour, F-GABC, panne moteur, atterrissage forcé dans un champ, cinq nautiques au sud de Valmont, 1 800 pieds QNH 1018, cap 360, deux personnes à bord ». Nature, intentions et position expliquent à l'ATS l'assistance nécessaire. Cette structure reste utilisable en anglais : “engine failure, forced landing in a field, five miles south of Valmont…”.\n\n**Contre-exemple :** passager malade, avion et trajectoire maîtrisés, assistance à l'arrivée souhaitée sans besoin d'assistance immédiate : PAN PAN correspond aux hypothèses. Si l'état se dégrade et exige une assistance immédiate, réévaluer le signal. Ne pas déduire PAN PAN du seul mot « passager ».\n\n**À restituer sans le cours :** à partir d'une fiche position/niveau/cap, problème et intention, composer un message ; justifier sa catégorie ; expliquer ce qui serait omis faute de temps. Après une arrivée en panne radio, inclure le compte rendu d'arrivée dans les actions à terminer.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "**Distress**, signalled by MAYDAY, involves serious and imminent danger requiring immediate assistance. **Urgency**, signalled by PAN PAN, concerns safety without requiring immediate assistance. The fault name alone does not decide the category: assess consequences and development. A manageable problem may become distress; do not wait for diagnostic certainty before requesting necessary help.\n\nOn the air-ground frequency in use, announce the signal, preferably three times, then as many relevant elements as circumstances permit: addressed unit, identification, nature of the problem, intentions, position, level and heading, and other useful information. Use 121.5 MHz if necessary or desirable; automatically leaving a frequency where help is available may waste time. Do not delay aircraft control to complete a perfect form.\n\n**Fictional distress message, written content:** “MAYDAY MAYDAY MAYDAY, Valmont Tower, F-GABC, engine failure, forced landing in a field, five miles south of Valmont, 1,800 feet QNH 1018, heading 360, two persons on board”. Nature, intentions and position help ATS understand the assistance required. This structure also applies when using French phraseology.\n\n**Counterexample:** an ill passenger, aircraft and flight path under control, assistance wanted on arrival but no immediate assistance required: PAN PAN fits these assumptions. If the condition deteriorates and requires immediate assistance, reassess the signal. Do not infer PAN PAN merely from the word “passenger”.\n\n**Recall without the lesson:** use a position/level/heading, problem and intention brief to compose a message; justify its category; explain what would be omitted if time were short. After landing following radio failure, include the arrival report among the actions still to complete.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "learning_objective": "Distinguer urgence et détresse, composer le message"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_COM_002_C01",
+      "concept_title": "Reconnaître la panne et rechercher le contact",
+      "level": 1,
+      "question": "Après transfert, le nouveau canal est en attente et l'ancien reste actif. Quelle action traite d'abord cet indice ?",
+      "question_en": "After transfer, the new channel is in standby and the old remains active. Which action first addresses this clue?",
+      "options": [
+        "Sélectionner le canal assigné selon l'installation puis réessayer",
+        "Sélectionner 7600 sans modifier la radio",
+        "Conclure à une panne de réception",
+        "Augmenter la puissance d'émission si disponible"
+      ],
+      "correct_answer": "Sélectionner le canal assigné selon l'installation puis réessayer",
+      "explanation": "L'indice désigne une sélection incorrecte, pas une panne prouvée. Un code transpondeur n'agit pas sur le canal ; amplifier un appel sur le mauvais canal ne corrige pas l'erreur.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "The evidence indicates wrong selection, not proven failure. A transponder code does not change the channel; a stronger call on the wrong channel does not correct selection.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Select the assigned channel under the installation procedure and try again",
+        "Select 7600 without changing the radio",
+        "Conclude receiver failure",
+        "Increase transmitter power if available"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C02",
+      "concept_title": "Appliquer la procédure VFR et lire les signaux",
+      "level": 1,
+      "question": "Vol VFR en VMC, panne confirmée après tentatives de contact. Quelle suite correspond à SERA ?",
+      "question_en": "VFR flight in VMC, confirmed failure after contact attempts. Which sequence matches SERA?",
+      "options": [
+        "7601, rester VMC, destination prévue, signaler l'arrivée",
+        "7600, poursuivre obligatoirement jusqu'à destination",
+        "7600, atterrir au terrain le plus proche même inapproprié",
+        "7600, rester VMC, aérodrome approprié le plus proche, signaler l'arrivée"
+      ],
+      "correct_answer": "7600, rester VMC, aérodrome approprié le plus proche, signaler l'arrivée",
+      "explanation": "La branche VFR exige VMC et le plus proche aérodrome approprié. 7601 relève du cas IFR décidant de continuer en VMC ; le critère de suitability ne se réduit pas à la distance.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "The VFR branch requires VMC and the nearest suitable aerodrome. 7601 concerns IFR continuing in VMC; suitability is not distance alone.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "7601, remain VMC, planned destination, report arrival",
+        "7600, necessarily continue to destination",
+        "7600, land at the closest field even if unsuitable",
+        "7600, remain VMC, nearest suitable aerodrome, report arrival"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C03",
+      "concept_title": "Distinguer urgence et détresse, composer le message",
+      "level": 1,
+      "question": "Vous entendez nettement deux autres avions mais personne ne confirme vos appels. Quelle capacité est étayée par ces observations ?",
+      "question_en": "You clearly hear two aircraft but nobody confirms your calls. Which capability is supported by this evidence?",
+      "options": [
+        "L'émission fonctionne puisque le récepteur fonctionne",
+        "La radio entière est nécessairement hors service",
+        "Une réception fonctionne ; l'émission reste à vérifier",
+        "La liaison bidirectionnelle avec l'ATC est établie"
+      ],
+      "correct_answer": "Une réception fonctionne ; l'émission reste à vérifier",
+      "explanation": "Entendre prouve la réception de ces signaux, pas leur trajet inverse. L'absence de réponse reste compatible avec plusieurs causes ; rechercher d'autres indices sans conclure prématurément.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "Hearing establishes reception of those signals, not the reverse path. No reply still has several possible causes; seek further evidence without premature diagnosis.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Transmission works because reception works",
+        "The whole radio is necessarily inoperative",
+        "Some reception works; transmission remains unverified",
+        "Two-way contact with ATC is established"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C01",
+      "concept_title": "Reconnaître la panne et rechercher le contact",
+      "level": 2,
+      "question": "Le canal assigné est correct, les vérifications prévues sont faites, aucun contact. Quelle tentative vient ensuite selon SERA.14083(a) ?",
+      "question_en": "Assigned channel correct, prescribed checks complete, no contact. What attempt follows under SERA.14083(a)?",
+      "options": [
+        "Déduire que l'ATC a accepté la route annoncée",
+        "Essayer le canal précédemment utilisé",
+        "Attendre le prochain point de report sans autre essai",
+        "Passer directement à la fréquence de destination quel que soit le secteur"
+      ],
+      "correct_answer": "Essayer le canal précédemment utilisé",
+      "explanation": "Le précédent canal est la première tentative prévue, puis un canal approprié à la route et les autres moyens disponibles. Le silence ne vaut ni réception ni clairance.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "The previous channel is the specified first attempt, followed by a route-appropriate channel and other available means. Silence proves neither receipt nor clearance.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Assume ATC accepted the transmitted route",
+        "Try the previously used channel",
+        "Wait until the next reporting point without another attempt",
+        "Go straight to destination frequency regardless of sector"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C02",
+      "concept_title": "Appliquer la procédure VFR et lire les signaux",
+      "level": 2,
+      "question": "Panne de récepteur, émetteur utilisable. Quel contenu rend une transmission en l'air exploitable ?",
+      "question_en": "Receiver failure, transmitter usable. Which content makes a blind transmission useful?",
+      "options": [
+        "Annonce de panne récepteur, message répété, prochaine heure d'émission et intentions",
+        "Position seule répétée sans identification",
+        "Demande de clairance puis exécution faute de réponse",
+        "Message envoyé une fois puis arrêt des comptes rendus"
+      ],
+      "correct_answer": "Annonce de panne récepteur, message répété, prochaine heure d'émission et intentions",
+      "explanation": "La répétition complète et la prochaine heure aident les stations qui écoutent. Les intentions informent sans créer de clairance ; annoncer seulement une position laisse le problème de liaison inconnu.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "Full repetition and the next transmission time help listening stations. Intentions inform without creating clearance; position alone leaves the communication problem undisclosed.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Receiver-failure announcement, repeated message, next transmission time and intentions",
+        "Position alone repeated without identification",
+        "Request clearance then execute if unanswered",
+        "Send once then stop reports"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C01",
+      "concept_title": "Reconnaître la panne et rechercher le contact",
+      "level": 2,
+      "question": "Vol VFR en panne, deux terrains : A à 6 NM, piste trop courte selon les données avion ; B à 11 NM, piste et conditions vérifiées appropriées. Lequel répond au critère fourni ?",
+      "question_en": "VFR radio failure: A 6 NM away has an insufficient runway under aircraft data; B 11 NM away has verified suitable runway and conditions. Which meets the stated criterion?",
+      "options": [
+        "A, la distance seule commande",
+        "La destination même si elle est plus éloignée et non évaluée",
+        "A, car 7600 dispense des limites de piste",
+        "B, le plus proche approprié parmi ces deux terrains"
+      ],
+      "options_en": [
+        "A, distance alone controls",
+        "Destination even if farther and unassessed",
+        "A, because 7600 waives runway limits",
+        "B, nearest suitable among these two"
+      ],
+      "correct_answer": "B, le plus proche approprié parmi ces deux terrains",
+      "explanation": "A est exclu par une contrainte explicite. B est le plus proche approprié dans ce choix limité ; ce raisonnement suppose les données fournies vérifiées et ne dispense pas des procédures locales.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "An explicit constraint excludes A. B is nearest suitable within this pair; the reasoning relies on verified inputs and does not waive local procedures.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C01",
+      "concept_title": "Reconnaître la panne et rechercher le contact",
+      "level": 2,
+      "question": "Vous êtes en vol dans le circuit d'un aérodrome contrôlé, radio en panne. Des éclats verts vous sont adressés. Quelle distinction est essentielle ?",
+      "question_en": "Airborne in a controlled aerodrome circuit with radio failure, you receive green flashes. Which distinction matters?",
+      "options": [
+        "Roulage autorisé dès maintenant",
+        "Maintien obligatoire dans le circuit pour céder le passage",
+        "Revenir pour atterrir ; autorisation d'atterrissage encore à recevoir",
+        "Atterrissage déjà autorisé comme avec vert continu"
+      ],
+      "options_en": [
+        "Taxi cleared now",
+        "Give way and keep circling",
+        "Return for landing; landing clearance still to follow",
+        "Landing already cleared as with steady green"
+      ],
+      "correct_answer": "Revenir pour atterrir ; autorisation d'atterrissage encore à recevoir",
+      "explanation": "En vol, éclats verts et vert continu diffèrent. La première instruction appelle le retour ; le vert continu autorise l'atterrissage. Le roulage appartient à la colonne au sol ; céder le passage correspond au rouge continu.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "Airborne green flashes differ from steady green: return versus cleared to land. Taxiing is the ground-column meaning; give way and circle belongs to steady red.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C01",
+      "concept_title": "Reconnaître la panne et rechercher le contact",
+      "level": 2,
+      "question": "Au sol, un feu rouge continu est dirigé vers votre avion. Quelle action correspond au tableau ?",
+      "question_en": "On the ground, a steady red light is directed at your aircraft. Which action matches the table?",
+      "options": [
+        "Circuler avec prudence",
+        "Arrêter",
+        "Dégager l'aire d'atterrissage en service",
+        "Revenir au point de départ"
+      ],
+      "options_en": [
+        "Taxi with caution",
+        "Stop",
+        "Vacate the landing area in use",
+        "Return to starting point"
+      ],
+      "correct_answer": "Arrêter",
+      "explanation": "Choisir la colonne au sol : rouge continu signifie arrêter. Dégager correspond aux éclats rouges ; revenir au départ aux éclats blancs. La couleur seule sans cadence ne suffit pas.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "Use the ground column: steady red means stop. Red flashes mean vacate; white flashes mean return to starting point. Colour without cadence is insufficient.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C02",
+      "concept_title": "Appliquer la procédure VFR et lire les signaux",
+      "level": 2,
+      "question": "Vous attendiez une autorisation d'entrée en espace contrôlé avant la panne. Quel effet a le passage à 7600 sur cette autorisation ?",
+      "question_en": "You awaited clearance to enter controlled airspace before failure. What does selecting 7600 do to that clearance?",
+      "options": [
+        "Il signale la panne sans accorder l'entrée",
+        "Il remplace la clairance si le plan de vol est déposé",
+        "Il autorise l'entrée après une transmission en l'air",
+        "Il autorise l'entrée si les conditions restent VMC"
+      ],
+      "options_en": [
+        "It signals failure without granting entry",
+        "It replaces clearance if a flight plan was filed",
+        "It permits entry after blind transmission",
+        "It permits entry if VMC continues"
+      ],
+      "correct_answer": "Il signale la panne sans accorder l'entrée",
+      "explanation": "Un code informe sur l'état des communications. Il ne contient ni route autorisée ni instruction d'entrée ; plan de vol, VMC et annonce d'intention ne valent pas clairance.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "A code reports communication status. It contains no route or entry clearance; a flight plan, VMC and transmitted intention are not clearance.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C02",
+      "concept_title": "Appliquer la procédure VFR et lire les signaux",
+      "level": 2,
+      "question": "Un vol IFR en panne radio rencontre des VMC et le commandant décide d'y poursuivre. Quel code correspond à cette branche particulière de SERA ?",
+      "question_en": "An IFR flight with radio failure encounters VMC and the pilot decides to continue in VMC. Which code belongs to this specific SERA branch?",
+      "options": [
+        "7600 pour tout cas sans distinction",
+        "7000 dès que les VMC sont atteintes",
+        "7700 uniquement parce que le vol est IFR",
+        "7601"
+      ],
+      "options_en": [
+        "7600 in every case without distinction",
+        "7000 as soon as VMC is reached",
+        "7700 solely because the flight is IFR",
+        "7601"
+      ],
+      "correct_answer": "7601",
+      "explanation": "7601 signale cette décision d'un vol IFR ; il ne remplace pas 7600 dans tous les cas VFR. La branche comprend aussi atterrissage au plus proche approprié et signalement rapide de l'arrivée.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "7601 signals this IFR-flight decision; it does not replace 7600 for all VFR cases. The branch also requires landing at the nearest suitable aerodrome and prompt arrival reporting.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C02",
+      "concept_title": "Appliquer la procédure VFR et lire les signaux",
+      "level": 2,
+      "question": "Après atterrissage en panne radio, pourquoi signaler rapidement l'arrivée à l'ATS compétent ?",
+      "question_en": "After landing with radio failure, why promptly report arrival to the appropriate ATS unit?",
+      "options": [
+        "Pour remplacer le compte rendu par le seul arrêt du transpondeur",
+        "Pour prouver que la radio fonctionne de nouveau",
+        "Pour lui permettre d'actualiser la situation connue du vol",
+        "Pour obtenir rétroactivement une clairance de route"
+      ],
+      "options_en": [
+        "To replace the report by merely switching off the transponder",
+        "To prove the radio works again",
+        "To let ATS update the known flight situation",
+        "To obtain retrospective route clearance"
+      ],
+      "correct_answer": "Pour lui permettre d'actualiser la situation connue du vol",
+      "explanation": "L'atterrissage peut rester inconnu à l'organisme qui suit le vol. Le compte rendu ferme cette incertitude ; il n'atteste pas une réparation et ne régularise pas rétroactivement une clairance.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "The landing may be unknown to the unit following the flight. Reporting resolves that uncertainty; it neither proves repair nor retrospectively supplies clearance.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C03",
+      "concept_title": "Distinguer urgence et détresse, composer le message",
+      "level": 2,
+      "question": "Moteur arrêté, atterrissage forcé imminent, assistance immédiate nécessaire. Quel signal correspond à ces données ?",
+      "question_en": "Engine stopped, forced landing imminent, immediate assistance required. Which signal fits?",
+      "options": [
+        "TRANSMITTING BLIND même avec liaison normale",
+        "MAYDAY",
+        "PAN PAN tant que l'avion reste contrôlable",
+        "ROGER suivi de la position"
+      ],
+      "options_en": [
+        "TRANSMITTING BLIND even with normal contact",
+        "MAYDAY",
+        "PAN PAN while the aircraft remains controllable",
+        "ROGER followed by position"
+      ],
+      "correct_answer": "MAYDAY",
+      "explanation": "Le besoin d'assistance immédiate face au danger justifie MAYDAY. La contrôlabilité seule ne retire pas la détresse ; transmission en l'air décrit un état de liaison, pas la gravité.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "Immediate assistance required in danger supports MAYDAY. Controllability alone does not remove distress; blind transmission describes communication status, not severity.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C03",
+      "concept_title": "Distinguer urgence et détresse, composer le message",
+      "level": 2,
+      "question": "Passager malade, sécurité concernée, aucun besoin d'assistance immédiate selon l'évaluation ; aide médicale demandée à l'arrivée. Quel signal convient à ces hypothèses ?",
+      "question_en": "Ill passenger, safety affected, assessed as not requiring immediate assistance; medical help requested on arrival. Which signal fits these assumptions?",
+      "options": [
+        "PAN PAN",
+        "MAYDAY dans toute situation médicale",
+        "STANDBY en attendant l'atterrissage",
+        "7600 pour transmettre l'urgence médicale"
+      ],
+      "options_en": [
+        "PAN PAN",
+        "MAYDAY for every medical problem",
+        "STANDBY until landing",
+        "7600 to convey medical urgency"
+      ],
+      "correct_answer": "PAN PAN",
+      "explanation": "PAN PAN correspond à l'urgence définie par l'énoncé. Si l'état exige ensuite une assistance immédiate, réévaluer en détresse ; le diagnostic médical seul ne fixe pas la catégorie pour toute l'évolution.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "PAN PAN matches the stated urgency. Reassess as distress if immediate assistance becomes necessary; a medical label does not fix the category throughout its development.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C03",
+      "concept_title": "Distinguer urgence et détresse, composer le message",
+      "level": 2,
+      "question": "Message MAYDAY reçu : indicatif, panne moteur, intention d'atterrir dans un champ, deux personnes. Quelle information manque pour situer l'intervention ?",
+      "question_en": "MAYDAY message gives callsign, engine failure, field-landing intention and two persons. What is missing to locate assistance?",
+      "options": [
+        "Type d'assurance et terrain habituel",
+        "Ancien canal et code précédent",
+        "Heure du dernier entretien",
+        "Position actuelle, niveau et cap"
+      ],
+      "options_en": [
+        "Insurance type and home base",
+        "Previous channel and previous code",
+        "Time of last maintenance",
+        "Current position, level and heading"
+      ],
+      "correct_answer": "Position actuelle, niveau et cap",
+      "explanation": "Le problème et l'intention sont connus, mais pas la localisation. Position, niveau et cap situent l'avion ; les autres renseignements ne comblent pas cette lacune immédiate.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "Problem and intention are known, but location is missing. Position, level and heading locate the aircraft; the other details do not fill that immediate gap.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_002_C03",
+      "concept_title": "Distinguer urgence et détresse, composer le message",
+      "level": 2,
+      "question": "Une urgence devient une détresse pendant un échange clair avec l'ATC. Quelle action évite de retarder inutilement l'aide ?",
+      "question_en": "Urgency develops into distress during clear contact with ATC. Which action avoids unnecessary delay?",
+      "options": [
+        "Conserver PAN PAN parce que le dialogue a commencé ainsi",
+        "Attendre un message complet avant toute annonce",
+        "Annoncer MAYDAY et la nouvelle situation sur la fréquence en cours",
+        "Quitter d'abord la fréquence pour 121.5 dans tous les cas"
+      ],
+      "options_en": [
+        "Keep PAN PAN because the exchange began that way",
+        "Wait for a complete message before any announcement",
+        "Announce MAYDAY and the new situation on the current frequency",
+        "Always leave for 121.5 before announcing"
+      ],
+      "correct_answer": "Annoncer MAYDAY et la nouvelle situation sur la fréquence en cours",
+      "explanation": "La catégorie suit la situation actuelle. La fréquence en cours permet déjà l'aide ; 121.5 reste un moyen si nécessaire, pas une étape obligatoire avant chaque message de détresse.\n\n![Schéma / Diagram](/illustrations/lapl-com-002.svg)",
+      "explanation_en": "Category follows the current situation. The current frequency already provides assistance; 121.5 remains an option when needed, not a mandatory step before every distress message.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-002.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    }
+  ]
+}

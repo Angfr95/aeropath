@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Airspace is a volume</title><desc id="desc">An airspace volume has lower, upper and lateral limits; check its activity and entry conditions.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Airspace is a volume</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Read lateral and vertical limits together with activity.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_AIRLAW_004</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<path d="M168 327L360 222H742L550 327Z" fill="#354963" stroke="#bbabff" stroke-width="2" stroke-linejoin="round" opacity="1"/>
+<path d="M168 327H550V541H168Z" fill="#263b55" stroke="#58dfed" stroke-width="2" stroke-linejoin="round" opacity="1"/>
+<path d="M550 327L742 222V436L550 541Z" fill="#303e59" stroke="#bbabff" stroke-width="2" stroke-linejoin="round" opacity="1"/>
+<path d="M170 327L550 327" fill="none" stroke="#58dfed" stroke-width="4"/>
+<path d="M170 541L550 541" fill="none" stroke="#ffcd70" stroke-width="4"/>
+<text x="337" y="308" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">UPPER LIMIT</text>
+<text x="337" y="580" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">LOWER LIMIT</text>
+<text x="348" y="420" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">VOLUME</text>
+<text x="348" y="454" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="middle">lateral limits</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Vertical reference</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Altitude, height or flight</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">level: read the legend.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Class and status</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Determine entry conditions.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Activity</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Check hours and current</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">information.</text>
+</svg>

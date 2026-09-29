@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Décomposer le vent sur une piste</title><desc id="desc">Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Décomposer le vent sur une piste</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice : piste 090°, vent du 060° à 20 kt.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_MET_004</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<path d="M155 441L750 441" fill="none" stroke="#46637f" stroke-width="30"/>
+<path d="M170 441L200 441" fill="none" stroke="#edf5ff" stroke-width="3"/>
+<path d="M230 441L260 441" fill="none" stroke="#edf5ff" stroke-width="3"/>
+<path d="M290 441L320 441" fill="none" stroke="#edf5ff" stroke-width="3"/>
+<path d="M350 441L380 441" fill="none" stroke="#edf5ff" stroke-width="3"/>
+<path d="M410 441L440 441" fill="none" stroke="#edf5ff" stroke-width="3"/>
+<path d="M470 441L500 441" fill="none" stroke="#edf5ff" stroke-width="3"/>
+<path d="M530 441L560 441" fill="none" stroke="#edf5ff" stroke-width="3"/>
+<path d="M590 441L620 441" fill="none" stroke="#edf5ff" stroke-width="3"/>
+<path d="M650 441L680 441" fill="none" stroke="#edf5ff" stroke-width="3"/>
+<path d="M710 441L740 441" fill="none" stroke="#edf5ff" stroke-width="3"/>
+<path d="M162 520L748 520" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<path d="M748.0 520.0L734.5 526.5L734.5 513.5Z" fill="#a9bdd3" stroke="#a9bdd3" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="450" y="553" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle">AXE 090° — références identiques</text>
+<path d="M688 278L429 428" fill="none" stroke="#58dfed" stroke-width="6"/>
+<path d="M429.0 428.0L437.4 415.6L444.0 426.9Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<path d="M688 278L429 278" fill="none" stroke="#ffcd70" stroke-width="3"/>
+<path d="M429.0 278.0L442.5 271.5L442.5 284.5Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<path d="M429 278L429 428" fill="none" stroke="#bbabff" stroke-width="3"/>
+<path d="M429.0 428.0L422.5 414.5L435.5 414.5Z" fill="#bbabff" stroke="#bbabff" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="539" y="242" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">Vent du 060° / 20 kt</text>
+<text x="555" y="307" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">≈ 17 kt de face</text>
+<text x="244" y="367" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">10 kt traversiers</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Direction</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Le vent est nommé par sa</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">provenance.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Écart à l’axe : 30°</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">20 × sin 30° = 10 kt</text>
+<text x="855" y="406" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">traversiers.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">En pratique</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Comparer les références</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">vrai / magnétique et les</text>
+<text x="855" y="550" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">limites.</text>
+</svg>

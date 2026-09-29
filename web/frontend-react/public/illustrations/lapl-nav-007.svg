@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Relier distance, temps et carburant</title><desc id="desc">Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Relier distance, temps et carburant</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Un exemple de branche de log de navigation.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_NAV_007</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<rect x="65" y="281" width="206" height="136" rx="10" fill="#20364e" stroke="#3e5875"/>
+<text x="168" y="311" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">DISTANCE</text>
+<text x="168" y="378" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">45 NM</text>
+<rect x="281" y="281" width="206" height="136" rx="10" fill="#20364e" stroke="#3e5875"/>
+<text x="384" y="311" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">VITESSE SOL</text>
+<text x="384" y="378" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">90 kt</text>
+<rect x="497" y="281" width="206" height="136" rx="10" fill="#20364e" stroke="#3e5875"/>
+<text x="600" y="311" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">TEMPS</text>
+<text x="600" y="378" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">30 min</text>
+<rect x="713" y="281" width="206" height="136" rx="10" fill="#20364e" stroke="#3e5875"/>
+<text x="816" y="311" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">DÉBIT</text>
+<text x="816" y="378" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">24 L/h</text>
+<rect x="929" y="281" width="206" height="136" rx="10" fill="#20364e" stroke="#3e5875"/>
+<text x="1032" y="311" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">CONSOMMATION</text>
+<text x="1032" y="378" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">12 L</text>
+<text x="600" y="232" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">UNE BRANCHE DE NAVIGATION</text>
+<text x="335" y="492" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="middle">Temps = 60 × 45 / 90 = 30 min</text>
+<text x="880" y="492" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="middle">Carburant = 24 × 0,5 = 12 L</text>
+<text x="600" y="568" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">Convertir les minutes en heures avant de multiplier par le débit horaire.</text>
+</svg>

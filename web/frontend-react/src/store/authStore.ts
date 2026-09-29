@@ -81,6 +81,7 @@ export const useAuthStore = create<AuthState>()((set, get) => ({
 
   // ---- updateLang ----------------------------------------------------------
   updateLang: async (lang) => {
+    if (!get().isAuthenticated) return;
     try {
       await apiClient.patch("/api/me/lang", { lang });
     } catch {

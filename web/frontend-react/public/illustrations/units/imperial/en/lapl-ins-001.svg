@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Four speeds, four references</title><desc id="desc">Simplified IAS, CAS, TAS and groundspeed sequence; TAS 110 kt with an aligned 20 kt headwind gives 90 kt groundspeed.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Four speeds, four references</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Choose the correct speed for aircraft control and navigation calculations.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_INS_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<circle cx="180" cy="312" r="69" fill="#1c324c" stroke="#58dfed" stroke-width="3"/>
+<text x="180" y="322" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="35" font-weight="700" text-anchor="middle">IAS</text>
+<text x="180" y="425" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">Indicated airspeed</text>
+<path d="M256 312L307 312" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<path d="M307.0 312.0L293.5 318.5L293.5 305.5Z" fill="#a9bdd3" stroke="#a9bdd3" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<circle cx="460" cy="312" r="69" fill="#1c324c" stroke="#ffcd70" stroke-width="3"/>
+<text x="460" y="322" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="35" font-weight="700" text-anchor="middle">CAS</text>
+<text x="460" y="425" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">Corrected errors</text>
+<path d="M536 312L587 312" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<path d="M587.0 312.0L573.5 318.5L573.5 305.5Z" fill="#a9bdd3" stroke="#a9bdd3" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<circle cx="740" cy="312" r="69" fill="#1c324c" stroke="#bbabff" stroke-width="3"/>
+<text x="740" y="322" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="35" font-weight="700" text-anchor="middle">TAS</text>
+<text x="740" y="425" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">Airspeed</text>
+<path d="M816 312L867 312" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<path d="M867.0 312.0L853.5 318.5L853.5 305.5Z" fill="#a9bdd3" stroke="#a9bdd3" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<circle cx="1020" cy="312" r="69" fill="#1c324c" stroke="#58dfed" stroke-width="3"/>
+<text x="1020" y="322" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="35" font-weight="700" text-anchor="middle">GROUND</text>
+<text x="1020" y="425" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">Ground movement</text>
+<text x="320" y="234" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">Instrument / position</text>
+<text x="600" y="234" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">Atmosphere*</text>
+<text x="880" y="234" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">Wind</text>
+<text x="600" y="518" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">110 kt TAS − 20 kt headwind = 90 kt groundspeed</text>
+<text x="600" y="575" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle">* Simplified sequence at light training aircraft speeds; see EAS in the lesson.</text>
+</svg>

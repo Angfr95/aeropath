@@ -1,0 +1,649 @@
+{
+  "metadata": {
+    "module_id": "LAPL_COM_001",
+    "program": "LAPL",
+    "subject": "Communications",
+    "chapter_title": "Radiotéléphonie et collationnement",
+    "chapter_title_en": "Radiotelephony and readback",
+    "learning_objective_en": "Build a call, read back required items and resolve ambiguity in addressee, value or clearance scope.",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "Alphabet radiotéléphonique et prononciation des nombres",
+      "Notions de clairance et de circulation d’aérodrome"
+    ],
+    "tags": [
+      "LAPL",
+      "communications"
+    ],
+    "learning_objective": "Construire un appel, collationner les éléments requis et résoudre une ambiguïté de destinataire, de valeur ou de portée de clairance.",
+    "estimated_duration_minutes": 40,
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "EASA — SERA, section 14 : radiotéléphonie",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "SIA — procédures publiées",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      },
+      {
+        "title": "Référence pédagogique vérifiée",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-com-001.svg",
+      "alt": "Le sol transmet une instruction au pilote ; le pilote collationne les éléments requis ; le sol écoute et corrige un écart éventuel."
+    },
+    "exam_subject": "communications",
+    "coverage_status": "partial",
+    "derived_from": "PPL_COM_001",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_COM_001_C01",
+      "title": "Construire un appel et identifier le destinataire",
+      "title_en": "Build a call and identify the addressee",
+      "content": "![Radiotéléphonie et collationnement](/illustrations/lapl-com-001.svg)\n\n### À savoir faire\nPréparer un appel, reconnaître les éléments à collationner et corriger un échange incomplet. Les dialogues sont fictifs ; les chiffres écrits en nombres facilitent l'analyse. À l'oral, employer l'alphabet et la prononciation réglementaires, puis s'entraîner avec un instructeur.\n\nÉcouter avant de parler : une fréquence peut être occupée par un échange dont on n'entend qu'un côté. Au premier contact, nommer la station appelée puis l'indicatif complet. Exemple de prise de contact : « Valmont Tour, F-GABC, bonjour ». Après la réponse, donner les éléments utiles : type, position, altitude avec référence, demande. Exemple de contenu : « Cessna 172, cinq nautiques au sud, deux mille pieds QNH 1018, pour atterrissage, information Bravo ». Le nom de station est fictif ; les données viennent de la situation réelle, pas d'un texte récité.\n\nUn indicatif d'immatriculation peut être abrégé seulement après établissement satisfaisant de la communication, sans risque de confusion et après que la station au sol a elle-même employé cette forme. Pour F-GABC, F-BC est une forme possible : première lettre et au moins les deux dernières. Un indicatif constitué du nom téléphonique d'exploitant et du numéro de vol ne s'abrège pas ainsi. Si F-GABC et F-HABC sont présents, écouter l'identification entière : partager « ABC » ne suffit pas.\n\nNoter les nombres réduit les oublis ; cela ne permet pas de compléter un mot masqué. Séparer ce qui a été reçu, ce qui était attendu et ce qui reste inconnu.",
+      "content_en": "![Radiotelephony and readback](/illustrations/en/lapl-com-001.svg)\n\n### Learning task\nPrepare a call, identify mandatory readback items and repair an incomplete exchange. Dialogues are fictional; digits are printed as numbers to aid analysis. In speech, use the prescribed alphabet and number pronunciation, then practise with an instructor.\n\nListen before transmitting: you may hear only one side of an exchange on an occupied channel. At initial contact, name the station called and then give your full callsign. Example: “Valmont Tower, F-GABC, good morning”. After the reply, provide useful details: type, position, altitude with its reference, and request. Example content: “Cessna 172, five miles south, two thousand feet QNH 1018, for landing, information Bravo”. The station is fictional; actual messages use current information rather than a memorised script.\n\nA registration callsign may be shortened only after satisfactory contact, when confusion is unlikely, and after the ground station has addressed you in that form. F-BC is a possible abbreviation of F-GABC: first character and at least the last two. An operator telephony designator followed by a flight number cannot be shortened this way. With F-GABC and F-HABC on frequency, listen to the entire identification: matching “ABC” is insufficient.\n\nWriting figures reduces omissions; it does not recover a masked word. Separate what you received, what you expected and what remains unknown.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "learning_objective": "Construire un appel et identifier le destinataire"
+    },
+    {
+      "concept_id": "LAPL_COM_001_C02",
+      "title": "Collationner et vérifier",
+      "title_en": "Read back and verify",
+      "content": "SERA.8015(e) impose notamment la répétition des clairances de route ; des autorisations et instructions d'entrée, atterrissage, décollage, attente avant piste, traversée et circulation sur piste ; de la piste en service, du calage altimétrique, du code SSR, du nouveau canal, du niveau, du cap et de la vitesse assignés, ainsi que du niveau de transition. Le contrôleur écoute et corrige les écarts. Inclure l'indicatif de l'avion dans le collationnement.\n\n**Exemple commenté, valeurs écrites :** « F-GABC, maintenez 2 500 pieds, QNH 1018 ». Réponse : « Maintenons 2 500 pieds, QNH 1018, F-GABC ». Chaque valeur permet au contrôleur de vérifier ce qui sera appliqué. « Reçu, F-GABC » accuse réception mais ne permet pas de détecter une confusion 2 500/3 500 ou 1018/1008.\n\nSi le pilote répond « 3 500 pieds, QNH 1018 », la correction du niveau ne modifie pas implicitement le QNH. Reconstituer l'instruction en remplaçant le seul élément corrigé, puis collationner la correction. Un silence ne résout jamais un doute déjà identifié.\n\n**Mots utiles :** ROGER signifie que la dernière transmission a été reçue, pas une autorisation ; WILCO indique compréhension et intention d'exécuter, sans remplacer un collationnement obligatoire ; STANDBY demande d'attendre, sans accepter ni refuser la demande ; SAY AGAIN demande une répétition ; SPEAK SLOWER demande de ralentir ; UNABLE annonce une impossibilité, normalement avec une raison. En français, utiliser la phraséologie publiée correspondante, notamment « répétez », « parlez plus lentement », « impossible ».",
+      "content_en": "SERA.8015(e) requires readback of route clearances; runway entry, landing, take-off, holding-short, crossing and runway taxi instructions; runway in use, altimeter setting, SSR code, new channel, assigned level, heading and speed, and transition level. The controller listens and corrects discrepancies. Include the aircraft callsign in a clearance readback.\n\n**Annotated example, figures printed:** “F-GABC, maintain 2,500 feet, QNH 1018”. Reply: “Maintaining 2,500 feet, QNH 1018, F-GABC”. Each value lets ATC check what will be applied. “Roger, F-GABC” acknowledges receipt but does not expose confusion between 2,500/3,500 or 1018/1008.\n\nIf the pilot reads back “3,500 feet, QNH 1018”, correcting the level does not implicitly change QNH. Reconstruct the instruction by replacing the corrected item, then read back the correction. Silence never resolves an identified doubt.\n\n**Useful terms:** ROGER acknowledges receipt of the last transmission; it grants no clearance. WILCO expresses understanding and intended compliance but does not replace mandatory readback. STANDBY asks you to wait, neither granting nor denying the request. SAY AGAIN requests repetition; SPEAK SLOWER requests a slower rate; UNABLE reports inability, normally followed by a reason. Use the published equivalent phraseology when communicating in French.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "learning_objective": "Collationner et vérifier"
+    },
+    {
+      "concept_id": "LAPL_COM_001_C03",
+      "title": "Appliquer sans inventer de clairance",
+      "title_en": "Act without inventing a clearance",
+      "content": "### Distinguer quatre actions\nRouler jusqu'au point d'attente, traverser la piste, s'aligner et décoller sont des actions distinctes. Une autorisation de roulage ne permet pas une traversée implicite ; un alignement ne permet pas le décollage. Une clairance d'approche ne constitue pas une autorisation d'atterrir sur une piste contrôlée.\n\n**Cas résolu :** au point d'attente, F-GABC attend de s'aligner. Une émission masquée laisse entendre seulement « …ABC, alignez-vous… ». L'avion reste avant la piste et demande de préciser le destinataire et l'instruction. Le piège est de transformer une attente mentale en information reçue. La puissance du signal ne permet pas de choisir entre deux indicatifs proches.\n\n**Exercice oral :** à partir de « F-GABC, maintenez avant piste 22, QNH 1012 », construire un collationnement sans regarder la correction. Attendu : maintien avant piste 22, QNH 1012 et indicatif. Omettre « avant » peut modifier le sens de l'action. Les QCM qui suivent changent les valeurs et les contextes ; expliquer à voix haute pourquoi les autres propositions sont incomplètes.\n\nSi une instruction n'est pas réalisable, annoncer l'impossibilité et le besoin ; ne pas accepter une instruction que l'on sait ne pas pouvoir suivre. En situation réelle, préserver le pilotage et traiter une urgence selon la procédure adaptée.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "### Distinguish four actions\nTaxiing to a holding point, crossing a runway, lining up and taking off are separate actions. A taxi clearance does not implicitly permit a runway crossing; line-up clearance does not permit take-off. An approach clearance is not clearance to land on a controlled runway.\n\n**Worked case:** F-GABC waits at a holding point, expecting line-up clearance. A blocked transmission reveals only “…ABC, line up…”. Remain short and request clarification of the addressee and instruction. The trap is treating expectation as received information. Signal strength cannot distinguish similar callsigns.\n\n**Oral exercise:** from “F-GABC, hold short runway 22, QNH 1012”, construct a readback before looking at the answer. Expected: hold short runway 22, QNH 1012 and callsign. Omitting “short” can change the action. The following MCQs change values and contexts; explain aloud why competing replies are incomplete.\n\nIf an instruction cannot be complied with, report inability and your requirement rather than accepting it silently. In actual flight, maintain aircraft control and handle any emergency under the applicable procedure.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "learning_objective": "Appliquer sans inventer de clairance"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_COM_001_C01",
+      "concept_title": "Construire un appel et identifier le destinataire",
+      "level": 1,
+      "question": "Premier contact de F-GABC avec Valmont Tour. Quel début identifie correctement les deux stations ?",
+      "question_en": "F-GABC makes initial contact with Valmont Tower. Which opening correctly identifies both stations?",
+      "options": [
+        "Valmont Tour, F-GABC",
+        "F-GABC, pour atterrissage",
+        "Valmont Tour, F-BC",
+        "Valmont Tour, Cessna au sud"
+      ],
+      "correct_answer": "Valmont Tour, F-GABC",
+      "explanation": "Appeler la station puis donner l'indicatif complet. Le type et la position ne remplacent pas l'identification ; l'abréviation n'est pas initiée par le pilote au premier contact.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "Call the station, then give the full callsign. Type and position do not replace identification; the pilot does not initiate abbreviation on first contact.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Valmont Tower, F-GABC",
+        "F-GABC, for landing",
+        "Valmont Tower, F-BC",
+        "Valmont Tower, Cessna south of the field"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C02",
+      "concept_title": "Collationner et vérifier",
+      "level": 1,
+      "question": "Instruction : F-GABC, maintenez 3 000 pieds, QNH 1007. Quel collationnement permet de vérifier les deux valeurs ?",
+      "question_en": "Instruction: F-GABC, maintain 3,000 feet, QNH 1007. Which readback verifies both values?",
+      "options": [
+        "Reçu QNH 1007, F-GABC",
+        "Maintenons 3 000 pieds, F-GABC",
+        "Maintenons 3 000 pieds, QNH 1017, F-GABC",
+        "Maintenons 3 000 pieds, QNH 1007, F-GABC"
+      ],
+      "correct_answer": "Maintenons 3 000 pieds, QNH 1007, F-GABC",
+      "explanation": "Niveau et calage doivent être répétés. Les deux réponses abrégées omettent un élément ; 1017 déforme le calage. Collationner expose ces erreurs avant application.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "Read back both level and setting. The shortened replies each omit an item; 1017 changes the setting. Readback exposes these errors before application.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Roger QNH 1007, F-GABC",
+        "Maintaining 3,000 feet, F-GABC",
+        "Maintaining 3,000 feet, QNH 1017, F-GABC",
+        "Maintaining 3,000 feet, QNH 1007, F-GABC"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C03",
+      "concept_title": "Appliquer sans inventer de clairance",
+      "level": 1,
+      "question": "Contact établi sans risque de confusion ; le sol vient d'appeler F-GABC « F-BC ». Quelle forme le pilote peut-il reprendre ?",
+      "question_en": "Contact is established without confusion; the ground station has just addressed F-GABC as “F-BC”. Which form may the pilot use?",
+      "options": [
+        "G-BC",
+        "F-AB",
+        "F-BC",
+        "BC"
+      ],
+      "correct_answer": "F-BC",
+      "explanation": "La forme conserve la première lettre et au moins les deux dernières, et a été initiée par le sol. BC omet la première lettre ; G-BC la remplace ; F-AB ne conserve pas la fin de l'indicatif.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "The form retains the first and at least the last two characters and was initiated by ground. BC omits the first; G-BC replaces it; F-AB does not retain the callsign ending.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "G-BC",
+        "F-AB",
+        "F-BC",
+        "BC"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C03",
+      "concept_title": "Appliquer sans inventer de clairance",
+      "level": 2,
+      "question": "Au point d'attente, vous entendez « …ABC, alignez-vous 18 », mais F-GABC et F-HABC sont sur la fréquence. Quelle réponse traite l'incertitude ?",
+      "question_en": "At the holding point you hear “…ABC, line up 18”, with F-GABC and F-HABC on frequency. Which response addresses the uncertainty?",
+      "options": [
+        "Attendre que l'autre avion bouge pour déduire le destinataire",
+        "Rester avant piste et faire préciser le destinataire",
+        "Collationner avec F-GABC puis s'aligner si personne ne corrige",
+        "S'aligner puisque F-GABC avait demandé en premier"
+      ],
+      "correct_answer": "Rester avant piste et faire préciser le destinataire",
+      "explanation": "Le fragment ne permet pas d'attribuer l'instruction. Ni l'ordre des demandes, ni l'absence de correction, ni le mouvement d'un autre avion ne remplacent une identification reçue.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "The fragment cannot identify the addressee. Request order, lack of correction and another aircraft's movement cannot replace received identification.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Wait for the other aircraft to move to infer the addressee",
+        "Remain short and clarify the addressee",
+        "Read back as F-GABC and line up if not corrected",
+        "Line up because F-GABC requested first"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C01",
+      "concept_title": "Construire un appel et identifier le destinataire",
+      "level": 2,
+      "question": "Vous préparez un appel d'arrivée. Quelle note distingue une altitude d'une hauteur ?",
+      "question_en": "Preparing an arrival call, which note distinguishes altitude from height?",
+      "options": [
+        "2 200 ft QNH 1014",
+        "2 200 sans unité",
+        "2 200 ft sans référence",
+        "QNH 1014 sans indication verticale"
+      ],
+      "correct_answer": "2 200 ft QNH 1014",
+      "explanation": "Valeur, unité et référence donnent le sens de l'indication. Une valeur seule peut être mal interprétée ; le calage seul ne situe pas l'avion verticalement.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "Value, unit and reference establish the indication's meaning. A bare number may be misinterpreted; a setting alone gives no vertical position.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "2,200 ft QNH 1014",
+        "2,200 without units",
+        "2,200 ft without a reference",
+        "QNH 1014 without a vertical indication"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C01",
+      "concept_title": "Construire un appel et identifier le destinataire",
+      "level": 2,
+      "question": "L'ATC répond STANDBY à votre demande de traversée. Quelle autorisation avez-vous reçue ?",
+      "question_en": "ATC replies STANDBY to your runway-crossing request. What permission have you received?",
+      "options": [
+        "Traversée autorisée après le trafic visible",
+        "Traversée autorisée après collationnement",
+        "Demande définitivement refusée",
+        "Aucune traversée ; la demande reste en attente"
+      ],
+      "options_en": [
+        "Cross after visible traffic",
+        "Cross after readback",
+        "The request is definitively refused",
+        "No crossing clearance; the request is pending"
+      ],
+      "correct_answer": "Aucune traversée ; la demande reste en attente",
+      "explanation": "STANDBY demande d'attendre ; ce n'est ni une acceptation ni un refus. Aucun délai ni condition de traversée n'a été donné.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "STANDBY asks you to wait; it neither approves nor denies the request. No crossing condition or delay has been issued.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C01",
+      "concept_title": "Construire un appel et identifier le destinataire",
+      "level": 2,
+      "question": "Clairance : maintenez 2 400 pieds, QNH 1009. Votre réponse donne QNH 1019. Quel élément doit être corrigé ?",
+      "question_en": "Clearance: maintain 2,400 feet, QNH 1009. Your reply states QNH 1019. Which item needs correction?",
+      "options": [
+        "Le calage, de 1009 à 1019",
+        "Aucun, puisque l'altitude est correcte",
+        "Le calage, de 1019 à 1009",
+        "L'altitude, de 2 400 à 2 500 pieds"
+      ],
+      "options_en": [
+        "The setting, from 1009 to 1019",
+        "None, because altitude is correct",
+        "The setting, from 1019 to 1009",
+        "Altitude, from 2,400 to 2,500 feet"
+      ],
+      "correct_answer": "Le calage, de 1019 à 1009",
+      "explanation": "Comparer chaque élément à l'instruction reçue : l'altitude est fidèle, le calage diffère. La correction remet 1009, elle ne change pas le niveau assigné.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "Compare each item with the instruction: altitude matches, setting differs. Restore 1009 without changing the assigned level.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C01",
+      "concept_title": "Construire un appel et identifier le destinataire",
+      "level": 2,
+      "question": "Instruction entièrement reçue : contactez Tour 119.705. Quelle réponse vérifie le transfert ?",
+      "question_en": "Fully received instruction: contact Tower 119.705. Which reply verifies the transfer?",
+      "options": [
+        "On rappelle, F-GABC",
+        "119.705, F-GABC",
+        "Tour, F-GABC",
+        "119.750, F-GABC"
+      ],
+      "options_en": [
+        "Will call again, F-GABC",
+        "119.705, F-GABC",
+        "Tower, F-GABC",
+        "119.750, F-GABC"
+      ],
+      "correct_answer": "119.705, F-GABC",
+      "explanation": "Le nouveau canal doit être collationné avec l'indicatif. 119.750 inverse des chiffres ; nommer seulement la station ne vérifie pas le canal à sélectionner.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "Read back the new channel with the callsign. 119.750 transposes digits; naming the station alone does not verify the channel to select.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C02",
+      "concept_title": "Collationner et vérifier",
+      "level": 2,
+      "question": "F-GABC reçoit « maintenez avant piste 27 ». Quelle réponse conserve le sens de l'instruction ?",
+      "question_en": "F-GABC receives “hold short runway 27”. Which reply preserves the instruction?",
+      "options": [
+        "Maintenons avant piste 27, F-GABC",
+        "Maintenons piste 27, F-GABC",
+        "Remontons piste 27, F-GABC",
+        "Alignons piste 27, F-GABC"
+      ],
+      "options_en": [
+        "Holding short runway 27, F-GABC",
+        "Holding runway 27, F-GABC",
+        "Backtracking runway 27, F-GABC",
+        "Lining up runway 27, F-GABC"
+      ],
+      "correct_answer": "Maintenons avant piste 27, F-GABC",
+      "explanation": "Le mot avant distingue le point d'attente d'une présence sur la piste. Remonter et s'aligner sont d'autres actions, non autorisées par cette instruction.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "“Short” distinguishes waiting outside the runway from being on it. Backtracking and lining up are different actions not authorised by this instruction.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C02",
+      "concept_title": "Collationner et vérifier",
+      "level": 2,
+      "question": "Vous avez reçu le QNH mais pas le niveau masqué par une émission. Quel message cible l'information manquante ?",
+      "question_en": "QNH was received, but the level was blocked by another transmission. Which message targets the missing information?",
+      "options": [
+        "F-GABC, confirme maintenons 3 000, niveau attendu",
+        "F-GABC, reçu",
+        "F-GABC, répétez le QNH",
+        "F-GABC, répétez le niveau"
+      ],
+      "options_en": [
+        "F-GABC, confirming maintaining 3,000, the expected level",
+        "F-GABC, roger",
+        "F-GABC, say again QNH",
+        "F-GABC, say again level"
+      ],
+      "correct_answer": "F-GABC, répétez le niveau",
+      "explanation": "Demander le niveau reçu incomplètement. Annoncer celui attendu risque de transformer une supposition en collationnement ; répéter le QNH ne résout pas la lacune.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "Request the incompletely received level. Stating an expected level risks turning an assumption into a readback; repeating QNH does not resolve the gap.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C02",
+      "concept_title": "Collationner et vérifier",
+      "level": 2,
+      "question": "Une instruction est trop rapide pour être comprise. Quelle expression demande précisément un débit plus lent ?",
+      "question_en": "An instruction is too fast to understand. Which expression specifically requests a slower rate?",
+      "options": [
+        "SAY AGAIN QNH",
+        "WILCO",
+        "SPEAK SLOWER",
+        "STANDBY"
+      ],
+      "options_en": [
+        "SAY AGAIN QNH",
+        "WILCO",
+        "SPEAK SLOWER",
+        "STANDBY"
+      ],
+      "correct_answer": "SPEAK SLOWER",
+      "explanation": "SPEAK SLOWER traite le débit. SAY AGAIN QNH ne demande qu'un élément ; STANDBY demande d'attendre ; WILCO annoncerait une compréhension non acquise.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "SPEAK SLOWER addresses rate. SAY AGAIN QNH requests one item; STANDBY asks for a wait; WILCO would claim understanding not yet achieved.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C03",
+      "concept_title": "Appliquer sans inventer de clairance",
+      "level": 2,
+      "question": "Vous êtes autorisé à l'approche, sans autorisation d'atterrissage reçue. Quelle lecture est exacte ?",
+      "question_en": "You have approach clearance but no landing clearance. Which interpretation is accurate?",
+      "options": [
+        "L'approche est annulée par l'absence d'autorisation d'atterrissage",
+        "L'approche est autorisée ; l'atterrissage reste à autoriser",
+        "L'atterrissage est inclus si la piste paraît libre",
+        "L'atterrissage est inclus si le collationnement est correct"
+      ],
+      "options_en": [
+        "Approach is cancelled by absence of landing clearance",
+        "Approach is cleared; landing still requires clearance",
+        "Landing is included if the runway looks clear",
+        "Landing is included if readback was correct"
+      ],
+      "correct_answer": "L'approche est autorisée ; l'atterrissage reste à autoriser",
+      "explanation": "Les deux autorisations ont des objets distincts. La visibilité de la piste ou un collationnement exact n'ajoute pas une autorisation ; l'absence de celle-ci n'annule pas automatiquement l'approche.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "The clearances authorise different actions. Runway visibility or correct readback cannot add permission; its absence does not automatically cancel the approach.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C03",
+      "concept_title": "Appliquer sans inventer de clairance",
+      "level": 2,
+      "question": "Le contrôleur corrige votre niveau. Vous n'entendez pas la nouvelle valeur. Quelle démarche ferme la boucle ?",
+      "question_en": "ATC corrects your level, but you miss the corrected value. Which action closes the loop?",
+      "options": [
+        "Demander à nouveau la valeur et la collationner",
+        "Reprendre votre première valeur faute d'autre chiffre",
+        "Appliquer la valeur prévue au briefing",
+        "Accuser réception de la correction sans valeur"
+      ],
+      "options_en": [
+        "Request the value again and read it back",
+        "Return to your first value because no other number was heard",
+        "Apply the briefing value",
+        "Acknowledge the correction without its value"
+      ],
+      "correct_answer": "Demander à nouveau la valeur et la collationner",
+      "explanation": "Une correction non comprise laisse le doute entier. Le briefing et la première réponse ne remplacent pas la valeur autorisée ; un accusé de réception seul masque encore l'incertitude.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "An unheard correction leaves the doubt unresolved. Neither the briefing nor the first reply supplies the cleared value; acknowledgement alone still conceals uncertainty.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C03",
+      "concept_title": "Appliquer sans inventer de clairance",
+      "level": 2,
+      "question": "Vous ne pouvez pas maintenir la vitesse demandée. Quel contenu permet à l'ATC de traiter cette impossibilité ?",
+      "question_en": "You cannot maintain the requested speed. Which content lets ATC address this inability?",
+      "options": [
+        "WILCO puis appliquer la vitesse réalisable",
+        "ROGER puis attendre que l'ATC remarque l'écart",
+        "Répéter la vitesse demandée pour ne pas bloquer la fréquence",
+        "Impossible vitesse demandée, raison et demande adaptée"
+      ],
+      "options_en": [
+        "WILCO then use an achievable speed",
+        "ROGER then wait for ATC to notice",
+        "Repeat the requested speed to avoid occupying the frequency",
+        "Unable requested speed, reason and suitable request"
+      ],
+      "correct_answer": "Impossible vitesse demandée, raison et demande adaptée",
+      "explanation": "Signaler l'impossibilité permet une modification coordonnée. Les trois autres réponses donnent une apparence d'acceptation sans exposer la contrainte ; répéter n'est pas pouvoir exécuter.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "Reporting inability allows a coordinated amendment. The other replies suggest acceptance without disclosing the constraint; repeating an instruction does not make compliance possible.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_COM_001_C03",
+      "concept_title": "Appliquer sans inventer de clairance",
+      "level": 2,
+      "question": "Instruction : F-GABC, alignez-vous piste 09 et attendez. Quel collationnement conserve toute la limite de l'autorisation ?",
+      "question_en": "Instruction: F-GABC, line up runway 09 and wait. Which readback preserves the full clearance limit?",
+      "options": [
+        "Maintenons avant piste 09, F-GABC",
+        "Alignons piste 09 puis décollons dès piste libre, F-GABC",
+        "Alignons piste 09 et attendons, F-GABC",
+        "Décollons piste 09, F-GABC"
+      ],
+      "options_en": [
+        "Holding short runway 09, F-GABC",
+        "Lining up runway 09 then taking off when clear, F-GABC",
+        "Lining up runway 09 and waiting, F-GABC",
+        "Taking off runway 09, F-GABC"
+      ],
+      "correct_answer": "Alignons piste 09 et attendons, F-GABC",
+      "explanation": "L'instruction permet l'alignement et impose l'attente. Rester avant piste décrit une autre action ; le décollage n'est autorisé ni immédiatement ni sous une condition inventée.\n\n![Schéma / Diagram](/illustrations/lapl-com-001.svg)",
+      "explanation_en": "The instruction permits line-up and requires waiting. Holding short describes a different action; take-off is not cleared immediately or under an invented condition.\n\n![Schéma / Diagram](/illustrations/en/lapl-com-001.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    }
+  ]
+}

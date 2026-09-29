@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">La visibilité dépend aussi du contraste</title><desc id="desc">Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">La visibilité dépend aussi du contraste</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Un paysage identique peut devenir difficile à lire.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_MET_006</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<rect x="62" y="260" width="344" height="260" rx="10" fill="#496575" stroke="none"/>
+<path d="M62 493L132 363L207 448L282 318L406 494Z" fill="#152b40" stroke="#152b40" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="211" y="454" width="35" height="40" rx="0" fill="rgba(20,40,60,1)" stroke="none"/>
+<text x="234" y="235" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">BON CONTRASTE</text>
+<rect x="427" y="260" width="344" height="260" rx="10" fill="#496575" stroke="none"/>
+<path d="M427 493L497 363L572 448L647 318L771 494Z" fill="#152b40" stroke="#152b40" stroke-width="1" stroke-linejoin="round" opacity="0.45"/>
+<rect x="576" y="454" width="35" height="40" rx="0" fill="rgba(20,40,60,0.45)" stroke="none"/>
+<text x="599" y="235" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">BRUME</text>
+<rect x="792" y="260" width="344" height="260" rx="10" fill="#496575" stroke="none"/>
+<path d="M792 493L862 363L937 448L1012 318L1136 494Z" fill="#152b40" stroke="#152b40" stroke-width="1" stroke-linejoin="round" opacity="0.14"/>
+<rect x="941" y="454" width="35" height="40" rx="0" fill="rgba(20,40,60,0.14)" stroke="none"/>
+<text x="964" y="235" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">FAIBLE CONTRASTE</text>
+<text x="600" y="572" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="middle">Les mêmes repères deviennent plus difficiles à reconnaître.</text>
+</svg>

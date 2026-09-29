@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Instruments and their pressures</title><desc id="desc">The airspeed indicator receives total and static pressure; the altimeter and vertical speed indicator use static pressure.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Instruments and their pressures</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Three instruments may share one static source.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_AC_004</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<rect x="72" y="251" width="205" height="78" rx="12" fill="#193d4b" stroke="#58dfed"/>
+<text x="96" y="285" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start">TOTAL PRESSURE</text>
+<text x="96" y="312" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Pitot tube</text>
+<rect x="72" y="433" width="205" height="78" rx="12" fill="#353147" stroke="#bbabff"/>
+<text x="96" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start">STATIC PRESSURE</text>
+<text x="96" y="493" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Shared source</text>
+<path d="M277 290L533 290" fill="none" stroke="#58dfed" stroke-width="4"/>
+<path d="M277 472L400 472" fill="none" stroke="#bbabff" stroke-width="4"/>
+<path d="M400 317L400 550" fill="none" stroke="#bbabff" stroke-width="4"/>
+<path d="M400 317L533 317" fill="none" stroke="#bbabff" stroke-width="4"/>
+<rect x="533" y="260" width="245" height="65" rx="12" fill="#1c314a" stroke="#52718c"/>
+<text x="655" y="300" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">AIRSPEED INDICATOR</text>
+<path d="M400 422L533 422" fill="none" stroke="#bbabff" stroke-width="4"/>
+<rect x="533" y="392" width="245" height="65" rx="12" fill="#1c314a" stroke="#52718c"/>
+<text x="655" y="432" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">ALTIMETER</text>
+<path d="M400 550L533 550" fill="none" stroke="#bbabff" stroke-width="4"/>
+<rect x="533" y="520" width="245" height="65" rx="12" fill="#1c314a" stroke="#52718c"/>
+<text x="655" y="560" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">VERTICAL SPEED</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Indicated airspeed</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Total pressure minus static</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">pressure.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Altitude</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Static pressure + selected</text>
+<text x="855" y="406" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">setting.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Vertical speed</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Change in static pressure.</text>
+</svg>

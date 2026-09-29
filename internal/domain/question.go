@@ -9,28 +9,32 @@ import "time"
 //    On utilise un index sur (license, category) pour les requêtes fréquentes
 //    comme "toutes les questions PPL de météo".
 type Question struct {
-	ID            string    `json:"id"`
-	LessonID      string    `json:"lesson_id,omitempty"`
-	License       License   `json:"license"`
-	Category      Category  `json:"category"`
-	Theme         string    `json:"theme"`
-	Subtopic      string    `json:"subtopic,omitempty"`
-	Difficulty    int       `json:"difficulty"`
-	Level         int       `json:"level"`          // 1=Basic, 2=Intermediate, 3=Advanced (Duolingo-style)
-	QuestionFr    string    `json:"question_fr"`
-	QuestionEn    string    `json:"question_en"`
-	Options       []string  `json:"options"`
-	AnswerKey     string    `json:"answer_key"`
-	ExplanationFr string    `json:"explanation_fr,omitempty"`
-	ExplanationEn string    `json:"explanation_en,omitempty"`
-	FaaNoteFr     string    `json:"faa_note_fr,omitempty"`     // Différence FAA vs EASA (FR)
-	FaaNoteEn     string    `json:"faa_note_en,omitempty"`     // Différence FAA vs EASA (EN)
-	Tags          []string  `json:"tags,omitempty"`            // Mots-clés pour classification
-	DifficultyScore float64 `json:"difficulty_score,omitempty"` // 0.0-1.0 pour algo adaptatif
-	Distractors   map[string]string `json:"distractors_rationale,omitempty"` // Pourquoi chaque distracteur est faux
-	CreatedAt     time.Time `json:"created_at"`
+	ID              string            `json:"id"`
+	LessonID        string            `json:"lesson_id,omitempty"`
+	License         License           `json:"license"`
+	Category        Category          `json:"category"`
+	Theme           string            `json:"theme"`
+	Subtopic        string            `json:"subtopic,omitempty"`
+	Difficulty      int               `json:"difficulty"`
+	Level           int               `json:"level"` // 1=Basic, 2=Intermediate, 3=Advanced (Duolingo-style)
+	QuestionFr      string            `json:"question_fr"`
+	QuestionEn      string            `json:"question_en"`
+	QuestionEs      string            `json:"question_es"`
+	Options         []string          `json:"options"`
+	OptionsEn       []string          `json:"options_en,omitempty"`
+	OptionsEs       []string          `json:"options_es,omitempty"`
+	AnswerKey       string            `json:"answer_key"`
+	ExplanationFr   string            `json:"explanation_fr,omitempty"`
+	ExplanationEn   string            `json:"explanation_en,omitempty"`
+	ExplanationEs   string            `json:"explanation_es,omitempty"`
+	FaaNoteFr       string            `json:"faa_note_fr,omitempty"`           // Différence FAA vs EASA (FR)
+	FaaNoteEn       string            `json:"faa_note_en,omitempty"`           // Différence FAA vs EASA (EN)
+	FaaNoteEs       string            `json:"faa_note_es,omitempty"`           // Différence FAA vs EASA (EN)
+	Tags            []string          `json:"tags,omitempty"`                  // Mots-clés pour classification
+	DifficultyScore float64           `json:"difficulty_score,omitempty"`      // 0.0-1.0 pour algo adaptatif
+	Distractors     map[string]string `json:"distractors_rationale,omitempty"` // Pourquoi chaque distracteur est faux
+	CreatedAt       time.Time         `json:"created_at"`
 }
-
 
 // QuestionRepository définit le contrat pour accéder aux questions.
 //

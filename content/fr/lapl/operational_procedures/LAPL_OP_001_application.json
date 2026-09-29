@@ -1,0 +1,592 @@
+{
+  "metadata": {
+    "module_id": "LAPL_OP_001",
+    "program": "LAPL",
+    "subject": "Operational Procedures",
+    "chapter_title": "Procédures pré-vol",
+    "chapter_title_en": "Pre-Flight Procedures",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : préparer le vol et l'avion; contrôles extérieurs et cabine; exemple d'interruption.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: preparing the flight and aircraft; external and cockpit checks; an interruption example.",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [],
+    "tags": [
+      "LAPL",
+      "operational_procedures"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — Airplane Flying Handbook",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+      },
+      {
+        "title": "EASA — SERA",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-op-001.svg",
+      "alt": "Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants."
+    },
+    "exam_subject": "operational_procedures",
+    "coverage_status": "partial",
+    "derived_from": "PPL_OP_001",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_OP_001_C01",
+      "title": "Préparer le vol et l'avion",
+      "title_en": "Preparing the flight and aircraft",
+      "content": "![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)\n\nLa visite prévol complète la préparation documentaire : météo, informations aéronautiques, chargement, performances et état technique. Suivre une méthode stable permet de ne pas oublier une zone après une interruption. Vérifier l'adéquation du carburant et des fluides avec l'appareil. Une checklist décrit des contrôles ; elle n'autorise pas à ignorer une anomalie constatée.",
+      "content_en": "![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)\n\nThe preflight inspection complements documentary preparation: weather, aeronautical information, loading, performance and technical status. A consistent method helps avoid missing an area after an interruption. Check that fuel and fluids are suitable for the aircraft. A checklist describes checks; it does not authorise ignoring an anomaly.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Préparer le vol et l'avion"
+    },
+    {
+      "concept_id": "LAPL_OP_001_C02",
+      "title": "Contrôles extérieurs et cabine",
+      "title_en": "External and cockpit checks",
+      "content": "Selon le type, examiner surfaces, fixations, prises d'air, train, gouvernes et absence d'obstacles autour de l'hélice. En cabine, vérifier documents utiles, installation des occupants, ceintures, verrouillages et réglages. Le briefing passagers explique notamment l'évacuation, les équipements utiles et les moments où les conversations doivent être limitées.",
+      "content_en": "Depending on type, examine surfaces, attachments, air inlets, landing gear, controls and clearance around the propeller. In the cockpit, check useful documents, occupant seating, belts, locks and settings. The passenger briefing explains evacuation, relevant equipment and when conversation should be limited.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Contrôles extérieurs et cabine"
+    },
+    {
+      "concept_id": "LAPL_OP_001_C03",
+      "title": "Exemple d'interruption",
+      "title_en": "An interruption example",
+      "content": "Pendant le contrôle d'une aile, un passager pose une question. Après l'échange, reprendre à un point de contrôle clairement identifié, plutôt que supposer la séquence terminée. Avant le départ, confirmer que protections, caches et attaches prévus au sol sont retirés. Une incohérence entre jauge et quantité attendue demande une vérification, pas une simple confiance dans le calcul précédent.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "A passenger asks a question during a wing inspection. Afterwards, resume at a clearly identified checkpoint rather than assuming the sequence is complete. Before departure, confirm that the relevant covers, blanks and ground restraints have been removed. A discrepancy between a gauge and expected fuel quantity requires checking, not simply trusting the previous calculation.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Exemple d'interruption"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_OP_001_C01",
+      "concept_title": "Préparer le vol et l'avion",
+      "level": 1,
+      "question": "La visite prévol remplace-t-elle la préparation météo ?",
+      "question_en": "Does the preflight inspection replace weather preparation?",
+      "options": [
+        "Oui pour un tour de piste",
+        "Oui si le réservoir est plein",
+        "Non",
+        "Oui"
+      ],
+      "correct_answer": "Non",
+      "explanation": "La préparation du vol et le contrôle de l'avion sont complémentaires.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "Flight preparation and aircraft inspection complement each other.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "preflight",
+        "walkaround",
+        "checklist",
+        "inspection",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Yes, for a circuit",
+        "Yes, with a full tank",
+        "No",
+        "Yes"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C02",
+      "concept_title": "Contrôles extérieurs et cabine",
+      "level": 1,
+      "question": "Après une interruption de checklist, que faire ?",
+      "question_en": "What should you do after a checklist interruption?",
+      "options": [
+        "Supposer tout terminé",
+        "Reprendre à un point clairement identifié",
+        "Sauter les étapes restantes",
+        "Recommencer uniquement la radio"
+      ],
+      "correct_answer": "Reprendre à un point clairement identifié",
+      "explanation": "Une reprise structurée évite les omissions.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "A structured resumption prevents omissions.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "preflight",
+        "walkaround",
+        "checklist",
+        "inspection",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Assume everything is complete",
+        "Resume at a clearly identified point",
+        "Skip the remaining steps",
+        "Restart only the radio check"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C03",
+      "concept_title": "Exemple d'interruption",
+      "level": 1,
+      "question": "Que faire si la quantité de carburant paraît incohérente ?",
+      "question_en": "What should you do if fuel quantity appears inconsistent?",
+      "options": [
+        "Vérifier avant de partir",
+        "Se fier au souvenir",
+        "Décoller pour stabiliser la jauge",
+        "Ajouter le chiffre le plus favorable"
+      ],
+      "correct_answer": "Vérifier avant de partir",
+      "explanation": "Le doute doit être résolu avec une méthode adaptée au type d'avion.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "Resolve the doubt using a method appropriate to the aircraft type.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "preflight",
+        "walkaround",
+        "checklist",
+        "inspection",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Check before departure",
+        "Rely on memory",
+        "Take off to stabilise the gauge",
+        "Use the most favourable number"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C02",
+      "concept_title": "Contrôles extérieurs et cabine",
+      "level": 2,
+      "question": "Quel sujet fait partie d'un briefing utile aux passagers ?",
+      "question_en": "Which subject belongs in a useful passenger briefing?",
+      "options": [
+        "Le réglage libre des commandes pendant le décollage",
+        "Le remplacement de la checklist par les souvenirs du passager",
+        "La possibilité d'ouvrir toute porte à tout moment",
+        "L'évacuation et les moments où limiter les conversations"
+      ],
+      "correct_answer": "L'évacuation et les moments où limiter les conversations",
+      "explanation": "Le briefing prépare les occupants aux actions utiles et réduit les interruptions pendant les phases chargées. Il doit être adapté à l'appareil et à ses équipements.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "The briefing prepares occupants for useful actions and reduces interruptions during busy phases. It must suit the aircraft and its equipment.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "preflight",
+        "walkaround",
+        "checklist",
+        "inspection",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Freely adjusting controls during take-off",
+        "Replacing the checklist with the passenger's memory",
+        "Opening any door at any time",
+        "Evacuation and when to limit conversation"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C03",
+      "concept_title": "Exemple d'interruption",
+      "level": 2,
+      "question": "La visite est terminée, mais un cache de prise d'air est encore en place. Quelle conclusion retenir ?",
+      "question_en": "The inspection is complete, but an inlet cover remains fitted. What follows?",
+      "options": [
+        "Le cache peut être retiré seulement après le décollage",
+        "La présence du cache garantit une mesure plus précise",
+        "Le contrôle doit aboutir au retrait des protections prévues avant le vol",
+        "Une checklist annoncée terminée rend ce cache sans effet"
+      ],
+      "correct_answer": "Le contrôle doit aboutir au retrait des protections prévues avant le vol",
+      "explanation": "Une checklist n'est pas une simple récitation. Les protections et attaches destinées au stationnement doivent être traitées conformément à la procédure avant le départ.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "A checklist is not just a recitation. Parking covers and restraints must be handled according to the procedure before departure.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "preflight",
+        "walkaround",
+        "checklist",
+        "inspection",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "The cover can only be removed after take-off",
+        "The cover guarantees a more accurate measurement",
+        "The inspection must lead to removal of required covers before flight",
+        "Announcing the checklist complete makes the cover harmless"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C01",
+      "concept_title": "Préparer le vol et l'avion",
+      "level": 2,
+      "question": "Vrai ou faux ? La visite prévol complète la vérification du statut technique de l'avion.",
+      "question_en": "True or false? The preflight inspection complements checking the aircraft's technical status.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa visite prévol complète la préparation documentaire : météo, informations aéronautiques, chargement, performances et état technique. Suivre une méthode stable permet de ne pas oublier une zone après une interruption. Vérifier l'adéquation du carburant et des fluides avec l'appareil. Une checklist décrit des contrôles ; elle n'autorise pas à ignorer une anomalie constatée.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe preflight inspection complements documentary preparation: weather, aeronautical information, loading, performance and technical status. A consistent method helps avoid missing an area after an interruption. Check that fuel and fluids are suitable for the aircraft. A checklist describes checks; it does not authorise ignoring an anomaly.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C01",
+      "concept_title": "Préparer le vol et l'avion",
+      "level": 2,
+      "question": "Vrai ou faux ? Une checklist autorise à ignorer une anomalie si la case est cochée.",
+      "question_en": "True or false? A checklist permits ignoring an anomaly once the box is ticked.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa visite prévol complète la préparation documentaire : météo, informations aéronautiques, chargement, performances et état technique. Suivre une méthode stable permet de ne pas oublier une zone après une interruption. Vérifier l'adéquation du carburant et des fluides avec l'appareil. Une checklist décrit des contrôles ; elle n'autorise pas à ignorer une anomalie constatée.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "This statement is false.\n\nThe preflight inspection complements documentary preparation: weather, aeronautical information, loading, performance and technical status. A consistent method helps avoid missing an area after an interruption. Check that fuel and fluids are suitable for the aircraft. A checklist describes checks; it does not authorise ignoring an anomaly.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C01",
+      "concept_title": "Préparer le vol et l'avion",
+      "level": 2,
+      "question": "Vrai ou faux ? Les fluides doivent être adaptés au type d'avion.",
+      "question_en": "True or false? Fluids must be suitable for the aircraft type.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa visite prévol complète la préparation documentaire : météo, informations aéronautiques, chargement, performances et état technique. Suivre une méthode stable permet de ne pas oublier une zone après une interruption. Vérifier l'adéquation du carburant et des fluides avec l'appareil. Une checklist décrit des contrôles ; elle n'autorise pas à ignorer une anomalie constatée.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "This statement is true.\n\nThe preflight inspection complements documentary preparation: weather, aeronautical information, loading, performance and technical status. A consistent method helps avoid missing an area after an interruption. Check that fuel and fluids are suitable for the aircraft. A checklist describes checks; it does not authorise ignoring an anomaly.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C02",
+      "concept_title": "Contrôles extérieurs et cabine",
+      "level": 2,
+      "question": "Vrai ou faux ? La vérification de la cabine concerne uniquement les instruments électroniques.",
+      "question_en": "True or false? Cockpit checks concern only electronic instruments.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSelon le type, examiner surfaces, fixations, prises d'air, train, gouvernes et absence d'obstacles autour de l'hélice. En cabine, vérifier documents utiles, installation des occupants, ceintures, verrouillages et réglages. Le briefing passagers explique notamment l'évacuation, les équipements utiles et les moments où les conversations doivent être limitées.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "This statement is false.\n\nDepending on type, examine surfaces, attachments, air inlets, landing gear, controls and clearance around the propeller. In the cockpit, check useful documents, occupant seating, belts, locks and settings. The passenger briefing explains evacuation, relevant equipment and when conversation should be limited.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C02",
+      "concept_title": "Contrôles extérieurs et cabine",
+      "level": 2,
+      "question": "Vrai ou faux ? L'espace autour de l'hélice fait partie des éléments à surveiller.",
+      "question_en": "True or false? Clearance around the propeller is one of the items to check.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nSelon le type, examiner surfaces, fixations, prises d'air, train, gouvernes et absence d'obstacles autour de l'hélice. En cabine, vérifier documents utiles, installation des occupants, ceintures, verrouillages et réglages. Le briefing passagers explique notamment l'évacuation, les équipements utiles et les moments où les conversations doivent être limitées.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "This statement is true.\n\nDepending on type, examine surfaces, attachments, air inlets, landing gear, controls and clearance around the propeller. In the cockpit, check useful documents, occupant seating, belts, locks and settings. The passenger briefing explains evacuation, relevant equipment and when conversation should be limited.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C02",
+      "concept_title": "Contrôles extérieurs et cabine",
+      "level": 2,
+      "question": "Vrai ou faux ? Le briefing passagers doit être adapté aux équipements réellement présents.",
+      "question_en": "True or false? The passenger briefing must suit the equipment actually present.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nSelon le type, examiner surfaces, fixations, prises d'air, train, gouvernes et absence d'obstacles autour de l'hélice. En cabine, vérifier documents utiles, installation des occupants, ceintures, verrouillages et réglages. Le briefing passagers explique notamment l'évacuation, les équipements utiles et les moments où les conversations doivent être limitées.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "This statement is true.\n\nDepending on type, examine surfaces, attachments, air inlets, landing gear, controls and clearance around the propeller. In the cockpit, check useful documents, occupant seating, belts, locks and settings. The passenger briefing explains evacuation, relevant equipment and when conversation should be limited.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C02",
+      "concept_title": "Contrôles extérieurs et cabine",
+      "level": 2,
+      "question": "Vrai ou faux ? Les ceintures n'ont pas à être vérifiées avant le départ.",
+      "question_en": "True or false? Belts do not need checking before departure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSelon le type, examiner surfaces, fixations, prises d'air, train, gouvernes et absence d'obstacles autour de l'hélice. En cabine, vérifier documents utiles, installation des occupants, ceintures, verrouillages et réglages. Le briefing passagers explique notamment l'évacuation, les équipements utiles et les moments où les conversations doivent être limitées.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "This statement is false.\n\nDepending on type, examine surfaces, attachments, air inlets, landing gear, controls and clearance around the propeller. In the cockpit, check useful documents, occupant seating, belts, locks and settings. The passenger briefing explains evacuation, relevant equipment and when conversation should be limited.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C03",
+      "concept_title": "Exemple d'interruption",
+      "level": 2,
+      "question": "Vrai ou faux ? Après une interruption, la mémoire seule garantit qu'aucune étape n'a été oubliée.",
+      "question_en": "True or false? After an interruption, memory alone guarantees no step was missed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nPendant le contrôle d'une aile, un passager pose une question. Après l'échange, reprendre à un point de contrôle clairement identifié, plutôt que supposer la séquence terminée. Avant le départ, confirmer que protections, caches et attaches prévus au sol sont retirés. Une incohérence entre jauge et quantité attendue demande une vérification, pas une simple confiance dans le calcul précédent.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "This statement is false.\n\nA passenger asks a question during a wing inspection. Afterwards, resume at a clearly identified checkpoint rather than assuming the sequence is complete. Before departure, confirm that the relevant covers, blanks and ground restraints have been removed. A discrepancy between a gauge and expected fuel quantity requires checking, not simply trusting the previous calculation.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C03",
+      "concept_title": "Exemple d'interruption",
+      "level": 2,
+      "question": "Vrai ou faux ? Les dispositifs d'immobilisation pertinents doivent être retirés avant le départ.",
+      "question_en": "True or false? Relevant ground restraints must be removed before departure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nPendant le contrôle d'une aile, un passager pose une question. Après l'échange, reprendre à un point de contrôle clairement identifié, plutôt que supposer la séquence terminée. Avant le départ, confirmer que protections, caches et attaches prévus au sol sont retirés. Une incohérence entre jauge et quantité attendue demande une vérification, pas une simple confiance dans le calcul précédent.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "This statement is true.\n\nA passenger asks a question during a wing inspection. Afterwards, resume at a clearly identified checkpoint rather than assuming the sequence is complete. Before departure, confirm that the relevant covers, blanks and ground restraints have been removed. A discrepancy between a gauge and expected fuel quantity requires checking, not simply trusting the previous calculation.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_001_C03",
+      "concept_title": "Exemple d'interruption",
+      "level": 2,
+      "question": "Vrai ou faux ? Une jauge incohérente doit être interprétée en retenant systématiquement le chiffre le plus favorable.",
+      "question_en": "True or false? An inconsistent gauge should always be interpreted using the most favourable figure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nPendant le contrôle d'une aile, un passager pose une question. Après l'échange, reprendre à un point de contrôle clairement identifié, plutôt que supposer la séquence terminée. Avant le départ, confirmer que protections, caches et attaches prévus au sol sont retirés. Une incohérence entre jauge et quantité attendue demande une vérification, pas une simple confiance dans le calcul précédent.\n\n![Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.](/illustrations/lapl-op-001.svg)",
+      "explanation_en": "This statement is false.\n\nA passenger asks a question during a wing inspection. Afterwards, resume at a clearly identified checkpoint rather than assuming the sequence is complete. Before departure, confirm that the relevant covers, blanks and ground restraints have been removed. A discrepancy between a gauge and expected fuel quantity requires checking, not simply trusting the previous calculation.\n\n![Diagram: Pre-Flight Procedures](/illustrations/en/lapl-op-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

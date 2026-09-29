@@ -5,13 +5,564 @@
     "subject": "Aircraft General",
     "chapter_title": "Commandes de vol",
     "chapter_title_en": "Flight Controls",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : trois axes de rotation; coordonner les commandes; volets, compensation et exemple.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: three axes of rotation; coordinating the controls; flaps, trim and an example.",
     "difficulty": "beginner",
-    "estimated_duration_minutes": 20,
-    "prerequisites": ["PPL_AC_001"],
-    "tags": ["controls", "ailerons", "elevator", "rudder", "flaps"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AC_001"
+    ],
+    "tags": [
+      "controls",
+      "ailerons",
+      "elevator",
+      "rudder",
+      "flaps"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/commandes-de-vol.svg",
+      "alt": "Roulis, tangage et lacet : les axes de rotation et les gouvernes associées."
+    },
+    "exam_subject": "aircraft_general",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_AC_007_C01",
+      "title": "Trois axes de rotation",
+      "title_en": "Three axes of rotation",
+      "content": "![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)\n\nLe roulis est la rotation autour de l'axe longitudinal, du nez à la queue. Les ailerons commandent principalement ce mouvement. Le tangage fait monter ou descendre le nez autour de l'axe transversal ; il est commandé par la profondeur ou un empennage monobloc. Le lacet est la rotation autour de l'axe vertical, commandée par la gouverne de direction et les palonniers.",
+      "content_en": "![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)\n\nRoll is rotation about the longitudinal axis, from nose to tail. The ailerons primarily control it. Pitch raises or lowers the nose about the lateral axis and is controlled by the elevator or an all-moving tailplane. Yaw is rotation about the vertical axis, controlled by the rudder and rudder pedals.",
+      "difficulty": "beginner",
+      "tags": [
+        "controls",
+        "ailerons",
+        "elevator",
+        "rudder",
+        "flaps"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Trois axes de rotation"
+    },
+    {
+      "concept_id": "PPL_AC_007_C02",
+      "title": "Coordonner les commandes",
+      "title_en": "Coordinating the controls",
+      "content": "Sur un avion conventionnel, les ailerons se déplacent en sens opposés. La différence de traînée peut provoquer du lacet inverse, ce qui nécessite une coordination adaptée au type. La profondeur agit sur l'incidence et l'équilibre longitudinal : tirer ne garantit pas de monter. À puissance insuffisante, une augmentation excessive d'incidence peut conduire au décrochage.",
+      "content_en": "On a conventional aircraft, the ailerons move in opposite directions. Differential drag may produce adverse yaw, requiring coordination appropriate to the type. The elevator affects angle of attack and longitudinal balance: pulling back does not guarantee a climb. With insufficient power, an excessive increase in angle of attack can lead to a stall.",
+      "difficulty": "beginner",
+      "tags": [
+        "controls",
+        "ailerons",
+        "elevator",
+        "rudder",
+        "flaps"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Coordonner les commandes"
+    },
+    {
+      "concept_id": "PPL_AC_007_C03",
+      "title": "Volets, compensation et exemple",
+      "title_en": "Flaps, trim and an example",
+      "content": "Les volets modifient la portance et la traînée ; leur sortie est soumise à une vitesse limite et à la procédure de l'avion. Le compensateur réduit l'effort nécessaire pour tenir une condition de vol, sans remplacer les commandes principales. Exemple : après une variation de vitesse, stabiliser d'abord l'attitude et la trajectoire, puis ajuster la compensation. Ne pas utiliser le compensateur pour masquer une configuration incorrecte.",
+      "content_en": "Flaps change lift and drag; extension is subject to the aircraft's speed limit and procedure. Trim reduces the force required to hold a flight condition without replacing the primary controls. For example, after a speed change, first stabilise attitude and flight path, then adjust trim. Do not use trim to conceal an incorrect configuration.",
+      "difficulty": "beginner",
+      "tags": [
+        "controls",
+        "ailerons",
+        "elevator",
+        "rudder",
+        "flaps"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Volets, compensation et exemple"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AC_007_C01",
+      "concept_title": "Trois axes de rotation",
+      "level": 1,
+      "question": "Quelle gouverne commande principalement le roulis ?",
+      "question_en": "Which control surface primarily controls roll?",
+      "options": [
+        "La profondeur",
+        "La direction",
+        "Le compensateur de profondeur",
+        "Les ailerons"
+      ],
+      "correct_answer": "Les ailerons",
+      "explanation": "Les ailerons agissent autour de l'axe longitudinal.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "The ailerons act about the longitudinal axis.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "controls",
+        "ailerons",
+        "elevator",
+        "rudder",
+        "flaps",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "The elevator",
+        "The rudder",
+        "Elevator trim",
+        "The ailerons"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C02",
+      "concept_title": "Coordonner les commandes",
+      "level": 1,
+      "question": "Autour de quel axe se produit le tangage ?",
+      "question_en": "About which axis does pitch occur?",
+      "options": [
+        "L'axe vertical",
+        "L'axe du tube Pitot",
+        "L'axe transversal",
+        "L'axe longitudinal"
+      ],
+      "correct_answer": "L'axe transversal",
+      "explanation": "La profondeur commande la rotation autour de l'axe transversal.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "The elevator controls rotation about the lateral axis.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "controls",
+        "ailerons",
+        "elevator",
+        "rudder",
+        "flaps",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "The vertical axis",
+        "The Pitot tube axis",
+        "The lateral axis",
+        "The longitudinal axis"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C03",
+      "concept_title": "Volets, compensation et exemple",
+      "level": 1,
+      "question": "Quelle est la fonction principale du compensateur ?",
+      "question_en": "What is the main purpose of trim?",
+      "options": [
+        "Remplacer les volets",
+        "Réduire l'effort aux commandes",
+        "Garantir une montée",
+        "Empêcher tout décrochage"
+      ],
+      "correct_answer": "Réduire l'effort aux commandes",
+      "explanation": "La compensation soulage l'effort pour une condition de vol stabilisée.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "Trim relieves control force in a stabilised flight condition.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "controls",
+        "ailerons",
+        "elevator",
+        "rudder",
+        "flaps",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Replace the flaps",
+        "Reduce control force",
+        "Guarantee a climb",
+        "Prevent every stall"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C01",
+      "concept_title": "Trois axes de rotation",
+      "level": 2,
+      "question": "Les palonniers commandent principalement quel mouvement sur un avion conventionnel ?",
+      "question_en": "Which movement do the rudder pedals primarily control on a conventional aircraft?",
+      "options": [
+        "Le lacet autour de l'axe vertical",
+        "Le tangage autour de l'axe longitudinal",
+        "Le roulis autour de l'axe transversal",
+        "La translation verticale sans rotation"
+      ],
+      "correct_answer": "Le lacet autour de l'axe vertical",
+      "explanation": "La gouverne de direction agit principalement sur le lacet. Le roulis se fait autour de l'axe longitudinal et le tangage autour de l'axe transversal.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "The rudder primarily controls yaw. Roll occurs about the longitudinal axis and pitch about the lateral axis.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "controls",
+        "ailerons",
+        "elevator",
+        "rudder",
+        "flaps",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Yaw about the vertical axis",
+        "Pitch about the longitudinal axis",
+        "Roll about the lateral axis",
+        "Vertical translation without rotation"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C02",
+      "concept_title": "Coordonner les commandes",
+      "level": 2,
+      "question": "Pourquoi tirer davantage sur la profondeur ne garantit-il pas une montée ?",
+      "question_en": "Why does pulling farther back not guarantee a climb?",
+      "options": [
+        "La profondeur n'a aucune influence sur l'incidence",
+        "Le compensateur annule toujours l'effet de la profondeur",
+        "La vitesse sol détermine seule la montée",
+        "L'incidence peut augmenter jusqu'au décrochage si les conditions ne permettent pas la montée"
+      ],
+      "correct_answer": "L'incidence peut augmenter jusqu'au décrochage si les conditions ne permettent pas la montée",
+      "explanation": "La profondeur agit sur l'équilibre longitudinal et l'incidence. Une augmentation excessive de l'incidence, notamment avec une puissance insuffisante, peut conduire au décrochage.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "The elevator affects longitudinal balance and angle of attack. An excessive increase in angle of attack, particularly with insufficient power, can lead to a stall.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "controls",
+        "ailerons",
+        "elevator",
+        "rudder",
+        "flaps",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "The elevator has no effect on angle of attack",
+        "Trim always cancels the elevator's effect",
+        "Groundspeed alone determines climb",
+        "Angle of attack may increase to the stall if conditions do not support climbing"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C01",
+      "concept_title": "Trois axes de rotation",
+      "level": 2,
+      "question": "Vrai ou faux ? L'axe longitudinal va du nez à la queue de l'avion.",
+      "question_en": "True or false? The longitudinal axis runs from the aircraft's nose to its tail.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe roulis est la rotation autour de l'axe longitudinal, du nez à la queue. Les ailerons commandent principalement ce mouvement. Le tangage fait monter ou descendre le nez autour de l'axe transversal ; il est commandé par la profondeur ou un empennage monobloc. Le lacet est la rotation autour de l'axe vertical, commandée par la gouverne de direction et les palonniers.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "This statement is true.\n\nRoll is rotation about the longitudinal axis, from nose to tail. The ailerons primarily control it. Pitch raises or lowers the nose about the lateral axis and is controlled by the elevator or an all-moving tailplane. Yaw is rotation about the vertical axis, controlled by the rudder and rudder pedals.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C01",
+      "concept_title": "Trois axes de rotation",
+      "level": 2,
+      "question": "Vrai ou faux ? La gouverne de direction commande principalement le tangage.",
+      "question_en": "True or false? The rudder primarily controls pitch.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe roulis est la rotation autour de l'axe longitudinal, du nez à la queue. Les ailerons commandent principalement ce mouvement. Le tangage fait monter ou descendre le nez autour de l'axe transversal ; il est commandé par la profondeur ou un empennage monobloc. Le lacet est la rotation autour de l'axe vertical, commandée par la gouverne de direction et les palonniers.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "This statement is false.\n\nRoll is rotation about the longitudinal axis, from nose to tail. The ailerons primarily control it. Pitch raises or lowers the nose about the lateral axis and is controlled by the elevator or an all-moving tailplane. Yaw is rotation about the vertical axis, controlled by the rudder and rudder pedals.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C01",
+      "concept_title": "Trois axes de rotation",
+      "level": 2,
+      "question": "Vrai ou faux ? Un stabilisateur monobloc peut assurer le contrôle en tangage.",
+      "question_en": "True or false? An all-moving tailplane can provide pitch control.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe roulis est la rotation autour de l'axe longitudinal, du nez à la queue. Les ailerons commandent principalement ce mouvement. Le tangage fait monter ou descendre le nez autour de l'axe transversal ; il est commandé par la profondeur ou un empennage monobloc. Le lacet est la rotation autour de l'axe vertical, commandée par la gouverne de direction et les palonniers.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "This statement is true.\n\nRoll is rotation about the longitudinal axis, from nose to tail. The ailerons primarily control it. Pitch raises or lowers the nose about the lateral axis and is controlled by the elevator or an all-moving tailplane. Yaw is rotation about the vertical axis, controlled by the rudder and rudder pedals.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C02",
+      "concept_title": "Coordonner les commandes",
+      "level": 2,
+      "question": "Vrai ou faux ? Les ailerons d'un avion conventionnel se déplacent normalement dans le même sens.",
+      "question_en": "True or false? A conventional aircraft's ailerons normally move in the same direction.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSur un avion conventionnel, les ailerons se déplacent en sens opposés. La différence de traînée peut provoquer du lacet inverse, ce qui nécessite une coordination adaptée au type. La profondeur agit sur l'incidence et l'équilibre longitudinal : tirer ne garantit pas de monter. À puissance insuffisante, une augmentation excessive d'incidence peut conduire au décrochage.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "This statement is false.\n\nOn a conventional aircraft, the ailerons move in opposite directions. Differential drag may produce adverse yaw, requiring coordination appropriate to the type. The elevator affects angle of attack and longitudinal balance: pulling back does not guarantee a climb. With insufficient power, an excessive increase in angle of attack can lead to a stall.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C02",
+      "concept_title": "Coordonner les commandes",
+      "level": 2,
+      "question": "Vrai ou faux ? Une différence de traînée entre les ailes peut contribuer au lacet inverse.",
+      "question_en": "True or false? A drag difference between the wings can contribute to adverse yaw.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nSur un avion conventionnel, les ailerons se déplacent en sens opposés. La différence de traînée peut provoquer du lacet inverse, ce qui nécessite une coordination adaptée au type. La profondeur agit sur l'incidence et l'équilibre longitudinal : tirer ne garantit pas de monter. À puissance insuffisante, une augmentation excessive d'incidence peut conduire au décrochage.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "This statement is true.\n\nOn a conventional aircraft, the ailerons move in opposite directions. Differential drag may produce adverse yaw, requiring coordination appropriate to the type. The elevator affects angle of attack and longitudinal balance: pulling back does not guarantee a climb. With insufficient power, an excessive increase in angle of attack can lead to a stall.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C02",
+      "concept_title": "Coordonner les commandes",
+      "level": 2,
+      "question": "Vrai ou faux ? Tirer davantage fournit une quantité illimitée de portance.",
+      "question_en": "True or false? Pulling farther back provides unlimited lift.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSur un avion conventionnel, les ailerons se déplacent en sens opposés. La différence de traînée peut provoquer du lacet inverse, ce qui nécessite une coordination adaptée au type. La profondeur agit sur l'incidence et l'équilibre longitudinal : tirer ne garantit pas de monter. À puissance insuffisante, une augmentation excessive d'incidence peut conduire au décrochage.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "This statement is false.\n\nOn a conventional aircraft, the ailerons move in opposite directions. Differential drag may produce adverse yaw, requiring coordination appropriate to the type. The elevator affects angle of attack and longitudinal balance: pulling back does not guarantee a climb. With insufficient power, an excessive increase in angle of attack can lead to a stall.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C03",
+      "concept_title": "Volets, compensation et exemple",
+      "level": 2,
+      "question": "Vrai ou faux ? L'extension des volets doit respecter la vitesse limite associée.",
+      "question_en": "True or false? Flap extension must respect the associated speed limit.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes volets modifient la portance et la traînée ; leur sortie est soumise à une vitesse limite et à la procédure de l'avion. Le compensateur réduit l'effort nécessaire pour tenir une condition de vol, sans remplacer les commandes principales. Exemple : après une variation de vitesse, stabiliser d'abord l'attitude et la trajectoire, puis ajuster la compensation. Ne pas utiliser le compensateur pour masquer une configuration incorrecte.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "This statement is true.\n\nFlaps change lift and drag; extension is subject to the aircraft's speed limit and procedure. Trim reduces the force required to hold a flight condition without replacing the primary controls. For example, after a speed change, first stabilise attitude and flight path, then adjust trim. Do not use trim to conceal an incorrect configuration.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C03",
+      "concept_title": "Volets, compensation et exemple",
+      "level": 2,
+      "question": "Vrai ou faux ? Le compensateur remplace les commandes principales pour corriger une mauvaise configuration.",
+      "question_en": "True or false? Trim replaces the primary controls when correcting an incorrect configuration.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes volets modifient la portance et la traînée ; leur sortie est soumise à une vitesse limite et à la procédure de l'avion. Le compensateur réduit l'effort nécessaire pour tenir une condition de vol, sans remplacer les commandes principales. Exemple : après une variation de vitesse, stabiliser d'abord l'attitude et la trajectoire, puis ajuster la compensation. Ne pas utiliser le compensateur pour masquer une configuration incorrecte.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "This statement is false.\n\nFlaps change lift and drag; extension is subject to the aircraft's speed limit and procedure. Trim reduces the force required to hold a flight condition without replacing the primary controls. For example, after a speed change, first stabilise attitude and flight path, then adjust trim. Do not use trim to conceal an incorrect configuration.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C03",
+      "concept_title": "Volets, compensation et exemple",
+      "level": 2,
+      "question": "Vrai ou faux ? Après un changement de vitesse, on stabilise avant de régler le compensateur.",
+      "question_en": "True or false? After a speed change, stabilise before adjusting trim.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes volets modifient la portance et la traînée ; leur sortie est soumise à une vitesse limite et à la procédure de l'avion. Le compensateur réduit l'effort nécessaire pour tenir une condition de vol, sans remplacer les commandes principales. Exemple : après une variation de vitesse, stabiliser d'abord l'attitude et la trajectoire, puis ajuster la compensation. Ne pas utiliser le compensateur pour masquer une configuration incorrecte.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "This statement is true.\n\nFlaps change lift and drag; extension is subject to the aircraft's speed limit and procedure. Trim reduces the force required to hold a flight condition without replacing the primary controls. For example, after a speed change, first stabilise attitude and flight path, then adjust trim. Do not use trim to conceal an incorrect configuration.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_007_C03",
+      "concept_title": "Volets, compensation et exemple",
+      "level": 2,
+      "question": "Vrai ou faux ? Les volets modifient uniquement la traînée, jamais la portance.",
+      "question_en": "True or false? Flaps change only drag and never lift.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes volets modifient la portance et la traînée ; leur sortie est soumise à une vitesse limite et à la procédure de l'avion. Le compensateur réduit l'effort nécessaire pour tenir une condition de vol, sans remplacer les commandes principales. Exemple : après une variation de vitesse, stabiliser d'abord l'attitude et la trajectoire, puis ajuster la compensation. Ne pas utiliser le compensateur pour masquer une configuration incorrecte.\n\n![Roulis, tangage et lacet : les axes de rotation et les gouvernes associées.](/illustrations/commandes-de-vol.svg)",
+      "explanation_en": "This statement is false.\n\nFlaps change lift and drag; extension is subject to the aircraft's speed limit and procedure. Trim reduces the force required to hold a flight condition without replacing the primary controls. For example, after a speed change, first stabilise attitude and flight path, then adjust trim. Do not use trim to conceal an incorrect configuration.\n\n![Diagram: Flight Controls](/illustrations/en/commandes-de-vol.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    }
+  ]
 }

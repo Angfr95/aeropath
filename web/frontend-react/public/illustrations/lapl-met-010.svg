@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Décider en météo VFR</title><desc id="desc">Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Décider en météo VFR</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">La décision se prépare au sol et se renouvelle pendant le vol.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_MET_010</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<rect x="60" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<g transform="translate(118 282) scale(0.55)">
+<path d="M-60 15C-88 10-78-25-52-25C-52-58-9-64 5-39C35-62 65-38 60-13C91-12 93 19 67 23H-60Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<text x="365" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">01</text>
+<text x="84" y="357" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Croiser</text>
+<text x="84" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Départ, route,</text>
+<text x="84" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">destination et évolution</text>
+<text x="84" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">prévue.</text>
+<path d="M413 397L423 397" fill="none" stroke="#58dfed" stroke-width="2"/>
+<path d="M423.0 397.0L409.5 403.5L409.5 390.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="425" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<path d="M438 274Q483 229 528 274Q483 319 438 274Z" fill="none" stroke="#ffcd70" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<circle cx="483" cy="274" r="14" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="730" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">02</text>
+<text x="449" y="357" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Comparer</text>
+<text x="449" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Minima applicables,</text>
+<text x="449" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">expérience et marges</text>
+<text x="449" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">personnelles.</text>
+<path d="M778 397L788 397" fill="none" stroke="#ffcd70" stroke-width="2"/>
+<path d="M788.0 397.0L774.5 403.5L774.5 390.5Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="790" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<path d="M808 244L836 234L860 247L888 237V301L860 312L836 299L808 309Z" fill="none" stroke="#bbabff" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<path d="M836 234L836 299" fill="none" stroke="#bbabff" stroke-width="2"/>
+<path d="M860 247L860 312" fill="none" stroke="#bbabff" stroke-width="2"/>
+<text x="1095" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">03</text>
+<text x="814" y="357" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Préserver une option</text>
+<text x="814" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Point de décision,</text>
+<text x="814" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">retour, déroutement ou</text>
+<text x="814" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">report.</text>
+</svg>

@@ -5,13 +5,584 @@
     "subject": "Meteorology",
     "chapter_title": "Masses d'air et fronts",
     "chapter_title_en": "Air Masses and Fronts",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : masses d'air et stabilité; comprendre les fronts; exemple de préparation.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: air masses and stability; understanding fronts; a preparation example.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 25,
-    "prerequisites": ["PPL_MET_003", "PPL_MET_004"],
-    "tags": ["air masses", "fronts", "cold front", "warm front", "occlusion"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_MET_003",
+      "PPL_MET_004"
+    ],
+    "tags": [
+      "air masses",
+      "fronts",
+      "cold front",
+      "warm front",
+      "occlusion"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "Météo-France — Guide aviation",
+        "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+      },
+      {
+        "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-met-007.svg",
+      "alt": "Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations."
+    },
+    "exam_subject": "meteorology",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_MET_007_C01",
+      "title": "Masses d'air et stabilité",
+      "title_en": "Air masses and stability",
+      "content": "![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)\n\nUne masse d'air possède des caractéristiques de température et d'humidité liées à son origine et à son trajet. Un air stable limite les mouvements verticaux ; un air instable favorise les ascendances et développements convectifs. La stabilité ne signifie pas beau temps : une couche stable peut retenir brouillard, pollution et nuages bas.",
+      "content_en": "![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)\n\nAn air mass has temperature and moisture characteristics linked to its origin and path. Stable air limits vertical movement; unstable air favours rising currents and convective development. Stability does not mean good weather: a stable layer can retain fog, pollution and low cloud.",
+      "difficulty": "intermediate",
+      "tags": [
+        "air masses",
+        "fronts",
+        "cold front",
+        "warm front",
+        "occlusion"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Masses d'air et stabilité"
+    },
+    {
+      "concept_id": "PPL_MET_007_C02",
+      "title": "Comprendre les fronts",
+      "title_en": "Understanding fronts",
+      "content": "Un front sépare des masses d'air aux propriétés différentes. Le soulèvement de l'air chaud peut produire nuages et précipitations. Un front chaud présente souvent une évolution étendue et progressive ; un front froid peut comporter des phénomènes plus concentrés et actifs. Une occlusion combine des structures plus complexes. Ces descriptions sont des modèles, pas des horaires garantis.",
+      "content_en": "A front separates air masses with different properties. Lifting warm air can produce clouds and precipitation. A warm front often brings widespread, progressive change; a cold front may have more concentrated, active phenomena. An occlusion combines more complex structures. These descriptions are models, not guaranteed schedules.",
+      "difficulty": "intermediate",
+      "tags": [
+        "air masses",
+        "fronts",
+        "cold front",
+        "warm front",
+        "occlusion"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Comprendre les fronts"
+    },
+    {
+      "concept_id": "PPL_MET_007_C03",
+      "title": "Exemple de préparation",
+      "title_en": "A preparation example",
+      "content": "Une route traverse la zone prévue d'un front en fin d'après-midi. Le départ est encore ensoleillé, mais la chronologie de la perturbation peut rendre le retour impossible en VFR. Examiner l'heure de passage, les plafonds, les vents et les possibilités de dégagement. Un décalage de quelques heures peut changer complètement la décision de vol.",
+      "content_en": "A route crosses the forecast frontal zone in late afternoon. Departure is still sunny, but the disturbance's timing may make a VFR return impossible. Examine passage time, ceilings, winds and diversion possibilities. A shift of a few hours can completely change the flight decision.",
+      "difficulty": "intermediate",
+      "tags": [
+        "air masses",
+        "fronts",
+        "cold front",
+        "warm front",
+        "occlusion"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Exemple de préparation"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_MET_007_C01",
+      "concept_title": "Masses d'air et stabilité",
+      "level": 1,
+      "question": "Un air stable garantit-il une bonne visibilité ?",
+      "question_en": "Does stable air guarantee good visibility?",
+      "options": [
+        "Oui au sol",
+        "Non",
+        "Oui",
+        "Oui en hiver"
+      ],
+      "correct_answer": "Non",
+      "explanation": "La stabilité peut favoriser l'accumulation d'humidité et de particules.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "Stability may favour an accumulation of moisture and particles.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "air masses",
+        "fronts",
+        "cold front",
+        "warm front",
+        "occlusion",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Yes, at ground level",
+        "No",
+        "Yes",
+        "Yes, in winter"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C02",
+      "concept_title": "Comprendre les fronts",
+      "level": 1,
+      "question": "Que sépare un front météorologique ?",
+      "question_en": "What does a weather front separate?",
+      "options": [
+        "Deux masses d'air différentes",
+        "Deux pistes",
+        "Deux classes d'espace seulement",
+        "Deux niveaux de carburant"
+      ],
+      "correct_answer": "Deux masses d'air différentes",
+      "explanation": "Il marque une zone de transition entre masses d'air.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "It marks a transition zone between air masses.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "air masses",
+        "fronts",
+        "cold front",
+        "warm front",
+        "occlusion",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Two different air masses",
+        "Two runways",
+        "Only two airspace classes",
+        "Two fuel levels"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C03",
+      "concept_title": "Exemple de préparation",
+      "level": 1,
+      "question": "Pourquoi regarder l'heure prévue de passage d'un front ?",
+      "question_en": "Why check the forecast time of frontal passage?",
+      "options": [
+        "Elle fixe l'heure légale de décollage",
+        "Elle remplace le carburant de réserve",
+        "Elle donne le QNH exact du lendemain",
+        "Les conditions peuvent changer pendant l'aller-retour"
+      ],
+      "correct_answer": "Les conditions peuvent changer pendant l'aller-retour",
+      "explanation": "La décision doit couvrir toute la durée du vol.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "The decision must cover the entire flight duration.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "air masses",
+        "fronts",
+        "cold front",
+        "warm front",
+        "occlusion",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "It sets the legal take-off time",
+        "It replaces reserve fuel",
+        "It gives tomorrow's exact QNH",
+        "Conditions may change during the outward and return flights"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C01",
+      "concept_title": "Masses d'air et stabilité",
+      "level": 2,
+      "question": "Quel comportement est favorisé par une masse d'air instable ?",
+      "question_en": "What is favoured by an unstable air mass?",
+      "options": [
+        "Une visibilité toujours parfaite",
+        "Une absence garantie de précipitations",
+        "Les ascendances et développements convectifs",
+        "La suppression de tout mouvement vertical"
+      ],
+      "correct_answer": "Les ascendances et développements convectifs",
+      "explanation": "L'instabilité favorise les déplacements verticaux et la convection. Elle ne garantit pas un type de temps favorable au vol.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "Instability favours vertical motion and convection. It does not guarantee weather suitable for flying.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "air masses",
+        "fronts",
+        "cold front",
+        "warm front",
+        "occlusion",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Always perfect visibility",
+        "A guaranteed absence of precipitation",
+        "Rising currents and convective development",
+        "The suppression of all vertical movement"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C03",
+      "concept_title": "Exemple de préparation",
+      "level": 2,
+      "question": "Un front est prévu sur la route du retour, mais le départ est ensoleillé. Quel élément doit guider la préparation ?",
+      "question_en": "A front is forecast along the return route, but departure is sunny. What should guide preparation?",
+      "options": [
+        "L'hypothèse que le front attendra la fin du trajet",
+        "La chronologie prévue sur l'ensemble du vol et les options de dégagement",
+        "Uniquement la température au départ",
+        "Le seul état du ciel au moment de mettre en route"
+      ],
+      "correct_answer": "La chronologie prévue sur l'ensemble du vol et les options de dégagement",
+      "explanation": "La situation peut se dégrader après un départ favorable. Il faut rapprocher les heures de passage prévues du front, du trajet et des solutions de repli.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "Conditions can deteriorate after a favourable departure. Relate the expected times of the front, the flight and fallback options.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "air masses",
+        "fronts",
+        "cold front",
+        "warm front",
+        "occlusion",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Assuming the front will wait until the journey ends",
+        "Forecast timing throughout the flight and diversion options",
+        "Only departure temperature",
+        "Only the sky at engine start"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C01",
+      "concept_title": "Masses d'air et stabilité",
+      "level": 2,
+      "question": "Vrai ou faux ? Les propriétés d'une masse d'air dépendent aussi de son trajet.",
+      "question_en": "True or false? An air mass's properties also depend on its path.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne masse d'air possède des caractéristiques de température et d'humidité liées à son origine et à son trajet. Un air stable limite les mouvements verticaux ; un air instable favorise les ascendances et développements convectifs. La stabilité ne signifie pas beau temps : une couche stable peut retenir brouillard, pollution et nuages bas.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "This statement is true.\n\nAn air mass has temperature and moisture characteristics linked to its origin and path. Stable air limits vertical movement; unstable air favours rising currents and convective development. Stability does not mean good weather: a stable layer can retain fog, pollution and low cloud.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C01",
+      "concept_title": "Masses d'air et stabilité",
+      "level": 2,
+      "question": "Vrai ou faux ? Une couche stable ne peut retenir ni humidité ni pollution.",
+      "question_en": "True or false? A stable layer cannot retain moisture or pollution.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne masse d'air possède des caractéristiques de température et d'humidité liées à son origine et à son trajet. Un air stable limite les mouvements verticaux ; un air instable favorise les ascendances et développements convectifs. La stabilité ne signifie pas beau temps : une couche stable peut retenir brouillard, pollution et nuages bas.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "This statement is false.\n\nAn air mass has temperature and moisture characteristics linked to its origin and path. Stable air limits vertical movement; unstable air favours rising currents and convective development. Stability does not mean good weather: a stable layer can retain fog, pollution and low cloud.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C01",
+      "concept_title": "Masses d'air et stabilité",
+      "level": 2,
+      "question": "Vrai ou faux ? La stabilité tend à limiter les mouvements verticaux.",
+      "question_en": "True or false? Stability tends to limit vertical movement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne masse d'air possède des caractéristiques de température et d'humidité liées à son origine et à son trajet. Un air stable limite les mouvements verticaux ; un air instable favorise les ascendances et développements convectifs. La stabilité ne signifie pas beau temps : une couche stable peut retenir brouillard, pollution et nuages bas.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "This statement is true.\n\nAn air mass has temperature and moisture characteristics linked to its origin and path. Stable air limits vertical movement; unstable air favours rising currents and convective development. Stability does not mean good weather: a stable layer can retain fog, pollution and low cloud.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C02",
+      "concept_title": "Comprendre les fronts",
+      "level": 2,
+      "question": "Vrai ou faux ? Un front chaud produit toujours un changement instantané et identique partout.",
+      "question_en": "True or false? A warm front always produces an instantaneous identical change everywhere.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn front sépare des masses d'air aux propriétés différentes. Le soulèvement de l'air chaud peut produire nuages et précipitations. Un front chaud présente souvent une évolution étendue et progressive ; un front froid peut comporter des phénomènes plus concentrés et actifs. Une occlusion combine des structures plus complexes. Ces descriptions sont des modèles, pas des horaires garantis.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "This statement is false.\n\nA front separates air masses with different properties. Lifting warm air can produce clouds and precipitation. A warm front often brings widespread, progressive change; a cold front may have more concentrated, active phenomena. An occlusion combines more complex structures. These descriptions are models, not guaranteed schedules.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C02",
+      "concept_title": "Comprendre les fronts",
+      "level": 2,
+      "question": "Vrai ou faux ? Le soulèvement d'air chaud peut produire nuages et précipitations.",
+      "question_en": "True or false? Lifting warm air can produce clouds and precipitation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn front sépare des masses d'air aux propriétés différentes. Le soulèvement de l'air chaud peut produire nuages et précipitations. Un front chaud présente souvent une évolution étendue et progressive ; un front froid peut comporter des phénomènes plus concentrés et actifs. Une occlusion combine des structures plus complexes. Ces descriptions sont des modèles, pas des horaires garantis.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "This statement is true.\n\nA front separates air masses with different properties. Lifting warm air can produce clouds and precipitation. A warm front often brings widespread, progressive change; a cold front may have more concentrated, active phenomena. An occlusion combines more complex structures. These descriptions are models, not guaranteed schedules.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C02",
+      "concept_title": "Comprendre les fronts",
+      "level": 2,
+      "question": "Vrai ou faux ? Une occlusion combine des structures plus complexes.",
+      "question_en": "True or false? An occlusion combines more complex structures.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn front sépare des masses d'air aux propriétés différentes. Le soulèvement de l'air chaud peut produire nuages et précipitations. Un front chaud présente souvent une évolution étendue et progressive ; un front froid peut comporter des phénomènes plus concentrés et actifs. Une occlusion combine des structures plus complexes. Ces descriptions sont des modèles, pas des horaires garantis.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "This statement is true.\n\nA front separates air masses with different properties. Lifting warm air can produce clouds and precipitation. A warm front often brings widespread, progressive change; a cold front may have more concentrated, active phenomena. An occlusion combines more complex structures. These descriptions are models, not guaranteed schedules.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C02",
+      "concept_title": "Comprendre les fronts",
+      "level": 2,
+      "question": "Vrai ou faux ? Les descriptions usuelles des fronts constituent des horaires garantis.",
+      "question_en": "True or false? Typical front descriptions provide guaranteed schedules.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn front sépare des masses d'air aux propriétés différentes. Le soulèvement de l'air chaud peut produire nuages et précipitations. Un front chaud présente souvent une évolution étendue et progressive ; un front froid peut comporter des phénomènes plus concentrés et actifs. Une occlusion combine des structures plus complexes. Ces descriptions sont des modèles, pas des horaires garantis.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "This statement is false.\n\nA front separates air masses with different properties. Lifting warm air can produce clouds and precipitation. A warm front often brings widespread, progressive change; a cold front may have more concentrated, active phenomena. An occlusion combines more complex structures. These descriptions are models, not guaranteed schedules.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C03",
+      "concept_title": "Exemple de préparation",
+      "level": 2,
+      "question": "Vrai ou faux ? Le soleil au départ suffit à valider un retour VFR en fin de journée.",
+      "question_en": "True or false? Sunshine at departure is enough to validate a late-day VFR return.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne route traverse la zone prévue d'un front en fin d'après-midi. Le départ est encore ensoleillé, mais la chronologie de la perturbation peut rendre le retour impossible en VFR. Examiner l'heure de passage, les plafonds, les vents et les possibilités de dégagement. Un décalage de quelques heures peut changer complètement la décision de vol.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "This statement is false.\n\nA route crosses the forecast frontal zone in late afternoon. Departure is still sunny, but the disturbance's timing may make a VFR return impossible. Examine passage time, ceilings, winds and diversion possibilities. A shift of a few hours can completely change the flight decision.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C03",
+      "concept_title": "Exemple de préparation",
+      "level": 2,
+      "question": "Vrai ou faux ? Un décalage du passage frontal de quelques heures peut changer la décision.",
+      "question_en": "True or false? A shift in frontal passage by a few hours may change the decision.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne route traverse la zone prévue d'un front en fin d'après-midi. Le départ est encore ensoleillé, mais la chronologie de la perturbation peut rendre le retour impossible en VFR. Examiner l'heure de passage, les plafonds, les vents et les possibilités de dégagement. Un décalage de quelques heures peut changer complètement la décision de vol.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "This statement is true.\n\nA route crosses the forecast frontal zone in late afternoon. Departure is still sunny, but the disturbance's timing may make a VFR return impossible. Examine passage time, ceilings, winds and diversion possibilities. A shift of a few hours can completely change the flight decision.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_007_C03",
+      "concept_title": "Exemple de préparation",
+      "level": 2,
+      "question": "Vrai ou faux ? Les possibilités de déroutement sont inutiles si le front est seulement prévu.",
+      "question_en": "True or false? Diversion options are unnecessary if the front is only forecast.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne route traverse la zone prévue d'un front en fin d'après-midi. Le départ est encore ensoleillé, mais la chronologie de la perturbation peut rendre le retour impossible en VFR. Examiner l'heure de passage, les plafonds, les vents et les possibilités de dégagement. Un décalage de quelques heures peut changer complètement la décision de vol.\n\n![Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.](/illustrations/ppl-met-007.svg)",
+      "explanation_en": "This statement is false.\n\nA route crosses the forecast frontal zone in late afternoon. Departure is still sunny, but the disturbance's timing may make a VFR return impossible. Examine passage time, ceilings, winds and diversion possibilities. A shift of a few hours can completely change the flight decision.\n\n![Diagram: Air Masses and Fronts](/illustrations/en/ppl-met-007.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    }
+  ]
 }

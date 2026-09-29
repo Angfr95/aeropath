@@ -1,0 +1,621 @@
+{
+  "metadata": {
+    "module_id": "LAPL_HP_003",
+    "program": "LAPL",
+    "subject": "human_performance",
+    "chapter_title": "Respiration, vision et illusions",
+    "chapter_title_en": "Respiration, vision and illusions",
+    "learning_objective": "Expliquer et appliquer : hypoxie et monoxyde de carbone, hyperventilation et diagnostic prudent, vision et adaptation nocturne, oreille interne et désorientation.",
+    "learning_objective_en": "Explain and apply: hypoxia and carbon monoxide, hyperventilation and cautious assessment, vision and dark adaptation, inner ear and disorientation.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": [],
+    "tags": [
+      "LAPL",
+      "human_performance"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "Référence du chapitre",
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-hp-003.svg",
+      "alt": "Respiration, vision et illusions"
+    },
+    "exam_subject": "human_performance",
+    "coverage_status": "partial",
+    "derived_from": "PPL_HP_003",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_HP_003_C01",
+      "title": "Hypoxie et monoxyde de carbone",
+      "title_en": "Hypoxia and carbon monoxide",
+      "content": "![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)\n\nL’hypoxie est un apport insuffisant d’oxygène aux tissus. En altitude, la proportion d’oxygène de l’air reste approximativement la même mais sa pression partielle diminue. Le jugement et la vision peuvent se dégrader avant que le pilote identifie le danger. Le monoxyde de carbone (CO), gaz inodore et incolore présent dans les gaz d’échappement, réduit la capacité du sang à transporter l’oxygène. Une fuite dans un chauffage utilisant l’échappement est un risque. Des céphalées ou nausées simultanées chez plusieurs occupants doivent faire suspecter l’environnement cabine. Appliquer la checklist : éliminer la source si possible, ventiler, utiliser l’oxygène disponible conformément à la procédure et atterrir dès que possible en sécurité ; demander une prise en charge médicale.",
+      "content_en": "![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)\n\nHypoxia is insufficient oxygen supply to tissues. At altitude, the oxygen fraction stays approximately constant but its partial pressure decreases. Judgement and vision may deteriorate before the pilot recognises the danger. Carbon monoxide (CO), an odourless and colourless gas in exhaust fumes, reduces the blood’s oxygen-carrying capacity. Leakage in exhaust-based cabin heating is a risk. Simultaneous headaches or nausea in several occupants should raise suspicion of the cabin environment. Follow the checklist: remove the source if possible, ventilate, use available oxygen according to procedure and land as soon as safely possible; seek medical care.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "learning_objective": "Hypoxie et monoxyde de carbone"
+    },
+    {
+      "concept_id": "LAPL_HP_003_C02",
+      "title": "Hyperventilation et diagnostic prudent",
+      "title_en": "Hyperventilation and cautious assessment",
+      "content": "Une ventilation excessive par rapport aux besoins élimine trop de dioxyde de carbone. Stress, respiration rapide, picotements et étourdissements peuvent s’associer. Certains symptômes ressemblent à l’hypoxie : ne pas décider trop vite que ce n’est que du stress et ne pas interrompre un apport d’oxygène nécessaire. Préserver le pilotage, vérifier le contexte et le système d’oxygène s’il existe, puis maîtriser la respiration selon la formation reçue. La théorie ne remplace pas l’évaluation médicale.",
+      "content_en": "Ventilation excessive for the body’s needs removes too much carbon dioxide. Stress, rapid breathing, tingling and light-headedness may occur together. Some symptoms resemble hypoxia: do not assume it is only stress or discontinue needed oxygen. Maintain aircraft control, check the context and oxygen system if fitted, then regulate breathing according to training. Theory does not replace medical assessment.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "learning_objective": "Hyperventilation et diagnostic prudent"
+    },
+    {
+      "concept_id": "LAPL_HP_003_C03",
+      "title": "Vision et adaptation nocturne",
+      "title_en": "Vision and dark adaptation",
+      "content": "Les cônes contribuent à la vision fine et aux couleurs, surtout en bon éclairage. Les bâtonnets sont plus sensibles à la faible lumière, mais distinguent mal les détails et les couleurs. Une lumière vive dégrade l’adaptation à l’obscurité ; régler l’éclairage sans perdre la lisibilité des instruments. De nuit, regarder légèrement à côté d’une cible faible peut aider sa détection. Balayer méthodiquement le champ visuel reste nécessaire : fixer un point ou une tablette réduit la surveillance extérieure.",
+      "content_en": "Cones support fine detail and colour vision, mainly in good light. Rods are more sensitive in dim light but provide poor detail and colour discrimination. Bright light degrades dark adaptation; adjust lighting while keeping instruments readable. At night, looking slightly beside a dim target may aid detection. Systematic visual scanning remains necessary: staring at one point or a tablet reduces the outside lookout.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "learning_objective": "Vision et adaptation nocturne"
+    },
+    {
+      "concept_id": "LAPL_HP_003_C04",
+      "title": "Oreille interne et désorientation",
+      "title_en": "Inner ear and disorientation",
+      "content": "Les sensations vestibulaires ne constituent pas une référence fiable d’attitude lorsque les références visuelles disparaissent. Une accélération peut être interprétée comme un changement d’assiette ; une rotation prolongée peut devenir peu perceptible. Suivre ses sensations en IMC peut conduire à une perte de contrôle. Pour un pilote VFR, prévenir l’entrée en IMC ; en situation involontaire, appliquer les procédures apprises, s’appuyer sur les instruments utilisables et demander de l’aide. La maîtrise instrumentale se développe avec un instructeur.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "Vestibular sensations are not a reliable attitude reference when visual references disappear. Acceleration may be perceived as a pitch change; sustained rotation may become hard to sense. Following bodily sensations in IMC may lead to loss of control. A VFR pilot should prevent entry into IMC; if it occurs inadvertently, apply trained procedures, rely on usable instruments and request assistance. Instrument proficiency requires instruction.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "learning_objective": "Oreille interne et désorientation"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_HP_003_C01",
+      "concept_title": "Hypoxie et monoxyde de carbone",
+      "level": 2,
+      "question": "En altitude, quelle évolution contribue à l’hypoxie ?",
+      "question_en": "At altitude, which change contributes to hypoxia?",
+      "options": [
+        "La baisse de pression partielle d’oxygène",
+        "La disparition complète de l’azote",
+        "L’augmentation systématique de l’oxygène",
+        "La hausse du QNH imposée par la radio"
+      ],
+      "options_en": [
+        "Reduced oxygen partial pressure",
+        "Complete disappearance of nitrogen",
+        "Systematically increased oxygen",
+        "A QNH rise imposed by radio"
+      ],
+      "correct_answer": "La baisse de pression partielle d’oxygène",
+      "explanation": "La proportion d’oxygène varie peu ; sa pression partielle diminue.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "The oxygen fraction changes little; its partial pressure decreases.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C01",
+      "concept_title": "Hypoxie et monoxyde de carbone",
+      "level": 2,
+      "question": "Pourquoi l’hypoxie peut-elle être difficile à reconnaître soi-même ?",
+      "question_en": "Why can hypoxia be difficult to recognise in oneself?",
+      "options": [
+        "Elle améliore toujours la vigilance",
+        "Elle n’affecte que les passagers",
+        "Elle déclenche toujours une alarme sonore",
+        "Elle peut altérer le jugement"
+      ],
+      "options_en": [
+        "It always improves alertness",
+        "It affects only passengers",
+        "It always triggers an audible alarm",
+        "It can impair judgement"
+      ],
+      "correct_answer": "Elle peut altérer le jugement",
+      "explanation": "La capacité à reconnaître le danger peut elle-même être diminuée.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "The ability to recognise danger may itself be impaired.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C01",
+      "concept_title": "Hypoxie et monoxyde de carbone",
+      "level": 2,
+      "question": "Peut-on compter sur l’odorat pour détecter le CO ?",
+      "question_en": "Can smell be relied on to detect CO?",
+      "options": [
+        "Oui, seulement de nuit",
+        "Oui, si la cabine est chauffée",
+        "Non, le CO est inodore",
+        "Oui, son odeur est toujours forte"
+      ],
+      "options_en": [
+        "Yes, only at night",
+        "Yes, if cabin heat is on",
+        "No, CO is odourless",
+        "Yes, it always smells strongly"
+      ],
+      "correct_answer": "Non, le CO est inodore",
+      "explanation": "L’absence d’odeur n’exclut pas le CO.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "No smell does not rule out CO.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C01",
+      "concept_title": "Hypoxie et monoxyde de carbone",
+      "level": 2,
+      "question": "Des nausées touchent plusieurs occupants avec le chauffage en service. Quel risque examiner ?",
+      "question_en": "Several occupants feel nauseous with cabin heat on. Which risk should be considered?",
+      "options": [
+        "Une baisse certaine de la masse",
+        "Une contamination cabine par les gaz d’échappement",
+        "Une simple erreur de cap uniquement",
+        "Une amélioration de l’oxygénation"
+      ],
+      "options_en": [
+        "A definite decrease in mass",
+        "Cabin contamination by exhaust gases",
+        "Only a simple heading error",
+        "Improved oxygenation"
+      ],
+      "correct_answer": "Une contamination cabine par les gaz d’échappement",
+      "explanation": "Le contexte peut évoquer du CO ; appliquer les procédures et organiser l’atterrissage.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "The context may suggest CO; follow procedures and arrange a landing.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C01",
+      "concept_title": "Hypoxie et monoxyde de carbone",
+      "level": 2,
+      "question": "Le CO agit principalement en…",
+      "question_en": "CO primarily acts by…",
+      "options": [
+        "Réduisant le transport d’oxygène par le sang",
+        "Augmentant la visibilité extérieure",
+        "Améliorant la vision nocturne",
+        "Remplaçant le besoin de repos"
+      ],
+      "options_en": [
+        "Reducing oxygen transport by blood",
+        "Increasing outside visibility",
+        "Improving night vision",
+        "Replacing the need for rest"
+      ],
+      "correct_answer": "Réduisant le transport d’oxygène par le sang",
+      "explanation": "Le CO compromet l’apport d’oxygène aux tissus.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "CO compromises oxygen supply to tissues.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C02",
+      "concept_title": "Hyperventilation et diagnostic prudent",
+      "level": 2,
+      "question": "L’hyperventilation excessive provoque notamment…",
+      "question_en": "Excessive hyperventilation notably causes…",
+      "options": [
+        "Une création de CO dans le sang",
+        "Une augmentation garantie de vigilance",
+        "Une suppression du stress sans risque",
+        "Une élimination excessive de CO₂"
+      ],
+      "options_en": [
+        "Creation of CO in blood",
+        "Guaranteed increased alertness",
+        "Risk-free elimination of stress",
+        "Excessive CO₂ loss"
+      ],
+      "correct_answer": "Une élimination excessive de CO₂",
+      "explanation": "Ventiler au-delà des besoins peut faire trop baisser le CO₂.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "Ventilation beyond the body’s needs can lower CO₂ excessively.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C02",
+      "concept_title": "Hyperventilation et diagnostic prudent",
+      "level": 2,
+      "question": "Des picotements suffisent-ils à exclure l’hypoxie ?",
+      "question_en": "Does tingling alone rule out hypoxia?",
+      "options": [
+        "Oui, au-dessus du relief",
+        "Oui, si le pilote parle",
+        "Non, des symptômes peuvent se ressembler",
+        "Oui, toujours"
+      ],
+      "options_en": [
+        "Yes, above terrain",
+        "Yes, if the pilot can speak",
+        "No, symptoms may overlap",
+        "Yes, always"
+      ],
+      "correct_answer": "Non, des symptômes peuvent se ressembler",
+      "explanation": "Il faut examiner le contexte sans diagnostic hâtif.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "Assess the context without a premature diagnosis.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C02",
+      "concept_title": "Hyperventilation et diagnostic prudent",
+      "level": 2,
+      "question": "Face à des symptômes respiratoires en vol, quelle priorité demeure ?",
+      "question_en": "With respiratory symptoms in flight, what remains a priority?",
+      "options": [
+        "Poursuivre coûte que coûte",
+        "Conserver le contrôle de l’avion et appliquer les procédures",
+        "Abandonner toute surveillance",
+        "Fermer systématiquement toute ventilation"
+      ],
+      "options_en": [
+        "Continue at any cost",
+        "Maintain aircraft control and follow procedures",
+        "Stop all monitoring",
+        "Always close all ventilation"
+      ],
+      "correct_answer": "Conserver le contrôle de l’avion et appliquer les procédures",
+      "explanation": "Le traitement du problème ne doit pas faire perdre le pilotage.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "Dealing with the problem must not lead to loss of control.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C03",
+      "concept_title": "Vision et adaptation nocturne",
+      "level": 2,
+      "question": "Quelles cellules sont particulièrement sensibles en faible lumière ?",
+      "question_en": "Which cells are particularly sensitive in dim light?",
+      "options": [
+        "Les bâtonnets",
+        "Les cônes uniquement",
+        "Les cellules de la cochlée",
+        "Les canaux semi-circulaires"
+      ],
+      "options_en": [
+        "Rods",
+        "Cones only",
+        "Cochlear cells",
+        "Semicircular canals"
+      ],
+      "correct_answer": "Les bâtonnets",
+      "explanation": "Les bâtonnets participent fortement à la vision en faible lumière.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "Rods strongly support dim-light vision.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C03",
+      "concept_title": "Vision et adaptation nocturne",
+      "level": 2,
+      "question": "Une lumière vive dans le cockpit de nuit peut…",
+      "question_en": "Bright cockpit light at night may…",
+      "options": [
+        "Supprimer toute illusion",
+        "Améliorer instantanément la vision des étoiles",
+        "Remplacer le balayage visuel",
+        "Dégrader l’adaptation à l’obscurité"
+      ],
+      "options_en": [
+        "Eliminate every illusion",
+        "Instantly improve star visibility",
+        "Replace visual scanning",
+        "Degrade dark adaptation"
+      ],
+      "correct_answer": "Dégrader l’adaptation à l’obscurité",
+      "explanation": "Éviter l’éblouissement tout en gardant les instruments lisibles.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "Avoid glare while keeping instruments readable.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C03",
+      "concept_title": "Vision et adaptation nocturne",
+      "level": 2,
+      "question": "Pour une cible faible de nuit, quelle technique peut aider ?",
+      "question_en": "Which technique may help detect a dim target at night?",
+      "options": [
+        "Augmenter l’éclairage au maximum",
+        "Fermer les deux yeux entre chaque regard",
+        "Regarder légèrement à côté",
+        "Fixer exclusivement son centre sans bouger"
+      ],
+      "options_en": [
+        "Set lighting to maximum",
+        "Close both eyes between looks",
+        "Look slightly to one side",
+        "Stare exclusively at its centre"
+      ],
+      "correct_answer": "Regarder légèrement à côté",
+      "explanation": "La vision décentrée peut utiliser les zones plus sensibles à la faible lumière.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "Off-centre viewing can use areas more sensitive in dim light.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C03",
+      "concept_title": "Vision et adaptation nocturne",
+      "level": 2,
+      "question": "Pourquoi balayer régulièrement l’extérieur ?",
+      "question_en": "Why scan outside regularly?",
+      "options": [
+        "Pour éviter tout usage de la radio",
+        "Pour répartir la recherche de trafic",
+        "Pour remplacer les cartes",
+        "Pour modifier le QNH"
+      ],
+      "options_en": [
+        "To avoid all radio use",
+        "To distribute the traffic search",
+        "To replace charts",
+        "To change QNH"
+      ],
+      "correct_answer": "Pour répartir la recherche de trafic",
+      "explanation": "Une fixation prolongée réduit la détection ailleurs dans le champ visuel.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "Prolonged fixation reduces detection elsewhere in the visual field.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C04",
+      "concept_title": "Oreille interne et désorientation",
+      "level": 2,
+      "question": "Sans horizon visible, les sensations corporelles sont-elles une référence sûre d’attitude ?",
+      "question_en": "Without a visible horizon, are bodily sensations a reliable attitude reference?",
+      "options": [
+        "Non",
+        "Oui, avec une longue expérience seulement",
+        "Oui, si le moteur tourne",
+        "Oui, en vol local"
+      ],
+      "options_en": [
+        "No",
+        "Yes, with long experience alone",
+        "Yes, if the engine is running",
+        "Yes, on a local flight"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Les illusions vestibulaires peuvent donner une attitude ressentie erronée.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "Vestibular illusions can produce an incorrect perceived attitude.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C04",
+      "concept_title": "Oreille interne et désorientation",
+      "level": 2,
+      "question": "Une accélération peut être ressentie à tort comme…",
+      "question_en": "Acceleration may be wrongly perceived as…",
+      "options": [
+        "Une modification de l’immatriculation",
+        "Une consommation nulle",
+        "Une variation du nombre de passagers",
+        "Un changement d’assiette"
+      ],
+      "options_en": [
+        "A registration change",
+        "Zero fuel consumption",
+        "A change in passenger count",
+        "A pitch change"
+      ],
+      "correct_answer": "Un changement d’assiette",
+      "explanation": "Les organes vestibulaires peuvent confondre accélération et orientation.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "Vestibular organs may confuse acceleration and orientation.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_HP_003_C04",
+      "concept_title": "Oreille interne et désorientation",
+      "level": 2,
+      "question": "Quelle prévention est adaptée à un pilote VFR ?",
+      "question_en": "Which preventive approach suits a VFR pilot?",
+      "options": [
+        "Suivre uniquement ses sensations",
+        "Considérer le GPS comme une qualification IFR",
+        "Conserver des références visuelles et des options de repli",
+        "Entrer dans les nuages pour s’habituer"
+      ],
+      "options_en": [
+        "Follow bodily sensations alone",
+        "Treat GPS as an IFR qualification",
+        "Maintain visual references and escape options",
+        "Enter cloud to get used to it"
+      ],
+      "correct_answer": "Conserver des références visuelles et des options de repli",
+      "explanation": "La prévention de l’entrée en IMC reste essentielle.\n\n![Respiration, vision et illusions](/illustrations/lapl-hp-003.svg)",
+      "explanation_en": "Preventing entry into IMC remains essential.\n\n![PPL_HP_003](/illustrations/en/lapl-hp-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

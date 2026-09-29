@@ -1,0 +1,643 @@
+{
+  "metadata": {
+    "module_id": "CPL_032_001",
+    "program": "CPL",
+    "subject": "performance",
+    "chapter_title": "Performances : tableaux et marges",
+    "chapter_title_en": "Performance: tables and margins",
+    "reference_checked_on": "2026-09-29",
+    "learning_objective": "Interpoler avec des fractions différentes, suivre les corrections déjà incluses et décider sur une marge calculée sans masquer un dépassement.",
+    "learning_objective_en": "Interpolate using different fractions, track corrections already included and evaluate a calculated margin without hiding an exceedance.",
+    "estimated_duration_minutes": 50,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Proportions et pourcentages",
+      "Altitude-pression et température",
+      "Roulement au sol et hauteur écran"
+    ],
+    "exam_subject": "032",
+    "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+    "official_subject_format": {
+      "questions": 28,
+      "minutes": 75,
+      "pass_percent": 75,
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+    },
+    "sources": [
+      {
+        "title": "EASA — programme Part-FCL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+      },
+      {
+        "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      },
+      {
+        "title": "FAA PHAK — performances, principes techniques",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      }
+    ],
+    "content_status": "draft",
+    "coverage_status": "partial",
+    "scope": "CPL(A), France / EASA",
+    "quiz_format": "chapter_practice",
+    "tags": [
+      "CPL",
+      "mcq-four-options"
+    ],
+    "illustration": {
+      "src": "/illustrations/cpl-032-001.svg",
+      "alt": "Performances : tableaux et marges"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "CPL_032_001_C01",
+      "title": "Lire les conditions",
+      "title_en": "Read the conditions",
+      "content": "![CPL_032_001](/illustrations/cpl-032-001.svg)\n\nUn résultat de performances n’est valable que pour les conditions du tableau : masse, configuration, altitude-pression, température, vent et état de piste. Distinguer roulement au sol et distance jusqu’à une hauteur écran. Dans ce chapitre, le tableau fictif donne une distance jusqu’à 50 ft, sur piste sèche, horizontale, sans vent, avec configuration fixée. Les quatre cases sont : 0 ft/10 °C : 500 m ; 0 ft/30 °C : 600 m ; 2 000 ft/10 °C : 650 m ; 2 000 ft/30 °C : 780 m. Elles ne décrivent aucun avion réel.\n\n### Lecture guidée des données\n\nPour 0 ft et 20 °C, conserver la ligne 0 ft et encadrer 20 °C par les colonnes 10 et 30 °C. Les cases utiles sont 500 et 600 m. Prendre la ligne 2 000 ft donnerait un résultat calculable mais répondrait à un autre problème. Le SVG fournit les données communes ; chaque énoncé définit sa propre cible. La masse reste fixée pour l’ensemble du tableau fictif.\n\nAvant tout calcul, noter : type de distance, masse/configuration supposées, altitude-pression, température et corrections déjà incluses. Le roulement s’arrête à l’envol ; la distance jusqu’à 50 ft comprend également une phase en vol. Deux valeurs en mètres ne décrivent donc pas nécessairement la même grandeur. Une donnée manquante ne doit pas être remplacée tacitement par une condition standard.\n\nLe schéma en tête est le tableau du dossier autonome des QCM de synthèse. Le premier exemple guidé ci-dessous utilise un autre tableau, repris dans ses corrigés. Dans chaque cas, conserver uniquement les données de son propre énoncé.",
+      "content_en": "![CPL_032_001](/illustrations/en/cpl-032-001.svg)\n\nA performance result applies only to the table conditions: mass, configuration, pressure altitude, temperature, wind and runway condition. Distinguish ground roll from distance to a screen height. This fictional table gives distance to 50 ft on a dry, level runway, no wind and fixed configuration. Its four cells are: 0 ft/10 °C: 500 m; 0 ft/30 °C: 600 m; 2,000 ft/10 °C: 650 m; 2,000 ft/30 °C: 780 m. They do not describe a real aircraft.\n\n### Guided reading of the inputs\n\nFor 0 ft and 20 °C, retain the 0 ft row and bracket 20 °C with the 10 and 30 °C columns. Relevant cells are 500 and 600 m. Using the 2,000 ft row would produce a calculable result answering a different problem. The SVG supplies shared inputs; each question defines its own target. Mass remains fixed throughout the fictional table.\n\nBefore calculating, record distance type, assumed mass/configuration, pressure altitude, temperature and corrections already included. Ground roll ends at lift-off; distance to 50 ft also includes an airborne segment. Two values in metres therefore need not describe the same quantity. Do not silently replace a missing input with a standard condition.\n\nThe opening diagram is the independent synthesis MCQ table. The first worked example below uses a different table, reproduced in its feedback. In each case, use only that question’s own data.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 032",
+      "tags": [
+        "CPL"
+      ]
+    },
+    {
+      "concept_id": "CPL_032_001_C02",
+      "title": "Interpoler dans deux directions",
+      "title_en": "Interpolate in two directions",
+      "content": "L’interpolation linéaire est ici autorisée par l’énoncé. À 20 °C, la valeur à 0 ft est 550 m ; à 2 000 ft elle est 715 m. À 1 000 ft et 20 °C, prendre leur milieu : 632,5 m. Une interpolation conserve les unités et reste dans le domaine du tableau. Hors domaine, ne pas extrapoler sans méthode autorisée. Pour une donnée réelle, suivre la méthode du manuel même si elle diffère de cette interpolation pédagogique.\n\n### Méthode détaillée et contrôle indépendant\n\nEntre y0 et y1 associés à x0 et x1, calculer f = (x − x0)/(x1 − x0), puis y = y0 + f × (y1 − y0). La fraction f n’a pas d’unité et reste entre 0 et 1 pour une interpolation.\n\nPour 1 000 ft / 20 °C :\n\n1. Fraction de température : (20 − 10)/(30 − 10) = 0,5.\n2. À 0 ft : 500 + 0,5 × 100 = 550 m.\n3. À 2 000 ft : 650 + 0,5 × 130 = 715 m.\n4. Fraction d’altitude : 1 000/2 000 = 0,5.\n5. Distance : 550 + 0,5 × (715 − 550) = 632,5 m.\n\nPour contrôler, interpoler d’abord l’altitude : à 1 000 ft, 575 m à 10 °C et 690 m à 30 °C. Leur milieu vaut aussi 632,5 m. Le résultat doit rester entre les valeurs qui l’encadrent.\n\n**Application autonome :** déterminer la distance à 500 ft / 15 °C avant de lire la solution. Les deux fractions valent 0,25 : 525 m à 0 ft et 682,5 m à 2 000 ft donnent **564,375 m**. Une moyenne simple serait fausse : elle n’est valable qu’à mi-intervalle.\n\n### Passer à un autre tableau\nNe pas mémoriser 632,5 m comme réponse générale. Avec quatre cases différentes, calculer les deux fractions et appliquer chacune à son axe. Un quart d'intervalle sur la température et trois quarts sur l'altitude ne donnent pas la moyenne des quatre cases.\n\n**Contrôle guidé distinct :** un tableau donne 400/480 m à 0 ft et 560/680 m à 2 000 ft, pour 0/20 °C. À 500 ft et 10 °C, les valeurs intermédiaires sont 440 et 620 m ; la fraction d'altitude 0,25 donne 485 m. La moyenne des quatre cases vaut 530 m et répond au milieu des deux axes, pas à la cible demandée. Dans les QCM de synthèse, le tableau de données change à nouveau.",
+      "content_en": "Linear interpolation is authorised for this exercise. At 20 °C, the value at 0 ft is 550 m and at 2,000 ft it is 715 m. At 1,000 ft and 20 °C, take their midpoint: 632.5 m. Interpolation preserves units and remains within the table domain. Do not extrapolate outside it without an authorised method. For real data, follow the manual even if its method differs from this training interpolation.\n\n### Detailed method and independent cross-check\n\nBetween y0 and y1 associated with x0 and x1, calculate f = (x − x0)/(x1 − x0), then y = y0 + f × (y1 − y0). Fraction f is dimensionless and stays between 0 and 1 for interpolation.\n\nFor 1,000 ft / 20 °C:\n\n1. Temperature fraction: (20 − 10)/(30 − 10) = 0.5.\n2. At 0 ft: 500 + 0.5 × 100 = 550 m.\n3. At 2,000 ft: 650 + 0.5 × 130 = 715 m.\n4. Altitude fraction: 1,000/2,000 = 0.5.\n5. Distance: 550 + 0.5 × (715 − 550) = 632.5 m.\n\nCross-check by interpolating altitude first: at 1,000 ft, 575 m at 10 °C and 690 m at 30 °C. Their midpoint also gives 632.5 m. The result must remain between its bracketing values.\n\n**Independent application:** find distance at 500 ft / 15 °C before reading the solution. Both fractions are 0.25: 525 m at 0 ft and 682.5 m at 2,000 ft give **564.375 m**. A simple average would be wrong: it only works at halfway points.\n\n### Transfer to another table\nDo not memorise 632.5 m as a universal result. For different cells, calculate both fractions and apply each on its own axis. One quarter of the temperature interval and three quarters of the altitude interval do not give the four-cell average.\n\n**Separate worked check:** a table gives 400/480 m at 0 ft and 560/680 m at 2,000 ft, for 0/20 °C. At 500 ft and 10 °C, intermediate values are 440 and 620 m; altitude fraction 0.25 gives 485 m. Averaging all cells gives 530 m, the midpoint of both axes rather than the requested target. Synthesis MCQs use another table again.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 032",
+      "tags": [
+        "CPL"
+      ]
+    },
+    {
+      "concept_id": "CPL_032_001_C03",
+      "title": "Appliquer les corrections",
+      "title_en": "Apply corrections",
+      "content": "Appliquer seulement les corrections prescrites, dans leur ordre et avec leur base de calcul. Si l’exercice impose ensuite un facteur 1,15 à 632,5 m, la distance devient 727,375 m, soit 728 m en arrondissant par excès au mètre. Ce facteur est fictif, pas une marge réglementaire universelle. Deux facteurs successifs se multiplient : 1,10 × 1,20 = 1,32 ; ils ne donnent pas 1,30. Ne pas compter deux fois une correction déjà incorporée.\n\n### Identifier l’origine d’une erreur\n\nConserver les décimales intermédiaires. Arrondir 727,375 au plus proche donnerait 727 m ; l’instruction « par excès » exige 728 m. Une méthode correcte comprend aussi la bonne règle d’arrondi.\n\nSur une distance de 600 m, appliquer 1,10 puis 1,20 donne 660 m puis 792 m. Additionner les pourcentages donnerait 780 m : cette erreur oublie que la seconde correction agit sur une base déjà augmentée. Vérifier également que le tableau n’inclut pas déjà le facteur considéré. Une donnée de piste sèche ne devient pas une donnée de piste mouillée avec un facteur inventé.\n\n### Lire la portée du facteur\nUne valeur peut déjà être corrigée d'un effet, tandis qu'un autre facteur reste à appliquer. Exemple distinct : 610 m incluent déjà un facteur de surface 1,10 ; l'exercice exige encore 1,05 pour une autre correction. Résultat 640,5 m, soit 641 m par excès. Multiplier encore par 1,10 traiterait deux fois le même effet. Conserver une trace « brut → corrections incluses → correction restante → arrondi ».\n\nUn facteur et une majoration additive ne se traitent pas de la même manière : « multiplier par 1,10 puis ajouter 30 m » sur 500 m donne 580 m ; ajouter avant multiplier donnerait 583 m. L'ordre doit venir de la méthode fournie.",
+      "content_en": "Apply only prescribed corrections, in their specified order and to the correct base. If the exercise then requires a factor of 1.15 on 632.5 m, distance becomes 727.375 m, or 728 m rounded up to a whole metre. This fictional factor is not a universal regulatory margin. Two successive factors multiply: 1.10 × 1.20 = 1.32, not 1.30. Do not apply a correction twice if already included.\n\n### Identify the source of an error\n\nRetain intermediate decimals. Rounding 727.375 to nearest gives 727 m; the instruction to round up requires 728 m. A correct method includes the right rounding rule.\n\nFor a 600 m distance, applying 1.10 then 1.20 gives 660 m then 792 m. Adding the percentages gives 780 m: this error ignores that the second correction acts on an already increased base. Also check whether the table already includes the factor. Dry-runway data does not become wet-runway data through an invented factor.\n\n### Read the scope of each correction\nA value may already include one effect while another factor remains. Separate example: 610 m already includes a 1.10 surface factor; the exercise still requires 1.05 for another correction. Result 640.5 m, rounded up to 641 m. Multiplying by 1.10 again counts the same effect twice. Record raw value → included corrections → remaining correction → rounding.\n\nA factor and an additive increment differ: “multiply by 1.10 then add 30 m” applied to 500 m gives 580 m; adding before multiplying gives 583 m. Follow the supplied order.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 032",
+      "tags": [
+        "CPL"
+      ]
+    },
+    {
+      "concept_id": "CPL_032_001_C04",
+      "title": "Comparer et décider",
+      "title_en": "Compare and decide",
+      "content": "Comparer des grandeurs compatibles : une distance d’atterrissage requise avec la LDA applicable, une distance de décollage avec la distance déclarée pertinente et les autres contraintes requises. Dans l’exercice, 728 m requis pour 800 m disponibles laisse 72 m de marge arithmétique ; cela ne vérifie pas les obstacles ni toutes les limites opérationnelles. Une altitude-densité élevée tend à dégrader les performances ; un vent de face peut améliorer la distance sol, mais seul le manuel chiffre son effet. Recalculer après un changement de masse, vent ou piste.\n\n### Formuler une conclusion contrôlable\n\nUne marge de 72 m sur 800 m disponibles représente 9 % de la distance disponible, mais environ 9,89 % des 728 m requis. Tout pourcentage doit préciser sa base. Avec 820 m requis, le critère de longueur échoue de 20 m ; arrondir à la centaine masquerait ce déficit.\n\nUne autre piste peut changer longueur, pente, vent et obstacles. Revoir les données pertinentes même si la longueur annoncée paraît identique. Avant le quiz, expliquer sans réciter : pourquoi 0 ft/20 °C donne 550 m et non 632,5 m ; pourquoi les facteurs se multiplient ; pourquoi une marge positive sur un critère ne suffit pas à autoriser le décollage. Les exercices du chapitre restent des modèles, pas des calculs pour un avion réel.\n\n**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. La matière 032 comporte 28 questions en 75 minutes dans le tableau EASA cité. Ce chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.",
+      "content_en": "Compare compatible quantities: required landing distance with applicable LDA, take-off distance with the relevant declared distance and other required constraints. In the exercise, 728 m required against 800 m available leaves a 72 m arithmetic margin; this does not check obstacles or every operational limit. High density altitude tends to degrade performance; headwind may improve ground distance, but the manual quantifies its effect. Recalculate after mass, wind or runway changes.\n\n### State a conclusion that can be checked\n\nA 72 m margin against 800 m available is 9% of available distance but about 9.89% of the 728 m required. Every percentage needs a stated base. With 820 m required, the length criterion fails by 20 m; rounding to hundreds would hide that shortfall.\n\nA different runway may change length, slope, wind and obstacles. Review relevant inputs even if the stated length appears identical. Before the quiz, explain without rote recall: why 0 ft/20 °C gives 550 m rather than 632.5 m; why factors multiply; why a positive margin on one criterion does not authorise take-off. These exercises remain models, not calculations for a real aircraft.\n\n**Practice format:** 15 chapter MCQs, four choices and one correct answer. Subject 032 has 28 questions in 75 minutes in the cited EASA table. This chapter covers only part of the subject and is not a full paper. EASA framework, including with English or US/British units.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 032",
+      "tags": [
+        "CPL"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "CPL_032_001_C01",
+      "concept_title": "Lire les conditions",
+      "level": 3,
+      "question": "Le tableau fictif donne 500 m à 0 ft/10 °C et 600 m à 0 ft/30 °C. Par interpolation linéaire, valeur à 0 ft/20 °C ?",
+      "question_en": "The fictional table gives 500 m at 0 ft/10 °C and 600 m at 0 ft/30 °C. Linear interpolation at 0 ft/20 °C?",
+      "options": [
+        "550 m",
+        "500 m",
+        "600 m",
+        "650 m"
+      ],
+      "options_en": [
+        "550 m",
+        "500 m",
+        "600 m",
+        "650 m"
+      ],
+      "correct_answer": "550 m",
+      "explanation": "20 °C est à mi-chemin de 10 et 30 °C : 500 + 0,5 × (600 − 500) = 550 m. 500 et 600 sont les bornes ; 650 appartient à une autre ligne d’altitude.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "20 °C is halfway between 10 and 30 °C: 500 + 0.5 × (600 − 500) = 550 m. 500 and 600 are endpoints; 650 belongs to another altitude row.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C02",
+      "concept_title": "Interpoler dans deux directions",
+      "level": 3,
+      "question": "À 2 000 ft : 650 m à 10 °C et 780 m à 30 °C. Valeur à 20 °C ?",
+      "question_en": "At 2,000 ft: 650 m at 10 °C and 780 m at 30 °C. Value at 20 °C?",
+      "options": [
+        "650 m",
+        "680 m",
+        "780 m",
+        "715 m"
+      ],
+      "options_en": [
+        "650 m",
+        "680 m",
+        "780 m",
+        "715 m"
+      ],
+      "correct_answer": "715 m",
+      "explanation": "La fraction vaut 0,5 : 650 + 0,5 × (780 − 650) = 715 m. Utiliser l’écart de 100 m de la ligne 0 ft serait incorrect : cette ligne-ci présente un écart de 130 m.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "The fraction is 0.5: 650 + 0.5 × (780 − 650) = 715 m. Using the 0 ft row’s 100 m increment would be wrong: this row’s increment is 130 m.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C02",
+      "concept_title": "Interpoler dans deux directions",
+      "level": 3,
+      "question": "À 20 °C : 550 m à 0 ft et 715 m à 2 000 ft. Valeur interpolée à 1 000 ft ?",
+      "question_en": "At 20 °C: 550 m at 0 ft and 715 m at 2,000 ft. Interpolated value at 1,000 ft?",
+      "options": [
+        "715 m",
+        "1 265 m",
+        "632,5 m",
+        "582,5 m"
+      ],
+      "options_en": [
+        "715 m",
+        "1,265 m",
+        "632.5 m",
+        "582.5 m"
+      ],
+      "correct_answer": "632,5 m",
+      "explanation": "1 000 ft est à mi-chemin de 0 et 2 000 ft : 550 + 0,5 × (715 − 550) = 632,5 m. 1 265 m additionne les bornes sans diviser par deux ; 715 m conserve la borne haute.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "1,000 ft is halfway between 0 and 2,000 ft: 550 + 0.5 × (715 − 550) = 632.5 m. 1,265 m adds endpoints without dividing by two; 715 m retains the upper endpoint.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C02",
+      "concept_title": "Interpoler dans deux directions",
+      "level": 3,
+      "question": "Un tableau s’arrête à 30 °C sans extrapolation autorisée. À 40 °C, quelle conclusion ?",
+      "question_en": "A table ends at 30 °C with no authorised extrapolation. At 40 °C, which conclusion follows ?",
+      "options": [
+        "Appliquer le même écart que de 20 à 30 °C",
+        "Les données ne permettent pas ce calcul",
+        "Prolonger la dernière pente du tableau",
+        "Utiliser 30 °C comme valeur conservatrice"
+      ],
+      "options_en": [
+        "Apply the same increment as from 20 to 30 °C",
+        "These data do not support the calculation",
+        "Extend the final table gradient",
+        "Use 30 °C as a conservative value"
+      ],
+      "correct_answer": "Les données ne permettent pas ce calcul",
+      "explanation": "Les trois autres méthodes prolongent ou détournent le domaine du tableau sans autorisation. Il faut une méthode valable pour les conditions demandées.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "The other methods extend or misuse the table domain without authorisation. A valid method for the requested conditions is needed.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C01",
+      "concept_title": "Lire les conditions",
+      "level": 3,
+      "question": "Une fiche donne 620 m de roulement. Le contrôle demandé porte sur la distance jusqu'à 50 ft. Quelle information manque ?",
+      "question_en": "A sheet gives a 620 m ground roll. The required check concerns distance to 50 ft. What information is missing?",
+      "options": [
+        "La distance incluant la phase en vol jusqu'à 50 ft",
+        "Une conversion des 620 m en pieds seulement",
+        "Une marge fixe de 50 m à ajouter",
+        "La longueur disponible uniquement, qui rendrait les grandeurs équivalentes"
+      ],
+      "options_en": [
+        "Distance including the airborne phase to 50 ft",
+        "Only conversion of 620 m into feet",
+        "A fixed 50 m increment",
+        "Only available length, which would make the quantities equivalent"
+      ],
+      "correct_answer": "La distance incluant la phase en vol jusqu'à 50 ft",
+      "explanation": "Convertir l'unité ne change pas le périmètre. La hauteur écran n'est pas une distance horizontale à ajouter ; il faut la donnée correspondante dans la documentation du cas.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "Unit conversion does not change scope. Screen height is not a horizontal increment; obtain the corresponding case data.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C03",
+      "concept_title": "Appliquer les corrections",
+      "level": 3,
+      "question": "Distance 632,5 m, facteur prescrit 1,15. Résultat arrondi par excès au mètre ?",
+      "question_en": "Distance 632.5 m, prescribed factor 1.15. Result rounded up to a whole metre?",
+      "options": [
+        "727 m",
+        "695 m",
+        "550 m",
+        "728 m"
+      ],
+      "options_en": [
+        "727 m",
+        "695 m",
+        "550 m",
+        "728 m"
+      ],
+      "correct_answer": "728 m",
+      "explanation": "632,5 × 1,15 = 727,375 m. L’arrondi par excès donne 728 m ; 727 m serait l’arrondi au plus proche. Garder la précision intermédiaire et appliquer la règle demandée à la fin.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "632.5 × 1.15 = 727.375 m. Rounding up gives 728 m; 727 m is rounding to nearest. Keep intermediate precision and apply the requested rounding rule at the end.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C03",
+      "concept_title": "Appliquer les corrections",
+      "level": 3,
+      "question": "Corrections successives imposées : ×1,08 puis ×1,12. Facteur global ?",
+      "question_en": "Required successive corrections: ×1.08 then ×1.12. Overall factor?",
+      "options": [
+        "1,04",
+        "2,20",
+        "1,2096",
+        "1,20"
+      ],
+      "options_en": [
+        "1.04",
+        "2.20",
+        "1.2096",
+        "1.20"
+      ],
+      "correct_answer": "1,2096",
+      "explanation": "Multiplier : 1,08×1,12 = 1,2096. Additionner les majorations donne 1,20 et manque leur effet composé ; soustraire ou additionner les facteurs ne décrit pas deux corrections successives.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "Multiply: 1.08×1.12 = 1.2096. Adding increments gives 1.20 and misses compounding; subtracting or adding factors does not describe successive corrections.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C03",
+      "concept_title": "Appliquer les corrections",
+      "level": 3,
+      "question": "Une distance de 810 m inclut déjà la correction de surface ×1,12. Il reste seulement ×1,08 à appliquer ; arrondir par excès. Résultat ?",
+      "question_en": "810 m already includes the ×1.12 surface correction. Only ×1.08 remains; round up. Result?",
+      "options": [
+        "874 m",
+        "875 m",
+        "980 m",
+        "908 m"
+      ],
+      "options_en": [
+        "874 m",
+        "875 m",
+        "980 m",
+        "908 m"
+      ],
+      "correct_answer": "875 m",
+      "explanation": "810×1,08 = 874,8, soit 875 m. 980 applique encore ×1,12 ; 908 applique seulement la mauvaise correction ; 874 arrondit vers le bas. L'origine de chaque facteur détermine son emploi.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "810×1.08 = 874.8, rounded up to 875 m. 980 reapplies ×1.12; 908 applies only the wrong correction; 874 rounds down. Each factor's origin determines its use.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C04",
+      "concept_title": "Comparer et décider",
+      "level": 3,
+      "question": "Tableau fictif joint : à 0 ft, 600/720 m pour 5/25 °C ; à 2 000 ft, 800/960 m. Interpolation linéaire à 1 500 ft et 10 °C, puis ×1,12, arrondi par excès. Disponible pour ce même critère : 900 m. Marge ?\n\n![CPL_032_001](/illustrations/cpl-032-001.svg)",
+      "question_en": "Attached fictional table: at 0 ft, 600/720 m for 5/25 °C; at 2,000 ft, 800/960 m. Linear interpolation at 1,500 ft and 10 °C, then ×1.12, rounded up. Available for this same criterion: 900 m. Margin?\n\n![CPL_032_001](/illustrations/en/cpl-032-001.svg)",
+      "options": [
+        "18 m",
+        "37 m",
+        "112 m",
+        "−18 m"
+      ],
+      "options_en": [
+        "18 m",
+        "37 m",
+        "112 m",
+        "−18 m"
+      ],
+      "correct_answer": "18 m",
+      "explanation": "Fraction température 0,25 : 630 et 840 m. Fraction altitude 0,75 : 787,5 m ; ×1,12 = 882 m ; marge 900−882 = 18. 37 utilise la moyenne des quatre cases ; 112 omet le facteur ; −18 inverse le signe.\n\n![CPL_032_001](/illustrations/cpl-032-001.svg)",
+      "explanation_en": "Temperature fraction 0.25: 630 and 840 m. Altitude fraction 0.75: 787.5 m; ×1.12 = 882 m; margin 900−882 = 18. 37 uses the four-cell mean; 112 omits the factor; −18 reverses the sign.\n\n![CPL_032_001](/illustrations/en/cpl-032-001.svg)",
+      "use_exercise_svg": true,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032"
+    },
+    {
+      "concept_id": "CPL_032_001_C04",
+      "concept_title": "Comparer et décider",
+      "level": 3,
+      "question": "Même tableau et cible 1 500 ft/10 °C : distance brute 787,5 m. Appliquer ×1,12 puis ×1,08, arrondir par excès. Disponible 950 m. Conclusion sur ce seul critère ?\n\n![CPL_032_001](/illustrations/cpl-032-001.svg)",
+      "question_en": "Same table and 1,500 ft/10 °C target: raw distance 787.5 m. Apply ×1.12 then ×1.08, round up. Available 950 m. Conclusion on this criterion alone?\n\n![CPL_032_001](/illustrations/en/cpl-032-001.svg)",
+      "options": [
+        "Marge de 5 m",
+        "Déficit de 2 m",
+        "Marge de 68 m",
+        "Déficit de 3 m"
+      ],
+      "options_en": [
+        "5 m margin",
+        "2 m shortfall",
+        "68 m margin",
+        "3 m shortfall"
+      ],
+      "correct_answer": "Déficit de 3 m",
+      "explanation": "787,5×1,12×1,08 = 952,56, arrondi 953 ; déficit 3. 5 m vient de ×1,20 au lieu du produit ; 2 m arrondit vers le bas ; 68 omet ×1,08. Un faible déficit reste un échec du critère.\n\n![CPL_032_001](/illustrations/cpl-032-001.svg)",
+      "explanation_en": "787.5×1.12×1.08 = 952.56, rounded to 953; shortfall 3. A 5 m margin comes from ×1.20 instead of the product; 2 rounds down; 68 omits ×1.08. A small deficit still fails the criterion.\n\n![CPL_032_001](/illustrations/en/cpl-032-001.svg)",
+      "use_exercise_svg": true,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032"
+    },
+    {
+      "concept_id": "CPL_032_001_C04",
+      "concept_title": "Comparer et décider",
+      "level": 3,
+      "question": "Distance jusqu’à 50 ft calculée inférieure à la distance disponible. Que reste-t-il à vérifier pour les obstacles ?",
+      "question_en": "Calculated distance to 50 ft is below available distance. What remains to be checked for obstacles ?",
+      "options": [
+        "Seulement que la marge de longueur soit positive",
+        "Rien si une correction de vent a été appliquée",
+        "Les contraintes et calculs de franchissement applicables",
+        "Rien, les 50 ft garantissent tout le trajet après décollage"
+      ],
+      "options_en": [
+        "Only that the length margin is positive",
+        "Nothing if a wind correction was applied",
+        "Applicable obstacle-clearance constraints and calculations",
+        "Nothing, 50 ft guarantees the entire departure path"
+      ],
+      "correct_answer": "Les contraintes et calculs de franchissement applicables",
+      "explanation": "Atteindre la hauteur écran sur la distance considérée ne décrit pas toute la trajectoire au-delà. Une correction de vent ne constitue pas une étude d’obstacles.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "Reaching screen height within the distance considered does not describe the entire path beyond it. A wind correction is not an obstacle assessment.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C01",
+      "concept_title": "Lire les conditions",
+      "level": 3,
+      "question": "Pour choisir le tableau de décollage approprié, quel ensemble de données est complet parmi les propositions ?",
+      "question_en": "Which proposed set of inputs is complete for selecting the appropriate take-off table ?",
+      "options": [
+        "Masse à vide, QNH et température uniquement",
+        "Masse, configuration, altitude-pression, température, vent et piste",
+        "Masse et température, les autres conditions étant toujours standard",
+        "Altitude AMSL et longueur de piste uniquement"
+      ],
+      "options_en": [
+        "Empty mass, QNH and temperature only",
+        "Mass, configuration, pressure altitude, temperature, wind and runway",
+        "Mass and temperature, with all other conditions always standard",
+        "AMSL altitude and runway length only"
+      ],
+      "correct_answer": "Masse, configuration, altitude-pression, température, vent et piste",
+      "explanation": "Les autres ensembles omettent des conditions ou substituent une grandeur différente. La masse à vide n’est pas la masse au décollage ; l’altitude AMSL n’est pas systématiquement l’altitude-pression.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "The other sets omit conditions or substitute another quantity. Empty mass is not take-off mass; AMSL altitude is not always pressure altitude.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C04",
+      "concept_title": "Comparer et décider",
+      "level": 3,
+      "question": "Une hausse d’altitude-densité tend généralement à…",
+      "question_en": "An increase in density altitude generally tends to…",
+      "options": [
+        "Dégrader les performances de décollage",
+        "Réduire toujours le roulement",
+        "Augmenter automatiquement la puissance disponible",
+        "Supprimer l’effet de la masse"
+      ],
+      "options_en": [
+        "Degrade take-off performance",
+        "Always shorten ground roll",
+        "Automatically increase available power",
+        "Eliminate mass effects"
+      ],
+      "correct_answer": "Dégrader les performances de décollage",
+      "explanation": "À masse et configuration comparables, une faible densité implique davantage de vitesse vraie pour une même vitesse indiquée. Les effets sur le moteur et la propulsion peuvent aussi dégrader le décollage ; la documentation de l’avion chiffre le résultat.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "At comparable mass and configuration, lower density requires greater true airspeed for a given indicated airspeed. Engine and propulsion effects may also degrade take-off; aircraft documentation quantifies the result.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C03",
+      "concept_title": "Appliquer les corrections",
+      "level": 3,
+      "question": "Méthode fictive : distance brute 700 m, multiplier par 1,10 puis ajouter 25 m. Valeur avant comparaison ?",
+      "question_en": "Fictional method: raw distance 700 m, multiply by 1.10 then add 25 m. Value before comparison?",
+      "options": [
+        "797,5 m",
+        "770 m",
+        "725 m",
+        "795 m"
+      ],
+      "options_en": [
+        "797.5 m",
+        "770 m",
+        "725 m",
+        "795 m"
+      ],
+      "correct_answer": "795 m",
+      "explanation": "700×1,10+25 = 795. 797,5 ajoute avant de multiplier ; 770 omet l'ajout, 725 omet le facteur. La méthode impose l'ordre, pas seulement une liste de nombres.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "700×1.10+25 = 795. 797.5 adds before multiplying; 770 omits the increment; 725 omits the factor. The method specifies order, not just numbers.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    },
+    {
+      "concept_id": "CPL_032_001_C04",
+      "concept_title": "Comparer et décider",
+      "level": 3,
+      "question": "La piste attribuée change mais sa longueur est identique. Quelle action ?",
+      "question_en": "Assigned runway changes but length is identical. What action follows ?",
+      "options": [
+        "Modifier uniquement l’intitulé de piste du devis",
+        "Conserver le résultat dès que la masse est inchangée",
+        "Revoir vent, pente, obstacles et données de performance concernées",
+        "Conserver le calcul car la longueur n’a pas changé"
+      ],
+      "options_en": [
+        "Change only the runway name on the worksheet",
+        "Keep the result whenever mass is unchanged",
+        "Review wind, slope, obstacles and relevant performance inputs",
+        "Keep the calculation because length has not changed"
+      ],
+      "correct_answer": "Revoir vent, pente, obstacles et données de performance concernées",
+      "explanation": "La longueur n’est qu’une condition parmi plusieurs. Même longueur et même masse ne garantissent pas les mêmes performances ni les mêmes contraintes.\n\n![CPL_032_001](/illustrations/cpl-performance-worked.svg)",
+      "explanation_en": "Length is only one of several conditions. Equal length and mass do not guarantee equal performance or constraints.\n\n![CPL_032_001](/illustrations/en/cpl-performance-worked.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:032"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 032",
+      "explanation_illustration": "/illustrations/cpl-performance-worked.svg"
+    }
+  ]
+}

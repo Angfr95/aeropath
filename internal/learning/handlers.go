@@ -97,10 +97,9 @@ func ListLessonsByCategoryHandler(repo domain.LessonRepository) gin.HandlerFunc 
 	}
 }
 
-
 // ======================== QUIZ DE LEÇON ========================
 
-// LessonQuizHandler génère un quiz de 3 questions pour une leçon.
+// LessonQuizHandler génère un quiz de cinq questions pour une leçon.
 func LessonQuizHandler(engine *Engine) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		lessonID := c.Param("id")
@@ -116,11 +115,13 @@ func LessonQuizHandler(engine *Engine) gin.HandlerFunc {
 		for _, q := range questions {
 			safeQuestions = append(safeQuestions, gin.H{
 				"id":          q.ID,
+				"license":     q.License,
+				"category":    q.Category,
 				"theme":       q.Theme,
 				"difficulty":  q.Difficulty,
 				"question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn,
-				"options":     q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs,
+				"options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 
@@ -153,8 +154,8 @@ func StartExamHandler(engine *Engine) gin.HandlerFunc {
 				"theme":       q.Theme,
 				"difficulty":  q.Difficulty,
 				"question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn,
-				"options":     q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs,
+				"options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 
@@ -183,6 +184,7 @@ func SubmitExamHandler(engine *Engine, historyRepo domain.QuestionHistoryReposit
 			CorrectAnswer string `json:"correct_answer"`
 			ExplanationFr string `json:"explanation_fr,omitempty"`
 			ExplanationEn string `json:"explanation_en,omitempty"`
+			ExplanationEs string `json:"explanation_es,omitempty"`
 		}
 
 		var results []result
@@ -209,6 +211,7 @@ func SubmitExamHandler(engine *Engine, historyRepo domain.QuestionHistoryReposit
 				CorrectAnswer: question.AnswerKey,
 				ExplanationFr: question.ExplanationFr,
 				ExplanationEn: question.ExplanationEn,
+				ExplanationEs: question.ExplanationEs,
 			})
 		}
 
@@ -219,10 +222,10 @@ func SubmitExamHandler(engine *Engine, historyRepo domain.QuestionHistoryReposit
 		}
 
 		c.JSON(http.StatusOK, gin.H{
-			"score":    score,
-			"correct":  correctCount,
-			"total":    total,
-			"results":  results,
+			"score":   score,
+			"correct": correctCount,
+			"total":   total,
+			"results": results,
 		})
 	}
 }

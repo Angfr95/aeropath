@@ -1,0 +1,649 @@
+{
+  "metadata": {
+    "module_id": "IR_022_001",
+    "program": "IR",
+    "subject": "instrumentation",
+    "chapter_title": "Altimétrie et circuit statique",
+    "chapter_title_en": "Altimetry and the static system",
+    "reference_checked_on": "2026-09-27",
+    "learning_objective": "Distinguer altitude et hauteur ; contrôler le signe d’une erreur de calage ; expliquer les effets du froid ; diagnostiquer une statique piégée par rapport à l’altitude du blocage.",
+    "learning_objective_en": "Distinguish altitude from height; check the sign of a setting error; explain cold-air effects; diagnose trapped static pressure relative to blockage altitude.",
+    "estimated_duration_minutes": 45,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Pression statique et pression totale",
+      "Altitude, hauteur et niveau de vol",
+      "Calcul signé avec un coefficient fourni"
+    ],
+    "exam_subject": "022",
+    "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022",
+    "official_subject_format": {
+      "questions": 20,
+      "minutes": 30,
+      "pass_percent": 75,
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+    },
+    "sources": [
+      {
+        "title": "EASA — programme Part-FCL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+      },
+      {
+        "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      },
+      {
+        "title": "FAA PHAK, chapitre 8 — Flight Instruments",
+        "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf"
+      },
+      {
+        "title": "FAA AIM 7-2 — erreurs altimétriques ; procédures US hors périmètre",
+        "url": "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      }
+    ],
+    "content_status": "draft",
+    "coverage_status": "partial",
+    "scope": "IR(A), France / EASA",
+    "quiz_format": "chapter_practice",
+    "tags": [
+      "IR",
+      "mcq-four-options"
+    ],
+    "illustration": {
+      "src": "/illustrations/ir-022-001.svg",
+      "alt": "Altimétrie et circuit statique"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "IR_022_001_C01",
+      "title": "Choisir la référence",
+      "title_en": "Select the reference",
+      "content": "![IR_022_001](/illustrations/ir-022-001.svg)\n\n### Identifier la grandeur avant de calculer\n\nL’altimètre transforme une pression statique en indication selon une loi d’atmosphère et un calage. Il ne mesure pas directement la distance au sol. Distinguer trois références :\n\n- **QNH :** altitude AMSL approximative, sans suppression des erreurs instrumentales ou de température.\n- **QFE :** hauteur par rapport au repère associé au QFE, pas au terrain instantanément survolé.\n- **1013,25 hPa :** altitude-pression servant aux niveaux de vol. Un même niveau ne correspond pas partout à une altitude vraie constante.\n\n**Exemple résolu.** Aérodrome à 600 ft AMSL, avion 900 ft au-dessus de son repère. Erreurs négligées, QFE donne 900 ft et QNH donne 600 + 900 = **1 500 ft**. Un relief voisin à 1 200 ft AMSL ne laisserait que 300 ft de hauteur. L’indication QNH seule ne décrit donc pas la marge terrain.\n\n**Vérifier sa compréhension.** Au QFE de cet aérodrome, que représente l’indication au-dessus d’une vallée ? Toujours la hauteur par rapport au repère QFE, pas au fond de vallée. Employer les transitions et calages publiés pour le vol concerné.",
+      "content_en": "![IR_022_001](/illustrations/en/ir-022-001.svg)\n\n### Identify the quantity before calculating\n\nAn altimeter converts static pressure into an indication using an atmospheric model and a setting. It does not directly measure distance above ground. Distinguish three references:\n\n- **QNH:** approximate AMSL altitude, without eliminating instrument or temperature errors.\n- **QFE:** height above the associated QFE datum, not terrain immediately below.\n- **1013.25 hPa:** pressure altitude used for flight levels. A given level does not represent a constant true altitude everywhere.\n\n**Worked example.** Aerodrome 600 ft AMSL, aircraft 900 ft above its datum. Neglecting errors, QFE gives 900 ft and QNH gives 600 + 900 = **1,500 ft**. Nearby terrain at 1,200 ft AMSL would leave only 300 ft of height. QNH indication alone therefore does not describe terrain margin.\n\n**Check understanding.** Using that aerodrome’s QFE above a valley, what does the indication represent? Height above the QFE datum, not the valley floor. Use the transition and setting procedures published for the flight.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_022_001_C02",
+      "title": "Quantifier une erreur de calage",
+      "title_en": "Quantify a setting error",
+      "content": "### Calculer, puis contrôler le signe\n\nÀ pression statique constante, augmenter le calage augmente l’indication. Pour les exercices près du niveau de la mer, on impose **27 ft par hPa**. Ce coefficient n’est pas une correction universelle en altitude.\n\n1. Écart de calage = calage affiché − QNH correct.\n2. Erreur d’indication = écart signé × 27.\n3. Indication au bon QNH = indication initiale − erreur.\n\n**Exemple résolu.** QNH correct 1000 hPa, calage 1010 hPa, indication 3 000 ft. Écart : +10 hPa ; erreur : +270 ft ; indication corrigée : 3 000 − 270 = **2 730 ft**. Ce résultat n’est pas encore une altitude vraie corrigée de la température.\n\n**Contrôle inverse.** Passer de 1000 à 1010 hPa à position inchangée ferait monter l’indication. Il est donc cohérent de retrancher 270 ft lorsque l’ancien calage était trop élevé. Ajouter 270 ft aggraverait l’erreur.\n\n**Application autonome.** QNH correct 1008 hPa, calage 1000 hPa, indication 2 400 ft. Avant de lire la solution, prévoir si le bon calage donnera plus ou moins. Solution : écart −8 hPa, erreur −216 ft, indication corrigée **2 616 ft**.",
+      "content_en": "### Calculate, then check the sign\n\nAt constant static pressure, increasing the setting increases the indication. For these near-sea-level exercises, use **27 ft per hPa**. This coefficient is not a universal altitude correction.\n\n1. Setting difference = selected setting minus correct QNH.\n2. Indication error = signed difference × 27.\n3. Correct-QNH indication = original indication minus error.\n\n**Worked example.** Correct QNH 1000 hPa, setting 1010 hPa, indication 3,000 ft. Difference: +10 hPa; error: +270 ft; corrected indication: 3,000 − 270 = **2,730 ft**. This is not yet a temperature-corrected true altitude.\n\n**Reverse check.** Selecting 1010 instead of 1000 hPa at unchanged position would raise the indication. Subtracting 270 ft when the old setting was too high is therefore consistent. Adding 270 ft would worsen the error.\n\n**Independent application.** Correct QNH 1008 hPa, setting 1000 hPa, indication 2,400 ft. Before reading the solution, predict whether the correct setting gives more or less. Solution: difference −8 hPa, error −216 ft, corrected indication **2,616 ft**.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_022_001_C03",
+      "title": "Pression et température réelles",
+      "title_en": "Actual pressure and temperature",
+      "content": "### Séparer deux causes d’erreur\n\nUne variation de pression et une température différente du modèle sont deux problèmes distincts. Vers une pression plus basse sans recalage, l’indication peut surestimer l’altitude. Avec un QNH correct mais de l’air plus froid que le modèle, les surfaces de pression sont plus rapprochées : au-dessus du repère, l’altitude vraie peut aussi être inférieure à l’indiquée.\n\n**Méthode.** Vérifier successivement le QNH pertinent, le repère de l’indication et la nécessité d’une correction de température selon la procédure applicable. Un bon QNH ne répond qu’à la première question.\n\n**Situation.** Le QNH a été confirmé, mais une correction de basse température est requise sur une altitude publiée. Augmenter arbitrairement le QNH changerait la référence de toutes les indications. Utiliser la méthode publiée, identifier les altitudes concernées et respecter les exigences de coordination associées. Aucun coefficient de température universel n’est fourni ici.\n\n**Erreur à éviter.** Les 2 730 ft de l’exemple précédent ne sont pas une hauteur disponible au-dessus de n’importe quel obstacle : le calcul corrige un calage, pas la température, le terrain ou une marge réglementaire.",
+      "content_en": "### Separate two causes of error\n\nA pressure change and a temperature departure from the model are different problems. Moving towards lower pressure without resetting may cause altitude overreading. With correct QNH but air colder than the model, pressure surfaces are closer together: above the datum, true altitude may also be below indicated altitude.\n\n**Method.** Check the relevant QNH, the indication’s datum, and whether the applicable procedure requires a temperature correction. Correct QNH answers only the first question.\n\n**Scenario.** QNH has been confirmed, but a published altitude requires cold-temperature correction. Arbitrarily increasing QNH would change the reference for every indication. Use the published method, identify the affected altitudes and comply with associated coordination requirements. No universal temperature coefficient is supplied here.\n\n**Avoid this mistake.** The preceding example’s 2,730 ft is not clearance above any obstacle: the calculation corrects a setting, not temperature, terrain or a regulatory margin.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_022_001_C04",
+      "title": "Identifier une obstruction statique",
+      "title_en": "Identify static blockage",
+      "content": "### Raisonner à partir des pressions\n\nDans ce modèle classique, la statique est entièrement piégée et le Pitot reste libre. L’anémomètre compare la pression totale présente à la statique piégée. Comparer l’altitude actuelle à **l’altitude du blocage**, pas seulement constater une montée ou une descente. On suppose une atmosphère stable où la pression diminue avec l’altitude.\n\n- **Au-dessus du blocage :** statique piégée trop élevée, différence de pression trop faible, sous-indication de vitesse par rapport à une statique correcte.\n- **Au-dessous :** statique piégée trop faible, différence trop grande, surindication.\n- **À la même altitude, pression extérieure inchangée :** pas d’erreur due à ce seul écart.\n\nL’altimètre reste à l’indication du blocage si son calage est inchangé. Le variomètre revient vers zéro après son transitoire. Les trois instruments peuvent partager la même panne : trois indications ne sont pas nécessairement trois sources indépendantes.\n\n**Contre-exemple.** Blocage à 5 000 ft, montée à 7 000 ft puis descente à 6 000 ft. Malgré la descente, l’anémomètre **sous-indique encore** : l’avion reste au-dessus du blocage. À 4 000 ft, il surindiquerait dans le même modèle.\n\n**Diagnostic.** Recouper avec les sources indépendantes disponibles et appliquer la procédure de l’avion. Une statique de secours peut avoir ses propres corrections. Le radioaltimètre mesure une hauteur terrain ; il ne remplace pas automatiquement l’altitude barométrique publiée. Ce chapitre enseigne un raisonnement, pas une procédure d’urgence universelle.\n\n**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. La matière 022 comporte 20 questions en 30 minutes dans le tableau EASA cité. Ce chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.",
+      "content_en": "### Reason from the pressures\n\nIn this conventional model, static pressure is fully trapped and the pitot remains open. The ASI compares current total pressure with trapped static pressure. Compare current altitude with **blockage altitude**, rather than just noting climb or descent. Assume a stable atmosphere with pressure decreasing as altitude increases.\n\n- **Above blockage altitude:** trapped static pressure too high, measured difference too small, airspeed underreading compared with correct static pressure.\n- **Below:** trapped static pressure too low, difference too large, overreading.\n- **Same altitude, unchanged outside pressure:** no error from this difference alone.\n\nThe altimeter stays at the blockage indication if its setting is unchanged. The VSI returns towards zero after its transient. All three may share the same fault: three indications do not necessarily represent three independent sources.\n\n**Counterexample.** Blockage at 5,000 ft, climb to 7,000 ft, then descent to 6,000 ft. Despite descending, the ASI **still underreads**: the aircraft remains above blockage altitude. At 4,000 ft it would overread in this model.\n\n**Diagnosis.** Cross-check available independent sources and follow the aircraft procedure. An alternate static source may require its own corrections. Radio altimetry measures terrain height; it does not automatically replace published barometric altitude. This chapter teaches reasoning, not a universal emergency procedure.\n\n**Practice format:** 15 chapter MCQs, four choices and one correct answer. Subject 022 has 20 questions in 30 minutes in the cited EASA table. This chapter covers only part of the subject and is not a full paper. EASA framework, including with English or US/British units.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022",
+      "tags": [
+        "IR"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "IR_022_001_C02",
+      "concept_title": "Quantifier une erreur de calage",
+      "level": 3,
+      "question": "À pression statique constante, calage de 1000 à 1010 hPa. Modèle près du niveau de la mer : 27 ft/hPa. Variation d’indication ?\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "question_en": "At constant static pressure, setting changes from 1000 to 1010 hPa. Near-sea-level model: 27 ft/hPa. Indication change?\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "options": [
+        "+270 ft",
+        "−270 ft",
+        "+27 ft",
+        "−27 ft"
+      ],
+      "options_en": [
+        "+270 ft",
+        "−270 ft",
+        "+27 ft",
+        "−27 ft"
+      ],
+      "correct_answer": "+270 ft",
+      "explanation": "10 × 27 = 270 ft. Augmenter le calage augmente l’indication ; −270 inverse le sens et 27 oublie le facteur 10.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "10 × 27 = 270 ft. Raising the setting raises the indication; −270 reverses the sign and 27 misses the factor of 10.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": true,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C01",
+      "concept_title": "Choisir la référence",
+      "level": 3,
+      "question": "Aérodrome à 600 ft AMSL, avion 900 ft au-dessus de son repère. Erreurs négligées : quelle paire QNH/QFE attend-on ?",
+      "question_en": "Aerodrome 600 ft AMSL, aircraft 900 ft above its datum. Neglecting errors, which QNH/QFE pair is expected?",
+      "options": [
+        "900 ft / 1 500 ft",
+        "900 ft / 300 ft",
+        "1 500 ft / 600 ft",
+        "1 500 ft / 900 ft"
+      ],
+      "options_en": [
+        "900 ft / 1,500 ft",
+        "900 ft / 300 ft",
+        "1,500 ft / 600 ft",
+        "1,500 ft / 900 ft"
+      ],
+      "correct_answer": "1 500 ft / 900 ft",
+      "explanation": "QNH : 600 + 900 = 1 500 ft AMSL ; QFE : 900 ft au-dessus du repère. Inverser les deux confond altitude et hauteur.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "QNH: 600 + 900 = 1,500 ft AMSL; QFE: 900 ft above the datum. Swapping them confuses altitude and height.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C01",
+      "concept_title": "Choisir la référence",
+      "level": 3,
+      "question": "Au calage standard, FL 70 représente…",
+      "question_en": "At standard setting, FL 70 represents…",
+      "options": [
+        "Toujours 7 000 ft d’altitude vraie AMSL",
+        "7 000 ft au-dessus du repère QFE",
+        "7 000 ft d’altitude-pression à 1013,25 hPa",
+        "7 000 ft de hauteur terrain"
+      ],
+      "options_en": [
+        "Always 7,000 ft true AMSL altitude",
+        "7,000 ft above the QFE datum",
+        "7,000 ft pressure altitude at 1013.25 hPa",
+        "7,000 ft terrain height"
+      ],
+      "correct_answer": "7 000 ft d’altitude-pression à 1013,25 hPa",
+      "explanation": "Le niveau utilise la référence standard, pas une hauteur terrain ni une altitude vraie constante.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "A flight level uses the standard reference, not terrain height or constant true altitude.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C01",
+      "concept_title": "Choisir la référence",
+      "level": 3,
+      "question": "Au QFE d’un aérodrome, l’avion survole une vallée plus basse. À quoi l’indication se rapporte-t-elle ?",
+      "question_en": "Using an aerodrome QFE, the aircraft crosses a lower valley. What is the indication referenced to?",
+      "options": [
+        "À la référence 1013,25 hPa",
+        "Au repère de ce QFE",
+        "Au terrain sous l’avion",
+        "Au niveau moyen de la mer"
+      ],
+      "options_en": [
+        "The 1013.25 hPa reference",
+        "That QFE datum",
+        "Terrain below the aircraft",
+        "Mean sea level"
+      ],
+      "correct_answer": "Au repère de ce QFE",
+      "explanation": "Le repère QFE ne se déplace pas avec le relief. Cette indication n’est pas une mesure directe de hauteur terrain.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "The QFE datum does not move with terrain. This indication is not a direct terrain-height measurement.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C02",
+      "concept_title": "Quantifier une erreur de calage",
+      "level": 3,
+      "question": "QNH réel 1000 hPa, calage 1010 hPa. Avec 27 ft/hPa, l’indication comparée au bon calage est…",
+      "question_en": "Actual QNH 1000 hPa, setting 1010 hPa. At 27 ft/hPa, indication compared with correct setting is…",
+      "options": [
+        "Environ 270 ft trop haute",
+        "Environ 270 ft trop basse",
+        "Environ 27 ft trop haute",
+        "Environ 27 ft trop basse"
+      ],
+      "options_en": [
+        "About 270 ft too high",
+        "About 270 ft too low",
+        "About 27 ft too high",
+        "About 27 ft too low"
+      ],
+      "correct_answer": "Environ 270 ft trop haute",
+      "explanation": "Écart : 1010 − 1000 = +10 hPa. Le calage trop élevé produit une surestimation de 270 ft ; 27 ft ne correspond qu’à 1 hPa.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "Difference: 1010 − 1000 = +10 hPa. The excessive setting produces 270 ft overreading; 27 ft corresponds to only 1 hPa.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C02",
+      "concept_title": "Quantifier une erreur de calage",
+      "level": 3,
+      "question": "Une indication de 3 000 ft surestime de 270 ft celle au bon QNH. Indication corrigée du seul calage ?",
+      "question_en": "An indication of 3,000 ft overreads the correct-QNH indication by 270 ft. Setting-corrected indication?",
+      "options": [
+        "3 270 ft",
+        "2 970 ft",
+        "3 000 ft",
+        "2 730 ft"
+      ],
+      "options_en": [
+        "3,270 ft",
+        "2,970 ft",
+        "3,000 ft",
+        "2,730 ft"
+      ],
+      "correct_answer": "2 730 ft",
+      "explanation": "Retrancher la surestimation : 3 000 − 270 = 2 730 ft. Ajouter 270 aggrave l’erreur ; cela ne corrige pas la température.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "Subtract the overreading: 3,000 − 270 = 2,730 ft. Adding 270 worsens the error; this does not correct temperature.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C03",
+      "concept_title": "Pression et température réelles",
+      "level": 3,
+      "question": "L’avion conserve la même indication et le même calage vers une pression plus basse. Quel risque anticiper ?",
+      "question_en": "The aircraft keeps the same indication and setting towards lower pressure. Which risk should be anticipated?",
+      "options": [
+        "Une hauteur terrain nécessairement constante",
+        "Une compensation automatique par l’altimètre",
+        "Une altitude vraie plus basse que ne le suggère l’indication",
+        "Une altitude vraie nécessairement plus haute"
+      ],
+      "options_en": [
+        "Terrain height necessarily constant",
+        "Automatic compensation by the altimeter",
+        "True altitude lower than the indication suggests",
+        "True altitude necessarily higher"
+      ],
+      "correct_answer": "Une altitude vraie plus basse que ne le suggère l’indication",
+      "explanation": "Le calage devenu trop élevé surestime l’altitude. Une indication constante ne garantit ni altitude vraie ni marge terrain constantes.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "The now-excessive setting overreads altitude. Constant indication guarantees neither constant true altitude nor terrain clearance.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C03",
+      "concept_title": "Pression et température réelles",
+      "level": 3,
+      "question": "QNH correct, air plus froid que le modèle, avion au-dessus du repère : pourquoi une correction publiée peut-elle rester nécessaire ?",
+      "question_en": "Correct QNH, air colder than the model, aircraft above the datum: why may a published correction still be needed?",
+      "options": [
+        "Le QNH devient automatiquement un QFE",
+        "L’altitude vraie peut être inférieure à l’indiquée",
+        "Le QNH correct impose une altitude vraie identique",
+        "L’altitude vraie est nécessairement supérieure"
+      ],
+      "options_en": [
+        "QNH automatically becomes QFE",
+        "True altitude may be below indicated altitude",
+        "Correct QNH forces true and indicated altitude to match",
+        "True altitude must be higher"
+      ],
+      "correct_answer": "L’altitude vraie peut être inférieure à l’indiquée",
+      "explanation": "Le QNH correct n’annule pas l’effet de la température sur l’épaisseur des couches de pression et ne transforme pas la référence en QFE.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "Correct QNH does not remove temperature effects on pressure-layer thickness or turn the reference into QFE.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C03",
+      "concept_title": "Pression et température réelles",
+      "level": 3,
+      "question": "Une procédure requiert une correction de basse température. Quelle méthode retenir ?",
+      "question_en": "A procedure requires cold-temperature correction. Which method should be used?",
+      "options": [
+        "La méthode publiée pour les altitudes concernées",
+        "Augmenter arbitrairement le QNH de toute l’approche",
+        "Appliquer 27 ft par degré Celsius",
+        "Remplacer les altitudes par des hauteurs radioaltimétriques"
+      ],
+      "options_en": [
+        "The published method for the affected altitudes",
+        "Arbitrarily raise QNH for the whole approach",
+        "Apply 27 ft per degree Celsius",
+        "Replace altitudes with radio-altimeter heights"
+      ],
+      "correct_answer": "La méthode publiée pour les altitudes concernées",
+      "explanation": "27 ft/hPa concerne le calage, pas la température. Changer de repère ou de grandeur ne remplace pas la correction publiée.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "27 ft/hPa concerns setting, not temperature. Changing datum or quantity does not replace the published correction.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C04",
+      "concept_title": "Identifier une obstruction statique",
+      "level": 3,
+      "question": "Statique piégée à 5 000 ft, calage inchangé, avion maintenant à 6 000 ft. Dans ce modèle classique, que fait l’altimètre ?",
+      "question_en": "Static trapped at 5,000 ft, unchanged setting, aircraft now at 6,000 ft. In this conventional model, what does the altimeter do?",
+      "options": [
+        "Il suit la montée avec un retard constant",
+        "Il revient progressivement à zéro",
+        "Il affiche l’altitude-pression correcte malgré le blocage",
+        "Il reste à l’indication du blocage"
+      ],
+      "options_en": [
+        "It follows the climb with constant lag",
+        "It gradually returns to zero",
+        "It shows correct pressure altitude despite blockage",
+        "It stays at the blockage indication"
+      ],
+      "correct_answer": "Il reste à l’indication du blocage",
+      "explanation": "La pression appliquée et le calage restent fixes. Une indication figée ne doit pas être confondue avec un décalage qui continuerait à suivre la montée.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "Applied pressure and setting remain fixed. A frozen indication is not an offset that continues to follow the climb.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C04",
+      "concept_title": "Identifier une obstruction statique",
+      "level": 3,
+      "question": "La statique d’un variomètre classique est entièrement piégée. Après le transitoire, que peut-il indiquer malgré une montée réelle ?",
+      "question_en": "A conventional VSI has fully trapped static pressure. After the transient, what may it indicate despite an actual climb?",
+      "options": [
+        "Le dernier taux de montée indéfiniment",
+        "Un taux de descente égal au taux réel de montée",
+        "Zéro",
+        "Le taux réel de montée"
+      ],
+      "options_en": [
+        "The last climb rate indefinitely",
+        "A descent rate equal to actual climb rate",
+        "Zero",
+        "Actual climb rate"
+      ],
+      "correct_answer": "Zéro",
+      "explanation": "Après égalisation interne, il n’y a plus de variation de pression à mesurer. Ne pas confondre ce comportement avec l’altimètre figé.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "After internal equalisation, no pressure change remains to measure. Do not confuse this behaviour with the frozen altimeter.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C04",
+      "concept_title": "Identifier une obstruction statique",
+      "level": 3,
+      "question": "Statique piégée à 5 000 ft, Pitot libre. Après 7 000 ft, l’avion descend à 6 000 ft. Atmosphère stable : erreur de vitesse par rapport à une statique correcte ?",
+      "question_en": "Static trapped at 5,000 ft, pitot open. After reaching 7,000 ft, the aircraft descends to 6,000 ft. Stable atmosphere: airspeed error compared with correct static pressure?",
+      "options": [
+        "Erreur indépendante de l’altitude du blocage",
+        "Sous-indication",
+        "Surindication",
+        "Aucune erreur car l’avion descend"
+      ],
+      "options_en": [
+        "Error independent of blockage altitude",
+        "Underreading",
+        "Overreading",
+        "No error because the aircraft descends"
+      ],
+      "correct_answer": "Sous-indication",
+      "explanation": "6 000 ft reste au-dessus de 5 000 ft : statique piégée trop élevée, différence mesurée trop faible. Le sens de déplacement ne suffit pas à conclure.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "6,000 ft remains above 5,000 ft: trapped static too high, measured difference too small. Direction of motion alone cannot determine the error.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C04",
+      "concept_title": "Identifier une obstruction statique",
+      "level": 3,
+      "question": "Statique piégée à 5 000 ft, Pitot libre, avion à 4 000 ft. Atmosphère stable : erreur de vitesse par rapport à une statique correcte ?",
+      "question_en": "Static trapped at 5,000 ft, pitot open, aircraft at 4,000 ft. Stable atmosphere: airspeed error compared with correct static pressure?",
+      "options": [
+        "Surindication",
+        "Sous-indication",
+        "Aucune erreur car le Pitot est libre",
+        "Vitesse nécessairement figée à celle du blocage"
+      ],
+      "options_en": [
+        "Overreading",
+        "Underreading",
+        "No error because the pitot is open",
+        "Airspeed necessarily frozen at blockage value"
+      ],
+      "correct_answer": "Surindication",
+      "explanation": "Au-dessous du blocage, statique piégée trop faible et différence mesurée trop grande. Un Pitot libre ne corrige pas une référence statique erronée.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "Below blockage altitude, trapped static is too low and measured difference too large. An open pitot cannot correct an erroneous static reference.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C04",
+      "concept_title": "Identifier une obstruction statique",
+      "level": 3,
+      "question": "Après sélection d’une statique de secours, les indications changent légèrement. Quelle interprétation retenir ?",
+      "question_en": "After selecting alternate static, indications change slightly. Which interpretation is appropriate?",
+      "options": [
+        "Tout changement prouve une panne de la source de secours",
+        "Les indications deviennent exactes sans correction",
+        "Il faut toujours modifier le QNH d’une valeur fixe",
+        "La nouvelle source peut nécessiter les corrections du manuel"
+      ],
+      "options_en": [
+        "Any change proves the alternate source has failed",
+        "Indications become exact without correction",
+        "QNH must always be changed by a fixed amount",
+        "The new source may require manual corrections"
+      ],
+      "correct_answer": "La nouvelle source peut nécessiter les corrections du manuel",
+      "explanation": "La pression dépend de l’installation : utiliser ses corrections et sa procédure. Le changement seul ne prouve ni exactitude parfaite ni panne certaine.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "Pressure depends on the installation: use its corrections and procedure. Change alone proves neither perfect accuracy nor definite failure.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "IR_022_001_C04",
+      "concept_title": "Identifier une obstruction statique",
+      "level": 3,
+      "question": "Une procédure impose une altitude barométrique AMSL. Peut-on y substituer directement une hauteur radioaltimétrique fiable ?",
+      "question_en": "A procedure specifies barometric AMSL altitude. Can a reliable radio-altimeter height be substituted directly?",
+      "options": [
+        "Oui, si le QNH a été confirmé",
+        "Oui, en descente stabilisée",
+        "Non, les repères diffèrent",
+        "Oui, une mesure fiable a toujours le même repère"
+      ],
+      "options_en": [
+        "Yes, if QNH has been confirmed",
+        "Yes, in a steady descent",
+        "No, the datums differ",
+        "Yes, a reliable measurement always has the same datum"
+      ],
+      "correct_answer": "Non, les repères diffèrent",
+      "explanation": "La radioaltimétrie mesure une hauteur terrain. Fiabilité de la mesure et pertinence de la grandeur sont deux vérifications différentes.\n\n![IR_022_001](/illustrations/ir-022-001.svg)",
+      "explanation_en": "Radio altimetry measures terrain height. Measurement reliability and relevance of the quantity are separate checks.\n\n![IR_022_001](/illustrations/en/ir-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/10_phak_ch8.pdf",
+        "https://www.faa.gov/air_traffic/publications/aim_html/chap7_section_2.html"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    }
+  ]
+}

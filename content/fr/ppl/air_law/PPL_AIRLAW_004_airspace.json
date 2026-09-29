@@ -1,0 +1,577 @@
+{
+  "metadata": {
+    "module_id": "PPL_AIRLAW_004",
+    "program": "PPL",
+    "subject": "Air Law",
+    "chapter_title": "Espaces aériens et conditions d’accès",
+    "chapter_title_en": "Airspace and access requirements",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: a volume, not a line; preparing a crossing; example of a vertical boundary.",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "tags": [
+      "air_law",
+      "PPL"
+    ],
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : un volume, pas une ligne; préparer une traversée; exemple de limite verticale.",
+    "estimated_duration_minutes": 10,
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "EASA — SERA, règles de l’air",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "EASA — Aircrew, Part-FCL",
+        "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+      },
+      {
+        "title": "SIA — informations aéronautiques françaises",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-airlaw-004.svg",
+      "alt": "Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier."
+    },
+    "exam_subject": "airlaw",
+    "coverage_status": "partial"
+  },
+  "concepts": [
+    {
+      "concept_id": "PPL_AIRLAW_004_C01",
+      "title": "Un volume, pas une ligne",
+      "title_en": "A volume, not a line",
+      "content": "![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)\n\nUn espace aérien se définit par des limites horizontales et verticales ainsi que, parfois, une période d'activité. Sa classe précise les règles d'accès et les services fournis aux différents vols. Les classes A à G ne sont pas toutes utilisées partout. Les espaces à statut particulier, comme une zone interdite ou réglementée, ajoutent des contraintes distinctes de la classe.",
+      "content_en": "![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)\n\nAirspace is defined by horizontal and vertical boundaries and sometimes a period of activity. Its class specifies access rules and the services provided to different flights. Classes A to G are not all used everywhere. Special-use areas, such as prohibited or restricted areas, impose constraints separate from airspace classification.",
+      "difficulty": "beginner",
+      "tags": [
+        "air_law",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Un volume, pas une ligne"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C02",
+      "title": "Préparer une traversée",
+      "title_en": "Preparing a crossing",
+      "content": "Sur la carte et dans l'AIP, identifier classe, plancher, plafond, fréquence et conditions d'accès. Vérifier les NOTAM et l'activité lorsque nécessaire. En classe D, une entrée en VFR nécessite une clairance ; établir le contact radio ne suffit pas à l'obtenir. Un espace non contrôlé ne signifie pas absence de règles ni absence de trafic.",
+      "content_en": "Use the chart and AIP to identify the class, lower and upper limits, frequency and entry conditions. Check NOTAMs and activity when required. VFR entry into Class D requires a clearance; establishing radio contact does not provide one. Uncontrolled airspace does not mean an absence of rules or traffic.",
+      "difficulty": "beginner",
+      "tags": [
+        "air_law",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Préparer une traversée"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C03",
+      "title": "Exemple de limite verticale",
+      "title_en": "Example of a vertical boundary",
+      "content": "Une zone commence à 2 500 ft d'altitude : voler à cette valeur ne constitue pas une marge de contournement fiable. Les erreurs de calage, de tenue et la référence verticale doivent être prises en compte. Préparer soit une demande de clairance, soit une route de rechange suffisamment éloignée des limites. Une autorisation doit être claire et compatible avec les conditions VFR.",
+      "content_en": "An area begins at an altitude of 2,500 ft: flying exactly at that value does not provide a reliable avoidance margin. Allow for setting errors, height-keeping errors and the vertical reference. Prepare either a clearance request or an alternative route sufficiently clear of the boundaries. Any clearance must be unambiguous and compatible with VFR conditions.",
+      "difficulty": "beginner",
+      "tags": [
+        "air_law",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "learning_objective": "Exemple de limite verticale"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AIRLAW_004_C01",
+      "concept_title": "Un volume, pas une ligne",
+      "level": 1,
+      "question": "Un simple contact radio vaut-il clairance d'entrée en classe D ?",
+      "question_en": "Does radio contact alone constitute a clearance to enter Class D?",
+      "options": [
+        "Oui avec un transpondeur",
+        "Oui si le contrôleur donne le QNH",
+        "Non",
+        "Oui"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Le contact et la clairance sont deux éléments distincts.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "Contact and clearance are two separate things.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "air_law",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes, with a transponder",
+        "Yes, if the controller gives the QNH",
+        "No",
+        "Yes"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C02",
+      "concept_title": "Préparer une traversée",
+      "level": 1,
+      "question": "Un espace non contrôlé est-il sans règles ?",
+      "question_en": "Does uncontrolled airspace have no rules?",
+      "options": [
+        "Oui le jour",
+        "Non",
+        "Oui",
+        "Oui pour les avions légers"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Les règles de l'air et les restrictions applicables demeurent.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "The rules of the air and applicable restrictions still apply.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "air_law",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes, by day",
+        "No",
+        "Yes",
+        "Yes, for light aircraft"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C03",
+      "concept_title": "Exemple de limite verticale",
+      "level": 1,
+      "question": "Que faut-il lire en plus des limites latérales d'un espace ?",
+      "question_en": "What must you read as well as the lateral boundaries of an airspace?",
+      "options": [
+        "Ses limites verticales et conditions d'activité",
+        "Uniquement sa couleur",
+        "Le prix du carburant",
+        "Le nom du constructeur"
+      ],
+      "correct_answer": "Ses limites verticales et conditions d'activité",
+      "explanation": "Un espace est un volume soumis à des conditions d'utilisation.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "Airspace is a volume subject to conditions of use.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "air_law",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Its vertical limits and conditions of activity",
+        "Only its colour",
+        "The fuel price",
+        "The manufacturer's name"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C01",
+      "concept_title": "Un volume, pas une ligne",
+      "level": 2,
+      "question": "Une zone réglementée apparaît à l'intérieur d'un espace non contrôlé. Que faut-il vérifier ?",
+      "question_en": "A restricted area lies within uncontrolled airspace. What must you check?",
+      "options": [
+        "Seulement la classe de l'espace environnant",
+        "Seulement la fréquence du terrain de départ",
+        "Uniquement la visibilité au sol",
+        "Ses conditions et périodes d'activité propres"
+      ],
+      "correct_answer": "Ses conditions et périodes d'activité propres",
+      "explanation": "Le statut particulier de la zone ajoute des contraintes à celles de la classe d'espace. Il faut vérifier ses conditions d'accès et son activité dans les publications applicables.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "The area's special status adds constraints to those of its airspace class. Check its entry conditions and activity in the applicable publications.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "air_law",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Only the class of surrounding airspace",
+        "Only the departure aerodrome frequency",
+        "Only ground visibility",
+        "The area's own conditions and periods of activity"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C03",
+      "concept_title": "Exemple de limite verticale",
+      "level": 2,
+      "question": "Un espace commence à 2 500 ft d'altitude. Quelle préparation offre une marge de contournement ?",
+      "question_en": "An airspace begins at an altitude of 2,500 ft. Which preparation provides an avoidance margin?",
+      "options": [
+        "Utiliser 2 500 ft GNSS sans vérifier la référence",
+        "Suivre la limite sans tenir compte du calage",
+        "Prévoir une route suffisamment éloignée des limites",
+        "Viser exactement 2 500 ft au QNH"
+      ],
+      "correct_answer": "Prévoir une route suffisamment éloignée des limites",
+      "explanation": "Voler exactement sur une limite ne laisse pas de marge aux erreurs de calage, de lecture ou de tenue. Une route de rechange doit tenir compte de la référence verticale publiée.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "Flying exactly on a boundary leaves no margin for setting, reading or height-keeping errors. An alternative route must account for the published vertical reference.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "air_law",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Use 2,500 ft GNSS without checking the reference",
+        "Follow the boundary without considering the altimeter setting",
+        "Plan a route sufficiently clear of the boundaries",
+        "Aim for exactly 2,500 ft on QNH"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C01",
+      "concept_title": "Un volume, pas une ligne",
+      "level": 2,
+      "question": "Vrai ou faux ? Un espace aérien se définit aussi par ses limites verticales.",
+      "question_en": "True or false? Airspace is also defined by its vertical limits.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn espace aérien se définit par des limites horizontales et verticales ainsi que, parfois, une période d'activité. Sa classe précise les règles d'accès et les services fournis aux différents vols. Les classes A à G ne sont pas toutes utilisées partout. Les espaces à statut particulier, comme une zone interdite ou réglementée, ajoutent des contraintes distinctes de la classe.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "This statement is true.\n\nAirspace is defined by horizontal and vertical boundaries and sometimes a period of activity. Its class specifies access rules and the services provided to different flights. Classes A to G are not all used everywhere. Special-use areas, such as prohibited or restricted areas, impose constraints separate from airspace classification.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C01",
+      "concept_title": "Un volume, pas une ligne",
+      "level": 2,
+      "question": "Vrai ou faux ? Toutes les classes A à G sont utilisées de manière identique partout.",
+      "question_en": "True or false? All classes A to G are used identically everywhere.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn espace aérien se définit par des limites horizontales et verticales ainsi que, parfois, une période d'activité. Sa classe précise les règles d'accès et les services fournis aux différents vols. Les classes A à G ne sont pas toutes utilisées partout. Les espaces à statut particulier, comme une zone interdite ou réglementée, ajoutent des contraintes distinctes de la classe.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "This statement is false.\n\nAirspace is defined by horizontal and vertical boundaries and sometimes a period of activity. Its class specifies access rules and the services provided to different flights. Classes A to G are not all used everywhere. Special-use areas, such as prohibited or restricted areas, impose constraints separate from airspace classification.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C01",
+      "concept_title": "Un volume, pas une ligne",
+      "level": 2,
+      "question": "Vrai ou faux ? Une zone à statut particulier peut ajouter des contraintes distinctes de la classe.",
+      "question_en": "True or false? A special-use area may add constraints separate from the class.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn espace aérien se définit par des limites horizontales et verticales ainsi que, parfois, une période d'activité. Sa classe précise les règles d'accès et les services fournis aux différents vols. Les classes A à G ne sont pas toutes utilisées partout. Les espaces à statut particulier, comme une zone interdite ou réglementée, ajoutent des contraintes distinctes de la classe.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "This statement is true.\n\nAirspace is defined by horizontal and vertical boundaries and sometimes a period of activity. Its class specifies access rules and the services provided to different flights. Classes A to G are not all used everywhere. Special-use areas, such as prohibited or restricted areas, impose constraints separate from airspace classification.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C02",
+      "concept_title": "Préparer une traversée",
+      "level": 2,
+      "question": "Vrai ou faux ? Recevoir un QNH constitue toujours une autorisation d'entrée en classe D.",
+      "question_en": "True or false? Receiving QNH always constitutes a Class D entry clearance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSur la carte et dans l'AIP, identifier classe, plancher, plafond, fréquence et conditions d'accès. Vérifier les NOTAM et l'activité lorsque nécessaire. En classe D, une entrée en VFR nécessite une clairance ; établir le contact radio ne suffit pas à l'obtenir. Un espace non contrôlé ne signifie pas absence de règles ni absence de trafic.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "This statement is false.\n\nUse the chart and AIP to identify the class, lower and upper limits, frequency and entry conditions. Check NOTAMs and activity when required. VFR entry into Class D requires a clearance; establishing radio contact does not provide one. Uncontrolled airspace does not mean an absence of rules or traffic.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C02",
+      "concept_title": "Préparer une traversée",
+      "level": 2,
+      "question": "Vrai ou faux ? Les NOTAM peuvent être nécessaires pour connaître l'activité d'une zone.",
+      "question_en": "True or false? NOTAMs may be needed to determine an area's activity.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nSur la carte et dans l'AIP, identifier classe, plancher, plafond, fréquence et conditions d'accès. Vérifier les NOTAM et l'activité lorsque nécessaire. En classe D, une entrée en VFR nécessite une clairance ; établir le contact radio ne suffit pas à l'obtenir. Un espace non contrôlé ne signifie pas absence de règles ni absence de trafic.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "This statement is true.\n\nUse the chart and AIP to identify the class, lower and upper limits, frequency and entry conditions. Check NOTAMs and activity when required. VFR entry into Class D requires a clearance; establishing radio contact does not provide one. Uncontrolled airspace does not mean an absence of rules or traffic.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C02",
+      "concept_title": "Préparer une traversée",
+      "level": 2,
+      "question": "Vrai ou faux ? L'absence de contrôle signifie forcément absence de trafic.",
+      "question_en": "True or false? Absence of control necessarily means absence of traffic.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSur la carte et dans l'AIP, identifier classe, plancher, plafond, fréquence et conditions d'accès. Vérifier les NOTAM et l'activité lorsque nécessaire. En classe D, une entrée en VFR nécessite une clairance ; établir le contact radio ne suffit pas à l'obtenir. Un espace non contrôlé ne signifie pas absence de règles ni absence de trafic.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "This statement is false.\n\nUse the chart and AIP to identify the class, lower and upper limits, frequency and entry conditions. Check NOTAMs and activity when required. VFR entry into Class D requires a clearance; establishing radio contact does not provide one. Uncontrolled airspace does not mean an absence of rules or traffic.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C03",
+      "concept_title": "Exemple de limite verticale",
+      "level": 2,
+      "question": "Vrai ou faux ? Une marge verticale doit tenir compte des erreurs de tenue de hauteur.",
+      "question_en": "True or false? A vertical margin must account for height-keeping errors.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne zone commence à 2 500 ft d'altitude : voler à cette valeur ne constitue pas une marge de contournement fiable. Les erreurs de calage, de tenue et la référence verticale doivent être prises en compte. Préparer soit une demande de clairance, soit une route de rechange suffisamment éloignée des limites. Une autorisation doit être claire et compatible avec les conditions VFR.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "This statement is true.\n\nAn area begins at an altitude of 2,500 ft: flying exactly at that value does not provide a reliable avoidance margin. Allow for setting errors, height-keeping errors and the vertical reference. Prepare either a clearance request or an alternative route sufficiently clear of the boundaries. Any clearance must be unambiguous and compatible with VFR conditions.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C03",
+      "concept_title": "Exemple de limite verticale",
+      "level": 2,
+      "question": "Vrai ou faux ? Voler exactement sur une limite publiée garantit d'éviter l'espace.",
+      "question_en": "True or false? Flying exactly on a published boundary guarantees avoiding the airspace.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne zone commence à 2 500 ft d'altitude : voler à cette valeur ne constitue pas une marge de contournement fiable. Les erreurs de calage, de tenue et la référence verticale doivent être prises en compte. Préparer soit une demande de clairance, soit une route de rechange suffisamment éloignée des limites. Une autorisation doit être claire et compatible avec les conditions VFR.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "This statement is false.\n\nAn area begins at an altitude of 2,500 ft: flying exactly at that value does not provide a reliable avoidance margin. Allow for setting errors, height-keeping errors and the vertical reference. Prepare either a clearance request or an alternative route sufficiently clear of the boundaries. Any clearance must be unambiguous and compatible with VFR conditions.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C03",
+      "concept_title": "Exemple de limite verticale",
+      "level": 2,
+      "question": "Vrai ou faux ? Une route alternative doit être préparée si l'autorisation n'est pas obtenue.",
+      "question_en": "True or false? An alternative route should be prepared if clearance is not obtained.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne zone commence à 2 500 ft d'altitude : voler à cette valeur ne constitue pas une marge de contournement fiable. Les erreurs de calage, de tenue et la référence verticale doivent être prises en compte. Préparer soit une demande de clairance, soit une route de rechange suffisamment éloignée des limites. Une autorisation doit être claire et compatible avec les conditions VFR.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "This statement is true.\n\nAn area begins at an altitude of 2,500 ft: flying exactly at that value does not provide a reliable avoidance margin. Allow for setting errors, height-keeping errors and the vertical reference. Prepare either a clearance request or an alternative route sufficiently clear of the boundaries. Any clearance must be unambiguous and compatible with VFR conditions.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    },
+    {
+      "concept_id": "PPL_AIRLAW_004_C03",
+      "concept_title": "Exemple de limite verticale",
+      "level": 2,
+      "question": "Vrai ou faux ? Une clairance autorise à ignorer les conditions météorologiques du vol VFR.",
+      "question_en": "True or false? A clearance permits ignoring VFR weather conditions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne zone commence à 2 500 ft d'altitude : voler à cette valeur ne constitue pas une marge de contournement fiable. Les erreurs de calage, de tenue et la référence verticale doivent être prises en compte. Préparer soit une demande de clairance, soit une route de rechange suffisamment éloignée des limites. Une autorisation doit être claire et compatible avec les conditions VFR.\n\n![Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier.](/illustrations/ppl-airlaw-004.svg)",
+      "explanation_en": "This statement is false.\n\nAn area begins at an altitude of 2,500 ft: flying exactly at that value does not provide a reliable avoidance margin. Allow for setting errors, height-keeping errors and the vertical reference. Prepare either a clearance request or an alternative route sufficiently clear of the boundaries. Any clearance must be unambiguous and compatible with VFR conditions.\n\n![Diagram: Airspace and access requirements](/illustrations/en/ppl-airlaw-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/"
+      ]
+    }
+  ]
+}

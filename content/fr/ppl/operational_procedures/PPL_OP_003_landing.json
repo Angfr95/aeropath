@@ -5,13 +5,583 @@
     "subject": "Operational Procedures",
     "chapter_title": "Approche et atterrissage",
     "chapter_title_en": "Approach and Landing",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : construire une approche stable; vent, piste et turbulence de sillage; décision de remise de gaz.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: building a stable approach; wind, runway and wake turbulence; the go-around decision.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 25,
-    "prerequisites": ["PPL_OP_002"],
-    "tags": ["approach", "landing", "circuit", "flaps", "go-around"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_OP_002"
+    ],
+    "tags": [
+      "approach",
+      "landing",
+      "circuit",
+      "flaps",
+      "go-around"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — Airplane Flying Handbook",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+      },
+      {
+        "title": "EASA — SERA",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-op-003.svg",
+      "alt": "Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage."
+    },
+    "exam_subject": "operational_procedures",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_OP_003_C01",
+      "title": "Construire une approche stable",
+      "title_en": "Building a stable approach",
+      "content": "![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)\n\nUne approche préparée permet d'établir configuration, vitesse et trajectoire à temps. Les valeurs proviennent du manuel et de l'instruction sur type. Surveiller la pente, l'axe, l'énergie et le point d'aboutissement. Une correction tardive importante peut indiquer qu'il vaut mieux interrompre l'approche que chercher à sauver l'atterrissage.",
+      "content_en": "![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)\n\nA prepared approach establishes configuration, speed and flight path in good time. Values come from the manual and training on type. Monitor slope, centreline, energy and aiming point. A large late correction may indicate that discontinuing the approach is preferable to trying to salvage the landing.",
+      "difficulty": "intermediate",
+      "tags": [
+        "approach",
+        "landing",
+        "circuit",
+        "flaps",
+        "go-around"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "learning_objective": "Construire une approche stable"
+    },
+    {
+      "concept_id": "PPL_OP_003_C02",
+      "title": "Vent, piste et turbulence de sillage",
+      "title_en": "Wind, runway and wake turbulence",
+      "content": "Le vent traversier, les rafales et l'état de piste influencent la technique et la distance d'arrêt. Les turbulences de sillage sont particulièrement à considérer derrière un aéronef plus lourd. La trajectoire de l'avion précédent et le vent aident à comprendre le risque, mais les espacements et instructions applicables restent nécessaires.",
+      "content_en": "Crosswind, gusts and runway condition affect technique and stopping distance. Consider wake turbulence particularly behind a heavier aircraft. The preceding aircraft's path and the wind help explain the risk, but applicable spacing and instructions remain necessary.",
+      "difficulty": "intermediate",
+      "tags": [
+        "approach",
+        "landing",
+        "circuit",
+        "flaps",
+        "go-around"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "learning_objective": "Vent, piste et turbulence de sillage"
+    },
+    {
+      "concept_id": "PPL_OP_003_C03",
+      "title": "Décision de remise de gaz",
+      "title_en": "The go-around decision",
+      "content": "Un avion trop haut et trop rapide en courte finale possède trop d'énergie. Une piste longue ne justifie pas automatiquement la poursuite. Appliquer les critères de stabilisation retenus avec l'instructeur. La remise de gaz est une manœuvre normale, à exécuter selon la séquence du manuel et les instructions de circulation aérienne compatibles avec la sécurité.",
+      "content_en": "An aircraft that is too high and too fast on short final has excess energy. A long runway does not automatically justify continuing. Apply the stabilisation criteria agreed with the instructor. A go-around is a normal manoeuvre, performed according to the manual's sequence and air traffic instructions compatible with safety.",
+      "difficulty": "intermediate",
+      "tags": [
+        "approach",
+        "landing",
+        "circuit",
+        "flaps",
+        "go-around"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "learning_objective": "Décision de remise de gaz"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_OP_003_C01",
+      "concept_title": "Construire une approche stable",
+      "level": 1,
+      "question": "Que cherche une approche stabilisée ?",
+      "question_en": "What does a stabilised approach seek?",
+      "options": [
+        "Une trajectoire, une vitesse et une configuration maîtrisées",
+        "La vitesse la plus élevée",
+        "Le toucher le plus loin possible",
+        "Une descente sans surveillance"
+      ],
+      "correct_answer": "Une trajectoire, une vitesse et une configuration maîtrisées",
+      "explanation": "La stabilité réduit les corrections tardives et les écarts d'énergie.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "Stability reduces late corrections and energy deviations.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "approach",
+        "landing",
+        "circuit",
+        "flaps",
+        "go-around",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "A controlled flight path, speed and configuration",
+        "The highest possible speed",
+        "The latest possible touchdown",
+        "A descent without monitoring"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C02",
+      "concept_title": "Vent, piste et turbulence de sillage",
+      "level": 1,
+      "question": "Une remise de gaz est-elle un échec à éviter à tout prix ?",
+      "question_en": "Is a go-around a failure to avoid at all costs?",
+      "options": [
+        "Oui",
+        "Oui avec des passagers",
+        "Oui sur un grand terrain",
+        "Non"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Elle fait partie des options normales de sécurité.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "It is one of the normal safety options.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "approach",
+        "landing",
+        "circuit",
+        "flaps",
+        "go-around",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Yes",
+        "Yes, with passengers",
+        "Yes, at a large aerodrome",
+        "No"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C03",
+      "concept_title": "Décision de remise de gaz",
+      "level": 1,
+      "question": "Pourquoi considérer le sillage d'un avion lourd ?",
+      "question_en": "Why consider a heavy aircraft's wake?",
+      "options": [
+        "Il augmente la longueur de piste",
+        "Il garantit une meilleure portance",
+        "Il peut créer des tourbillons dangereux",
+        "Il supprime le vent traversier"
+      ],
+      "correct_answer": "Il peut créer des tourbillons dangereux",
+      "explanation": "Les tourbillons peuvent perturber fortement un avion léger.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "The vortices can seriously disturb a light aircraft.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "approach",
+        "landing",
+        "circuit",
+        "flaps",
+        "go-around",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "It increases runway length",
+        "It guarantees better lift",
+        "It may create hazardous vortices",
+        "It removes crosswind"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C03",
+      "concept_title": "Décision de remise de gaz",
+      "level": 2,
+      "question": "En courte finale, l'avion reste trop haut et trop rapide par rapport aux critères préparés. Quelle option faut-il considérer ?",
+      "question_en": "On short final, the aircraft remains too high and fast against the prepared criteria. Which option should be considered?",
+      "options": [
+        "L'ignorance des critères puisque le sol est visible",
+        "La remise de gaz selon les critères et la procédure du type",
+        "La poursuite systématique dès que la piste paraît longue",
+        "Une forte correction improvisée pour sauver l'atterrissage"
+      ],
+      "correct_answer": "La remise de gaz selon les critères et la procédure du type",
+      "explanation": "Une approche non stabilisée peut conserver trop d'énergie. Les critères préparés avec l'instructeur servent à décider d'une remise de gaz avant de chercher à forcer l'atterrissage.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "An unstabilised approach may retain excess energy. Criteria prepared with the instructor support a go-around decision before trying to force the landing.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "approach",
+        "landing",
+        "circuit",
+        "flaps",
+        "go-around",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Ignoring the criteria because the ground is visible",
+        "Going around using the criteria and type-specific procedure",
+        "Always continuing if the runway looks long",
+        "An improvised large correction to salvage the landing"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C02",
+      "concept_title": "Vent, piste et turbulence de sillage",
+      "level": 2,
+      "question": "Pourquoi réévaluer l'atterrissage si le vent et l'état de piste ont changé ?",
+      "question_en": "Why reassess landing if wind and runway condition have changed?",
+      "options": [
+        "Ils influencent la technique et la distance d'arrêt",
+        "Ils ne modifient que la couleur de la piste",
+        "Ils n'ont d'effet qu'après l'arrêt complet",
+        "Une approche commencée interdit de réévaluer ces paramètres"
+      ],
+      "correct_answer": "Ils influencent la technique et la distance d'arrêt",
+      "explanation": "Vent, rafales et surface influencent les conditions d'atterrissage. Les hypothèses préparées doivent rester compatibles avec les conditions réellement rencontrées.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "Wind, gusts and surface affect landing conditions. Prepared assumptions must remain compatible with the conditions actually encountered.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "approach",
+        "landing",
+        "circuit",
+        "flaps",
+        "go-around",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "They affect technique and stopping distance",
+        "They change only the runway colour",
+        "They matter only after a complete stop",
+        "Starting an approach prevents reassessment"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C01",
+      "concept_title": "Construire une approche stable",
+      "level": 2,
+      "question": "Vrai ou faux ? Le point d'aboutissement participe au contrôle de l'approche.",
+      "question_en": "True or false? The aiming point is part of approach monitoring.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne approche préparée permet d'établir configuration, vitesse et trajectoire à temps. Les valeurs proviennent du manuel et de l'instruction sur type. Surveiller la pente, l'axe, l'énergie et le point d'aboutissement. Une correction tardive importante peut indiquer qu'il vaut mieux interrompre l'approche que chercher à sauver l'atterrissage.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "This statement is true.\n\nA prepared approach establishes configuration, speed and flight path in good time. Values come from the manual and training on type. Monitor slope, centreline, energy and aiming point. A large late correction may indicate that discontinuing the approach is preferable to trying to salvage the landing.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C01",
+      "concept_title": "Construire une approche stable",
+      "level": 2,
+      "question": "Vrai ou faux ? Une grande correction tardive est toujours préférable à interrompre l'approche.",
+      "question_en": "True or false? A large late correction is always preferable to discontinuing an approach.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne approche préparée permet d'établir configuration, vitesse et trajectoire à temps. Les valeurs proviennent du manuel et de l'instruction sur type. Surveiller la pente, l'axe, l'énergie et le point d'aboutissement. Une correction tardive importante peut indiquer qu'il vaut mieux interrompre l'approche que chercher à sauver l'atterrissage.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "This statement is false.\n\nA prepared approach establishes configuration, speed and flight path in good time. Values come from the manual and training on type. Monitor slope, centreline, energy and aiming point. A large late correction may indicate that discontinuing the approach is preferable to trying to salvage the landing.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C01",
+      "concept_title": "Construire une approche stable",
+      "level": 2,
+      "question": "Vrai ou faux ? La configuration doit être établie suffisamment tôt.",
+      "question_en": "True or false? Configuration should be established in good time.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne approche préparée permet d'établir configuration, vitesse et trajectoire à temps. Les valeurs proviennent du manuel et de l'instruction sur type. Surveiller la pente, l'axe, l'énergie et le point d'aboutissement. Une correction tardive importante peut indiquer qu'il vaut mieux interrompre l'approche que chercher à sauver l'atterrissage.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "This statement is true.\n\nA prepared approach establishes configuration, speed and flight path in good time. Values come from the manual and training on type. Monitor slope, centreline, energy and aiming point. A large late correction may indicate that discontinuing the approach is preferable to trying to salvage the landing.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C02",
+      "concept_title": "Vent, piste et turbulence de sillage",
+      "level": 2,
+      "question": "Vrai ou faux ? Une piste mouillée ne peut pas affecter la distance d'arrêt.",
+      "question_en": "True or false? A wet runway cannot affect stopping distance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe vent traversier, les rafales et l'état de piste influencent la technique et la distance d'arrêt. Les turbulences de sillage sont particulièrement à considérer derrière un aéronef plus lourd. La trajectoire de l'avion précédent et le vent aident à comprendre le risque, mais les espacements et instructions applicables restent nécessaires.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "This statement is false.\n\nCrosswind, gusts and runway condition affect technique and stopping distance. Consider wake turbulence particularly behind a heavier aircraft. The preceding aircraft's path and the wind help explain the risk, but applicable spacing and instructions remain necessary.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C02",
+      "concept_title": "Vent, piste et turbulence de sillage",
+      "level": 2,
+      "question": "Vrai ou faux ? La trajectoire de l'avion précédent aide à comprendre le risque de sillage.",
+      "question_en": "True or false? The preceding aircraft's flight path helps assess wake risk.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe vent traversier, les rafales et l'état de piste influencent la technique et la distance d'arrêt. Les turbulences de sillage sont particulièrement à considérer derrière un aéronef plus lourd. La trajectoire de l'avion précédent et le vent aident à comprendre le risque, mais les espacements et instructions applicables restent nécessaires.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "This statement is true.\n\nCrosswind, gusts and runway condition affect technique and stopping distance. Consider wake turbulence particularly behind a heavier aircraft. The preceding aircraft's path and the wind help explain the risk, but applicable spacing and instructions remain necessary.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C02",
+      "concept_title": "Vent, piste et turbulence de sillage",
+      "level": 2,
+      "question": "Vrai ou faux ? Les informations sur le sillage suppriment la nécessité de respecter les espacements applicables.",
+      "question_en": "True or false? Wake information removes the need to observe applicable spacing.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe vent traversier, les rafales et l'état de piste influencent la technique et la distance d'arrêt. Les turbulences de sillage sont particulièrement à considérer derrière un aéronef plus lourd. La trajectoire de l'avion précédent et le vent aident à comprendre le risque, mais les espacements et instructions applicables restent nécessaires.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "This statement is false.\n\nCrosswind, gusts and runway condition affect technique and stopping distance. Consider wake turbulence particularly behind a heavier aircraft. The preceding aircraft's path and the wind help explain the risk, but applicable spacing and instructions remain necessary.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C03",
+      "concept_title": "Décision de remise de gaz",
+      "level": 2,
+      "question": "Vrai ou faux ? Un avion trop haut et trop rapide en courte finale possède un excès d'énergie.",
+      "question_en": "True or false? An aircraft too high and fast on short final has excess energy.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn avion trop haut et trop rapide en courte finale possède trop d'énergie. Une piste longue ne justifie pas automatiquement la poursuite. Appliquer les critères de stabilisation retenus avec l'instructeur. La remise de gaz est une manœuvre normale, à exécuter selon la séquence du manuel et les instructions de circulation aérienne compatibles avec la sécurité.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "This statement is true.\n\nAn aircraft that is too high and too fast on short final has excess energy. A long runway does not automatically justify continuing. Apply the stabilisation criteria agreed with the instructor. A go-around is a normal manoeuvre, performed according to the manual's sequence and air traffic instructions compatible with safety.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C03",
+      "concept_title": "Décision de remise de gaz",
+      "level": 2,
+      "question": "Vrai ou faux ? Une piste longue autorise automatiquement à poursuivre toute approche instable.",
+      "question_en": "True or false? A long runway automatically permits continuing any unstable approach.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn avion trop haut et trop rapide en courte finale possède trop d'énergie. Une piste longue ne justifie pas automatiquement la poursuite. Appliquer les critères de stabilisation retenus avec l'instructeur. La remise de gaz est une manœuvre normale, à exécuter selon la séquence du manuel et les instructions de circulation aérienne compatibles avec la sécurité.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "This statement is false.\n\nAn aircraft that is too high and too fast on short final has excess energy. A long runway does not automatically justify continuing. Apply the stabilisation criteria agreed with the instructor. A go-around is a normal manoeuvre, performed according to the manual's sequence and air traffic instructions compatible with safety.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C03",
+      "concept_title": "Décision de remise de gaz",
+      "level": 2,
+      "question": "Vrai ou faux ? La remise de gaz suit une séquence adaptée au type d'avion.",
+      "question_en": "True or false? A go-around follows a sequence appropriate to the aircraft type.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn avion trop haut et trop rapide en courte finale possède trop d'énergie. Une piste longue ne justifie pas automatiquement la poursuite. Appliquer les critères de stabilisation retenus avec l'instructeur. La remise de gaz est une manœuvre normale, à exécuter selon la séquence du manuel et les instructions de circulation aérienne compatibles avec la sécurité.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "This statement is true.\n\nAn aircraft that is too high and too fast on short final has excess energy. A long runway does not automatically justify continuing. Apply the stabilisation criteria agreed with the instructor. A go-around is a normal manoeuvre, performed according to the manual's sequence and air traffic instructions compatible with safety.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_003_C03",
+      "concept_title": "Décision de remise de gaz",
+      "level": 2,
+      "question": "Vrai ou faux ? Les critères de stabilisation doivent être inventés seulement en courte finale.",
+      "question_en": "True or false? Stabilisation criteria should be invented only on short final.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn avion trop haut et trop rapide en courte finale possède trop d'énergie. Une piste longue ne justifie pas automatiquement la poursuite. Appliquer les critères de stabilisation retenus avec l'instructeur. La remise de gaz est une manœuvre normale, à exécuter selon la séquence du manuel et les instructions de circulation aérienne compatibles avec la sécurité.\n\n![Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage.](/illustrations/ppl-op-003.svg)",
+      "explanation_en": "This statement is false.\n\nAn aircraft that is too high and too fast on short final has excess energy. A long runway does not automatically justify continuing. Apply the stabilisation criteria agreed with the instructor. A go-around is a normal manoeuvre, performed according to the manual's sequence and air traffic instructions compatible with safety.\n\n![Diagram: Approach and Landing](/illustrations/en/ppl-op-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    }
+  ]
 }

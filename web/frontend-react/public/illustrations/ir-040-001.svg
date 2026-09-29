@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">IMC : sensations et références</title><desc id="desc">IMC : sensations et références</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / IR / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">IMC : sensations et références</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">IR_040_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="85" y="235" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Sensation</text>
+<text x="485" y="235" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Piège</text>
+<text x="845" y="235" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Vérification</text>
+<text x="85" y="295" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Accélération</text>
+<text x="485" y="295" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Cabré apparent</text>
+<text x="845" y="295" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Attitude fiable</text>
+<path d="M85 309L1115 309" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="85" y="350" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Virage prolongé</text>
+<text x="485" y="350" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Rotation non perçue</text>
+<text x="845" y="350" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Balayage instrumental</text>
+<path d="M85 364L1115 364" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="85" y="405" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Indications divergentes</text>
+<text x="485" y="405" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Source commune</text>
+<text x="845" y="405" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Source indépendante</text>
+<path d="M85 419L1115 419" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="85" y="590" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Préserver la trajectoire ; recouper puis appliquer les procédures de l’avion.</text>
+</svg>

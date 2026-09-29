@@ -1,3 +1,4 @@
+import { validMeasurementSystem, type MeasurementSystem } from "@/utils/measurementSystem";
 import { create } from "zustand";
 import type { Toast, ToastType } from "@/types";
 import { DEFAULT_LANGUAGE } from "@/constants/languages";
@@ -8,6 +9,8 @@ import { DEFAULT_LANGUAGE } from "@/constants/languages";
 interface UIState {
   // langue
   currentLang: string;
+  measurementSystem: MeasurementSystem;
+  setMeasurementSystem: (system: MeasurementSystem) => void;
 
   // toasts
   toasts: Toast[];
@@ -33,6 +36,11 @@ function generateToastId(): string {
 // ---------------------------------------------------------------------------
 export const useUIStore = create<UIState>()((set, get) => ({
   currentLang: localStorage.getItem("aeropath_lang") || DEFAULT_LANGUAGE,
+  measurementSystem: validMeasurementSystem(localStorage.getItem("aeropath_units")),
+  setMeasurementSystem: (system) => {
+    localStorage.setItem("aeropath_units", system);
+    set({ measurementSystem: system });
+  },
   toasts: [],
 
   // ---- setLang -------------------------------------------------------------

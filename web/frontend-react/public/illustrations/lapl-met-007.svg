@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Le soulèvement à une limite frontale</title><desc id="desc">Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Le soulèvement à une limite frontale</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Modèle simplifié : de l’air chaud est soulevé au-dessus de l’air froid.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_MET_007</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<rect x="92" y="224" width="694" height="331" rx="10" fill="#553d4a" stroke="none"/>
+<path d="M92 555V375Q300 378 660 242L786 224V555Z" fill="#39596e" stroke="#698da4" stroke-width="2" stroke-linejoin="round" opacity="1"/>
+<path d="M217 329L618 224" fill="none" stroke="#ffcd70" stroke-width="5"/>
+<path d="M618.0 224.0L606.6 233.7L603.3 221.1Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<g transform="translate(459 298) scale(0.8)">
+<path d="M-60 15C-88 10-78-25-52-25C-52-58-9-64 5-39C35-62 65-38 60-13C91-12 93 19 67 23H-60Z" fill="#9fb7d0" stroke="#9fb7d0" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<g transform="translate(651 251) scale(0.6)">
+<path d="M-60 15C-88 10-78-25-52-25C-52-58-9-64 5-39C35-62 65-38 60-13C91-12 93 19 67 23H-60Z" fill="#9fb7d0" stroke="#9fb7d0" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<text x="242" y="477" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">AIR FROID</text>
+<text x="180" y="275" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="start">AIR CHAUD</text>
+<text x="454" y="587" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">Coupe verticale — soulèvement au-dessus de l’air froid</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Rencontre</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Des masses d’air de</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">propriétés différentes.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Soulèvement</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">L’air chaud monte et peut</text>
+<text x="855" y="406" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">se condenser.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Évolution</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Nuages, précipitations et</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">chronologie à surveiller.</text>
+</svg>

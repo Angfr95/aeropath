@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "module_id": "LAPL_POF_002",
+    "program": "LAPL",
+    "subject": "Principles of Flight",
+    "chapter_title": "Décrochage, virage et facteur de charge",
+    "chapter_title_en": "Stall, turns and load factor",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: how a stall occurs; turns and load factor; a worked example.",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "tags": [
+      "LAPL",
+      "principles_of_flight"
+    ],
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : le mécanisme du décrochage; virage et facteur de charge; exemple corrigé.",
+    "estimated_duration_minutes": 10,
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 5 : aérodynamique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-pof-002.svg",
+      "alt": "Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge."
+    },
+    "exam_subject": "principles_of_flight",
+    "coverage_status": "partial",
+    "derived_from": "PPL_POF_002",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_POF_002_C01",
+      "title": "Le mécanisme du décrochage",
+      "title_en": "How a stall occurs",
+      "content": "![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)\n\nLe décrochage apparaît lorsque l'incidence critique est dépassée et que l'écoulement se sépare suffisamment pour dégrader la portance. Ce n'est pas simplement une panne moteur ou une vitesse fixe universelle. Masse, configuration et facteur de charge modifient la vitesse à laquelle l'incidence critique est atteinte. Une aile contaminée peut présenter un comportement différent de celui attendu.",
+      "content_en": "![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)\n\nA stall occurs when the critical angle of attack is exceeded and airflow separates enough to degrade lift. It is not simply an engine failure or a universal fixed speed. Mass, configuration and load factor change the speed at which critical angle of attack is reached. A contaminated wing may behave differently from what is expected.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "learning_objective": "Le mécanisme du décrochage"
+    },
+    {
+      "concept_id": "LAPL_POF_002_C02",
+      "title": "Virage et facteur de charge",
+      "title_en": "Turns and load factor",
+      "content": "Dans un virage coordonné en palier, une partie de la portance assure le changement de direction. La portance totale nécessaire augmente, donc le facteur de charge aussi. Dans ce modèle, n = 1 / cos inclinaison. La vitesse de décrochage varie approximativement comme la racine carrée du facteur de charge, pour une même masse et configuration.",
+      "content_en": "In a coordinated level turn, part of the lift changes the direction of motion. Total required lift increases, so load factor also increases. In this model, n = 1 / cos(bank angle). At the same mass and configuration, stall speed varies approximately with the square root of load factor.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "learning_objective": "Virage et facteur de charge"
+    },
+    {
+      "concept_id": "LAPL_POF_002_C03",
+      "title": "Exemple corrigé",
+      "title_en": "A worked example",
+      "content": "À 60° d'inclinaison en virage coordonné en palier, n vaut 2. Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt dans ce modèle. Ce calcul n'est pas une consigne de manœuvre. Reconnaissance et récupération du décrochage ou d'une amorce de vrille s'apprennent avec un instructeur, en respectant le manuel et les limitations.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "At 60° bank in a coordinated level turn, n is 2. A 1 g stall speed of 50 kt becomes approximately 71 kt in this model. This calculation is not a manoeuvring instruction. Recognition and recovery from a stall or incipient spin must be learned with an instructor, observing the manual and limitations.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "learning_objective": "Exemple corrigé"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_POF_002_C01",
+      "concept_title": "Le mécanisme du décrochage",
+      "level": 1,
+      "question": "Quelle condition fondamentale provoque le décrochage ?",
+      "question_en": "Which fundamental condition causes a stall?",
+      "options": [
+        "Une panne de radio",
+        "Une altitude fixe",
+        "Le passage sous 100 kt sur tout avion",
+        "Le dépassement de l'incidence critique"
+      ],
+      "correct_answer": "Le dépassement de l'incidence critique",
+      "explanation": "Le décrochage est lié à l'incidence de l'aile.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "A stall is linked to the wing's angle of attack.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "principles_of_flight",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "options_en": [
+        "A radio failure",
+        "A fixed altitude",
+        "Dropping below 100 kt in every aircraft",
+        "Exceeding critical angle of attack"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C02",
+      "concept_title": "Virage et facteur de charge",
+      "level": 1,
+      "question": "À 60° d'inclinaison en virage coordonné en palier, le facteur de charge vaut environ…",
+      "question_en": "At 60° bank in a coordinated level turn, load factor is approximately…",
+      "options": [
+        "0",
+        "4",
+        "2",
+        "1"
+      ],
+      "correct_answer": "2",
+      "explanation": "1 divisé par cos 60° donne 2.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "1 divided by cos 60° gives 2.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "principles_of_flight",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "options_en": [
+        "0",
+        "4",
+        "2",
+        "1"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 1,
+      "question": "Si la vitesse de décrochage à 1 g est 50 kt, à 2 g elle vaut environ…",
+      "question_en": "If stall speed at 1 g is 50 kt, at 2 g it is approximately…",
+      "options": [
+        "100 kt",
+        "71 kt",
+        "25 kt",
+        "50 kt"
+      ],
+      "correct_answer": "71 kt",
+      "explanation": "50 multiplié par la racine carrée de 2 donne environ 71 kt.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "50 multiplied by the square root of 2 is approximately 71 kt.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "principles_of_flight",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "options_en": [
+        "100 kt",
+        "71 kt",
+        "25 kt",
+        "50 kt"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C02",
+      "concept_title": "Virage et facteur de charge",
+      "level": 2,
+      "question": "Pourquoi la vitesse de décrochage augmente-t-elle dans un virage coordonné en palier plus incliné ?",
+      "question_en": "Why does stall speed increase in a more steeply banked coordinated level turn?",
+      "options": [
+        "Le facteur de charge et la portance totale nécessaire augmentent",
+        "La masse de l'avion double automatiquement à chaque virage",
+        "Le vent relatif disparaît dans le virage",
+        "Le moteur doit obligatoirement s'arrêter"
+      ],
+      "correct_answer": "Le facteur de charge et la portance totale nécessaire augmentent",
+      "explanation": "Une partie de la portance participe au changement de direction. Pour conserver le palier, la portance totale doit augmenter ; à même masse et configuration, l'incidence critique est atteinte à une vitesse plus élevée.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "Part of the lift changes direction of motion. Maintaining level flight requires more total lift; at the same mass and configuration, critical angle of attack is reached at a higher speed.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "principles_of_flight",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "options_en": [
+        "Load factor and total required lift increase",
+        "Aircraft mass automatically doubles in every turn",
+        "Relative airflow disappears in the turn",
+        "The engine must stop"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Dans le modèle Vs(n) = Vs(1) × √n, avec Vs(1) = 40 kt et n = 2, quelle valeur approchée obtient-on ?",
+      "question_en": "Using Vs(n) = Vs(1) × √n, with Vs(1) = 40 kt and n = 2, what approximate value results?",
+      "options": [
+        "80 kt",
+        "40 kt",
+        "20 kt",
+        "57 kt"
+      ],
+      "correct_answer": "57 kt",
+      "explanation": "40 × √2 vaut environ 56,6 kt, soit 57 kt. La relation suppose une même masse et configuration ; ce calcul pédagogique n'est pas une consigne de manœuvre.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "40 × √2 is approximately 56.6 kt, or 57 kt. The relationship assumes the same mass and configuration; this training calculation is not a manoeuvring instruction.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "principles_of_flight",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "options_en": [
+        "80 kt",
+        "40 kt",
+        "20 kt",
+        "57 kt"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C01",
+      "concept_title": "Le mécanisme du décrochage",
+      "level": 2,
+      "question": "Vrai ou faux ? Le décrochage implique une séparation de l'écoulement qui dégrade la portance.",
+      "question_en": "True or false? A stall involves flow separation that degrades lift.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe décrochage apparaît lorsque l'incidence critique est dépassée et que l'écoulement se sépare suffisamment pour dégrader la portance. Ce n'est pas simplement une panne moteur ou une vitesse fixe universelle. Masse, configuration et facteur de charge modifient la vitesse à laquelle l'incidence critique est atteinte. Une aile contaminée peut présenter un comportement différent de celui attendu.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "This statement is true.\n\nA stall occurs when the critical angle of attack is exceeded and airflow separates enough to degrade lift. It is not simply an engine failure or a universal fixed speed. Mass, configuration and load factor change the speed at which critical angle of attack is reached. A contaminated wing may behave differently from what is expected.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C01",
+      "concept_title": "Le mécanisme du décrochage",
+      "level": 2,
+      "question": "Vrai ou faux ? Une panne moteur et un décrochage désignent exactement le même phénomène.",
+      "question_en": "True or false? Engine failure and a stall describe exactly the same phenomenon.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe décrochage apparaît lorsque l'incidence critique est dépassée et que l'écoulement se sépare suffisamment pour dégrader la portance. Ce n'est pas simplement une panne moteur ou une vitesse fixe universelle. Masse, configuration et facteur de charge modifient la vitesse à laquelle l'incidence critique est atteinte. Une aile contaminée peut présenter un comportement différent de celui attendu.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "This statement is false.\n\nA stall occurs when the critical angle of attack is exceeded and airflow separates enough to degrade lift. It is not simply an engine failure or a universal fixed speed. Mass, configuration and load factor change the speed at which critical angle of attack is reached. A contaminated wing may behave differently from what is expected.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C01",
+      "concept_title": "Le mécanisme du décrochage",
+      "level": 2,
+      "question": "Vrai ou faux ? La configuration influence la vitesse à laquelle l'incidence critique est atteinte.",
+      "question_en": "True or false? Configuration affects the speed at which critical angle of attack is reached.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe décrochage apparaît lorsque l'incidence critique est dépassée et que l'écoulement se sépare suffisamment pour dégrader la portance. Ce n'est pas simplement une panne moteur ou une vitesse fixe universelle. Masse, configuration et facteur de charge modifient la vitesse à laquelle l'incidence critique est atteinte. Une aile contaminée peut présenter un comportement différent de celui attendu.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "This statement is true.\n\nA stall occurs when the critical angle of attack is exceeded and airflow separates enough to degrade lift. It is not simply an engine failure or a universal fixed speed. Mass, configuration and load factor change the speed at which critical angle of attack is reached. A contaminated wing may behave differently from what is expected.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C02",
+      "concept_title": "Virage et facteur de charge",
+      "level": 2,
+      "question": "Vrai ou faux ? Dans un virage coordonné en palier, la portance totale nécessaire reste toujours égale à celle du vol rectiligne.",
+      "question_en": "True or false? In a coordinated level turn, required total lift always remains equal to straight flight.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDans un virage coordonné en palier, une partie de la portance assure le changement de direction. La portance totale nécessaire augmente, donc le facteur de charge aussi. Dans ce modèle, n = 1 / cos inclinaison. La vitesse de décrochage varie approximativement comme la racine carrée du facteur de charge, pour une même masse et configuration.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "This statement is false.\n\nIn a coordinated level turn, part of the lift changes the direction of motion. Total required lift increases, so load factor also increases. In this model, n = 1 / cos(bank angle). At the same mass and configuration, stall speed varies approximately with the square root of load factor.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C02",
+      "concept_title": "Virage et facteur de charge",
+      "level": 2,
+      "question": "Vrai ou faux ? Dans le modèle, le facteur de charge dépend du cosinus de l'inclinaison.",
+      "question_en": "True or false? In the model, load factor depends on the cosine of bank angle.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDans un virage coordonné en palier, une partie de la portance assure le changement de direction. La portance totale nécessaire augmente, donc le facteur de charge aussi. Dans ce modèle, n = 1 / cos inclinaison. La vitesse de décrochage varie approximativement comme la racine carrée du facteur de charge, pour une même masse et configuration.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "This statement is true.\n\nIn a coordinated level turn, part of the lift changes the direction of motion. Total required lift increases, so load factor also increases. In this model, n = 1 / cos(bank angle). At the same mass and configuration, stall speed varies approximately with the square root of load factor.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C02",
+      "concept_title": "Virage et facteur de charge",
+      "level": 2,
+      "question": "Vrai ou faux ? Doubler le facteur de charge double nécessairement la vitesse de décrochage.",
+      "question_en": "True or false? Doubling load factor necessarily doubles stall speed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDans un virage coordonné en palier, une partie de la portance assure le changement de direction. La portance totale nécessaire augmente, donc le facteur de charge aussi. Dans ce modèle, n = 1 / cos inclinaison. La vitesse de décrochage varie approximativement comme la racine carrée du facteur de charge, pour une même masse et configuration.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "This statement is false.\n\nIn a coordinated level turn, part of the lift changes the direction of motion. Total required lift increases, so load factor also increases. In this model, n = 1 / cos(bank angle). At the same mass and configuration, stall speed varies approximately with the square root of load factor.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? La relation de vitesse de décrochage suppose une masse et une configuration identiques.",
+      "question_en": "True or false? The stall-speed relationship assumes identical mass and configuration.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÀ 60° d'inclinaison en virage coordonné en palier, n vaut 2. Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt dans ce modèle. Ce calcul n'est pas une consigne de manœuvre. Reconnaissance et récupération du décrochage ou d'une amorce de vrille s'apprennent avec un instructeur, en respectant le manuel et les limitations.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "This statement is true.\n\nAt 60° bank in a coordinated level turn, n is 2. A 1 g stall speed of 50 kt becomes approximately 71 kt in this model. This calculation is not a manoeuvring instruction. Recognition and recovery from a stall or incipient spin must be learned with an instructor, observing the manual and limitations.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? Un calcul théorique suffit à autoriser l'exécution d'une manœuvre à forte inclinaison.",
+      "question_en": "True or false? A theoretical calculation is enough to authorise a steep-bank manoeuvre.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÀ 60° d'inclinaison en virage coordonné en palier, n vaut 2. Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt dans ce modèle. Ce calcul n'est pas une consigne de manœuvre. Reconnaissance et récupération du décrochage ou d'une amorce de vrille s'apprennent avec un instructeur, en respectant le manuel et les limitations.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "This statement is false.\n\nAt 60° bank in a coordinated level turn, n is 2. A 1 g stall speed of 50 kt becomes approximately 71 kt in this model. This calculation is not a manoeuvring instruction. Recognition and recovery from a stall or incipient spin must be learned with an instructor, observing the manual and limitations.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? La sortie d'amorce de vrille doit être apprise avec un instructeur.",
+      "question_en": "True or false? Recovery from an incipient spin must be learned with an instructor.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÀ 60° d'inclinaison en virage coordonné en palier, n vaut 2. Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt dans ce modèle. Ce calcul n'est pas une consigne de manœuvre. Reconnaissance et récupération du décrochage ou d'une amorce de vrille s'apprennent avec un instructeur, en respectant le manuel et les limitations.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "This statement is true.\n\nAt 60° bank in a coordinated level turn, n is 2. A 1 g stall speed of 50 kt becomes approximately 71 kt in this model. This calculation is not a manoeuvring instruction. Recognition and recovery from a stall or incipient spin must be learned with an instructor, observing the manual and limitations.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_002_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? Un modèle de calcul dispense de respecter les limitations du manuel.",
+      "question_en": "True or false? A calculation model removes the need to observe manual limitations.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÀ 60° d'inclinaison en virage coordonné en palier, n vaut 2. Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt dans ce modèle. Ce calcul n'est pas une consigne de manœuvre. Reconnaissance et récupération du décrochage ou d'une amorce de vrille s'apprennent avec un instructeur, en respectant le manuel et les limitations.\n\n![Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge.](/illustrations/lapl-pof-002.svg)",
+      "explanation_en": "This statement is false.\n\nAt 60° bank in a coordinated level turn, n is 2. A 1 g stall speed of 50 kt becomes approximately 71 kt in this model. This calculation is not a manoeuvring instruction. Recognition and recovery from a stall or incipient spin must be learned with an instructor, observing the manual and limitations.\n\n![Diagram: Stall, turns and load factor](/illustrations/en/lapl-pof-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

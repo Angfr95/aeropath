@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">The atmosphere and the ISA model</title><desc id="desc">Troposphere, tropopause and stratosphere; density generally decreases with altitude and ISA is a reference model.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">The atmosphere and the ISA model</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Conceptual section: actual boundaries vary with location and weather.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_MET_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<rect x="95" y="220" width="690" height="113" rx="0" fill="#1c2c58" stroke="none"/>
+<text x="117" y="250" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start">STRATOSPHERE</text>
+<rect x="95" y="333" width="690" height="44" rx="0" fill="#203e61" stroke="none"/>
+<text x="117" y="363" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start">TROPOPAUSE</text>
+<rect x="95" y="377" width="690" height="185" rx="0" fill="#235472" stroke="none"/>
+<text x="117" y="407" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start">TROPOSPHERE</text>
+<circle cx="335" cy="270" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="353" cy="270" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="371" cy="270" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="389" cy="270" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="407" cy="270" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="335" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="353" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="371" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="389" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="407" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="425" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="443" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="461" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="479" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="497" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="515" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="533" cy="415" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="335" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="353" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="371" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="389" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="407" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="425" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="443" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="461" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="479" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="497" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="515" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="533" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="551" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="569" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="587" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="605" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="623" cy="465" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="335" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="353" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="371" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="389" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="407" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="425" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="443" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="461" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="479" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="497" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="515" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="533" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="551" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="569" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="587" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="605" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="623" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="641" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="659" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="677" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="695" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="713" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<circle cx="731" cy="525" r="2" fill="#80cddd" stroke="none" stroke-width="2"/>
+<g transform="translate(455 443) scale(0.75)">
+<path d="M-60 15C-88 10-78-25-52-25C-52-58-9-64 5-39C35-62 65-38 60-13C91-12 93 19 67 23H-60Z" fill="#9fb7d0" stroke="#9fb7d0" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<g transform="translate(645 495) scale(0.5)">
+<path d="M-60 15C-88 10-78-25-52-25C-52-58-9-64 5-39C35-62 65-38 60-13C91-12 93 19 67 23H-60Z" fill="#9fb7d0" stroke="#9fb7d0" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<path d="M70 558L70 228" fill="none" stroke="#58dfed" stroke-width="3"/>
+<path d="M70.0 228.0L76.5 241.5L63.5 241.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="105" y="590" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Density is generally higher near the ground</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">ISA reference</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">At sea level: 15 °C and</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">1,013.25 hPa.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Troposphere</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Most weather affecting</text>
+<text x="855" y="406" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">light aircraft.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Model ≠ forecast</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Actual boundaries and</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">temperatures vary.</text>
+</svg>

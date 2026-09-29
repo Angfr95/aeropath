@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">TAF: read the timeline</title><desc id="desc">TAF: read the timeline</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">TAF: read the timeline</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Fictional exercise · Diagram not to scale</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_MET_009</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Read the diagram with the lesson explanations and references.</text>
+<text x="65" y="209" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">TAF LFFF 211000Z 2112/2121 24010KT 9999 SCT030</text>
+<text x="65" y="243" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">BECMG 2114/2116 5000 RA BKN012</text>
+<text x="65" y="276" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">TEMPO 2116/2120 2500 SHRA BKN006=</text>
+<path d="M90 314L90 500" fill="none" stroke="#304961" stroke-width="1" stroke-dasharray="7 7"/>
+<text x="90" y="305" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">12:00</text>
+<path d="M314 314L314 500" fill="none" stroke="#304961" stroke-width="1" stroke-dasharray="7 7"/>
+<text x="314" y="305" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">14:00</text>
+<path d="M538 314L538 500" fill="none" stroke="#304961" stroke-width="1" stroke-dasharray="7 7"/>
+<text x="538" y="305" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">16:00</text>
+<path d="M762 314L762 500" fill="none" stroke="#304961" stroke-width="1" stroke-dasharray="7 7"/>
+<text x="762" y="305" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">18:00</text>
+<path d="M986 314L986 500" fill="none" stroke="#304961" stroke-width="1" stroke-dasharray="7 7"/>
+<text x="986" y="305" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">20:00</text>
+<path d="M1098 314L1098 500" fill="none" stroke="#304961" stroke-width="1" stroke-dasharray="7 7"/>
+<text x="1098" y="305" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">21:00</text>
+<rect x="90" y="332" width="224" height="48" rx="4" fill="#284354" stroke="#58dfed"/>
+<text x="102" y="362" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">9999 SCT030</text>
+<rect x="314" y="332" width="224" height="48" rx="4" fill="#4d4130" stroke="#ffcd70"/>
+<text x="326" y="362" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">BECMG</text>
+<rect x="538" y="332" width="560" height="48" rx="4" fill="#284354" stroke="#58dfed"/>
+<text x="553" y="362" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">5000 RA BKN012</text>
+<rect x="538" y="416" width="448" height="48" rx="4" fill="#342c52" stroke="#bbabff"/>
+<text x="553" y="446" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">TEMPO 2500 SHRA BKN006</text>
+<text x="65" y="532" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">1400–1600: transition without an exact change time. 1600–2000: fluctuations, not four</text>
+<text x="65" y="562" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">continuous hours.</text>
+<text x="65" y="601" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">UTC times · Wind 24010KT unchanged · Fictional bulletin</text>
+</svg>

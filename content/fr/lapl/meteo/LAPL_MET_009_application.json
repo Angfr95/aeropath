@@ -1,0 +1,686 @@
+{
+  "metadata": {
+    "module_id": "LAPL_MET_009",
+    "program": "LAPL",
+    "subject": "Meteorology",
+    "chapter_title": "METAR, TAF et SIGMET",
+    "chapter_title_en": "METAR, TAF and SIGMET",
+    "learning_objective": "Décoder un METAR complet, appliquer les critères CAVOK, interpréter un TAF à l’heure d’arrivée et croiser un SIGMET avec espace, temps et niveaux.",
+    "learning_objective_en": "Decode a complete METAR, apply CAVOK criteria, interpret a TAF at arrival time and intersect a SIGMET with area, time and levels.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 50,
+    "prerequisites": [
+      "Heures UTC, unités aéronautiques et lecture des cartes"
+    ],
+    "tags": [
+      "LAPL",
+      "meteo"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "Météo-France — Guide aviation",
+        "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+      },
+      {
+        "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      },
+      {
+        "title": "Met Office — SIGMET",
+        "url": "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets"
+      },
+      {
+        "title": "Météo-France — guide aviation, décodage TAF",
+        "url": "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf"
+      },
+      {
+        "title": "Référence pédagogique vérifiée",
+        "url": "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-met-009.svg",
+      "alt": "Décodage de 151200Z, 24012KT, 9999, SCT025, 18/10 et Q1015 ; exemple pédagogique et non bulletin opérationnel."
+    },
+    "exam_subject": "meteorology",
+    "coverage_status": "partial",
+    "derived_from": "PPL_MET_009",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_MET_009_C01",
+      "title": "Choisir le produit et lire ses références",
+      "title_en": "Choose the product and read its references",
+      "content": "![METAR, TAF et SIGMET](/illustrations/lapl-met-009.svg)\n\nLe METAR rapporte une observation d'aérodrome, le TAF une prévision d'aérodrome, le SIGMET un avertissement de phénomènes significatifs sur une zone. Commencer par station ou zone, date, heure UTC, validité et statut observation/prévision. Le groupe horaire d'un METAR est l'heure d'observation ; ne pas le confondre avec le moment où le message a été reçu sur une application. Un TAF émis à 10 h 30 peut commencer sa validité à 12 h.\n\n**METAR fictif complet sans tendance :** `METAR LFFF 211030Z 26014G24KT 8000 -RA SCT020 BKN035 16/12 Q1009=`. LFFF est ici un identifiant d'exercice, sans valeur opérationnelle. Le 21 à 10 h 30 UTC : vent venant du 260° vrai, 14 kt, rafales 24 kt ; visibilité dominante 8 km ; pluie faible ; SCT 3 à 4 octas à 2 000 ft au-dessus de l'aérodrome ; BKN 5 à 7 octas à 3 500 ft ; température 16 °C, rosée 12 °C, QNH 1009 hPa. FEW vaut 1–2 octas, OVC 8. Les bases en centaines de pieds ne sont pas des altitudes AMSL.\n\n**Exemple guidé :** aérodrome à 600 ft AMSL, base BKN035 à 3 500 ft au-dessus de l'aérodrome : altitude géométrique approximative de la base 4 100 ft AMSL. Cette addition n'est pas une correction altimétrique. Une couche SCT n'est pas un plafond BKN/OVC. Les groupes d'un message local ne décrivent pas à eux seuls les nuages le long du trajet.",
+      "content_en": "![METAR, TAF and SIGMET](/illustrations/en/lapl-met-009.svg)\n\nA METAR reports aerodrome observations, a TAF forecasts aerodrome conditions, and a SIGMET warns of significant phenomena over an area. Start with station or area, date, UTC time, validity and observation-versus-forecast status. A METAR time group gives observation time, not when an application received it. A TAF issued at 1030 may start validity at 1200.\n\n**Fictional complete METAR without trend:** `METAR LFFF 211030Z 26014G24KT 8000 -RA SCT020 BKN035 16/12 Q1009=`. LFFF is an exercise identifier, not operational data. On the 21st at 1030 UTC: wind from 260° true at 14 kt, gusting 24 kt; prevailing visibility 8 km; light rain; SCT 3–4 oktas at 2,000 ft above aerodrome; BKN 5–7 oktas at 3,500 ft; temperature 16 °C, dew point 12 °C, QNH 1009 hPa. FEW is 1–2 oktas, OVC 8. Bases in hundreds of feet are not AMSL altitudes.\n\n**Worked example:** aerodrome elevation 600 ft AMSL, BKN035 base 3,500 ft above it: approximate geometric base altitude 4,100 ft AMSL. This addition is not an altimeter correction. SCT is not a BKN/OVC ceiling. Local cloud groups alone do not describe clouds along the route.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Choisir le produit et lire ses références"
+    },
+    {
+      "concept_id": "LAPL_MET_009_C02",
+      "title": "Interpréter la visibilité et CAVOK",
+      "title_en": "Interpret visibility and CAVOK",
+      "content": "`9999` signifie une visibilité dominante d'au moins 10 km, et non exactement 9 999 m. Les codes ne sont pas tous des mesures littérales. `24012KT` est un vent venant du 240° vrai à 12 kt, pas soufflant vers ce cap ; `G22` ajouterait des rafales à 22 kt. `18/10` sépare température et rosée ; `Q1015` exprime le QNH en hPa.\n\n**CAVOK rassemble des conditions :** visibilité au moins 10 km ; aucun nuage sous 5 000 ft ou sous la plus haute altitude minimale de secteur, si elle est supérieure ; aucun CB ni TCU ; aucun phénomène météorologique significatif pour l'aviation. Cela n'impose ni vent nul, ni absence de nuages élevés. Pour comparer hauteur de base et altitude minimale de secteur, mettre les valeurs sur la même référence : ne pas comparer directement une hauteur au-dessus de l'aérodrome à une altitude AMSL.\n\n**Cas guidé :** aérodrome au niveau de la mer, minimum de secteur 3 500 ft, visibilité 15 km, pas de temps significatif ni CB/TCU, couche SCT à 6 000 ft. CAVOK est compatible avec ces données. Si cette couche est à 4 500 ft, le critère nuageux n'est plus rempli même si la visibilité reste 15 km. Si un CB est présent à 7 000 ft, son type exclut également CAVOK. La visibilité seule ne suffit donc pas.\n\nDécrire les conditions ne vaut pas autorisation de vol : comparer ensuite route, espace, relief, minima applicables et limites personnelles avec les autres informations météo.",
+      "content_en": "`9999` means prevailing visibility of at least 10 km, not exactly 9,999 m. Not every code is a literal measurement. `24012KT` is wind from 240° true at 12 kt, not towards that heading; `G22` would add gusts of 22 kt. `18/10` separates temperature and dew point; `Q1015` gives QNH in hPa.\n\n**CAVOK combines conditions:** visibility at least 10 km; no cloud below 5,000 ft or the highest minimum sector altitude, whichever is higher; no CB or TCU; no weather significant to aviation. It requires neither calm wind nor absence of high cloud. Put cloud-base height and minimum sector altitude on a common reference before comparison: do not directly compare height above aerodrome with AMSL altitude.\n\n**Worked case:** sea-level aerodrome, sector minimum 3,500 ft, visibility 15 km, no significant weather or CB/TCU, SCT layer at 6,000 ft. CAVOK is compatible with these inputs. At 4,500 ft the same layer fails the cloud criterion despite unchanged visibility. A CB at 7,000 ft also excludes CAVOK because of its type. Visibility alone is insufficient.\n\nA weather description is not permission to fly: compare the route, airspace, terrain, applicable minima and personal limits using the other relevant weather information.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Interpréter la visibilité et CAVOK"
+    },
+    {
+      "concept_id": "LAPL_MET_009_C03",
+      "title": "Lire une évolution et construire une décision",
+      "title_en": "Read changes and build a decision",
+      "content": "### TAF expliqué\nExercice fictif : `TAF LFFF 211000Z 2112/2121 24010KT 9999 SCT030 BECMG 2114/2116 5000 RA BKN012 TEMPO 2116/2120 2500 SHRA BKN006=`.\n\nÉmis le 21 à 10 h UTC, valable de 12 h à 21 h UTC le même jour. Avant 14 h, le régime de base prévoit visibilité au moins 10 km et SCT à 3 000 ft. Entre 14 h et 16 h, BECMG annonce une transition vers 5 km, pluie, BKN à 1 200 ft. Le moment exact de la transition n'est pas fixé ; il ne faut pas attendre 16 h pour considérer une dégradation possible. Après 16 h, ces nouvelles conditions de base persistent, sauf évolution ultérieure.\n\nDe 16 h à 20 h, TEMPO ajoute des fluctuations temporaires à 2 500 m, averses, BKN à 600 ft. Chaque épisode prévu dure moins d'une heure et leur durée cumulée moins de la moitié de la période indiquée. Il ne remplace pas le régime de base pendant quatre heures continues et ne fixe pas l'heure de chaque épisode. Le vent reste 24010KT : seuls les éléments modifiés dans les groupes de changement sont remplacés. Lorsqu'un changement porte sur les nuages, lire l'ensemble des couches du nouveau groupe, et non ajouter arbitrairement une couche à l'ancienne liste. BECMG n'indique pas une probabilité ; PROB30/PROB40 expriment une probabilité de 30/40 %, pas une fraction de la durée.\n\n**Raisonnement guidé à 17 h :** base BKN012, mais BKN006 temporaire prévu. Un projet nécessitant une base au moins à 1 000 ft ne doit pas être déclaré compatible en ignorant TEMPO. La conclusion dépend ensuite des règles et décisions applicables ; le bulletin seul ne garantit pas les conditions rencontrées. À 20 h 30, le TEMPO indiqué est terminé, mais BKN012 reste le régime de base ; l'amélioration antérieure à BECMG n'est pas rétablie par la fin de TEMPO.\n\n### SIGMET et trajet\nDans un SIGMET, relever l'identifiant et la région, le numéro, la validité, le phénomène, son caractère observé ou prévu et l'heure associée, la zone, les niveaux, le déplacement et l'évolution. Une zone peut se déplacer vers la route ; ne pas se limiter à une intersection sur la carte à l'heure de départ. Les phénomènes comprennent notamment orages selon les critères SIGMET, turbulence sévère, givrage sévère et cendres volcaniques. L'absence de SIGMET ne signifie pas absence de tout danger.\n\n**Fiche décodée fictive pour s'entraîner, pas un SIGMET codé :** givrage sévère observé à 12 h dans zone Z ; validité 12–16 h UTC ; FL060–FL100 ; déplacement vers l'est à 15 kt. Une route traversant Z à 13 h au FL080 croise la tranche verticale et temporelle annoncée ; un METAR CAVOK au départ ne neutralise pas cet avertissement. Vérifier l'évolution de la zone et les derniers produits avant de conclure. Les QCM utilisent d'autres heures et bulletins.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "### Worked TAF\nFictional exercise: `TAF LFFF 211000Z 2112/2121 24010KT 9999 SCT030 BECMG 2114/2116 5000 RA BKN012 TEMPO 2116/2120 2500 SHRA BKN006=`.\n\nIssued on the 21st at 1000 UTC, valid 1200–2100 UTC that day. Before 1400, prevailing conditions forecast at least 10 km visibility and SCT at 3,000 ft. Between 1400 and 1600, BECMG indicates transition to 5 km, rain and BKN at 1,200 ft. The exact change time is unspecified; do not wait until 1600 to consider deterioration possible. After 1600, these new prevailing conditions persist unless changed later.\n\nFrom 1600 to 2000, TEMPO adds temporary fluctuations to 2,500 m, showers and BKN at 600 ft. Each forecast episode lasts less than an hour and their combined duration less than half the stated period. It does not replace prevailing conditions continuously for four hours or specify each episode's time. Wind remains 24010KT: only elements changed by the change groups are replaced. When cloud changes, read the complete cloud layers in the new group rather than arbitrarily adding a layer to the old list. BECMG is not a probability; PROB30/PROB40 indicate 30/40% probability, not a fraction of the time.\n\n**Worked reasoning at 1700:** prevailing BKN012, with temporary BKN006 forecast. A plan requiring a base of at least 1,000 ft cannot be declared compatible by ignoring TEMPO. Applicable rules and decisions still need consideration; a bulletin does not guarantee actual conditions. At 2030 the stated TEMPO period has ended, but BKN012 remains prevailing; the end of TEMPO does not restore pre-BECMG conditions.\n\n### SIGMET and route\nIdentify issuing identifiers and region, sequence number, validity, phenomenon, observed/forecast status and associated time, area, levels, movement and development. A zone can move towards a route; departure-time map intersection alone is insufficient. Phenomena include thunderstorms meeting SIGMET criteria, severe turbulence, severe icing and volcanic ash. No SIGMET does not mean no hazards.\n\n**Fictional decoded practice brief, not a coded SIGMET:** severe icing observed at 1200 in zone Z; valid 1200–1600 UTC; FL060–FL100; moving east at 15 kt. A route crossing Z at 1300 at FL080 intersects the stated vertical and time ranges; CAVOK at departure does not neutralise that warning. Check zone development and latest products before concluding. The MCQs use different times and bulletins.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Lire une évolution et construire une décision"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_MET_009_C01",
+      "concept_title": "Choisir le produit et lire ses références",
+      "level": 1,
+      "question": "Un METAR 221150Z est reçu à 12 h 03 UTC. À quel instant rattacher l'observation ?",
+      "question_en": "A METAR 221150Z is received at 1203 UTC. What time belongs to the observation?",
+      "options": [
+        "Le 22 à 11 h 50 UTC",
+        "Le 22 à 12 h 03 UTC",
+        "Le 22 à 11 h 50 locale",
+        "Toute la période jusqu'au prochain METAR"
+      ],
+      "correct_answer": "Le 22 à 11 h 50 UTC",
+      "explanation": "Le groupe indique jour et heure UTC de l'observation. L'heure de réception n'actualise pas la mesure ; un METAR ne garantit pas le maintien des conditions jusqu'au suivant.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "The group gives the observation's day and UTC time. Receipt time does not update the measurement; a METAR does not guarantee unchanged conditions until the next one.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "22nd at 1150 UTC",
+        "22nd at 1203 UTC",
+        "22nd at 1150 local",
+        "The entire period until the next METAR"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C02",
+      "concept_title": "Interpréter la visibilité et CAVOK",
+      "level": 1,
+      "question": "Que permet d'affirmer 9999, sans autre groupe du message ?",
+      "question_en": "What does 9999 establish without other message groups?",
+      "options": [
+        "Visibilité exactement 9 999 m",
+        "CAVOK nécessairement",
+        "Visibilité oblique garantie sur toute la route",
+        "Visibilité dominante au moins 10 km"
+      ],
+      "correct_answer": "Visibilité dominante au moins 10 km",
+      "explanation": "9999 est un seuil codé. Il ne donne ni une distance exacte ni les critères de nuages et de temps de CAVOK ; il ne décrit pas une visibilité de route complète.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "9999 is a coded threshold. It provides neither an exact distance nor the cloud/weather criteria for CAVOK, and does not describe full-route visibility.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Visibility exactly 9,999 m",
+        "Necessarily CAVOK",
+        "Guaranteed slant visibility along the entire route",
+        "Prevailing visibility at least 10 km"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C03",
+      "concept_title": "Lire une évolution et construire une décision",
+      "level": 1,
+      "question": "Aérodrome au niveau de la mer, minimum de secteur 3 000 ft, visibilité 12 km, aucun temps significatif. Quel nuage exclut CAVOK ?",
+      "question_en": "Sea-level aerodrome, sector minimum 3,000 ft, visibility 12 km, no significant weather. Which cloud excludes CAVOK?",
+      "options": [
+        "BKN non convectifs à 8 000 ft",
+        "FEW non convectifs à 5 500 ft",
+        "FEW CB à 7 000 ft",
+        "SCT non convectifs à 6 000 ft"
+      ],
+      "correct_answer": "FEW CB à 7 000 ft",
+      "explanation": "Un CB exclut CAVOK quelle que soit sa base. Les autres couches sont au-dessus du seuil de 5 000 ft dans ce cas et ne sont ni CB ni TCU ; leur seule présence ne l'exclut pas.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "CB excludes CAVOK regardless of base. The other layers exceed this case's 5,000 ft threshold and are neither CB nor TCU; their mere presence does not exclude it.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Non-convective BKN at 8,000 ft",
+        "Non-convective FEW at 5,500 ft",
+        "FEW CB at 7,000 ft",
+        "Non-convective SCT at 6,000 ft"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C02",
+      "concept_title": "Interpréter la visibilité et CAVOK",
+      "level": 2,
+      "question": "Décoder 31016G28KT.",
+      "question_en": "Decode 31016G28KT.",
+      "options": [
+        "Vent du 310° vrai, 16 kt, rafales supplémentaires de 28 kt",
+        "Vent du 310° vrai, 16 kt, rafales 28 kt",
+        "Vent vers le 310° vrai, 16 kt, rafales 28 kt",
+        "Vent du 310° magnétique, 28 kt, rafales 16 kt"
+      ],
+      "correct_answer": "Vent du 310° vrai, 16 kt, rafales 28 kt",
+      "explanation": "La direction METAR est la provenance vraie. G28 est la vitesse de rafale, pas une augmentation à ajouter à 16 ; ce n'est pas une direction magnétique de piste.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "METAR direction is true origin. G28 is gust speed, not an increment added to 16; it is not a magnetic runway direction.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Wind from 310° true, 16 kt, gusts an additional 28 kt",
+        "Wind from 310° true, 16 kt, gusts 28 kt",
+        "Wind towards 310° true, 16 kt, gusts 28 kt",
+        "Wind from 310° magnetic, 28 kt, gusts 16 kt"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C01",
+      "concept_title": "Choisir le produit et lire ses références",
+      "level": 2,
+      "question": "TAF LFFF 220500Z 2206/2218 : arrivée le 22 à 18 h 30 UTC. Que conclure de sa validité ?",
+      "question_en": "TAF LFFF 220500Z 2206/2218: arrival on the 22nd at 1830 UTC. What follows from validity?",
+      "options": [
+        "L'arrivée dépasse la fin de validité de ce TAF",
+        "Le TAF couvre l'arrivée car émis le même jour",
+        "Le TAF reste valable 18 heures après 05 h",
+        "Le TAF commence à 22 h 06 UTC"
+      ],
+      "correct_answer": "L'arrivée dépasse la fin de validité de ce TAF",
+      "explanation": "2206/2218 signifie le 22 de 06 à 18 h UTC. L'émission à 05 h et la validité sont distinctes ; obtenir une prévision pertinente pour l'heure d'arrivée.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "2206/2218 means the 22nd from 0600 to 1800 UTC. Issue time and validity differ; obtain a forecast relevant to arrival time.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Arrival is beyond this TAF's validity",
+        "It covers arrival because issued the same day",
+        "It remains valid 18 hours after 0500",
+        "It begins at 2206 UTC"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C01",
+      "concept_title": "Choisir le produit et lire ses références",
+      "level": 2,
+      "question": "SIGMET décodé fictif : turbulence sévère, 10–14 h UTC, FL080–FL140, zone Z. Quel passage croise les trois dimensions indiquées ?",
+      "question_en": "Fictional decoded SIGMET: severe turbulence, 1000–1400 UTC, FL080–FL140, zone Z. Which transit intersects all stated dimensions?",
+      "options": [
+        "Zone Z, 09 h, FL100",
+        "Zone Z, 12 h, FL060",
+        "Hors zone Z, 12 h, FL100",
+        "Zone Z, 12 h, FL100"
+      ],
+      "options_en": [
+        "Zone Z, 0900, FL100",
+        "Zone Z, 1200, FL060",
+        "Outside zone Z, 1200, FL100",
+        "Zone Z, 1200, FL100"
+      ],
+      "correct_answer": "Zone Z, 12 h, FL100",
+      "explanation": "12 h appartient à la validité et FL100 à la tranche, dans Z. Les autres propositions manquent une dimension ; elles ne sont pas pour autant certifiées sans danger par cet exercice.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "1200 lies within validity and FL100 within the band, inside Z. Each other option misses a dimension; this exercise does not thereby certify those flights hazard-free.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C01",
+      "concept_title": "Choisir le produit et lire ses références",
+      "level": 2,
+      "question": "Aérodrome à 800 ft AMSL, METAR BKN018. Altitude approximative de cette base en AMSL ?",
+      "question_en": "Aerodrome elevation 800 ft AMSL, METAR BKN018. Approximate base altitude AMSL?",
+      "options": [
+        "1 000 ft",
+        "18 800 ft",
+        "2 600 ft",
+        "1 800 ft"
+      ],
+      "options_en": [
+        "1,000 ft",
+        "18,800 ft",
+        "2,600 ft",
+        "1,800 ft"
+      ],
+      "correct_answer": "2 600 ft",
+      "explanation": "BKN018 donne 1 800 ft au-dessus de l'aérodrome. Ajouter 800 donne 2 600 ft AMSL. Soustraire inverse la référence ; multiplier par mille au lieu de cent décode mal 018.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "BKN018 gives 1,800 ft above aerodrome. Add 800 for 2,600 ft AMSL. Subtraction reverses the reference; multiplying by a thousand misreads the hundreds-of-feet code.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C01",
+      "concept_title": "Choisir le produit et lire ses références",
+      "level": 2,
+      "question": "METAR : SCT008 BKN025. Quelle couche constitue ici la première couche BKN/OVC ?",
+      "question_en": "METAR: SCT008 BKN025. Which is the first BKN/OVC layer here?",
+      "options": [
+        "SCT à 8 000 ft AMSL",
+        "BKN à 2 500 ft au-dessus de l'aérodrome",
+        "SCT à 800 ft au-dessus de l'aérodrome",
+        "BKN à 250 ft AMSL"
+      ],
+      "options_en": [
+        "SCT at 8,000 ft AMSL",
+        "BKN at 2,500 ft above aerodrome",
+        "SCT at 800 ft above aerodrome",
+        "BKN at 250 ft AMSL"
+      ],
+      "correct_answer": "BKN à 2 500 ft au-dessus de l'aérodrome",
+      "explanation": "SCT est plus bas mais ne répond pas au critère BKN/OVC. 025 signifie 2 500 ft au-dessus de l'aérodrome. La couche basse reste pertinente au vol, même si elle n'est pas ce plafond.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "SCT is lower but is not BKN/OVC. 025 means 2,500 ft above aerodrome. The lower layer still matters operationally even though it is not that ceiling.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C02",
+      "concept_title": "Interpréter la visibilité et CAVOK",
+      "level": 2,
+      "question": "TAF fictif : 2206/2218 18008KT 9999 SCT030 BECMG 2209/2211 4000 RA BKN010. À 10 h UTC, quelle lecture est fondée ?",
+      "question_en": "Fictional TAF: 2206/2218 18008KT 9999 SCT030 BECMG 2209/2211 4000 RA BKN010. At 1000 UTC, which reading is justified?",
+      "options": [
+        "La transition peut déjà avoir amené 4 km et BKN010",
+        "Les conditions initiales sont garanties jusqu'à 11 h",
+        "La dégradation commence exactement à 10 h",
+        "BECMG signifie 40 % de probabilité"
+      ],
+      "options_en": [
+        "The transition may already have brought 4 km and BKN010",
+        "Initial conditions are guaranteed until 1100",
+        "Deterioration starts exactly at 1000",
+        "BECMG means 40% probability"
+      ],
+      "correct_answer": "La transition peut déjà avoir amené 4 km et BKN010",
+      "explanation": "10 h est dans la fenêtre 09–11 h. BECMG n'indique pas l'instant précis de la transition ni une probabilité ; attendre sa fin pour considérer la dégradation serait injustifié.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "1000 lies within 0900–1100. BECMG specifies neither the exact change time nor a probability; ignoring deterioration until the end is unjustified.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C02",
+      "concept_title": "Interpréter la visibilité et CAVOK",
+      "level": 2,
+      "question": "Même TAF : 18008KT 9999 SCT030 BECMG 2209/2211 4000 RA BKN010. Sans autre groupe, quel vent est prévu à 12 h ?",
+      "question_en": "Same TAF: 18008KT 9999 SCT030 BECMG 2209/2211 4000 RA BKN010. With no other group, what wind is forecast at 1200?",
+      "options": [
+        "Vent calme, car absent de BECMG",
+        "Vent inconnu après tout BECMG",
+        "110° à 22 kt d'après 2209/2211",
+        "180° vrai à 8 kt"
+      ],
+      "options_en": [
+        "Calm, because omitted from BECMG",
+        "Unknown after every BECMG",
+        "110° at 22 kt from 2209/2211",
+        "180° true at 8 kt"
+      ],
+      "correct_answer": "180° vrai à 8 kt",
+      "explanation": "Le groupe modifie visibilité, temps et nuages, pas le vent. Les valeurs horaires ne deviennent pas des données de vent ; l'omission d'un élément conserve la prévision applicable.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "The group changes visibility, weather and cloud, not wind. Time digits are not wind data; omission retains the applicable forecast element.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C02",
+      "concept_title": "Interpréter la visibilité et CAVOK",
+      "level": 2,
+      "question": "TAF fictif : base 6000 BKN020, TEMPO 2212/2215 2000 SHRA BKN007. À 13 h, quelle combinaison faut-il considérer ?",
+      "question_en": "Fictional TAF: prevailing 6000 BKN020, TEMPO 2212/2215 2000 SHRA BKN007. At 1300, which combination matters?",
+      "options": [
+        "6 km/BKN020 uniquement car TEMPO est facultatif",
+        "2 km/BKN007 seulement à 12 h exactement",
+        "Base 6 km/BKN020, fluctuations temporaires 2 km/BKN007",
+        "2 km/BKN007 continus de 12 à 15 h"
+      ],
+      "options_en": [
+        "Only 6 km/BKN020 because TEMPO is optional",
+        "2 km/BKN007 only exactly at 1200",
+        "Prevailing 6 km/BKN020, temporary 2 km/BKN007 fluctuations",
+        "Continuous 2 km/BKN007 from 1200 to 1500"
+      ],
+      "correct_answer": "Base 6 km/BKN020, fluctuations temporaires 2 km/BKN007",
+      "explanation": "TEMPO n'est ni continu ni facultatif. L'heure est dans sa fenêtre, sans préciser l'instant de chaque épisode ; la base et les fluctuations doivent être distinguées.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "TEMPO is neither continuous nor optional. The time falls inside its window without specifying individual episodes; distinguish prevailing conditions and fluctuations.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C02",
+      "concept_title": "Interpréter la visibilité et CAVOK",
+      "level": 2,
+      "question": "Projet d'exercice à 13 h : besoin de visibilité au moins 5 km et base BKN/OVC au moins 1 000 ft. TAF base 6000 BKN020, TEMPO 2212/2215 2000 SHRA BKN007. Conclusion selon ces seuls seuils ?",
+      "question_en": "Practice plan at 1300 needs visibility at least 5 km and BKN/OVC base at least 1,000 ft. TAF prevailing 6000 BKN020, TEMPO 2212/2215 2000 SHRA BKN007. Conclusion under these thresholds only?",
+      "options": [
+        "Seule la base temporaire est sous le seuil",
+        "La base satisfait les seuils mais les fluctuations prévues les franchissent vers le bas",
+        "Le projet satisfait les seuils puisqu'on utilise seulement la base",
+        "Seule la visibilité temporaire est sous le seuil"
+      ],
+      "options_en": [
+        "Only temporary cloud base is below threshold",
+        "Prevailing conditions meet thresholds but forecast fluctuations fall below both",
+        "The plan meets thresholds because only prevailing conditions count",
+        "Only temporary visibility is below threshold"
+      ],
+      "correct_answer": "La base satisfait les seuils mais les fluctuations prévues les franchissent vers le bas",
+      "explanation": "6 km/2 000 ft satisfont 5 km/1 000 ft ; 2 km/700 ft ne les satisfont pas. Ces seuils sont ceux de l'exercice, pas des minima réglementaires universels. Ne pas masquer l'écart en ignorant TEMPO.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "6 km/2,000 ft meet 5 km/1,000 ft; 2 km/700 ft do not. These are exercise thresholds, not universal legal minima. Ignoring TEMPO conceals the mismatch.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C03",
+      "concept_title": "Lire une évolution et construire une décision",
+      "level": 2,
+      "question": "TAF : BECMG 2209/2211 4000 RA BKN010 TEMPO 2212/2215 2000 SHRA BKN007, valable jusqu'à 18 h. Sans autre changement, régime de base à 16 h ?",
+      "question_en": "TAF: BECMG 2209/2211 4000 RA BKN010 TEMPO 2212/2215 2000 SHRA BKN007, valid until 1800. With no further change, prevailing conditions at 1600?",
+      "options": [
+        "4000 RA BKN010",
+        "2000 SHRA BKN007",
+        "Retour automatique aux conditions avant BECMG",
+        "Fin de toute prévision à 15 h"
+      ],
+      "options_en": [
+        "4000 RA BKN010",
+        "2000 SHRA BKN007",
+        "Automatic return to pre-BECMG conditions",
+        "All forecasting ends at 1500"
+      ],
+      "correct_answer": "4000 RA BKN010",
+      "explanation": "TEMPO est terminé mais le régime établi par BECMG persiste. La fin d'une fluctuation ne réinitialise pas le bulletin ; la validité générale continue jusqu'à 18 h.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "TEMPO has ended but BECMG's prevailing regime persists. Ending a fluctuation does not reset the bulletin; overall validity continues until 1800.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C03",
+      "concept_title": "Lire une évolution et construire une décision",
+      "level": 2,
+      "question": "SIGMET valide 12–16 h : zone dangereuse se déplaçant vers l'est. Route à l'est, hors de la zone dessinée à 12 h ; passage prévu 14 h. Quelle donnée manque avant d'écarter l'intersection ?",
+      "question_en": "SIGMET valid 1200–1600: hazard area moving east. Route is east, outside the area drawn at 1200; crossing planned at 1400. What is missing before excluding intersection?",
+      "options": [
+        "Seulement le METAR du départ",
+        "Seulement la direction magnétique de la piste",
+        "Le fait que le vol ait décollé avant 12 h",
+        "Position et extension prévues de la zone au moment du passage"
+      ],
+      "options_en": [
+        "Only the departure METAR",
+        "Only runway magnetic direction",
+        "Whether take-off was before 1200",
+        "Forecast area position and extent at crossing time"
+      ],
+      "correct_answer": "Position et extension prévues de la zone au moment du passage",
+      "explanation": "Une intersection doit être évaluée au bon instant, avec niveaux et évolution. La carte initiale hors route ne garantit pas la position future ; l'heure de départ n'annule pas une validité en route.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "Assess intersection at the relevant time with levels and development. An initially off-route area does not guarantee its future position; departure time does not cancel en-route validity.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    },
+    {
+      "concept_id": "LAPL_MET_009_C03",
+      "concept_title": "Lire une évolution et construire une décision",
+      "level": 2,
+      "question": "PROB30 TEMPO 2214/2218 1500 TSRA : que signifie 30 ?",
+      "question_en": "PROB30 TEMPO 2214/2218 1500 TSRA: what does 30 mean?",
+      "options": [
+        "Début du phénomène à 14 h 30",
+        "Visibilité réduite de 30 % par rapport à la base",
+        "Probabilité de 30 % des fluctuations décrites dans cette période",
+        "Phénomène pendant 30 % exactement des quatre heures"
+      ],
+      "options_en": [
+        "Phenomenon starts at 1430",
+        "Visibility reduced by 30% from prevailing",
+        "30% probability of the described fluctuations during the period",
+        "Phenomenon lasting exactly 30% of the four hours"
+      ],
+      "correct_answer": "Probabilité de 30 % des fluctuations décrites dans cette période",
+      "explanation": "PROB chiffre une probabilité, pas une durée ou un horaire. TEMPO décrit la nature temporaire des fluctuations ; la période reste celle du groupe 2214/2218.\n\n![Schéma / Diagram](/illustrations/lapl-met-009.svg)",
+      "explanation_en": "PROB quantifies probability, not duration or clock time. TEMPO describes temporary fluctuations; the window remains 2214/2218.\n\n![Schéma / Diagram](/illustrations/en/lapl-met-009.svg)",
+      "tags": [
+        "LAPL",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets",
+        "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf",
+        "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ],
+      "use_exercise_svg": false
+    }
+  ]
+}

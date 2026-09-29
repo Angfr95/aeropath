@@ -1,0 +1,613 @@
+{
+  "metadata": {
+    "module_id": "LAPL_AIRLAW_010",
+    "program": "LAPL",
+    "subject": "Air Law",
+    "chapter_title": "Documents de bord et licences",
+    "chapter_title_en": "Onboard Documents and Licenses",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : vérifier les privilèges du pilote; vérifier l'appareil et les documents; exemple de contrôle.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: checking pilot privileges; checking the aircraft and documents; a checking example.",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AIRLAW_003"
+    ],
+    "tags": [
+      "LAPL",
+      "air_law"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "EASA — SERA, règles de l’air",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "EASA — Aircrew, Part-FCL",
+        "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+      },
+      {
+        "title": "SIA — informations aéronautiques françaises",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-airlaw-010.svg",
+      "alt": "Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu."
+    },
+    "exam_subject": "airlaw",
+    "coverage_status": "partial",
+    "derived_from": "PPL_AIRLAW_010",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_AIRLAW_010_C01",
+      "title": "Vérifier les privilèges du pilote",
+      "title_en": "Checking pilot privileges",
+      "content": "![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)\n\nUne licence ne suffit pas seule à autoriser n'importe quel vol. Vérifier qualification de classe ou de type, aptitude médicale, expérience récente et éventuelles qualifications supplémentaires. Les conditions peuvent dépendre du vol envisagé, notamment transport de passagers ou vol de nuit. Les échéances se gèrent avant le jour du départ.",
+      "content_en": "![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)\n\nA licence alone does not authorise every flight. Check class or type ratings, medical fitness, recent experience and any additional qualifications. Conditions can depend on the intended flight, including carrying passengers or flying at night. Manage expiry dates before the day of departure.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Vérifier les privilèges du pilote"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C02",
+      "title": "Vérifier l'appareil et les documents",
+      "title_en": "Checking the aircraft and documents",
+      "content": "L'identité de l'avion, son statut de navigabilité, son assurance et ses documents de bord doivent être cohérents avec l'opération prévue. Le manuel et ses suppléments doivent correspondre à l'équipement réel. Les exigences d'emport et les éventuelles exceptions se recherchent dans les textes applicables, notamment Part-NCO, plutôt que dans une liste mnémotechnique étrangère.",
+      "content_en": "The aircraft's identity, airworthiness status, insurance and onboard documents must be consistent with the planned operation. The manual and supplements must match the actual equipment. Find carriage requirements and any exceptions in applicable texts, including Part-NCO, rather than using a foreign mnemonic checklist.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Vérifier l'appareil et les documents"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C03",
+      "title": "Exemple de contrôle",
+      "title_en": "A checking example",
+      "content": "Un pilote possède une licence, mais sa qualification n'est plus valide pour l'avion prévu. La présence d'une licence dans le portefeuille ne résout pas cette situation. De même, une nouvelle radio ou une modification de l'avion peut entraîner une mise à jour documentaire. Préparer une liste de vérification datée avec l'organisme de formation et la documentation officielle.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "A pilot holds a licence, but the rating is no longer valid for the intended aircraft. Having the licence in a wallet does not resolve this. Similarly, a new radio or aircraft modification may require updated documentation. Prepare a dated checklist with the training organisation and official documentation.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Exemple de contrôle"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_AIRLAW_010_C01",
+      "concept_title": "Vérifier les privilèges du pilote",
+      "level": 1,
+      "question": "Une licence seule autorise-t-elle tous les vols ?",
+      "question_en": "Does a licence alone authorise every flight?",
+      "options": [
+        "Oui de jour",
+        "Non",
+        "Oui",
+        "Oui sur avion léger"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Qualifications, aptitude et conditions d'exercice doivent aussi être satisfaites.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "Ratings, fitness and conditions for exercising privileges must also be met.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "documents",
+        "licenses",
+        "logbook",
+        "certificates",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes, by day",
+        "No",
+        "Yes",
+        "Yes, in light aircraft"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C02",
+      "concept_title": "Vérifier l'appareil et les documents",
+      "level": 1,
+      "question": "À quoi doit correspondre le manuel de vol ?",
+      "question_en": "What must the flight manual match?",
+      "options": [
+        "À l'avion et à sa configuration réelle",
+        "À n'importe quel avion PPL",
+        "Au seul aérodrome",
+        "À la langue de la radio"
+      ],
+      "correct_answer": "À l'avion et à sa configuration réelle",
+      "explanation": "Les variantes et suppléments peuvent modifier les limitations et procédures.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "Variants and supplements can change limitations and procedures.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "documents",
+        "licenses",
+        "logbook",
+        "certificates",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "The aircraft and its actual configuration",
+        "Any PPL aircraft",
+        "Only the aerodrome",
+        "The language used on the radio"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C03",
+      "concept_title": "Exemple de contrôle",
+      "level": 1,
+      "question": "Quand vérifier les échéances du pilote ?",
+      "question_en": "When should the pilot's validity dates be checked?",
+      "options": [
+        "Après le premier passager",
+        "Uniquement à l'examen",
+        "Après l'atterrissage",
+        "Avant le vol"
+      ],
+      "correct_answer": "Avant le vol",
+      "explanation": "Une condition de validité manquante peut empêcher le vol prévu.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "A missing validity condition can prevent the planned flight.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "documents",
+        "licenses",
+        "logbook",
+        "certificates",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "After the first passenger boards",
+        "Only at the examination",
+        "After landing",
+        "Before flight"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C01",
+      "concept_title": "Vérifier les privilèges du pilote",
+      "level": 2,
+      "question": "Une licence est présente, mais la qualification nécessaire à l'avion n'est plus valide. Quelle conclusion retenir ?",
+      "question_en": "A licence is present, but the rating required for the aircraft is no longer valid. What follows?",
+      "options": [
+        "L'accord d'un passager remplace la qualification",
+        "La présence du manuel de vol rend la qualification inutile",
+        "Il faut résoudre la situation avant d'exercer les privilèges concernés",
+        "La licence seule suffit si le vol est court"
+      ],
+      "correct_answer": "Il faut résoudre la situation avant d'exercer les privilèges concernés",
+      "explanation": "Les privilèges dépendent de plusieurs conditions, dont les qualifications pertinentes. Posséder matériellement une licence ne remplace pas leur validité.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "Privileges depend on several conditions, including the relevant ratings. Physically possessing a licence does not replace their validity.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "documents",
+        "licenses",
+        "logbook",
+        "certificates",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "A passenger's agreement replaces the rating",
+        "The flight manual makes the rating unnecessary",
+        "Resolve the situation before exercising the relevant privileges",
+        "The licence alone is enough for a short flight"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C02",
+      "concept_title": "Vérifier l'appareil et les documents",
+      "level": 2,
+      "question": "Un équipement de l'avion vient d'être modifié. Quel contrôle documentaire est pertinent ?",
+      "question_en": "An aircraft item has just been modified. Which documentary check is relevant?",
+      "options": [
+        "Supposer que seule l'immatriculation compte",
+        "Vérifier les suppléments et documents correspondant à la configuration réelle",
+        "Utiliser n'importe quel manuel du même constructeur",
+        "Conserver uniquement la fiche publicitaire du nouvel équipement"
+      ],
+      "correct_answer": "Vérifier les suppléments et documents correspondant à la configuration réelle",
+      "explanation": "Le manuel et ses suppléments doivent correspondre à l'installation réelle. Une modification peut entraîner des limitations ou procédures documentées spécifiques.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "The manual and supplements must match the real installation. A modification may introduce specific documented limitations or procedures.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "documents",
+        "licenses",
+        "logbook",
+        "certificates",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Assume only registration matters",
+        "Check supplements and documents for the actual configuration",
+        "Use any manual from the same manufacturer",
+        "Keep only the equipment brochure"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C01",
+      "concept_title": "Vérifier les privilèges du pilote",
+      "level": 2,
+      "question": "Vrai ou faux ? L'emport de passagers peut être soumis à des conditions particulières d'exercice.",
+      "question_en": "True or false? Carrying passengers may be subject to specific conditions for exercising privileges.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne licence ne suffit pas seule à autoriser n'importe quel vol. Vérifier qualification de classe ou de type, aptitude médicale, expérience récente et éventuelles qualifications supplémentaires. Les conditions peuvent dépendre du vol envisagé, notamment transport de passagers ou vol de nuit. Les échéances se gèrent avant le jour du départ.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "This statement is true.\n\nA licence alone does not authorise every flight. Check class or type ratings, medical fitness, recent experience and any additional qualifications. Conditions can depend on the intended flight, including carrying passengers or flying at night. Manage expiry dates before the day of departure.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C01",
+      "concept_title": "Vérifier les privilèges du pilote",
+      "level": 2,
+      "question": "Vrai ou faux ? Une licence dispense de vérifier l'aptitude médicale.",
+      "question_en": "True or false? A licence removes the need to check medical fitness.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne licence ne suffit pas seule à autoriser n'importe quel vol. Vérifier qualification de classe ou de type, aptitude médicale, expérience récente et éventuelles qualifications supplémentaires. Les conditions peuvent dépendre du vol envisagé, notamment transport de passagers ou vol de nuit. Les échéances se gèrent avant le jour du départ.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "This statement is false.\n\nA licence alone does not authorise every flight. Check class or type ratings, medical fitness, recent experience and any additional qualifications. Conditions can depend on the intended flight, including carrying passengers or flying at night. Manage expiry dates before the day of departure.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C01",
+      "concept_title": "Vérifier les privilèges du pilote",
+      "level": 2,
+      "question": "Vrai ou faux ? L'expérience récente fait partie des éléments à vérifier.",
+      "question_en": "True or false? Recent experience is among the items to check.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne licence ne suffit pas seule à autoriser n'importe quel vol. Vérifier qualification de classe ou de type, aptitude médicale, expérience récente et éventuelles qualifications supplémentaires. Les conditions peuvent dépendre du vol envisagé, notamment transport de passagers ou vol de nuit. Les échéances se gèrent avant le jour du départ.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "This statement is true.\n\nA licence alone does not authorise every flight. Check class or type ratings, medical fitness, recent experience and any additional qualifications. Conditions can depend on the intended flight, including carrying passengers or flying at night. Manage expiry dates before the day of departure.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C02",
+      "concept_title": "Vérifier l'appareil et les documents",
+      "level": 2,
+      "question": "Vrai ou faux ? Un manuel quelconque du constructeur convient à toutes ses variantes.",
+      "question_en": "True or false? Any manufacturer's manual suits all its variants.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'identité de l'avion, son statut de navigabilité, son assurance et ses documents de bord doivent être cohérents avec l'opération prévue. Le manuel et ses suppléments doivent correspondre à l'équipement réel. Les exigences d'emport et les éventuelles exceptions se recherchent dans les textes applicables, notamment Part-NCO, plutôt que dans une liste mnémotechnique étrangère.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "This statement is false.\n\nThe aircraft's identity, airworthiness status, insurance and onboard documents must be consistent with the planned operation. The manual and supplements must match the actual equipment. Find carriage requirements and any exceptions in applicable texts, including Part-NCO, rather than using a foreign mnemonic checklist.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C02",
+      "concept_title": "Vérifier l'appareil et les documents",
+      "level": 2,
+      "question": "Vrai ou faux ? L'assurance et le statut de navigabilité font partie des vérifications documentaires.",
+      "question_en": "True or false? Insurance and airworthiness status are part of documentary checks.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'identité de l'avion, son statut de navigabilité, son assurance et ses documents de bord doivent être cohérents avec l'opération prévue. Le manuel et ses suppléments doivent correspondre à l'équipement réel. Les exigences d'emport et les éventuelles exceptions se recherchent dans les textes applicables, notamment Part-NCO, plutôt que dans une liste mnémotechnique étrangère.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "This statement is true.\n\nThe aircraft's identity, airworthiness status, insurance and onboard documents must be consistent with the planned operation. The manual and supplements must match the actual equipment. Find carriage requirements and any exceptions in applicable texts, including Part-NCO, rather than using a foreign mnemonic checklist.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C02",
+      "concept_title": "Vérifier l'appareil et les documents",
+      "level": 2,
+      "question": "Vrai ou faux ? Une liste mnémotechnique étrangère garantit les exigences d'emport locales.",
+      "question_en": "True or false? A foreign mnemonic guarantees local carriage requirements.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'identité de l'avion, son statut de navigabilité, son assurance et ses documents de bord doivent être cohérents avec l'opération prévue. Le manuel et ses suppléments doivent correspondre à l'équipement réel. Les exigences d'emport et les éventuelles exceptions se recherchent dans les textes applicables, notamment Part-NCO, plutôt que dans une liste mnémotechnique étrangère.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "This statement is false.\n\nThe aircraft's identity, airworthiness status, insurance and onboard documents must be consistent with the planned operation. The manual and supplements must match the actual equipment. Find carriage requirements and any exceptions in applicable texts, including Part-NCO, rather than using a foreign mnemonic checklist.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C03",
+      "concept_title": "Exemple de contrôle",
+      "level": 2,
+      "question": "Vrai ou faux ? Une modification de l'avion peut exiger de revoir la documentation.",
+      "question_en": "True or false? An aircraft modification may require reviewing documentation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn pilote possède une licence, mais sa qualification n'est plus valide pour l'avion prévu. La présence d'une licence dans le portefeuille ne résout pas cette situation. De même, une nouvelle radio ou une modification de l'avion peut entraîner une mise à jour documentaire. Préparer une liste de vérification datée avec l'organisme de formation et la documentation officielle.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "This statement is true.\n\nA pilot holds a licence, but the rating is no longer valid for the intended aircraft. Having the licence in a wallet does not resolve this. Similarly, a new radio or aircraft modification may require updated documentation. Prepare a dated checklist with the training organisation and official documentation.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C03",
+      "concept_title": "Exemple de contrôle",
+      "level": 2,
+      "question": "Vrai ou faux ? Posséder physiquement une licence rétablit une qualification expirée.",
+      "question_en": "True or false? Physically possessing a licence restores an expired rating.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn pilote possède une licence, mais sa qualification n'est plus valide pour l'avion prévu. La présence d'une licence dans le portefeuille ne résout pas cette situation. De même, une nouvelle radio ou une modification de l'avion peut entraîner une mise à jour documentaire. Préparer une liste de vérification datée avec l'organisme de formation et la documentation officielle.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "This statement is false.\n\nA pilot holds a licence, but the rating is no longer valid for the intended aircraft. Having the licence in a wallet does not resolve this. Similarly, a new radio or aircraft modification may require updated documentation. Prepare a dated checklist with the training organisation and official documentation.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C03",
+      "concept_title": "Exemple de contrôle",
+      "level": 2,
+      "question": "Vrai ou faux ? Une checklist datée peut être préparée avec l'organisme de formation.",
+      "question_en": "True or false? A dated checklist can be prepared with the training organisation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn pilote possède une licence, mais sa qualification n'est plus valide pour l'avion prévu. La présence d'une licence dans le portefeuille ne résout pas cette situation. De même, une nouvelle radio ou une modification de l'avion peut entraîner une mise à jour documentaire. Préparer une liste de vérification datée avec l'organisme de formation et la documentation officielle.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "This statement is true.\n\nA pilot holds a licence, but the rating is no longer valid for the intended aircraft. Having the licence in a wallet does not resolve this. Similarly, a new radio or aircraft modification may require updated documentation. Prepare a dated checklist with the training organisation and official documentation.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_010_C03",
+      "concept_title": "Exemple de contrôle",
+      "level": 2,
+      "question": "Vrai ou faux ? La vérification des échéances peut toujours attendre l'embarquement du premier passager.",
+      "question_en": "True or false? Checking expiry dates can always wait until the first passenger boards.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn pilote possède une licence, mais sa qualification n'est plus valide pour l'avion prévu. La présence d'une licence dans le portefeuille ne résout pas cette situation. De même, une nouvelle radio ou une modification de l'avion peut entraîner une mise à jour documentaire. Préparer une liste de vérification datée avec l'organisme de formation et la documentation officielle.\n\n![Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.](/illustrations/lapl-airlaw-010.svg)",
+      "explanation_en": "This statement is false.\n\nA pilot holds a licence, but the rating is no longer valid for the intended aircraft. Having the licence in a wallet does not resolve this. Similarly, a new radio or aircraft modification may require updated documentation. Prepare a dated checklist with the training organisation and official documentation.\n\n![Diagram: Onboard Documents and Licenses](/illustrations/en/lapl-airlaw-010.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

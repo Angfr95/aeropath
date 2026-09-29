@@ -1,0 +1,1774 @@
+{
+  "program": "LAPL",
+  "coverage": "partial",
+  "lessons": 63,
+  "questions": 945,
+  "exam_mcq": 455,
+  "revision_questions": 490,
+  "sections": {
+    "airlaw": [
+      {
+        "module": "LAPL_AIRLAW_001",
+        "title": "Organisation aviation internationale (ICAO, OACI)",
+        "category": "airlaw",
+        "lesson_id": "07ade631-0000-4000-8000-000007ade631",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Convention de Chicago et OACI",
+          "Rôle des annexes",
+          "Normes, pratiques recommandées et différences"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "OACI — historique",
+            "url": "https://www.icao.int/history-icao-and-chicago-convention"
+          },
+          {
+            "title": "OACI — Convention de Chicago",
+            "url": "https://www.icao.int/publications/pages/doc7300.aspx"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_002",
+        "title": "Licences : formation, privilèges et cadres réglementaires",
+        "category": "airlaw",
+        "lesson_id": "07ade632-0000-4000-8000-000007ade632",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Cadre européen",
+          "Formation et qualifications",
+          "Maintien des privilèges et vols internationaux"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — Aircrew, FCL.060, FCL.210.A, FCL.740.A, Part-MED",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011"
+          },
+          {
+            "title": "FAA — 14 CFR 61.109(a)",
+            "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109"
+          },
+          {
+            "title": "EASA — États membres",
+            "url": "https://www.easa.europa.eu/en/taxonomy/term/1255/all"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_003",
+        "title": "Certificats d'aéronefs (Type, Navigabilité, Immatriculation)",
+        "category": "airlaw",
+        "lesson_id": "07ade633-0000-4000-8000-000007ade633",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Conception approuvée",
+          "Navigabilité et suivi",
+          "Immatriculation et documents associés"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "DGAC — immatriculation",
+            "url": "https://www.ecologie.gouv.fr/politiques-publiques/immatriculation-aeronefs"
+          },
+          {
+            "title": "EASA — Part-NCO, NCO.GEN.135",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012"
+          },
+          {
+            "title": "EASA — navigabilité initiale et maintien",
+            "url": "https://www.easa.europa.eu/en/regulations"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_004",
+        "title": "Espaces aériens et conditions d’accès",
+        "category": "airlaw",
+        "lesson_id": "07ade634-0000-4000-8000-000007ade634",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Un volume, pas une ligne",
+          "Préparer une traversée",
+          "Exemple de limite verticale"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — SERA, règles de l’air",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — Aircrew, Part-FCL",
+            "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+          },
+          {
+            "title": "SIA — informations aéronautiques françaises",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_005",
+        "title": "Règles de vol (VFR/IFR)",
+        "category": "airlaw",
+        "lesson_id": "07ade635-0000-4000-8000-000007ade635",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Règles de vol et météo",
+          "Déterminer les minima pertinents",
+          "Exemple de décision"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — SERA, règles de l’air",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — Aircrew, Part-FCL",
+            "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+          },
+          {
+            "title": "SIA — informations aéronautiques françaises",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_006",
+        "title": "SERA — Règles de l'air standardisées",
+        "category": "airlaw",
+        "lesson_id": "07ade636-0000-4000-8000-000007ade636",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Le rôle de SERA",
+          "Responsabilité et prévention",
+          "Application à une situation"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — SERA, règles de l’air",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — Aircrew, Part-FCL",
+            "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+          },
+          {
+            "title": "SIA — informations aéronautiques françaises",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_007",
+        "title": "Planification de vol et dépôt de plan de vol",
+        "category": "airlaw",
+        "lesson_id": "07ade637-0000-4000-8000-000007ade637",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Dossier personnel et plan déposé",
+          "Des informations exploitables",
+          "Avant et après le vol"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — SERA, règles de l’air",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — Aircrew, Part-FCL",
+            "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+          },
+          {
+            "title": "SIA — informations aéronautiques françaises",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_008",
+        "title": "Services de la circulation aérienne (ATC)",
+        "category": "airlaw",
+        "lesson_id": "07ade638-0000-4000-8000-000007ade638",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Trois fonctions à distinguer",
+          "Identifier le service reçu",
+          "Exemple d'échange"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — SERA, règles de l’air",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — Aircrew, Part-FCL",
+            "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+          },
+          {
+            "title": "SIA — informations aéronautiques françaises",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_009",
+        "title": "Procédures d'urgence et de détresse",
+        "category": "airlaw",
+        "lesson_id": "07ade639-0000-4000-8000-000007ade639",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Détresse et urgence",
+          "Transmettre l'essentiel",
+          "Exemple de qualification"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — SERA, règles de l’air",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — Aircrew, Part-FCL",
+            "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+          },
+          {
+            "title": "SIA — informations aéronautiques françaises",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "DGAC — SERA France 17 janvier 2026, SERA.14095(a)(1)",
+            "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_010",
+        "title": "Documents de bord et licences",
+        "category": "airlaw",
+        "lesson_id": "07ade64f-0000-4000-8000-000007ade64f",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Vérifier les privilèges du pilote",
+          "Vérifier l'appareil et les documents",
+          "Exemple de contrôle"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — SERA, règles de l’air",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — Aircrew, Part-FCL",
+            "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+          },
+          {
+            "title": "SIA — informations aéronautiques françaises",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_011",
+        "title": "Appliquer les minima VMC de jour",
+        "category": "airlaw",
+        "lesson_id": "07ade650-0000-4000-8000-000007ade650",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Choisir la bonne ligne",
+          "Basses couches et exceptions",
+          "Exemples et décision"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Référence du chapitre",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_012",
+        "title": "Priorités et prévention des collisions",
+        "category": "airlaw",
+        "lesson_id": "07ade651-0000-4000-8000-000007ade651",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Face-à-face et convergence",
+          "Exceptions et dépassement",
+          "Approche et atterrissage",
+          "Roulage, piste et barre d’arrêt"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Référence du chapitre",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AIRLAW_013",
+        "title": "Classes d’espace et services ATS",
+        "category": "airlaw",
+        "lesson_id": "07ade652-0000-4000-8000-000007ade652",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Identifier le volume et les conditions",
+          "Comparer C et D en VFR",
+          "Comprendre E, F et G",
+          "RMZ et TMZ"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Référence du chapitre",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9807"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      }
+    ],
+    "aircraft_general": [
+      {
+        "module": "LAPL_AC_001",
+        "title": "Structure de l'aéronef",
+        "category": "aircraft_general",
+        "lesson_id": "68f524bb-0000-4000-8000-000068f524bb",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Reconnaître les éléments porteurs",
+          "Comprendre les efforts",
+          "Exemple et vérification"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AC_002",
+        "title": "Groupe motopropulseur (moteur, hélice)",
+        "category": "aircraft_general",
+        "lesson_id": "68f524bc-0000-4000-8000-000068f524bc",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Du carburant à la traction",
+          "Surveiller le fonctionnement",
+          "Mise en situation"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AC_003",
+        "title": "Systèmes de bord (électrique, carburant, hydraulique)",
+        "category": "aircraft_general",
+        "lesson_id": "68f524bd-0000-4000-8000-000068f524bd",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Alimentation et disponibilité",
+          "Électricité et hydraulique",
+          "Exemple et méthode"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AC_004",
+        "title": "Instruments de vol",
+        "category": "aircraft_general",
+        "lesson_id": "68f524be-0000-4000-8000-000068f524be",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Pressions et indications",
+          "Attitude et direction",
+          "Exemple et limites"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AC_005",
+        "title": "Équipements électroniques et radio",
+        "category": "aircraft_general",
+        "lesson_id": "68f524bf-0000-4000-8000-000068f524bf",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Communication et surveillance",
+          "Navigation et interface",
+          "Exemple d'erreur"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AC_006",
+        "title": "Performances (décollage, atterrissage, masse et centrage)",
+        "category": "aircraft_general",
+        "lesson_id": "68f524c0-0000-4000-8000-000068f524c0",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Les conditions du jour",
+          "Masse et équilibre",
+          "Exemple de décision"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AC_007",
+        "title": "Commandes de vol",
+        "category": "aircraft_general",
+        "lesson_id": "68f524c1-0000-4000-8000-000068f524c1",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Trois axes de rotation",
+          "Coordonner les commandes",
+          "Volets, compensation et exemple"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_AC_008",
+        "title": "Limitations d'utilisation",
+        "category": "aircraft_general",
+        "lesson_id": "68f524c2-0000-4000-8000-000068f524c2",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Lire les limites applicables",
+          "Comprendre les vitesses",
+          "Exemple de lecture"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_INS_001",
+        "title": "Vitesse indiquée, corrigée, vraie et vitesse sol",
+        "category": "instrumentation",
+        "lesson_id": "6f12def9-0000-4000-8000-00006f12def9",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Ce que lit le pilote",
+          "La vitesse dans l'air",
+          "La vitesse utile au temps de trajet",
+          "Exemple et erreur à éviter"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Safety Briefing, distinctions IAS, CAS et TAS",
+            "url": "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_INS_002",
+        "title": "Recouper les instruments et reconnaître une indication douteuse",
+        "category": "instrumentation",
+        "lesson_id": "6f12defa-0000-4000-8000-00006f12defa",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Remonter à la source",
+          "Comprendre un blocage statique",
+          "Faire un contrôle cohérent",
+          "Étude de cas"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Instrument Flying Handbook, systèmes Pitot-statiques",
+            "url": "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      }
+    ],
+    "communications": [
+      {
+        "module": "LAPL_COM_001",
+        "title": "Radiotéléphonie et collationnement",
+        "category": "communications",
+        "lesson_id": "330dc70c-0000-4000-8000-0000330dc70c",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Construire un appel et identifier le destinataire",
+          "Collationner et vérifier",
+          "Appliquer sans inventer de clairance"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — SERA, section 14 : radiotéléphonie",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "SIA — procédures publiées",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "Référence pédagogique vérifiée",
+            "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_COM_002",
+        "title": "Panne radio et communications d’urgence",
+        "category": "communications",
+        "lesson_id": "330dc70d-0000-4000-8000-0000330dc70d",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Reconnaître la panne et rechercher le contact",
+          "Appliquer la procédure VFR et lire les signaux",
+          "Distinguer urgence et détresse, composer le message"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — SERA, section 14 : radiotéléphonie",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "SIA — procédures publiées",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "Référence pédagogique vérifiée",
+            "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf"
+          },
+          {
+            "title": "DGAC — SERA France 17 janvier 2026, SERA.14095(a)(1)",
+            "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_OP_004",
+        "title": "Procédures de communication radio",
+        "category": "operational_procedures",
+        "lesson_id": "01902efd-0000-4000-8000-000001902efd",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Préparer avant de parler",
+          "Écouter et collationner",
+          "Exemple pratique"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Airplane Flying Handbook",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+          },
+          {
+            "title": "EASA — SERA",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_RAD_001",
+        "title": "Comprendre une clairance et vérifier son collationnement",
+        "category": "radio_procedure",
+        "lesson_id": "342893a0-0000-4000-8000-0000342893a0",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Une autorisation avec un périmètre",
+          "Répéter pour vérifier",
+          "Exercice d'écoute au sol",
+          "Lever une ambiguïté"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — SERA.8015 : clairances et collationnement",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-standardised-european?erules-id=ERULES-1963177438-9888"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      }
+    ],
+    "operational_procedures": [
+      {
+        "module": "LAPL_EMG_001",
+        "title": "Déroutement : décider avant de manquer d'options",
+        "category": "emergency",
+        "lesson_id": "191bff4a-0000-4000-8000-0000191bff4a",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Définir des déclencheurs",
+          "Choisir un terrain utilisable",
+          "Exemple chiffré de comparaison",
+          "Communiquer et suivre le nouveau plan"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Airplane Flying Handbook, procédures et décisions",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_OP_001",
+        "title": "Procédures pré-vol",
+        "category": "operational_procedures",
+        "lesson_id": "01902efa-0000-4000-8000-000001902efa",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Préparer le vol et l'avion",
+          "Contrôles extérieurs et cabine",
+          "Exemple d'interruption"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Airplane Flying Handbook",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+          },
+          {
+            "title": "EASA — SERA",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_OP_002",
+        "title": "Roulage et décollage",
+        "category": "operational_procedures",
+        "lesson_id": "01902efb-0000-4000-8000-000001902efb",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Roulage et orientation",
+          "Préparer le décollage",
+          "Exemple d'incursion évitée"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Airplane Flying Handbook",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+          },
+          {
+            "title": "EASA — SERA",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_OP_003",
+        "title": "Approche et atterrissage",
+        "category": "operational_procedures",
+        "lesson_id": "01902efc-0000-4000-8000-000001902efc",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Construire une approche stable",
+          "Vent, piste et turbulence de sillage",
+          "Décision de remise de gaz"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Airplane Flying Handbook",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+          },
+          {
+            "title": "EASA — SERA",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_OP_005",
+        "title": "Procédures d'urgence en vol",
+        "category": "operational_procedures",
+        "lesson_id": "01902efe-0000-4000-8000-000001902efe",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Priorités et diagnostic",
+          "Préserver des options",
+          "Exemple de gestion"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Airplane Flying Handbook",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+          },
+          {
+            "title": "EASA — SERA",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      }
+    ],
+    "flight_performance_planning": [
+      {
+        "module": "LAPL_FP_001",
+        "title": "Bilan carburant, autonomie et réserves",
+        "category": "flight_planning",
+        "lesson_id": "72349163-0000-4000-8000-000072349163",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Construire le bilan carburant",
+          "Réserve et suivi",
+          "Exemple pédagogique"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "EASA — Air Operations, Part-NCO, NCO.OP.125",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations?erules-id=ERULES-1963177438-13596"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_MB_001",
+        "title": "Calcul de masse et de centrage",
+        "category": "mass_and_balance",
+        "lesson_id": "7d6134ae-0000-4000-8000-00007d6134ae",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Masse, bras et moment",
+          "Vérifier toute l'enveloppe",
+          "Exemple corrigé"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 10 : masse et centrage",
+            "url": "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_MB_002",
+        "title": "Chargement et enveloppe de centrage",
+        "category": "mass_and_balance",
+        "lesson_id": "7d6134af-0000-4000-8000-00007d6134af",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Tableau de chargement",
+          "Lire une enveloppe fictive",
+          "Consommation et déplacement de charge"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Référence du chapitre",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_PERF_001",
+        "title": "Lire un tableau de performances",
+        "category": "performance",
+        "lesson_id": "6b595e42-0000-4000-8000-00006b595e42",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Partir des bonnes hypothèses",
+          "Interpoler dans une plage autorisée",
+          "Calculer une correction explicitement donnée",
+          "Transformer le calcul en décision"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 11 : performances",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_PERF_002",
+        "title": "Taux de montée, pente et altitude-densité",
+        "category": "performance",
+        "lesson_id": "6b595e43-0000-4000-8000-00006b595e43",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Deux façons de mesurer une montée",
+          "Exemple avec vitesse sol",
+          "Comprendre le rôle du vent",
+          "Densité et choix de vitesse"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — altitude-densité",
+            "url": "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap7_section_6.html"
+          },
+          {
+            "title": "FAA — départs : relation taux de montée et pente",
+            "url": "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/chap5_section_2.html"
+          },
+          {
+            "title": "FAA — Airplane Flying Handbook, décollage et montée",
+            "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/07_afh_ch6.pdf"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      }
+    ],
+    "human_performance": [
+      {
+        "module": "LAPL_HP_001",
+        "title": "Aptitude du pilote et limites physiologiques",
+        "category": "human_performance",
+        "lesson_id": "759e42a1-0000-4000-8000-0000759e42a1",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Aptitude du jour",
+          "Perception et altitude",
+          "Exemple de décision"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitres 2 et 17 : décision et facteurs aéromédicaux",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_HP_002",
+        "title": "Attention, biais et prise de décision",
+        "category": "human_performance",
+        "lesson_id": "759e42a2-0000-4000-8000-0000759e42a2",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Limites de l'attention",
+          "Biais de décision",
+          "Exemple de réévaluation"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitres 2 et 17 : décision et facteurs aéromédicaux",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_HP_003",
+        "title": "Respiration, vision et illusions",
+        "category": "human_performance",
+        "lesson_id": "759e42a3-0000-4000-8000-0000759e42a3",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Hypoxie et monoxyde de carbone",
+          "Hyperventilation et diagnostic prudent",
+          "Vision et adaptation nocturne",
+          "Oreille interne et désorientation"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Référence du chapitre",
+            "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_OP_006",
+        "title": "Facteurs humains et gestion des ressources",
+        "category": "operational_procedures",
+        "lesson_id": "01902eff-0000-4000-8000-000001902eff",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Menaces et erreurs",
+          "Utiliser les ressources",
+          "Exemple de pression extérieure"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — Airplane Flying Handbook",
+            "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+          },
+          {
+            "title": "EASA — SERA",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      }
+    ],
+    "meteorology": [
+      {
+        "module": "LAPL_MET_001",
+        "title": "L'atmosphère terrestre",
+        "category": "meteorology",
+        "lesson_id": "335e45e7-0000-4000-8000-0000335e45e7",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Une enveloppe d'air variable",
+          "Le modèle ISA",
+          "Exemple et conséquences"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Météo-France — Guide aviation",
+            "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+          },
+          {
+            "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_MET_002",
+        "title": "Pression atmosphérique et altimétrie",
+        "category": "meteorology",
+        "lesson_id": "335e45e8-0000-4000-8000-0000335e45e8",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Altitude, hauteur et référence",
+          "Recalage et transition",
+          "Erreurs et marges sur le relief"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "DGAC — SERA France, définitions et SERA.8015(eb)",
+            "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf"
+          },
+          {
+            "title": "CAA — Skyway Code, principes d’altimétrie et approximation pression/hauteur",
+            "url": "https://www.caa.co.uk/publication/download/16110"
+          },
+          {
+            "title": "FAA — AIM, effets du froid sur les altimètres barométriques",
+            "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_3.html"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_MET_003",
+        "title": "Température et humidité",
+        "category": "meteorology",
+        "lesson_id": "335e45e9-0000-4000-8000-0000335e45e9",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Humidité et saturation",
+          "Refroidissement et condensation",
+          "Exemple d'interprétation"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Météo-France — Guide aviation",
+            "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+          },
+          {
+            "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_MET_004",
+        "title": "Vent et circulation atmosphérique",
+        "category": "meteorology",
+        "lesson_id": "335e45ea-0000-4000-8000-0000335e45ea",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Origine et description du vent",
+          "Vent local et relief",
+          "Exemple de composantes"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Météo-France — Guide aviation",
+            "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+          },
+          {
+            "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_MET_005",
+        "title": "Nuages et précipitations",
+        "category": "meteorology",
+        "lesson_id": "335e45eb-0000-4000-8000-0000335e45eb",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Identifier une famille de nuages",
+          "Précipitations et plafond",
+          "Exemple de conversion"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Météo-France — Guide aviation",
+            "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+          },
+          {
+            "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_MET_006",
+        "title": "Visibilité et phénomènes réduisant la visibilité",
+        "category": "meteorology",
+        "lesson_id": "335e45ec-0000-4000-8000-0000335e45ec",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Voir n'est pas toujours distinguer",
+          "Mécanismes du brouillard",
+          "Décider avec une marge"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Météo-France — Guide aviation",
+            "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+          },
+          {
+            "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_MET_007",
+        "title": "Masses d'air et fronts",
+        "category": "meteorology",
+        "lesson_id": "335e45ed-0000-4000-8000-0000335e45ed",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Masses d'air et stabilité",
+          "Comprendre les fronts",
+          "Exemple de préparation"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Météo-France — Guide aviation",
+            "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+          },
+          {
+            "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_MET_008",
+        "title": "Phénomènes dangereux (orage, givre, cisaillement)",
+        "category": "meteorology",
+        "lesson_id": "335e45ee-0000-4000-8000-0000335e45ee",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Convection et cisaillement",
+          "Givrage et relief",
+          "Exemple de décision"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Météo-France — Guide aviation",
+            "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+          },
+          {
+            "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_MET_009",
+        "title": "METAR, TAF et SIGMET",
+        "category": "meteorology",
+        "lesson_id": "335e45ef-0000-4000-8000-0000335e45ef",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Choisir le produit et lire ses références",
+          "Interpréter la visibilité et CAVOK",
+          "Lire une évolution et construire une décision"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Météo-France — Guide aviation",
+            "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+          },
+          {
+            "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+          },
+          {
+            "title": "Met Office — SIGMET",
+            "url": "https://www.metoffice.gov.uk/services/transport/aviation/regulated/training-resources-for-aviation/sigmets"
+          },
+          {
+            "title": "Météo-France — guide aviation, décodage TAF",
+            "url": "https://meteofrance.fr/sites/meteofrance.fr/files/files/editorial/guide_aviation_2021.pdf"
+          },
+          {
+            "title": "Référence pédagogique vérifiée",
+            "url": "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/transport/aviation/training-resources/02413-getmet-update-v6.pdf"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_MET_010",
+        "title": "Météorologie pour le vol à vue (VFR)",
+        "category": "meteorology",
+        "lesson_id": "335e4605-0000-4000-8000-0000335e4605",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Construire un dossier cohérent",
+          "Minima et marges personnelles",
+          "Scénario de réévaluation"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Météo-France — Guide aviation",
+            "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+          },
+          {
+            "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      }
+    ],
+    "navigation": [
+      {
+        "module": "LAPL_NAV_001",
+        "title": "Navigation LAPL : vent et route",
+        "category": "navigation",
+        "lesson_id": "618d4dae-0000-4000-8000-0000618d4dae",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Vecteurs et conventions",
+          "Triangle chiffré",
+          "Erreur de route et interception"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Référence du chapitre",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          },
+          {
+            "title": "DGAC — examens théoriques LAPL/PPL",
+            "url": "https://www.ecologie.gouv.fr/politiques-publiques/examens-theoriques-devenir-personnel-navigant"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_NAV_002",
+        "title": "Principes de base de la navigation aérienne",
+        "category": "navigation",
+        "lesson_id": "618d4daf-0000-4000-8000-0000618d4daf",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Se situer et s'orienter",
+          "Cap, route et relèvement",
+          "Exemple de conversion"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 16 : navigation",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+          },
+          {
+            "title": "SIA — cartes et informations aéronautiques",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_NAV_003",
+        "title": "Cartes aéronautiques (ICAO 1:500 000)",
+        "category": "navigation",
+        "lesson_id": "618d4db0-0000-4000-8000-0000618d4db0",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Lire une carte aéronautique",
+          "Comprendre la dimension verticale",
+          "Exemple de préparation"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 16 : navigation",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+          },
+          {
+            "title": "SIA — cartes et informations aéronautiques",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_NAV_004",
+        "title": "Navigation à l'estime (Dead Reckoning)",
+        "category": "navigation",
+        "lesson_id": "618d4db1-0000-4000-8000-0000618d4db1",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Le principe de l'estime",
+          "Temps et correction",
+          "Exemple guidé"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 16 : navigation",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+          },
+          {
+            "title": "SIA — cartes et informations aéronautiques",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_NAV_005",
+        "title": "Radio-navigation (VOR, NDB, DME)",
+        "category": "navigation",
+        "lesson_id": "618d4db2-0000-4000-8000-0000618d4db2",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Trois aides différentes",
+          "Identifier et interpréter",
+          "Exemple de géométrie"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 16 : navigation",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+          },
+          {
+            "title": "SIA — cartes et informations aéronautiques",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_NAV_006",
+        "title": "Navigation par satellite (GPS/GNSS)",
+        "category": "navigation",
+        "lesson_id": "618d4db3-0000-4000-8000-0000618d4db3",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Ce que fournit le GNSS",
+          "Limites pratiques",
+          "Exemple de contrôle croisé"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 16 : navigation",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+          },
+          {
+            "title": "SIA — cartes et informations aéronautiques",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_NAV_007",
+        "title": "Log de navigation et calculs de vol",
+        "category": "navigation",
+        "lesson_id": "618d4db4-0000-4000-8000-0000618d4db4",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Préparer le log",
+          "Calculer sans mélanger les unités",
+          "Exemple corrigé"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 16 : navigation",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+          },
+          {
+            "title": "SIA — cartes et informations aéronautiques",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_NAV_008",
+        "title": "Repérage visuel et points de report",
+        "category": "navigation",
+        "lesson_id": "618d4db5-0000-4000-8000-0000618d4db5",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Choisir de bons repères",
+          "Contrôler l'identification",
+          "En cas de doute"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 16 : navigation",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+          },
+          {
+            "title": "SIA — cartes et informations aéronautiques",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_NAV_009",
+        "title": "Planification de vol approfondie",
+        "category": "navigation",
+        "lesson_id": "618d4db6-0000-4000-8000-0000618d4db6",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Construire une route praticable",
+          "Réunir les contraintes",
+          "Exemple de décision anticipée"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 16 : navigation",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+          },
+          {
+            "title": "SIA — cartes et informations aéronautiques",
+            "url": "https://www.sia.aviation-civile.gouv.fr/"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      }
+    ],
+    "principles_of_flight": [
+      {
+        "module": "LAPL_POF_001",
+        "title": "Portance, traînée et équilibre du vol",
+        "category": "principles_of_flight",
+        "lesson_id": "625c24d2-0000-4000-8000-0000625c24d2",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Quatre forces et équilibre",
+          "Incidence et portance",
+          "Exemple et traînée"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 5 : aérodynamique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_POF_002",
+        "title": "Décrochage, virage et facteur de charge",
+        "category": "principles_of_flight",
+        "lesson_id": "625c24d3-0000-4000-8000-0000625c24d3",
+        "questions": 15,
+        "exam_mcq": 5,
+        "objectives": [
+          "Le mécanisme du décrochage",
+          "Virage et facteur de charge",
+          "Exemple corrigé"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "FAA — PHAK, chapitre 5 : aérodynamique",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      },
+      {
+        "module": "LAPL_POF_003",
+        "title": "Stabilité, finesse et effet de sol",
+        "category": "principles_of_flight",
+        "lesson_id": "625c24d4-0000-4000-8000-0000625c24d4",
+        "questions": 15,
+        "exam_mcq": 15,
+        "objectives": [
+          "Stabilité statique et dynamique",
+          "Centrage et contrôle longitudinal",
+          "Traînée et finesse",
+          "Effet de sol et dispositifs hypersustentateurs"
+        ],
+        "official_subject_format": null,
+        "sources": [
+          {
+            "title": "Référence du chapitre",
+            "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+          },
+          {
+            "title": "EASA — programme théorique commun LAPL/PPL",
+            "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+          }
+        ]
+      }
+    ]
+  }
+}

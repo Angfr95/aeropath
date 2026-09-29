@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "module_id": "ATPL_033_001",
+    "program": "ATPL",
+    "subject": "flight_planning",
+    "chapter_title": "Point équitemps et point de retour",
+    "chapter_title_en": "Equal-time point and safe return",
+    "reference_checked_on": "2026-09-26",
+    "learning_objective": "Résoudre et vérifier les exercices de point équitemps et point de retour.",
+    "learning_objective_en": "Solve and cross-check exercises on equal-time point and safe return.",
+    "estimated_duration_minutes": 35,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Calcul des proportions et des durées ; bases PPL du sujet"
+    ],
+    "exam_subject": "033",
+    "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033",
+    "official_subject_format": {
+      "questions": 42,
+      "minutes": 120,
+      "pass_percent": 75,
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+    },
+    "sources": [
+      {
+        "title": "EASA — programme Part-FCL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+      },
+      {
+        "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      }
+    ],
+    "content_status": "draft",
+    "coverage_status": "partial",
+    "scope": "ATPL(A), France / EASA",
+    "quiz_format": "chapter_practice",
+    "tags": [
+      "ATPL",
+      "mcq-four-options"
+    ],
+    "illustration": {
+      "src": "/illustrations/atpl-033-001.svg",
+      "alt": "Point équitemps et point de retour"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "ATPL_033_001_C01",
+      "title": "Définir les hypothèses",
+      "title_en": "Define the assumptions",
+      "content": "![ATPL_033_001](/illustrations/atpl-033-001.svg)\n\nOn étudie une route rectiligne A–B, avec vitesses sol constantes, tous moteurs en fonctionnement et sans temps de virage, montée ou descente. Le point équitemps (ETP) est celui où revenir à A et poursuivre vers B demandent le même temps. Il ne garantit ni carburant suffisant ni accessibilité météo des terrains. Noter D la distance A–B, H la vitesse sol vers A et O la vitesse sol vers B. Toutes les vitesses doivent correspondre au scénario étudié.",
+      "content_en": "![ATPL_033_001](/illustrations/en/atpl-033-001.svg)\n\nConsider a straight A–B route with constant groundspeeds, all engines operating and no turning, climb or descent time. The equal-time point (ETP) is where returning to A and continuing to B take the same time. It does not guarantee sufficient fuel or suitable weather at either airfield. Let D be A–B distance, H groundspeed towards A and O groundspeed towards B. All speeds must match the scenario.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 033",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_033_001_C02",
+      "title": "Calculer et contrôler le point équitemps",
+      "title_en": "Calculate and cross-check the ETP",
+      "content": "À la distance x de A : temps retour = x/H ; temps poursuite = (D−x)/O. Leur égalité donne x = D×H/(H+O). Exemple : D = 600 NM, H = 180 kt, O = 120 kt ; x = 360 NM de A. Contrôle : 360/180 = 2 h et 240/120 = 2 h. On mesure x depuis A, et non depuis B. L’ETP n’est au milieu que si H = O. Une hausse de H, les autres données constantes, éloigne l’ETP de A.",
+      "content_en": "At distance x from A: return time = x/H; continuation time = (D−x)/O. Equality gives x = D×H/(H+O). Example: D = 600 NM, H = 180 kt, O = 120 kt; x = 360 NM from A. Cross-check: 360/180 = 2 h and 240/120 = 2 h. Measure x from A, not B. ETP is halfway only if H = O. Increasing H with other inputs fixed moves the ETP farther from A.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 033",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_033_001_C03",
+      "title": "Calculer le point de retour",
+      "title_en": "Calculate the safe-return point",
+      "content": "Le point de retour dépend de l’autonomie utilisable pour l’aller-retour, après exclusion des réserves et autres allocations imposées au scénario. Avec débit constant identique dans les deux sens, notons E cette autonomie en heures et G la vitesse sol à l’aller. À une distance x : x/G + x/H = E, donc x = E×G×H/(G+H). Exemple fictif : E = 4 h, G = 120 kt, H = 180 kt ; x = 288 NM. Temps aller = 2,4 h, retour = 1,6 h. Ce modèle simplifié ne remplace pas un calcul opérationnel avec les consommations réelles.",
+      "content_en": "The safe-return point depends on usable out-and-back endurance after excluding reserves and other scenario allocations. With equal constant fuel flow in both directions, let E be that endurance in hours and G outbound groundspeed. At distance x: x/G + x/H = E, so x = E×G×H/(G+H). Fictional example: E = 4 h, G = 120 kt, H = 180 kt; x = 288 NM. Outbound time = 2.4 h; return = 1.6 h. This simplified model does not replace operational calculations using actual consumption.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 033",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_033_001_C04",
+      "title": "Décider et actualiser",
+      "title_en": "Decide and update",
+      "content": "Dans l’exemple, le point de retour à 288 NM est atteint avant l’ETP à 360 NM. Les deux points répondent à des questions différentes. Des débits différents imposent de raisonner en carburant par branche ; une panne impose un nouveau scénario de vitesses, altitude et consommation. Réévaluer avec vent réel, carburant mesuré, météo, NOTAM et disponibilité des terrains. Pour 900 kg dédiés à l’aller-retour et un débit constant de 225 kg/h, E = 4 h. Les 900 kg sont une allocation d’exercice : ils n’incluent pas une réserve légale universelle.\n\n**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. La matière 033 comporte 42 questions en 120 minutes dans le tableau EASA cité. Ce chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.",
+      "content_en": "In this example, the safe-return point at 288 NM is reached before the ETP at 360 NM. The points answer different questions. Different fuel flows require fuel calculations by leg; a failure requires a new speed, altitude and consumption scenario. Reassess using actual wind, measured fuel, weather, NOTAMs and airfield availability. With 900 kg allocated to out-and-back flight and constant flow of 225 kg/h, E = 4 h. The 900 kg is an exercise allocation, not a universal legal reserve.\n\n**Practice format:** 15 chapter MCQs, four choices and one correct answer. Subject 033 has 42 questions in 120 minutes in the cited EASA table. This chapter covers only part of the subject and is not a full paper. EASA framework, including with English or US/British units.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 033",
+      "tags": [
+        "ATPL"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "ATPL_033_001_C02",
+      "concept_title": "Calculer et contrôler le point équitemps",
+      "level": 3,
+      "question": "A–B = 600 NM ; vitesse sol vers A = 180 kt, vers B = 120 kt. ETP mesuré depuis A ?\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "question_en": "A–B = 600 NM; groundspeed towards A = 180 kt, towards B = 120 kt. ETP measured from A?\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "options": [
+        "360 NM",
+        "240 NM",
+        "300 NM",
+        "400 NM"
+      ],
+      "options_en": [
+        "360 NM",
+        "240 NM",
+        "300 NM",
+        "400 NM"
+      ],
+      "correct_answer": "360 NM",
+      "explanation": "600 × 180 / (180 + 120) = 360 NM.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "600 × 180 / (180 + 120) = 360 NM.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": true,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C02",
+      "concept_title": "Calculer et contrôler le point équitemps",
+      "level": 3,
+      "question": "À 360 NM de A, avec vitesse sol retour 180 kt, temps jusqu’à A ?",
+      "question_en": "At 360 NM from A, with return groundspeed 180 kt, time to A?",
+      "options": [
+        "3 h",
+        "1 h 20 min",
+        "30 min",
+        "2 h"
+      ],
+      "options_en": [
+        "3 h",
+        "1 h 20 min",
+        "30 min",
+        "2 h"
+      ],
+      "correct_answer": "2 h",
+      "explanation": "360 / 180 = 2 h.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "360 / 180 = 2 h.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C02",
+      "concept_title": "Calculer et contrôler le point équitemps",
+      "level": 3,
+      "question": "Il reste 240 NM vers B à 120 kt sol. Temps de poursuite ?",
+      "question_en": "240 NM remains towards B at 120 kt groundspeed. Continuation time?",
+      "options": [
+        "3 h",
+        "4 h",
+        "2 h",
+        "1 h"
+      ],
+      "options_en": [
+        "3 h",
+        "4 h",
+        "2 h",
+        "1 h"
+      ],
+      "correct_answer": "2 h",
+      "explanation": "240 / 120 = 2 h, ce qui confirme l’égalité des temps.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "240 / 120 = 2 h, confirming equal times.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C01",
+      "concept_title": "Définir les hypothèses",
+      "level": 3,
+      "question": "Quelle grandeur définit un point équitemps entre A et B ?",
+      "question_en": "What defines an equal-time point between A and B?",
+      "options": [
+        "Égalité des altitudes des terrains",
+        "Égalité des temps nécessaires vers A et B",
+        "Égalité obligatoire des distances",
+        "Épuisement du carburant"
+      ],
+      "options_en": [
+        "Equal airfield elevations",
+        "Equal times needed to reach A and B",
+        "Necessarily equal distances",
+        "Fuel exhaustion"
+      ],
+      "correct_answer": "Égalité des temps nécessaires vers A et B",
+      "explanation": "Le critère est temporel, avec les vitesses du scénario.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "The criterion is time, using the scenario’s speeds.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C02",
+      "concept_title": "Calculer et contrôler le point équitemps",
+      "level": 3,
+      "question": "A–B = 600 NM, même vitesse sol dans les deux sens. ETP depuis A ?",
+      "question_en": "A–B = 600 NM, equal groundspeed in both directions. ETP from A?",
+      "options": [
+        "300 NM",
+        "600 NM",
+        "200 NM",
+        "400 NM"
+      ],
+      "options_en": [
+        "300 NM",
+        "600 NM",
+        "200 NM",
+        "400 NM"
+      ],
+      "correct_answer": "300 NM",
+      "explanation": "Avec H = O, la formule donne D/2.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "With H = O, the formula gives D/2.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C02",
+      "concept_title": "Calculer et contrôler le point équitemps",
+      "level": 3,
+      "question": "Distance totale et vitesse vers B fixes. La vitesse sol vers A augmente. L’ETP mesuré depuis A…",
+      "question_en": "Total distance and speed towards B are fixed. Groundspeed towards A increases. ETP distance from A…",
+      "options": [
+        "Diminue",
+        "Reste forcément identique",
+        "Devient négative",
+        "Augmente"
+      ],
+      "options_en": [
+        "Decreases",
+        "Must stay unchanged",
+        "Becomes negative",
+        "Increases"
+      ],
+      "correct_answer": "Augmente",
+      "explanation": "Un retour plus rapide permet de s’éloigner davantage de A pour conserver l’égalité des temps.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "A faster return allows greater distance from A while retaining equal times.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C01",
+      "concept_title": "Définir les hypothèses",
+      "level": 3,
+      "question": "Atteindre l’ETP garantit-il que les deux terrains sont accessibles avec le carburant restant ?",
+      "question_en": "Does reaching the ETP guarantee both airfields can be reached with remaining fuel?",
+      "options": [
+        "Oui, uniquement de jour",
+        "Oui, si les distances sont égales",
+        "Non",
+        "Oui, par définition"
+      ],
+      "options_en": [
+        "Yes, only by day",
+        "Yes, if distances are equal",
+        "No",
+        "Yes, by definition"
+      ],
+      "correct_answer": "Non",
+      "explanation": "L’égalité des temps ne contrôle pas les réserves ni l’accessibilité des terrains.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "Equal times do not check reserves or airfield suitability.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C03",
+      "concept_title": "Calculer le point de retour",
+      "level": 3,
+      "question": "Modèle rectiligne sans temps de virage, montée ou descente. Autonomie aller-retour après exclusion des réserves : 4 h ; débit constant identique dans les deux sens ; vitesses sol constantes 120 kt à l’aller, 180 kt au retour. Distance du point de retour depuis A ?",
+      "question_en": "Straight-route model with no turning, climb or descent time. Out-and-back endurance after excluding reserves: 4 h; equal constant fuel flow both ways; constant groundspeeds 120 kt outbound, 180 kt inbound. Safe-return distance from A?",
+      "options": [
+        "720 NM",
+        "288 NM",
+        "360 NM",
+        "480 NM"
+      ],
+      "options_en": [
+        "720 NM",
+        "288 NM",
+        "360 NM",
+        "480 NM"
+      ],
+      "correct_answer": "288 NM",
+      "explanation": "x/120 + x/180 = 4 donne 288 NM. Contrôle : 2,4 h aller + 1,6 h retour = 4 h. 480 et 720 NM consacreraient toute l’autonomie à une seule branche.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "x/120 + x/180 = 4 gives 288 NM. Check: 2.4 h outbound + 1.6 h inbound = 4 h. 480 and 720 NM would allocate all endurance to only one leg.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C03",
+      "concept_title": "Calculer le point de retour",
+      "level": 3,
+      "question": "Point de retour à 288 NM ; vitesse aller 120 kt. Temps aller ?",
+      "question_en": "Safe-return point at 288 NM; outbound groundspeed 120 kt. Outbound time?",
+      "options": [
+        "2 h 24 min",
+        "2 h 40 min",
+        "1 h 36 min",
+        "3 h"
+      ],
+      "options_en": [
+        "2 h 24 min",
+        "2 h 40 min",
+        "1 h 36 min",
+        "3 h"
+      ],
+      "correct_answer": "2 h 24 min",
+      "explanation": "288 / 120 = 2,4 h ; 0,4 h = 24 min.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "288 / 120 = 2.4 h; 0.4 h = 24 min.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C03",
+      "concept_title": "Calculer le point de retour",
+      "level": 3,
+      "question": "Retour de 288 NM à 180 kt. Temps retour ?",
+      "question_en": "Return distance 288 NM at 180 kt. Return time?",
+      "options": [
+        "1 h 60 min",
+        "2 h 24 min",
+        "48 min",
+        "1 h 36 min"
+      ],
+      "options_en": [
+        "1 h 60 min",
+        "2 h 24 min",
+        "48 min",
+        "1 h 36 min"
+      ],
+      "correct_answer": "1 h 36 min",
+      "explanation": "288 / 180 = 1,6 h ; 0,6 h = 36 min.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "288 / 180 = 1.6 h; 0.6 h = 36 min.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C03",
+      "concept_title": "Calculer le point de retour",
+      "level": 3,
+      "question": "Les 4 h d’autonomie de l’exercice doivent représenter…",
+      "question_en": "The exercise’s 4 h endurance must represent…",
+      "options": [
+        "La durée totale de maintenance",
+        "Le temps de vol déjà effectué",
+        "Le temps utilisable pour l’aller-retour après les allocations exclues",
+        "L’endurance jusqu’à réservoirs secs, réserves incluses"
+      ],
+      "options_en": [
+        "Total maintenance time",
+        "Flight time already elapsed",
+        "Usable out-and-back time after excluded allocations",
+        "Endurance to dry tanks including reserves"
+      ],
+      "correct_answer": "Le temps utilisable pour l’aller-retour après les allocations exclues",
+      "explanation": "Définir clairement l’allocation utilisable avant de calculer le point de retour.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "Define the usable allocation before calculating the safe-return point.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C04",
+      "concept_title": "Décider et actualiser",
+      "level": 3,
+      "question": "ETP à 360 NM, point de retour à 288 NM de A. Lequel est rencontré en premier au départ de A ?",
+      "question_en": "ETP at 360 NM, safe-return point at 288 NM from A. Which is reached first departing A?",
+      "options": [
+        "Impossible malgré les distances données",
+        "Le point de retour",
+        "L’ETP",
+        "Ils sont nécessairement confondus"
+      ],
+      "options_en": [
+        "Impossible despite the stated distances",
+        "The safe-return point",
+        "The ETP",
+        "They necessarily coincide"
+      ],
+      "correct_answer": "Le point de retour",
+      "explanation": "288 NM est inférieur à 360 NM ; les critères des deux points sont différents.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "288 NM is less than 360 NM; the points use different criteria.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C04",
+      "concept_title": "Décider et actualiser",
+      "level": 3,
+      "question": "900 kg sont alloués à l’aller-retour, débit constant 225 kg/h. Autonomie utilisable ?",
+      "question_en": "900 kg is allocated to out-and-back flight, constant flow 225 kg/h. Usable endurance?",
+      "options": [
+        "4 h",
+        "3 h",
+        "5 h",
+        "6 h"
+      ],
+      "options_en": [
+        "4 h",
+        "3 h",
+        "5 h",
+        "6 h"
+      ],
+      "correct_answer": "4 h",
+      "explanation": "900 / 225 = 4 h.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "900 / 225 = 4 h.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C04",
+      "concept_title": "Décider et actualiser",
+      "level": 3,
+      "question": "À vitesses inchangées, l’autonomie utilisable passe de 4 h à 3 h. Le point de retour précédemment à 288 NM devient…",
+      "question_en": "At unchanged speeds, usable endurance falls from 4 h to 3 h. The safe-return point previously at 288 NM becomes…",
+      "options": [
+        "384 NM",
+        "288 NM",
+        "144 NM",
+        "216 NM"
+      ],
+      "options_en": [
+        "384 NM",
+        "288 NM",
+        "144 NM",
+        "216 NM"
+      ],
+      "correct_answer": "216 NM",
+      "explanation": "La distance est proportionnelle à E : 288 × 3/4 = 216 NM.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "Distance is proportional to E: 288 × 3/4 = 216 NM.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "ATPL_033_001_C04",
+      "concept_title": "Décider et actualiser",
+      "level": 3,
+      "question": "Une panne change vitesse et consommation. Peut-on conserver sans recalcul le point obtenu tous moteurs en fonctionnement ?",
+      "question_en": "A failure changes speed and fuel flow. Can the all-engines calculation be retained without recalculation?",
+      "options": [
+        "Oui, car la route reste droite",
+        "Oui, si l’ETP est déjà franchi",
+        "Non, actualiser le scénario",
+        "Oui, car la distance A–B est inchangée"
+      ],
+      "options_en": [
+        "Yes, because the route remains straight",
+        "Yes, if already past ETP",
+        "No, update the scenario",
+        "Yes, because A–B distance is unchanged"
+      ],
+      "correct_answer": "Non, actualiser le scénario",
+      "explanation": "Les hypothèses ont changé ; réévaluer temps, carburant et terrains utilisables.\n\n![ATPL_033_001](/illustrations/atpl-033-001.svg)",
+      "explanation_en": "Assumptions changed; reassess time, fuel and suitable airfields.\n\n![ATPL_033_001](/illustrations/en/atpl-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    }
+  ]
+}

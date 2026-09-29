@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "module_id": "LAPL_MB_001",
+    "program": "LAPL",
+    "subject": "Mass and Balance",
+    "chapter_title": "Calcul de masse et de centrage",
+    "chapter_title_en": "Mass and balance calculation",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: mass, arm and moment; checking the whole envelope; a worked example.",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "tags": [
+      "LAPL",
+      "mass_and_balance"
+    ],
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : masse, bras et moment; vérifier toute l'enveloppe; exemple corrigé.",
+    "estimated_duration_minutes": 10,
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 10 : masse et centrage",
+        "url": "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-mb-001.svg",
+      "alt": "Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence."
+    },
+    "exam_subject": "flight_performance_planning",
+    "coverage_status": "partial",
+    "derived_from": "PPL_MB_001",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_MB_001_C01",
+      "title": "Masse, bras et moment",
+      "title_en": "Mass, arm and moment",
+      "content": "![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)\n\nLe calcul de centrage situe le centre de gravité du chargement. Le bras est la distance d'une masse à une référence définie par le constructeur. Le moment vaut masse × bras. En additionnant les moments puis en divisant par la masse totale, on obtient le bras du centre de gravité, à comparer à l'enveloppe autorisée pour cette masse.",
+      "content_en": "![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)\n\nA balance calculation locates the centre of gravity of the load. An arm is the distance of a mass from the manufacturer's datum. Moment equals mass × arm. Adding all moments and dividing by total mass gives the centre-of-gravity arm, which must be compared with the approved envelope at that mass.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "learning_objective": "Masse, bras et moment"
+    },
+    {
+      "concept_id": "LAPL_MB_001_C02",
+      "title": "Vérifier toute l'enveloppe",
+      "title_en": "Checking the whole envelope",
+      "content": "Respecter la masse maximale ne garantit pas le centrage. La fiche de pesée, les positions des sièges, les bagages et le carburant doivent correspondre à l'avion réel. La consommation peut déplacer le centre de gravité ; vérifier les phases pertinentes du vol. Un centrage trop arrière peut réduire la stabilité longitudinale et les marges de contrôle.",
+      "content_en": "Meeting maximum mass does not guarantee correct balance. The weighing report, seat positions, baggage and fuel must match the actual aircraft. Fuel consumption can move the centre of gravity; check relevant flight phases. An excessively aft CG may reduce longitudinal stability and control margins.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "learning_objective": "Vérifier toute l'enveloppe"
+    },
+    {
+      "concept_id": "LAPL_MB_001_C03",
+      "title": "Exemple corrigé",
+      "title_en": "A worked example",
+      "content": "Dans un exercice simplifié, une masse de 600 kg au bras 1,00 m et une charge de 100 kg au bras 2,00 m donnent 700 kg et 800 kg·m. Le centre de gravité est à 800 / 700 ≈ 1,143 m. Ce résultat n'est acceptable qu'après comparaison avec l'enveloppe du manuel ; aucun intervalle universel ne peut être appliqué.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "In a simplified exercise, 600 kg at an arm of 1.00 m and a 100 kg load at 2.00 m give 700 kg and 800 kg·m. The centre of gravity is at 800 / 700 ≈ 1.143 m. This result is acceptable only after comparison with the manual's envelope; no universal range can be applied.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "beginner",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "learning_objective": "Exemple corrigé"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_MB_001_C01",
+      "concept_title": "Masse, bras et moment",
+      "level": 1,
+      "question": "Comment calcule-t-on un moment de masse ?",
+      "question_en": "How is a mass moment calculated?",
+      "options": [
+        "Carburant multiplié par QNH",
+        "Altitude divisée par temps",
+        "Masse multipliée par bras",
+        "Masse divisée par vitesse"
+      ],
+      "correct_answer": "Masse multipliée par bras",
+      "explanation": "Le moment associe la masse à sa distance à la référence.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "Moment relates mass to its distance from the datum.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "mass_and_balance",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "Fuel multiplied by QNH",
+        "Altitude divided by time",
+        "Mass multiplied by arm",
+        "Mass divided by speed"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C02",
+      "concept_title": "Vérifier toute l'enveloppe",
+      "level": 1,
+      "question": "800 kg·m divisés par 700 kg donnent environ…",
+      "question_en": "800 kg·m divided by 700 kg gives approximately…",
+      "options": [
+        "100 kg",
+        "1,143 m",
+        "700 m",
+        "0,875 kg"
+      ],
+      "correct_answer": "1,143 m",
+      "explanation": "Le rapport moment total sur masse totale donne un bras.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "Total moment divided by total mass gives an arm.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "mass_and_balance",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "100 kg",
+        "1.143 m",
+        "700 m",
+        "0.875 kg"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 1,
+      "question": "À quoi comparer le centrage calculé ?",
+      "question_en": "What should the calculated CG be compared with?",
+      "options": [
+        "À l'enveloppe autorisée pour la masse considérée",
+        "À une limite universelle",
+        "À la vitesse sol",
+        "Au nombre de sièges seulement"
+      ],
+      "correct_answer": "À l'enveloppe autorisée pour la masse considérée",
+      "explanation": "La plage autorisée est propre à l'avion et peut dépendre de la masse.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "The approved range is aircraft-specific and may depend on mass.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "mass_and_balance",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "The approved envelope for the mass concerned",
+        "A universal limit",
+        "Groundspeed",
+        "Only the number of seats"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C01",
+      "concept_title": "Masse, bras et moment",
+      "level": 2,
+      "question": "Un bagage de 20 kg est placé à un bras de 1,5 m. Quel est son moment ?\n\n![Bagage de 20 kg à un bras de 1,5 m de la référence. Moment à déterminer.](/illustrations/quiz-ppl-mb-001-4.svg)",
+      "question_en": "A 20 kg bag is placed at an arm of 1.5 m. What is its moment?\n\n![Exercise data: Mass and balance calculation](/illustrations/en/quiz-ppl-mb-001-4.svg)",
+      "options": [
+        "13,3 kg·m",
+        "21,5 kg·m",
+        "0,075 kg·m",
+        "30 kg·m"
+      ],
+      "correct_answer": "30 kg·m",
+      "explanation": "Le moment vaut masse × bras : 20 × 1,5 = 30 kg·m. Il sera ajouté aux autres moments avant de calculer le centrage total.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "Moment = mass × arm: 20 × 1.5 = 30 kg·m. Add it to the other moments before calculating total balance.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "mass_and_balance",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "13.3 kg·m",
+        "21.5 kg·m",
+        "0.075 kg·m",
+        "30 kg·m"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C02",
+      "concept_title": "Vérifier toute l'enveloppe",
+      "level": 2,
+      "question": "Un chargement est conforme au départ. Pourquoi vérifier aussi les autres phases pertinentes ?",
+      "question_en": "Loading complies at departure. Why also check other relevant phases?",
+      "options": [
+        "La masse totale augmente toujours pendant la croisière",
+        "Le centrage ne dépend que du nombre de sièges occupés",
+        "La consommation de carburant peut déplacer le centre de gravité",
+        "Le bras de référence change nécessairement à chaque minute"
+      ],
+      "correct_answer": "La consommation de carburant peut déplacer le centre de gravité",
+      "explanation": "La consommation retire de la masse à l'emplacement des réservoirs. Selon leur position, le centre de gravité peut se déplacer ; la conformité au départ ne suffit pas à vérifier tout le vol.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "Consumption removes mass at the tanks' locations. Depending on their position, CG may move; departure compliance does not verify the whole flight.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "mass_and_balance",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "Total mass always increases in cruise",
+        "CG depends only on occupied seats",
+        "Fuel consumption can move the centre of gravity",
+        "The datum arm necessarily changes every minute"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C01",
+      "concept_title": "Masse, bras et moment",
+      "level": 2,
+      "question": "Vrai ou faux ? Le bras est mesuré par rapport à une référence définie par le constructeur.",
+      "question_en": "True or false? The arm is measured from a manufacturer-defined datum.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe calcul de centrage situe le centre de gravité du chargement. Le bras est la distance d'une masse à une référence définie par le constructeur. Le moment vaut masse × bras. En additionnant les moments puis en divisant par la masse totale, on obtient le bras du centre de gravité, à comparer à l'enveloppe autorisée pour cette masse.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "This statement is true.\n\nA balance calculation locates the centre of gravity of the load. An arm is the distance of a mass from the manufacturer's datum. Moment equals mass × arm. Adding all moments and dividing by total mass gives the centre-of-gravity arm, which must be compared with the approved envelope at that mass.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C01",
+      "concept_title": "Masse, bras et moment",
+      "level": 2,
+      "question": "Vrai ou faux ? Additionner seulement les bras donne directement le centrage total.",
+      "question_en": "True or false? Adding only the arms directly gives total centre of gravity.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe calcul de centrage situe le centre de gravité du chargement. Le bras est la distance d'une masse à une référence définie par le constructeur. Le moment vaut masse × bras. En additionnant les moments puis en divisant par la masse totale, on obtient le bras du centre de gravité, à comparer à l'enveloppe autorisée pour cette masse.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "This statement is false.\n\nA balance calculation locates the centre of gravity of the load. An arm is the distance of a mass from the manufacturer's datum. Moment equals mass × arm. Adding all moments and dividing by total mass gives the centre-of-gravity arm, which must be compared with the approved envelope at that mass.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C01",
+      "concept_title": "Masse, bras et moment",
+      "level": 2,
+      "question": "Vrai ou faux ? Le moment total doit être divisé par la masse totale pour obtenir un bras.",
+      "question_en": "True or false? Total moment must be divided by total mass to obtain an arm.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe calcul de centrage situe le centre de gravité du chargement. Le bras est la distance d'une masse à une référence définie par le constructeur. Le moment vaut masse × bras. En additionnant les moments puis en divisant par la masse totale, on obtient le bras du centre de gravité, à comparer à l'enveloppe autorisée pour cette masse.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "This statement is true.\n\nA balance calculation locates the centre of gravity of the load. An arm is the distance of a mass from the manufacturer's datum. Moment equals mass × arm. Adding all moments and dividing by total mass gives the centre-of-gravity arm, which must be compared with the approved envelope at that mass.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C02",
+      "concept_title": "Vérifier toute l'enveloppe",
+      "level": 2,
+      "question": "Vrai ou faux ? La position des réservoirs n'a aucun rôle dans l'évolution du centrage avec la consommation.",
+      "question_en": "True or false? Tank location has no role in CG movement as fuel is consumed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nRespecter la masse maximale ne garantit pas le centrage. La fiche de pesée, les positions des sièges, les bagages et le carburant doivent correspondre à l'avion réel. La consommation peut déplacer le centre de gravité ; vérifier les phases pertinentes du vol. Un centrage trop arrière peut réduire la stabilité longitudinale et les marges de contrôle.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "This statement is false.\n\nMeeting maximum mass does not guarantee correct balance. The weighing report, seat positions, baggage and fuel must match the actual aircraft. Fuel consumption can move the centre of gravity; check relevant flight phases. An excessively aft CG may reduce longitudinal stability and control margins.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C02",
+      "concept_title": "Vérifier toute l'enveloppe",
+      "level": 2,
+      "question": "Vrai ou faux ? Un centrage trop arrière peut réduire la stabilité longitudinale.",
+      "question_en": "True or false? An excessively aft CG can reduce longitudinal stability.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nRespecter la masse maximale ne garantit pas le centrage. La fiche de pesée, les positions des sièges, les bagages et le carburant doivent correspondre à l'avion réel. La consommation peut déplacer le centre de gravité ; vérifier les phases pertinentes du vol. Un centrage trop arrière peut réduire la stabilité longitudinale et les marges de contrôle.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "This statement is true.\n\nMeeting maximum mass does not guarantee correct balance. The weighing report, seat positions, baggage and fuel must match the actual aircraft. Fuel consumption can move the centre of gravity; check relevant flight phases. An excessively aft CG may reduce longitudinal stability and control margins.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C02",
+      "concept_title": "Vérifier toute l'enveloppe",
+      "level": 2,
+      "question": "Vrai ou faux ? Respecter la masse maximale prouve que le centrage est dans l'enveloppe.",
+      "question_en": "True or false? Meeting maximum mass proves CG is within the envelope.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nRespecter la masse maximale ne garantit pas le centrage. La fiche de pesée, les positions des sièges, les bagages et le carburant doivent correspondre à l'avion réel. La consommation peut déplacer le centre de gravité ; vérifier les phases pertinentes du vol. Un centrage trop arrière peut réduire la stabilité longitudinale et les marges de contrôle.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "This statement is false.\n\nMeeting maximum mass does not guarantee correct balance. The weighing report, seat positions, baggage and fuel must match the actual aircraft. Fuel consumption can move the centre of gravity; check relevant flight phases. An excessively aft CG may reduce longitudinal stability and control margins.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? Un bagage de 10 kg placé à 2 m produit un moment de 20 kg·m.\n\n![Bagage de 10 kg à un bras de 2 m de la référence. Moment à déterminer.](/illustrations/quiz-ppl-mb-001-12.svg)",
+      "question_en": "True or false? A 10 kg bag at 2 m produces a 20 kg·m moment.\n\n![Exercise data: Mass and balance calculation](/illustrations/en/quiz-ppl-mb-001-12.svg)",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\n10 × 2 = 20 kg·m.\n\nDans un exercice simplifié, une masse de 600 kg au bras 1,00 m et une charge de 100 kg au bras 2,00 m donnent 700 kg et 800 kg·m. Le centre de gravité est à 800 / 700 ≈ 1,143 m. Ce résultat n'est acceptable qu'après comparaison avec l'enveloppe du manuel ; aucun intervalle universel ne peut être appliqué.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "This statement is true.\n\n10 × 2 = 20 kg·m.\n\nIn a simplified exercise, 600 kg at an arm of 1.00 m and a 100 kg load at 2.00 m give 700 kg and 800 kg·m. The centre of gravity is at 800 / 700 ≈ 1.143 m. This result is acceptable only after comparison with the manual's envelope; no universal range can be applied.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? Un bagage de 30 kg placé à 1 m produit un moment de 15 kg·m.\n\n![Bagage de 30 kg à un bras de 1 m de la référence. Moment à déterminer.](/illustrations/quiz-ppl-mb-001-13.svg)",
+      "question_en": "True or false? A 30 kg bag at 1 m produces a 15 kg·m moment.\n\n![Exercise data: Mass and balance calculation](/illustrations/en/quiz-ppl-mb-001-13.svg)",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\n30 × 1 = 30 kg·m, et non 15.\n\nDans un exercice simplifié, une masse de 600 kg au bras 1,00 m et une charge de 100 kg au bras 2,00 m donnent 700 kg et 800 kg·m. Le centre de gravité est à 800 / 700 ≈ 1,143 m. Ce résultat n'est acceptable qu'après comparaison avec l'enveloppe du manuel ; aucun intervalle universel ne peut être appliqué.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "This statement is false.\n\n30 × 1 = 30 kg·m, not 15.\n\nIn a simplified exercise, 600 kg at an arm of 1.00 m and a 100 kg load at 2.00 m give 700 kg and 800 kg·m. The centre of gravity is at 800 / 700 ≈ 1.143 m. This result is acceptable only after comparison with the manual's envelope; no universal range can be applied.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? Dans l'exemple du cours, la somme des deux masses vaut 700 kg.",
+      "question_en": "True or false? In the lesson example, the two masses total 700 kg.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDans un exercice simplifié, une masse de 600 kg au bras 1,00 m et une charge de 100 kg au bras 2,00 m donnent 700 kg et 800 kg·m. Le centre de gravité est à 800 / 700 ≈ 1,143 m. Ce résultat n'est acceptable qu'après comparaison avec l'enveloppe du manuel ; aucun intervalle universel ne peut être appliqué.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "This statement is true.\n\nIn a simplified exercise, 600 kg at an arm of 1.00 m and a 100 kg load at 2.00 m give 700 kg and 800 kg·m. The centre of gravity is at 800 / 700 ≈ 1.143 m. This result is acceptable only after comparison with the manual's envelope; no universal range can be applied.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MB_001_C03",
+      "concept_title": "Exemple corrigé",
+      "level": 2,
+      "question": "Vrai ou faux ? Une valeur de centrage calculée peut être acceptée sans consulter l'enveloppe du type.",
+      "question_en": "True or false? A calculated CG may be accepted without consulting the type's envelope.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDans un exercice simplifié, une masse de 600 kg au bras 1,00 m et une charge de 100 kg au bras 2,00 m donnent 700 kg et 800 kg·m. Le centre de gravité est à 800 / 700 ≈ 1,143 m. Ce résultat n'est acceptable qu'après comparaison avec l'enveloppe du manuel ; aucun intervalle universel ne peut être appliqué.\n\n![Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence.](/illustrations/lapl-mb-001.svg)",
+      "explanation_en": "This statement is false.\n\nIn a simplified exercise, 600 kg at an arm of 1.00 m and a 100 kg load at 2.00 m give 700 kg and 800 kg·m. The centre of gravity is at 800 / 700 ≈ 1.143 m. This result is acceptable only after comparison with the manual's envelope; no universal range can be applied.\n\n![Diagram: Mass and balance calculation](/illustrations/en/lapl-mb-001.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

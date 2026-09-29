@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "module_id": "IR_033_001",
+    "program": "IR",
+    "subject": "flight_planning",
+    "chapter_title": "Préparer et actualiser un bilan IFR",
+    "chapter_title_en": "Prepare and update an IFR flight log",
+    "reference_checked_on": "2026-09-26",
+    "learning_objective": "Résoudre et vérifier les exercices de préparer et actualiser un bilan ifr.",
+    "learning_objective_en": "Solve and cross-check exercises on prepare and update an ifr flight log.",
+    "estimated_duration_minutes": 35,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Calcul des proportions et des durées ; bases PPL du sujet"
+    ],
+    "exam_subject": "033",
+    "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033",
+    "official_subject_format": {
+      "questions": 27,
+      "minutes": 75,
+      "pass_percent": 75,
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+    },
+    "sources": [
+      {
+        "title": "EASA — programme Part-FCL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+      },
+      {
+        "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      }
+    ],
+    "content_status": "draft",
+    "coverage_status": "partial",
+    "scope": "IR(A), France / EASA",
+    "quiz_format": "chapter_practice",
+    "tags": [
+      "IR",
+      "mcq-four-options"
+    ],
+    "illustration": {
+      "src": "/illustrations/ir-033-001.svg",
+      "alt": "Préparer et actualiser un bilan IFR"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "IR_033_001_C01",
+      "title": "Construire le journal de navigation",
+      "title_en": "Build the navigation log",
+      "content": "![IR_033_001](/illustrations/ir-033-001.svg)\n\nUn bilan IFR rassemble route autorisée et utilisable, distances, niveaux, vent, vitesses sol, durées et carburant. Le temps d’un segment en heures vaut distance en NM / vitesse sol en kt. Le vent de face réduit la vitesse sol pour une même vitesse vraie ; le calcul de temps utilise la vitesse sol. Exercice fictif : A–B mesure 120 NM à 120 kt, B–C 90 NM à 180 kt. Les temps valent 60 et 30 minutes, soit 90 minutes au total. Départ à 10:20 UTC : arrivée au point C à 11:50 UTC.",
+      "content_en": "![IR_033_001](/illustrations/en/ir-033-001.svg)\n\nAn IFR log combines a cleared and usable route, distances, levels, wind, groundspeeds, times and fuel. Segment time in hours equals distance in NM / groundspeed in kt. Headwind reduces groundspeed for the same true airspeed; time calculations use groundspeed. Fictional exercise: A–B is 120 NM at 120 kt, B–C is 90 NM at 180 kt. Times are 60 and 30 minutes, or 90 minutes total. Departing at 10:20 UTC gives arrival at point C at 11:50 UTC.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 033",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_033_001_C02",
+      "title": "Séparer les allocations de carburant",
+      "title_en": "Separate fuel allocations",
+      "content": "Dans l’exercice, le débit constant est de 40 L/h : A–B consomme 40 L et B–C 20 L, soit 60 L de trajet. On fournit séparément 5 L pour le roulage, 6 L d’aléa, 18 L pour le dégagement et 20 L de réserve protégée. Le total arithmétique vaut 109 L. Ces allocations sont des données fictives, pas des minima réglementaires. Pour un vol réel, déterminer chaque quantité selon le régime d’exploitation, les conditions prévues et le manuel de l’avion ; distinguer carburant total et utilisable.",
+      "content_en": "The exercise uses constant flow of 40 L/h: A–B consumes 40 L and B–C 20 L, giving 60 L trip fuel. Separate supplied allocations are 5 L taxi, 6 L contingency, 18 L alternate and 20 L protected reserve. The arithmetic total is 109 L. These allocations are fictional inputs, not regulatory minima. For a real flight, determine each quantity under the applicable operating regime, expected conditions and aircraft manual; distinguish total from usable fuel.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 033",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_033_001_C03",
+      "title": "Réviser les estimées en vol",
+      "title_en": "Revise estimates in flight",
+      "content": "À une vitesse sol réelle de 100 kt, le segment A–B dure 72 minutes et consomme 48 L au débit supposé : le trajet augmente de 8 L. Le nouveau total, si les autres allocations restent identiques, est 117 L. Une attente supplémentaire de 12 minutes à 30 L/h exige 6 L ; l’ajouter donne 123 L. Comparer la prévision actualisée au carburant réellement utilisable, puis revoir les options avant d’entamer une marge protégée. Ne pas transformer automatiquement une réserve en autonomie disponible pour attendre.",
+      "content_en": "At an actual groundspeed of 100 kt, A–B takes 72 minutes and consumes 48 L at the assumed flow: trip fuel increases by 8 L. The new total, with other allocations unchanged, is 117 L. An additional 12-minute hold at 30 L/h requires 6 L; adding it gives 123 L. Compare the updated forecast with actual usable fuel, then reassess options before consuming a protected margin. Do not automatically treat reserve fuel as available holding endurance.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 033",
+      "tags": [
+        "IR"
+      ]
+    },
+    {
+      "concept_id": "IR_033_001_C04",
+      "title": "Vérifier la faisabilité du projet",
+      "title_en": "Check plan feasibility",
+      "content": "Le calcul ne suffit pas : vérifier les données aéronautiques en vigueur, NOTAM, disponibilité des procédures et aides, météo, performances et équipements nécessaires. Une route directe plus courte n’est pas nécessairement autorisée ni compatible avec le relief. Un terrain de dégagement doit répondre aux critères applicables, pas seulement être proche. Si une autorisation, une météo ou un équipement change, réexaminer les temps, le carburant et les solutions de repli. Les informations de l’exercice ne constituent pas un dossier de vol réel.\n\n**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. La matière 033 comporte 27 questions en 75 minutes dans le tableau EASA cité. Ce chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.",
+      "content_en": "Arithmetic is not enough: check current aeronautical data, NOTAM, procedure and aid availability, weather, performance and required equipment. A shorter direct route is not necessarily cleared or compatible with terrain. An alternate must meet applicable criteria, not merely be nearby. If a clearance, weather condition or equipment status changes, reassess time, fuel and fallback options. Exercise information is not an operational flight briefing.\n\n**Practice format:** 15 chapter MCQs, four choices and one correct answer. Subject 033 has 27 questions in 75 minutes in the cited EASA table. This chapter covers only part of the subject and is not a full paper. EASA framework, including with English or US/British units.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 033",
+      "tags": [
+        "IR"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "IR_033_001_C01",
+      "concept_title": "Construire le journal de navigation",
+      "level": 3,
+      "question": "A–B : 120 NM à 120 kt sol. Durée ?\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "question_en": "A–B: 120 NM at 120 kt groundspeed. Time?\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "options": [
+        "60 min",
+        "30 min",
+        "90 min",
+        "120 min"
+      ],
+      "options_en": [
+        "60 min",
+        "30 min",
+        "90 min",
+        "120 min"
+      ],
+      "correct_answer": "60 min",
+      "explanation": "120/120 = 1 h = 60 min.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "120/120 = 1 h = 60 min.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": true,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C01",
+      "concept_title": "Construire le journal de navigation",
+      "level": 3,
+      "question": "B–C : 90 NM à 180 kt sol. Durée ?",
+      "question_en": "B–C: 90 NM at 180 kt groundspeed. Time?",
+      "options": [
+        "60 min",
+        "45 min",
+        "120 min",
+        "30 min"
+      ],
+      "options_en": [
+        "60 min",
+        "45 min",
+        "120 min",
+        "30 min"
+      ],
+      "correct_answer": "30 min",
+      "explanation": "90/180 = 0,5 h.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "90/180 = 0.5 h.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C01",
+      "concept_title": "Construire le journal de navigation",
+      "level": 3,
+      "question": "Deux segments de 60 et 30 minutes, départ 10:20 UTC. Arrivée ?",
+      "question_en": "Two segments of 60 and 30 minutes, departure 10:20 UTC. Arrival?",
+      "options": [
+        "12:20 UTC",
+        "10:50 UTC",
+        "11:50 UTC",
+        "11:20 UTC"
+      ],
+      "options_en": [
+        "12:20 UTC",
+        "10:50 UTC",
+        "11:50 UTC",
+        "11:20 UTC"
+      ],
+      "correct_answer": "11:50 UTC",
+      "explanation": "10:20 + 1 h 30 = 11:50.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "10:20 + 1 h 30 = 11:50.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C01",
+      "concept_title": "Construire le journal de navigation",
+      "level": 3,
+      "question": "Pour calculer le temps sur une distance au sol, quelle vitesse utiliser ?",
+      "question_en": "Which speed is used to calculate time over ground distance?",
+      "options": [
+        "La vitesse verticale",
+        "La vitesse sol",
+        "La vitesse indiquée sans correction",
+        "La vitesse de décrochage"
+      ],
+      "options_en": [
+        "Vertical speed",
+        "Groundspeed",
+        "Uncorrected indicated airspeed",
+        "Stall speed"
+      ],
+      "correct_answer": "La vitesse sol",
+      "explanation": "La vitesse sol relie distance au sol et temps.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "Groundspeed relates ground distance to time.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C02",
+      "concept_title": "Séparer les allocations de carburant",
+      "level": 3,
+      "question": "Trajet de 90 minutes à 40 L/h. Carburant trajet ?",
+      "question_en": "90-minute trip at 40 L/h. Trip fuel?",
+      "options": [
+        "60 L",
+        "40 L",
+        "90 L",
+        "80 L"
+      ],
+      "options_en": [
+        "60 L",
+        "40 L",
+        "90 L",
+        "80 L"
+      ],
+      "correct_answer": "60 L",
+      "explanation": "1,5 × 40 = 60 L.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "1.5 × 40 = 60 L.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C02",
+      "concept_title": "Séparer les allocations de carburant",
+      "level": 3,
+      "question": "Allocations fictives : 5 + 60 + 6 + 18 + 20 L. Total ?",
+      "question_en": "Fictional allocations: 5 + 60 + 6 + 18 + 20 L. Total?",
+      "options": [
+        "89 L",
+        "103 L",
+        "115 L",
+        "109 L"
+      ],
+      "options_en": [
+        "89 L",
+        "103 L",
+        "115 L",
+        "109 L"
+      ],
+      "correct_answer": "109 L",
+      "explanation": "Toutes les allocations fournies sont additionnées une fois.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "All supplied allocations are added once.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C02",
+      "concept_title": "Séparer les allocations de carburant",
+      "level": 3,
+      "question": "120 L utilisables et total requis par l’exercice de 109 L. Marge arithmétique ?",
+      "question_en": "120 L usable and exercise required total of 109 L. Arithmetic margin?",
+      "options": [
+        "29 L",
+        "9 L",
+        "11 L",
+        "20 L"
+      ],
+      "options_en": [
+        "29 L",
+        "9 L",
+        "11 L",
+        "20 L"
+      ],
+      "correct_answer": "11 L",
+      "explanation": "120 − 109 = 11 L, au-delà des allocations déjà incluses.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "120 − 109 = 11 L, beyond allocations already included.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C02",
+      "concept_title": "Séparer les allocations de carburant",
+      "level": 3,
+      "question": "Les 20 L de réserve de cet exercice sont…",
+      "question_en": "The 20 L reserve in this exercise is…",
+      "options": [
+        "Une preuve de conformité de tout avion",
+        "Une donnée pédagogique, pas une règle universelle",
+        "Le minimum universel de tout vol IFR",
+        "Une quantité toujours disponible pour le roulage"
+      ],
+      "options_en": [
+        "Proof of compliance for every aircraft",
+        "A training input, not a universal rule",
+        "The universal minimum for every IFR flight",
+        "Fuel always available for taxi"
+      ],
+      "correct_answer": "Une donnée pédagogique, pas une règle universelle",
+      "explanation": "La réserve réelle dépend des règles et conditions applicables.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "Actual reserve depends on applicable rules and conditions.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C03",
+      "concept_title": "Réviser les estimées en vol",
+      "level": 3,
+      "question": "A–B : 120 NM, vitesse sol réduite à 100 kt. Nouveau temps ?",
+      "question_en": "A–B: 120 NM, groundspeed reduced to 100 kt. New time?",
+      "options": [
+        "72 min",
+        "60 min",
+        "50 min",
+        "120 min"
+      ],
+      "options_en": [
+        "72 min",
+        "60 min",
+        "50 min",
+        "120 min"
+      ],
+      "correct_answer": "72 min",
+      "explanation": "120/100 = 1,2 h = 72 min.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "120/100 = 1.2 h = 72 min.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C03",
+      "concept_title": "Réviser les estimées en vol",
+      "level": 3,
+      "question": "72 minutes à 40 L/h : consommation ?",
+      "question_en": "72 minutes at 40 L/h: consumption?",
+      "options": [
+        "40 L",
+        "72 L",
+        "28,8 L",
+        "48 L"
+      ],
+      "options_en": [
+        "40 L",
+        "72 L",
+        "28.8 L",
+        "48 L"
+      ],
+      "correct_answer": "48 L",
+      "explanation": "72/60 × 40 = 48 L.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "72/60 × 40 = 48 L.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C03",
+      "concept_title": "Réviser les estimées en vol",
+      "level": 3,
+      "question": "Le trajet augmente de 8 L, les autres allocations restent inchangées. Le total initial de 109 L devient…",
+      "question_en": "Trip fuel increases by 8 L, other allocations unchanged. The original 109 L total becomes…",
+      "options": [
+        "109 L",
+        "125 L",
+        "117 L",
+        "101 L"
+      ],
+      "options_en": [
+        "109 L",
+        "125 L",
+        "117 L",
+        "101 L"
+      ],
+      "correct_answer": "117 L",
+      "explanation": "109 + 8 = 117 L.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "109 + 8 = 117 L.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C03",
+      "concept_title": "Réviser les estimées en vol",
+      "level": 3,
+      "question": "Attente supplémentaire de 12 min à 30 L/h. Carburant supplémentaire ?",
+      "question_en": "Additional 12-minute hold at 30 L/h. Additional fuel?",
+      "options": [
+        "36 L",
+        "6 L",
+        "12 L",
+        "15 L"
+      ],
+      "options_en": [
+        "36 L",
+        "6 L",
+        "12 L",
+        "15 L"
+      ],
+      "correct_answer": "6 L",
+      "explanation": "12/60 × 30 = 6 L.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "12/60 × 30 = 6 L.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C03",
+      "concept_title": "Réviser les estimées en vol",
+      "level": 3,
+      "question": "Besoin actualisé 123 L contre 120 L utilisables au départ. Conclusion ?",
+      "question_en": "Updated requirement 123 L against 120 L usable at departure. Conclusion?",
+      "options": [
+        "Déficit de 3 L : revoir le projet",
+        "Marge de 3 L",
+        "Conformité garantie par la réserve",
+        "Aucune conséquence pour le bilan"
+      ],
+      "options_en": [
+        "3 L deficit: revise the plan",
+        "3 L margin",
+        "Compliance guaranteed by reserve",
+        "No effect on the balance"
+      ],
+      "correct_answer": "Déficit de 3 L : revoir le projet",
+      "explanation": "120 − 123 = −3 L ; le bilan fourni n’est plus satisfait.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "120 − 123 = −3 L; the supplied balance is no longer met.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C04",
+      "concept_title": "Vérifier la faisabilité du projet",
+      "level": 3,
+      "question": "Un raccourci direct réduit la distance. Peut-on conclure qu’il est utilisable en IFR ?",
+      "question_en": "A direct shortcut reduces distance. Can you conclude it is usable in IFR?",
+      "options": [
+        "Oui, la distance suffit",
+        "Oui, si le carburant baisse",
+        "Oui, si le GPS l’affiche",
+        "Non, vérifier clairance, relief et contraintes"
+      ],
+      "options_en": [
+        "Yes, distance is sufficient",
+        "Yes, if fuel decreases",
+        "Yes, if GPS displays it",
+        "No, check clearance, terrain and constraints"
+      ],
+      "correct_answer": "Non, vérifier clairance, relief et contraintes",
+      "explanation": "Une possibilité géométrique n’est pas une autorisation opérationnelle.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "A geometric possibility is not an operational clearance.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    },
+    {
+      "concept_id": "IR_033_001_C04",
+      "concept_title": "Vérifier la faisabilité du projet",
+      "level": 3,
+      "question": "Pour choisir un dégagement, sa proximité suffit-elle ?",
+      "question_en": "Is proximity alone enough to select an alternate?",
+      "options": [
+        "Oui, uniquement de nuit",
+        "Oui, si la piste est visible sur une carte",
+        "Non, vérifier les critères applicables et la disponibilité",
+        "Oui, toujours"
+      ],
+      "options_en": [
+        "Yes, at night only",
+        "Yes, if the runway appears on a chart",
+        "No, check applicable criteria and availability",
+        "Yes, always"
+      ],
+      "correct_answer": "Non, vérifier les critères applicables et la disponibilité",
+      "explanation": "Météo, procédures, performances et disponibilité doivent être considérées.\n\n![IR_033_001](/illustrations/ir-033-001.svg)",
+      "explanation_en": "Weather, procedures, performance and availability must be considered.\n\n![IR_033_001](/illustrations/en/ir-033-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "IR",
+        "exam-mcq",
+        "exam-subject:033"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 033"
+    }
+  ]
+}

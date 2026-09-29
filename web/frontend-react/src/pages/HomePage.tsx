@@ -86,14 +86,14 @@ export default function HomePage() {
             </h1>
             <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
               Préparez vos licences PPL, LAPL, CPL, ATPL et IR avec des questions interactives,
-              des leçons détaillées et un suivi personnalisé. Même sans connexion.
+              des leçons détaillées, accessibles sans compte. Connectez-vous pour suivre vos résultats.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                to="/login#register"
+                to="/lessons"
                 className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl text-lg transition-all shadow-xl hover:scale-105"
               >
-                🚀 Commencer gratuitement
+                Commencer sans compte
               </Link>
               <Link
                 to="/login"

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">The flight plan cycle</title><desc id="desc">Prepare flight information, submit and update the plan, then handle arrival under the applicable procedure.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">The flight plan cycle</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Filing replaces neither preparation nor clearance.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_AIRLAW_007</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<rect x="60" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<path d="M78 244L106 234L130 247L158 237V301L130 312L106 299L78 309Z" fill="none" stroke="#58dfed" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<path d="M106 234L106 299" fill="none" stroke="#58dfed" stroke-width="2"/>
+<path d="M130 247L130 312" fill="none" stroke="#58dfed" stroke-width="2"/>
+<text x="365" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">01</text>
+<text x="84" y="357" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Prepare</text>
+<text x="84" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Route, equipment,</text>
+<text x="84" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">weather, time and</text>
+<text x="84" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">fallback options.</text>
+<path d="M413 397L423 397" fill="none" stroke="#58dfed" stroke-width="2"/>
+<path d="M423.0 397.0L409.5 403.5L409.5 390.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="425" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<rect x="458" y="254" width="50" height="55" rx="7" fill="#14253b" stroke="#ffcd70"/>
+<path d="M495 254L508 223" fill="none" stroke="#ffcd70" stroke-width="3"/>
+<rect x="469" y="264" width="28" height="12" rx="2" fill="#ffcd70" stroke="none"/>
+<path d="M470 287L496 287" fill="none" stroke="#ffcd70" stroke-width="2"/>
+<path d="M470 296L496 296" fill="none" stroke="#ffcd70" stroke-width="2"/>
+<path d="M520 249q25 20 0 40" fill="none" stroke="#ffcd70" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<text x="730" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">02</text>
+<text x="449" y="357" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Submit / update</text>
+<text x="449" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">File when required and</text>
+<text x="449" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">handle delays or changes.</text>
+<path d="M778 397L788 397" fill="none" stroke="#ffcd70" stroke-width="2"/>
+<path d="M788.0 397.0L774.5 403.5L774.5 390.5Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="790" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<rect x="818" y="236" width="60" height="76" rx="6" fill="#14253b" stroke="#bbabff"/>
+<path d="M831 257L865 257" fill="none" stroke="#bbabff" stroke-width="3"/>
+<path d="M831 274L865 274" fill="none" stroke="#bbabff" stroke-width="3"/>
+<path d="M831 291L865 291" fill="none" stroke="#bbabff" stroke-width="3"/>
+<text x="1095" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">03</text>
+<text x="814" y="357" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Arrival / closure</text>
+<text x="814" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Follow the procedure to</text>
+<text x="814" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">report flight completion.</text>
+</svg>

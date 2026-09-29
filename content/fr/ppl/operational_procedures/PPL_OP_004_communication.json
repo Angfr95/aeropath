@@ -5,13 +5,581 @@
     "subject": "Operational Procedures",
     "chapter_title": "Procédures de communication radio",
     "chapter_title_en": "Radio Communication Procedures",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : préparer avant de parler; écouter et collationner; exemple pratique.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: preparing before speaking; listening and reading back; a practical example.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 25,
+    "estimated_duration_minutes": 10,
     "prerequisites": [],
-    "tags": ["radio", "communication", "phraseology", "ATIS", "readback"]
+    "tags": [
+      "radio",
+      "communication",
+      "phraseology",
+      "ATIS",
+      "readback"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — Airplane Flying Handbook",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+      },
+      {
+        "title": "EASA — SERA",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-op-004.svg",
+      "alt": "Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations."
+    },
+    "exam_subject": "communications",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_OP_004_C01",
+      "title": "Préparer avant de parler",
+      "title_en": "Preparing before speaking",
+      "content": "![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)\n\nÉcouter la fréquence, identifier le destinataire et préparer un message bref. Donner les informations utiles dans l'ordre attendu : station appelée, indicatif, position ou situation et demande. La phraséologie réduit l'ambiguïté ; une parole claire en langage courant reste préférable à un message standard mal compris lorsqu'une clarification est nécessaire.",
+      "content_en": "![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)\n\nListen to the frequency, identify the recipient and prepare a brief message. Give useful information in the expected order: station called, callsign, position or situation and request. Phraseology reduces ambiguity; clear plain language is preferable to a misunderstood standard message when clarification is needed.",
+      "difficulty": "intermediate",
+      "tags": [
+        "radio",
+        "communication",
+        "phraseology",
+        "ATIS",
+        "readback"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "learning_objective": "Préparer avant de parler"
+    },
+    {
+      "concept_id": "PPL_OP_004_C02",
+      "title": "Écouter et collationner",
+      "title_en": "Listening and reading back",
+      "content": "Le collationnement reprend les éléments qui l'exigent, notamment ceux liés à la sécurité d'une clairance. Entendre son indicatif et vérifier l'instruction évite de prendre celle d'un autre avion. Une absence de réponse n'est pas une autorisation. La charge radio ne doit jamais faire perdre le contrôle de l'avion ni la surveillance extérieure.",
+      "content_en": "Read back the items that require it, particularly safety-related clearance elements. Hearing your callsign and checking the instruction avoids taking another aircraft's instruction. No reply is not permission. Radio workload must never cause loss of aircraft control or external lookout.",
+      "difficulty": "intermediate",
+      "tags": [
+        "radio",
+        "communication",
+        "phraseology",
+        "ATIS",
+        "readback"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "learning_objective": "Écouter et collationner"
+    },
+    {
+      "concept_id": "PPL_OP_004_C03",
+      "title": "Exemple pratique",
+      "title_en": "A practical example",
+      "content": "À l'approche d'un point de report, préparer la position, l'altitude et l'intention avant d'appuyer sur l'alternat. Si le contrôleur parle trop vite ou si un mot manque, demander de répéter. Après changement de fréquence, vérifier la fréquence active et le destinataire. Les fréquences et procédures se prennent dans la documentation actualisée, pas dans un exemple mémorisé.",
+      "content_en": "Approaching a reporting point, prepare position, altitude and intention before pressing the transmit switch. If the controller speaks too quickly or a word is missed, request repetition. After a frequency change, check the active frequency and recipient. Use current documentation for frequencies and procedures, not a memorised example.",
+      "difficulty": "intermediate",
+      "tags": [
+        "radio",
+        "communication",
+        "phraseology",
+        "ATIS",
+        "readback"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "learning_objective": "Exemple pratique"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_OP_004_C01",
+      "concept_title": "Préparer avant de parler",
+      "level": 1,
+      "question": "Une absence de réponse radio vaut-elle autorisation ?",
+      "question_en": "Does the absence of a radio reply constitute permission?",
+      "options": [
+        "Oui",
+        "Oui après dix secondes",
+        "Oui en VFR",
+        "Non"
+      ],
+      "correct_answer": "Non",
+      "explanation": "L'autorisation nécessaire doit être effectivement obtenue.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "The required authorisation must actually be obtained.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "radio",
+        "communication",
+        "phraseology",
+        "ATIS",
+        "readback",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Yes",
+        "Yes, after ten seconds",
+        "Yes, under VFR",
+        "No"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C02",
+      "concept_title": "Écouter et collationner",
+      "level": 1,
+      "question": "Pourquoi vérifier l'indicatif entendu ?",
+      "question_en": "Why check the callsign heard?",
+      "options": [
+        "Pour choisir la vitesse de décrochage",
+        "Pour régler le QNH automatiquement",
+        "Pour éviter d'exécuter l'instruction d'un autre avion",
+        "Pour calculer le carburant"
+      ],
+      "correct_answer": "Pour éviter d'exécuter l'instruction d'un autre avion",
+      "explanation": "Des indicatifs proches peuvent entraîner une confusion.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "Similar callsigns can cause confusion.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "radio",
+        "communication",
+        "phraseology",
+        "ATIS",
+        "readback",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "To choose stall speed",
+        "To set QNH automatically",
+        "To avoid following another aircraft's instruction",
+        "To calculate fuel"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C03",
+      "concept_title": "Exemple pratique",
+      "level": 1,
+      "question": "Si une instruction est incomprise, il faut…",
+      "question_en": "If an instruction is not understood, you should…",
+      "options": [
+        "Accélérer",
+        "Demander une clarification",
+        "Deviner",
+        "Couper la radio"
+      ],
+      "correct_answer": "Demander une clarification",
+      "explanation": "La clarification évite une action fondée sur une interprétation incertaine.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "Clarification avoids action based on an uncertain interpretation.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "radio",
+        "communication",
+        "phraseology",
+        "ATIS",
+        "readback",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Accelerate",
+        "Request clarification",
+        "Guess",
+        "Switch off the radio"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C03",
+      "concept_title": "Exemple pratique",
+      "level": 2,
+      "question": "Après un changement de fréquence, quel contrôle évite d'appeler le mauvais organisme ?",
+      "question_en": "After changing frequency, which check avoids calling the wrong unit?",
+      "options": [
+        "Vérifier la fréquence active et le destinataire",
+        "Contrôler uniquement la fréquence en attente",
+        "Modifier le calage altimétrique jusqu'à obtenir une réponse",
+        "Supposer que tout message reçu concerne son avion"
+      ],
+      "correct_answer": "Vérifier la fréquence active et le destinataire",
+      "explanation": "Le réglage affiché en attente n'est pas nécessairement celui utilisé. Il faut vérifier la fréquence active, l'organisme appelé et les informations à transmettre.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "The standby setting is not necessarily the one in use. Check the active frequency, unit being called and information to transmit.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "radio",
+        "communication",
+        "phraseology",
+        "ATIS",
+        "readback",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Check the active frequency and recipient",
+        "Check only the standby frequency",
+        "Change the altimeter setting until someone replies",
+        "Assume every received message concerns your aircraft"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C02",
+      "concept_title": "Écouter et collationner",
+      "level": 2,
+      "question": "La charge radio augmente pendant une phase exigeante. Quelle priorité doit être préservée ?",
+      "question_en": "Radio workload increases during a demanding phase. Which priority must be preserved?",
+      "options": [
+        "La formulation parfaite au prix de la trajectoire",
+        "La prise de notes complète avant toute surveillance",
+        "Le réglage de toutes les fréquences futures immédiatement",
+        "Le contrôle de l'avion et la surveillance de l'environnement"
+      ],
+      "correct_answer": "Le contrôle de l'avion et la surveillance de l'environnement",
+      "explanation": "La radio soutient la conduite du vol, mais ne doit pas faire perdre le pilotage ou la surveillance. Une clarification concise peut être demandée si nécessaire.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "Radio supports flight management but must not compromise control or lookout. Request concise clarification if needed.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "radio",
+        "communication",
+        "phraseology",
+        "ATIS",
+        "readback",
+        "exam-mcq",
+        "exam-subject:communications"
+      ],
+      "options_en": [
+        "Perfect wording at the expense of the flight path",
+        "Complete note-taking before any lookout",
+        "Immediately setting every future frequency",
+        "Aircraft control and awareness of the surroundings"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C01",
+      "concept_title": "Préparer avant de parler",
+      "level": 2,
+      "question": "Vrai ou faux ? Préparer un message avant l'émission réduit les hésitations.",
+      "question_en": "True or false? Preparing a message before transmission reduces hesitation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÉcouter la fréquence, identifier le destinataire et préparer un message bref. Donner les informations utiles dans l'ordre attendu : station appelée, indicatif, position ou situation et demande. La phraséologie réduit l'ambiguïté ; une parole claire en langage courant reste préférable à un message standard mal compris lorsqu'une clarification est nécessaire.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "This statement is true.\n\nListen to the frequency, identify the recipient and prepare a brief message. Give useful information in the expected order: station called, callsign, position or situation and request. Phraseology reduces ambiguity; clear plain language is preferable to a misunderstood standard message when clarification is needed.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C01",
+      "concept_title": "Préparer avant de parler",
+      "level": 2,
+      "question": "Vrai ou faux ? Parler sans écouter évite généralement les émissions simultanées.",
+      "question_en": "True or false? Speaking without listening generally avoids simultaneous transmissions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÉcouter la fréquence, identifier le destinataire et préparer un message bref. Donner les informations utiles dans l'ordre attendu : station appelée, indicatif, position ou situation et demande. La phraséologie réduit l'ambiguïté ; une parole claire en langage courant reste préférable à un message standard mal compris lorsqu'une clarification est nécessaire.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "This statement is false.\n\nListen to the frequency, identify the recipient and prepare a brief message. Give useful information in the expected order: station called, callsign, position or situation and request. Phraseology reduces ambiguity; clear plain language is preferable to a misunderstood standard message when clarification is needed.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C01",
+      "concept_title": "Préparer avant de parler",
+      "level": 2,
+      "question": "Vrai ou faux ? Un langage clair peut servir à demander une clarification.",
+      "question_en": "True or false? Plain language can be used to request clarification.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÉcouter la fréquence, identifier le destinataire et préparer un message bref. Donner les informations utiles dans l'ordre attendu : station appelée, indicatif, position ou situation et demande. La phraséologie réduit l'ambiguïté ; une parole claire en langage courant reste préférable à un message standard mal compris lorsqu'une clarification est nécessaire.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "This statement is true.\n\nListen to the frequency, identify the recipient and prepare a brief message. Give useful information in the expected order: station called, callsign, position or situation and request. Phraseology reduces ambiguity; clear plain language is preferable to a misunderstood standard message when clarification is needed.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C02",
+      "concept_title": "Écouter et collationner",
+      "level": 2,
+      "question": "Vrai ou faux ? Le collationnement remplace l'écoute de l'indicatif.",
+      "question_en": "True or false? Readback replaces listening for the callsign.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe collationnement reprend les éléments qui l'exigent, notamment ceux liés à la sécurité d'une clairance. Entendre son indicatif et vérifier l'instruction évite de prendre celle d'un autre avion. Une absence de réponse n'est pas une autorisation. La charge radio ne doit jamais faire perdre le contrôle de l'avion ni la surveillance extérieure.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "This statement is false.\n\nRead back the items that require it, particularly safety-related clearance elements. Hearing your callsign and checking the instruction avoids taking another aircraft's instruction. No reply is not permission. Radio workload must never cause loss of aircraft control or external lookout.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C02",
+      "concept_title": "Écouter et collationner",
+      "level": 2,
+      "question": "Vrai ou faux ? La charge radio ne doit pas faire perdre la surveillance extérieure.",
+      "question_en": "True or false? Radio workload must not cause loss of external lookout.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe collationnement reprend les éléments qui l'exigent, notamment ceux liés à la sécurité d'une clairance. Entendre son indicatif et vérifier l'instruction évite de prendre celle d'un autre avion. Une absence de réponse n'est pas une autorisation. La charge radio ne doit jamais faire perdre le contrôle de l'avion ni la surveillance extérieure.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "This statement is true.\n\nRead back the items that require it, particularly safety-related clearance elements. Hearing your callsign and checking the instruction avoids taking another aircraft's instruction. No reply is not permission. Radio workload must never cause loss of aircraft control or external lookout.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C02",
+      "concept_title": "Écouter et collationner",
+      "level": 2,
+      "question": "Vrai ou faux ? Une information de trafic garantit qu'il n'existe aucun autre avion.",
+      "question_en": "True or false? A traffic report guarantees no other aircraft exist.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe collationnement reprend les éléments qui l'exigent, notamment ceux liés à la sécurité d'une clairance. Entendre son indicatif et vérifier l'instruction évite de prendre celle d'un autre avion. Une absence de réponse n'est pas une autorisation. La charge radio ne doit jamais faire perdre le contrôle de l'avion ni la surveillance extérieure.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "This statement is false.\n\nRead back the items that require it, particularly safety-related clearance elements. Hearing your callsign and checking the instruction avoids taking another aircraft's instruction. No reply is not permission. Radio workload must never cause loss of aircraft control or external lookout.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C03",
+      "concept_title": "Exemple pratique",
+      "level": 2,
+      "question": "Vrai ou faux ? Avant un compte rendu, on peut préparer altitude et intention.",
+      "question_en": "True or false? Before a report, altitude and intention can be prepared.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÀ l'approche d'un point de report, préparer la position, l'altitude et l'intention avant d'appuyer sur l'alternat. Si le contrôleur parle trop vite ou si un mot manque, demander de répéter. Après changement de fréquence, vérifier la fréquence active et le destinataire. Les fréquences et procédures se prennent dans la documentation actualisée, pas dans un exemple mémorisé.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "This statement is true.\n\nApproaching a reporting point, prepare position, altitude and intention before pressing the transmit switch. If the controller speaks too quickly or a word is missed, request repetition. After a frequency change, check the active frequency and recipient. Use current documentation for frequencies and procedures, not a memorised example.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C03",
+      "concept_title": "Exemple pratique",
+      "level": 2,
+      "question": "Vrai ou faux ? Une fréquence mémorisée dispense de vérifier la documentation actuelle.",
+      "question_en": "True or false? A memorised frequency removes the need to check current documentation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÀ l'approche d'un point de report, préparer la position, l'altitude et l'intention avant d'appuyer sur l'alternat. Si le contrôleur parle trop vite ou si un mot manque, demander de répéter. Après changement de fréquence, vérifier la fréquence active et le destinataire. Les fréquences et procédures se prennent dans la documentation actualisée, pas dans un exemple mémorisé.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "This statement is false.\n\nApproaching a reporting point, prepare position, altitude and intention before pressing the transmit switch. If the controller speaks too quickly or a word is missed, request repetition. After a frequency change, check the active frequency and recipient. Use current documentation for frequencies and procedures, not a memorised example.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C03",
+      "concept_title": "Exemple pratique",
+      "level": 2,
+      "question": "Vrai ou faux ? Demander de répéter un mot manqué est préférable à deviner.",
+      "question_en": "True or false? Requesting repetition of a missed word is preferable to guessing.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nÀ l'approche d'un point de report, préparer la position, l'altitude et l'intention avant d'appuyer sur l'alternat. Si le contrôleur parle trop vite ou si un mot manque, demander de répéter. Après changement de fréquence, vérifier la fréquence active et le destinataire. Les fréquences et procédures se prennent dans la documentation actualisée, pas dans un exemple mémorisé.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "This statement is true.\n\nApproaching a reporting point, prepare position, altitude and intention before pressing the transmit switch. If the controller speaks too quickly or a word is missed, request repetition. After a frequency change, check the active frequency and recipient. Use current documentation for frequencies and procedures, not a memorised example.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    },
+    {
+      "concept_id": "PPL_OP_004_C03",
+      "concept_title": "Exemple pratique",
+      "level": 2,
+      "question": "Vrai ou faux ? La fréquence en attente est toujours celle sur laquelle l'émetteur transmet.",
+      "question_en": "True or false? The standby frequency is always the transmitting frequency.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nÀ l'approche d'un point de report, préparer la position, l'altitude et l'intention avant d'appuyer sur l'alternat. Si le contrôleur parle trop vite ou si un mot manque, demander de répéter. Après changement de fréquence, vérifier la fréquence active et le destinataire. Les fréquences et procédures se prennent dans la documentation actualisée, pas dans un exemple mémorisé.\n\n![Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.](/illustrations/ppl-op-004.svg)",
+      "explanation_en": "This statement is false.\n\nApproaching a reporting point, prepare position, altitude and intention before pressing the transmit switch. If the controller speaks too quickly or a word is missed, request repetition. After a frequency change, check the active frequency and recipient. Use current documentation for frequencies and procedures, not a memorised example.\n\n![Diagram: Radio Communication Procedures](/illustrations/en/ppl-op-004.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "communications",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — communications",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      ]
+    }
+  ]
 }

@@ -5,13 +5,583 @@
     "subject": "Meteorology",
     "chapter_title": "Nuages et précipitations",
     "chapter_title_en": "Clouds and Precipitation",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : identifier une famille de nuages; précipitations et plafond; exemple de conversion.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: identifying cloud families; precipitation and ceiling; a conversion example.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 25,
-    "prerequisites": ["PPL_MET_003"],
-    "tags": ["clouds", "precipitation", "classification", "Cumulus", "Stratus"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_MET_003"
+    ],
+    "tags": [
+      "clouds",
+      "precipitation",
+      "classification",
+      "Cumulus",
+      "Stratus"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "Météo-France — Guide aviation",
+        "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+      },
+      {
+        "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-met-005.svg",
+      "alt": "Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical."
+    },
+    "exam_subject": "meteorology",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_MET_005_C01",
+      "title": "Identifier une famille de nuages",
+      "title_en": "Identifying cloud families",
+      "content": "![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)\n\nLes nuages stratiformes forment des couches ; les nuages cumuliformes traduisent des développements verticaux plus marqués. On distingue aussi des étages bas, moyens et élevés. La forme donne des indices sur les mouvements de l'air, mais ne suffit pas à estimer la sécurité d'une route. Un cumulonimbus est associé à une convection profonde et à des dangers importants.",
+      "content_en": "![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)\n\nStratiform clouds form layers; cumuliform clouds indicate more pronounced vertical development. Low, middle and high levels are also distinguished. Shape provides clues to air movement but is not enough to assess route safety. A cumulonimbus is associated with deep convection and significant hazards.",
+      "difficulty": "intermediate",
+      "tags": [
+        "clouds",
+        "precipitation",
+        "classification",
+        "Cumulus",
+        "Stratus"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Identifier une famille de nuages"
+    },
+    {
+      "concept_id": "PPL_MET_005_C02",
+      "title": "Précipitations et plafond",
+      "title_en": "Precipitation and ceiling",
+      "content": "La pluie, la neige et les averses peuvent réduire la visibilité et masquer le relief. Une averse peut modifier rapidement les conditions près d'un aérodrome. Dans un METAR, la base des nuages est généralement exprimée en centaines de pieds au-dessus du niveau de l'aérodrome ; elle n'est pas directement une altitude par rapport à la mer. BKN et OVC participent à la définition du plafond.",
+      "content_en": "Rain, snow and showers can reduce visibility and obscure terrain. A shower may rapidly change conditions near an aerodrome. In a METAR, cloud base is normally expressed in hundreds of feet above aerodrome level, not directly as altitude above sea level. BKN and OVC layers contribute to the definition of ceiling.",
+      "difficulty": "intermediate",
+      "tags": [
+        "clouds",
+        "precipitation",
+        "classification",
+        "Cumulus",
+        "Stratus"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Précipitations et plafond"
+    },
+    {
+      "concept_id": "PPL_MET_005_C03",
+      "title": "Exemple de conversion",
+      "title_en": "A conversion example",
+      "content": "Un terrain à 800 ft d'altitude annonce BKN020. La base de cette couche est à environ 2 000 ft au-dessus du terrain, soit environ 2 800 ft au-dessus du niveau de la mer. Ce calcul ne garantit pas que la base soit identique vingt kilomètres plus loin. Prévoir une marge et vérifier les autres informations disponibles sur la route.",
+      "content_en": "An aerodrome at 800 ft elevation reports BKN020. The layer base is approximately 2,000 ft above the aerodrome, or 2,800 ft above mean sea level. This calculation does not guarantee the same base twenty kilometres away. Allow a margin and check other information for the route.",
+      "difficulty": "intermediate",
+      "tags": [
+        "clouds",
+        "precipitation",
+        "classification",
+        "Cumulus",
+        "Stratus"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "learning_objective": "Exemple de conversion"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_MET_005_C01",
+      "concept_title": "Identifier une famille de nuages",
+      "level": 1,
+      "question": "Que signifie une base BKN020 dans un METAR usuel ?",
+      "question_en": "What does a BKN020 cloud base mean in a usual METAR?",
+      "options": [
+        "20 ft au-dessus de la mer",
+        "20 000 ft au-dessus du terrain",
+        "2 000 mètres",
+        "2 000 ft au-dessus de l'aérodrome"
+      ],
+      "correct_answer": "2 000 ft au-dessus de l'aérodrome",
+      "explanation": "Le groupe code la base en centaines de pieds au-dessus de l'aérodrome.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "The group gives the base in hundreds of feet above the aerodrome.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "clouds",
+        "precipitation",
+        "classification",
+        "Cumulus",
+        "Stratus",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "20 ft above the sea",
+        "20,000 ft above the aerodrome",
+        "2,000 metres",
+        "2,000 ft above the aerodrome"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C02",
+      "concept_title": "Précipitations et plafond",
+      "level": 1,
+      "question": "Quel nuage est associé à une convection profonde dangereuse ?",
+      "question_en": "Which cloud is associated with hazardous deep convection?",
+      "options": [
+        "Une trace de condensation",
+        "Toute brume légère",
+        "Le cumulonimbus",
+        "Un cirrus isolé"
+      ],
+      "correct_answer": "Le cumulonimbus",
+      "explanation": "Le cumulonimbus peut produire turbulence, grêle, foudre et cisaillement.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "Cumulonimbus may produce turbulence, hail, lightning and wind shear.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "clouds",
+        "precipitation",
+        "classification",
+        "Cumulus",
+        "Stratus",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "A contrail",
+        "Any light mist",
+        "Cumulonimbus",
+        "An isolated cirrus"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C03",
+      "concept_title": "Exemple de conversion",
+      "level": 1,
+      "question": "Terrain à 800 ft et base à 2 000 ft au-dessus du terrain : altitude approximative ?\n\n![Terrain à 800 ft au-dessus du niveau de la mer. Base des nuages à 2000 ft au-dessus du terrain. Altitude de la base à déterminer.](/illustrations/quiz-ppl-met-005-3.svg)",
+      "question_en": "Terrain at 800 ft and a cloud base 2,000 ft above it: what is the approximate base altitude?\n\n![Exercise data: Clouds and Precipitation](/illustrations/en/quiz-ppl-met-005-3.svg)",
+      "options": [
+        "800 ft",
+        "2 800 ft",
+        "1 200 ft",
+        "2 000 ft"
+      ],
+      "correct_answer": "2 800 ft",
+      "explanation": "On additionne l'altitude du terrain à la hauteur de la base.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "Add the terrain elevation to the height of the base.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "clouds",
+        "precipitation",
+        "classification",
+        "Cumulus",
+        "Stratus",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "800 ft",
+        "2,800 ft",
+        "1,200 ft",
+        "2,000 ft"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C03",
+      "concept_title": "Exemple de conversion",
+      "level": 2,
+      "question": "Un terrain est à 600 ft d'altitude et la base d'une couche à 1 500 ft au-dessus du terrain. Quelle altitude approximative a cette base ?\n\n![Terrain à 600 ft au-dessus du niveau de la mer. Base des nuages à 1500 ft au-dessus du terrain. Altitude de la base à déterminer.](/illustrations/quiz-ppl-met-005-4.svg)",
+      "question_en": "An aerodrome is at 600 ft elevation and a cloud base is 1,500 ft above it. What is its approximate altitude?\n\n![Exercise data: Clouds and Precipitation](/illustrations/en/quiz-ppl-met-005-4.svg)",
+      "options": [
+        "2 100 ft",
+        "900 ft",
+        "1 500 ft",
+        "600 ft"
+      ],
+      "correct_answer": "2 100 ft",
+      "explanation": "On additionne l'altitude du terrain et la hauteur de la base : 600 + 1 500 = 2 100 ft. Hauteur au-dessus du terrain et altitude ne doivent pas être confondues.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "Add aerodrome elevation and base height: 600 + 1,500 = 2,100 ft. Height above terrain and altitude must not be confused.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "clouds",
+        "precipitation",
+        "classification",
+        "Cumulus",
+        "Stratus",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "2,100 ft",
+        "900 ft",
+        "1,500 ft",
+        "600 ft"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C02",
+      "concept_title": "Précipitations et plafond",
+      "level": 2,
+      "question": "Une base de nuages est observée sur l'aérodrome de départ. Que peut-on en déduire pour une vallée éloignée ?",
+      "question_en": "A cloud base is observed at the departure aerodrome. What can be inferred about a distant valley?",
+      "options": [
+        "La même hauteur au-dessus du sol est garantie partout",
+        "Tout relief inférieur à cette base est nécessairement visible",
+        "Les précipitations sont exclues sur toute la navigation",
+        "Il faut d'autres informations : la base peut différer sur la route"
+      ],
+      "correct_answer": "Il faut d'autres informations : la base peut différer sur la route",
+      "explanation": "Une observation d'aérodrome est locale. Relief, évolution et variations spatiales imposent de compléter l'analyse sur l'ensemble de la route.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "An aerodrome observation is local. Terrain, evolution and spatial variations require analysis across the entire route.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "clouds",
+        "precipitation",
+        "classification",
+        "Cumulus",
+        "Stratus",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "The same height above ground is guaranteed everywhere",
+        "All terrain below that base must be visible",
+        "Precipitation is excluded throughout the route",
+        "More information is needed: the base may differ along the route"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C01",
+      "concept_title": "Identifier une famille de nuages",
+      "level": 2,
+      "question": "Vrai ou faux ? Les nuages stratiformes se présentent en couches.",
+      "question_en": "True or false? Stratiform clouds form layers.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes nuages stratiformes forment des couches ; les nuages cumuliformes traduisent des développements verticaux plus marqués. On distingue aussi des étages bas, moyens et élevés. La forme donne des indices sur les mouvements de l'air, mais ne suffit pas à estimer la sécurité d'une route. Un cumulonimbus est associé à une convection profonde et à des dangers importants.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "This statement is true.\n\nStratiform clouds form layers; cumuliform clouds indicate more pronounced vertical development. Low, middle and high levels are also distinguished. Shape provides clues to air movement but is not enough to assess route safety. A cumulonimbus is associated with deep convection and significant hazards.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C01",
+      "concept_title": "Identifier une famille de nuages",
+      "level": 2,
+      "question": "Vrai ou faux ? La forme d'un nuage suffit à garantir la sécurité de toute la route.",
+      "question_en": "True or false? Cloud shape alone guarantees the safety of the whole route.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes nuages stratiformes forment des couches ; les nuages cumuliformes traduisent des développements verticaux plus marqués. On distingue aussi des étages bas, moyens et élevés. La forme donne des indices sur les mouvements de l'air, mais ne suffit pas à estimer la sécurité d'une route. Un cumulonimbus est associé à une convection profonde et à des dangers importants.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "This statement is false.\n\nStratiform clouds form layers; cumuliform clouds indicate more pronounced vertical development. Low, middle and high levels are also distinguished. Shape provides clues to air movement but is not enough to assess route safety. A cumulonimbus is associated with deep convection and significant hazards.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C01",
+      "concept_title": "Identifier une famille de nuages",
+      "level": 2,
+      "question": "Vrai ou faux ? Les nuages cumuliformes présentent un développement vertical plus marqué.",
+      "question_en": "True or false? Cumuliform clouds show more pronounced vertical development.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes nuages stratiformes forment des couches ; les nuages cumuliformes traduisent des développements verticaux plus marqués. On distingue aussi des étages bas, moyens et élevés. La forme donne des indices sur les mouvements de l'air, mais ne suffit pas à estimer la sécurité d'une route. Un cumulonimbus est associé à une convection profonde et à des dangers importants.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "This statement is true.\n\nStratiform clouds form layers; cumuliform clouds indicate more pronounced vertical development. Low, middle and high levels are also distinguished. Shape provides clues to air movement but is not enough to assess route safety. A cumulonimbus is associated with deep convection and significant hazards.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C02",
+      "concept_title": "Précipitations et plafond",
+      "level": 2,
+      "question": "Vrai ou faux ? Un grain ne peut modifier les conditions d'aérodrome que très lentement.",
+      "question_en": "True or false? A shower can change aerodrome conditions only very slowly.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa pluie, la neige et les averses peuvent réduire la visibilité et masquer le relief. Une averse peut modifier rapidement les conditions près d'un aérodrome. Dans un METAR, la base des nuages est généralement exprimée en centaines de pieds au-dessus du niveau de l'aérodrome ; elle n'est pas directement une altitude par rapport à la mer. BKN et OVC participent à la définition du plafond.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "This statement is false.\n\nRain, snow and showers can reduce visibility and obscure terrain. A shower may rapidly change conditions near an aerodrome. In a METAR, cloud base is normally expressed in hundreds of feet above aerodrome level, not directly as altitude above sea level. BKN and OVC layers contribute to the definition of ceiling.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C02",
+      "concept_title": "Précipitations et plafond",
+      "level": 2,
+      "question": "Vrai ou faux ? La neige peut réduire la visibilité et masquer le relief.",
+      "question_en": "True or false? Snow can reduce visibility and obscure terrain.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa pluie, la neige et les averses peuvent réduire la visibilité et masquer le relief. Une averse peut modifier rapidement les conditions près d'un aérodrome. Dans un METAR, la base des nuages est généralement exprimée en centaines de pieds au-dessus du niveau de l'aérodrome ; elle n'est pas directement une altitude par rapport à la mer. BKN et OVC participent à la définition du plafond.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "This statement is true.\n\nRain, snow and showers can reduce visibility and obscure terrain. A shower may rapidly change conditions near an aerodrome. In a METAR, cloud base is normally expressed in hundreds of feet above aerodrome level, not directly as altitude above sea level. BKN and OVC layers contribute to the definition of ceiling.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C02",
+      "concept_title": "Précipitations et plafond",
+      "level": 2,
+      "question": "Vrai ou faux ? Toutes les hauteurs de base METAR sont directement des altitudes au-dessus de la mer.",
+      "question_en": "True or false? Every METAR cloud-base height is directly an altitude above sea level.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa pluie, la neige et les averses peuvent réduire la visibilité et masquer le relief. Une averse peut modifier rapidement les conditions près d'un aérodrome. Dans un METAR, la base des nuages est généralement exprimée en centaines de pieds au-dessus du niveau de l'aérodrome ; elle n'est pas directement une altitude par rapport à la mer. BKN et OVC participent à la définition du plafond.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "This statement is false.\n\nRain, snow and showers can reduce visibility and obscure terrain. A shower may rapidly change conditions near an aerodrome. In a METAR, cloud base is normally expressed in hundreds of feet above aerodrome level, not directly as altitude above sea level. BKN and OVC layers contribute to the definition of ceiling.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C02",
+      "concept_title": "Précipitations et plafond",
+      "level": 2,
+      "question": "Vrai ou faux ? Les couches BKN et OVC interviennent dans la définition du plafond.",
+      "question_en": "True or false? BKN and OVC layers contribute to the definition of ceiling.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa pluie, la neige et les averses peuvent réduire la visibilité et masquer le relief. Une averse peut modifier rapidement les conditions près d'un aérodrome. Dans un METAR, la base des nuages est généralement exprimée en centaines de pieds au-dessus du niveau de l'aérodrome ; elle n'est pas directement une altitude par rapport à la mer. BKN et OVC participent à la définition du plafond.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "This statement is true.\n\nRain, snow and showers can reduce visibility and obscure terrain. A shower may rapidly change conditions near an aerodrome. In a METAR, cloud base is normally expressed in hundreds of feet above aerodrome level, not directly as altitude above sea level. BKN and OVC layers contribute to the definition of ceiling.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C03",
+      "concept_title": "Exemple de conversion",
+      "level": 2,
+      "question": "Vrai ou faux ? BKN020 à un terrain de 800 ft place la base à 1 200 ft d'altitude.",
+      "question_en": "True or false? BKN020 at an 800 ft aerodrome puts the base at 1,200 ft altitude.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn terrain à 800 ft d'altitude annonce BKN020. La base de cette couche est à environ 2 000 ft au-dessus du terrain, soit environ 2 800 ft au-dessus du niveau de la mer. Ce calcul ne garantit pas que la base soit identique vingt kilomètres plus loin. Prévoir une marge et vérifier les autres informations disponibles sur la route.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "This statement is false.\n\nAn aerodrome at 800 ft elevation reports BKN020. The layer base is approximately 2,000 ft above the aerodrome, or 2,800 ft above mean sea level. This calculation does not guarantee the same base twenty kilometres away. Allow a margin and check other information for the route.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C03",
+      "concept_title": "Exemple de conversion",
+      "level": 2,
+      "question": "Vrai ou faux ? Une conversion hauteur-altitude exige la connaissance de l'élévation de référence.",
+      "question_en": "True or false? Converting height to altitude requires the reference elevation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn terrain à 800 ft d'altitude annonce BKN020. La base de cette couche est à environ 2 000 ft au-dessus du terrain, soit environ 2 800 ft au-dessus du niveau de la mer. Ce calcul ne garantit pas que la base soit identique vingt kilomètres plus loin. Prévoir une marge et vérifier les autres informations disponibles sur la route.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "This statement is true.\n\nAn aerodrome at 800 ft elevation reports BKN020. The layer base is approximately 2,000 ft above the aerodrome, or 2,800 ft above mean sea level. This calculation does not guarantee the same base twenty kilometres away. Allow a margin and check other information for the route.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    },
+    {
+      "concept_id": "PPL_MET_005_C03",
+      "concept_title": "Exemple de conversion",
+      "level": 2,
+      "question": "Vrai ou faux ? La base observée au terrain garantit la même base vingt kilomètres plus loin.",
+      "question_en": "True or false? The base observed at the aerodrome guarantees the same base twenty kilometres away.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn terrain à 800 ft d'altitude annonce BKN020. La base de cette couche est à environ 2 000 ft au-dessus du terrain, soit environ 2 800 ft au-dessus du niveau de la mer. Ce calcul ne garantit pas que la base soit identique vingt kilomètres plus loin. Prévoir une marge et vérifier les autres informations disponibles sur la route.\n\n![Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical.](/illustrations/ppl-met-005.svg)",
+      "explanation_en": "This statement is false.\n\nAn aerodrome at 800 ft elevation reports BKN020. The layer base is approximately 2,000 ft above the aerodrome, or 2,800 ft above mean sea level. This calculation does not guarantee the same base twenty kilometres away. Allow a margin and check other information for the route.\n\n![Diagram: Clouds and Precipitation](/illustrations/en/ppl-met-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      ]
+    }
+  ]
 }

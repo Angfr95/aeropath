@@ -1,0 +1,628 @@
+{
+  "metadata": {
+    "module_id": "ATPL_022_001",
+    "program": "ATPL",
+    "subject": "instrumentation",
+    "chapter_title": "Vitesses air, Mach et données aérodynamiques",
+    "chapter_title_en": "Airspeeds, Mach and air data",
+    "reference_checked_on": "2026-09-26",
+    "learning_objective": "Résoudre et vérifier les exercices de vitesses air, mach et données aérodynamiques.",
+    "learning_objective_en": "Solve and cross-check exercises on airspeeds, mach and air data.",
+    "estimated_duration_minutes": 35,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Calcul des proportions et des durées ; bases PPL du sujet"
+    ],
+    "exam_subject": "022",
+    "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022",
+    "official_subject_format": {
+      "questions": 60,
+      "minutes": 90,
+      "pass_percent": 75,
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+    },
+    "sources": [
+      {
+        "title": "EASA — programme Part-FCL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+      },
+      {
+        "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      },
+      {
+        "title": "FAA PHAK — instruments",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      }
+    ],
+    "content_status": "draft",
+    "coverage_status": "partial",
+    "scope": "ATPL(A), France / EASA",
+    "quiz_format": "chapter_practice",
+    "tags": [
+      "ATPL",
+      "mcq-four-options"
+    ],
+    "illustration": {
+      "src": "/illustrations/atpl-022-001.svg",
+      "alt": "Vitesses air, Mach et données aérodynamiques"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "ATPL_022_001_C01",
+      "title": "Séparer les vitesses",
+      "title_en": "Separate the airspeeds",
+      "content": "![ATPL_022_001](/illustrations/atpl-022-001.svg)\n\nIAS est la vitesse indiquée. CAS corrige les erreurs instrumentales et de position ; EAS corrige ensuite les effets de compressibilité ; TAS est la vitesse réelle par rapport à la masse d’air. Le vent transforme le vecteur vitesse air en vecteur vitesse sol. Dans les exercices à faible Mach, on peut assimiler CAS et EAS seulement lorsque l’énoncé le permet. Une valeur de vitesse n’a de sens qu’avec son type et son unité.",
+      "content_en": "![ATPL_022_001](/illustrations/en/atpl-022-001.svg)\n\nIAS is indicated airspeed. CAS corrects instrument and position errors; EAS then corrects compressibility effects; TAS is true speed relative to the air mass. Wind converts the air-velocity vector into the ground-velocity vector. In low-Mach exercises, CAS and EAS may be treated alike only when allowed by the problem. A speed value requires both its type and unit.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_022_001_C02",
+      "title": "Densité et vitesse vraie",
+      "title_en": "Density and true airspeed",
+      "content": "Avec σ = densité locale / densité standard au niveau de la mer, TAS = EAS/√σ. Exemple : EAS 200 kt et σ = 0,64 donnent TAS = 250 kt. À EAS constante, une densité plus faible correspond à une TAS plus élevée. Ne pas utiliser cette relation pour déduire directement la vitesse sol sans vent. Les calculs supposent des données corrigées et un écoulement approprié au modèle.",
+      "content_en": "With σ = local density / standard sea-level density, TAS = EAS/√σ. Example: EAS 200 kt and σ = 0.64 give TAS = 250 kt. At constant EAS, lower density corresponds to higher TAS. This does not directly determine groundspeed without wind information. Calculations assume corrected inputs and flow appropriate to the model.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_022_001_C03",
+      "title": "Mach et température",
+      "title_en": "Mach and temperature",
+      "content": "Mach = TAS / vitesse locale du son. La vitesse du son dans l’air dépend de la température absolue : a ∝ √T. Pour l’exercice, si a = 600 kt et TAS = 450 kt, Mach = 0,75. À Mach constant, une baisse de T réduit la TAS. Utiliser des kelvins : 15 °C ≈ 288 K, −45 °C ≈ 228 K. La température totale mesurée en vol rapide inclut un réchauffement dynamique ; elle n’est pas directement la température statique de l’air.",
+      "content_en": "Mach = TAS / local speed of sound. Sound speed in air depends on absolute temperature: a ∝ √T. In the exercise, a = 600 kt and TAS = 450 kt give Mach = 0.75. At constant Mach, lower T reduces TAS. Use kelvins: 15 °C ≈ 288 K, −45 °C ≈ 228 K. Total temperature measured in fast flight includes ram heating; it is not directly static air temperature.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022",
+      "tags": [
+        "ATPL"
+      ]
+    },
+    {
+      "concept_id": "ATPL_022_001_C04",
+      "title": "Détecter les incohérences",
+      "title_en": "Detect inconsistencies",
+      "content": "Les données aérodynamiques dépendent des pressions totale et statique et des capteurs associés. Une obstruction peut affecter plusieurs instruments ; plusieurs affichages partageant la même source ne constituent pas des vérifications indépendantes. Comparer les sources réellement indépendantes et appliquer les procédures de vitesse non fiable propres à l’avion. VMO et MMO sont des limites distinctes : respecter celle qui devient contraignante, sans supposer qu’une IAS acceptable garantit un Mach acceptable.\n\n**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. La matière 022 comporte 60 questions en 90 minutes dans le tableau EASA cité. Ce chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.",
+      "content_en": "Air data depend on total and static pressure and associated sensors. A blockage can affect several instruments; displays sharing one source are not independent cross-checks. Compare genuinely independent sources and follow aircraft-specific unreliable-airspeed procedures. VMO and MMO are separate limits: respect whichever is limiting, without assuming acceptable IAS guarantees acceptable Mach.\n\n**Practice format:** 15 chapter MCQs, four choices and one correct answer. Subject 022 has 60 questions in 90 minutes in the cited EASA table. This chapter covers only part of the subject and is not a full paper. EASA framework, including with English or US/British units.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 022",
+      "tags": [
+        "ATPL"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "ATPL_022_001_C02",
+      "concept_title": "Densité et vitesse vraie",
+      "level": 3,
+      "question": "EAS 200 kt, rapport de densité σ = 0,64. TAS ?\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "question_en": "EAS 200 kt, density ratio σ = 0.64. TAS?\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "options": [
+        "250 kt",
+        "160 kt",
+        "312,5 kt",
+        "200 kt"
+      ],
+      "options_en": [
+        "250 kt",
+        "160 kt",
+        "312.5 kt",
+        "200 kt"
+      ],
+      "correct_answer": "250 kt",
+      "explanation": "200/√0,64 = 250 kt.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "200/√0.64 = 250 kt.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": true,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C01",
+      "concept_title": "Séparer les vitesses",
+      "level": 3,
+      "question": "Quelle vitesse corrige l’IAS des erreurs de position et instrumentales ?",
+      "question_en": "Which airspeed corrects IAS for position and instrument errors?",
+      "options": [
+        "GS",
+        "Vitesse du son",
+        "Vitesse verticale",
+        "CAS"
+      ],
+      "options_en": [
+        "GS",
+        "Speed of sound",
+        "Vertical speed",
+        "CAS"
+      ],
+      "correct_answer": "CAS",
+      "explanation": "La CAS est la vitesse indiquée ainsi corrigée.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "CAS is indicated airspeed corrected for these errors.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C01",
+      "concept_title": "Séparer les vitesses",
+      "level": 3,
+      "question": "Quelle correction distingue EAS de CAS ?",
+      "question_en": "Which correction distinguishes EAS from CAS?",
+      "options": [
+        "Déclinaison magnétique",
+        "Pente de piste",
+        "Compressibilité",
+        "Vent uniquement"
+      ],
+      "options_en": [
+        "Magnetic variation",
+        "Runway slope",
+        "Compressibility",
+        "Wind only"
+      ],
+      "correct_answer": "Compressibilité",
+      "explanation": "EAS tient compte des effets de compressibilité.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "EAS accounts for compressibility effects.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C01",
+      "concept_title": "Séparer les vitesses",
+      "level": 3,
+      "question": "TAS désigne la vitesse relative…",
+      "question_en": "TAS is speed relative to…",
+      "options": [
+        "À la piste en permanence",
+        "À la masse d’air",
+        "Au sol uniquement",
+        "Au nord magnétique"
+      ],
+      "options_en": [
+        "The runway at all times",
+        "The air mass",
+        "The ground only",
+        "Magnetic north"
+      ],
+      "correct_answer": "À la masse d’air",
+      "explanation": "La vitesse sol combine ensuite air et vent.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "Groundspeed then combines air velocity and wind.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C02",
+      "concept_title": "Densité et vitesse vraie",
+      "level": 3,
+      "question": "À EAS constante, σ passe de 1 à 0,64. La TAS…",
+      "question_en": "At constant EAS, σ changes from 1 to 0.64. TAS…",
+      "options": [
+        "Est multipliée par 1,25",
+        "Est multipliée par 0,64",
+        "Reste identique",
+        "Est divisée par 1,25"
+      ],
+      "options_en": [
+        "Is multiplied by 1.25",
+        "Is multiplied by 0.64",
+        "Stays unchanged",
+        "Is divided by 1.25"
+      ],
+      "correct_answer": "Est multipliée par 1,25",
+      "explanation": "1/√0,64 = 1,25.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "1/√0.64 = 1.25.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C02",
+      "concept_title": "Densité et vitesse vraie",
+      "level": 3,
+      "question": "TAS 250 kt, vent de face aligné 30 kt. Vitesse sol ?",
+      "question_en": "TAS 250 kt, aligned headwind 30 kt. Groundspeed?",
+      "options": [
+        "280 kt",
+        "250 kt",
+        "30 kt",
+        "220 kt"
+      ],
+      "options_en": [
+        "280 kt",
+        "250 kt",
+        "30 kt",
+        "220 kt"
+      ],
+      "correct_answer": "220 kt",
+      "explanation": "250 − 30 = 220 kt.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "250 − 30 = 220 kt.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C03",
+      "concept_title": "Mach et température",
+      "level": 3,
+      "question": "TAS 450 kt et vitesse locale du son 600 kt. Mach ?",
+      "question_en": "TAS 450 kt and local sound speed 600 kt. Mach?",
+      "options": [
+        "0,60",
+        "0,45",
+        "0,75",
+        "1,33"
+      ],
+      "options_en": [
+        "0.60",
+        "0.45",
+        "0.75",
+        "1.33"
+      ],
+      "correct_answer": "0,75",
+      "explanation": "450/600 = 0,75.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "450/600 = 0.75.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C03",
+      "concept_title": "Mach et température",
+      "level": 3,
+      "question": "Mach 0,80 et vitesse locale du son 575 kt. TAS ?",
+      "question_en": "Mach 0.80 and local sound speed 575 kt. TAS?",
+      "options": [
+        "495 kt",
+        "460 kt",
+        "719 kt",
+        "575 kt"
+      ],
+      "options_en": [
+        "495 kt",
+        "460 kt",
+        "719 kt",
+        "575 kt"
+      ],
+      "correct_answer": "460 kt",
+      "explanation": "0,80 × 575 = 460 kt.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "0.80 × 575 = 460 kt.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C03",
+      "concept_title": "Mach et température",
+      "level": 3,
+      "question": "À Mach constant, une baisse de température statique absolue fait…",
+      "question_en": "At constant Mach, falling absolute static temperature makes…",
+      "options": [
+        "Diminuer la TAS",
+        "Augmenter toujours la TAS",
+        "Rester la TAS constante",
+        "Annuler le vent"
+      ],
+      "options_en": [
+        "TAS decrease",
+        "TAS always increase",
+        "TAS stay constant",
+        "Wind vanish"
+      ],
+      "correct_answer": "Diminuer la TAS",
+      "explanation": "La vitesse du son varie avec √T.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "Sound speed varies with √T.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C03",
+      "concept_title": "Mach et température",
+      "level": 3,
+      "question": "Dans a ∝ √T, quelle échelle utiliser ?",
+      "question_en": "In a ∝ √T, which scale is required?",
+      "options": [
+        "Celsius directement",
+        "Fahrenheit directement",
+        "QNH en hPa",
+        "Kelvin"
+      ],
+      "options_en": [
+        "Celsius directly",
+        "Fahrenheit directly",
+        "QNH in hPa",
+        "Kelvin"
+      ],
+      "correct_answer": "Kelvin",
+      "explanation": "Il faut une température absolue.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "An absolute temperature is required.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C03",
+      "concept_title": "Mach et température",
+      "level": 3,
+      "question": "−45 °C correspond approximativement à…",
+      "question_en": "−45 °C corresponds approximately to…",
+      "options": [
+        "45 K",
+        "−45 K",
+        "228 K",
+        "318 K"
+      ],
+      "options_en": [
+        "45 K",
+        "−45 K",
+        "228 K",
+        "318 K"
+      ],
+      "correct_answer": "228 K",
+      "explanation": "−45 + 273 ≈ 228 K.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "−45 + 273 ≈ 228 K.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C03",
+      "concept_title": "Mach et température",
+      "level": 3,
+      "question": "En vol rapide, la température totale mesurée comprend…",
+      "question_en": "In fast flight, measured total temperature includes…",
+      "options": [
+        "La déclinaison locale",
+        "Un réchauffement dynamique",
+        "Seulement la température du carburant",
+        "Uniquement l’altitude-pression"
+      ],
+      "options_en": [
+        "Local variation",
+        "Ram heating",
+        "Only fuel temperature",
+        "Only pressure altitude"
+      ],
+      "correct_answer": "Un réchauffement dynamique",
+      "explanation": "Elle diffère de la température statique.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "It differs from static temperature.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C04",
+      "concept_title": "Détecter les incohérences",
+      "level": 3,
+      "question": "Deux écrans alimentés par la même source aérodynamique constituent-ils deux références indépendantes ?",
+      "question_en": "Are two displays fed by one air-data source independent references?",
+      "options": [
+        "Non",
+        "Oui, par leur nombre",
+        "Oui, si leurs couleurs diffèrent",
+        "Oui, avec deux pilotes"
+      ],
+      "options_en": [
+        "No",
+        "Yes, because there are two",
+        "Yes, if colours differ",
+        "Yes, with two pilots"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Une panne commune peut affecter les deux.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "A common failure can affect both.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C04",
+      "concept_title": "Détecter les incohérences",
+      "level": 3,
+      "question": "IAS sous VMO mais Mach au-dessus de MMO. La situation respecte-t-elle les limites ?",
+      "question_en": "IAS below VMO but Mach above MMO. Are limits respected?",
+      "options": [
+        "Oui, VMO suffit",
+        "Oui, en palier",
+        "Oui, si la vitesse sol est faible",
+        "Non"
+      ],
+      "options_en": [
+        "Yes, VMO is sufficient",
+        "Yes, in level flight",
+        "Yes, with low groundspeed",
+        "No"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Les deux limites doivent être respectées.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "Both limits must be respected.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    },
+    {
+      "concept_id": "ATPL_022_001_C04",
+      "concept_title": "Détecter les incohérences",
+      "level": 3,
+      "question": "Face à des vitesses incohérentes, quelle référence de procédure utiliser ?",
+      "question_en": "With inconsistent airspeeds, which procedural reference should be used?",
+      "options": [
+        "La seule vitesse GPS comme IAS",
+        "L’avis d’un passager",
+        "La procédure de vitesse non fiable propre à l’avion",
+        "Une valeur internet générique"
+      ],
+      "options_en": [
+        "GPS speed alone as IAS",
+        "A passenger’s opinion",
+        "Aircraft-specific unreliable-airspeed procedure",
+        "A generic internet value"
+      ],
+      "correct_answer": "La procédure de vitesse non fiable propre à l’avion",
+      "explanation": "Les sources et actions dépendent du système installé.\n\n![ATPL_022_001](/illustrations/atpl-022-001.svg)",
+      "explanation_en": "Sources and actions depend on the installed system.\n\n![ATPL_022_001](/illustrations/en/atpl-022-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "ATPL",
+        "exam-mcq",
+        "exam-subject:022"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-8-flight-instruments"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 022"
+    }
+  ]
+}

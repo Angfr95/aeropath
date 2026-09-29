@@ -1,0 +1,1328 @@
+{
+  "scope": "PPL(A) France",
+  "status": "partial syllabus coverage; instructor review pending",
+  "exam_bank": {
+    "airlaw": 125,
+    "aircraft_general": 50,
+    "communications": 40,
+    "operational_procedures": 25,
+    "flight_performance_planning": 35,
+    "human_performance": 30,
+    "meteorology": 70,
+    "navigation": 55,
+    "principles_of_flight": 25
+  },
+  "papers": {
+    "airlaw": 20,
+    "human_performance": 12,
+    "meteorology": 20,
+    "communications": 8,
+    "navigation": 20,
+    "principles_of_flight": 12,
+    "operational_procedures": 12,
+    "flight_performance_planning": 12,
+    "aircraft_general": 12
+  },
+  "lessons": [
+    {
+      "module": "PPL_AIRLAW_001",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_001_C01",
+          "objective": "Convention de Chicago et OACI"
+        },
+        {
+          "id": "PPL_AIRLAW_001_C02",
+          "objective": "Rôle des annexes"
+        },
+        {
+          "id": "PPL_AIRLAW_001_C03",
+          "objective": "Normes, pratiques recommandées et différences"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_002",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_002_C01",
+          "objective": "Cadre européen"
+        },
+        {
+          "id": "PPL_AIRLAW_002_C02",
+          "objective": "Formation et qualifications"
+        },
+        {
+          "id": "PPL_AIRLAW_002_C03",
+          "objective": "Maintien des privilèges et vols internationaux"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_003",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_003_C01",
+          "objective": "Conception approuvée"
+        },
+        {
+          "id": "PPL_AIRLAW_003_C02",
+          "objective": "Navigabilité et suivi"
+        },
+        {
+          "id": "PPL_AIRLAW_003_C03",
+          "objective": "Immatriculation et documents associés"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_004",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_004_C01",
+          "objective": "Un volume, pas une ligne"
+        },
+        {
+          "id": "PPL_AIRLAW_004_C02",
+          "objective": "Préparer une traversée"
+        },
+        {
+          "id": "PPL_AIRLAW_004_C03",
+          "objective": "Exemple de limite verticale"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_005",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_005_C01",
+          "objective": "Règles de vol et météo"
+        },
+        {
+          "id": "PPL_AIRLAW_005_C02",
+          "objective": "Déterminer les minima pertinents"
+        },
+        {
+          "id": "PPL_AIRLAW_005_C03",
+          "objective": "Exemple de décision"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_006",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_006_C01",
+          "objective": "Le rôle de SERA"
+        },
+        {
+          "id": "PPL_AIRLAW_006_C02",
+          "objective": "Responsabilité et prévention"
+        },
+        {
+          "id": "PPL_AIRLAW_006_C03",
+          "objective": "Application à une situation"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_007",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_007_C01",
+          "objective": "Dossier personnel et plan déposé"
+        },
+        {
+          "id": "PPL_AIRLAW_007_C02",
+          "objective": "Des informations exploitables"
+        },
+        {
+          "id": "PPL_AIRLAW_007_C03",
+          "objective": "Avant et après le vol"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_008",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_008_C01",
+          "objective": "Trois fonctions à distinguer"
+        },
+        {
+          "id": "PPL_AIRLAW_008_C02",
+          "objective": "Identifier le service reçu"
+        },
+        {
+          "id": "PPL_AIRLAW_008_C03",
+          "objective": "Exemple d'échange"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_009",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_009_C01",
+          "objective": "Détresse et urgence"
+        },
+        {
+          "id": "PPL_AIRLAW_009_C02",
+          "objective": "Transmettre l'essentiel"
+        },
+        {
+          "id": "PPL_AIRLAW_009_C03",
+          "objective": "Exemple de qualification"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_010",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_010_C01",
+          "objective": "Vérifier les privilèges du pilote"
+        },
+        {
+          "id": "PPL_AIRLAW_010_C02",
+          "objective": "Vérifier l'appareil et les documents"
+        },
+        {
+          "id": "PPL_AIRLAW_010_C03",
+          "objective": "Exemple de contrôle"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_011",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_011_C01",
+          "objective": "Choisir la bonne ligne"
+        },
+        {
+          "id": "PPL_AIRLAW_011_C02",
+          "objective": "Basses couches et exceptions"
+        },
+        {
+          "id": "PPL_AIRLAW_011_C03",
+          "objective": "Exemples et décision"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_012",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_012_C01",
+          "objective": "Face-à-face et convergence"
+        },
+        {
+          "id": "PPL_AIRLAW_012_C02",
+          "objective": "Exceptions et dépassement"
+        },
+        {
+          "id": "PPL_AIRLAW_012_C03",
+          "objective": "Approche et atterrissage"
+        },
+        {
+          "id": "PPL_AIRLAW_012_C04",
+          "objective": "Roulage, piste et barre d’arrêt"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AIRLAW_013",
+      "subject": "airlaw",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_AIRLAW_013_C01",
+          "objective": "Identifier le volume et les conditions"
+        },
+        {
+          "id": "PPL_AIRLAW_013_C02",
+          "objective": "Comparer C et D en VFR"
+        },
+        {
+          "id": "PPL_AIRLAW_013_C03",
+          "objective": "Comprendre E, F et G"
+        },
+        {
+          "id": "PPL_AIRLAW_013_C04",
+          "objective": "RMZ et TMZ"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AC_001",
+      "subject": "aircraft_general",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AC_001_C01",
+          "objective": "Reconnaître les éléments porteurs"
+        },
+        {
+          "id": "PPL_AC_001_C02",
+          "objective": "Comprendre les efforts"
+        },
+        {
+          "id": "PPL_AC_001_C03",
+          "objective": "Exemple et vérification"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AC_002",
+      "subject": "aircraft_general",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AC_002_C01",
+          "objective": "Du carburant à la traction"
+        },
+        {
+          "id": "PPL_AC_002_C02",
+          "objective": "Surveiller le fonctionnement"
+        },
+        {
+          "id": "PPL_AC_002_C03",
+          "objective": "Mise en situation"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AC_003",
+      "subject": "aircraft_general",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AC_003_C01",
+          "objective": "Alimentation et disponibilité"
+        },
+        {
+          "id": "PPL_AC_003_C02",
+          "objective": "Électricité et hydraulique"
+        },
+        {
+          "id": "PPL_AC_003_C03",
+          "objective": "Exemple et méthode"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AC_004",
+      "subject": "aircraft_general",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AC_004_C01",
+          "objective": "Pressions et indications"
+        },
+        {
+          "id": "PPL_AC_004_C02",
+          "objective": "Attitude et direction"
+        },
+        {
+          "id": "PPL_AC_004_C03",
+          "objective": "Exemple et limites"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AC_005",
+      "subject": "aircraft_general",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AC_005_C01",
+          "objective": "Communication et surveillance"
+        },
+        {
+          "id": "PPL_AC_005_C02",
+          "objective": "Navigation et interface"
+        },
+        {
+          "id": "PPL_AC_005_C03",
+          "objective": "Exemple d'erreur"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AC_006",
+      "subject": "aircraft_general",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AC_006_C01",
+          "objective": "Les conditions du jour"
+        },
+        {
+          "id": "PPL_AC_006_C02",
+          "objective": "Masse et équilibre"
+        },
+        {
+          "id": "PPL_AC_006_C03",
+          "objective": "Exemple de décision"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AC_007",
+      "subject": "aircraft_general",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AC_007_C01",
+          "objective": "Trois axes de rotation"
+        },
+        {
+          "id": "PPL_AC_007_C02",
+          "objective": "Coordonner les commandes"
+        },
+        {
+          "id": "PPL_AC_007_C03",
+          "objective": "Volets, compensation et exemple"
+        }
+      ]
+    },
+    {
+      "module": "PPL_AC_008",
+      "subject": "aircraft_general",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_AC_008_C01",
+          "objective": "Lire les limites applicables"
+        },
+        {
+          "id": "PPL_AC_008_C02",
+          "objective": "Comprendre les vitesses"
+        },
+        {
+          "id": "PPL_AC_008_C03",
+          "objective": "Exemple de lecture"
+        }
+      ]
+    },
+    {
+      "module": "PPL_COM_001",
+      "subject": "communications",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_COM_001_C01",
+          "objective": "Construire un appel et identifier le destinataire"
+        },
+        {
+          "id": "PPL_COM_001_C02",
+          "objective": "Collationner et vérifier"
+        },
+        {
+          "id": "PPL_COM_001_C03",
+          "objective": "Appliquer sans inventer de clairance"
+        }
+      ]
+    },
+    {
+      "module": "PPL_COM_002",
+      "subject": "communications",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_COM_002_C01",
+          "objective": "Reconnaître la panne et rechercher le contact"
+        },
+        {
+          "id": "PPL_COM_002_C02",
+          "objective": "Appliquer la procédure VFR et lire les signaux"
+        },
+        {
+          "id": "PPL_COM_002_C03",
+          "objective": "Distinguer urgence et détresse, composer le message"
+        }
+      ]
+    },
+    {
+      "module": "PPL_EMG_001",
+      "subject": "operational_procedures",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_EMG_001_C01",
+          "objective": "Définir des déclencheurs"
+        },
+        {
+          "id": "PPL_EMG_001_C02",
+          "objective": "Choisir un terrain utilisable"
+        },
+        {
+          "id": "PPL_EMG_001_C03",
+          "objective": "Exemple chiffré de comparaison"
+        },
+        {
+          "id": "PPL_EMG_001_C04",
+          "objective": "Communiquer et suivre le nouveau plan"
+        }
+      ]
+    },
+    {
+      "module": "PPL_FP_001",
+      "subject": "flight_performance_planning",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_FP_001_C01",
+          "objective": "Construire le bilan carburant"
+        },
+        {
+          "id": "PPL_FP_001_C02",
+          "objective": "Réserve et suivi"
+        },
+        {
+          "id": "PPL_FP_001_C03",
+          "objective": "Exemple pédagogique"
+        }
+      ]
+    },
+    {
+      "module": "PPL_HP_001",
+      "subject": "human_performance",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_HP_001_C01",
+          "objective": "Aptitude du jour"
+        },
+        {
+          "id": "PPL_HP_001_C02",
+          "objective": "Perception et altitude"
+        },
+        {
+          "id": "PPL_HP_001_C03",
+          "objective": "Exemple de décision"
+        }
+      ]
+    },
+    {
+      "module": "PPL_HP_002",
+      "subject": "human_performance",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_HP_002_C01",
+          "objective": "Limites de l'attention"
+        },
+        {
+          "id": "PPL_HP_002_C02",
+          "objective": "Biais de décision"
+        },
+        {
+          "id": "PPL_HP_002_C03",
+          "objective": "Exemple de réévaluation"
+        }
+      ]
+    },
+    {
+      "module": "PPL_HP_003",
+      "subject": "human_performance",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_HP_003_C01",
+          "objective": "Hypoxie et monoxyde de carbone"
+        },
+        {
+          "id": "PPL_HP_003_C02",
+          "objective": "Hyperventilation et diagnostic prudent"
+        },
+        {
+          "id": "PPL_HP_003_C03",
+          "objective": "Vision et adaptation nocturne"
+        },
+        {
+          "id": "PPL_HP_003_C04",
+          "objective": "Oreille interne et désorientation"
+        }
+      ]
+    },
+    {
+      "module": "PPL_INS_001",
+      "subject": "aircraft_general",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_INS_001_C01",
+          "objective": "Ce que lit le pilote"
+        },
+        {
+          "id": "PPL_INS_001_C02",
+          "objective": "La vitesse dans l'air"
+        },
+        {
+          "id": "PPL_INS_001_C03",
+          "objective": "La vitesse utile au temps de trajet"
+        },
+        {
+          "id": "PPL_INS_001_C04",
+          "objective": "Exemple et erreur à éviter"
+        }
+      ]
+    },
+    {
+      "module": "PPL_INS_002",
+      "subject": "aircraft_general",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_INS_002_C01",
+          "objective": "Remonter à la source"
+        },
+        {
+          "id": "PPL_INS_002_C02",
+          "objective": "Comprendre un blocage statique"
+        },
+        {
+          "id": "PPL_INS_002_C03",
+          "objective": "Faire un contrôle cohérent"
+        },
+        {
+          "id": "PPL_INS_002_C04",
+          "objective": "Étude de cas"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MB_001",
+      "subject": "flight_performance_planning",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_MB_001_C01",
+          "objective": "Masse, bras et moment"
+        },
+        {
+          "id": "PPL_MB_001_C02",
+          "objective": "Vérifier toute l'enveloppe"
+        },
+        {
+          "id": "PPL_MB_001_C03",
+          "objective": "Exemple corrigé"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MB_002",
+      "subject": "flight_performance_planning",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_MB_002_C01",
+          "objective": "Tableau de chargement"
+        },
+        {
+          "id": "PPL_MB_002_C02",
+          "objective": "Lire une enveloppe fictive"
+        },
+        {
+          "id": "PPL_MB_002_C03",
+          "objective": "Consommation et déplacement de charge"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MET_001",
+      "subject": "meteorology",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_MET_001_C01",
+          "objective": "Une enveloppe d'air variable"
+        },
+        {
+          "id": "PPL_MET_001_C02",
+          "objective": "Le modèle ISA"
+        },
+        {
+          "id": "PPL_MET_001_C03",
+          "objective": "Exemple et conséquences"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MET_002",
+      "subject": "meteorology",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_MET_002_C01",
+          "objective": "Altitude, hauteur et référence"
+        },
+        {
+          "id": "PPL_MET_002_C02",
+          "objective": "Recalage et transition"
+        },
+        {
+          "id": "PPL_MET_002_C03",
+          "objective": "Erreurs et marges sur le relief"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MET_003",
+      "subject": "meteorology",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_MET_003_C01",
+          "objective": "Humidité et saturation"
+        },
+        {
+          "id": "PPL_MET_003_C02",
+          "objective": "Refroidissement et condensation"
+        },
+        {
+          "id": "PPL_MET_003_C03",
+          "objective": "Exemple d'interprétation"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MET_004",
+      "subject": "meteorology",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_MET_004_C01",
+          "objective": "Origine et description du vent"
+        },
+        {
+          "id": "PPL_MET_004_C02",
+          "objective": "Vent local et relief"
+        },
+        {
+          "id": "PPL_MET_004_C03",
+          "objective": "Exemple de composantes"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MET_005",
+      "subject": "meteorology",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_MET_005_C01",
+          "objective": "Identifier une famille de nuages"
+        },
+        {
+          "id": "PPL_MET_005_C02",
+          "objective": "Précipitations et plafond"
+        },
+        {
+          "id": "PPL_MET_005_C03",
+          "objective": "Exemple de conversion"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MET_006",
+      "subject": "meteorology",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_MET_006_C01",
+          "objective": "Voir n'est pas toujours distinguer"
+        },
+        {
+          "id": "PPL_MET_006_C02",
+          "objective": "Mécanismes du brouillard"
+        },
+        {
+          "id": "PPL_MET_006_C03",
+          "objective": "Décider avec une marge"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MET_007",
+      "subject": "meteorology",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_MET_007_C01",
+          "objective": "Masses d'air et stabilité"
+        },
+        {
+          "id": "PPL_MET_007_C02",
+          "objective": "Comprendre les fronts"
+        },
+        {
+          "id": "PPL_MET_007_C03",
+          "objective": "Exemple de préparation"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MET_008",
+      "subject": "meteorology",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_MET_008_C01",
+          "objective": "Convection et cisaillement"
+        },
+        {
+          "id": "PPL_MET_008_C02",
+          "objective": "Givrage et relief"
+        },
+        {
+          "id": "PPL_MET_008_C03",
+          "objective": "Exemple de décision"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MET_009",
+      "subject": "meteorology",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_MET_009_C01",
+          "objective": "Choisir le produit et lire ses références"
+        },
+        {
+          "id": "PPL_MET_009_C02",
+          "objective": "Interpréter la visibilité et CAVOK"
+        },
+        {
+          "id": "PPL_MET_009_C03",
+          "objective": "Lire une évolution et construire une décision"
+        }
+      ]
+    },
+    {
+      "module": "PPL_MET_010",
+      "subject": "meteorology",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_MET_010_C01",
+          "objective": "Construire un dossier cohérent"
+        },
+        {
+          "id": "PPL_MET_010_C02",
+          "objective": "Minima et marges personnelles"
+        },
+        {
+          "id": "PPL_MET_010_C03",
+          "objective": "Scénario de réévaluation"
+        }
+      ]
+    },
+    {
+      "module": "PPL_NAV_001",
+      "subject": "navigation",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_NAV_001_C01",
+          "objective": "Se situer et s'orienter"
+        },
+        {
+          "id": "PPL_NAV_001_C02",
+          "objective": "Cap, route et relèvement"
+        },
+        {
+          "id": "PPL_NAV_001_C03",
+          "objective": "Exemple de conversion"
+        }
+      ]
+    },
+    {
+      "module": "PPL_NAV_002",
+      "subject": "navigation",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_NAV_002_C01",
+          "objective": "Lire une carte aéronautique"
+        },
+        {
+          "id": "PPL_NAV_002_C02",
+          "objective": "Comprendre la dimension verticale"
+        },
+        {
+          "id": "PPL_NAV_002_C03",
+          "objective": "Exemple de préparation"
+        }
+      ]
+    },
+    {
+      "module": "PPL_NAV_003",
+      "subject": "navigation",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_NAV_003_C01",
+          "objective": "Le principe de l'estime"
+        },
+        {
+          "id": "PPL_NAV_003_C02",
+          "objective": "Temps et correction"
+        },
+        {
+          "id": "PPL_NAV_003_C03",
+          "objective": "Exemple guidé"
+        }
+      ]
+    },
+    {
+      "module": "PPL_NAV_004",
+      "subject": "navigation",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_NAV_004_C01",
+          "objective": "Trois aides différentes"
+        },
+        {
+          "id": "PPL_NAV_004_C02",
+          "objective": "Identifier et interpréter"
+        },
+        {
+          "id": "PPL_NAV_004_C03",
+          "objective": "Exemple de géométrie"
+        }
+      ]
+    },
+    {
+      "module": "PPL_NAV_005",
+      "subject": "navigation",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_NAV_005_C01",
+          "objective": "Ce que fournit le GNSS"
+        },
+        {
+          "id": "PPL_NAV_005_C02",
+          "objective": "Limites pratiques"
+        },
+        {
+          "id": "PPL_NAV_005_C03",
+          "objective": "Exemple de contrôle croisé"
+        }
+      ]
+    },
+    {
+      "module": "PPL_NAV_006",
+      "subject": "navigation",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_NAV_006_C01",
+          "objective": "Préparer le log"
+        },
+        {
+          "id": "PPL_NAV_006_C02",
+          "objective": "Calculer sans mélanger les unités"
+        },
+        {
+          "id": "PPL_NAV_006_C03",
+          "objective": "Exemple corrigé"
+        }
+      ]
+    },
+    {
+      "module": "PPL_NAV_007",
+      "subject": "navigation",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_NAV_007_C01",
+          "objective": "Choisir de bons repères"
+        },
+        {
+          "id": "PPL_NAV_007_C02",
+          "objective": "Contrôler l'identification"
+        },
+        {
+          "id": "PPL_NAV_007_C03",
+          "objective": "En cas de doute"
+        }
+      ]
+    },
+    {
+      "module": "PPL_NAV_008",
+      "subject": "navigation",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_NAV_008_C01",
+          "objective": "Construire une route praticable"
+        },
+        {
+          "id": "PPL_NAV_008_C02",
+          "objective": "Réunir les contraintes"
+        },
+        {
+          "id": "PPL_NAV_008_C03",
+          "objective": "Exemple de décision anticipée"
+        }
+      ]
+    },
+    {
+      "module": "PPL_NAV_009",
+      "subject": "navigation",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_NAV_009_C01",
+          "objective": "Vecteurs et conventions"
+        },
+        {
+          "id": "PPL_NAV_009_C02",
+          "objective": "Triangle chiffré"
+        },
+        {
+          "id": "PPL_NAV_009_C03",
+          "objective": "Erreur de route et interception"
+        }
+      ]
+    },
+    {
+      "module": "PPL_OP_001",
+      "subject": "operational_procedures",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_OP_001_C01",
+          "objective": "Préparer le vol et l'avion"
+        },
+        {
+          "id": "PPL_OP_001_C02",
+          "objective": "Contrôles extérieurs et cabine"
+        },
+        {
+          "id": "PPL_OP_001_C03",
+          "objective": "Exemple d'interruption"
+        }
+      ]
+    },
+    {
+      "module": "PPL_OP_002",
+      "subject": "operational_procedures",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_OP_002_C01",
+          "objective": "Roulage et orientation"
+        },
+        {
+          "id": "PPL_OP_002_C02",
+          "objective": "Préparer le décollage"
+        },
+        {
+          "id": "PPL_OP_002_C03",
+          "objective": "Exemple d'incursion évitée"
+        }
+      ]
+    },
+    {
+      "module": "PPL_OP_003",
+      "subject": "operational_procedures",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_OP_003_C01",
+          "objective": "Construire une approche stable"
+        },
+        {
+          "id": "PPL_OP_003_C02",
+          "objective": "Vent, piste et turbulence de sillage"
+        },
+        {
+          "id": "PPL_OP_003_C03",
+          "objective": "Décision de remise de gaz"
+        }
+      ]
+    },
+    {
+      "module": "PPL_OP_004",
+      "subject": "communications",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_OP_004_C01",
+          "objective": "Préparer avant de parler"
+        },
+        {
+          "id": "PPL_OP_004_C02",
+          "objective": "Écouter et collationner"
+        },
+        {
+          "id": "PPL_OP_004_C03",
+          "objective": "Exemple pratique"
+        }
+      ]
+    },
+    {
+      "module": "PPL_OP_005",
+      "subject": "operational_procedures",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_OP_005_C01",
+          "objective": "Priorités et diagnostic"
+        },
+        {
+          "id": "PPL_OP_005_C02",
+          "objective": "Préserver des options"
+        },
+        {
+          "id": "PPL_OP_005_C03",
+          "objective": "Exemple de gestion"
+        }
+      ]
+    },
+    {
+      "module": "PPL_OP_006",
+      "subject": "human_performance",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_OP_006_C01",
+          "objective": "Menaces et erreurs"
+        },
+        {
+          "id": "PPL_OP_006_C02",
+          "objective": "Utiliser les ressources"
+        },
+        {
+          "id": "PPL_OP_006_C03",
+          "objective": "Exemple de pression extérieure"
+        }
+      ]
+    },
+    {
+      "module": "PPL_PERF_001",
+      "subject": "flight_performance_planning",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_PERF_001_C01",
+          "objective": "Partir des bonnes hypothèses"
+        },
+        {
+          "id": "PPL_PERF_001_C02",
+          "objective": "Interpoler dans une plage autorisée"
+        },
+        {
+          "id": "PPL_PERF_001_C03",
+          "objective": "Calculer une correction explicitement donnée"
+        },
+        {
+          "id": "PPL_PERF_001_C04",
+          "objective": "Transformer le calcul en décision"
+        }
+      ]
+    },
+    {
+      "module": "PPL_PERF_002",
+      "subject": "flight_performance_planning",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_PERF_002_C01",
+          "objective": "Deux façons de mesurer une montée"
+        },
+        {
+          "id": "PPL_PERF_002_C02",
+          "objective": "Exemple avec vitesse sol"
+        },
+        {
+          "id": "PPL_PERF_002_C03",
+          "objective": "Comprendre le rôle du vent"
+        },
+        {
+          "id": "PPL_PERF_002_C04",
+          "objective": "Densité et choix de vitesse"
+        }
+      ]
+    },
+    {
+      "module": "PPL_POF_001",
+      "subject": "principles_of_flight",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_POF_001_C01",
+          "objective": "Quatre forces et équilibre"
+        },
+        {
+          "id": "PPL_POF_001_C02",
+          "objective": "Incidence et portance"
+        },
+        {
+          "id": "PPL_POF_001_C03",
+          "objective": "Exemple et traînée"
+        }
+      ]
+    },
+    {
+      "module": "PPL_POF_002",
+      "subject": "principles_of_flight",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_POF_002_C01",
+          "objective": "Le mécanisme du décrochage"
+        },
+        {
+          "id": "PPL_POF_002_C02",
+          "objective": "Virage et facteur de charge"
+        },
+        {
+          "id": "PPL_POF_002_C03",
+          "objective": "Exemple corrigé"
+        }
+      ]
+    },
+    {
+      "module": "PPL_POF_003",
+      "subject": "principles_of_flight",
+      "questions": 15,
+      "mcq": 15,
+      "concepts": [
+        {
+          "id": "PPL_POF_003_C01",
+          "objective": "Stabilité statique et dynamique"
+        },
+        {
+          "id": "PPL_POF_003_C02",
+          "objective": "Centrage et contrôle longitudinal"
+        },
+        {
+          "id": "PPL_POF_003_C03",
+          "objective": "Traînée et finesse"
+        },
+        {
+          "id": "PPL_POF_003_C04",
+          "objective": "Effet de sol et dispositifs hypersustentateurs"
+        }
+      ]
+    },
+    {
+      "module": "PPL_RAD_001",
+      "subject": "communications",
+      "questions": 15,
+      "mcq": 5,
+      "concepts": [
+        {
+          "id": "PPL_RAD_001_C01",
+          "objective": "Une autorisation avec un périmètre"
+        },
+        {
+          "id": "PPL_RAD_001_C02",
+          "objective": "Répéter pour vérifier"
+        },
+        {
+          "id": "PPL_RAD_001_C03",
+          "objective": "Exercice d'écoute au sol"
+        },
+        {
+          "id": "PPL_RAD_001_C04",
+          "objective": "Lever une ambiguïté"
+        }
+      ]
+    }
+  ]
+}

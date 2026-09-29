@@ -1,0 +1,628 @@
+{
+  "metadata": {
+    "module_id": "CPL_081_001",
+    "program": "CPL",
+    "subject": "principles_of_flight",
+    "chapter_title": "Virage, facteur de charge et décrochage",
+    "chapter_title_en": "Turning, load factor and stall",
+    "reference_checked_on": "2026-09-26",
+    "learning_objective": "Résoudre et vérifier les exercices de virage, facteur de charge et décrochage.",
+    "learning_objective_en": "Solve and cross-check exercises on turning, load factor and stall.",
+    "estimated_duration_minutes": 35,
+    "difficulty": "advanced",
+    "prerequisites": [
+      "Calcul des proportions et des durées ; bases PPL du sujet"
+    ],
+    "exam_subject": "081",
+    "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081",
+    "official_subject_format": {
+      "questions": 37,
+      "minutes": 75,
+      "pass_percent": 75,
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+    },
+    "sources": [
+      {
+        "title": "EASA — programme Part-FCL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8"
+      },
+      {
+        "title": "EASA — format de la matière, AMC1 ARA.FCL.300(b)",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67"
+      },
+      {
+        "title": "FAA PHAK — aérodynamique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      }
+    ],
+    "content_status": "draft",
+    "coverage_status": "partial",
+    "scope": "CPL(A), France / EASA",
+    "quiz_format": "chapter_practice",
+    "tags": [
+      "CPL",
+      "mcq-four-options"
+    ],
+    "illustration": {
+      "src": "/illustrations/cpl-081-001.svg",
+      "alt": "Virage, facteur de charge et décrochage"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "CPL_081_001_C01",
+      "title": "Équilibrer un virage en palier",
+      "title_en": "Balance a level turn",
+      "content": "![CPL_081_001](/illustrations/cpl-081-001.svg)\n\nDans un virage coordonné stabilisé en palier, la composante verticale de la portance équilibre le poids. La portance totale dépasse donc le poids : n = L/W = 1/cos φ. À 60° d’inclinaison, n = 2 ; à 45°, n ≈ 1,414. Ces relations supposent un palier maintenu ; l’inclinaison seule ne suffit pas à déterminer n dans n’importe quelle manœuvre. La composante horizontale de portance fournit l’accélération centripète.",
+      "content_en": "![CPL_081_001](/illustrations/en/cpl-081-001.svg)\n\nIn a steady coordinated level turn, the vertical lift component balances weight. Total lift therefore exceeds weight: n = L/W = 1/cos φ. At 60° bank, n = 2; at 45°, n ≈ 1.414. These relations assume maintained level flight; bank alone does not determine n in every manoeuvre. Horizontal lift provides centripetal acceleration.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 081",
+      "tags": [
+        "CPL"
+      ]
+    },
+    {
+      "concept_id": "CPL_081_001_C02",
+      "title": "Relier charge et décrochage",
+      "title_en": "Relate load to stall",
+      "content": "À masse et configuration fixées, la vitesse de décrochage sous facteur de charge positif vaut approximativement Vs,n = Vs,1 × √n. Si Vs,1 = 50 kt, elle devient 70,7 kt à n = 2 et 59,5 kt à n = 1,414. Le décrochage provient de l’atteinte de l’incidence critique, pas d’une vitesse unique valable pour toutes les manœuvres. Une ressource peut atteindre cette incidence au-dessus de la vitesse de décrochage en palier à 1 g.",
+      "content_en": "At fixed mass and configuration, stall speed under positive load is approximately Vs,n = Vs,1 × √n. If Vs,1 = 50 kt, it becomes 70.7 kt at n = 2 and 59.5 kt at n = 1.414. Stall results from reaching critical angle of attack, not one speed valid for every manoeuvre. A pull-up may reach that angle above the 1 g level-flight stall speed.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 081",
+      "tags": [
+        "CPL"
+      ]
+    },
+    {
+      "concept_id": "CPL_081_001_C03",
+      "title": "Masse et limites",
+      "title_en": "Mass and limits",
+      "content": "À configuration et densité identiques, Vs varie comme la racine carrée de la masse. Passer de 1 000 kg à 1 210 kg multiplie Vs par √1,21 = 1,10. Ne pas confondre limite aérodynamique et limite structurale : le domaine de vol doit respecter les deux. La vitesse de manœuvre publiée varie avec la masse ; elle ne protège pas contre toutes les combinaisons d’actions, inversions rapides ou rafales. Utiliser les valeurs et restrictions du manuel.",
+      "content_en": "At equal configuration and density, Vs varies with the square root of mass. Increasing mass from 1,000 kg to 1,210 kg multiplies Vs by √1.21 = 1.10. Distinguish aerodynamic and structural limits: the flight envelope must respect both. Published manoeuvring speed varies with mass; it does not protect against every combined input, rapid reversal or gust. Use manual values and restrictions.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 081",
+      "tags": [
+        "CPL"
+      ]
+    },
+    {
+      "concept_id": "CPL_081_001_C04",
+      "title": "Gérer la marge en virage",
+      "title_en": "Manage turning margins",
+      "content": "Augmenter l’inclinaison tout en maintenant le palier demande plus de portance et augmente la traînée induite. Sans adaptation, vitesse ou altitude peuvent diminuer. Près du sol, éviter de resserrer un virage avec une forte action de lacet : une dissymétrie au décrochage accroît le risque de départ en autorotation. Préserver les marges et appliquer les procédures enseignées ; réduire l’incidence est fondamental pour sortir du décrochage. Les calculs ne remplacent pas l’entraînement pratique.\n\n**Format de travail :** 15 QCM de chapitre, quatre choix et une réponse correcte. La matière 081 comporte 37 questions en 75 minutes dans le tableau EASA cité. Ce chapitre ne couvre qu’une partie de la matière ; il ne constitue pas une épreuve complète. Cadre EASA, même en anglais ou avec les unités US/britanniques.",
+      "content_en": "Increasing bank while maintaining level flight requires more lift and increases induced drag. Without adjustment, speed or altitude may decrease. Near the ground, avoid tightening a turn using strong yaw input: asymmetry at stall increases spin-entry risk. Preserve margins and follow trained procedures; reducing angle of attack is fundamental to stall recovery. Calculations do not replace practical training.\n\n**Practice format:** 15 chapter MCQs, four choices and one correct answer. Subject 081 has 37 questions in 75 minutes in the cited EASA table. This chapter covers only part of the subject and is not a full paper. EASA framework, including with English or US/British units.",
+      "difficulty": "advanced",
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — 081",
+      "tags": [
+        "CPL"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "CPL_081_001_C01",
+      "concept_title": "Équilibrer un virage en palier",
+      "level": 3,
+      "question": "Virage coordonné stabilisé en palier à 60°, cos 60° = 0,5. Facteur de charge ?\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "question_en": "Steady coordinated level turn at 60°, cos 60° = 0.5. Load factor?\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "options": [
+        "2",
+        "0,5",
+        "1",
+        "4"
+      ],
+      "options_en": [
+        "2",
+        "0.5",
+        "1",
+        "4"
+      ],
+      "correct_answer": "2",
+      "explanation": "n = 1/0,5 = 2.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "n = 1/0.5 = 2.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": true,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C01",
+      "concept_title": "Équilibrer un virage en palier",
+      "level": 3,
+      "question": "En virage en palier, quelle composante équilibre le poids ?",
+      "question_en": "In a level turn, which component balances weight?",
+      "options": [
+        "La composante horizontale seule",
+        "La traînée seule",
+        "La force centrifuge sans portance",
+        "La composante verticale de portance"
+      ],
+      "options_en": [
+        "Horizontal component alone",
+        "Drag alone",
+        "Centrifugal force without lift",
+        "Vertical lift component"
+      ],
+      "correct_answer": "La composante verticale de portance",
+      "explanation": "L cos φ = W.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "L cos φ = W.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C01",
+      "concept_title": "Équilibrer un virage en palier",
+      "level": 3,
+      "question": "Virage coordonné stabilisé en palier à 45°, cos 45° ≈ 0,707. Facteur de charge n ?",
+      "question_en": "Steady coordinated level turn at 45°, cos 45° ≈ 0.707. Load factor n?",
+      "options": [
+        "2,000",
+        "1,000",
+        "1,414",
+        "0,707"
+      ],
+      "options_en": [
+        "2.000",
+        "1.000",
+        "1.414",
+        "0.707"
+      ],
+      "correct_answer": "1,414",
+      "explanation": "1/0,707 ≈ 1,414.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "1/0.707 ≈ 1.414.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C01",
+      "concept_title": "Équilibrer un virage en palier",
+      "level": 3,
+      "question": "La formule n = 1/cos φ s’applique directement à…",
+      "question_en": "The formula n = 1/cos φ directly applies to…",
+      "options": [
+        "Un avion au parking",
+        "Un virage coordonné stabilisé en palier",
+        "Toute inclinaison, même en chute libre",
+        "Toute manœuvre sur le dos"
+      ],
+      "options_en": [
+        "A parked aircraft",
+        "A steady coordinated level turn",
+        "Any bank, even in free fall",
+        "Every inverted manoeuvre"
+      ],
+      "correct_answer": "Un virage coordonné stabilisé en palier",
+      "explanation": "Le maintien du palier est une hypothèse essentielle.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "Maintained level flight is an essential assumption.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C02",
+      "concept_title": "Relier charge et décrochage",
+      "level": 3,
+      "question": "Vs à 1 g = 50 kt. À n = 2, vitesse de décrochage approximative ?",
+      "question_en": "1 g Vs = 50 kt. At n = 2, approximate stall speed?",
+      "options": [
+        "70,7 kt",
+        "100 kt",
+        "25 kt",
+        "50 kt"
+      ],
+      "options_en": [
+        "70.7 kt",
+        "100 kt",
+        "25 kt",
+        "50 kt"
+      ],
+      "correct_answer": "70,7 kt",
+      "explanation": "50 × √2 = 70,7 kt.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "50 × √2 = 70.7 kt.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C02",
+      "concept_title": "Relier charge et décrochage",
+      "level": 3,
+      "question": "À masse et configuration identiques, Vs à 1 g = 50 kt. À n = 1,414, vitesse de décrochage approximative ?",
+      "question_en": "At unchanged mass and configuration, 1 g Vs = 50 kt. At n = 1.414, approximate stall speed?",
+      "options": [
+        "70,7 kt",
+        "35,4 kt",
+        "100 kt",
+        "59,5 kt"
+      ],
+      "options_en": [
+        "70.7 kt",
+        "35.4 kt",
+        "100 kt",
+        "59.5 kt"
+      ],
+      "correct_answer": "59,5 kt",
+      "explanation": "50 × √1,414 ≈ 59,5 kt. Multiplier directement par n donnerait 70,7 kt : la relation utilise sa racine. Elle ne donne pas la vitesse réelle de l’avion.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "50 × √1.414 ≈ 59.5 kt. Multiplying directly by n gives 70.7 kt: the relation uses its square root. It does not determine actual aircraft speed.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C02",
+      "concept_title": "Relier charge et décrochage",
+      "level": 3,
+      "question": "Le déclencheur aérodynamique du décrochage est…",
+      "question_en": "The aerodynamic trigger for stall is…",
+      "options": [
+        "Une vitesse sol fixe",
+        "Un cap magnétique précis",
+        "L’incidence critique atteinte",
+        "Une altitude fixe"
+      ],
+      "options_en": [
+        "A fixed groundspeed",
+        "A specific magnetic heading",
+        "Reaching critical angle of attack",
+        "A fixed altitude"
+      ],
+      "correct_answer": "L’incidence critique atteinte",
+      "explanation": "L’incidence critique peut être atteinte à plusieurs vitesses selon la charge.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "Critical angle can be reached at different speeds depending on load.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C02",
+      "concept_title": "Relier charge et décrochage",
+      "level": 3,
+      "question": "Une ressource augmente le facteur de charge. Le décrochage peut-il survenir au-dessus de Vs à 1 g ?",
+      "question_en": "A pull-up increases load factor. Can stall occur above 1 g Vs?",
+      "options": [
+        "Seulement à masse nulle",
+        "Oui",
+        "Non, jamais",
+        "Seulement moteur arrêté"
+      ],
+      "options_en": [
+        "Only at zero mass",
+        "Yes",
+        "No, never",
+        "Only with the engine stopped"
+      ],
+      "correct_answer": "Oui",
+      "explanation": "Vs augmente avec √n, aux hypothèses données.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "Vs increases with √n under the stated assumptions.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C03",
+      "concept_title": "Masse et limites",
+      "level": 3,
+      "question": "Vs = 50 kt à 1 000 kg. À 1 210 kg, configuration identique, Vs approximative ?",
+      "question_en": "Vs = 50 kt at 1,000 kg. At 1,210 kg, same configuration, approximate Vs?",
+      "options": [
+        "55 kt",
+        "60,5 kt",
+        "45,5 kt",
+        "50 kt"
+      ],
+      "options_en": [
+        "55 kt",
+        "60.5 kt",
+        "45.5 kt",
+        "50 kt"
+      ],
+      "correct_answer": "55 kt",
+      "explanation": "50 × √(1 210/1 000) = 55 kt.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "50 × √(1,210/1,000) = 55 kt.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C03",
+      "concept_title": "Masse et limites",
+      "level": 3,
+      "question": "Une vitesse inférieure à la vitesse de manœuvre garantit-elle la protection contre toute sollicitation ?",
+      "question_en": "Does speed below manoeuvring speed guarantee protection against every load input?",
+      "options": [
+        "Oui, toutes combinaisons comprises",
+        "Oui, même au-delà des limites de masse",
+        "Oui, en turbulence sans restriction",
+        "Non"
+      ],
+      "options_en": [
+        "Yes, including every combination",
+        "Yes, even beyond mass limits",
+        "Yes, without restriction in turbulence",
+        "No"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Les protections ont des hypothèses et limites ; consulter le manuel.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "Protection has assumptions and limits; consult the manual.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C03",
+      "concept_title": "Masse et limites",
+      "level": 3,
+      "question": "À configuration donnée, réduire la masse tend à faire évoluer Vs comment ?",
+      "question_en": "At a given configuration, how does reducing mass tend to affect Vs?",
+      "options": [
+        "Elle devient nulle",
+        "Elle reste nécessairement constante",
+        "Elle diminue",
+        "Elle augmente toujours"
+      ],
+      "options_en": [
+        "It becomes zero",
+        "It must remain constant",
+        "It decreases",
+        "It always increases"
+      ],
+      "correct_answer": "Elle diminue",
+      "explanation": "La vitesse de décrochage varie avec √masse.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "Stall speed varies with √mass.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C04",
+      "concept_title": "Gérer la marge en virage",
+      "level": 3,
+      "question": "Maintenir le palier en augmentant l’inclinaison exige généralement…",
+      "question_en": "Maintaining level flight while increasing bank generally requires…",
+      "options": [
+        "Une disparition de la traînée induite",
+        "Davantage de portance totale",
+        "Moins de portance totale",
+        "Une portance nulle"
+      ],
+      "options_en": [
+        "Elimination of induced drag",
+        "More total lift",
+        "Less total lift",
+        "Zero lift"
+      ],
+      "correct_answer": "Davantage de portance totale",
+      "explanation": "La composante verticale doit rester égale au poids.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "The vertical component must remain equal to weight.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C04",
+      "concept_title": "Gérer la marge en virage",
+      "level": 3,
+      "question": "Un fort lacet dissymétrique près du décrochage augmente notamment le risque de…",
+      "question_en": "Strong asymmetric yaw near stall particularly increases the risk of…",
+      "options": [
+        "Départ en autorotation",
+        "Suppression du décrochage",
+        "Hausse garantie de la finesse",
+        "Diminution certaine de l’incidence"
+      ],
+      "options_en": [
+        "Spin entry",
+        "Elimination of stall",
+        "Guaranteed higher glide ratio",
+        "Certain reduction in angle of attack"
+      ],
+      "correct_answer": "Départ en autorotation",
+      "explanation": "La dissymétrie au décrochage peut provoquer une autorotation.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "Asymmetry at stall may cause autorotation.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C04",
+      "concept_title": "Gérer la marge en virage",
+      "level": 3,
+      "question": "Quelle action aérodynamique est fondamentale pour sortir du décrochage ?",
+      "question_en": "Which aerodynamic action is fundamental to stall recovery?",
+      "options": [
+        "Augmenter systématiquement l’incidence",
+        "Maintenir toute traction",
+        "Attendre une vitesse sol donnée",
+        "Réduire l’incidence"
+      ],
+      "options_en": [
+        "Always increase angle of attack",
+        "Maintain all back pressure",
+        "Wait for a specified groundspeed",
+        "Reduce angle of attack"
+      ],
+      "correct_answer": "Réduire l’incidence",
+      "explanation": "Il faut repasser sous l’incidence critique selon la procédure enseignée.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "Return below critical angle of attack using the trained procedure.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    },
+    {
+      "concept_id": "CPL_081_001_C03",
+      "concept_title": "Masse et limites",
+      "level": 3,
+      "question": "L’enveloppe de vol doit respecter…",
+      "question_en": "The flight envelope must respect…",
+      "options": [
+        "Uniquement l’incidence en croisière",
+        "Seulement les limites de carburant",
+        "Les limites aérodynamiques et structurales",
+        "Seulement les vitesses sol"
+      ],
+      "options_en": [
+        "Only cruise angle of attack",
+        "Only fuel limits",
+        "Aerodynamic and structural limits",
+        "Only groundspeeds"
+      ],
+      "correct_answer": "Les limites aérodynamiques et structurales",
+      "explanation": "Les deux familles de limites sont distinctes et cumulatives.\n\n![CPL_081_001](/illustrations/cpl-081-001.svg)",
+      "explanation_en": "Both sets of limits are distinct and apply together.\n\n![CPL_081_001](/illustrations/en/cpl-081-001.svg)",
+      "use_exercise_svg": false,
+      "tags": [
+        "CPL",
+        "exam-mcq",
+        "exam-subject:081"
+      ],
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?page=8",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=ppl&page=67",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      ],
+      "syllabus_reference": "Appendix to AMC1 FCL.310; FCL.515(b); FCL.615(b) — Subject 081"
+    }
+  ]
+}

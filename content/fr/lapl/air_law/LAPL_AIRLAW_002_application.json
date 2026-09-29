@@ -1,0 +1,931 @@
+{
+  "metadata": {
+    "module_id": "LAPL_AIRLAW_002",
+    "program": "LAPL",
+    "subject": "Air Law",
+    "chapter_title": "Licences : formation, privilèges et cadres réglementaires",
+    "chapter_title_en": "Licences: training, privileges and regulatory systems",
+    "learning_objective": "Distinguer licence, qualification, médical, expérience récente et reconnaissance internationale.",
+    "learning_objective_en": "Distinguish licence, rating, medical fitness, recent experience and international recognition.",
+    "difficulty": "beginner",
+    "estimated_duration_minutes": 30,
+    "prerequisites": [
+      "PPL_AIRLAW_001"
+    ],
+    "tags": [
+      "LAPL",
+      "air_law"
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-airlaw-002.svg",
+      "alt": "Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre."
+    },
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "editorial_review": "2026-09-18: sources checked; instructor review pending",
+    "sources": [
+      {
+        "title": "EASA — Aircrew, FCL.060, FCL.210.A, FCL.740.A, Part-MED",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011"
+      },
+      {
+        "title": "FAA — 14 CFR 61.109(a)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109"
+      },
+      {
+        "title": "EASA — États membres",
+        "url": "https://www.easa.europa.eu/en/taxonomy/term/1255/all"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "exam_subject": "airlaw",
+    "coverage_status": "partial",
+    "derived_from": "PPL_AIRLAW_002",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_AIRLAW_002_C01",
+      "title": "Cadre européen",
+      "title_en": "European framework",
+      "content": "![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)\n\nL’EASA et les autorités nationales partagent les responsabilités dans le système européen. Les licences Part-FCL sont délivrées par les autorités compétentes. L’EASA compte 31 États membres, dont les 27 États de l’UE. Part-FCL traite des licences et qualifications, Part-MED du médical, Part-NCO des opérations non commerciales concernées. Le PPL(A) permet principalement d’agir sans rémunération comme commandant de bord ou copilote en opérations non commerciales, avec des exceptions encadrées pour certaines activités d’instruction ou d’examen. Une licence seule ne suffit pas : vérifier qualifications, médical et conditions de l’opération.",
+      "content_en": "![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)\n\nEASA and national authorities share responsibilities in the European system. Competent authorities issue Part-FCL licences. EASA has 31 Member States, including the 27 EU States. Part-FCL covers licensing and ratings, Part-MED medical fitness and Part-NCO the relevant non-commercial operations. A PPL(A) primarily permits unpaid service as pilot-in-command or co-pilot in non-commercial operations, with regulated exceptions for some instructional or examining activities. A licence alone is insufficient: check ratings, medical fitness and operational requirements.",
+      "difficulty": "easy",
+      "risk_level": "low",
+      "phase_of_flight": [
+        "preflight"
+      ],
+      "tags": [
+        "LAPL"
+      ],
+      "faa_note": "EASA is NOT part of ICAO, but follows ICAO standards. EASA regulations are directly applicable in all EU member states.",
+      "common_errors": [
+        "Confondre EASA avec ICAO (EASA = régional UE, ICAO = mondial)",
+        "Penser que EASA couvre le Royaume-Uni (Brexit = UK maintenant CAA)"
+      ],
+      "related_concepts": [
+        "PPL_AIRLAW_002_C02",
+        "PPL_AIRLAW_002_C03"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Cadre européen"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C02",
+      "title": "Formation et qualifications",
+      "title_en": "Training and ratings",
+      "content": "Dans le parcours standard PPL(A) de FCL.210.A, le minimum est de 45 h d’instruction, dont au moins 25 h en double commande et 10 h solo supervisées. Ces 10 h comprennent au moins 5 h de navigation solo, dont une navigation d’au moins 270 km (150 NM) avec atterrissages complets sur deux aérodromes autres que celui de départ. Des crédits et dispositions particulières existent : ne pas généraliser le parcours standard à tous les dossiers. Une qualification de classe ou de type doit correspondre à l’avion utilisé. Aux États-Unis, le parcours FAA Part 61 monomoteur prévoit 40 h, dont au moins 20 h d’instruction et 10 h solo ; ce n’est pas la règle européenne.",
+      "content_en": "Under the standard FCL.210.A PPL(A) route, the minimum is 45 hours of instruction, including at least 25 hours dual and 10 hours supervised solo. The solo time includes at least 5 hours cross-country, including one flight of at least 270 km (150 NM) with full-stop landings at two aerodromes other than departure. Credits and special provisions exist: the standard route does not describe every application. The class or type rating must match the aircraft flown. In the USA, the FAA Part 61 single-engine route specifies 40 hours, including at least 20 hours instruction and 10 hours solo; this is not the European rule.",
+      "difficulty": "easy",
+      "risk_level": "low",
+      "phase_of_flight": [
+        "preflight"
+      ],
+      "tags": [
+        "LAPL"
+      ],
+      "faa_note": "FAA Part 61 allows flexible training, Part 141 requires structured curriculum. Both lead to same Private Pilot Certificate.",
+      "common_errors": [
+        "Confondre Part 61 et Part 141 (61 = flexible, 141 = structured)",
+        "Croire que FAA est reconnue en Europe sans conversion"
+      ],
+      "related_concepts": [
+        "PPL_AIRLAW_002_C01",
+        "PPL_AIRLAW_002_C03"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Formation et qualifications"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C03",
+      "title": "Maintien des privilèges et vols internationaux",
+      "title_en": "Maintaining privileges and international flying",
+      "content": "Licence, qualification, médical et expérience récente sont des exigences distinctes. Pour le transport de passagers selon FCL.060, vérifier notamment les trois décollages, approches et atterrissages dans les 90 jours précédents sur la même classe ou le même type ; des dispositions supplémentaires concernent la nuit. La validité du médical dépend de sa classe et de l’âge. Une SEP terrestre monopilote a normalement une validité de deux ans ; les conditions de prorogation ne sont pas une simple « validité de licence de 12 mois ». Pour voler sous un autre régime, distinguer validation, conversion et certificat fondé sur une licence étrangère. Les exigences dépendent du pays, du certificat demandé et de la situation : il n’existe pas de procédure universelle ni de délai/coût garanti.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "Licence, rating, medical certificate and recent experience are separate requirements. For passenger carriage under FCL.060, check notably three take-offs, approaches and landings in the preceding 90 days on the same class or type; additional provisions concern night flying. Medical validity depends on class and age. A single-pilot land SEP rating normally lasts two years; revalidation requirements are not a simple “12-month licence validity”. For another regulatory system, distinguish validation, conversion and a certificate based on a foreign licence. Requirements depend on the country, certificate and individual case: there is no universal procedure or guaranteed cost or delay.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "medium",
+      "risk_level": "medium",
+      "phase_of_flight": [
+        "preflight",
+        "enroute"
+      ],
+      "tags": [
+        "LAPL"
+      ],
+      "faa_note": "FAA conversion from foreign license requires verification of authenticity by NTSB. EASA conversion requires validation by national aviation authority (e.g., DGAC France, AESA Spain).",
+      "common_errors": [
+        "Penser que conversion = juste un formulaire (en realite examen + checkride)",
+        "Confondre heures minimum EASA (45h) et FAA (40h)",
+        "Oublier que medical EASA Classe 2 ≠ FAA Class 3 exigence"
+      ],
+      "related_concepts": [
+        "PPL_AIRLAW_002_C01",
+        "PPL_AIRLAW_002_C02"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Maintien des privilèges et vols internationaux"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_AIRLAW_002_C01",
+      "concept_title": "Cadre européen",
+      "question": "Quel texte européen encadre les licences et qualifications de pilote ?",
+      "question_en": "Which European rules cover pilot licences and ratings?",
+      "options": [
+        "Part-FCL",
+        "Part-NCO seulement",
+        "L’AIP seulement",
+        "Le manuel de vol seulement"
+      ],
+      "correct_answer": "Part-FCL",
+      "explanation": "Part-FCL concerne les licences et qualifications ; Part-NCO concerne les opérations.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "Part-FCL concerns licences and ratings; Part-NCO concerns operations.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "",
+      "difficulty_score": 0.25,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "EASA",
+        "headquarters",
+        "Europe",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Part-FCL",
+        "Part-NCO only",
+        "The AIP only",
+        "The flight manual only"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C01",
+      "concept_title": "Cadre européen",
+      "question": "Qui délivre une licence Part-FCL au pilote ?",
+      "question_en": "Who issues a Part-FCL pilot licence?",
+      "options": [
+        "L’OACI directement",
+        "Le constructeur",
+        "Le service de contrôle aérien",
+        "L’autorité compétente"
+      ],
+      "correct_answer": "L’autorité compétente",
+      "explanation": "La licence relève de l’autorité compétente, pas de l’OACI.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "Licences are issued by the competent authority, not ICAO.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "",
+      "difficulty_score": 0.3,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "EASA",
+        "history",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "ICAO directly",
+        "The manufacturer",
+        "Air traffic control",
+        "The competent authority"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C01",
+      "concept_title": "Cadre européen",
+      "question": "Une licence PPL valide suffit-elle à voler sur n’importe quel avion ?",
+      "question_en": "Does a valid PPL alone permit flying any aeroplane?",
+      "options": [
+        "Oui, si la météo est VMC",
+        "Oui, avec une radio",
+        "Non, il faut notamment la qualification appropriée",
+        "Oui, si le vol est local"
+      ],
+      "correct_answer": "Non, il faut notamment la qualification appropriée",
+      "explanation": "Les privilèges dépendent notamment de la classe ou du type et des autres conditions applicables.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "Privileges depend on class or type and other applicable conditions.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "FAA equivalent is Part 61 and Part 141.",
+      "difficulty_score": 0.35,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "EASA",
+        "Part-FCL",
+        "licensing",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes, in VMC",
+        "Yes, with a radio",
+        "No, an appropriate rating is also required",
+        "Yes, for local flights"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C01",
+      "concept_title": "Cadre européen",
+      "question": "Combien d’États membres l’EASA compte-t-elle au contrôle de septembre 2026 ?",
+      "question_en": "How many EASA Member States are listed at the September 2026 check?",
+      "options": [
+        "40",
+        "31",
+        "27",
+        "19"
+      ],
+      "correct_answer": "31",
+      "explanation": "Le périmètre EASA comprend des États hors UE ; il ne se limite pas aux 27 États de l’UE.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "EASA includes non-EU States and is not limited to the 27 EU States.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "",
+      "difficulty_score": 0.3,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "EASA",
+        "EU",
+        "recognition",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "40",
+        "31",
+        "27",
+        "19"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C02",
+      "concept_title": "Formation et qualifications",
+      "question": "Quel texte traite du médical des pilotes dans ce cadre européen ?",
+      "question_en": "Which rules cover pilot medical fitness in this European framework?",
+      "options": [
+        "Part-MED",
+        "Part-141",
+        "Part-NCO uniquement",
+        "Annexe 7 uniquement"
+      ],
+      "correct_answer": "Part-MED",
+      "explanation": "Le médical et les licences relèvent de parties distinctes.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "Medical fitness and licensing are covered by different parts.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "",
+      "difficulty_score": 0.25,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "FAA",
+        "headquarters",
+        "USA",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Part-MED",
+        "Part-141",
+        "Part-NCO only",
+        "Annex 7 only"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C02",
+      "concept_title": "Formation et qualifications",
+      "question": "Quel minimum total s’applique au parcours standard PPL(A) FCL.210.A sans crédit particulier ?",
+      "question_en": "What total minimum applies to the standard FCL.210.A PPL(A) route without special credit?",
+      "options": [
+        "25 h",
+        "10 h",
+        "40 h",
+        "45 h"
+      ],
+      "correct_answer": "45 h",
+      "explanation": "Le total minimal est 45 h, sous les conditions de FCL.210.A.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "The total minimum is 45 hours, subject to FCL.210.A.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "",
+      "difficulty_score": 0.3,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "FAA",
+        "history",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "25 h",
+        "10 h",
+        "40 h",
+        "45 h"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C02",
+      "concept_title": "Formation et qualifications",
+      "question": "Quel minimum de double commande prévoit le parcours standard PPL(A) FCL.210.A sans crédit particulier ?",
+      "question_en": "What minimum dual instruction does the standard FCL.210.A PPL(A) route require without special credit?",
+      "options": [
+        "5 h",
+        "45 h solo",
+        "25 h",
+        "10 h"
+      ],
+      "correct_answer": "25 h",
+      "explanation": "FCL.210.A distingue au moins 25 h en double et 10 h solo supervisées.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "FCL.210.A distinguishes at least 25 hours dual and 10 hours supervised solo.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "Part 141 is for approved flight schools (structured).",
+      "difficulty_score": 0.35,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "FAA",
+        "Part 61",
+        "licensing",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "5 h",
+        "45 h solo",
+        "25 h",
+        "10 h"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C02",
+      "concept_title": "Formation et qualifications",
+      "question": "Quel minimum de solo supervisé prévoit le parcours standard PPL(A) FCL.210.A sans crédit particulier ?",
+      "question_en": "What minimum supervised solo time does the standard FCL.210.A PPL(A) route require without special credit?",
+      "options": [
+        "45 h",
+        "10 h",
+        "20 h",
+        "25 h"
+      ],
+      "correct_answer": "10 h",
+      "explanation": "Le minimum solo est 10 h, comprenant des exigences de navigation.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "The solo minimum is 10 hours, including cross-country requirements.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "",
+      "difficulty_score": 0.4,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "FAA",
+        "Part 141",
+        "flight schools",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "45 h",
+        "10 h",
+        "20 h",
+        "25 h"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C02",
+      "concept_title": "Formation et qualifications",
+      "question": "Dans le parcours standard PPL(A) FCL.210.A, quel minimum de navigation solo est requis ?",
+      "question_en": "In the standard FCL.210.A PPL(A) route, what minimum solo cross-country time is required?",
+      "options": [
+        "5 h",
+        "1 h",
+        "20 h",
+        "25 h"
+      ],
+      "correct_answer": "5 h",
+      "explanation": "Au moins 5 h de navigation solo sont requises dans le parcours standard.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "At least 5 hours solo cross-country are required in the standard route.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "EASA requires 45h minimum.",
+      "difficulty_score": 0.3,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "FAA",
+        "hours",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "5 h",
+        "1 h",
+        "20 h",
+        "25 h"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C03",
+      "concept_title": "Maintien des privilèges et vols internationaux",
+      "question": "Quelle navigation répond à l’exigence de distance du parcours standard PPL(A) FCL.210.A ?",
+      "question_en": "Which cross-country flight meets the distance requirement of the standard FCL.210.A PPL(A) route?",
+      "options": [
+        "50 NM sans atterrissage",
+        "150 NM avec deux survols",
+        "100 NM avec un toucher-décoller",
+        "Au moins 150 NM avec deux atterrissages complets sur d’autres aérodromes"
+      ],
+      "correct_answer": "Au moins 150 NM avec deux atterrissages complets sur d’autres aérodromes",
+      "explanation": "Les 270 km (150 NM) s’accompagnent de deux atterrissages complets hors aérodrome de départ.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "The 270 km (150 NM) requirement includes two full-stop landings away from departure.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "EASA also requires more solo hours (20h EASA vs 10h FAA solo cross-country specific).",
+      "difficulty_score": 0.45,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "EASA",
+        "FAA",
+        "hours",
+        "comparison",
+        "intermediate",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "50 NM without landing",
+        "150 NM with two overflights",
+        "100 NM with one touch-and-go",
+        "At least 150 NM with two full-stop landings at other aerodromes"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C03",
+      "concept_title": "Maintien des privilèges et vols internationaux",
+      "question": "Le médical est valide, mais la qualification nécessaire a expiré. Quelle conclusion ?",
+      "question_en": "The medical is valid but the required rating has expired. What follows?",
+      "options": [
+        "Un vol local est toujours permis",
+        "Une clairance ATC remplace la qualification",
+        "Le médical ne rétablit pas la qualification",
+        "Le médical prolonge automatiquement la qualification"
+      ],
+      "correct_answer": "Le médical ne rétablit pas la qualification",
+      "explanation": "Chaque exigence doit être satisfaite séparément.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "Each requirement must be met separately.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "",
+      "difficulty_score": 0.5,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "conversion",
+        "EASA",
+        "FAA",
+        "hours",
+        "intermediate",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "A local flight is always allowed",
+        "ATC clearance replaces the rating",
+        "The medical does not restore the rating",
+        "The medical automatically extends the rating"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C03",
+      "concept_title": "Maintien des privilèges et vols internationaux",
+      "question": "Quelle période intervient dans l’expérience récente FCL.060 pour transporter des passagers ?",
+      "question_en": "Which period applies to FCL.060 recent experience for passenger carriage?",
+      "options": [
+        "5 ans",
+        "90 jours",
+        "12 mois",
+        "24 mois"
+      ],
+      "correct_answer": "90 jours",
+      "explanation": "Vérifier les trois décollages, approches et atterrissages dans les 90 jours et les conditions applicables.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "Check three take-offs, approaches and landings in 90 days and the applicable conditions.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "",
+      "difficulty_score": 0.4,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "conversion",
+        "EASA",
+        "FAA",
+        "time",
+        "intermediate",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "5 years",
+        "90 days",
+        "12 months",
+        "24 months"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C03",
+      "concept_title": "Maintien des privilèges et vols internationaux",
+      "question": "La validité d’un médical est-elle identique pour tous les pilotes ?",
+      "question_en": "Is medical certificate validity identical for all pilots?",
+      "options": [
+        "Non, elle dépend notamment de la classe et de l’âge",
+        "Oui, toujours 5 ans",
+        "Oui, toujours 2 ans",
+        "Oui, elle suit le carburant embarqué"
+      ],
+      "correct_answer": "Non, elle dépend notamment de la classe et de l’âge",
+      "explanation": "La classe médicale et l’âge influencent les échéances.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "Medical class and age affect expiry dates.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "FAA PPL requires Class 3 medical.",
+      "difficulty_score": 0.35,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "EASA",
+        "medical",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "No, it depends on class and age",
+        "Yes, always 5 years",
+        "Yes, always 2 years",
+        "Yes, it follows fuel carried"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C03",
+      "concept_title": "Maintien des privilèges et vols internationaux",
+      "question": "Quelle est la durée normale d’une qualification SEP terrestre monopilote ?",
+      "question_en": "What is the normal validity of a single-pilot land SEP rating?",
+      "options": [
+        "90 jours",
+        "Illimitée sans condition",
+        "6 mois",
+        "2 ans"
+      ],
+      "correct_answer": "2 ans",
+      "explanation": "La qualification est normalement valable deux ans ; sa prorogation répond à des conditions propres.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "The rating normally lasts two years; revalidation has its own requirements.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "",
+      "difficulty_score": 0.35,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "FAA",
+        "medical",
+        "private",
+        "basic",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "90 days",
+        "Unlimited without conditions",
+        "6 months",
+        "2 years"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_002_C03",
+      "concept_title": "Maintien des privilèges et vols internationaux",
+      "question": "Pour utiliser une licence dans un autre cadre réglementaire, que vérifier d’abord ?",
+      "question_en": "Before using a licence under another regulatory system, what should be checked first?",
+      "options": [
+        "Un délai identique dans tous les pays",
+        "Uniquement la traduction de la licence",
+        "La voie applicable de validation ou de conversion",
+        "Un prix universel de conversion"
+      ],
+      "correct_answer": "La voie applicable de validation ou de conversion",
+      "explanation": "Validation, conversion et certificat fondé sur une licence étrangère sont des voies distinctes.\n\n![Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.](/illustrations/lapl-airlaw-002.svg)",
+      "explanation_en": "Validation, conversion and a certificate based on a foreign licence are distinct routes.\n\n![PPL — PPL_AIRLAW_002](/illustrations/en/lapl-airlaw-002.svg)",
+      "faa_note": "",
+      "difficulty_score": 0.4,
+      "level": 2,
+      "tags": [
+        "LAPL",
+        "FAA",
+        "recognition",
+        "Europe",
+        "conversion",
+        "intermediate",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "An identical delay in every country",
+        "Only the licence translation",
+        "The applicable validation or conversion route",
+        "A universal conversion price"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-aircrew-regulation-eu-no-11782011",
+        "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-E/section-61.109",
+        "https://www.easa.europa.eu/en/taxonomy/term/1255/all",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "front": "Ou se trouve le siege de l'EASA ?",
+      "back": "Cologne, Allemagne",
+      "front_en": "Where is EASA headquarters?",
+      "back_en": "Cologne, Germany"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "front": "Quand l'EASA a-t-elle ete creee ?",
+      "back": "2002",
+      "front_en": "When was EASA created?",
+      "back_en": "2002"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "front": "Quel reglement EASA pour licences pilotes ?",
+      "back": "Part-FCL",
+      "front_en": "Which EASA regulation for pilot licenses?",
+      "back_en": "Part-FCL"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C01",
+      "front": "Dans combien de pays EASA est reconnue ?",
+      "back": "27 pays (UE)",
+      "front_en": "In how many countries is EASA recognized?",
+      "back_en": "27 countries (EU)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "front": "Ou se trouve le siege de la FAA ?",
+      "back": "Washington, DC, USA",
+      "front_en": "Where is FAA headquarters?",
+      "back_en": "Washington, DC, USA"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "front": "Quand la FAA a-t-elle ete creee ?",
+      "back": "1958",
+      "front_en": "When was FAA created?",
+      "back_en": "1958"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "front": "Quel reglement FAA pour formation individuelle ?",
+      "back": "Part 61",
+      "front_en": "Which FAA regulation for individual training?",
+      "back_en": "Part 61"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "front": "Quel reglement FAA pour ecoles approuvees ?",
+      "back": "Part 141",
+      "front_en": "Which FAA regulation for approved schools?",
+      "back_en": "Part 141"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C02",
+      "front": "Heures minimum FAA PPL ?",
+      "back": "40h (20h solo)",
+      "front_en": "FAA PPL minimum hours?",
+      "back_en": "40h (20h solo)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "front": "Heures minimum EASA PPL ?",
+      "back": "45h (20h solo)",
+      "front_en": "EASA PPL minimum hours?",
+      "back_en": "45h (20h solo)"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "front": "Medical EASA PPL ?",
+      "back": "Class 2",
+      "front_en": "EASA PPL medical?",
+      "back_en": "Class 2"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "front": "Medical FAA Private ?",
+      "back": "Class 3",
+      "front_en": "FAA Private medical?",
+      "back_en": "Class 3"
+    },
+    {
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "front": "FAA reconnue en Europe sans conversion ?",
+      "back": "Non, conversion requise",
+      "front_en": "FAA recognized in Europe without conversion?",
+      "back_en": "No, conversion required"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "PPL_AIRLAW_002_S01",
+      "title": "Convertir PPL EASA vers FAA pour voler aux USA",
+      "title_en": "Convert EASA PPL to FAA to fly in USA",
+      "context": "Tu as un PPL EASA (France) et tu veux voler aux USA pendant tes vacances (location d'avion). Tu as besoin d'une licence FAA valide.",
+      "context_en": "You have an EASA PPL (France) and want to fly in USA during vacation (rental aircraft). You need a valid FAA license.",
+      "situation": "Quelle est la premiere etape pour convertir ton PPL EASA en FAA ?",
+      "situation_en": "What is the first step to convert your EASA PPL to FAA?",
+      "decision_options": [
+        "Voler 40h supplementaires aux USA",
+        "Passer l'examen theorique FAA Private Pilot (60 questions)",
+        "Demander une derogation a l'EASA",
+        "Obtenir un medical Class 1 uniquement"
+      ],
+      "decision_options_en": [
+        "Fly 40 additional hours in USA",
+        "Pass FAA Private Pilot written exam (60 questions)",
+        "Request waiver from EASA",
+        "Obtain Class 1 medical only"
+      ],
+      "correct_decision_index": 1,
+      "solution": "**Passer l'examen theorique FAA Private Pilot**. Ensuite checkride avec DPE FAA. Pas besoin de refaire 40h vol.",
+      "solution_en": "**Pass FAA Private Pilot written exam**. Then checkride with FAA DPE. No need to redo 40h flight.",
+      "risks": "Si tu vols aux USA avec seulement licence EASA sans conversion FAA, tu risques une sanction FAA (amende, interdiction de vol aux USA).",
+      "risks_en": "If you fly in USA with only EASA license without FAA conversion, risk FAA penalty (fine, USA flight ban).",
+      "tags": [
+        "conversion",
+        "EASA",
+        "FAA",
+        "USA",
+        "PPL",
+        "safety"
+      ]
+    }
+  ],
+  "remediation": [
+    {
+      "analysis_id": "AIRLAW_002_ERR_01",
+      "student_level": "PPL",
+      "chapter_title": "Reglementation : EASA vs FAA",
+      "concept_id": "PPL_AIRLAW_002_C03",
+      "question_id": "010-02-03-Q1",
+      "selected_answer": "EASA 40h, FAA 45h",
+      "correct_answer": "EASA 45h, FAA 40h",
+      "error_category": "confusion",
+      "error_description": "L'eleve inverse les heures minimum EASA et FAA.",
+      "misconception": "Confusion entre les deux reglementations : EASA est plus stricte (45h) que FAA (40h).",
+      "severity": "medium",
+      "operational_risk": "low",
+      "knowledge_gap": "Ne pas connaitre exactement les heures minimum pour chaque licence.",
+      "recommended_concepts": [
+        {
+          "concept_id": "PPL_AIRLAW_002_C03",
+          "reason": "Revoir tableau comparatif EASA vs FAA"
+        }
+      ],
+      "recommended_actions": [
+        {
+          "action_type": "flashcard",
+          "target": "PPL_AIRLAW_002_C03",
+          "reason": "Repeter flashcard heures EASA vs FAA"
+        },
+        {
+          "action_type": "review",
+          "target": "PPL_AIRLAW_002_C03",
+          "reason": "Relire concept C03 tableau comparatif"
+        }
+      ],
+      "instructor_feedback": "Memorisation : EASA = 45h (plus stricte), FAA = 40h (plus flexible). EASA exige 5h de plus.",
+      "next_learning_step": "Refaire question sur heures minimum avant de passer a la suite."
+    }
+  ]
+}

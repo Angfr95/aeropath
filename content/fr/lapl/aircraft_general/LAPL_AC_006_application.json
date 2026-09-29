@@ -1,0 +1,586 @@
+{
+  "metadata": {
+    "module_id": "LAPL_AC_006",
+    "program": "LAPL",
+    "subject": "Aircraft General",
+    "chapter_title": "Performances (décollage, atterrissage, masse et centrage)",
+    "chapter_title_en": "Performance (Takeoff, Landing, Mass and Balance)",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : les conditions du jour; masse et équilibre; exemple de décision.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: conditions on the day; mass and balance; a decision example.",
+    "difficulty": "advanced",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AC_001",
+      "PPL_AC_002"
+    ],
+    "tags": [
+      "LAPL",
+      "aircraft_general"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-ac-006.svg",
+      "alt": "Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol."
+    },
+    "exam_subject": "aircraft_general",
+    "coverage_status": "partial",
+    "derived_from": "PPL_AC_006",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_AC_006_C01",
+      "title": "Les conditions du jour",
+      "title_en": "Conditions on the day",
+      "content": "![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)\n\nLes performances publiées dépendent d'hypothèses : masse, température, altitude-pression, vent, pente et état de piste. Une distance de roulement n'est pas une distance de franchissement d'obstacle. Sur un terrain chaud et élevé, la faible densité de l'air dégrade généralement le décollage et la montée. Il faut utiliser les tableaux correspondant à l'avion et à la configuration réelle.",
+      "content_en": "![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)\n\nPublished performance depends on assumptions: mass, temperature, pressure altitude, wind, slope and runway condition. Ground roll distance is not obstacle-clearance distance. At a hot, high aerodrome, low air density generally degrades take-off and climb. Use the tables for the actual aircraft and configuration.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Les conditions du jour"
+    },
+    {
+      "concept_id": "LAPL_AC_006_C02",
+      "title": "Masse et équilibre",
+      "title_en": "Mass and balance",
+      "content": "La masse totale et la position du centre de gravité doivent toutes deux rester dans l'enveloppe autorisée. Un avion sous la masse maximale peut pourtant être hors centrage. Le chargement de bagages et la consommation de carburant peuvent déplacer le centre de gravité. La fiche de pesée utilisée doit correspondre à l'équipement actuel de l'appareil.",
+      "content_en": "Both total mass and centre-of-gravity position must remain within the approved envelope. An aircraft below maximum mass may still be outside its CG limits. Baggage loading and fuel consumption can move the centre of gravity. The weighing report must match the aircraft's current equipment.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Masse et équilibre"
+    },
+    {
+      "concept_id": "LAPL_AC_006_C03",
+      "title": "Exemple de décision",
+      "title_en": "A decision example",
+      "content": "Un calcul pédagogique donne 620 m de distance nécessaire, tandis que la piste disponible mesure 650 m. La différence de 30 m ne démontre pas une marge opérationnelle suffisante : vérifier hypothèses, facteurs applicables, surface et obstacles. Réduire la charge, choisir un autre horaire ou un autre terrain peut être nécessaire. Ne jamais extrapoler un tableau au-delà de ses limites.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "An exercise calculation gives 620 m required against 650 m available. The 30 m difference does not establish an adequate operational margin: check assumptions, applicable factors, surface and obstacles. Reducing load or choosing another time or aerodrome may be necessary. Never extrapolate a table beyond its limits.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Exemple de décision"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_AC_006_C01",
+      "concept_title": "Les conditions du jour",
+      "level": 1,
+      "question": "Être sous la masse maximale garantit-il un centrage correct ?",
+      "question_en": "Does being below maximum mass guarantee correct balance?",
+      "options": [
+        "Non",
+        "Oui",
+        "Oui avec deux pilotes",
+        "Oui avec les pleins"
+      ],
+      "correct_answer": "Non",
+      "explanation": "La masse et le centrage sont deux vérifications distinctes.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "Mass and balance are two separate checks.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "performance",
+        "takeoff",
+        "landing",
+        "mass",
+        "balance",
+        "W&B",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "No",
+        "Yes",
+        "Yes, with two pilots",
+        "Yes, with full tanks"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C02",
+      "concept_title": "Masse et équilibre",
+      "level": 1,
+      "question": "Une température plus élevée dégrade généralement…",
+      "question_en": "Higher temperature generally degrades…",
+      "options": [
+        "La longueur physique de piste",
+        "La précision du chronomètre",
+        "Le numéro de piste",
+        "La performance de décollage"
+      ],
+      "correct_answer": "La performance de décollage",
+      "explanation": "L'augmentation de température réduit la densité de l'air.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "Increasing temperature reduces air density.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "performance",
+        "takeoff",
+        "landing",
+        "mass",
+        "balance",
+        "W&B",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "The physical runway length",
+        "Stopwatch accuracy",
+        "The runway number",
+        "Take-off performance"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C03",
+      "concept_title": "Exemple de décision",
+      "level": 1,
+      "question": "Peut-on assimiler roulement et franchissement d'obstacle ?",
+      "question_en": "Can ground roll and obstacle-clearance distance be treated as equivalent?",
+      "options": [
+        "Oui sans vent",
+        "Oui sur piste sèche",
+        "Non",
+        "Oui"
+      ],
+      "correct_answer": "Non",
+      "explanation": "La distance jusqu'à une hauteur de référence inclut une partie en vol.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "Distance to a reference height includes an airborne segment.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "performance",
+        "takeoff",
+        "landing",
+        "mass",
+        "balance",
+        "W&B",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Yes, without wind",
+        "Yes, on a dry runway",
+        "No",
+        "Yes"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Un calcul donne 620 m nécessaires pour une piste de 650 m. Que démontre la différence de 30 m ?",
+      "question_en": "A calculation gives 620 m required for a 650 m runway. What does the 30 m difference show?",
+      "options": [
+        "L'inutilité de vérifier le vent et la surface",
+        "Une différence arithmétique, sans établir à elle seule une marge suffisante",
+        "Une marge toujours suffisante pour tout avion",
+        "Une autorisation automatique de décoller"
+      ],
+      "correct_answer": "Une différence arithmétique, sans établir à elle seule une marge suffisante",
+      "explanation": "Le résultat doit être confronté aux hypothèses du tableau, à l'état de piste, aux obstacles et aux facteurs applicables. Une différence positive ne prouve pas à elle seule la faisabilité opérationnelle.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "Compare the result with table assumptions, runway condition, obstacles and applicable factors. A positive difference alone does not demonstrate operational feasibility.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "performance",
+        "takeoff",
+        "landing",
+        "mass",
+        "balance",
+        "W&B",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "That checking wind and surface is unnecessary",
+        "An arithmetic difference, not by itself an adequate margin",
+        "A margin always sufficient for every aircraft",
+        "Automatic authorisation to take off"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C01",
+      "concept_title": "Les conditions du jour",
+      "level": 2,
+      "question": "La température réelle dépasse la plage du tableau de performances. Quelle méthode retenir ?",
+      "question_en": "The actual temperature is outside the performance table's range. What should you do?",
+      "options": [
+        "Rechercher une méthode applicable sans extrapoler arbitrairement",
+        "Prolonger la courbe à vue jusqu'à la température souhaitée",
+        "Utiliser la colonne la plus froide pour conserver une marge",
+        "Ignorer la température puisque la masse est connue"
+      ],
+      "correct_answer": "Rechercher une méthode applicable sans extrapoler arbitrairement",
+      "explanation": "Les tableaux ont un domaine d'utilisation. Une extrapolation improvisée peut sous-estimer la distance nécessaire ; il faut résoudre le manque de données avant de décider.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "Tables have a defined range of use. Improvised extrapolation may underestimate the required distance; resolve the missing data before deciding.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "performance",
+        "takeoff",
+        "landing",
+        "mass",
+        "balance",
+        "W&B",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Find an applicable method without arbitrary extrapolation",
+        "Extend the curve by eye to the desired temperature",
+        "Use the coldest column to retain a margin",
+        "Ignore temperature because mass is known"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C01",
+      "concept_title": "Les conditions du jour",
+      "level": 2,
+      "question": "Vrai ou faux ? La pente et l'état de piste font partie des hypothèses de performance.",
+      "question_en": "True or false? Runway slope and condition are performance assumptions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes performances publiées dépendent d'hypothèses : masse, température, altitude-pression, vent, pente et état de piste. Une distance de roulement n'est pas une distance de franchissement d'obstacle. Sur un terrain chaud et élevé, la faible densité de l'air dégrade généralement le décollage et la montée. Il faut utiliser les tableaux correspondant à l'avion et à la configuration réelle.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "This statement is true.\n\nPublished performance depends on assumptions: mass, temperature, pressure altitude, wind, slope and runway condition. Ground roll distance is not obstacle-clearance distance. At a hot, high aerodrome, low air density generally degrades take-off and climb. Use the tables for the actual aircraft and configuration.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C01",
+      "concept_title": "Les conditions du jour",
+      "level": 2,
+      "question": "Vrai ou faux ? La distance de roulement inclut nécessairement tout le franchissement d'obstacle.",
+      "question_en": "True or false? Ground roll necessarily includes the entire obstacle-clearance segment.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLes performances publiées dépendent d'hypothèses : masse, température, altitude-pression, vent, pente et état de piste. Une distance de roulement n'est pas une distance de franchissement d'obstacle. Sur un terrain chaud et élevé, la faible densité de l'air dégrade généralement le décollage et la montée. Il faut utiliser les tableaux correspondant à l'avion et à la configuration réelle.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "This statement is false.\n\nPublished performance depends on assumptions: mass, temperature, pressure altitude, wind, slope and runway condition. Ground roll distance is not obstacle-clearance distance. At a hot, high aerodrome, low air density generally degrades take-off and climb. Use the tables for the actual aircraft and configuration.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C01",
+      "concept_title": "Les conditions du jour",
+      "level": 2,
+      "question": "Vrai ou faux ? Une faible densité peut dégrader aussi la montée après le décollage.",
+      "question_en": "True or false? Low density can also degrade climb after take-off.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLes performances publiées dépendent d'hypothèses : masse, température, altitude-pression, vent, pente et état de piste. Une distance de roulement n'est pas une distance de franchissement d'obstacle. Sur un terrain chaud et élevé, la faible densité de l'air dégrade généralement le décollage et la montée. Il faut utiliser les tableaux correspondant à l'avion et à la configuration réelle.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "This statement is true.\n\nPublished performance depends on assumptions: mass, temperature, pressure altitude, wind, slope and runway condition. Ground roll distance is not obstacle-clearance distance. At a hot, high aerodrome, low air density generally degrades take-off and climb. Use the tables for the actual aircraft and configuration.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C02",
+      "concept_title": "Masse et équilibre",
+      "level": 2,
+      "question": "Vrai ou faux ? Le rapport de pesée reste pertinent même si l'équipement réel ne correspond plus.",
+      "question_en": "True or false? The weighing report remains applicable even when actual equipment no longer matches it.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa masse totale et la position du centre de gravité doivent toutes deux rester dans l'enveloppe autorisée. Un avion sous la masse maximale peut pourtant être hors centrage. Le chargement de bagages et la consommation de carburant peuvent déplacer le centre de gravité. La fiche de pesée utilisée doit correspondre à l'équipement actuel de l'appareil.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "This statement is false.\n\nBoth total mass and centre-of-gravity position must remain within the approved envelope. An aircraft below maximum mass may still be outside its CG limits. Baggage loading and fuel consumption can move the centre of gravity. The weighing report must match the aircraft's current equipment.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C02",
+      "concept_title": "Masse et équilibre",
+      "level": 2,
+      "question": "Vrai ou faux ? Le chargement des bagages peut modifier le centrage.",
+      "question_en": "True or false? Baggage loading can change the centre of gravity.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa masse totale et la position du centre de gravité doivent toutes deux rester dans l'enveloppe autorisée. Un avion sous la masse maximale peut pourtant être hors centrage. Le chargement de bagages et la consommation de carburant peuvent déplacer le centre de gravité. La fiche de pesée utilisée doit correspondre à l'équipement actuel de l'appareil.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "This statement is true.\n\nBoth total mass and centre-of-gravity position must remain within the approved envelope. An aircraft below maximum mass may still be outside its CG limits. Baggage loading and fuel consumption can move the centre of gravity. The weighing report must match the aircraft's current equipment.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C02",
+      "concept_title": "Masse et équilibre",
+      "level": 2,
+      "question": "Vrai ou faux ? Le centrage est nécessairement constant pendant la consommation du carburant.",
+      "question_en": "True or false? The centre of gravity necessarily remains constant as fuel is consumed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa masse totale et la position du centre de gravité doivent toutes deux rester dans l'enveloppe autorisée. Un avion sous la masse maximale peut pourtant être hors centrage. Le chargement de bagages et la consommation de carburant peuvent déplacer le centre de gravité. La fiche de pesée utilisée doit correspondre à l'équipement actuel de l'appareil.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "This statement is false.\n\nBoth total mass and centre-of-gravity position must remain within the approved envelope. An aircraft below maximum mass may still be outside its CG limits. Baggage loading and fuel consumption can move the centre of gravity. The weighing report must match the aircraft's current equipment.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Dans l'exemple, 650 m moins 620 m laissent une différence de 30 m.",
+      "question_en": "True or false? In the example, 650 m minus 620 m leaves a 30 m difference.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn calcul pédagogique donne 620 m de distance nécessaire, tandis que la piste disponible mesure 650 m. La différence de 30 m ne démontre pas une marge opérationnelle suffisante : vérifier hypothèses, facteurs applicables, surface et obstacles. Réduire la charge, choisir un autre horaire ou un autre terrain peut être nécessaire. Ne jamais extrapoler un tableau au-delà de ses limites.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "This statement is true.\n\nAn exercise calculation gives 620 m required against 650 m available. The 30 m difference does not establish an adequate operational margin: check assumptions, applicable factors, surface and obstacles. Reducing load or choosing another time or aerodrome may be necessary. Never extrapolate a table beyond its limits.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Une différence positive entre distance disponible et calculée garantit une marge suffisante.",
+      "question_en": "True or false? A positive difference between available and calculated distance guarantees an adequate margin.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn calcul pédagogique donne 620 m de distance nécessaire, tandis que la piste disponible mesure 650 m. La différence de 30 m ne démontre pas une marge opérationnelle suffisante : vérifier hypothèses, facteurs applicables, surface et obstacles. Réduire la charge, choisir un autre horaire ou un autre terrain peut être nécessaire. Ne jamais extrapoler un tableau au-delà de ses limites.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "This statement is false.\n\nAn exercise calculation gives 620 m required against 650 m available. The 30 m difference does not establish an adequate operational margin: check assumptions, applicable factors, surface and obstacles. Reducing load or choosing another time or aerodrome may be necessary. Never extrapolate a table beyond its limits.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Choisir un autre horaire peut faire partie des solutions à une performance insuffisante.",
+      "question_en": "True or false? Choosing another time can be an option when performance is insufficient.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn calcul pédagogique donne 620 m de distance nécessaire, tandis que la piste disponible mesure 650 m. La différence de 30 m ne démontre pas une marge opérationnelle suffisante : vérifier hypothèses, facteurs applicables, surface et obstacles. Réduire la charge, choisir un autre horaire ou un autre terrain peut être nécessaire. Ne jamais extrapoler un tableau au-delà de ses limites.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "This statement is true.\n\nAn exercise calculation gives 620 m required against 650 m available. The 30 m difference does not establish an adequate operational margin: check assumptions, applicable factors, surface and obstacles. Reducing load or choosing another time or aerodrome may be necessary. Never extrapolate a table beyond its limits.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AC_006_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Une table peut toujours être prolongée au-delà de sa dernière valeur.",
+      "question_en": "True or false? A table can always be extended beyond its final value.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn calcul pédagogique donne 620 m de distance nécessaire, tandis que la piste disponible mesure 650 m. La différence de 30 m ne démontre pas une marge opérationnelle suffisante : vérifier hypothèses, facteurs applicables, surface et obstacles. Réduire la charge, choisir un autre horaire ou un autre terrain peut être nécessaire. Ne jamais extrapoler un tableau au-delà de ses limites.\n\n![Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol.](/illustrations/lapl-ac-006.svg)",
+      "explanation_en": "This statement is false.\n\nAn exercise calculation gives 620 m required against 650 m available. The 30 m difference does not establish an adequate operational margin: check assumptions, applicable factors, surface and obstacles. Reducing load or choosing another time or aerodrome may be necessary. Never extrapolate a table beyond its limits.\n\n![Diagram: Performance (Takeoff, Landing, Mass and Balance)](/illustrations/en/lapl-ac-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

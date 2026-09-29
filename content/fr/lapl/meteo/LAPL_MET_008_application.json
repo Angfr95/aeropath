@@ -1,0 +1,600 @@
+{
+  "metadata": {
+    "module_id": "LAPL_MET_008",
+    "program": "LAPL",
+    "subject": "Meteorology",
+    "chapter_title": "Phénomènes dangereux (orage, givre, cisaillement)",
+    "chapter_title_en": "Hazardous Weather (Thunderstorms, Icing, Wind Shear)",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : convection et cisaillement; givrage et relief; exemple de décision.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: convection and wind shear; icing and terrain; a decision example.",
+    "difficulty": "advanced",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_MET_005",
+      "PPL_MET_007"
+    ],
+    "tags": [
+      "LAPL",
+      "meteo"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "Météo-France — Guide aviation",
+        "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+      },
+      {
+        "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-met-008.svg",
+      "alt": "Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques."
+    },
+    "exam_subject": "meteorology",
+    "coverage_status": "partial",
+    "derived_from": "PPL_MET_008",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_MET_008_C01",
+      "title": "Convection et cisaillement",
+      "title_en": "Convection and wind shear",
+      "content": "![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)\n\nUn orage peut réunir turbulence forte, grêle, foudre, précipitations intenses et courants descendants. Une zone claire sous un nuage n'est pas un passage garanti. Le cisaillement est une variation rapide du vent dans l'espace ; près du sol, il peut modifier brutalement la vitesse et la trajectoire avec peu de hauteur disponible pour réagir.",
+      "content_en": "![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)\n\nA thunderstorm can combine severe turbulence, hail, lightning, heavy precipitation and downdraughts. A clear-looking area beneath a cloud is not a guaranteed passage. Wind shear is a rapid spatial change in wind; near the ground it can abruptly change airspeed and flight path with little height available to react.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Convection et cisaillement"
+    },
+    {
+      "concept_id": "LAPL_MET_008_C02",
+      "title": "Givrage et relief",
+      "title_en": "Icing and terrain",
+      "content": "Des gouttelettes surfondues peuvent geler sur l'avion. La glace modifie le profil, augmente la traînée, dégrade les performances et peut perturber les instruments. Le givre au sol doit également être traité : une aile contaminée ne possède plus les caractéristiques attendues. Les ondes et rotors de relief constituent d'autres sources de mouvements verticaux et de turbulence sévère.",
+      "content_en": "Supercooled droplets may freeze on the aircraft. Ice alters the aerofoil, increases drag, degrades performance and may disrupt instruments. Ground frost must also be addressed: a contaminated wing no longer has its expected characteristics. Mountain waves and rotors are other sources of vertical movement and severe turbulence.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Givrage et relief"
+    },
+    {
+      "concept_id": "LAPL_MET_008_C03",
+      "title": "Exemple de décision",
+      "title_en": "A decision example",
+      "content": "Une ligne d'averses actives coupe la route d'un avion léger non équipé pour le givrage. Évaluer un large contournement, un report ou un déroutement avec suffisamment de carburant et de marge. Une image radar datée ne décrit pas exactement la situation actuelle. L'objectif est d'éviter l'exposition, pas de tester la capacité de l'avion à traverser le phénomène.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "A line of active showers crosses the route of a light aircraft not equipped for icing. Assess a wide detour, postponement or diversion while sufficient fuel and margins remain. A dated radar image does not describe the exact current situation. The aim is to avoid exposure, not test the aircraft's ability to cross the phenomenon.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Exemple de décision"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_MET_008_C01",
+      "concept_title": "Convection et cisaillement",
+      "level": 1,
+      "question": "Une aile contaminée par du givre garde-t-elle ses performances habituelles ?",
+      "question_en": "Does a frost-contaminated wing retain its normal performance?",
+      "options": [
+        "Non",
+        "Oui si le givre est blanc",
+        "Oui à faible masse",
+        "Oui moteur chaud"
+      ],
+      "correct_answer": "Non",
+      "explanation": "La contamination modifie l'écoulement et dégrade la portance.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "Contamination alters airflow and degrades lift.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "thunderstorm",
+        "icing",
+        "wind shear",
+        "turbulence",
+        "CB",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "No",
+        "Yes, if the frost is white",
+        "Yes, at low mass",
+        "Yes, with a warm engine"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C02",
+      "concept_title": "Givrage et relief",
+      "level": 1,
+      "question": "Qu'est-ce qu'un cisaillement du vent ?",
+      "question_en": "What is wind shear?",
+      "options": [
+        "Une pression identique partout",
+        "Une panne de compas",
+        "Une variation de quantité carburant",
+        "Une variation rapide du vent dans l'espace"
+      ],
+      "correct_answer": "Une variation rapide du vent dans l'espace",
+      "explanation": "Il peut provoquer un changement rapide de vitesse et de trajectoire.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "It may cause a rapid change in airspeed and flight path.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "thunderstorm",
+        "icing",
+        "wind shear",
+        "turbulence",
+        "CB",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Identical pressure everywhere",
+        "A compass failure",
+        "A change in fuel quantity",
+        "A rapid spatial change in wind"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C03",
+      "concept_title": "Exemple de décision",
+      "level": 1,
+      "question": "Une image radar ancienne garantit-elle un passage libre ?",
+      "question_en": "Does an old radar image guarantee a clear passage?",
+      "options": [
+        "Oui de jour",
+        "Oui à basse altitude",
+        "Non",
+        "Oui"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Les cellules évoluent et se déplacent entre observation et utilisation.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "Cells evolve and move between observation and use.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "thunderstorm",
+        "icing",
+        "wind shear",
+        "turbulence",
+        "CB",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Yes, by day",
+        "Yes, at low altitude",
+        "No",
+        "Yes"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C01",
+      "concept_title": "Convection et cisaillement",
+      "level": 2,
+      "question": "Pourquoi un cisaillement près du sol peut-il être particulièrement dangereux ?",
+      "question_en": "Why can wind shear near the ground be particularly dangerous?",
+      "options": [
+        "Il ne peut se produire qu'en croisière élevée",
+        "Il peut modifier rapidement vitesse et trajectoire avec peu de hauteur disponible",
+        "Il ne change que l'indication de température",
+        "Il garantit une augmentation de portance durable"
+      ],
+      "correct_answer": "Il peut modifier rapidement vitesse et trajectoire avec peu de hauteur disponible",
+      "explanation": "Une variation rapide du vent modifie les conditions aérodynamiques. Près du sol, la faible hauteur limite le temps et la marge disponibles.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "A rapid wind change alters aerodynamic conditions. Near the ground, limited height restricts available time and margin.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "thunderstorm",
+        "icing",
+        "wind shear",
+        "turbulence",
+        "CB",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "It can occur only at high cruising altitude",
+        "It can rapidly change speed and flight path with little height available",
+        "It changes only temperature indication",
+        "It guarantees a sustained lift increase"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C02",
+      "concept_title": "Givrage et relief",
+      "level": 2,
+      "question": "Quel effet aérodynamique peut avoir la glace sur une aile ?",
+      "question_en": "What aerodynamic effect can ice have on a wing?",
+      "options": [
+        "Modifier le profil et dégrader portance et traînée",
+        "Améliorer systématiquement la finesse",
+        "Augmenter seulement la masse sans toucher au profil",
+        "Préserver exactement les caractéristiques de décrochage"
+      ],
+      "correct_answer": "Modifier le profil et dégrader portance et traînée",
+      "explanation": "La contamination altère l'écoulement autour du profil et les performances. Elle ne se réduit pas à un supplément de masse ; les caractéristiques attendues de l'aile ne sont plus garanties.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "Contamination alters airflow around the aerofoil and performance. It is not simply extra mass; expected wing characteristics are no longer assured.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "thunderstorm",
+        "icing",
+        "wind shear",
+        "turbulence",
+        "CB",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Alter the aerofoil and degrade lift and drag characteristics",
+        "Always improve glide ratio",
+        "Only increase mass without affecting the profile",
+        "Preserve the exact stall characteristics"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C01",
+      "concept_title": "Convection et cisaillement",
+      "level": 2,
+      "question": "Vrai ou faux ? Un orage peut combiner grêle, éclairs et fortes précipitations.",
+      "question_en": "True or false? A thunderstorm can combine hail, lightning and heavy precipitation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn orage peut réunir turbulence forte, grêle, foudre, précipitations intenses et courants descendants. Une zone claire sous un nuage n'est pas un passage garanti. Le cisaillement est une variation rapide du vent dans l'espace ; près du sol, il peut modifier brutalement la vitesse et la trajectoire avec peu de hauteur disponible pour réagir.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "This statement is true.\n\nA thunderstorm can combine severe turbulence, hail, lightning, heavy precipitation and downdraughts. A clear-looking area beneath a cloud is not a guaranteed passage. Wind shear is a rapid spatial change in wind; near the ground it can abruptly change airspeed and flight path with little height available to react.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C01",
+      "concept_title": "Convection et cisaillement",
+      "level": 2,
+      "question": "Vrai ou faux ? Une zone claire sous un cumulonimbus garantit un passage sans danger.",
+      "question_en": "True or false? A clear area beneath a cumulonimbus guarantees safe passage.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn orage peut réunir turbulence forte, grêle, foudre, précipitations intenses et courants descendants. Une zone claire sous un nuage n'est pas un passage garanti. Le cisaillement est une variation rapide du vent dans l'espace ; près du sol, il peut modifier brutalement la vitesse et la trajectoire avec peu de hauteur disponible pour réagir.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "This statement is false.\n\nA thunderstorm can combine severe turbulence, hail, lightning, heavy precipitation and downdraughts. A clear-looking area beneath a cloud is not a guaranteed passage. Wind shear is a rapid spatial change in wind; near the ground it can abruptly change airspeed and flight path with little height available to react.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C01",
+      "concept_title": "Convection et cisaillement",
+      "level": 2,
+      "question": "Vrai ou faux ? Une variation rapide du vent peut modifier la vitesse air.",
+      "question_en": "True or false? A rapid wind change can alter airspeed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn orage peut réunir turbulence forte, grêle, foudre, précipitations intenses et courants descendants. Une zone claire sous un nuage n'est pas un passage garanti. Le cisaillement est une variation rapide du vent dans l'espace ; près du sol, il peut modifier brutalement la vitesse et la trajectoire avec peu de hauteur disponible pour réagir.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "This statement is true.\n\nA thunderstorm can combine severe turbulence, hail, lightning, heavy precipitation and downdraughts. A clear-looking area beneath a cloud is not a guaranteed passage. Wind shear is a rapid spatial change in wind; near the ground it can abruptly change airspeed and flight path with little height available to react.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C02",
+      "concept_title": "Givrage et relief",
+      "level": 2,
+      "question": "Vrai ou faux ? Le givre affecte uniquement l'esthétique de l'avion.",
+      "question_en": "True or false? Ice affects only the aircraft's appearance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDes gouttelettes surfondues peuvent geler sur l'avion. La glace modifie le profil, augmente la traînée, dégrade les performances et peut perturber les instruments. Le givre au sol doit également être traité : une aile contaminée ne possède plus les caractéristiques attendues. Les ondes et rotors de relief constituent d'autres sources de mouvements verticaux et de turbulence sévère.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "This statement is false.\n\nSupercooled droplets may freeze on the aircraft. Ice alters the aerofoil, increases drag, degrades performance and may disrupt instruments. Ground frost must also be addressed: a contaminated wing no longer has its expected characteristics. Mountain waves and rotors are other sources of vertical movement and severe turbulence.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C02",
+      "concept_title": "Givrage et relief",
+      "level": 2,
+      "question": "Vrai ou faux ? Des gouttelettes surfondues peuvent geler sur la cellule.",
+      "question_en": "True or false? Supercooled droplets can freeze on the airframe.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDes gouttelettes surfondues peuvent geler sur l'avion. La glace modifie le profil, augmente la traînée, dégrade les performances et peut perturber les instruments. Le givre au sol doit également être traité : une aile contaminée ne possède plus les caractéristiques attendues. Les ondes et rotors de relief constituent d'autres sources de mouvements verticaux et de turbulence sévère.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "This statement is true.\n\nSupercooled droplets may freeze on the aircraft. Ice alters the aerofoil, increases drag, degrades performance and may disrupt instruments. Ground frost must also be addressed: a contaminated wing no longer has its expected characteristics. Mountain waves and rotors are other sources of vertical movement and severe turbulence.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C02",
+      "concept_title": "Givrage et relief",
+      "level": 2,
+      "question": "Vrai ou faux ? Les rotors peuvent être une source de forte turbulence.",
+      "question_en": "True or false? Rotors can be a source of severe turbulence.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDes gouttelettes surfondues peuvent geler sur l'avion. La glace modifie le profil, augmente la traînée, dégrade les performances et peut perturber les instruments. Le givre au sol doit également être traité : une aile contaminée ne possède plus les caractéristiques attendues. Les ondes et rotors de relief constituent d'autres sources de mouvements verticaux et de turbulence sévère.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "This statement is true.\n\nSupercooled droplets may freeze on the aircraft. Ice alters the aerofoil, increases drag, degrades performance and may disrupt instruments. Ground frost must also be addressed: a contaminated wing no longer has its expected characteristics. Mountain waves and rotors are other sources of vertical movement and severe turbulence.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C02",
+      "concept_title": "Givrage et relief",
+      "level": 2,
+      "question": "Vrai ou faux ? Le givrage ne peut jamais perturber les instruments.",
+      "question_en": "True or false? Icing can never disrupt instruments.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDes gouttelettes surfondues peuvent geler sur l'avion. La glace modifie le profil, augmente la traînée, dégrade les performances et peut perturber les instruments. Le givre au sol doit également être traité : une aile contaminée ne possède plus les caractéristiques attendues. Les ondes et rotors de relief constituent d'autres sources de mouvements verticaux et de turbulence sévère.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "This statement is false.\n\nSupercooled droplets may freeze on the aircraft. Ice alters the aerofoil, increases drag, degrades performance and may disrupt instruments. Ground frost must also be addressed: a contaminated wing no longer has its expected characteristics. Mountain waves and rotors are other sources of vertical movement and severe turbulence.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Un avion non équipé devrait tester un passage avant de décider un contournement.",
+      "question_en": "True or false? An unequipped aircraft should test a passage before deciding to detour.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne ligne d'averses actives coupe la route d'un avion léger non équipé pour le givrage. Évaluer un large contournement, un report ou un déroutement avec suffisamment de carburant et de marge. Une image radar datée ne décrit pas exactement la situation actuelle. L'objectif est d'éviter l'exposition, pas de tester la capacité de l'avion à traverser le phénomène.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "This statement is false.\n\nA line of active showers crosses the route of a light aircraft not equipped for icing. Assess a wide detour, postponement or diversion while sufficient fuel and margins remain. A dated radar image does not describe the exact current situation. The aim is to avoid exposure, not test the aircraft's ability to cross the phenomenon.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Un contournement doit être envisagé tant que carburant et marges restent suffisants.",
+      "question_en": "True or false? A detour should be considered while fuel and margins remain sufficient.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne ligne d'averses actives coupe la route d'un avion léger non équipé pour le givrage. Évaluer un large contournement, un report ou un déroutement avec suffisamment de carburant et de marge. Une image radar datée ne décrit pas exactement la situation actuelle. L'objectif est d'éviter l'exposition, pas de tester la capacité de l'avion à traverser le phénomène.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "This statement is true.\n\nA line of active showers crosses the route of a light aircraft not equipped for icing. Assess a wide detour, postponement or diversion while sufficient fuel and margins remain. A dated radar image does not describe the exact current situation. The aim is to avoid exposure, not test the aircraft's ability to cross the phenomenon.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_008_C03",
+      "concept_title": "Exemple de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Une image radar conserve la même valeur quel que soit son âge.",
+      "question_en": "True or false? A radar image remains equally useful regardless of its age.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne ligne d'averses actives coupe la route d'un avion léger non équipé pour le givrage. Évaluer un large contournement, un report ou un déroutement avec suffisamment de carburant et de marge. Une image radar datée ne décrit pas exactement la situation actuelle. L'objectif est d'éviter l'exposition, pas de tester la capacité de l'avion à traverser le phénomène.\n\n![Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques.](/illustrations/lapl-met-008.svg)",
+      "explanation_en": "This statement is false.\n\nA line of active showers crosses the route of a light aircraft not equipped for icing. Assess a wide detour, postponement or diversion while sufficient fuel and margins remain. A dated radar image does not describe the exact current situation. The aim is to avoid exposure, not test the aircraft's ability to cross the phenomenon.\n\n![Diagram: Hazardous Weather (Thunderstorms, Icing, Wind Shear)](/illustrations/en/lapl-met-008.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

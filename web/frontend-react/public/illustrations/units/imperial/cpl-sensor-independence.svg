@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Capteurs : vérifier la source commune</title><desc id="desc">Capteurs : vérifier la source commune</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / CPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Capteurs : vérifier la source commune</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">CPL_SENSOR_INDEPENDENCE</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="65" y="215" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Trois affichages ne garantissent pas trois sources</text>
+<rect x="65" y="320" width="240" height="60" rx="10" fill="#1c344b" stroke="#ffcd70"/>
+<text x="185" y="357" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="middle">Prise Ps commune</text>
+<path d="M305 350L345 350" fill="none" stroke="#ffcd70" stroke-width="3"/>
+<path d="M345 290L345 410" fill="none" stroke="#ffcd70" stroke-width="3"/>
+<rect x="410" y="260" width="280" height="60" rx="10" fill="#1c344b" stroke="#304961"/>
+<text x="550" y="297" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="middle">Calculateur A</text>
+<rect x="835" y="260" width="265" height="60" rx="10" fill="#1c344b" stroke="#304961"/>
+<text x="967" y="297" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="middle">Affichage A</text>
+<path d="M690 290L830 290" fill="none" stroke="#58dfed" stroke-width="3"/>
+<path d="M830.0 290.0L816.5 296.5L816.5 283.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<path d="M345 290L405 290" fill="none" stroke="#ffcd70" stroke-width="3"/>
+<path d="M405.0 290.0L391.5 296.5L391.5 283.5Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="410" y="380" width="280" height="60" rx="10" fill="#1c344b" stroke="#304961"/>
+<text x="550" y="417" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="middle">Calculateur B</text>
+<rect x="835" y="380" width="265" height="60" rx="10" fill="#1c344b" stroke="#304961"/>
+<text x="967" y="417" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="middle">Affichage B</text>
+<path d="M690 410L830 410" fill="none" stroke="#58dfed" stroke-width="3"/>
+<path d="M830.0 410.0L816.5 416.5L816.5 403.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<path d="M345 410L405 410" fill="none" stroke="#ffcd70" stroke-width="3"/>
+<path d="M405.0 410.0L391.5 416.5L391.5 403.5Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="410" y="490" width="280" height="60" rx="10" fill="#1c344b" stroke="#304961"/>
+<text x="550" y="527" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="middle">Calculateur C</text>
+<rect x="835" y="490" width="265" height="60" rx="10" fill="#1c344b" stroke="#304961"/>
+<text x="967" y="527" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="middle">Affichage C</text>
+<path d="M690 520L830 520" fill="none" stroke="#58dfed" stroke-width="3"/>
+<path d="M830.0 520.0L816.5 526.5L816.5 513.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="65" y="490" width="240" height="60" rx="10" fill="#1c344b" stroke="#58dfed"/>
+<text x="185" y="527" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="middle">Autre prise Ps</text>
+<path d="M305 520L405 520" fill="none" stroke="#58dfed" stroke-width="3"/>
+<path d="M405.0 520.0L391.5 526.5L391.5 513.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="65" y="466" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Même défaut possible sur A et B malgré deux calculateurs.</text>
+<text x="65" y="593" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">C permet un recoupement ; son indépendance ne garantit pas son exactitude.</text>
+</svg>

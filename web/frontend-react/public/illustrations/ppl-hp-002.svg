@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">L’attention est une ressource limitée</title><desc id="desc">Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">L’attention est une ressource limitée</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Préparer et prioriser évite de traiter toutes les tâches en même temps.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_HP_002</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<rect x="83" y="214" width="206" height="65" rx="10" fill="#213950" stroke="#58dfed"/>
+<text x="183" y="256" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">MÉTÉO</text>
+<path d="M297 249L423 395" fill="none" stroke="#58dfed" stroke-width="3"/>
+<path d="M423.0 395.0L409.2 389.0L419.1 380.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="83" y="362" width="206" height="65" rx="10" fill="#213950" stroke="#ffcd70"/>
+<text x="183" y="404" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">NAVIGATION</text>
+<path d="M297 397L423 395" fill="none" stroke="#ffcd70" stroke-width="3"/>
+<path d="M423.0 395.0L409.6 401.7L409.4 388.7Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="83" y="510" width="206" height="65" rx="10" fill="#213950" stroke="#bbabff"/>
+<text x="183" y="552" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">RADIO</text>
+<path d="M297 545L423 395" fill="none" stroke="#bbabff" stroke-width="3"/>
+<path d="M423.0 395.0L419.3 409.5L409.3 401.1Z" fill="#bbabff" stroke="#bbabff" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<circle cx="504" cy="395" r="78" fill="#25354e" stroke="#edf5ff" stroke-width="2"/>
+<text x="504" y="387" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">ATTENTION</text>
+<text x="504" y="416" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">limitée</text>
+<path d="M590 395L773 395" fill="none" stroke="#58dfed" stroke-width="4"/>
+<path d="M773.0 395.0L759.5 401.5L759.5 388.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Préparer</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Réduire les tâches à</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">improviser.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Prioriser</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Préserver le contrôle de</text>
+<text x="855" y="406" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">l’avion.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Recouper</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Chercher aussi les indices</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">qui contredisent son idée.</text>
+</svg>

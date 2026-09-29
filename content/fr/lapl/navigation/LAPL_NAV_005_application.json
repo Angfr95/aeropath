@@ -1,0 +1,599 @@
+{
+  "metadata": {
+    "module_id": "LAPL_NAV_005",
+    "program": "LAPL",
+    "subject": "Navigation",
+    "chapter_title": "Radio-navigation (VOR, NDB, DME)",
+    "chapter_title_en": "Radio Navigation (VOR, NDB, DME)",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : trois aides différentes; identifier et interpréter; exemple de géométrie.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: three different aids; identifying and interpreting; a geometry example.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_NAV_001"
+    ],
+    "tags": [
+      "LAPL",
+      "navigation"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 16 : navigation",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation"
+      },
+      {
+        "title": "SIA — cartes et informations aéronautiques",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-nav-005.svg",
+      "alt": "VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station."
+    },
+    "exam_subject": "navigation",
+    "coverage_status": "partial",
+    "derived_from": "PPL_NAV_004",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_NAV_005_C01",
+      "title": "Trois aides différentes",
+      "title_en": "Three different aids",
+      "content": "![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)\n\nLe VOR fournit une information angulaire autour d'une station. Un radial est défini comme une direction magnétique depuis la station. Le NDB est une balise non directionnelle dont le signal peut être exploité par un radiocompas ADF. Le DME mesure une distance oblique entre l'avion et la station : ce n'est pas exactement une distance horizontale.",
+      "content_en": "![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)\n\nVOR provides angular information around a station. A radial is a magnetic direction from the station. An NDB is a non-directional beacon whose signal can be used by an ADF. DME measures slant range between aircraft and station, not exactly horizontal distance.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "learning_objective": "Trois aides différentes"
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C02",
+      "title": "Identifier et interpréter",
+      "title_en": "Identifying and interpreting",
+      "content": "Avant d'utiliser une aide, vérifier disponibilité, fréquence et identification. Sur un VOR, la sélection de route, l'indicateur TO/FROM et la déviation doivent être interprétés ensemble. L'aiguille d'un ADF donne une direction relative si l'instrument est configuré ainsi ; il faut tenir compte du cap pour obtenir un relèvement magnétique. Relief, portée et perturbations peuvent dégrader les indications.",
+      "content_en": "Before using an aid, check availability, frequency and identification. With VOR, interpret selected course, TO/FROM indication and deviation together. An ADF needle gives relative direction if configured that way; heading must be considered to obtain a magnetic bearing. Terrain, range and interference can degrade indications.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "learning_objective": "Identifier et interpréter"
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C03",
+      "title": "Exemple de géométrie",
+      "title_en": "A geometry example",
+      "content": "Sur le radial 090 d'un VOR, l'avion est à l'est de la station, quelle que soit la direction de son nez. Pour rejoindre la station, une route proche de 270° serait cohérente en air calme, mais le cap dépend du vent. À la verticale d'un DME, l'indication n'est pas forcément nulle, car elle inclut la séparation verticale.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "On a VOR's 090 radial, the aircraft is east of the station regardless of where its nose points. A track near 270° would lead to the station in still air, but heading depends on wind. Directly over a DME, the indication is not necessarily zero because it includes vertical separation.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "learning_objective": "Exemple de géométrie"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_NAV_005_C01",
+      "concept_title": "Trois aides différentes",
+      "level": 1,
+      "question": "Un avion sur le radial 090 est situé…",
+      "question_en": "An aircraft on the 090 radial is…",
+      "options": [
+        "Toujours en virage",
+        "À l'est du VOR",
+        "À l'ouest du VOR",
+        "Toujours cap au nord"
+      ],
+      "correct_answer": "À l'est du VOR",
+      "explanation": "Le radial est défini depuis la station.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "A radial is defined from the station.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "VOR",
+        "NDB",
+        "DME",
+        "radio navigation",
+        "tracking",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Always turning",
+        "East of the VOR",
+        "West of the VOR",
+        "Always heading north"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C02",
+      "concept_title": "Identifier et interpréter",
+      "level": 1,
+      "question": "Quelle distance mesure un DME ?",
+      "question_en": "What distance does DME measure?",
+      "options": [
+        "Une distance oblique",
+        "Uniquement une hauteur",
+        "Toujours la distance horizontale",
+        "La distance parcourue depuis le départ"
+      ],
+      "correct_answer": "Une distance oblique",
+      "explanation": "La mesure relie directement avion et station dans l'espace.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "The measurement directly links aircraft and station in space.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "VOR",
+        "NDB",
+        "DME",
+        "radio navigation",
+        "tracking",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Slant range",
+        "Only a height",
+        "Always horizontal distance",
+        "Distance travelled since departure"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C03",
+      "concept_title": "Exemple de géométrie",
+      "level": 1,
+      "question": "Que vérifier avant d'utiliser une balise ?",
+      "question_en": "What should you check before using a beacon?",
+      "options": [
+        "Uniquement la couleur du cadran",
+        "Le nombre de passagers",
+        "Le réglage de chauffage",
+        "Son identification et sa disponibilité"
+      ],
+      "correct_answer": "Son identification et sa disponibilité",
+      "explanation": "Une fréquence affichée seule ne confirme pas la bonne station ni son état.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "A displayed frequency alone confirms neither the correct station nor its status.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "VOR",
+        "NDB",
+        "DME",
+        "radio navigation",
+        "tracking",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "Only the instrument colour",
+        "The number of passengers",
+        "The heating setting",
+        "Its identification and availability"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C03",
+      "concept_title": "Exemple de géométrie",
+      "level": 2,
+      "question": "Un avion est sur le radial 090 d'un VOR. En air calme, quelle route mène approximativement vers la station ?",
+      "question_en": "An aircraft is on a VOR's 090 radial. In still air, which track approximately leads towards the station?",
+      "options": [
+        "180°",
+        "000°",
+        "270°",
+        "090°"
+      ],
+      "correct_answer": "270°",
+      "explanation": "Le radial 090 situe l'avion à l'est de la station. La route vers celle-ci est opposée, environ 270° ; avec du vent, le cap nécessaire peut différer.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "The 090 radial places the aircraft east of the station. The reciprocal track towards it is approximately 270°; with wind, the required heading may differ.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "VOR",
+        "NDB",
+        "DME",
+        "radio navigation",
+        "tracking",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "180°",
+        "000°",
+        "270°",
+        "090°"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C03",
+      "concept_title": "Exemple de géométrie",
+      "level": 2,
+      "question": "À la verticale d'une station DME, pourquoi l'indication peut-elle rester supérieure à zéro ?",
+      "question_en": "Directly above a DME station, why can the indication remain greater than zero?",
+      "options": [
+        "L'indication est nécessairement une panne",
+        "La distance mesurée inclut la séparation verticale",
+        "Le DME mesure seulement le temps depuis le départ",
+        "La station arrondit toujours à 10 NM"
+      ],
+      "correct_answer": "La distance mesurée inclut la séparation verticale",
+      "explanation": "Le DME mesure une distance oblique entre l'avion et la station. Même à la verticale, une séparation en altitude crée une distance non nulle.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "DME measures slant range between aircraft and station. Even directly overhead, altitude separation creates a non-zero distance.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "VOR",
+        "NDB",
+        "DME",
+        "radio navigation",
+        "tracking",
+        "exam-mcq",
+        "exam-subject:navigation"
+      ],
+      "options_en": [
+        "The indication must be a failure",
+        "The measured distance includes vertical separation",
+        "DME measures only elapsed time since departure",
+        "The station always rounds to 10 NM"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C01",
+      "concept_title": "Trois aides différentes",
+      "level": 2,
+      "question": "Vrai ou faux ? Un radial VOR est défini depuis la station.",
+      "question_en": "True or false? A VOR radial is defined from the station.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe VOR fournit une information angulaire autour d'une station. Un radial est défini comme une direction magnétique depuis la station. Le NDB est une balise non directionnelle dont le signal peut être exploité par un radiocompas ADF. Le DME mesure une distance oblique entre l'avion et la station : ce n'est pas exactement une distance horizontale.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "This statement is true.\n\nVOR provides angular information around a station. A radial is a magnetic direction from the station. An NDB is a non-directional beacon whose signal can be used by an ADF. DME measures slant range between aircraft and station, not exactly horizontal distance.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C01",
+      "concept_title": "Trois aides différentes",
+      "level": 2,
+      "question": "Vrai ou faux ? Un NDB est un appareil qui mesure directement la distance horizontale.",
+      "question_en": "True or false? An NDB directly measures horizontal distance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe VOR fournit une information angulaire autour d'une station. Un radial est défini comme une direction magnétique depuis la station. Le NDB est une balise non directionnelle dont le signal peut être exploité par un radiocompas ADF. Le DME mesure une distance oblique entre l'avion et la station : ce n'est pas exactement une distance horizontale.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "This statement is false.\n\nVOR provides angular information around a station. A radial is a magnetic direction from the station. An NDB is a non-directional beacon whose signal can be used by an ADF. DME measures slant range between aircraft and station, not exactly horizontal distance.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C01",
+      "concept_title": "Trois aides différentes",
+      "level": 2,
+      "question": "Vrai ou faux ? L'ADF peut exploiter le signal d'une balise non directionnelle.",
+      "question_en": "True or false? An ADF can use a non-directional beacon's signal.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe VOR fournit une information angulaire autour d'une station. Un radial est défini comme une direction magnétique depuis la station. Le NDB est une balise non directionnelle dont le signal peut être exploité par un radiocompas ADF. Le DME mesure une distance oblique entre l'avion et la station : ce n'est pas exactement une distance horizontale.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "This statement is true.\n\nVOR provides angular information around a station. A radial is a magnetic direction from the station. An NDB is a non-directional beacon whose signal can be used by an ADF. DME measures slant range between aircraft and station, not exactly horizontal distance.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C02",
+      "concept_title": "Identifier et interpréter",
+      "level": 2,
+      "question": "Vrai ou faux ? La fréquence affichée suffit à identifier avec certitude une station disponible.",
+      "question_en": "True or false? The displayed frequency alone certainly identifies an available station.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nAvant d'utiliser une aide, vérifier disponibilité, fréquence et identification. Sur un VOR, la sélection de route, l'indicateur TO/FROM et la déviation doivent être interprétés ensemble. L'aiguille d'un ADF donne une direction relative si l'instrument est configuré ainsi ; il faut tenir compte du cap pour obtenir un relèvement magnétique. Relief, portée et perturbations peuvent dégrader les indications.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "This statement is false.\n\nBefore using an aid, check availability, frequency and identification. With VOR, interpret selected course, TO/FROM indication and deviation together. An ADF needle gives relative direction if configured that way; heading must be considered to obtain a magnetic bearing. Terrain, range and interference can degrade indications.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C02",
+      "concept_title": "Identifier et interpréter",
+      "level": 2,
+      "question": "Vrai ou faux ? Le sens TO/FROM doit être interprété avec le cours sélectionné et la déviation.",
+      "question_en": "True or false? TO/FROM must be interpreted with selected course and deviation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nAvant d'utiliser une aide, vérifier disponibilité, fréquence et identification. Sur un VOR, la sélection de route, l'indicateur TO/FROM et la déviation doivent être interprétés ensemble. L'aiguille d'un ADF donne une direction relative si l'instrument est configuré ainsi ; il faut tenir compte du cap pour obtenir un relèvement magnétique. Relief, portée et perturbations peuvent dégrader les indications.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "This statement is true.\n\nBefore using an aid, check availability, frequency and identification. With VOR, interpret selected course, TO/FROM indication and deviation together. An ADF needle gives relative direction if configured that way; heading must be considered to obtain a magnetic bearing. Terrain, range and interference can degrade indications.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C02",
+      "concept_title": "Identifier et interpréter",
+      "level": 2,
+      "question": "Vrai ou faux ? Le cap intervient pour convertir un gisement relatif en relèvement magnétique.",
+      "question_en": "True or false? Heading is involved in converting a relative bearing to a magnetic bearing.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nAvant d'utiliser une aide, vérifier disponibilité, fréquence et identification. Sur un VOR, la sélection de route, l'indicateur TO/FROM et la déviation doivent être interprétés ensemble. L'aiguille d'un ADF donne une direction relative si l'instrument est configuré ainsi ; il faut tenir compte du cap pour obtenir un relèvement magnétique. Relief, portée et perturbations peuvent dégrader les indications.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "This statement is true.\n\nBefore using an aid, check availability, frequency and identification. With VOR, interpret selected course, TO/FROM indication and deviation together. An ADF needle gives relative direction if configured that way; heading must be considered to obtain a magnetic bearing. Terrain, range and interference can degrade indications.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C02",
+      "concept_title": "Identifier et interpréter",
+      "level": 2,
+      "question": "Vrai ou faux ? Le relief ne peut jamais dégrader une indication radioélectrique.",
+      "question_en": "True or false? Terrain can never degrade a radio navigation indication.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nAvant d'utiliser une aide, vérifier disponibilité, fréquence et identification. Sur un VOR, la sélection de route, l'indicateur TO/FROM et la déviation doivent être interprétés ensemble. L'aiguille d'un ADF donne une direction relative si l'instrument est configuré ainsi ; il faut tenir compte du cap pour obtenir un relèvement magnétique. Relief, portée et perturbations peuvent dégrader les indications.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "This statement is false.\n\nBefore using an aid, check availability, frequency and identification. With VOR, interpret selected course, TO/FROM indication and deviation together. An ADF needle gives relative direction if configured that way; heading must be considered to obtain a magnetic bearing. Terrain, range and interference can degrade indications.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C03",
+      "concept_title": "Exemple de géométrie",
+      "level": 2,
+      "question": "Vrai ou faux ? Sur le radial 090, le nez de l'avion pointe nécessairement vers l'est.",
+      "question_en": "True or false? On the 090 radial, the aircraft's nose must point east.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSur le radial 090 d'un VOR, l'avion est à l'est de la station, quelle que soit la direction de son nez. Pour rejoindre la station, une route proche de 270° serait cohérente en air calme, mais le cap dépend du vent. À la verticale d'un DME, l'indication n'est pas forcément nulle, car elle inclut la séparation verticale.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "This statement is false.\n\nOn a VOR's 090 radial, the aircraft is east of the station regardless of where its nose points. A track near 270° would lead to the station in still air, but heading depends on wind. Directly over a DME, the indication is not necessarily zero because it includes vertical separation.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C03",
+      "concept_title": "Exemple de géométrie",
+      "level": 2,
+      "question": "Vrai ou faux ? Le vent peut modifier le cap nécessaire pour rejoindre une station.",
+      "question_en": "True or false? Wind may change the heading needed to reach a station.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nSur le radial 090 d'un VOR, l'avion est à l'est de la station, quelle que soit la direction de son nez. Pour rejoindre la station, une route proche de 270° serait cohérente en air calme, mais le cap dépend du vent. À la verticale d'un DME, l'indication n'est pas forcément nulle, car elle inclut la séparation verticale.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "This statement is true.\n\nOn a VOR's 090 radial, the aircraft is east of the station regardless of where its nose points. A track near 270° would lead to the station in still air, but heading depends on wind. Directly over a DME, the indication is not necessarily zero because it includes vertical separation.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_NAV_005_C03",
+      "concept_title": "Exemple de géométrie",
+      "level": 2,
+      "question": "Vrai ou faux ? Le DME doit toujours indiquer zéro à la verticale, quelle que soit l'altitude.",
+      "question_en": "True or false? DME must always read zero overhead, regardless of altitude.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nSur le radial 090 d'un VOR, l'avion est à l'est de la station, quelle que soit la direction de son nez. Pour rejoindre la station, une route proche de 270° serait cohérente en air calme, mais le cap dépend du vent. À la verticale d'un DME, l'indication n'est pas forcément nulle, car elle inclut la séparation verticale.\n\n![VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station.](/illustrations/lapl-nav-005.svg)",
+      "explanation_en": "This statement is false.\n\nOn a VOR's 090 radial, the aircraft is east of the station regardless of where its nose points. A track near 270° would lead to the station in still air, but heading depends on wind. Directly over a DME, the indication is not necessarily zero because it includes vertical separation.\n\n![Diagram: Radio Navigation (VOR, NDB, DME)](/illustrations/en/lapl-nav-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "navigation",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — navigation",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-16-navigation",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

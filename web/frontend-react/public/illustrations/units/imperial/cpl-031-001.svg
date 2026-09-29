@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="852" viewBox="0 0 1200 852" role="img" aria-labelledby="title desc"><title id="title">Chargement : données de calcul</title><desc id="desc">Chargement : données de calcul</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / CPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Chargement : données de calcul</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">CPL_031_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="95" y="238" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Élément</text>
+<text x="505" y="238" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Masse</text>
+<text x="845" y="238" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Bras depuis le repère</text>
+<path d="M85 335L1105 335" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="95" y="310" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Avion initial</text>
+<text x="505" y="310" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">1 800 kg</text>
+<text x="845" y="310" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">2,00 m</text>
+<path d="M85 410L1105 410" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="95" y="385" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Charge</text>
+<text x="505" y="385" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">300 kg</text>
+<text x="845" y="385" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">3,00 m</text>
+<path d="M85 485L1105 485" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="95" y="460" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Carburant</text>
+<text x="505" y="460" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">200 kg</text>
+<text x="845" y="460" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">2,50 m</text>
+<text x="95" y="560" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Chaque bras utilise le même plan de référence.</text>
+<rect x="0" y="720" width="1200" height="132" fill="#10243d"/><text x="42" y="754" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18">Équivalences arrondies · valeurs d’origine conservées pour les calculs</text><text x="42" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">1 800 kg ≈ 3 968,32 lb</text><text x="432" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">2,00 m ≈ 6,56 ft</text><text x="822" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">300 kg ≈ 661,39 lb</text><text x="42" y="816" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">3,00 m ≈ 9,84 ft</text><text x="432" y="816" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">200 kg ≈ 440,92 lb</text><text x="822" y="816" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">2,50 m ≈ 8,2 ft</text></svg>

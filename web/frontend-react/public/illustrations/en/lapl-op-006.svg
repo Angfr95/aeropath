@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Threats, errors and defences</title><desc id="desc">A threat may encourage an error; preparation, checklists and cross-checks provide defences against a degraded situation.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Threats, errors and defences</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Detect early to limit consequences.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_OP_006</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<rect x="60" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<g transform="translate(118 282) scale(0.55)">
+<path d="M-60 15C-88 10-78-25-52-25C-52-58-9-64 5-39C35-62 65-38 60-13C91-12 93 19 67 23H-60Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<text x="365" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">01</text>
+<text x="84" y="357" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Threat</text>
+<text x="84" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Difficult weather,</text>
+<text x="84" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">fatigue, unfamiliar</text>
+<text x="84" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">terrain or time pressure.</text>
+<path d="M413 397L423 397" fill="none" stroke="#58dfed" stroke-width="2"/>
+<path d="M423.0 397.0L409.5 403.5L409.5 390.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="425" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<path d="M438 274Q483 229 528 274Q483 319 438 274Z" fill="none" stroke="#ffcd70" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<circle cx="483" cy="274" r="14" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="730" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">02</text>
+<text x="449" y="357" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Possible error</text>
+<text x="449" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Omission,</text>
+<text x="449" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">misinterpretation or a</text>
+<text x="449" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">late decision.</text>
+<path d="M778 397L788 397" fill="none" stroke="#ffcd70" stroke-width="2"/>
+<path d="M788.0 397.0L774.5 403.5L774.5 390.5Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<rect x="790" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<path d="M848 234L883 250V278Q878 302 848 317Q818 302 813 278V250Z" fill="none" stroke="#bbabff" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<path d="M831 274L845 289L869 259" fill="none" stroke="#bbabff" stroke-width="4" stroke-linejoin="round" opacity="1"/>
+<text x="1095" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">03</text>
+<text x="814" y="357" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Protection</text>
+<text x="814" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Preparation, checklist,</text>
+<text x="814" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">cross-checking and asking</text>
+<text x="814" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">for help.</text>
+</svg>

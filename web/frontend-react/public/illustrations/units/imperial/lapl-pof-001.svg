@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Les quatre forces en vol stabilisé</title><desc id="desc">En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Les quatre forces en vol stabilisé</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Vue de profil ; nez de l’avion vers la droite.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_POF_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<path d="M289 406L366 394 416 365 451 365 484 397 604 406 618 420 288 420 258 377 277 377Z" fill="#d8e6f0" stroke="#aac2d4" stroke-width="2" stroke-linejoin="round" opacity="1"/>
+<path d="M405 408L340 446H370L459 409Z" fill="#698ca8" stroke="#aac2d4" stroke-width="2" stroke-linejoin="round" opacity="1"/>
+<path d="M441 359L441 223" fill="none" stroke="#58dfed" stroke-width="5"/>
+<path d="M441.0 223.0L447.5 236.5L434.5 236.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="468" y="244" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="start">PORTANCE</text>
+<path d="M441 436L441 577" fill="none" stroke="#ffcd70" stroke-width="5"/>
+<path d="M441.0 577.0L434.5 563.5L447.5 563.5Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="467" y="568" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="start">POIDS</text>
+<path d="M620 410L787 410" fill="none" stroke="#bbabff" stroke-width="5"/>
+<path d="M787.0 410.0L773.5 416.5L773.5 403.5Z" fill="#bbabff" stroke="#bbabff" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="703" y="383" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">TRACTION</text>
+<path d="M281 410L105 410" fill="none" stroke="#ff8e9c" stroke-width="5"/>
+<path d="M105.0 410.0L118.5 403.5L118.5 416.5Z" fill="#ff8e9c" stroke="#ff8e9c" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="176" y="382" fill="#ff8e9c" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">TRAÎNÉE</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Cas représenté</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Vol rectiligne horizontal</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">stabilisé.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Équilibre vertical</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Portance ≈ poids.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Équilibre horizontal</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Traction ≈ traînée ; pas</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">d’accélération.</text>
+</svg>

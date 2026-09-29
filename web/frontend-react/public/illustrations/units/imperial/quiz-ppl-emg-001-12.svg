@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Calculer un temps de parcours</title><desc id="desc">Branche de 20 NM entre A et B, vitesse sol constante de 80 kt. Durée à déterminer.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Calculer un temps de parcours</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Données de l’exercice — choisissez votre réponse ci-dessous.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_EMG_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<circle cx="160" cy="415" r="10" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<path d="M175 415L735 415" fill="none" stroke="#58dfed" stroke-width="5"/>
+<path d="M735.0 415.0L721.5 421.5L721.5 408.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="160" y="465" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="middle">A</text>
+<text x="735" y="465" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="middle">B</text>
+<g transform="translate(440 385) rotate(90) scale(0.45)">
+<path d="M0-80C-12-74-13-45-10-20L-85 17-85 30-10 15-6 58-30 75-30 83 0 74 30 83 30 75 6 58 10 15 85 30 85 17 10-20C13-45 12-74 0-80Z" fill="#edf5ff" stroke="#7895b3" stroke-width="2" stroke-linejoin="round" opacity="1"/>
+<path d="M-6-42Q0-51 6-42L6-25H-6Z" fill="#18324c" stroke="#18324c" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+</g>
+<text x="445" y="290" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">20 NM</text>
+<text x="445" y="535" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="middle">Vitesse sol : 80 kt</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Donnée 1</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Distance au sol.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Donnée 2</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Vitesse sol constante.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">À déterminer</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Temps en minutes : ?</text>
+</svg>

@@ -150,14 +150,16 @@ func UpdateLessonHandler(repo domain.LessonRepository) gin.HandlerFunc {
 		}
 
 		var updates struct {
-			TitleFr    *string        `json:"title_fr"`
-			TitleEn    *string        `json:"title_en"`
-			ContentFr  *string        `json:"content_fr"`
-			ContentEn  *string        `json:"content_en"`
-			Theme      *string        `json:"theme"`
-			Difficulty *int           `json:"difficulty"`
-			OrderIndex *int           `json:"order_index"`
-			License    *domain.License `json:"license"`
+			TitleFr    *string          `json:"title_fr"`
+			TitleEn    *string          `json:"title_en"`
+			TitleEs    *string          `json:"title_es"`
+			ContentFr  *string          `json:"content_fr"`
+			ContentEn  *string          `json:"content_en"`
+			ContentEs  *string          `json:"content_es"`
+			Theme      *string          `json:"theme"`
+			Difficulty *int             `json:"difficulty"`
+			OrderIndex *int             `json:"order_index"`
+			License    *domain.License  `json:"license"`
 			Category   *domain.Category `json:"category"`
 		}
 		if err := c.ShouldBindJSON(&updates); err != nil {
@@ -165,15 +167,39 @@ func UpdateLessonHandler(repo domain.LessonRepository) gin.HandlerFunc {
 			return
 		}
 
-		if updates.TitleFr != nil { existing.TitleFr = *updates.TitleFr }
-		if updates.TitleEn != nil { existing.TitleEn = *updates.TitleEn }
-		if updates.ContentFr != nil { existing.ContentFr = *updates.ContentFr }
-		if updates.ContentEn != nil { existing.ContentEn = *updates.ContentEn }
-		if updates.Theme != nil { existing.Theme = *updates.Theme }
-		if updates.Difficulty != nil { existing.Difficulty = *updates.Difficulty }
-		if updates.OrderIndex != nil { existing.OrderIndex = *updates.OrderIndex }
-		if updates.License != nil { existing.License = *updates.License }
-		if updates.Category != nil { existing.Category = *updates.Category }
+		if updates.TitleFr != nil {
+			existing.TitleFr = *updates.TitleFr
+		}
+		if updates.TitleEn != nil {
+			existing.TitleEn = *updates.TitleEn
+		}
+		if updates.TitleEs != nil {
+			existing.TitleEs = *updates.TitleEs
+		}
+		if updates.ContentFr != nil {
+			existing.ContentFr = *updates.ContentFr
+		}
+		if updates.ContentEn != nil {
+			existing.ContentEn = *updates.ContentEn
+		}
+		if updates.ContentEs != nil {
+			existing.ContentEs = *updates.ContentEs
+		}
+		if updates.Theme != nil {
+			existing.Theme = *updates.Theme
+		}
+		if updates.Difficulty != nil {
+			existing.Difficulty = *updates.Difficulty
+		}
+		if updates.OrderIndex != nil {
+			existing.OrderIndex = *updates.OrderIndex
+		}
+		if updates.License != nil {
+			existing.License = *updates.License
+		}
+		if updates.Category != nil {
+			existing.Category = *updates.Category
+		}
 
 		if err := repo.Update(existing); err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
@@ -210,9 +236,15 @@ func ListLessonsHandler(repo domain.LessonRepository) gin.HandlerFunc {
 		if o := c.Query("offset"); o != "" {
 			_, _ = fmt.Sscanf(o, "%d", &offset)
 		}
-		if limit < 1 { limit = 1 }
-		if limit > 100 { limit = 100 }
-		if offset < 0 { offset = 0 }
+		if limit < 1 {
+			limit = 1
+		}
+		if limit > 100 {
+			limit = 100
+		}
+		if offset < 0 {
+			offset = 0
+		}
 
 		var lessons []*domain.Lesson
 		var total int
@@ -366,7 +398,7 @@ func ListLessonsByCategoryHandler(repo domain.LessonRepository) gin.HandlerFunc 
 
 // ======================== QUIZ DE LEÇON ========================
 
-// LessonQuizHandler génère un quiz de 3 questions pour une leçon.
+// LessonQuizHandler génère un quiz de cinq questions pour une leçon.
 func LessonQuizHandler(engine *learning.Engine) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		lessonID := c.Param("id")
@@ -382,11 +414,13 @@ func LessonQuizHandler(engine *learning.Engine) gin.HandlerFunc {
 		for _, q := range questions {
 			safeQuestions = append(safeQuestions, gin.H{
 				"id":          q.ID,
+				"license":     q.License,
+				"category":    q.Category,
 				"theme":       q.Theme,
 				"difficulty":  q.Difficulty,
 				"question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn,
-				"options":     q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs,
+				"options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 
@@ -419,8 +453,8 @@ func StartExamHandler(engine *learning.Engine) gin.HandlerFunc {
 				"theme":       q.Theme,
 				"difficulty":  q.Difficulty,
 				"question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn,
-				"options":     q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs,
+				"options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 
@@ -449,6 +483,7 @@ func SubmitExamHandler(engine *learning.Engine, historyRepo domain.QuestionHisto
 			CorrectAnswer string `json:"correct_answer"`
 			ExplanationFr string `json:"explanation_fr,omitempty"`
 			ExplanationEn string `json:"explanation_en,omitempty"`
+			ExplanationEs string `json:"explanation_es,omitempty"`
 		}
 
 		var results []result
@@ -463,7 +498,9 @@ func SubmitExamHandler(engine *learning.Engine, historyRepo domain.QuestionHisto
 			wasCorrect := engine.EvaluateAnswer(question, ans.Answer)
 
 			// Enregistrer dans l'historique
-			_ = historyRepo.RecordAnswer(studentID, ans.QuestionID, wasCorrect)
+			if studentID != "" {
+				_ = historyRepo.RecordAnswer(studentID, ans.QuestionID, wasCorrect)
+			}
 
 			if wasCorrect {
 				correctCount++
@@ -475,6 +512,7 @@ func SubmitExamHandler(engine *learning.Engine, historyRepo domain.QuestionHisto
 				CorrectAnswer: question.AnswerKey,
 				ExplanationFr: question.ExplanationFr,
 				ExplanationEn: question.ExplanationEn,
+				ExplanationEs: question.ExplanationEs,
 			})
 		}
 
@@ -549,8 +587,8 @@ func ListQuestionsHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 				"subtopic":    q.Subtopic,
 				"difficulty":  q.Difficulty,
 				"question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn,
-				"options":     q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs,
+				"options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 
@@ -582,8 +620,8 @@ func QuestionsByThemeHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 				"subtopic":    q.Subtopic,
 				"difficulty":  q.Difficulty,
 				"question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn,
-				"options":     q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs,
+				"options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 
@@ -616,8 +654,8 @@ func QuestionsByCategoryHandler(repo domain.QuestionRepository) gin.HandlerFunc 
 				"subtopic":    q.Subtopic,
 				"difficulty":  q.Difficulty,
 				"question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn,
-				"options":     q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs,
+				"options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 
@@ -651,8 +689,8 @@ func QuestionsByLicenseAndCategoryHandler(repo domain.QuestionRepository) gin.Ha
 				"subtopic":    q.Subtopic,
 				"difficulty":  q.Difficulty,
 				"question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn,
-				"options":     q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs,
+				"options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 
@@ -671,6 +709,15 @@ func CreateQuestionHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 		var q domain.Question
 		if err := c.ShouldBindJSON(&q); err != nil {
 			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+			return
+		}
+
+		if len(q.OptionsEn) != 0 && len(q.OptionsEn) != len(q.Options) {
+			c.JSON(http.StatusBadRequest, gin.H{"error": "options_en must match options in length and order"})
+			return
+		}
+		if len(q.OptionsEs) != 0 && len(q.OptionsEs) != len(q.Options) {
+			c.JSON(http.StatusBadRequest, gin.H{"error": "options_es must match options in length and order"})
 			return
 		}
 
@@ -700,7 +747,10 @@ func UpdateQuestionHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 		var updates struct {
 			QuestionFr    *string          `json:"question_fr"`
 			QuestionEn    *string          `json:"question_en"`
+			QuestionEs    *string          `json:"question_es"`
 			Options       []string         `json:"options"`
+			OptionsEn     []string         `json:"options_en"`
+			OptionsEs     []string         `json:"options_es"`
 			AnswerKey     *string          `json:"answer_key"`
 			Difficulty    *int             `json:"difficulty"`
 			Theme         *string          `json:"theme"`
@@ -709,23 +759,69 @@ func UpdateQuestionHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 			Category      *domain.Category `json:"category"`
 			ExplanationFr *string          `json:"explanation_fr"`
 			ExplanationEn *string          `json:"explanation_en"`
+			ExplanationEs *string          `json:"explanation_es"`
 		}
 		if err := c.ShouldBindJSON(&updates); err != nil {
 			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 			return
 		}
 
-		if updates.QuestionFr != nil { existing.QuestionFr = *updates.QuestionFr }
-		if updates.QuestionEn != nil { existing.QuestionEn = *updates.QuestionEn }
-		if updates.Options != nil { existing.Options = updates.Options }
-		if updates.AnswerKey != nil { existing.AnswerKey = *updates.AnswerKey }
-		if updates.Difficulty != nil { existing.Difficulty = *updates.Difficulty }
-		if updates.Theme != nil { existing.Theme = *updates.Theme }
-		if updates.Subtopic != nil { existing.Subtopic = *updates.Subtopic }
-		if updates.License != nil { existing.License = *updates.License }
-		if updates.Category != nil { existing.Category = *updates.Category }
-		if updates.ExplanationFr != nil { existing.ExplanationFr = *updates.ExplanationFr }
-		if updates.ExplanationEn != nil { existing.ExplanationEn = *updates.ExplanationEn }
+		if updates.QuestionFr != nil {
+			existing.QuestionFr = *updates.QuestionFr
+		}
+		if updates.QuestionEn != nil {
+			existing.QuestionEn = *updates.QuestionEn
+		}
+		if updates.QuestionEs != nil {
+			existing.QuestionEs = *updates.QuestionEs
+		}
+		if updates.Options != nil {
+			existing.Options = updates.Options
+			existing.OptionsEn = nil
+			existing.OptionsEs = nil
+		}
+		if updates.OptionsEn != nil {
+			existing.OptionsEn = updates.OptionsEn
+		}
+		if updates.OptionsEs != nil {
+			existing.OptionsEs = updates.OptionsEs
+		}
+		if updates.AnswerKey != nil {
+			existing.AnswerKey = *updates.AnswerKey
+		}
+		if updates.Difficulty != nil {
+			existing.Difficulty = *updates.Difficulty
+		}
+		if updates.Theme != nil {
+			existing.Theme = *updates.Theme
+		}
+		if updates.Subtopic != nil {
+			existing.Subtopic = *updates.Subtopic
+		}
+		if updates.License != nil {
+			existing.License = *updates.License
+		}
+		if updates.Category != nil {
+			existing.Category = *updates.Category
+		}
+		if updates.ExplanationFr != nil {
+			existing.ExplanationFr = *updates.ExplanationFr
+		}
+		if updates.ExplanationEn != nil {
+			existing.ExplanationEn = *updates.ExplanationEn
+		}
+		if updates.ExplanationEs != nil {
+			existing.ExplanationEs = *updates.ExplanationEs
+		}
+
+		if len(existing.OptionsEn) != 0 && len(existing.OptionsEn) != len(existing.Options) {
+			c.JSON(http.StatusBadRequest, gin.H{"error": "options_en must match options in length and order"})
+			return
+		}
+		if len(existing.OptionsEs) != 0 && len(existing.OptionsEs) != len(existing.Options) {
+			c.JSON(http.StatusBadRequest, gin.H{"error": "options_es must match options in length and order"})
+			return
+		}
 
 		if err := repo.Update(existing); err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
@@ -766,7 +862,7 @@ func QuestionsByDifficultyHandler(repo domain.QuestionRepository) gin.HandlerFun
 				"id": q.ID, "lesson_id": q.LessonID, "license": q.License,
 				"category": q.Category, "theme": q.Theme, "subtopic": q.Subtopic,
 				"difficulty": q.Difficulty, "question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn, "options": q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs, "options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 		c.JSON(http.StatusOK, gin.H{"difficulty": difficulty, "total": len(safeQuestions), "questions": safeQuestions})
@@ -788,7 +884,7 @@ func QuestionsBySubtopicHandler(repo domain.QuestionRepository) gin.HandlerFunc 
 				"id": q.ID, "lesson_id": q.LessonID, "license": q.License,
 				"category": q.Category, "theme": q.Theme, "subtopic": q.Subtopic,
 				"difficulty": q.Difficulty, "question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn, "options": q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs, "options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 		c.JSON(http.StatusOK, gin.H{"subtopic": subtopic, "total": len(safeQuestions), "questions": safeQuestions})
@@ -867,8 +963,8 @@ func QuestionsByLicenseHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 				"subtopic":    q.Subtopic,
 				"difficulty":  q.Difficulty,
 				"question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn,
-				"options":     q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs,
+				"options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 
@@ -933,8 +1029,8 @@ func RandomQuestionHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 				"subtopic":    q.Subtopic,
 				"difficulty":  q.Difficulty,
 				"question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn,
-				"options":     q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs,
+				"options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 
@@ -993,8 +1089,8 @@ func SearchQuestionsHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 				"subtopic":    q.Subtopic,
 				"difficulty":  q.Difficulty,
 				"question_fr": q.QuestionFr,
-				"question_en": q.QuestionEn,
-				"options":     q.Options,
+				"question_en": q.QuestionEn, "question_es": q.QuestionEs,
+				"options": q.Options, "options_en": q.OptionsEn, "options_es": q.OptionsEs,
 			})
 		}
 
@@ -1030,14 +1126,16 @@ func AnswerQuestionHandler(engine *learning.Engine, historyRepo domain.QuestionH
 		wasCorrect := engine.EvaluateAnswer(question, req.Answer)
 
 		// Enregistrer dans l'historique
-		_ = historyRepo.RecordAnswer(studentID, req.QuestionID, wasCorrect)
+		if studentID != "" {
+			_ = historyRepo.RecordAnswer(studentID, req.QuestionID, wasCorrect)
+		}
 
 		c.JSON(http.StatusOK, gin.H{
 			"question_id":    req.QuestionID,
 			"correct":        wasCorrect,
 			"correct_answer": question.AnswerKey,
 			"explanation_fr": question.ExplanationFr,
-			"explanation_en": question.ExplanationEn,
+			"explanation_en": question.ExplanationEn, "explanation_es": question.ExplanationEs,
 		})
 	}
 }
@@ -1052,18 +1150,18 @@ func GetQuestionHandler(repo domain.QuestionRepository) gin.HandlerFunc {
 		}
 
 		c.JSON(http.StatusOK, gin.H{
-			"id":            question.ID,
-			"lesson_id":     question.LessonID,
-			"license":       question.License,
-			"category":      question.Category,
-			"theme":         question.Theme,
-			"subtopic":      question.Subtopic,
-			"difficulty":    question.Difficulty,
-			"question_fr":   question.QuestionFr,
-			"question_en":   question.QuestionEn,
-			"options":       question.Options,
+			"id":          question.ID,
+			"lesson_id":   question.LessonID,
+			"license":     question.License,
+			"category":    question.Category,
+			"theme":       question.Theme,
+			"subtopic":    question.Subtopic,
+			"difficulty":  question.Difficulty,
+			"question_fr": question.QuestionFr,
+			"question_en": question.QuestionEn, "question_es": question.QuestionEs,
+			"options": question.Options, "options_en": question.OptionsEn, "options_es": question.OptionsEs,
 			"explanation_fr": question.ExplanationFr,
-			"explanation_en": question.ExplanationEn,
+			"explanation_en": question.ExplanationEn, "explanation_es": question.ExplanationEs,
 		})
 	}
 }
@@ -1125,15 +1223,18 @@ func HistoryHandler(historyRepo domain.QuestionHistoryRepository, questionRepo d
 
 		// Enrichir avec les questions (sans la réponse)
 		type HistoryEntry struct {
-			QuestionID  string   `json:"question_id"`
-			Theme       string   `json:"theme"`
-			Subtopic    string   `json:"subtopic,omitempty"`
-			Difficulty  int      `json:"difficulty"`
-			QuestionFr  string   `json:"question_fr"`
-			QuestionEn  string   `json:"question_en"`
-			Options     []string `json:"options"`
-			WasCorrect  bool     `json:"was_correct"`
-			SeenAt      time.Time `json:"seen_at"`
+			QuestionID string    `json:"question_id"`
+			Theme      string    `json:"theme"`
+			Subtopic   string    `json:"subtopic,omitempty"`
+			Difficulty int       `json:"difficulty"`
+			QuestionFr string    `json:"question_fr"`
+			QuestionEn string    `json:"question_en"`
+			QuestionEs string    `json:"question_es"`
+			Options    []string  `json:"options"`
+			OptionsEn  []string  `json:"options_en"`
+			OptionsEs  []string  `json:"options_es"`
+			WasCorrect bool      `json:"was_correct"`
+			SeenAt     time.Time `json:"seen_at"`
 		}
 
 		var entries []HistoryEntry
@@ -1149,7 +1250,10 @@ func HistoryHandler(historyRepo domain.QuestionHistoryRepository, questionRepo d
 				Difficulty: q.Difficulty,
 				QuestionFr: q.QuestionFr,
 				QuestionEn: q.QuestionEn,
+				QuestionEs: q.QuestionEs,
 				Options:    q.Options,
+				OptionsEn:  q.OptionsEn,
+				OptionsEs:  q.OptionsEs,
 				WasCorrect: h.WasCorrect,
 				SeenAt:     h.SeenAt,
 			})

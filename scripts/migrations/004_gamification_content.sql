@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS spaced_repetition (
     PRIMARY KEY (user_id, question_id)
 );
 
-CREATE INDEX IF NOT EXISTS idx_spaced_review ON spaced_repetition(next_review_at) WHERE next_review_at <= now();
+CREATE INDEX IF NOT EXISTS idx_spaced_review ON spaced_repetition(next_review_at);
 
 -- ============================================================================
 -- 7. TABLE CONFIG (dans aero_config)

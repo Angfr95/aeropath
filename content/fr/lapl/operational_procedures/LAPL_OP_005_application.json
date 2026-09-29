@@ -1,0 +1,594 @@
+{
+  "metadata": {
+    "module_id": "LAPL_OP_005",
+    "program": "LAPL",
+    "subject": "Operational Procedures",
+    "chapter_title": "Procédures d'urgence en vol",
+    "chapter_title_en": "In-Flight Emergency Procedures",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : priorités et diagnostic; préserver des options; exemple de gestion.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: priorities and diagnosis; preserving options; a management example.",
+    "difficulty": "advanced",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_OP_001"
+    ],
+    "tags": [
+      "LAPL",
+      "operational_procedures"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — Airplane Flying Handbook",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+      },
+      {
+        "title": "EASA — SERA",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-op-005.svg",
+      "alt": "Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles."
+    },
+    "exam_subject": "operational_procedures",
+    "coverage_status": "partial",
+    "derived_from": "PPL_OP_005",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_OP_005_C01",
+      "title": "Priorités et diagnostic",
+      "title_en": "Priorities and diagnosis",
+      "content": "![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)\n\nFace à une anomalie, préserver d'abord le contrôle de l'avion et une trajectoire sûre. Identifier la situation sans se focaliser sur un seul voyant. Les actions immédiates enseignées et la checklist du manuel sont complémentaires. Une panne ressemble parfois à une autre : une baisse de puissance peut avoir plusieurs causes, et l'altitude disponible limite le temps de recherche.",
+      "content_en": "![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)\n\nFaced with an anomaly, first preserve aircraft control and a safe flight path. Identify the situation without fixating on one warning light. Taught immediate actions and the manual checklist complement each other. One failure may resemble another: reduced power has several possible causes, and available altitude limits troubleshooting time.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Priorités et diagnostic"
+    },
+    {
+      "concept_id": "LAPL_OP_005_C02",
+      "title": "Préserver des options",
+      "title_en": "Preserving options",
+      "content": "Choisir tôt une zone d'atterrissage possible, tenir compte du vent, du relief et des obstacles, puis demander l'aide appropriée. Les vitesses et configurations de panne sont propres à l'avion. Un retour vers la piste après une panne au décollage n'est pas une réponse universelle : il dépend d'une préparation et de conditions très spécifiques.",
+      "content_en": "Choose a possible landing area early, consider wind, terrain and obstacles, then request appropriate help. Emergency speeds and configurations are aircraft-specific. Turning back to the runway after a take-off failure is not a universal response: it depends on preparation and very specific conditions.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Préserver des options"
+    },
+    {
+      "concept_id": "LAPL_OP_005_C03",
+      "title": "Exemple de gestion",
+      "title_en": "A management example",
+      "content": "Une anomalie électrique réduit les moyens de navigation et de communication disponibles. Après application de la procédure, évaluer le besoin d'atterrir, la météo et les équipements réellement restants. Répartir les tâches si un autre pilote est présent et informer les passagers simplement. Ne pas consacrer toute l'attention à rétablir un appareil secondaire pendant que la trajectoire se dégrade.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "An electrical anomaly reduces available navigation and communication equipment. After applying the procedure, assess the need to land, weather and the equipment actually remaining. Share tasks if another pilot is present and give passengers simple information. Do not focus entirely on restoring a secondary device while the flight path deteriorates.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "learning_objective": "Exemple de gestion"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_OP_005_C01",
+      "concept_title": "Priorités et diagnostic",
+      "level": 1,
+      "question": "Quelle priorité conserve-t-on pendant une panne ?",
+      "question_en": "Which priority remains during a failure?",
+      "options": [
+        "La rédaction du compte rendu",
+        "Le redémarrage de la tablette",
+        "Le contrôle de l'avion",
+        "La recherche d'une fréquence parfaite"
+      ],
+      "correct_answer": "Le contrôle de l'avion",
+      "explanation": "La trajectoire doit rester maîtrisée pendant le traitement de l'anomalie.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "The flight path must remain controlled while handling the anomaly.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "engine failure",
+        "fire",
+        "forced landing",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Writing the report",
+        "Restarting the tablet",
+        "Aircraft control",
+        "Finding the perfect frequency"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C02",
+      "concept_title": "Préserver des options",
+      "level": 1,
+      "question": "Les vitesses de panne sont-elles universelles ?",
+      "question_en": "Are emergency speeds universal?",
+      "options": [
+        "Oui par vent calme",
+        "Non, elles dépendent de l'avion",
+        "Oui pour tout PPL",
+        "Oui à masse maximale"
+      ],
+      "correct_answer": "Non, elles dépendent de l'avion",
+      "explanation": "Les valeurs doivent être prises dans le manuel du type utilisé.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "Use values from the manual for the aircraft type in use.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "engine failure",
+        "fire",
+        "forced landing",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "Yes, in calm wind",
+        "No, they depend on the aircraft",
+        "Yes, for every PPL aircraft",
+        "Yes, at maximum mass"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C03",
+      "concept_title": "Exemple de gestion",
+      "level": 1,
+      "question": "Pourquoi choisir tôt une option d'atterrissage ?",
+      "question_en": "Why choose a landing option early?",
+      "options": [
+        "Pour préserver une solution avant de manquer de temps",
+        "Pour éviter toute communication",
+        "Pour garantir une réparation",
+        "Pour annuler les obstacles"
+      ],
+      "correct_answer": "Pour préserver une solution avant de manquer de temps",
+      "explanation": "Une préparation anticipée réduit le risque de décision précipitée.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "Early preparation reduces the risk of a rushed decision.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "engine failure",
+        "fire",
+        "forced landing",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "To preserve an option before time runs out",
+        "To avoid all communication",
+        "To guarantee a repair",
+        "To remove obstacles"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C01",
+      "concept_title": "Priorités et diagnostic",
+      "level": 2,
+      "question": "Une baisse de puissance apparaît. Pourquoi éviter de se fixer immédiatement sur une cause unique ?",
+      "question_en": "Power decreases. Why avoid immediately fixating on one cause?",
+      "options": [
+        "Toutes les baisses de puissance viennent du même composant",
+        "Le diagnostic remplace toujours le maintien de la trajectoire",
+        "Une checklist n'est utile que si le moteur est arrêté",
+        "Plusieurs pannes peuvent produire des symptômes proches"
+      ],
+      "correct_answer": "Plusieurs pannes peuvent produire des symptômes proches",
+      "explanation": "Les symptômes ne donnent pas toujours un diagnostic unique. Recouper et appliquer la procédure tout en pilotant évite une recherche focalisée qui consommerait le temps disponible.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "Symptoms do not always give a unique diagnosis. Cross-checking and applying the procedure while flying avoids focused troubleshooting consuming all available time.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "engine failure",
+        "fire",
+        "forced landing",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "All power losses come from the same component",
+        "Diagnosis always replaces maintaining the flight path",
+        "A checklist is useful only if the engine has stopped",
+        "Several failures may produce similar symptoms"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C03",
+      "concept_title": "Exemple de gestion",
+      "level": 2,
+      "question": "Une panne électrique réduit les équipements disponibles. Après les actions prévues, que faut-il réévaluer ?",
+      "question_en": "An electrical failure reduces available equipment. After the prescribed actions, what must be reassessed?",
+      "options": [
+        "La nécessité de poursuivre coûte que coûte la route initiale",
+        "L'hypothèse que tous les équipements fonctionnent encore",
+        "La poursuite du vol selon météo, moyens restants et possibilités d'atterrissage",
+        "Uniquement l'heure prévue du repas"
+      ],
+      "correct_answer": "La poursuite du vol selon météo, moyens restants et possibilités d'atterrissage",
+      "explanation": "La conséquence opérationnelle dépend de ce qui reste réellement utilisable. Le projet doit être réévalué avec la météo, les moyens de navigation et communication, et les options d'atterrissage.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "The operational consequence depends on what remains usable. Reassess the plan against weather, navigation and communication capability, and landing options.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "engine failure",
+        "fire",
+        "forced landing",
+        "exam-mcq",
+        "exam-subject:operational_procedures"
+      ],
+      "options_en": [
+        "The need to continue the original route at all costs",
+        "The assumption that all equipment still works",
+        "Continuation based on weather, remaining equipment and landing options",
+        "Only the planned mealtime"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C01",
+      "concept_title": "Priorités et diagnostic",
+      "level": 2,
+      "question": "Vrai ou faux ? Une seule alarme ne permet pas toujours un diagnostic unique.",
+      "question_en": "True or false? A single warning does not always identify a unique diagnosis.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nFace à une anomalie, préserver d'abord le contrôle de l'avion et une trajectoire sûre. Identifier la situation sans se focaliser sur un seul voyant. Les actions immédiates enseignées et la checklist du manuel sont complémentaires. Une panne ressemble parfois à une autre : une baisse de puissance peut avoir plusieurs causes, et l'altitude disponible limite le temps de recherche.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "This statement is true.\n\nFaced with an anomaly, first preserve aircraft control and a safe flight path. Identify the situation without fixating on one warning light. Taught immediate actions and the manual checklist complement each other. One failure may resemble another: reduced power has several possible causes, and available altitude limits troubleshooting time.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C01",
+      "concept_title": "Priorités et diagnostic",
+      "level": 2,
+      "question": "Vrai ou faux ? Les actions immédiates enseignées rendent toutes les checklists inutiles.",
+      "question_en": "True or false? Taught immediate actions make all checklists unnecessary.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nFace à une anomalie, préserver d'abord le contrôle de l'avion et une trajectoire sûre. Identifier la situation sans se focaliser sur un seul voyant. Les actions immédiates enseignées et la checklist du manuel sont complémentaires. Une panne ressemble parfois à une autre : une baisse de puissance peut avoir plusieurs causes, et l'altitude disponible limite le temps de recherche.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "This statement is false.\n\nFaced with an anomaly, first preserve aircraft control and a safe flight path. Identify the situation without fixating on one warning light. Taught immediate actions and the manual checklist complement each other. One failure may resemble another: reduced power has several possible causes, and available altitude limits troubleshooting time.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C01",
+      "concept_title": "Priorités et diagnostic",
+      "level": 2,
+      "question": "Vrai ou faux ? L'altitude disponible limite le temps de recherche de panne.",
+      "question_en": "True or false? Available altitude limits troubleshooting time.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nFace à une anomalie, préserver d'abord le contrôle de l'avion et une trajectoire sûre. Identifier la situation sans se focaliser sur un seul voyant. Les actions immédiates enseignées et la checklist du manuel sont complémentaires. Une panne ressemble parfois à une autre : une baisse de puissance peut avoir plusieurs causes, et l'altitude disponible limite le temps de recherche.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "This statement is true.\n\nFaced with an anomaly, first preserve aircraft control and a safe flight path. Identify the situation without fixating on one warning light. Taught immediate actions and the manual checklist complement each other. One failure may resemble another: reduced power has several possible causes, and available altitude limits troubleshooting time.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C02",
+      "concept_title": "Préserver des options",
+      "level": 2,
+      "question": "Vrai ou faux ? Revenir à la piste est la réponse universelle à toute panne après décollage.",
+      "question_en": "True or false? Returning to the runway is the universal response to every failure after take-off.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nChoisir tôt une zone d'atterrissage possible, tenir compte du vent, du relief et des obstacles, puis demander l'aide appropriée. Les vitesses et configurations de panne sont propres à l'avion. Un retour vers la piste après une panne au décollage n'est pas une réponse universelle : il dépend d'une préparation et de conditions très spécifiques.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "This statement is false.\n\nChoose a possible landing area early, consider wind, terrain and obstacles, then request appropriate help. Emergency speeds and configurations are aircraft-specific. Turning back to the runway after a take-off failure is not a universal response: it depends on preparation and very specific conditions.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C02",
+      "concept_title": "Préserver des options",
+      "level": 2,
+      "question": "Vrai ou faux ? Le choix d'une zone d'atterrissage tient compte du vent et des obstacles.",
+      "question_en": "True or false? Choosing a landing area accounts for wind and obstacles.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nChoisir tôt une zone d'atterrissage possible, tenir compte du vent, du relief et des obstacles, puis demander l'aide appropriée. Les vitesses et configurations de panne sont propres à l'avion. Un retour vers la piste après une panne au décollage n'est pas une réponse universelle : il dépend d'une préparation et de conditions très spécifiques.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "This statement is true.\n\nChoose a possible landing area early, consider wind, terrain and obstacles, then request appropriate help. Emergency speeds and configurations are aircraft-specific. Turning back to the runway after a take-off failure is not a universal response: it depends on preparation and very specific conditions.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C02",
+      "concept_title": "Préserver des options",
+      "level": 2,
+      "question": "Vrai ou faux ? La configuration d'urgence doit provenir des données du type.",
+      "question_en": "True or false? Emergency configuration must come from type-specific data.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nChoisir tôt une zone d'atterrissage possible, tenir compte du vent, du relief et des obstacles, puis demander l'aide appropriée. Les vitesses et configurations de panne sont propres à l'avion. Un retour vers la piste après une panne au décollage n'est pas une réponse universelle : il dépend d'une préparation et de conditions très spécifiques.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "This statement is true.\n\nChoose a possible landing area early, consider wind, terrain and obstacles, then request appropriate help. Emergency speeds and configurations are aircraft-specific. Turning back to the runway after a take-off failure is not a universal response: it depends on preparation and very specific conditions.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C02",
+      "concept_title": "Préserver des options",
+      "level": 2,
+      "question": "Vrai ou faux ? Demander de l'aide doit toujours attendre la réparation complète.",
+      "question_en": "True or false? Requesting help must always wait until repairs are complete.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nChoisir tôt une zone d'atterrissage possible, tenir compte du vent, du relief et des obstacles, puis demander l'aide appropriée. Les vitesses et configurations de panne sont propres à l'avion. Un retour vers la piste après une panne au décollage n'est pas une réponse universelle : il dépend d'une préparation et de conditions très spécifiques.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "This statement is false.\n\nChoose a possible landing area early, consider wind, terrain and obstacles, then request appropriate help. Emergency speeds and configurations are aircraft-specific. Turning back to the runway after a take-off failure is not a universal response: it depends on preparation and very specific conditions.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C03",
+      "concept_title": "Exemple de gestion",
+      "level": 2,
+      "question": "Vrai ou faux ? Un appareil secondaire doit être rétabli même si la trajectoire se dégrade.",
+      "question_en": "True or false? A secondary device must be restored even if the flight path deteriorates.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne anomalie électrique réduit les moyens de navigation et de communication disponibles. Après application de la procédure, évaluer le besoin d'atterrir, la météo et les équipements réellement restants. Répartir les tâches si un autre pilote est présent et informer les passagers simplement. Ne pas consacrer toute l'attention à rétablir un appareil secondaire pendant que la trajectoire se dégrade.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "This statement is false.\n\nAn electrical anomaly reduces available navigation and communication equipment. After applying the procedure, assess the need to land, weather and the equipment actually remaining. Share tasks if another pilot is present and give passengers simple information. Do not focus entirely on restoring a secondary device while the flight path deteriorates.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C03",
+      "concept_title": "Exemple de gestion",
+      "level": 2,
+      "question": "Vrai ou faux ? Un autre pilote à bord peut participer à une répartition des tâches.",
+      "question_en": "True or false? Another pilot aboard can participate in task sharing.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne anomalie électrique réduit les moyens de navigation et de communication disponibles. Après application de la procédure, évaluer le besoin d'atterrir, la météo et les équipements réellement restants. Répartir les tâches si un autre pilote est présent et informer les passagers simplement. Ne pas consacrer toute l'attention à rétablir un appareil secondaire pendant que la trajectoire se dégrade.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "This statement is true.\n\nAn electrical anomaly reduces available navigation and communication equipment. After applying the procedure, assess the need to land, weather and the equipment actually remaining. Share tasks if another pilot is present and give passengers simple information. Do not focus entirely on restoring a secondary device while the flight path deteriorates.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_OP_005_C03",
+      "concept_title": "Exemple de gestion",
+      "level": 2,
+      "question": "Vrai ou faux ? Une panne électrique n'impose jamais de réexaminer les conditions météorologiques.",
+      "question_en": "True or false? An electrical failure never calls for reassessing weather conditions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne anomalie électrique réduit les moyens de navigation et de communication disponibles. Après application de la procédure, évaluer le besoin d'atterrir, la météo et les équipements réellement restants. Répartir les tâches si un autre pilote est présent et informer les passagers simplement. Ne pas consacrer toute l'attention à rétablir un appareil secondaire pendant que la trajectoire se dégrade.\n\n![Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.](/illustrations/lapl-op-005.svg)",
+      "explanation_en": "This statement is false.\n\nAn electrical anomaly reduces available navigation and communication equipment. After applying the procedure, assess the need to land, weather and the equipment actually remaining. Share tasks if another pilot is present and give passengers simple information. Do not focus entirely on restoring a secondary device while the flight path deteriorates.\n\n![Diagram: In-Flight Emergency Procedures](/illustrations/en/lapl-op-005.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "operational_procedures",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — operational_procedures",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

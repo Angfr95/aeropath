@@ -1,3 +1,4 @@
+import { useLearningLocale } from "@/utils/useLearningLocale";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { lessonsApi } from "@/api/lessons";
@@ -7,6 +8,7 @@ import Navbar from "@/components/Navbar";
 
 /** renderLessonsByLicense + loadLessonsByLicense */
 export default function LessonsByLicense() {
+  const { text, label } = useLearningLocale();
   const { license: licenseId } = useParams<{ license: string }>();
   const license = LICENSES.find((l) => l.id === licenseId) ?? { id: licenseId ?? "?", label: licenseId ?? "?", icon: "📋", desc: "" };
   const [lessons, setLessons] = useState<Lesson[]>([]);
@@ -31,16 +33,16 @@ export default function LessonsByLicense() {
       <Navbar />
       <div className="max-w-6xl mx-auto p-4">
         <Link to="/lessons" className="text-slate-400 hover:text-white mb-4 flex items-center gap-1">
-          ← Retour aux licences
+          {label("← Retour aux licences")}
         </Link>
         <div className="flex items-center gap-3 mb-6">
           <span className="text-4xl">{license.icon}</span>
           <div>
             <h1 className="text-2xl font-bold text-white">{license.label}</h1>
-            <p className="text-slate-400">{license.desc}</p>
+            <p className="text-slate-400">{label(license.desc)}</p>
           </div>
         </div>
-        <h2 className="text-lg font-semibold text-slate-300 mb-3">Choisis une catégorie</h2>
+        <h2 className="text-lg font-semibold text-slate-300 mb-3">{label("Choisis une catégorie")}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mb-8">
           {CATEGORIES.map((c) => (
             <Link
@@ -51,26 +53,26 @@ export default function LessonsByLicense() {
               <div className="flex items-center gap-3">
                 <span className="text-2xl">{c.icon}</span>
                 <div>
-                  <div className="text-white font-medium">{c.label}</div>
-                  <div className="text-xs text-slate-500">{loading ? "Chargement..." : `${catCounts[c.id] ?? 0} leçons`}</div>
+                  <div className="text-white font-medium">{label(c.label)}</div>
+                  <div className="text-xs text-slate-500">{loading ? label("Chargement...") : `${catCounts[c.id] ?? 0} ${text("leçons", "lessons")}`}</div>
                 </div>
               </div>
             </Link>
           ))}
         </div>
-        <h2 className="text-lg font-semibold text-slate-300 mb-3">Toutes les leçons {license.label}</h2>
+        <h2 className="text-lg font-semibold text-slate-300 mb-3">{label("Toutes les leçons")} {license.label}</h2>
         {loading ? (
           <div className="space-y-3">{[1, 2].map((i) => <div key={i} className="skeleton h-20 rounded-xl" />)}</div>
         ) : lessons.length === 0 ? (
-          <p className="text-slate-400 text-center py-8">Aucune leçon pour cette licence</p>
+          <p className="text-slate-400 text-center py-8">{label("Aucune leçon pour cette licence")}</p>
         ) : (
           <div className="space-y-3">
             {lessons.map((l) => (
               <Link key={l.id} to={`/lessons/${l.license}/${l.category}/${l.id}`} className="block bg-slate-800 rounded-xl p-4 hover:bg-slate-750 transition">
-                <h3 className="text-white font-medium">{l.title_fr || l.title_en}</h3>
+                <h3 className="text-white font-medium">{text(l.title_fr, l.title_en, l.title_es)}</h3>
                 <div className="flex gap-2 mt-2">
                   <span className="text-xs bg-purple-900 text-purple-300 px-2 py-0.5 rounded">{l.category}</span>
-                  <span className="text-xs bg-amber-900 text-amber-300 px-2 py-0.5 rounded">Niv. {l.difficulty}</span>
+                  <span className="text-xs bg-amber-900 text-amber-300 px-2 py-0.5 rounded">{label("Niv.")} {l.difficulty}</span>
                 </div>
               </Link>
             ))}

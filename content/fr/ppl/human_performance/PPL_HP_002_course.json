@@ -1,0 +1,539 @@
+{
+  "metadata": {
+    "module_id": "PPL_HP_002",
+    "program": "PPL",
+    "subject": "Human Performance",
+    "chapter_title": "Attention, biais et prise de décision",
+    "chapter_title_en": "Attention, bias and decision-making",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: limits of attention; decision biases; a reassessment example.",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "tags": [
+      "human_performance",
+      "PPL"
+    ],
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : limites de l'attention; biais de décision; exemple de réévaluation.",
+    "estimated_duration_minutes": 10,
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitres 2 et 17 : décision et facteurs aéromédicaux",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-hp-002.svg",
+      "alt": "Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage."
+    },
+    "exam_subject": "human_performance",
+    "coverage_status": "partial"
+  },
+  "concepts": [
+    {
+      "concept_id": "PPL_HP_002_C01",
+      "title": "Limites de l'attention",
+      "title_en": "Limits of attention",
+      "content": "![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)\n\nL'attention est limitée : une tâche complexe peut masquer un changement pourtant visible. La fixation sur une panne, une fréquence ou un écran détourne des priorités. La mémoire de travail est également limitée, surtout sous stress. Préparation, checklists et organisation du cockpit réduisent les demandes simultanées plutôt que compter uniquement sur la volonté.",
+      "content_en": "![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)\n\nAttention is limited: a complex task can conceal a change that is otherwise visible. Fixation on a failure, frequency or screen distracts from priorities. Working memory is also limited, particularly under stress. Preparation, checklists and cockpit organisation reduce simultaneous demands instead of relying solely on willpower.",
+      "difficulty": "beginner",
+      "tags": [
+        "human_performance",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "learning_objective": "Limites de l'attention"
+    },
+    {
+      "concept_id": "PPL_HP_002_C02",
+      "title": "Biais de décision",
+      "title_en": "Decision biases",
+      "content": "Le biais de confirmation pousse à rechercher les indices favorables à une hypothèse. La poursuite du plan peut conduire à continuer parce que le trajet est déjà engagé. Pour limiter ces biais, définir des critères d'arrêt à l'avance, chercher les éléments contradictoires et reformuler les options. La décision doit pouvoir évoluer lorsque les faits changent.",
+      "content_en": "Confirmation bias encourages seeking evidence that supports an assumption. Plan continuation bias may cause continuation simply because the journey has begun. To limit these biases, define stopping criteria in advance, seek contradictory evidence and reconsider the options. Decisions must be able to change when facts change.",
+      "difficulty": "beginner",
+      "tags": [
+        "human_performance",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "learning_objective": "Biais de décision"
+    },
+    {
+      "concept_id": "PPL_HP_002_C03",
+      "title": "Exemple de réévaluation",
+      "title_en": "A reassessment example",
+      "content": "Le pilote pense avoir reconnu un lac mais l'heure de passage et l'orientation ne concordent pas. Au lieu de sélectionner seulement le détail ressemblant, vérifier plusieurs repères et accepter que la position estimée soit fausse. Réduire la charge de travail et demander de l'aide si nécessaire. Après le vol, analyser l'événement pour améliorer la méthode sans chercher un coupable.",
+      "content_en": "The pilot believes a lake has been identified, but timing and orientation do not agree. Instead of selecting only the similar detail, check several landmarks and accept that the estimated position may be wrong. Reduce workload and ask for help if needed. After flight, analyse the event to improve the method rather than find someone to blame.",
+      "difficulty": "beginner",
+      "tags": [
+        "human_performance",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "learning_objective": "Exemple de réévaluation"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_HP_002_C01",
+      "concept_title": "Limites de l'attention",
+      "level": 1,
+      "question": "Quel biais fait privilégier les indices favorables à son idée ?",
+      "question_en": "Which bias favours evidence supporting an existing idea?",
+      "options": [
+        "Le biais de confirmation",
+        "La dérive magnétique",
+        "Le gradient thermique",
+        "La pression statique"
+      ],
+      "correct_answer": "Le biais de confirmation",
+      "explanation": "Il conduit à sous-estimer les informations contradictoires.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "It leads to underestimating contradictory information.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "human_performance",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Confirmation bias",
+        "Magnetic drift",
+        "Temperature gradient",
+        "Static pressure"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C02",
+      "concept_title": "Biais de décision",
+      "level": 1,
+      "question": "À quoi servent des critères d'arrêt décidés au sol ?",
+      "question_en": "What are stopping criteria decided on the ground for?",
+      "options": [
+        "À garantir une météo favorable",
+        "À augmenter l'autonomie",
+        "À remplacer le manuel",
+        "À limiter la pression de poursuivre en vol"
+      ],
+      "correct_answer": "À limiter la pression de poursuivre en vol",
+      "explanation": "Ils fournissent une référence moins influencée par la pression immédiate.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "They provide a reference less influenced by immediate pressure.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "human_performance",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Guaranteeing favourable weather",
+        "Increasing endurance",
+        "Replacing the manual",
+        "Limiting pressure to continue in flight"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C03",
+      "concept_title": "Exemple de réévaluation",
+      "level": 1,
+      "question": "Que faire si un repère ressemble mais que temps et orientation ne concordent pas ?",
+      "question_en": "What should you do if a landmark looks similar but timing and orientation disagree?",
+      "options": [
+        "Annoncer une position certaine",
+        "Effacer le log",
+        "Remettre en question l'identification",
+        "Ignorer les incohérences"
+      ],
+      "correct_answer": "Remettre en question l'identification",
+      "explanation": "Plusieurs indices doivent confirmer une position.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "Several clues should confirm a position.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "human_performance",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Report a definite position",
+        "Erase the log",
+        "Question the identification",
+        "Ignore the inconsistencies"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C01",
+      "concept_title": "Limites de l'attention",
+      "level": 2,
+      "question": "En cherchant longuement une fréquence sur un écran, le pilote néglige sa trajectoire. Quel mécanisme illustre cette situation ?",
+      "question_en": "While searching a screen for a frequency, a pilot neglects the flight path. What does this illustrate?",
+      "options": [
+        "Une priorité normale de la radio sur le pilotage",
+        "Une fixation de l'attention sur une tâche secondaire",
+        "Une augmentation illimitée de la mémoire de travail",
+        "Une amélioration automatique de la surveillance"
+      ],
+      "correct_answer": "Une fixation de l'attention sur une tâche secondaire",
+      "explanation": "L'attention disponible est limitée. Une tâche absorbante peut faire négliger des informations essentielles ; la préparation et la gestion des priorités réduisent ce risque.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "Available attention is limited. An absorbing task can cause essential information to be missed; preparation and priority management reduce the risk.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "human_performance",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Radio's normal priority over flying",
+        "Attention fixated on a secondary task",
+        "Unlimited growth of working memory",
+        "Automatically improved lookout"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C02",
+      "concept_title": "Biais de décision",
+      "level": 2,
+      "question": "Le pilote poursuit malgré une météo qui se dégrade parce qu'il a déjà parcouru presque tout le trajet. Quel biais apparaît ?",
+      "question_en": "A pilot continues despite deteriorating weather because most of the route has already been flown. Which bias appears?",
+      "options": [
+        "La poursuite du plan",
+        "Une correction de dérive",
+        "Une désorientation magnétique",
+        "Une erreur de graduation altimétrique"
+      ],
+      "correct_answer": "La poursuite du plan",
+      "explanation": "L'investissement déjà réalisé peut pousser à maintenir le projet malgré de nouveaux éléments défavorables. Les critères de décision doivent porter sur les conditions actuelles et les options restantes.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "Previous investment can encourage maintaining the plan despite new adverse evidence. Decision criteria should address current conditions and remaining options.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "human_performance",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:human_performance"
+      ],
+      "options_en": [
+        "Plan continuation bias",
+        "A drift correction",
+        "Magnetic disorientation",
+        "An altimeter graduation error"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C01",
+      "concept_title": "Limites de l'attention",
+      "level": 2,
+      "question": "Vrai ou faux ? La mémoire de travail est limitée, notamment sous stress.",
+      "question_en": "True or false? Working memory is limited, especially under stress.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'attention est limitée : une tâche complexe peut masquer un changement pourtant visible. La fixation sur une panne, une fréquence ou un écran détourne des priorités. La mémoire de travail est également limitée, surtout sous stress. Préparation, checklists et organisation du cockpit réduisent les demandes simultanées plutôt que compter uniquement sur la volonté.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "This statement is true.\n\nAttention is limited: a complex task can conceal a change that is otherwise visible. Fixation on a failure, frequency or screen distracts from priorities. Working memory is also limited, particularly under stress. Preparation, checklists and cockpit organisation reduce simultaneous demands instead of relying solely on willpower.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C01",
+      "concept_title": "Limites de l'attention",
+      "level": 2,
+      "question": "Vrai ou faux ? La volonté seule garantit de traiter un nombre illimité de tâches.",
+      "question_en": "True or false? Willpower alone guarantees handling unlimited tasks.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'attention est limitée : une tâche complexe peut masquer un changement pourtant visible. La fixation sur une panne, une fréquence ou un écran détourne des priorités. La mémoire de travail est également limitée, surtout sous stress. Préparation, checklists et organisation du cockpit réduisent les demandes simultanées plutôt que compter uniquement sur la volonté.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "This statement is false.\n\nAttention is limited: a complex task can conceal a change that is otherwise visible. Fixation on a failure, frequency or screen distracts from priorities. Working memory is also limited, particularly under stress. Preparation, checklists and cockpit organisation reduce simultaneous demands instead of relying solely on willpower.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C01",
+      "concept_title": "Limites de l'attention",
+      "level": 2,
+      "question": "Vrai ou faux ? Une tâche complexe peut masquer un changement pourtant visible.",
+      "question_en": "True or false? A complex task can conceal an otherwise visible change.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'attention est limitée : une tâche complexe peut masquer un changement pourtant visible. La fixation sur une panne, une fréquence ou un écran détourne des priorités. La mémoire de travail est également limitée, surtout sous stress. Préparation, checklists et organisation du cockpit réduisent les demandes simultanées plutôt que compter uniquement sur la volonté.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "This statement is true.\n\nAttention is limited: a complex task can conceal a change that is otherwise visible. Fixation on a failure, frequency or screen distracts from priorities. Working memory is also limited, particularly under stress. Preparation, checklists and cockpit organisation reduce simultaneous demands instead of relying solely on willpower.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C02",
+      "concept_title": "Biais de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Le biais de confirmation incite surtout à rechercher des preuves contraires.",
+      "question_en": "True or false? Confirmation bias mainly encourages seeking contrary evidence.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe biais de confirmation pousse à rechercher les indices favorables à une hypothèse. La poursuite du plan peut conduire à continuer parce que le trajet est déjà engagé. Pour limiter ces biais, définir des critères d'arrêt à l'avance, chercher les éléments contradictoires et reformuler les options. La décision doit pouvoir évoluer lorsque les faits changent.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "This statement is false.\n\nConfirmation bias encourages seeking evidence that supports an assumption. Plan continuation bias may cause continuation simply because the journey has begun. To limit these biases, define stopping criteria in advance, seek contradictory evidence and reconsider the options. Decisions must be able to change when facts change.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C02",
+      "concept_title": "Biais de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Une décision doit pouvoir être révisée lorsque les faits changent.",
+      "question_en": "True or false? A decision must be revisable when facts change.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe biais de confirmation pousse à rechercher les indices favorables à une hypothèse. La poursuite du plan peut conduire à continuer parce que le trajet est déjà engagé. Pour limiter ces biais, définir des critères d'arrêt à l'avance, chercher les éléments contradictoires et reformuler les options. La décision doit pouvoir évoluer lorsque les faits changent.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "This statement is true.\n\nConfirmation bias encourages seeking evidence that supports an assumption. Plan continuation bias may cause continuation simply because the journey has begun. To limit these biases, define stopping criteria in advance, seek contradictory evidence and reconsider the options. Decisions must be able to change when facts change.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C02",
+      "concept_title": "Biais de décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Le temps déjà investi constitue à lui seul une justification suffisante pour poursuivre.",
+      "question_en": "True or false? Time already invested is by itself sufficient justification for continuing.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe biais de confirmation pousse à rechercher les indices favorables à une hypothèse. La poursuite du plan peut conduire à continuer parce que le trajet est déjà engagé. Pour limiter ces biais, définir des critères d'arrêt à l'avance, chercher les éléments contradictoires et reformuler les options. La décision doit pouvoir évoluer lorsque les faits changent.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "This statement is false.\n\nConfirmation bias encourages seeking evidence that supports an assumption. Plan continuation bias may cause continuation simply because the journey has begun. To limit these biases, define stopping criteria in advance, seek contradictory evidence and reconsider the options. Decisions must be able to change when facts change.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C03",
+      "concept_title": "Exemple de réévaluation",
+      "level": 2,
+      "question": "Vrai ou faux ? L'orientation d'un repère doit être confrontée au temps de passage.",
+      "question_en": "True or false? Landmark orientation should be compared with passage time.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe pilote pense avoir reconnu un lac mais l'heure de passage et l'orientation ne concordent pas. Au lieu de sélectionner seulement le détail ressemblant, vérifier plusieurs repères et accepter que la position estimée soit fausse. Réduire la charge de travail et demander de l'aide si nécessaire. Après le vol, analyser l'événement pour améliorer la méthode sans chercher un coupable.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "This statement is true.\n\nThe pilot believes a lake has been identified, but timing and orientation do not agree. Instead of selecting only the similar detail, check several landmarks and accept that the estimated position may be wrong. Reduce workload and ask for help if needed. After flight, analyse the event to improve the method rather than find someone to blame.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C03",
+      "concept_title": "Exemple de réévaluation",
+      "level": 2,
+      "question": "Vrai ou faux ? Un détail ressemblant permet d'ignorer tous les indices contradictoires.",
+      "question_en": "True or false? One resembling detail permits ignoring all contradictory clues.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe pilote pense avoir reconnu un lac mais l'heure de passage et l'orientation ne concordent pas. Au lieu de sélectionner seulement le détail ressemblant, vérifier plusieurs repères et accepter que la position estimée soit fausse. Réduire la charge de travail et demander de l'aide si nécessaire. Après le vol, analyser l'événement pour améliorer la méthode sans chercher un coupable.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "This statement is false.\n\nThe pilot believes a lake has been identified, but timing and orientation do not agree. Instead of selecting only the similar detail, check several landmarks and accept that the estimated position may be wrong. Reduce workload and ask for help if needed. After flight, analyse the event to improve the method rather than find someone to blame.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C03",
+      "concept_title": "Exemple de réévaluation",
+      "level": 2,
+      "question": "Vrai ou faux ? L'analyse après vol vise à améliorer la méthode.",
+      "question_en": "True or false? Post-flight analysis aims to improve the method.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe pilote pense avoir reconnu un lac mais l'heure de passage et l'orientation ne concordent pas. Au lieu de sélectionner seulement le détail ressemblant, vérifier plusieurs repères et accepter que la position estimée soit fausse. Réduire la charge de travail et demander de l'aide si nécessaire. Après le vol, analyser l'événement pour améliorer la méthode sans chercher un coupable.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "This statement is true.\n\nThe pilot believes a lake has been identified, but timing and orientation do not agree. Instead of selecting only the similar detail, check several landmarks and accept that the estimated position may be wrong. Reduce workload and ask for help if needed. After flight, analyse the event to improve the method rather than find someone to blame.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_HP_002_C03",
+      "concept_title": "Exemple de réévaluation",
+      "level": 2,
+      "question": "Vrai ou faux ? Réduire la charge de travail interdit de solliciter de l'aide.",
+      "question_en": "True or false? Reducing workload prevents requesting help.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe pilote pense avoir reconnu un lac mais l'heure de passage et l'orientation ne concordent pas. Au lieu de sélectionner seulement le détail ressemblant, vérifier plusieurs repères et accepter que la position estimée soit fausse. Réduire la charge de travail et demander de l'aide si nécessaire. Après le vol, analyser l'événement pour améliorer la méthode sans chercher un coupable.\n\n![Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage.](/illustrations/ppl-hp-002.svg)",
+      "explanation_en": "This statement is false.\n\nThe pilot believes a lake has been identified, but timing and orientation do not agree. Instead of selecting only the similar detail, check several landmarks and accept that the estimated position may be wrong. Reduce workload and ask for help if needed. After flight, analyse the event to improve the method rather than find someone to blame.\n\n![Diagram: Attention, bias and decision-making](/illustrations/en/ppl-hp-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "human_performance",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — human_performance",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    }
+  ]
+}

@@ -19,7 +19,7 @@ export const questionsApi = {
     apiClient.get<Question>(`/api/questions/${id}`),
 
   // GET  /api/questions/random?limit=N
-  random: (limit = 5) =>
+  random: (limit = 15) =>
     apiClient.get<{ questions: Question[] }>("/api/questions/random", { params: { limit } }),
 
   // GET  /api/questions/by-license/:license

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Givrage : relier les effets</title><desc id="desc">Givrage : relier les effets</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / IR / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Givrage : relier les effets</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">IR_ICING_EFFECTS</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="65" y="215" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Un dépôt local peut modifier tout le comportement</text>
+<path d="M110 365 C130 280 280 265 520 365 C300 400 140 400 110 365Z" fill="#254760" stroke="#edf5ff" stroke-width="3" stroke-linejoin="round" opacity="1"/>
+<path d="M112 353 L100 338 L121 336 L112 319 L138 322 L137 306 L158 311 L167 298" fill="none" stroke="#ffcd70" stroke-width="7" stroke-linejoin="round" opacity="1"/>
+<text x="65" y="264" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Dépôt / rugosité</text>
+<path d="M174 274L136 316" fill="none" stroke="#ffcd70" stroke-width="2"/>
+<text x="80" y="438" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Profil représentatif, sans échelle</text>
+<path d="M565 340L650 340" fill="none" stroke="#58dfed" stroke-width="4"/>
+<path d="M650.0 340.0L636.5 346.5L636.5 333.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="690" y="285" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Écoulement modifié</text>
+<text x="690" y="332" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Traînée possiblement accrue</text>
+<text x="690" y="379" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Portance max. peut diminuer</text>
+<text x="690" y="426" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Marges à réévaluer</text>
+<text x="65" y="500" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">IAS cohérente ≠ aile propre. Altitude stable ≠ marges préservées.</text>
+<text x="65" y="565" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Recouper les indices ; appliquer les procédures propres à l’avion.</text>
+</svg>

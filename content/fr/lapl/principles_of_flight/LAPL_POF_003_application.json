@@ -1,0 +1,621 @@
+{
+  "metadata": {
+    "module_id": "LAPL_POF_003",
+    "program": "LAPL",
+    "subject": "principles_of_flight",
+    "chapter_title": "Stabilité, finesse et effet de sol",
+    "chapter_title_en": "Stability, glide ratio and ground effect",
+    "learning_objective": "Expliquer et appliquer : stabilité statique et dynamique, centrage et contrôle longitudinal, traînée et finesse, effet de sol et dispositifs hypersustentateurs.",
+    "learning_objective_en": "Explain and apply: static and dynamic stability, centre of gravity and longitudinal control, drag and glide ratio, ground effect and high-lift devices.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 25,
+    "prerequisites": [],
+    "tags": [
+      "LAPL",
+      "principles_of_flight"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "Référence du chapitre",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-pof-003.svg",
+      "alt": "Stabilité, finesse et effet de sol"
+    },
+    "exam_subject": "principles_of_flight",
+    "coverage_status": "partial",
+    "derived_from": "PPL_POF_003",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_POF_003_C01",
+      "title": "Stabilité statique et dynamique",
+      "title_en": "Static and dynamic stability",
+      "content": "![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)\n\nAprès une perturbation et sans action du pilote, la stabilité statique décrit la tendance initiale : retour vers l’équilibre (positive), maintien du nouvel état (neutre), éloignement (négative). La stabilité dynamique décrit l’évolution au cours du temps : des oscillations qui diminuent sont amorties ; qui augmentent sont divergentes. Un retour initial vers l’équilibre ne garantit donc pas des oscillations amorties. Stabilité, manœuvrabilité et contrôle sont des notions distinctes.",
+      "content_en": "![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)\n\nAfter a disturbance with no pilot input, static stability describes the initial tendency: towards equilibrium (positive), remaining in the new state (neutral), or away (negative). Dynamic stability describes the time history: shrinking oscillations are damped; growing oscillations diverge. An initial return towards equilibrium therefore does not guarantee damping. Stability, manoeuvrability and control are different concepts.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "learning_objective": "Stabilité statique et dynamique"
+    },
+    {
+      "concept_id": "LAPL_POF_003_C02",
+      "title": "Centrage et contrôle longitudinal",
+      "title_en": "Centre of gravity and longitudinal control",
+      "content": "Sur un avion conventionnel, déplacer le centre de gravité vers l’arrière réduit généralement la marge de stabilité longitudinale. Au-delà de la limite arrière, la récupération du décrochage peut devenir difficile ou impossible. Un centrage avant peut demander davantage d’effort ou d’autorité à la profondeur et rendre l’arrondi difficile. Les deux limites comptent : rester sous la masse maximale ne prouve pas un centrage acceptable. Utiliser l’enveloppe du manuel.",
+      "content_en": "On a conventional aeroplane, moving the centre of gravity aft generally reduces longitudinal stability margin. Beyond the aft limit, stall recovery may become difficult or impossible. A forward CG may require more elevator force or authority and make the flare difficult. Both limits matter: being below maximum mass does not prove acceptable balance. Use the manual’s envelope.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "learning_objective": "Centrage et contrôle longitudinal"
+    },
+    {
+      "concept_id": "LAPL_POF_003_C03",
+      "title": "Traînée et finesse",
+      "title_en": "Drag and glide ratio",
+      "content": "À masse et configuration données en palier, la traînée induite domine aux faibles vitesses et diminue lorsque la vitesse augmente ; la traînée parasite augmente avec la vitesse. Leur somme présente un minimum. La finesse est le rapport portance/traînée ; en plané stabilisé sans vent elle est aussi le rapport distance horizontale/hauteur perdue. Une finesse de 10 permet théoriquement 10 km pour 1 km de hauteur, sans marge. Le vent de face diminue la distance sol accessible pour une même trajectoire dans l’air ; utiliser les vitesses et corrections du manuel.",
+      "content_en": "For a given mass and configuration in level flight, induced drag dominates at low speeds and decreases as speed increases; parasite drag increases with speed. Total drag has a minimum. Glide ratio is lift divided by drag; in a steady still-air glide it is also horizontal distance divided by height lost. A ratio of 10 theoretically gives 10 km from 1 km of height, without margin. A headwind reduces ground range for the same flight path through the air; use the manual’s speeds and corrections.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "learning_objective": "Traînée et finesse"
+    },
+    {
+      "concept_id": "LAPL_POF_003_C04",
+      "title": "Effet de sol et dispositifs hypersustentateurs",
+      "title_en": "Ground effect and high-lift devices",
+      "content": "Près du sol, la modification de l’écoulement autour de l’aile réduit la traînée induite pour une même portance. L’avion peut décoller dans l’effet de sol sans disposer d’une marge suffisante pour poursuivre la montée hors de cet effet. À l’atterrissage, un excès de vitesse peut prolonger le flottement. Les volets modifient la portance maximale, la traînée et souvent le moment de tangage ; leur position et leurs vitesses limites viennent du manuel, pas d’une règle universelle.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "Near the surface, altered wing airflow reduces induced drag for the same lift. An aircraft may lift off in ground effect without sufficient margin to continue climbing outside it. On landing, excess speed may prolong floating. Flaps change maximum lift, drag and often pitching moment; settings and speed limits come from the manual, not a universal rule.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "learning_objective": "Effet de sol et dispositifs hypersustentateurs"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_POF_003_C01",
+      "concept_title": "Stabilité statique et dynamique",
+      "level": 2,
+      "question": "Après une rafale, l’avion tend initialement à revenir à son équilibre. Quelle propriété décrit-on ?",
+      "question_en": "After a gust, the aircraft initially tends towards equilibrium. Which property is this?",
+      "options": [
+        "Stabilité statique positive",
+        "Stabilité statique négative",
+        "Absence de traînée",
+        "Centrage nécessairement arrière"
+      ],
+      "options_en": [
+        "Positive static stability",
+        "Negative static stability",
+        "Absence of drag",
+        "Necessarily aft CG"
+      ],
+      "correct_answer": "Stabilité statique positive",
+      "explanation": "La tendance initiale définit la stabilité statique.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "The initial tendency defines static stability.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C01",
+      "concept_title": "Stabilité statique et dynamique",
+      "level": 2,
+      "question": "Des oscillations diminuent progressivement après une perturbation. Elles sont…",
+      "question_en": "Oscillations progressively decrease after a disturbance. They are…",
+      "options": [
+        "Divergentes",
+        "De plus en plus énergétiques",
+        "Nécessairement dues à une panne moteur",
+        "Amorties"
+      ],
+      "options_en": [
+        "Divergent",
+        "Increasing in energy",
+        "Necessarily caused by engine failure",
+        "Damped"
+      ],
+      "correct_answer": "Amorties",
+      "explanation": "Une amplitude décroissante caractérise l’amortissement.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "Decreasing amplitude characterises damping.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C01",
+      "concept_title": "Stabilité statique et dynamique",
+      "level": 2,
+      "question": "Un retour initial est suivi d’oscillations croissantes. Quelle conclusion ?",
+      "question_en": "An initial return is followed by growing oscillations. What follows?",
+      "options": [
+        "La stabilité statique décrit toute l’évolution",
+        "La masse est nécessairement nulle",
+        "Le retour initial ne garantit pas la stabilité dynamique",
+        "L’avion est dynamiquement amorti"
+      ],
+      "options_en": [
+        "Static stability describes the entire time history",
+        "Mass must be zero",
+        "Initial return does not guarantee dynamic stability",
+        "The aircraft is dynamically damped"
+      ],
+      "correct_answer": "Le retour initial ne garantit pas la stabilité dynamique",
+      "explanation": "Il faut distinguer tendance initiale et évolution au cours du temps.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "Distinguish initial tendency from the time history.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C02",
+      "concept_title": "Centrage et contrôle longitudinal",
+      "level": 2,
+      "question": "Sur un avion conventionnel, reculer le centrage réduit généralement…",
+      "question_en": "On a conventional aeroplane, moving CG aft generally reduces…",
+      "options": [
+        "La longueur de piste",
+        "La marge de stabilité longitudinale",
+        "La vitesse du vent",
+        "La pression atmosphérique"
+      ],
+      "options_en": [
+        "Runway length",
+        "Longitudinal stability margin",
+        "Wind speed",
+        "Atmospheric pressure"
+      ],
+      "correct_answer": "La marge de stabilité longitudinale",
+      "explanation": "Le centrage modifie les moments et la marge de stabilité.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "CG changes moments and stability margin.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C02",
+      "concept_title": "Centrage et contrôle longitudinal",
+      "level": 2,
+      "question": "Un centrage trop avant peut notamment limiter…",
+      "question_en": "An excessively forward CG can notably limit…",
+      "options": [
+        "L’autorité disponible pour l’arrondi",
+        "La réception du GNSS uniquement",
+        "La température ISA",
+        "La visibilité météo"
+      ],
+      "options_en": [
+        "Available flare control authority",
+        "Only GNSS reception",
+        "ISA temperature",
+        "Weather visibility"
+      ],
+      "correct_answer": "L’autorité disponible pour l’arrondi",
+      "explanation": "L’autorité de profondeur doit suffire pour l’arrondi.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "Elevator authority must be sufficient for the flare.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C02",
+      "concept_title": "Centrage et contrôle longitudinal",
+      "level": 2,
+      "question": "Masse sous la limite, centrage hors enveloppe : le chargement est…",
+      "question_en": "Mass below its limit but CG outside the envelope: the loading is…",
+      "options": [
+        "Acceptable pour tout vol local",
+        "Acceptable par vent calme",
+        "Acceptable avec davantage de puissance",
+        "Non acceptable"
+      ],
+      "options_en": [
+        "Acceptable for every local flight",
+        "Acceptable in calm wind",
+        "Acceptable with more power",
+        "Unacceptable"
+      ],
+      "correct_answer": "Non acceptable",
+      "explanation": "Masse et centrage doivent respecter simultanément leurs limites.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "Mass and CG limits must both be met.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C03",
+      "concept_title": "Traînée et finesse",
+      "level": 2,
+      "question": "À faible vitesse en palier, quelle traînée devient particulièrement importante ?",
+      "question_en": "At low speed in level flight, which drag becomes particularly important?",
+      "options": [
+        "Nulle",
+        "Indépendante de la portance",
+        "Induite",
+        "Parasite uniquement"
+      ],
+      "options_en": [
+        "Zero",
+        "Independent of lift",
+        "Induced",
+        "Parasite only"
+      ],
+      "correct_answer": "Induite",
+      "explanation": "La production de portance à faible vitesse accroît la part induite.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "Producing lift at low speed increases induced drag.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C03",
+      "concept_title": "Traînée et finesse",
+      "level": 2,
+      "question": "Quand la vitesse augmente fortement, la traînée parasite…",
+      "question_en": "As speed increases substantially, parasite drag…",
+      "options": [
+        "Reste nécessairement constante",
+        "Augmente",
+        "Disparaît",
+        "Devient toujours négative"
+      ],
+      "options_en": [
+        "Necessarily stays constant",
+        "Increases",
+        "Disappears",
+        "Always becomes negative"
+      ],
+      "correct_answer": "Augmente",
+      "explanation": "La traînée parasite augmente avec la vitesse.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "Parasite drag increases with speed.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C03",
+      "concept_title": "Traînée et finesse",
+      "level": 2,
+      "question": "Finesse 10, hauteur utilisable 600 m, air calme : portée théorique ?",
+      "question_en": "Glide ratio 10, usable height 600 m, still air: theoretical range?",
+      "options": [
+        "6 km",
+        "600 km",
+        "60 m",
+        "0,6 km"
+      ],
+      "options_en": [
+        "6 km",
+        "600 km",
+        "60 m",
+        "0.6 km"
+      ],
+      "correct_answer": "6 km",
+      "explanation": "10 × 600 m = 6 000 m ; aucune marge n’est incluse.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "10 × 600 m = 6,000 m; no margin is included.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C03",
+      "concept_title": "Traînée et finesse",
+      "level": 2,
+      "question": "À trajectoire identique dans l’air, un vent de face modifie la portée sol en la…",
+      "question_en": "For the same flight path through the air, a headwind makes ground range…",
+      "options": [
+        "Doublant toujours",
+        "Laissant inchangée",
+        "Rendant infinie",
+        "Réduisant"
+      ],
+      "options_en": [
+        "Always twice as long",
+        "Unchanged",
+        "Infinite",
+        "Shorter"
+      ],
+      "correct_answer": "Réduisant",
+      "explanation": "Le déplacement sol est réduit par le vent de face.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "Headwind reduces displacement over the ground.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C03",
+      "concept_title": "Traînée et finesse",
+      "level": 2,
+      "question": "Une finesse théorique garantit-elle l’atteinte d’un terrain ?",
+      "question_en": "Does a theoretical glide ratio guarantee reaching an airfield?",
+      "options": [
+        "Oui, sans hauteur disponible",
+        "Oui, si le terrain est visible",
+        "Non, vent, trajectoire et marges comptent",
+        "Oui, quelle que soit la configuration"
+      ],
+      "options_en": [
+        "Yes, with no available height",
+        "Yes, if the field is visible",
+        "No, wind, flight path and margins matter",
+        "Yes, regardless of configuration"
+      ],
+      "correct_answer": "Non, vent, trajectoire et marges comptent",
+      "explanation": "La valeur théorique ne comprend ni manœuvres ni marges.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "The theoretical value includes neither manoeuvring nor margins.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C04",
+      "concept_title": "Effet de sol et dispositifs hypersustentateurs",
+      "level": 2,
+      "question": "L’effet de sol réduit principalement, à portance égale…",
+      "question_en": "For the same lift, ground effect primarily reduces…",
+      "options": [
+        "La pression des pneus",
+        "La traînée induite",
+        "La masse de l’avion",
+        "La température extérieure"
+      ],
+      "options_en": [
+        "Tyre pressure",
+        "Induced drag",
+        "Aircraft mass",
+        "Outside temperature"
+      ],
+      "correct_answer": "La traînée induite",
+      "explanation": "La proximité du sol modifie l’écoulement et la traînée induite.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "Surface proximity changes airflow and induced drag.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C04",
+      "concept_title": "Effet de sol et dispositifs hypersustentateurs",
+      "level": 2,
+      "question": "Un avion quitte la piste mais ne monte pas hors effet de sol. Quel raisonnement est correct ?",
+      "question_en": "An aircraft lifts off but cannot climb out of ground effect. Which reasoning is correct?",
+      "options": [
+        "Le décollage initial ne prouve pas une marge de montée suffisante",
+        "L’effet de sol augmente nécessairement la masse",
+        "Le sol garantit toujours la montée",
+        "La vitesse limite des volets disparaît"
+      ],
+      "options_en": [
+        "Initial lift-off does not prove sufficient climb margin",
+        "Ground effect necessarily increases mass",
+        "The surface always guarantees a climb",
+        "The flap speed limit disappears"
+      ],
+      "correct_answer": "Le décollage initial ne prouve pas une marge de montée suffisante",
+      "explanation": "La traînée augmente en quittant l’effet de sol ; il faut la performance prévue au manuel.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "Drag increases when leaving ground effect; manual performance requirements still apply.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C04",
+      "concept_title": "Effet de sol et dispositifs hypersustentateurs",
+      "level": 2,
+      "question": "Un excès de vitesse à l’arrondi risque de…",
+      "question_en": "Excess speed during the flare may…",
+      "options": [
+        "Réduire toujours la distance d’atterrissage",
+        "Supprimer l’effet de sol",
+        "Autoriser toute configuration de volets",
+        "Prolonger le flottement"
+      ],
+      "options_en": [
+        "Always shorten landing distance",
+        "Eliminate ground effect",
+        "Permit any flap setting",
+        "Prolong floating"
+      ],
+      "correct_answer": "Prolonger le flottement",
+      "explanation": "L’excès d’énergie peut allonger le flottement.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "Excess energy can prolong floating.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_POF_003_C04",
+      "concept_title": "Effet de sol et dispositifs hypersustentateurs",
+      "level": 2,
+      "question": "Quelle référence détermine la vitesse maximale avec volets sortis ?",
+      "question_en": "Which reference determines maximum speed with flaps extended?",
+      "options": [
+        "Le QNH seul",
+        "Le nombre de passagers seul",
+        "Le manuel applicable",
+        "La finesse seule"
+      ],
+      "options_en": [
+        "QNH alone",
+        "Passenger count alone",
+        "The applicable manual",
+        "Glide ratio alone"
+      ],
+      "correct_answer": "Le manuel applicable",
+      "explanation": "Respecter les limites de configuration publiées.\n\n![Stabilité, finesse et effet de sol](/illustrations/lapl-pof-003.svg)",
+      "explanation_en": "Observe published configuration limits.\n\n![PPL_POF_003](/illustrations/en/lapl-pof-003.svg)",
+      "tags": [
+        "LAPL",
+        "alignment-2026-09",
+        "exam-mcq",
+        "exam-subject:principles_of_flight"
+      ],
+      "exam_subject": "principles_of_flight",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — principles_of_flight",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-5-aerodynamics-flight",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

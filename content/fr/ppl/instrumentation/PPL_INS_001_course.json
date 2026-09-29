@@ -1,0 +1,556 @@
+{
+  "metadata": {
+    "module_id": "PPL_INS_001",
+    "program": "PPL",
+    "subject": "Instrumentation",
+    "chapter_title": "Vitesse indiquée, corrigée, vraie et vitesse sol",
+    "chapter_title_en": "Indicated, calibrated, true and ground speed",
+    "learning_objective": "Associer chaque vitesse à son usage et calculer un temps de trajet avec la bonne référence.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: what the pilot reads; speed through the air; the speed needed for journey time; example and an error to avoid.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 15,
+    "prerequisites": [
+      "PPL_AC_004",
+      "PPL_NAV_001"
+    ],
+    "tags": [
+      "instrumentation",
+      "PPL"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-16",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — Safety Briefing, distinctions IAS, CAS et TAS",
+        "url": "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-ins-001.svg",
+      "alt": "Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol."
+    },
+    "exam_subject": "aircraft_general",
+    "coverage_status": "partial"
+  },
+  "concepts": [
+    {
+      "concept_id": "PPL_INS_001_C01",
+      "title": "Ce que lit le pilote",
+      "title_en": "What the pilot reads",
+      "content": "![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)\n\nL'IAS est la vitesse indiquée par l'anémomètre. La CAS correspond à l'IAS corrigée des erreurs instrumentales et de position selon les données de l'avion. Ces erreurs peuvent varier avec la vitesse et la configuration. La vitesse équivalente, EAS, ajoute une correction de compressibilité ; aux vitesses usuelles d'un avion école léger, cet effet est généralement faible. Une limitation doit toujours être utilisée dans la définition et l'unité indiquées par le constructeur.",
+      "content_en": "![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)\n\nIAS is the airspeed indicator reading. CAS is IAS corrected for instrument and position errors using aircraft data. These errors may vary with speed and configuration. Equivalent airspeed, EAS, includes a compressibility correction; at typical light training aircraft speeds this effect is generally small. Always use a limitation with the definition and unit specified by the manufacturer.",
+      "difficulty": "intermediate",
+      "tags": [
+        "instrumentation",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Ce que lit le pilote"
+    },
+    {
+      "concept_id": "PPL_INS_001_C02",
+      "title": "La vitesse dans l'air",
+      "title_en": "Speed through the air",
+      "content": "La TAS est la vitesse vraie de l'avion par rapport à la masse d'air. Pour convertir une vitesse corrigée en TAS, il faut tenir compte des conditions atmosphériques et des corrections pertinentes. Une faible densité peut rendre la TAS sensiblement supérieure à l'IAS. Un anémomètre ne mesure donc pas directement la distance parcourue au-dessus du sol pendant une heure. Sur un écran, vérifier l'étiquette du nombre affiché plutôt que supposer que toutes les vitesses sont identiques.",
+      "content_en": "TAS is the aircraft's true speed relative to the air mass. Converting corrected airspeed to TAS requires atmospheric conditions and the relevant corrections. Low density may make TAS appreciably higher than IAS. The airspeed indicator therefore does not directly measure the distance covered over the ground in an hour. Check the label beside a displayed number instead of assuming all speeds are identical.",
+      "difficulty": "intermediate",
+      "tags": [
+        "instrumentation",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "La vitesse dans l'air"
+    },
+    {
+      "concept_id": "PPL_INS_001_C03",
+      "title": "La vitesse utile au temps de trajet",
+      "title_en": "The speed needed for journey time",
+      "content": "La vitesse sol combine la vitesse vraie et le vent comme des vecteurs. Dans le cas particulier d'un vent exactement dans l'axe, une TAS de 110 kt et un vent de face de 20 kt donnent 90 kt sol. Avec 20 kt de vent arrière, la vitesse sol devient 130 kt. Avec un vent traversier, il faut résoudre la géométrie du vent ; soustraire toute sa valeur serait incorrect. La dérive modifie aussi le cap nécessaire pour suivre la route.",
+      "content_en": "Ground velocity combines true airspeed and wind as vectors. For wind exactly along the track, TAS 110 kt and a 20 kt headwind give 90 kt groundspeed. A 20 kt tailwind gives 130 kt. With crosswind, solve the wind geometry; subtracting the full wind speed would be wrong. Drift also changes the heading needed to follow the track.",
+      "difficulty": "intermediate",
+      "tags": [
+        "instrumentation",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "La vitesse utile au temps de trajet"
+    },
+    {
+      "concept_id": "PPL_INS_001_C04",
+      "title": "Exemple et erreur à éviter",
+      "title_en": "Example and an error to avoid",
+      "content": "Pour parcourir 45 NM à 90 kt sol, il faut 30 minutes. Prendre une IAS de 100 kt dans ce calcul donnerait 27 minutes et sous-estimerait la durée dans cet exemple. En revanche, une vitesse d'approche publiée en IAS doit être suivie avec la référence appropriée, pas remplacée par la vitesse GNSS au sol. Deux avions peuvent avoir la même IAS et des vitesses sol différentes ; cela ne prouve pas une panne d'instrument.",
+      "content_en": "Covering 45 NM at 90 kt groundspeed takes 30 minutes. Using IAS 100 kt would give 27 minutes and underestimate duration in this example. Conversely, an approach speed published as IAS must be followed using the proper reference, not replaced by GNSS groundspeed. Two aircraft can have the same IAS and different groundspeeds; this does not prove an instrument failure.",
+      "difficulty": "intermediate",
+      "tags": [
+        "instrumentation",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Exemple et erreur à éviter"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_INS_001_C01",
+      "concept_title": "Ce que lit le pilote",
+      "level": 2,
+      "question": "La CAS correspond à…",
+      "question_en": "CAS corresponds to…",
+      "options": [
+        "La vitesse GNSS",
+        "La TAS augmentée du vent",
+        "Une vitesse verticale",
+        "L'IAS corrigée des erreurs instrumentales et de position"
+      ],
+      "correct_answer": "L'IAS corrigée des erreurs instrumentales et de position",
+      "explanation": "Les données de correction dépendent de l'installation de l'avion.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "Correction data depend on the aircraft installation.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "instrumentation",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "GNSS speed",
+        "TAS plus wind",
+        "A vertical speed",
+        "IAS corrected for instrument and position errors"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C02",
+      "concept_title": "La vitesse dans l'air",
+      "level": 2,
+      "question": "La TAS est une vitesse par rapport…",
+      "question_en": "TAS is speed relative to…",
+      "options": [
+        "Au nord magnétique",
+        "Au centre de gravité",
+        "À la masse d'air",
+        "Au terrain uniquement"
+      ],
+      "correct_answer": "À la masse d'air",
+      "explanation": "La vitesse vraie décrit le déplacement de l'avion dans l'air.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "True airspeed describes the aircraft's movement through the air.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "instrumentation",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Magnetic north",
+        "The centre of gravity",
+        "The air mass",
+        "Only the terrain"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C03",
+      "concept_title": "La vitesse utile au temps de trajet",
+      "level": 2,
+      "question": "TAS 110 kt et vent de face exactement dans l'axe de 20 kt : vitesse sol ?",
+      "question_en": "TAS 110 kt and a 20 kt headwind exactly along track: what is groundspeed?",
+      "options": [
+        "100 kt",
+        "90 kt",
+        "110 kt",
+        "130 kt"
+      ],
+      "correct_answer": "90 kt",
+      "explanation": "Dans ce cas axial, on retranche 20 kt à 110 kt.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "In this along-track case, subtract 20 kt from 110 kt.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "instrumentation",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "100 kt",
+        "90 kt",
+        "110 kt",
+        "130 kt"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C04",
+      "concept_title": "Exemple et erreur à éviter",
+      "level": 2,
+      "question": "Combien de temps pour 45 NM à 90 kt sol ?",
+      "question_en": "How long does 45 NM take at 90 kt groundspeed?",
+      "options": [
+        "30 minutes",
+        "27 minutes",
+        "40 minutes",
+        "45 minutes"
+      ],
+      "correct_answer": "30 minutes",
+      "explanation": "60 × 45 / 90 = 30 minutes.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "60 × 45 / 90 = 30 minutes.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "instrumentation",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "30 minutes",
+        "27 minutes",
+        "40 minutes",
+        "45 minutes"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C04",
+      "concept_title": "Exemple et erreur à éviter",
+      "level": 2,
+      "question": "Peut-on remplacer une vitesse d'approche en IAS par la valeur GNSS ?",
+      "question_en": "Can an IAS approach speed be replaced with a GNSS value?",
+      "options": [
+        "Oui par vent arrière",
+        "Oui si les deux nombres sont en kt",
+        "Oui si la tablette est récente",
+        "Non, les références sont différentes"
+      ],
+      "correct_answer": "Non, les références sont différentes",
+      "explanation": "Le vent et les conditions atmosphériques séparent vitesse indiquée et vitesse sol.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "Wind and atmospheric conditions distinguish indicated airspeed from groundspeed.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "instrumentation",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Yes, with tailwind",
+        "Yes, if both numbers are in kt",
+        "Yes, with a recent tablet",
+        "No, the references differ"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C01",
+      "concept_title": "Ce que lit le pilote",
+      "level": 2,
+      "question": "Vrai ou faux ? Les corrections de position peuvent varier avec la configuration.",
+      "question_en": "True or false? Position-error corrections may vary with configuration.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'IAS est la vitesse indiquée par l'anémomètre. La CAS correspond à l'IAS corrigée des erreurs instrumentales et de position selon les données de l'avion. Ces erreurs peuvent varier avec la vitesse et la configuration. La vitesse équivalente, EAS, ajoute une correction de compressibilité ; aux vitesses usuelles d'un avion école léger, cet effet est généralement faible. Une limitation doit toujours être utilisée dans la définition et l'unité indiquées par le constructeur.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "This statement is true.\n\nIAS is the airspeed indicator reading. CAS is IAS corrected for instrument and position errors using aircraft data. These errors may vary with speed and configuration. Equivalent airspeed, EAS, includes a compressibility correction; at typical light training aircraft speeds this effect is generally small. Always use a limitation with the definition and unit specified by the manufacturer.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C01",
+      "concept_title": "Ce que lit le pilote",
+      "level": 2,
+      "question": "Vrai ou faux ? EAS désigne exclusivement une vitesse verticale.",
+      "question_en": "True or false? EAS refers exclusively to a vertical speed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'IAS est la vitesse indiquée par l'anémomètre. La CAS correspond à l'IAS corrigée des erreurs instrumentales et de position selon les données de l'avion. Ces erreurs peuvent varier avec la vitesse et la configuration. La vitesse équivalente, EAS, ajoute une correction de compressibilité ; aux vitesses usuelles d'un avion école léger, cet effet est généralement faible. Une limitation doit toujours être utilisée dans la définition et l'unité indiquées par le constructeur.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "This statement is false.\n\nIAS is the airspeed indicator reading. CAS is IAS corrected for instrument and position errors using aircraft data. These errors may vary with speed and configuration. Equivalent airspeed, EAS, includes a compressibility correction; at typical light training aircraft speeds this effect is generally small. Always use a limitation with the definition and unit specified by the manufacturer.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C01",
+      "concept_title": "Ce que lit le pilote",
+      "level": 2,
+      "question": "Vrai ou faux ? L'effet de compressibilité est généralement faible aux vitesses usuelles d'un avion léger école.",
+      "question_en": "True or false? Compressibility is generally small at typical light training aircraft speeds.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'IAS est la vitesse indiquée par l'anémomètre. La CAS correspond à l'IAS corrigée des erreurs instrumentales et de position selon les données de l'avion. Ces erreurs peuvent varier avec la vitesse et la configuration. La vitesse équivalente, EAS, ajoute une correction de compressibilité ; aux vitesses usuelles d'un avion école léger, cet effet est généralement faible. Une limitation doit toujours être utilisée dans la définition et l'unité indiquées par le constructeur.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "This statement is true.\n\nIAS is the airspeed indicator reading. CAS is IAS corrected for instrument and position errors using aircraft data. These errors may vary with speed and configuration. Equivalent airspeed, EAS, includes a compressibility correction; at typical light training aircraft speeds this effect is generally small. Always use a limitation with the definition and unit specified by the manufacturer.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C02",
+      "concept_title": "La vitesse dans l'air",
+      "level": 2,
+      "question": "Vrai ou faux ? Une faible densité impose toujours une TAS égale à l'IAS.",
+      "question_en": "True or false? Low density always makes TAS equal IAS.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa TAS est la vitesse vraie de l'avion par rapport à la masse d'air. Pour convertir une vitesse corrigée en TAS, il faut tenir compte des conditions atmosphériques et des corrections pertinentes. Une faible densité peut rendre la TAS sensiblement supérieure à l'IAS. Un anémomètre ne mesure donc pas directement la distance parcourue au-dessus du sol pendant une heure. Sur un écran, vérifier l'étiquette du nombre affiché plutôt que supposer que toutes les vitesses sont identiques.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "This statement is false.\n\nTAS is the aircraft's true speed relative to the air mass. Converting corrected airspeed to TAS requires atmospheric conditions and the relevant corrections. Low density may make TAS appreciably higher than IAS. The airspeed indicator therefore does not directly measure the distance covered over the ground in an hour. Check the label beside a displayed number instead of assuming all speeds are identical.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C02",
+      "concept_title": "La vitesse dans l'air",
+      "level": 2,
+      "question": "Vrai ou faux ? L'étiquette d'une vitesse affichée doit être vérifiée.",
+      "question_en": "True or false? The label of a displayed speed must be checked.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa TAS est la vitesse vraie de l'avion par rapport à la masse d'air. Pour convertir une vitesse corrigée en TAS, il faut tenir compte des conditions atmosphériques et des corrections pertinentes. Une faible densité peut rendre la TAS sensiblement supérieure à l'IAS. Un anémomètre ne mesure donc pas directement la distance parcourue au-dessus du sol pendant une heure. Sur un écran, vérifier l'étiquette du nombre affiché plutôt que supposer que toutes les vitesses sont identiques.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "This statement is true.\n\nTAS is the aircraft's true speed relative to the air mass. Converting corrected airspeed to TAS requires atmospheric conditions and the relevant corrections. Low density may make TAS appreciably higher than IAS. The airspeed indicator therefore does not directly measure the distance covered over the ground in an hour. Check the label beside a displayed number instead of assuming all speeds are identical.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C03",
+      "concept_title": "La vitesse utile au temps de trajet",
+      "level": 2,
+      "question": "Vrai ou faux ? Avec un vent traversier, soustraire toute sa vitesse à la TAS donne toujours la vitesse sol.",
+      "question_en": "True or false? With crosswind, subtracting its full speed from TAS always gives groundspeed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa vitesse sol combine la vitesse vraie et le vent comme des vecteurs. Dans le cas particulier d'un vent exactement dans l'axe, une TAS de 110 kt et un vent de face de 20 kt donnent 90 kt sol. Avec 20 kt de vent arrière, la vitesse sol devient 130 kt. Avec un vent traversier, il faut résoudre la géométrie du vent ; soustraire toute sa valeur serait incorrect. La dérive modifie aussi le cap nécessaire pour suivre la route.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "This statement is false.\n\nGround velocity combines true airspeed and wind as vectors. For wind exactly along the track, TAS 110 kt and a 20 kt headwind give 90 kt groundspeed. A 20 kt tailwind gives 130 kt. With crosswind, solve the wind geometry; subtracting the full wind speed would be wrong. Drift also changes the heading needed to follow the track.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C03",
+      "concept_title": "La vitesse utile au temps de trajet",
+      "level": 2,
+      "question": "Vrai ou faux ? TAS 110 kt et vent arrière exactement aligné de 20 kt donnent 130 kt sol.",
+      "question_en": "True or false? TAS 110 kt and an exactly aligned 20 kt tailwind give 130 kt groundspeed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa vitesse sol combine la vitesse vraie et le vent comme des vecteurs. Dans le cas particulier d'un vent exactement dans l'axe, une TAS de 110 kt et un vent de face de 20 kt donnent 90 kt sol. Avec 20 kt de vent arrière, la vitesse sol devient 130 kt. Avec un vent traversier, il faut résoudre la géométrie du vent ; soustraire toute sa valeur serait incorrect. La dérive modifie aussi le cap nécessaire pour suivre la route.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "This statement is true.\n\nGround velocity combines true airspeed and wind as vectors. For wind exactly along the track, TAS 110 kt and a 20 kt headwind give 90 kt groundspeed. A 20 kt tailwind gives 130 kt. With crosswind, solve the wind geometry; subtracting the full wind speed would be wrong. Drift also changes the heading needed to follow the track.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C04",
+      "concept_title": "Exemple et erreur à éviter",
+      "level": 2,
+      "question": "Vrai ou faux ? Deux avions à même IAS doivent toujours avoir la même vitesse sol.",
+      "question_en": "True or false? Two aircraft with equal IAS must always have equal groundspeed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nPour parcourir 45 NM à 90 kt sol, il faut 30 minutes. Prendre une IAS de 100 kt dans ce calcul donnerait 27 minutes et sous-estimerait la durée dans cet exemple. En revanche, une vitesse d'approche publiée en IAS doit être suivie avec la référence appropriée, pas remplacée par la vitesse GNSS au sol. Deux avions peuvent avoir la même IAS et des vitesses sol différentes ; cela ne prouve pas une panne d'instrument.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "This statement is false.\n\nCovering 45 NM at 90 kt groundspeed takes 30 minutes. Using IAS 100 kt would give 27 minutes and underestimate duration in this example. Conversely, an approach speed published as IAS must be followed using the proper reference, not replaced by GNSS groundspeed. Two aircraft can have the same IAS and different groundspeeds; this does not prove an instrument failure.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C04",
+      "concept_title": "Exemple et erreur à éviter",
+      "level": 2,
+      "question": "Vrai ou faux ? Un tronçon de 60 NM à 120 kt sol dure 30 minutes.\n\n![Branche de 60 NM entre A et B, vitesse sol constante de 120 kt. Durée à déterminer.](/illustrations/quiz-ppl-ins-001-14.svg)",
+      "question_en": "True or false? A 60 NM leg at 120 kt groundspeed takes 30 minutes.\n\n![Exercise data: Indicated, calibrated, true and ground speed](/illustrations/en/quiz-ppl-ins-001-14.svg)",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\n60 × 60 / 120 = 30 minutes.\n\nPour parcourir 45 NM à 90 kt sol, il faut 30 minutes. Prendre une IAS de 100 kt dans ce calcul donnerait 27 minutes et sous-estimerait la durée dans cet exemple. En revanche, une vitesse d'approche publiée en IAS doit être suivie avec la référence appropriée, pas remplacée par la vitesse GNSS au sol. Deux avions peuvent avoir la même IAS et des vitesses sol différentes ; cela ne prouve pas une panne d'instrument.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "This statement is true.\n\n60 × 60 / 120 = 30 minutes.\n\nCovering 45 NM at 90 kt groundspeed takes 30 minutes. Using IAS 100 kt would give 27 minutes and underestimate duration in this example. Conversely, an approach speed published as IAS must be followed using the proper reference, not replaced by GNSS groundspeed. Two aircraft can have the same IAS and different groundspeeds; this does not prove an instrument failure.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    },
+    {
+      "concept_id": "PPL_INS_001_C04",
+      "concept_title": "Exemple et erreur à éviter",
+      "level": 2,
+      "question": "Vrai ou faux ? Un tronçon de 30 NM à 60 kt sol dure 15 minutes.\n\n![Branche de 30 NM entre A et B, vitesse sol constante de 60 kt. Durée à déterminer.](/illustrations/quiz-ppl-ins-001-15.svg)",
+      "question_en": "True or false? A 30 NM leg at 60 kt groundspeed takes 15 minutes.\n\n![Exercise data: Indicated, calibrated, true and ground speed](/illustrations/en/quiz-ppl-ins-001-15.svg)",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\n60 × 30 / 60 = 30 minutes, et non 15.\n\nPour parcourir 45 NM à 90 kt sol, il faut 30 minutes. Prendre une IAS de 100 kt dans ce calcul donnerait 27 minutes et sous-estimerait la durée dans cet exemple. En revanche, une vitesse d'approche publiée en IAS doit être suivie avec la référence appropriée, pas remplacée par la vitesse GNSS au sol. Deux avions peuvent avoir la même IAS et des vitesses sol différentes ; cela ne prouve pas une panne d'instrument.\n\n![Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol.](/illustrations/ppl-ins-001.svg)",
+      "explanation_en": "This statement is false.\n\n60 × 30 / 60 = 30 minutes, not 15.\n\nCovering 45 NM at 90 kt groundspeed takes 30 minutes. Using IAS 100 kt would give 27 minutes and underestimate duration in this example. Conversely, an approach speed published as IAS must be followed using the proper reference, not replaced by GNSS groundspeed. Two aircraft can have the same IAS and different groundspeeds; this does not prove an instrument failure.\n\n![Diagram: Indicated, calibrated, true and ground speed](/illustrations/en/ppl-ins-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-01/SepOct2010_0.pdf"
+      ]
+    }
+  ]
+}

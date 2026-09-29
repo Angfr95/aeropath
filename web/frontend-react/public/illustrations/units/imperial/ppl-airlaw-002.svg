@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Identifier le cadre réglementaire</title><desc id="desc">Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Identifier le cadre réglementaire</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Une licence, un aéronef et un lieu de vol : des exigences à recouper.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_AIRLAW_002</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<rect x="60" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<circle cx="118" cy="274" r="37" fill="#14253b" stroke="#58dfed" stroke-width="3"/>
+<ellipse cx="118" cy="274" rx="16" ry="37" fill="none" stroke="#58dfed" stroke-width="2"/>
+<path d="M83 274L153 274" fill="none" stroke="#58dfed" stroke-width="2"/>
+<path d="M89 254L147 254" fill="none" stroke="#58dfed" stroke-width="2"/>
+<path d="M89 294L147 294" fill="none" stroke="#58dfed" stroke-width="2"/>
+<text x="365" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">01</text>
+<text x="84" y="357" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Cadre européen</text>
+<text x="84" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">EASA et autorités</text>
+<text x="84" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">compétentes : licences,</text>
+<text x="84" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">opérations et</text>
+<text x="84" y="507" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">navigabilité.</text>
+<rect x="425" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<circle cx="483" cy="274" r="37" fill="#14253b" stroke="#ffcd70" stroke-width="3"/>
+<ellipse cx="483" cy="274" rx="16" ry="37" fill="none" stroke="#ffcd70" stroke-width="2"/>
+<path d="M448 274L518 274" fill="none" stroke="#ffcd70" stroke-width="2"/>
+<path d="M454 254L512 254" fill="none" stroke="#ffcd70" stroke-width="2"/>
+<path d="M454 294L512 294" fill="none" stroke="#ffcd70" stroke-width="2"/>
+<text x="730" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">02</text>
+<text x="449" y="357" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Cadre américain</text>
+<text x="449" y="411" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">FAA : règles, titres et</text>
+<text x="449" y="443" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">conditions propres au</text>
+<text x="449" y="475" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">système américain.</text>
+<rect x="790" y="208" width="350" height="368" rx="14" fill="#192d45" stroke="#324963"/>
+<rect x="818" y="236" width="60" height="76" rx="6" fill="#14253b" stroke="#bbabff"/>
+<path d="M831 257L865 257" fill="none" stroke="#bbabff" stroke-width="3"/>
+<path d="M831 274L865 274" fill="none" stroke="#bbabff" stroke-width="3"/>
+<path d="M831 291L865 291" fill="none" stroke="#bbabff" stroke-width="3"/>
+<text x="1095" y="241" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="end">03</text>
+<text x="814" y="357" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Passer d’un cadre à</text>
+<text x="814" y="391" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">l’autre</text>
+<text x="814" y="445" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Vérifier reconnaissance,</text>
+<text x="814" y="477" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">validation ou conversion</text>
+<text x="814" y="509" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">et privilèges.</text>
+</svg>

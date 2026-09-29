@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="852" viewBox="0 0 1200 852" role="img" aria-labelledby="title desc"><title id="title">Fuel: compare three options</title><desc id="desc">Fuel: compare three options</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / CPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Fuel: compare three options</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Fictional exercise · Diagram not to scale</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">CPL_033_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Read the diagram with the lesson explanations and references.</text>
+<text x="65" y="216" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Usable remaining: 58 L · Arrival protection: 24 L</text>
+<text x="65" y="280" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Option</text>
+<text x="205" y="280" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Time</text>
+<text x="405" y="280" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Flow</text>
+<text x="640" y="280" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Approach*</text>
+<text x="885" y="280" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Suitability</text>
+<text x="65" y="344" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">A</text>
+<text x="205" y="344" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">40 min</text>
+<text x="405" y="344" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">42 L/h</text>
+<text x="640" y="344" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">4 L</text>
+<text x="885" y="344" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Suitable</text>
+<path d="M65 363L1125 363" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="414" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">B</text>
+<text x="205" y="414" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">30 min</text>
+<text x="405" y="414" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">42 L/h</text>
+<text x="640" y="414" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">4 L</text>
+<text x="885" y="414" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Unsuitable runway</text>
+<path d="M65 433L1125 433" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="484" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">C</text>
+<text x="205" y="484" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">50 min</text>
+<text x="405" y="484" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">42 L/h</text>
+<text x="640" y="484" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">4 L</text>
+<text x="885" y="484" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Suitable</text>
+<path d="M65 503L1125 503" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="544" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">* Add separately: excluded from the stated time.</text>
+<text x="65" y="587" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Fictional assumptions · Routes A and C also suitable.</text>
+<rect x="0" y="720" width="1200" height="132" fill="#10243d"/><text x="42" y="754" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18">Rounded equivalents · original values retained for calculations</text><text x="42" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">58 L ≈ 15.32 US gal</text><text x="432" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">24 L ≈ 6.34 US gal</text><text x="822" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">42 L/h ≈ 11.1 US gal/h</text><text x="42" y="816" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">4 L ≈ 1.06 US gal</text></svg>

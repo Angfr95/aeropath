@@ -1,0 +1,573 @@
+{
+  "metadata": {
+    "module_id": "LAPL_INS_002",
+    "program": "LAPL",
+    "subject": "Instrumentation",
+    "chapter_title": "Recouper les instruments et reconnaître une indication douteuse",
+    "chapter_title_en": "Cross-checking instruments and unreliable indications",
+    "learning_objective": "Relier les instruments à leurs sources et éviter de prendre plusieurs affichages communs pour des mesures indépendantes.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: trace the source; understanding static blockage; making a consistent cross-check; case study.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 15,
+    "prerequisites": [
+      "PPL_AC_004"
+    ],
+    "tags": [
+      "LAPL",
+      "instrumentation"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "FAA — Instrument Flying Handbook, systèmes Pitot-statiques",
+        "url": "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-ins-002.svg",
+      "alt": "Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé."
+    },
+    "exam_subject": "aircraft_general",
+    "coverage_status": "partial",
+    "derived_from": "PPL_INS_002",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_INS_002_C01",
+      "title": "Remonter à la source",
+      "title_en": "Trace the source",
+      "content": "![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)\n\nUn instrument affiche une information issue d'un capteur, d'une alimentation et parfois d'un calculateur. L'altimètre, le variomètre et l'anémomètre peuvent partager la même source statique. Deux écrans peuvent exploiter la même centrale de données. Leur accord apparent ne constitue donc pas nécessairement une vérification indépendante. Pour connaître les dépendances, utiliser la description de l'installation réelle et ses suppléments, surtout après une modification avionique.",
+      "content_en": "![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)\n\nAn instrument displays information from a sensor, a power supply and sometimes a computer. The altimeter, vertical speed indicator and airspeed indicator may share one static source. Two displays may use the same air data computer. Their apparent agreement is therefore not necessarily an independent check. Identify dependencies using the actual installation description and supplements, particularly after an avionics modification.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Remonter à la source"
+    },
+    {
+      "concept_id": "LAPL_INS_002_C02",
+      "title": "Comprendre un blocage statique",
+      "title_en": "Understanding static blockage",
+      "content": "Dans le modèle classique d'une source statique totalement bloquée, la pression reste enfermée. L'altimètre conserve approximativement l'indication du moment du blocage et le variomètre revient vers zéro après son transitoire. L'anémomètre est lui aussi affecté, car il compare pression totale et statique. Ces symptômes ne couvrent pas les obstructions partielles, fuites ou architectures particulières : apprendre un tableau de panne ne permet pas de diagnostiquer avec certitude chaque installation.",
+      "content_en": "In the classic model of a completely blocked static source, pressure is trapped. The altimeter approximately retains its indication at blockage, and the vertical speed indicator returns towards zero after its transient response. The airspeed indicator is also affected because it compares total and static pressure. These symptoms do not cover partial blockages, leaks or specific architectures: memorising a failure table cannot diagnose every installation with certainty.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Comprendre un blocage statique"
+    },
+    {
+      "concept_id": "LAPL_INS_002_C03",
+      "title": "Faire un contrôle cohérent",
+      "title_en": "Making a consistent cross-check",
+      "content": "Au sol, confronter l'altimètre calé au QNH à l'altitude connue du terrain, dans les tolérances applicables. En vol, comparer l'attitude, la puissance, la trajectoire visible et les informations réellement indépendantes. Une vitesse sol n'est pas une vitesse indiquée de secours interchangeable. Une altitude GNSS n'utilise pas la même référence qu'une altitude barométrique. Le contrôle croisé doit tenir compte de ces différences au lieu d'attendre des nombres forcément identiques.",
+      "content_en": "On the ground, compare the QNH-set altimeter with known aerodrome elevation within applicable tolerances. In flight, compare attitude, power, visible flight path and genuinely independent information. Groundspeed is not an interchangeable backup for indicated airspeed. GNSS altitude does not use the same reference as barometric altitude. Cross-checking must account for these differences instead of expecting identical numbers.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Faire un contrôle cohérent"
+    },
+    {
+      "concept_id": "LAPL_INS_002_C04",
+      "title": "Étude de cas",
+      "title_en": "Case study",
+      "content": "Pendant une montée visuellement confirmée, l'altimètre semble figé et le variomètre revient à zéro. La première conclusion est que les indications sont douteuses, pas qu'il faut augmenter fortement l'assiette. Maintenir le pilotage avec les références utilisables, puis appliquer la procédure correspondant au type. Une source statique de secours, lorsqu'elle existe, s'utilise selon le manuel avec ses corrections éventuelles. Ne pas improviser une manipulation destructive d'instrument à partir d'une explication théorique.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "During a visually confirmed climb, the altimeter appears frozen and the vertical speed indicator returns to zero. The first conclusion is that the indications are suspect, not that pitch attitude should be increased sharply. Maintain control using available references, then apply the type-specific procedure. If fitted, an alternate static source is used according to the manual, including any corrections. Do not improvise destructive instrument manipulation from a theoretical explanation.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "learning_objective": "Étude de cas"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_INS_002_C01",
+      "concept_title": "Remonter à la source",
+      "level": 2,
+      "question": "Deux écrans peuvent-ils partager une même source de données défaillante ?",
+      "question_en": "Can two displays share the same failed data source?",
+      "options": [
+        "Seulement à l'arrêt",
+        "Seulement s'ils affichent des cartes",
+        "Oui",
+        "Non, ils sont toujours indépendants"
+      ],
+      "correct_answer": "Oui",
+      "explanation": "L'indépendance dépend des capteurs, calculateurs et alimentations réellement utilisés.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "Independence depends on the actual sensors, computers and power supplies used.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "instrumentation",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Only when stopped",
+        "Only if they display maps",
+        "Yes",
+        "No, they are always independent"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C02",
+      "concept_title": "Comprendre un blocage statique",
+      "level": 2,
+      "question": "Avec une source statique totalement bloquée, l'altimètre classique tend à…",
+      "question_en": "With a completely blocked static source, a conventional altimeter tends to…",
+      "options": [
+        "Indiquer la hauteur GNSS",
+        "Rester à l'indication du blocage",
+        "Indiquer systématiquement zéro",
+        "Monter de 1 000 ft par minute"
+      ],
+      "correct_answer": "Rester à l'indication du blocage",
+      "explanation": "Une pression emprisonnée ne traduit plus correctement les changements d'altitude.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "Trapped pressure no longer correctly represents altitude changes.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "instrumentation",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Show GNSS height",
+        "Remain at its indication when blockage occurred",
+        "Always indicate zero",
+        "Climb by 1,000 ft per minute"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C02",
+      "concept_title": "Comprendre un blocage statique",
+      "level": 2,
+      "question": "Source statique totalement bloquée sur un variomètre classique : après le transitoire, son indication tend vers…",
+      "question_en": "With a completely blocked static source on a conventional vertical speed indicator, after the transient its indication tends towards…",
+      "options": [
+        "Zéro",
+        "La vitesse sol",
+        "La vitesse indiquée",
+        "Le QNH"
+      ],
+      "correct_answer": "Zéro",
+      "explanation": "La pression reçue ne varie plus, donc le système n'indique plus de variation verticale.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "Received pressure no longer changes, so the system no longer indicates vertical change.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "instrumentation",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Zero",
+        "Groundspeed",
+        "Indicated airspeed",
+        "QNH"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C03",
+      "concept_title": "Faire un contrôle cohérent",
+      "level": 2,
+      "question": "Une altitude GNSS doit-elle être exactement égale à l'altitude barométrique ?",
+      "question_en": "Must GNSS altitude exactly equal barometric altitude?",
+      "options": [
+        "Oui, toujours",
+        "Oui si le QNH est standard",
+        "Oui au-dessus de tout terrain",
+        "Non, les références et erreurs diffèrent"
+      ],
+      "correct_answer": "Non, les références et erreurs diffèrent",
+      "explanation": "Il faut comprendre les références avant d'interpréter un écart.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "Understand the references before interpreting a discrepancy.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "instrumentation",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Yes, always",
+        "Yes, with standard QNH",
+        "Yes, above any terrain",
+        "No, references and errors differ"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C04",
+      "concept_title": "Étude de cas",
+      "level": 2,
+      "question": "Un altimètre douteux pendant une montée justifie-t-il de tirer fortement pour le faire monter ?",
+      "question_en": "Does a suspect altimeter during a climb justify pulling sharply to make it rise?",
+      "options": [
+        "Oui si le variomètre est aussi à zéro",
+        "Oui avec le moteur à plein régime",
+        "Non, il faut préserver le pilotage et recouper",
+        "Oui, jusqu'au déplacement de l'aiguille"
+      ],
+      "correct_answer": "Non, il faut préserver le pilotage et recouper",
+      "explanation": "Réagir à une indication erronée peut aggraver la situation.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "Reacting to an erroneous indication may make the situation worse.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "instrumentation",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Yes, if vertical speed also reads zero",
+        "Yes, at full engine power",
+        "No; preserve aircraft control and cross-check",
+        "Yes, until the needle moves"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C01",
+      "concept_title": "Remonter à la source",
+      "level": 2,
+      "question": "Vrai ou faux ? Une indication peut dépendre d'un capteur, d'une alimentation et d'un calculateur.",
+      "question_en": "True or false? An indication may depend on a sensor, power supply and computer.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn instrument affiche une information issue d'un capteur, d'une alimentation et parfois d'un calculateur. L'altimètre, le variomètre et l'anémomètre peuvent partager la même source statique. Deux écrans peuvent exploiter la même centrale de données. Leur accord apparent ne constitue donc pas nécessairement une vérification indépendante. Pour connaître les dépendances, utiliser la description de l'installation réelle et ses suppléments, surtout après une modification avionique.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "This statement is true.\n\nAn instrument displays information from a sensor, a power supply and sometimes a computer. The altimeter, vertical speed indicator and airspeed indicator may share one static source. Two displays may use the same air data computer. Their apparent agreement is therefore not necessarily an independent check. Identify dependencies using the actual installation description and supplements, particularly after an avionics modification.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C01",
+      "concept_title": "Remonter à la source",
+      "level": 2,
+      "question": "Vrai ou faux ? Deux écrans garantissent deux calculateurs de données air distincts.",
+      "question_en": "True or false? Two displays guarantee two separate air data computers.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn instrument affiche une information issue d'un capteur, d'une alimentation et parfois d'un calculateur. L'altimètre, le variomètre et l'anémomètre peuvent partager la même source statique. Deux écrans peuvent exploiter la même centrale de données. Leur accord apparent ne constitue donc pas nécessairement une vérification indépendante. Pour connaître les dépendances, utiliser la description de l'installation réelle et ses suppléments, surtout après une modification avionique.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "This statement is false.\n\nAn instrument displays information from a sensor, a power supply and sometimes a computer. The altimeter, vertical speed indicator and airspeed indicator may share one static source. Two displays may use the same air data computer. Their apparent agreement is therefore not necessarily an independent check. Identify dependencies using the actual installation description and supplements, particularly after an avionics modification.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C01",
+      "concept_title": "Remonter à la source",
+      "level": 2,
+      "question": "Vrai ou faux ? Une modification avionique peut changer les dépendances entre instruments.",
+      "question_en": "True or false? An avionics modification may change instrument dependencies.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn instrument affiche une information issue d'un capteur, d'une alimentation et parfois d'un calculateur. L'altimètre, le variomètre et l'anémomètre peuvent partager la même source statique. Deux écrans peuvent exploiter la même centrale de données. Leur accord apparent ne constitue donc pas nécessairement une vérification indépendante. Pour connaître les dépendances, utiliser la description de l'installation réelle et ses suppléments, surtout après une modification avionique.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "This statement is true.\n\nAn instrument displays information from a sensor, a power supply and sometimes a computer. The altimeter, vertical speed indicator and airspeed indicator may share one static source. Two displays may use the same air data computer. Their apparent agreement is therefore not necessarily an independent check. Identify dependencies using the actual installation description and supplements, particularly after an avionics modification.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C02",
+      "concept_title": "Comprendre un blocage statique",
+      "level": 2,
+      "question": "Vrai ou faux ? Une table de pannes simple décrit exactement toutes les fuites et obstructions partielles.",
+      "question_en": "True or false? A simple failure table exactly describes every leak and partial blockage.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDans le modèle classique d'une source statique totalement bloquée, la pression reste enfermée. L'altimètre conserve approximativement l'indication du moment du blocage et le variomètre revient vers zéro après son transitoire. L'anémomètre est lui aussi affecté, car il compare pression totale et statique. Ces symptômes ne couvrent pas les obstructions partielles, fuites ou architectures particulières : apprendre un tableau de panne ne permet pas de diagnostiquer avec certitude chaque installation.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "This statement is false.\n\nIn the classic model of a completely blocked static source, pressure is trapped. The altimeter approximately retains its indication at blockage, and the vertical speed indicator returns towards zero after its transient response. The airspeed indicator is also affected because it compares total and static pressure. These symptoms do not cover partial blockages, leaks or specific architectures: memorising a failure table cannot diagnose every installation with certainty.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C02",
+      "concept_title": "Comprendre un blocage statique",
+      "level": 2,
+      "question": "Vrai ou faux ? Une obstruction statique peut aussi affecter l'anémomètre.",
+      "question_en": "True or false? A static blockage may also affect the airspeed indicator.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDans le modèle classique d'une source statique totalement bloquée, la pression reste enfermée. L'altimètre conserve approximativement l'indication du moment du blocage et le variomètre revient vers zéro après son transitoire. L'anémomètre est lui aussi affecté, car il compare pression totale et statique. Ces symptômes ne couvrent pas les obstructions partielles, fuites ou architectures particulières : apprendre un tableau de panne ne permet pas de diagnostiquer avec certitude chaque installation.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "This statement is true.\n\nIn the classic model of a completely blocked static source, pressure is trapped. The altimeter approximately retains its indication at blockage, and the vertical speed indicator returns towards zero after its transient response. The airspeed indicator is also affected because it compares total and static pressure. These symptoms do not cover partial blockages, leaks or specific architectures: memorising a failure table cannot diagnose every installation with certainty.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C03",
+      "concept_title": "Faire un contrôle cohérent",
+      "level": 2,
+      "question": "Vrai ou faux ? Une vitesse sol peut toujours remplacer une vitesse indiquée sans interprétation.",
+      "question_en": "True or false? Groundspeed can always replace indicated airspeed without interpretation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nAu sol, confronter l'altimètre calé au QNH à l'altitude connue du terrain, dans les tolérances applicables. En vol, comparer l'attitude, la puissance, la trajectoire visible et les informations réellement indépendantes. Une vitesse sol n'est pas une vitesse indiquée de secours interchangeable. Une altitude GNSS n'utilise pas la même référence qu'une altitude barométrique. Le contrôle croisé doit tenir compte de ces différences au lieu d'attendre des nombres forcément identiques.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "This statement is false.\n\nOn the ground, compare the QNH-set altimeter with known aerodrome elevation within applicable tolerances. In flight, compare attitude, power, visible flight path and genuinely independent information. Groundspeed is not an interchangeable backup for indicated airspeed. GNSS altitude does not use the same reference as barometric altitude. Cross-checking must account for these differences instead of expecting identical numbers.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C03",
+      "concept_title": "Faire un contrôle cohérent",
+      "level": 2,
+      "question": "Vrai ou faux ? L'assiette et la puissance peuvent participer au contrôle croisé.",
+      "question_en": "True or false? Attitude and power can contribute to cross-checking.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nAu sol, confronter l'altimètre calé au QNH à l'altitude connue du terrain, dans les tolérances applicables. En vol, comparer l'attitude, la puissance, la trajectoire visible et les informations réellement indépendantes. Une vitesse sol n'est pas une vitesse indiquée de secours interchangeable. Une altitude GNSS n'utilise pas la même référence qu'une altitude barométrique. Le contrôle croisé doit tenir compte de ces différences au lieu d'attendre des nombres forcément identiques.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "This statement is true.\n\nOn the ground, compare the QNH-set altimeter with known aerodrome elevation within applicable tolerances. In flight, compare attitude, power, visible flight path and genuinely independent information. Groundspeed is not an interchangeable backup for indicated airspeed. GNSS altitude does not use the same reference as barometric altitude. Cross-checking must account for these differences instead of expecting identical numbers.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C04",
+      "concept_title": "Étude de cas",
+      "level": 2,
+      "question": "Vrai ou faux ? Un altimètre figé justifie de tirer jusqu'à faire bouger l'aiguille.",
+      "question_en": "True or false? A frozen altimeter justifies pulling until the needle moves.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nPendant une montée visuellement confirmée, l'altimètre semble figé et le variomètre revient à zéro. La première conclusion est que les indications sont douteuses, pas qu'il faut augmenter fortement l'assiette. Maintenir le pilotage avec les références utilisables, puis appliquer la procédure correspondant au type. Une source statique de secours, lorsqu'elle existe, s'utilise selon le manuel avec ses corrections éventuelles. Ne pas improviser une manipulation destructive d'instrument à partir d'une explication théorique.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "This statement is false.\n\nDuring a visually confirmed climb, the altimeter appears frozen and the vertical speed indicator returns to zero. The first conclusion is that the indications are suspect, not that pitch attitude should be increased sharply. Maintain control using available references, then apply the type-specific procedure. If fitted, an alternate static source is used according to the manual, including any corrections. Do not improvise destructive instrument manipulation from a theoretical explanation.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C04",
+      "concept_title": "Étude de cas",
+      "level": 2,
+      "question": "Vrai ou faux ? Une source statique alternative s'utilise avec les corrections éventuellement prescrites.",
+      "question_en": "True or false? An alternate static source is used with any prescribed corrections.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nPendant une montée visuellement confirmée, l'altimètre semble figé et le variomètre revient à zéro. La première conclusion est que les indications sont douteuses, pas qu'il faut augmenter fortement l'assiette. Maintenir le pilotage avec les références utilisables, puis appliquer la procédure correspondant au type. Une source statique de secours, lorsqu'elle existe, s'utilise selon le manuel avec ses corrections éventuelles. Ne pas improviser une manipulation destructive d'instrument à partir d'une explication théorique.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "This statement is true.\n\nDuring a visually confirmed climb, the altimeter appears frozen and the vertical speed indicator returns to zero. The first conclusion is that the indications are suspect, not that pitch attitude should be increased sharply. Maintain control using available references, then apply the type-specific procedure. If fitted, an alternate static source is used according to the manual, including any corrections. Do not improvise destructive instrument manipulation from a theoretical explanation.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_INS_002_C04",
+      "concept_title": "Étude de cas",
+      "level": 2,
+      "question": "Vrai ou faux ? Une explication théorique autorise une manipulation destructrice improvisée d'un instrument.",
+      "question_en": "True or false? A theoretical explanation authorises improvised destructive instrument manipulation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nPendant une montée visuellement confirmée, l'altimètre semble figé et le variomètre revient à zéro. La première conclusion est que les indications sont douteuses, pas qu'il faut augmenter fortement l'assiette. Maintenir le pilotage avec les références utilisables, puis appliquer la procédure correspondant au type. Une source statique de secours, lorsqu'elle existe, s'utilise selon le manuel avec ses corrections éventuelles. Ne pas improviser une manipulation destructive d'instrument à partir d'une explication théorique.\n\n![Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé.](/illustrations/lapl-ins-002.svg)",
+      "explanation_en": "This statement is false.\n\nDuring a visually confirmed climb, the altimeter appears frozen and the vertical speed indicator returns to zero. The first conclusion is that the indications are suspect, not that pitch attitude should be increased sharply. Maintain control using available references, then apply the type-specific procedure. If fitted, an alternate static source is used according to the manual, including any corrections. Do not improvise destructive instrument manipulation from a theoretical explanation.\n\n![Diagram: Cross-checking instruments and unreliable indications](/illustrations/en/lapl-ins-002.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-gpo56187/pdf/GOVPUB-TD4-PURL-gpo56187.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

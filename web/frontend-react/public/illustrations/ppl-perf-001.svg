@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Interpoler une valeur de performance</title><desc id="desc">Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Interpoler une valeur de performance</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Données fictives : toutes les autres conditions restent identiques.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_PERF_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<path d="M141 537L766 537" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<path d="M766.0 537.0L752.5 543.5L752.5 530.5Z" fill="#a9bdd3" stroke="#a9bdd3" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<path d="M141 537L141 226" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<path d="M141.0 226.0L147.5 239.5L134.5 239.5Z" fill="#a9bdd3" stroke="#a9bdd3" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="158" y="215" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Distance (m)</text>
+<text x="748" y="582" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="end">Température (°C)</text>
+<path d="M222 537L222 476" fill="none" stroke="#58dfed" stroke-width="1" stroke-dasharray="7 7"/>
+<circle cx="222" cy="476" r="8" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="222" y="564" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">10</text>
+<text x="222" y="453" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">480 m</text>
+<path d="M442 537L442 376" fill="none" stroke="#ffcd70" stroke-width="1" stroke-dasharray="7 7"/>
+<circle cx="442" cy="376" r="8" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="442" y="564" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">15</text>
+<text x="442" y="353" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">520 m</text>
+<path d="M662 537L662 276" fill="none" stroke="#58dfed" stroke-width="1" stroke-dasharray="7 7"/>
+<circle cx="662" cy="276" r="8" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="662" y="564" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle">20</text>
+<text x="662" y="253" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">560 m</text>
+<path d="M222 476L662 276" fill="none" stroke="#58dfed" stroke-width="4"/>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">À mi-intervalle</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">À 15 °C : 480 + (560 − 480)</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">/ 2 = 520 m.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Correction fictive</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">520 × 1,15 = 598 m.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Attention au modèle</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Interpolation dans la plage</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">et selon la méthode du</text>
+<text x="855" y="550" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">manuel.</text>
+</svg>

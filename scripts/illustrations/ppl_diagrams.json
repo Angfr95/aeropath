@@ -1,0 +1,810 @@
+{
+  "PPL_AIRLAW_001": {
+    "kind": "cards",
+    "flow": true,
+    "title": "De l’OACI aux règles applicables",
+    "subtitle": "Distinguer le cadre international et sa mise en œuvre.",
+    "description": "L’OACI définit un cadre international ; les États le mettent en œuvre ; le pilote consulte les règles applicables au vol.",
+    "cards": [
+      [
+        "globe",
+        "OACI",
+        "Normes et pratiques recommandées internationales."
+      ],
+      [
+        "doc",
+        "États",
+        "Mise en œuvre et publication des dispositions applicables."
+      ],
+      [
+        "plane",
+        "Pilote",
+        "Vérification des règles et de l’AIP du pays concerné."
+      ]
+    ]
+  },
+  "PPL_AIRLAW_002": {
+    "kind": "cards",
+    "title": "Identifier le cadre réglementaire",
+    "subtitle": "Une licence, un aéronef et un lieu de vol : des exigences à recouper.",
+    "description": "Comparaison du cadre européen, du cadre américain et des vérifications nécessaires pour voler dans un autre cadre.",
+    "cards": [
+      [
+        "globe",
+        "Cadre européen",
+        "EASA et autorités compétentes : licences, opérations et navigabilité."
+      ],
+      [
+        "globe",
+        "Cadre américain",
+        "FAA : règles, titres et conditions propres au système américain."
+      ],
+      [
+        "doc",
+        "Passer d’un cadre à l’autre",
+        "Vérifier reconnaissance, validation ou conversion et privilèges."
+      ]
+    ]
+  },
+  "PPL_AIRLAW_003": {
+    "kind": "cards",
+    "title": "Trois documents, trois fonctions",
+    "subtitle": "Ne pas confondre conception, état réglementaire et identité.",
+    "description": "Le certificat de type concerne la conception, la navigabilité concerne l’aéronef individuel et l’immatriculation son identité.",
+    "cards": [
+      [
+        "doc",
+        "Certificat de type",
+        "La conception du modèle et sa définition approuvée."
+      ],
+      [
+        "shield",
+        "Navigabilité",
+        "Le statut de l’aéronef individuel et son maintien en état."
+      ],
+      [
+        "plane",
+        "Immatriculation",
+        "L’identité et la nationalité de l’aéronef."
+      ]
+    ]
+  },
+  "PPL_AIRLAW_004": {
+    "kind": "airspace",
+    "title": "Un espace aérien est un volume",
+    "subtitle": "Lire ensemble limites latérales, limites verticales et activité.",
+    "description": "Un volume d’espace aérien possède un plancher, un plafond et des limites latérales ; son activité et ses conditions d’accès sont à vérifier."
+  },
+  "PPL_AIRLAW_005": {
+    "kind": "cards",
+    "title": "Règles de vol et conditions météo",
+    "subtitle": "VFR / IFR et VMC / IMC ne décrivent pas la même chose.",
+    "description": "Les règles VFR ou IFR sont distinctes des conditions VMC ou IMC ; pilote et aéronef doivent satisfaire aux exigences du vol.",
+    "cards": [
+      [
+        "doc",
+        "VFR / IFR",
+        "Le régime de règles sous lequel le vol est conduit."
+      ],
+      [
+        "cloud",
+        "VMC / IMC",
+        "Des conditions météo comparées à des critères définis."
+      ],
+      [
+        "shield",
+        "Compatibilité",
+        "Qualifications, équipement, minima et autorisations à vérifier."
+      ]
+    ]
+  },
+  "PPL_AIRLAW_006": {
+    "kind": "cards",
+    "flow": true,
+    "title": "Lire les règles dans leur contexte",
+    "subtitle": "Un cadre commun, des publications locales et une décision de vol.",
+    "description": "SERA fournit les règles communes, les publications locales précisent les procédures et le pilote les applique à la situation.",
+    "cards": [
+      [
+        "doc",
+        "SERA",
+        "Les règles de l’air communes du cadre européen."
+      ],
+      [
+        "map",
+        "AIP et publications",
+        "L’organisation locale, les procédures et les informations à jour."
+      ],
+      [
+        "eye",
+        "Situation réelle",
+        "Observer, anticiper et prévenir les conflits."
+      ]
+    ]
+  },
+  "PPL_AIRLAW_007": {
+    "kind": "cards",
+    "flow": true,
+    "title": "Le cycle du plan de vol",
+    "subtitle": "Le dépôt ne remplace ni la préparation ni une clairance.",
+    "description": "Préparer les informations du vol, transmettre et actualiser le plan puis assurer son traitement à l’arrivée selon la procédure applicable.",
+    "cards": [
+      [
+        "map",
+        "Préparer",
+        "Route, équipement, météo, temps et solutions de repli."
+      ],
+      [
+        "radio",
+        "Transmettre / actualiser",
+        "Déposer si nécessaire et traiter retards ou changements."
+      ],
+      [
+        "doc",
+        "Arrivée / clôture",
+        "Suivre la procédure pour signaler la fin du vol."
+      ]
+    ]
+  },
+  "PPL_AIRLAW_008": {
+    "kind": "cards",
+    "title": "Trois services à distinguer",
+    "subtitle": "Le service reçu dépend de l’organisme, de l’espace et du vol.",
+    "description": "Le contrôle fournit les clairances et services prévus, l’information de vol apporte des renseignements, l’alerte participe à l’assistance.",
+    "cards": [
+      [
+        "radio",
+        "Contrôle",
+        "Clairances et services de séparation selon le cadre applicable."
+      ],
+      [
+        "eye",
+        "Information de vol",
+        "Renseignements utiles ; pas une séparation universelle."
+      ],
+      [
+        "shield",
+        "Alerte",
+        "Mobilisation des moyens d’assistance appropriés."
+      ]
+    ]
+  },
+  "PPL_AIRLAW_009": {
+    "kind": "cards",
+    "title": "Détresse et urgence",
+    "subtitle": "Choisir le signal adapté et transmettre l’essentiel.",
+    "description": "MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.",
+    "cards": [
+      [
+        "shield",
+        "MAYDAY",
+        "Danger grave et imminent nécessitant une assistance immédiate."
+      ],
+      [
+        "radio",
+        "PAN PAN",
+        "Situation d’urgence concernant la sécurité, distincte de la détresse."
+      ],
+      [
+        "map",
+        "Informations utiles",
+        "Indicatif, nature du problème, position et intentions."
+      ]
+    ]
+  },
+  "PPL_AIRLAW_010": {
+    "kind": "cards",
+    "title": "Trois vérifications avant le départ",
+    "subtitle": "Les documents doivent correspondre au pilote, à l’avion et au vol.",
+    "description": "Vérifier les privilèges du pilote, les documents de l’avion et les informations nécessaires pour le vol prévu.",
+    "cards": [
+      [
+        "shield",
+        "Pilote",
+        "Licence, qualifications, aptitude et conditions d’exercice."
+      ],
+      [
+        "plane",
+        "Aéronef",
+        "Identité, navigabilité, assurance et manuel adapté."
+      ],
+      [
+        "map",
+        "Vol prévu",
+        "Documentation, restrictions et informations actualisées."
+      ]
+    ]
+  },
+  "PPL_AC_001": {
+    "kind": "airframe",
+    "title": "Reconnaître la structure de l’avion",
+    "subtitle": "Vue de dessus simplifiée d’un avion conventionnel.",
+    "description": "Repérage des ailes, du fuselage, de l’empennage et de la position générale du train sous le fuselage."
+  },
+  "PPL_AC_002": {
+    "kind": "engine",
+    "title": "Le cycle d’un moteur quatre temps",
+    "subtitle": "Les déplacements du piston accompagnent quatre phases successives.",
+    "description": "Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée."
+  },
+  "PPL_AC_003": {
+    "kind": "circuits",
+    "title": "Suivre les circuits de bord",
+    "subtitle": "Schéma fonctionnel : les installations exactes varient selon l’avion.",
+    "description": "Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins."
+  },
+  "PPL_AC_004": {
+    "kind": "pitot",
+    "title": "Les instruments et leurs pressions",
+    "subtitle": "Trois instruments peuvent partager une même source statique.",
+    "description": "L’anémomètre reçoit pression totale et statique ; l’altimètre et le variomètre utilisent la source statique."
+  },
+  "PPL_AC_005": {
+    "kind": "cards",
+    "title": "À chaque équipement sa fonction",
+    "subtitle": "Communication, surveillance et navigation sont complémentaires.",
+    "description": "La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.",
+    "cards": [
+      [
+        "radio",
+        "VHF",
+        "Échanger avec les services et les autres usagers."
+      ],
+      [
+        "eye",
+        "Transpondeur",
+        "Contribuer à la surveillance selon l’installation et le mode."
+      ],
+      [
+        "map",
+        "GNSS / écran",
+        "Se situer et naviguer en vérifiant les données et les références."
+      ]
+    ]
+  },
+  "PPL_AC_006": {
+    "kind": "runway",
+    "title": "Décoller et franchir un obstacle",
+    "subtitle": "La distance de roulement ne décrit pas toute la trajectoire de départ.",
+    "description": "Une trajectoire comprend le roulement puis la montée jusqu’à une hauteur de référence ; les performances dépendent des conditions du vol."
+  },
+  "PPL_AC_008": {
+    "kind": "cards",
+    "title": "Lire les vitesses limites",
+    "subtitle": "Les valeurs et conditions d’application viennent du manuel de l’avion.",
+    "description": "VFE concerne les volets, VA les conditions de manœuvre définies par le constructeur et VNE est une vitesse à ne jamais dépasser.",
+    "cards": [
+      [
+        "plane",
+        "VFE",
+        "Limite liée à une position de volets donnée."
+      ],
+      [
+        "shield",
+        "VA",
+        "Manœuvre : dépend notamment de la masse et des conditions définies."
+      ],
+      [
+        "doc",
+        "VNE",
+        "Vitesse à ne jamais dépasser ; vérifier l’unité et la référence."
+      ]
+    ]
+  },
+  "PPL_COM_001": {
+    "kind": "feedback",
+    "title": "La boucle de communication radio",
+    "subtitle": "Une transmission n’est utile que si elle est correctement comprise.",
+    "description": "Le sol transmet une instruction au pilote ; le pilote collationne les éléments requis ; le sol écoute et corrige un écart éventuel.",
+    "labels": [
+      "Instruction adressée au bon indicatif",
+      "Collationnement des éléments requis",
+      "Écouter • vérifier • corriger si nécessaire"
+    ]
+  },
+  "PPL_COM_002": {
+    "kind": "cards",
+    "flow": true,
+    "title": "Comprendre une difficulté radio",
+    "subtitle": "Préserver le pilotage pendant les vérifications.",
+    "description": "Une absence de réponse amène à vérifier l’installation, identifier les moyens restants et appliquer la procédure adaptée au contexte.",
+    "cards": [
+      [
+        "radio",
+        "Vérifier",
+        "Fréquence active, volume, casque, alternat et portée."
+      ],
+      [
+        "eye",
+        "Identifier",
+        "Émission, réception et autres moyens encore disponibles."
+      ],
+      [
+        "doc",
+        "Appliquer",
+        "Procédure publiée adaptée à l’espace et à la situation."
+      ]
+    ]
+  },
+  "PPL_EMG_001": {
+    "kind": "diversion",
+    "title": "Le plus proche n’est pas toujours le plus rapide",
+    "subtitle": "Comparer temps, accessibilité et conditions d’utilisation.",
+    "description": "Le terrain A est à 24 NM et 80 kt sol, soit 18 minutes ; B est à 30 NM et 120 kt sol, soit 15 minutes. Vérifier aussi leur utilisabilité."
+  },
+  "PPL_FP_001": {
+    "kind": "fuel",
+    "title": "Autonomie théorique et bilan carburant",
+    "subtitle": "Une division donne une durée ; elle ne valide pas à elle seule le vol.",
+    "description": "72 litres utilisables divisés par 24 litres par heure donnent 3 heures théoriques ; phases de vol, aléas et réserves restent à prendre en compte."
+  },
+  "PPL_HP_001": {
+    "kind": "cards",
+    "title": "Évaluer son aptitude du jour",
+    "subtitle": "Les facteurs se cumulent ; l’aptitude administrative ne suffit pas seule.",
+    "description": "Évaluer l’état physique, la fatigue et la charge mentale avant le vol, puis adapter la décision à leur combinaison.",
+    "cards": [
+      [
+        "shield",
+        "État physique",
+        "Santé, médicaments et état général à évaluer."
+      ],
+      [
+        "clock",
+        "Récupération",
+        "Sommeil, fatigue et durée prévue du vol."
+      ],
+      [
+        "eye",
+        "Charge mentale",
+        "Stress, pression extérieure et difficulté de la mission."
+      ]
+    ]
+  },
+  "PPL_HP_002": {
+    "kind": "attention",
+    "title": "L’attention est une ressource limitée",
+    "subtitle": "Préparer et prioriser évite de traiter toutes les tâches en même temps.",
+    "description": "Météo, navigation et radio sollicitent la même attention limitée ; préparation, priorisation et recoupement aident à préserver le pilotage."
+  },
+  "PPL_INS_001": {
+    "kind": "airspeeds",
+    "title": "Quatre vitesses, quatre références",
+    "subtitle": "Choisir la bonne vitesse pour le pilotage et les calculs de navigation.",
+    "description": "Chaîne simplifiée IAS, CAS, TAS et vitesse sol ; une TAS de 110 kt avec 20 kt de vent de face dans l’axe donne 90 kt sol."
+  },
+  "PPL_INS_002": {
+    "kind": "pitot",
+    "blocked": true,
+    "title": "Une panne commune, plusieurs indications",
+    "subtitle": "Modèle classique d’une source statique totalement bloquée.",
+    "description": "Une source statique bloquée affecte plusieurs instruments : altimètre approximativement figé, variomètre revenant à zéro et anémomètre perturbé."
+  },
+  "PPL_MB_001": {
+    "kind": "balance",
+    "title": "Calculer la position du centre de gravité",
+    "subtitle": "Exemple simplifié : toujours comparer ensuite à l’enveloppe autorisée.",
+    "description": "Une masse de 600 kg au bras de 1 m et 100 kg au bras de 2 m donnent un centre de gravité à environ 1,143 m de la référence."
+  },
+  "PPL_MET_001": {
+    "kind": "atmosphere",
+    "title": "L’atmosphère et le modèle ISA",
+    "subtitle": "Coupe de principe : les limites réelles varient avec le lieu et la météo.",
+    "description": "Troposphère, tropopause et stratosphère ; la densité diminue généralement avec l’altitude et l’ISA constitue un modèle de référence."
+  },
+  "PPL_MET_002": {
+    "kind": "pressure",
+    "title": "Altitude, hauteur et calage",
+    "subtitle": "Une valeur verticale doit toujours être associée à sa référence.",
+    "description": "Le QNH référence l’altitude au niveau moyen de la mer ; le QFE référence la hauteur au terrain ; le calage standard sert aux niveaux de vol."
+  },
+  "PPL_MET_003": {
+    "kind": "humidity",
+    "title": "Lire l’écart au point de rosée",
+    "subtitle": "Un indice de proximité de la saturation, à recouper avec la situation.",
+    "description": "Sur une échelle commune, une température de 12 degrés et un point de rosée de 11 degrés sont séparés de 1 degré."
+  },
+  "PPL_MET_004": {
+    "kind": "wind",
+    "title": "Décomposer le vent sur une piste",
+    "subtitle": "Exercice : piste 090°, vent du 060° à 20 kt.",
+    "description": "Avec 30 degrés d’écart entre vent et piste, 20 kt de vent donnent 10 kt traversiers et environ 17 kt de face."
+  },
+  "PPL_MET_005": {
+    "kind": "clouds",
+    "title": "Reconnaître les grandes formes de nuages",
+    "subtitle": "Observer la structure et le développement vertical.",
+    "description": "Comparaison de nuages en couches, de nuages cumuliformes et d’un cumulonimbus à développement vertical."
+  },
+  "PPL_MET_006": {
+    "kind": "visibility",
+    "title": "La visibilité dépend aussi du contraste",
+    "subtitle": "Un paysage identique peut devenir difficile à lire.",
+    "description": "Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer."
+  },
+  "PPL_MET_007": {
+    "kind": "front",
+    "title": "Le soulèvement à une limite frontale",
+    "subtitle": "Modèle simplifié : de l’air chaud est soulevé au-dessus de l’air froid.",
+    "description": "Coupe schématique d’une limite entre air froid et air chaud ; le soulèvement peut produire nuages et précipitations."
+  },
+  "PPL_MET_008": {
+    "kind": "hazards",
+    "title": "Trois dangers météo à anticiper",
+    "subtitle": "Le risque ne se limite pas à la visibilité sous les nuages.",
+    "description": "Convection avec orage, contamination du profil par le givre et variation rapide de vent illustrent trois dangers météorologiques."
+  },
+  "PPL_MET_009": {
+    "kind": "metar",
+    "title": "Décoder un fragment de METAR",
+    "subtitle": "Observation, vent, visibilité, nuages, températures et pression.",
+    "description": "Décodage de 151200Z, 24012KT, 9999, SCT025, 18/10 et Q1015 ; exemple pédagogique et non bulletin opérationnel."
+  },
+  "PPL_MET_010": {
+    "kind": "cards",
+    "flow": true,
+    "title": "Décider en météo VFR",
+    "subtitle": "La décision se prépare au sol et se renouvelle pendant le vol.",
+    "description": "Croiser les informations météo, les comparer aux minima et aux marges personnelles, puis conserver une option de repli.",
+    "cards": [
+      [
+        "cloud",
+        "Croiser",
+        "Départ, route, destination et évolution prévue."
+      ],
+      [
+        "eye",
+        "Comparer",
+        "Minima applicables, expérience et marges personnelles."
+      ],
+      [
+        "map",
+        "Préserver une option",
+        "Point de décision, retour, déroutement ou report."
+      ]
+    ]
+  },
+  "PPL_NAV_001": {
+    "kind": "triangle",
+    "title": "Cap, route et effet du vent",
+    "subtitle": "Les vecteurs expliquent pourquoi le nez et le trajet peuvent différer.",
+    "description": "Le vecteur vitesse dans l’air et le vecteur vent s’ajoutent pour former le vecteur vitesse sol, distinct de la direction du nez."
+  },
+  "PPL_NAV_002": {
+    "kind": "navigation",
+    "mode": "scale",
+    "title": "Lire une carte dans trois dimensions",
+    "subtitle": "Carte fictive : échelle, relief, limites et références verticales.",
+    "description": "Une carte schématique associe repères, espace aérien et échelle ; à 1:500 000, un centimètre représente cinq kilomètres sur le document original."
+  },
+  "PPL_NAV_003": {
+    "kind": "navigation",
+    "mode": "route",
+    "title": "L’estime : direction, vitesse et temps",
+    "subtitle": "Une position prévue doit être régulièrement confirmée.",
+    "description": "Une branche fictive de 30 NM à 90 kt sol demande 20 minutes ; la carte et les repères permettent de contrôler l’estime."
+  },
+  "PPL_NAV_004": {
+    "kind": "radio_nav",
+    "title": "VOR, NDB et DME : des informations différentes",
+    "subtitle": "Identifier la station et comprendre la référence affichée.",
+    "description": "VOR : radial depuis la station ; ADF : direction vers la balise NDB ; DME : distance oblique entre avion et station."
+  },
+  "PPL_NAV_005": {
+    "kind": "gps",
+    "title": "GNSS : position et données de navigation",
+    "subtitle": "Une position correcte ne garantit pas une carte à jour.",
+    "description": "Des signaux satellitaires permettent le positionnement de l’avion ; les données de carte et le contrôle croisé restent des vérifications distinctes."
+  },
+  "PPL_NAV_006": {
+    "kind": "log",
+    "title": "Relier distance, temps et carburant",
+    "subtitle": "Un exemple de branche de log de navigation.",
+    "description": "Pour 45 NM à 90 kt sol, le temps est de 30 minutes ; à 24 litres par heure, cette branche consomme 12 litres."
+  },
+  "PPL_NAV_007": {
+    "kind": "navigation",
+    "mode": "fix",
+    "title": "Confirmer sa position avec plusieurs repères",
+    "subtitle": "Carte fictive : une ressemblance isolée n’est pas une confirmation.",
+    "description": "Confluence, croisement et virage de rivière sont comparés ensemble pour confirmer la position et le temps de passage."
+  },
+  "PPL_NAV_008": {
+    "kind": "navigation",
+    "mode": "detour",
+    "title": "Préparer une route et une solution de repli",
+    "subtitle": "Carte fictive : l’option de rechange se prépare avant le secteur difficile.",
+    "description": "Une route contourne une zone à éviter et conserve une branche vers un terrain de repli avant de poursuivre."
+  },
+  "PPL_OP_001": {
+    "kind": "cards",
+    "flow": true,
+    "title": "Organiser la préparation prévol",
+    "subtitle": "Une méthode stable réduit les omissions après une interruption.",
+    "description": "Préparer le dossier du vol, contrôler l’avion puis vérifier la cabine et le briefing des occupants.",
+    "cards": [
+      [
+        "map",
+        "Dossier du vol",
+        "Météo, route, performances, chargement et informations à jour."
+      ],
+      [
+        "plane",
+        "Tour de l’avion",
+        "Contrôles du type, fluides, surfaces, prises et anomalies."
+      ],
+      [
+        "shield",
+        "Cabine et occupants",
+        "Installation, verrouillages, checklist et briefing."
+      ]
+    ]
+  },
+  "PPL_OP_002": {
+    "kind": "taxi",
+    "title": "Le point d’attente protège la piste",
+    "subtitle": "Une autorisation de roulage ne vaut pas automatiquement autorisation d’entrée.",
+    "description": "Un avion roule vers un point d’attente avant la piste ; il doit respecter la limite de l’autorisation avant toute entrée."
+  },
+  "PPL_OP_003": {
+    "kind": "landing",
+    "title": "Approche stabilisée et remise de gaz",
+    "subtitle": "Préserver l’option d’interrompre une approche qui ne satisfait pas les critères.",
+    "description": "Une trajectoire d’approche rejoint la piste ; une branche alternative de remise de gaz permet d’interrompre la poursuite de l’atterrissage."
+  },
+  "PPL_OP_004": {
+    "kind": "feedback",
+    "title": "Préparer, transmettre, écouter",
+    "subtitle": "Le pilotage et la surveillance continuent pendant l’échange.",
+    "description": "Le sol transmet une réponse au pilote ; le pilote adresse une demande puis vérifie la bonne compréhension des informations.",
+    "labels": [
+      "Réponse ou instruction",
+      "Indicatif • position • demande",
+      "Clarifier immédiatement tout élément incertain"
+    ]
+  },
+  "PPL_OP_005": {
+    "kind": "cards",
+    "flow": true,
+    "title": "Préserver les priorités face à une anomalie",
+    "subtitle": "Les actions exactes dépendent du manuel et de la situation.",
+    "description": "Préserver le pilotage, choisir une trajectoire et une option sûre, puis communiquer et utiliser les ressources disponibles.",
+    "cards": [
+      [
+        "plane",
+        "Piloter",
+        "Garder le contrôle et des références fiables."
+      ],
+      [
+        "map",
+        "Préserver une option",
+        "Trajectoire sûre et possibilité d’atterrissage adaptée."
+      ],
+      [
+        "radio",
+        "Agir et communiquer",
+        "Procédure du type, assistance et information des occupants."
+      ]
+    ]
+  },
+  "PPL_OP_006": {
+    "kind": "cards",
+    "flow": true,
+    "title": "Menaces, erreurs et protections",
+    "subtitle": "Repérer tôt pour limiter les conséquences.",
+    "description": "Une menace peut favoriser une erreur ; préparation, checklist et recoupement forment des protections pour éviter une situation dégradée.",
+    "cards": [
+      [
+        "cloud",
+        "Menace",
+        "Météo difficile, fatigue, terrain inconnu ou pression horaire."
+      ],
+      [
+        "eye",
+        "Erreur possible",
+        "Omission, mauvaise interprétation ou décision tardive."
+      ],
+      [
+        "shield",
+        "Protection",
+        "Préparation, checklist, recoupement et demande d’aide."
+      ]
+    ]
+  },
+  "PPL_PERF_001": {
+    "kind": "performance",
+    "title": "Interpoler une valeur de performance",
+    "subtitle": "Données fictives : toutes les autres conditions restent identiques.",
+    "description": "Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m."
+  },
+  "PPL_PERF_002": {
+    "kind": "climb",
+    "title": "Même taux de montée, pente différente",
+    "subtitle": "Comparer le gain de hauteur à la distance réellement parcourue au sol.",
+    "description": "À 450 ft par minute, 90 kt sol donnent 300 ft par NM ; 120 kt sol donnent 225 ft par NM pour le même gain de hauteur."
+  },
+  "PPL_POF_001": {
+    "kind": "forces",
+    "title": "Les quatre forces en vol stabilisé",
+    "subtitle": "Vue de profil ; nez de l’avion vers la droite.",
+    "description": "En vol rectiligne horizontal stabilisé, portance et poids s’équilibrent approximativement, de même que traction et traînée."
+  },
+  "PPL_POF_002": {
+    "kind": "stall",
+    "title": "Le facteur de charge modifie la vitesse de décrochage",
+    "subtitle": "Exemple à masse et configuration identiques.",
+    "description": "Une vitesse de décrochage de 50 kt à 1 g devient environ 71 kt à 2 g selon la relation en racine carrée du facteur de charge."
+  },
+  "PPL_RAD_001": {
+    "kind": "feedback",
+    "title": "Une clairance doit être comprise et vérifiée",
+    "subtitle": "Le collationnement ne crée pas une autorisation absente du message reçu.",
+    "description": "Le contrôle donne une clairance avec une limite ; le pilote collationne les éléments requis ; toute ambiguïté est corrigée avant l’action.",
+    "labels": [
+      "Clairance + limite de l’autorisation",
+      "Collationnement de ce qui a été reçu",
+      "Une ambiguïté ? Clarifier avant d’agir."
+    ]
+  },
+  "PPL_POF_003": {
+    "kind": "stability_curves",
+    "title": "Stabilité, finesse et effet de sol",
+    "subtitle": "Repères pour comprendre et appliquer.",
+    "description": "Stabilité, finesse et effet de sol",
+    "cards": [
+      [
+        "doc",
+        "Initial",
+        "Statique : tendance après perturbation."
+      ],
+      [
+        "doc",
+        "Dans le temps",
+        "Dynamique : oscillations amorties ou divergentes."
+      ],
+      [
+        "doc",
+        "Près du sol",
+        "Moins de traînée induite ; montée non garantie."
+      ]
+    ]
+  },
+  "PPL_HP_003": {
+    "kind": "cards",
+    "title": "Respiration, vision et illusions",
+    "subtitle": "Repères pour comprendre et appliquer.",
+    "description": "Respiration, vision et illusions",
+    "cards": [
+      [
+        "doc",
+        "Oxygène",
+        "Hypoxie : jugement et vision menacés."
+      ],
+      [
+        "doc",
+        "Cabine",
+        "CO inodore : surveiller les sources possibles."
+      ],
+      [
+        "doc",
+        "Perception",
+        "Les sensations peuvent tromper sans horizon."
+      ]
+    ]
+  },
+  "PPL_AIRLAW_011": {
+    "kind": "cards",
+    "title": "Appliquer les minima VMC de jour",
+    "subtitle": "Repères pour comprendre et appliquer.",
+    "description": "Appliquer les minima VMC de jour",
+    "cards": [
+      [
+        "doc",
+        "Classe et altitude",
+        "Choisir la ligne avant de choisir les chiffres."
+      ],
+      [
+        "doc",
+        "Nuages",
+        "Horizontal : 1 500 m ; vertical : 1 000 ft, selon le cas."
+      ],
+      [
+        "doc",
+        "Exceptions",
+        "F/G bas : hors nuages, surface en vue ; vérifier les conditions."
+      ]
+    ]
+  },
+  "PPL_NAV_009": {
+    "kind": "wind_vectors",
+    "title": "Vent, cap et correction de route",
+    "subtitle": "Repères pour comprendre et appliquer.",
+    "description": "Vent, cap et correction de route",
+    "cards": [
+      [
+        "doc",
+        "Vent de l’ouest",
+        "Route nord : le vent pousse vers l’est."
+      ],
+      [
+        "doc",
+        "Correction",
+        "Orienter le cap vers l’ouest pour compenser."
+      ],
+      [
+        "doc",
+        "Interception",
+        "Maintien de route + angle de fermeture."
+      ]
+    ]
+  },
+  "PPL_MB_002": {
+    "kind": "cg_envelope",
+    "title": "Chargement et enveloppe de centrage",
+    "subtitle": "Repères pour comprendre et appliquer.",
+    "description": "Chargement et enveloppe de centrage",
+    "cards": [
+      [
+        "doc",
+        "Masse et moment",
+        "Additionner les masses et leurs moments."
+      ],
+      [
+        "doc",
+        "Enveloppe",
+        "Comparer le bras calculé aux limites à cette masse."
+      ],
+      [
+        "doc",
+        "Pendant le vol",
+        "Retirer la masse consommée et son moment."
+      ]
+    ]
+  },
+  "PPL_AIRLAW_012": {
+    "kind": "cards",
+    "title": "Priorités et prévention des collisions",
+    "subtitle": "Repères pour comprendre et appliquer.",
+    "description": "Priorités et prévention des collisions",
+    "cards": [
+      [
+        "doc",
+        "Face à face",
+        "Risque de collision : chacun vire à sa droite."
+      ],
+      [
+        "doc",
+        "Convergence",
+        "Même niveau : céder au trafic à droite, sauf exceptions."
+      ],
+      [
+        "doc",
+        "Barre rouge",
+        "Arrêt. Extinction ET clairance requise avant de passer."
+      ]
+    ]
+  },
+  "PPL_AIRLAW_013": {
+    "kind": "cards",
+    "title": "Classes d’espace et services ATS",
+    "subtitle": "Repères pour comprendre et appliquer.",
+    "description": "Classes d’espace et services ATS",
+    "cards": [
+      [
+        "doc",
+        "VFR en C",
+        "Clairance + radio. Séparation des IFR ; information sur les VFR."
+      ],
+      [
+        "doc",
+        "VFR en D",
+        "Clairance + radio. Information de trafic ; pas de séparation systématique."
+      ],
+      [
+        "doc",
+        "RMZ / TMZ",
+        "RMZ : radio. TMZ : transpondeur. Vérifier les deux exigences."
+      ]
+    ]
+  }
+}

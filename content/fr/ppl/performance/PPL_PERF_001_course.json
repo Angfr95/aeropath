@@ -1,0 +1,555 @@
+{
+  "metadata": {
+    "module_id": "PPL_PERF_001",
+    "program": "PPL",
+    "subject": "Performance",
+    "chapter_title": "Lire un tableau de performances",
+    "chapter_title_en": "Reading performance charts",
+    "learning_objective": "Choisir le bon tableau, interpoler une valeur et distinguer résultat de calcul et marge opérationnelle.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: start with the right assumptions; interpolate within an approved range; apply an explicitly supplied correction; turn the calculation into a decision.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 15,
+    "prerequisites": [
+      "PPL_AC_006"
+    ],
+    "tags": [
+      "performance",
+      "PPL"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-16",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — PHAK, chapitre 11 : performances",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-perf-001.svg",
+      "alt": "Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m."
+    },
+    "exam_subject": "flight_performance_planning",
+    "coverage_status": "partial"
+  },
+  "concepts": [
+    {
+      "concept_id": "PPL_PERF_001_C01",
+      "title": "Partir des bonnes hypothèses",
+      "title_en": "Start with the right assumptions",
+      "content": "![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)\n\nUne donnée de performance n'est valable que dans les conditions annoncées. Avant de lire un tableau, identifier l'avion et sa configuration, la masse, l'altitude-pression, la température, le vent, la pente et l'état de la piste. Vérifier les unités et les notes : une distance au passage d'une hauteur de référence n'est pas le simple roulement au sol. Les tableaux de décollage et d'atterrissage ne sont pas interchangeables.",
+      "content_en": "![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)\n\nPerformance data are valid only under the stated conditions. Before reading a table, identify the aircraft and configuration, mass, pressure altitude, temperature, wind, slope and runway condition. Check units and notes: distance to a reference height is not simply ground roll. Take-off and landing tables are not interchangeable.",
+      "difficulty": "intermediate",
+      "tags": [
+        "performance",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "learning_objective": "Partir des bonnes hypothèses"
+    },
+    {
+      "concept_id": "PPL_PERF_001_C02",
+      "title": "Interpoler dans une plage autorisée",
+      "title_en": "Interpolate within an approved range",
+      "content": "L'interpolation estime une valeur située entre deux données connues. Elle n'autorise pas à prolonger un tableau au-delà de ses limites. Pour un exercice fictif, supposons 480 m à 10 °C et 560 m à 20 °C, toutes les autres conditions identiques. À 15 °C, le milieu de l'intervalle donne 520 m par interpolation linéaire. Sur un véritable manuel, suivre la méthode prescrite ; certaines corrections ne sont pas linéaires ou doivent être appliquées dans un ordre particulier.",
+      "content_en": "Interpolation estimates a value between two known data points. It does not authorise extending a table beyond its limits. For a fictional exercise, assume 480 m at 10 °C and 560 m at 20 °C, with all other conditions identical. At 15 °C, the midpoint gives 520 m by linear interpolation. In an actual manual, follow the prescribed method; some corrections are non-linear or must be applied in a particular order.",
+      "difficulty": "intermediate",
+      "tags": [
+        "performance",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "learning_objective": "Interpoler dans une plage autorisée"
+    },
+    {
+      "concept_id": "PPL_PERF_001_C03",
+      "title": "Calculer une correction explicitement donnée",
+      "title_en": "Apply an explicitly supplied correction",
+      "content": "Dans la suite de cet exercice fictif, une consigne impose de multiplier la distance par 1,15 pour une condition définie. On calcule 520 × 1,15 = 598 m. Ce coefficient est fourni uniquement pour apprendre la méthode : il n'est pas une règle universelle pour l'herbe, la pluie ou une piste en pente. Si la documentation ne permet pas d'évaluer la condition réelle, inventer un coefficient donne une précision trompeuse.",
+      "content_en": "Continuing the fictional exercise, an instruction requires multiplying the distance by 1.15 for a defined condition. Calculate 520 × 1.15 = 598 m. This coefficient is supplied only to teach the method: it is not a universal rule for grass, rain or sloping runways. If the documentation cannot assess the actual condition, inventing a coefficient gives misleading precision.",
+      "difficulty": "intermediate",
+      "tags": [
+        "performance",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "learning_objective": "Calculer une correction explicitement donnée"
+    },
+    {
+      "concept_id": "PPL_PERF_001_C04",
+      "title": "Transformer le calcul en décision",
+      "title_en": "Turn the calculation into a decision",
+      "content": "Une piste de 650 m laisserait 52 m au-delà des 598 m calculés, sous les hypothèses de l'exercice. Ce simple écart ne prouve pas que le départ soit acceptable : il faut vérifier la distance effectivement disponible, les obstacles, les conditions d'obtention des performances et les marges applicables. Une erreur de masse ou un vent moins favorable peut absorber l'écart. Refaire le calcul après tout changement de chargement ou de conditions ; conserver la possibilité de reporter le départ.",
+      "content_en": "A 650 m runway would leave 52 m beyond the calculated 598 m under the exercise assumptions. That difference does not prove departure is acceptable: check the distance actually available, obstacles, conditions for achieving the published performance and applicable margins. A mass error or less favourable wind may absorb the difference. Recalculate after any loading or conditions change; retain the option to postpone.",
+      "difficulty": "intermediate",
+      "tags": [
+        "performance",
+        "PPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "learning_objective": "Transformer le calcul en décision"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_PERF_001_C01",
+      "concept_title": "Partir des bonnes hypothèses",
+      "level": 2,
+      "question": "Quel élément vérifier avant de comparer deux distances publiées ?",
+      "question_en": "What should you check before comparing two published distances?",
+      "options": [
+        "Qu'elles correspondent au même type de distance et aux mêmes conditions",
+        "Qu'elles sont écrites dans la même couleur",
+        "Que la plus petite paraît plausible",
+        "Qu'elles proviennent du même site internet"
+      ],
+      "correct_answer": "Qu'elles correspondent au même type de distance et aux mêmes conditions",
+      "explanation": "Roulement et distance au passage d'obstacle ne peuvent pas être comparés sans préciser ce qu'ils mesurent.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "Ground roll and obstacle-clearance distance cannot be compared without identifying what they measure.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "performance",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "That they describe the same kind of distance under the same conditions",
+        "That they are printed in the same colour",
+        "That the smaller one looks plausible",
+        "That they come from the same website"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C02",
+      "concept_title": "Interpoler dans une plage autorisée",
+      "level": 2,
+      "question": "Dans l'exercice, 480 m à 10 °C et 560 m à 20 °C donnent à 15 °C…",
+      "question_en": "In the exercise, 480 m at 10 °C and 560 m at 20 °C give at 15 °C…",
+      "options": [
+        "500 m",
+        "540 m",
+        "560 m",
+        "520 m"
+      ],
+      "correct_answer": "520 m",
+      "explanation": "15 °C est au milieu de l'intervalle : 480 + (560 − 480) / 2 = 520.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "15 °C is the midpoint: 480 + (560 − 480) / 2 = 520.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "performance",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "500 m",
+        "540 m",
+        "560 m",
+        "520 m"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C03",
+      "concept_title": "Calculer une correction explicitement donnée",
+      "level": 2,
+      "question": "Que donne 520 m multiplié par 1,15 ?",
+      "question_en": "What is 520 m multiplied by 1.15?",
+      "options": [
+        "572 m",
+        "650 m",
+        "598 m",
+        "535 m"
+      ],
+      "correct_answer": "598 m",
+      "explanation": "La correction de l'exercice ajoute 15 % de 520, soit 78 m.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "The exercise correction adds 15% of 520, or 78 m.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "performance",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "572 m",
+        "650 m",
+        "598 m",
+        "535 m"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C03",
+      "concept_title": "Calculer une correction explicitement donnée",
+      "level": 2,
+      "question": "Peut-on appliquer le coefficient fictif 1,15 à toute piste en herbe ?",
+      "question_en": "Can the fictional factor 1.15 be applied to every grass runway?",
+      "options": [
+        "Oui, si la masse est faible",
+        "Non, il faut les données et corrections applicables",
+        "Oui, pour tout monomoteur",
+        "Oui, si l'herbe paraît courte"
+      ],
+      "correct_answer": "Non, il faut les données et corrections applicables",
+      "explanation": "Le coefficient sert ici à apprendre un calcul et ne constitue pas une donnée d'exploitation.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "The coefficient teaches a calculation here and is not operational performance data.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "performance",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "Yes, at low mass",
+        "No; use the applicable data and corrections",
+        "Yes, for every single-engine aircraft",
+        "Yes, if the grass looks short"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C04",
+      "concept_title": "Transformer le calcul en décision",
+      "level": 2,
+      "question": "Une distance calculée de 598 m sur une piste de 650 m suffit-elle à autoriser le départ ?",
+      "question_en": "Is a calculated 598 m on a 650 m runway sufficient to authorise departure?",
+      "options": [
+        "Non, il reste à vérifier hypothèses, obstacles et marges",
+        "Oui, car 598 est inférieur à 650",
+        "Oui, si le résultat a été arrondi",
+        "Oui, avec un GPS"
+      ],
+      "correct_answer": "Non, il reste à vérifier hypothèses, obstacles et marges",
+      "explanation": "Une comparaison arithmétique ne remplace pas l'évaluation opérationnelle complète.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "Arithmetic comparison does not replace a complete operational assessment.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "performance",
+        "PPL",
+        "exam-mcq",
+        "exam-subject:flight_performance_planning"
+      ],
+      "options_en": [
+        "No; assumptions, obstacles and margins still need checking",
+        "Yes, because 598 is less than 650",
+        "Yes, if the result was rounded",
+        "Yes, with GPS"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C01",
+      "concept_title": "Partir des bonnes hypothèses",
+      "level": 2,
+      "question": "Vrai ou faux ? Les tableaux de décollage et d'atterrissage ne sont pas interchangeables.",
+      "question_en": "True or false? Take-off and landing tables are not interchangeable.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne donnée de performance n'est valable que dans les conditions annoncées. Avant de lire un tableau, identifier l'avion et sa configuration, la masse, l'altitude-pression, la température, le vent, la pente et l'état de la piste. Vérifier les unités et les notes : une distance au passage d'une hauteur de référence n'est pas le simple roulement au sol. Les tableaux de décollage et d'atterrissage ne sont pas interchangeables.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "This statement is true.\n\nPerformance data are valid only under the stated conditions. Before reading a table, identify the aircraft and configuration, mass, pressure altitude, temperature, wind, slope and runway condition. Check units and notes: distance to a reference height is not simply ground roll. Take-off and landing tables are not interchangeable.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C01",
+      "concept_title": "Partir des bonnes hypothèses",
+      "level": 2,
+      "question": "Vrai ou faux ? La température suffit à choisir une performance sans connaître la masse.",
+      "question_en": "True or false? Temperature alone determines performance without knowing mass.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne donnée de performance n'est valable que dans les conditions annoncées. Avant de lire un tableau, identifier l'avion et sa configuration, la masse, l'altitude-pression, la température, le vent, la pente et l'état de la piste. Vérifier les unités et les notes : une distance au passage d'une hauteur de référence n'est pas le simple roulement au sol. Les tableaux de décollage et d'atterrissage ne sont pas interchangeables.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "This statement is false.\n\nPerformance data are valid only under the stated conditions. Before reading a table, identify the aircraft and configuration, mass, pressure altitude, temperature, wind, slope and runway condition. Check units and notes: distance to a reference height is not simply ground roll. Take-off and landing tables are not interchangeable.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C01",
+      "concept_title": "Partir des bonnes hypothèses",
+      "level": 2,
+      "question": "Vrai ou faux ? Les notes du tableau peuvent préciser les conditions nécessaires au calcul.",
+      "question_en": "True or false? Table notes may specify conditions required for the calculation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne donnée de performance n'est valable que dans les conditions annoncées. Avant de lire un tableau, identifier l'avion et sa configuration, la masse, l'altitude-pression, la température, le vent, la pente et l'état de la piste. Vérifier les unités et les notes : une distance au passage d'une hauteur de référence n'est pas le simple roulement au sol. Les tableaux de décollage et d'atterrissage ne sont pas interchangeables.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "This statement is true.\n\nPerformance data are valid only under the stated conditions. Before reading a table, identify the aircraft and configuration, mass, pressure altitude, temperature, wind, slope and runway condition. Check units and notes: distance to a reference height is not simply ground roll. Take-off and landing tables are not interchangeable.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C02",
+      "concept_title": "Interpoler dans une plage autorisée",
+      "level": 2,
+      "question": "Vrai ou faux ? L'interpolation autorise à prolonger arbitrairement une table hors domaine.",
+      "question_en": "True or false? Interpolation permits arbitrarily extending a table outside its range.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nL'interpolation estime une valeur située entre deux données connues. Elle n'autorise pas à prolonger un tableau au-delà de ses limites. Pour un exercice fictif, supposons 480 m à 10 °C et 560 m à 20 °C, toutes les autres conditions identiques. À 15 °C, le milieu de l'intervalle donne 520 m par interpolation linéaire. Sur un véritable manuel, suivre la méthode prescrite ; certaines corrections ne sont pas linéaires ou doivent être appliquées dans un ordre particulier.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "This statement is false.\n\nInterpolation estimates a value between two known data points. It does not authorise extending a table beyond its limits. For a fictional exercise, assume 480 m at 10 °C and 560 m at 20 °C, with all other conditions identical. At 15 °C, the midpoint gives 520 m by linear interpolation. In an actual manual, follow the prescribed method; some corrections are non-linear or must be applied in a particular order.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C02",
+      "concept_title": "Interpoler dans une plage autorisée",
+      "level": 2,
+      "question": "Vrai ou faux ? Une correction prescrite peut être non linéaire.",
+      "question_en": "True or false? A prescribed correction may be non-linear.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'interpolation estime une valeur située entre deux données connues. Elle n'autorise pas à prolonger un tableau au-delà de ses limites. Pour un exercice fictif, supposons 480 m à 10 °C et 560 m à 20 °C, toutes les autres conditions identiques. À 15 °C, le milieu de l'intervalle donne 520 m par interpolation linéaire. Sur un véritable manuel, suivre la méthode prescrite ; certaines corrections ne sont pas linéaires ou doivent être appliquées dans un ordre particulier.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "This statement is true.\n\nInterpolation estimates a value between two known data points. It does not authorise extending a table beyond its limits. For a fictional exercise, assume 480 m at 10 °C and 560 m at 20 °C, with all other conditions identical. At 15 °C, the midpoint gives 520 m by linear interpolation. In an actual manual, follow the prescribed method; some corrections are non-linear or must be applied in a particular order.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C02",
+      "concept_title": "Interpoler dans une plage autorisée",
+      "level": 2,
+      "question": "Vrai ou faux ? L'ordre d'application des corrections peut être imposé par le manuel.",
+      "question_en": "True or false? The manual may prescribe the order of corrections.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nL'interpolation estime une valeur située entre deux données connues. Elle n'autorise pas à prolonger un tableau au-delà de ses limites. Pour un exercice fictif, supposons 480 m à 10 °C et 560 m à 20 °C, toutes les autres conditions identiques. À 15 °C, le milieu de l'intervalle donne 520 m par interpolation linéaire. Sur un véritable manuel, suivre la méthode prescrite ; certaines corrections ne sont pas linéaires ou doivent être appliquées dans un ordre particulier.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "This statement is true.\n\nInterpolation estimates a value between two known data points. It does not authorise extending a table beyond its limits. For a fictional exercise, assume 480 m at 10 °C and 560 m at 20 °C, with all other conditions identical. At 15 °C, the midpoint gives 520 m by linear interpolation. In an actual manual, follow the prescribed method; some corrections are non-linear or must be applied in a particular order.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C03",
+      "concept_title": "Calculer une correction explicitement donnée",
+      "level": 2,
+      "question": "Vrai ou faux ? Le facteur fictif 1,15 constitue une règle universelle pour une piste mouillée.",
+      "question_en": "True or false? The fictional factor 1.15 is a universal rule for a wet runway.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDans la suite de cet exercice fictif, une consigne impose de multiplier la distance par 1,15 pour une condition définie. On calcule 520 × 1,15 = 598 m. Ce coefficient est fourni uniquement pour apprendre la méthode : il n'est pas une règle universelle pour l'herbe, la pluie ou une piste en pente. Si la documentation ne permet pas d'évaluer la condition réelle, inventer un coefficient donne une précision trompeuse.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "This statement is false.\n\nContinuing the fictional exercise, an instruction requires multiplying the distance by 1.15 for a defined condition. Calculate 520 × 1.15 = 598 m. This coefficient is supplied only to teach the method: it is not a universal rule for grass, rain or sloping runways. If the documentation cannot assess the actual condition, inventing a coefficient gives misleading precision.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C03",
+      "concept_title": "Calculer une correction explicitement donnée",
+      "level": 2,
+      "question": "Vrai ou faux ? Inventer un coefficient peut donner une précision trompeuse.",
+      "question_en": "True or false? Inventing a coefficient may produce misleading precision.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDans la suite de cet exercice fictif, une consigne impose de multiplier la distance par 1,15 pour une condition définie. On calcule 520 × 1,15 = 598 m. Ce coefficient est fourni uniquement pour apprendre la méthode : il n'est pas une règle universelle pour l'herbe, la pluie ou une piste en pente. Si la documentation ne permet pas d'évaluer la condition réelle, inventer un coefficient donne une précision trompeuse.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "This statement is true.\n\nContinuing the fictional exercise, an instruction requires multiplying the distance by 1.15 for a defined condition. Calculate 520 × 1.15 = 598 m. This coefficient is supplied only to teach the method: it is not a universal rule for grass, rain or sloping runways. If the documentation cannot assess the actual condition, inventing a coefficient gives misleading precision.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C04",
+      "concept_title": "Transformer le calcul en décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Une modification de chargement ne nécessite jamais de refaire les calculs.",
+      "question_en": "True or false? A loading change never requires recalculation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne piste de 650 m laisserait 52 m au-delà des 598 m calculés, sous les hypothèses de l'exercice. Ce simple écart ne prouve pas que le départ soit acceptable : il faut vérifier la distance effectivement disponible, les obstacles, les conditions d'obtention des performances et les marges applicables. Une erreur de masse ou un vent moins favorable peut absorber l'écart. Refaire le calcul après tout changement de chargement ou de conditions ; conserver la possibilité de reporter le départ.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "This statement is false.\n\nA 650 m runway would leave 52 m beyond the calculated 598 m under the exercise assumptions. That difference does not prove departure is acceptable: check the distance actually available, obstacles, conditions for achieving the published performance and applicable margins. A mass error or less favourable wind may absorb the difference. Recalculate after any loading or conditions change; retain the option to postpone.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    },
+    {
+      "concept_id": "PPL_PERF_001_C04",
+      "concept_title": "Transformer le calcul en décision",
+      "level": 2,
+      "question": "Vrai ou faux ? Un vent moins favorable peut absorber la différence entre distance calculée et disponible.",
+      "question_en": "True or false? Less favourable wind may absorb the difference between calculated and available distance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne piste de 650 m laisserait 52 m au-delà des 598 m calculés, sous les hypothèses de l'exercice. Ce simple écart ne prouve pas que le départ soit acceptable : il faut vérifier la distance effectivement disponible, les obstacles, les conditions d'obtention des performances et les marges applicables. Une erreur de masse ou un vent moins favorable peut absorber l'écart. Refaire le calcul après tout changement de chargement ou de conditions ; conserver la possibilité de reporter le départ.\n\n![Une interpolation linéaire entre 480 m à 10 degrés et 560 m à 20 degrés donne 520 m à 15 degrés ; une correction fictive de 1,15 donne 598 m.](/illustrations/ppl-perf-001.svg)",
+      "explanation_en": "This statement is true.\n\nA 650 m runway would leave 52 m beyond the calculated 598 m under the exercise assumptions. That difference does not prove departure is acceptable: check the distance actually available, obstacles, conditions for achieving the published performance and applicable margins. A mass error or less favourable wind may absorb the difference. Recalculate after any loading or conditions change; retain the option to postpone.\n\n![Diagram: Reading performance charts](/illustrations/en/ppl-perf-001.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "flight_performance_planning",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — flight_performance_planning",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-11-aircraft-performance"
+      ]
+    }
+  ]
+}

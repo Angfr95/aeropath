@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Chargement : combiner les modifications</title><desc id="desc">Chargement : combiner les modifications</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / CPL / ATPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Chargement : combiner les modifications</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">MASS_BALANCE_METHOD</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="65" y="215" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">1. Fixer l’état initial</text>
+<text x="65" y="249" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Masse M ; moment J ; bras depuis le même datum.</text>
+<rect x="65" y="277" width="515" height="145" rx="12" fill="#1c344b" stroke="#304961"/>
+<text x="83" y="307" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">Déplacement interne</text>
+<text x="83" y="345" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">ΔM = 0</text>
+<text x="83" y="385" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">ΔJ = m × (bras final − bras initial)</text>
+<rect x="620" y="277" width="515" height="145" rx="12" fill="#1c344b" stroke="#304961"/>
+<text x="638" y="307" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">Ajout / retrait</text>
+<text x="638" y="345" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">ΔM = +m (ajout) ou −m (retrait)</text>
+<text x="638" y="385" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">ΔJ = ΔM × bras</text>
+<text x="65" y="459" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">2. Mettre à jour les deux totaux</text>
+<text x="65" y="493" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">M finale = M + ΣΔM ; J final = J + ΣΔJ</text>
+<text x="65" y="537" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">3. CG = J final / M finale</text>
+<text x="65" y="574" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Contrôler le sens, les unités et l’enveloppe à la masse finale.</text>
+</svg>

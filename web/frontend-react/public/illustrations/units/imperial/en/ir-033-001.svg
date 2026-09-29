@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="822" viewBox="0 0 1200 822" role="img" aria-labelledby="title desc"><title id="title">IFR planning: navigation log</title><desc id="desc">IFR planning: navigation log</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / IR / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">IFR planning: navigation log</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Fictional exercise · Diagram not to scale</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">IR_033_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Read the diagram with the lesson explanations and references.</text>
+<text x="85" y="235" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Leg</text>
+<text x="485" y="235" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Distance</text>
+<text x="845" y="235" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Groundspeed</text>
+<text x="85" y="295" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">A → B</text>
+<text x="485" y="295" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">120 NM</text>
+<text x="845" y="295" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">120 kt</text>
+<path d="M85 309L1115 309" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="85" y="350" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">B → C</text>
+<text x="485" y="350" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">90 NM</text>
+<text x="845" y="350" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">180 kt</text>
+<path d="M85 364L1115 364" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="85" y="590" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Calculate times using groundspeed, then fuel using the supplied flow.</text>
+<text x="85" y="465" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Constant flow: 40 L/h</text>
+<text x="85" y="515" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">Departure A: 10:20 UTC</text>
+<rect x="0" y="720" width="1200" height="102" fill="#10243d"/><text x="42" y="754" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18">Rounded equivalents · original values retained for calculations</text><text x="42" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">40 L/h ≈ 8.8 imp gal/h</text></svg>

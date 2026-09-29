@@ -1,0 +1,599 @@
+{
+  "metadata": {
+    "module_id": "LAPL_MET_006",
+    "program": "LAPL",
+    "subject": "Meteorology",
+    "chapter_title": "Visibilité et phénomènes réduisant la visibilité",
+    "chapter_title_en": "Visibility and Visibility-Reducing Phenomena",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : voir n'est pas toujours distinguer; mécanismes du brouillard; décider avec une marge.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: seeing is not always distinguishing; fog mechanisms; deciding with a margin.",
+    "difficulty": "intermediate",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_MET_003"
+    ],
+    "tags": [
+      "LAPL",
+      "meteo"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "Météo-France — Guide aviation",
+        "url": "https://aviation.meteo.fr/documentation/guide_aviation.pdf"
+      },
+      {
+        "title": "FAA — PHAK, chapitre 12 : théorie météorologique",
+        "url": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-met-006.svg",
+      "alt": "Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer."
+    },
+    "exam_subject": "meteorology",
+    "coverage_status": "partial",
+    "derived_from": "PPL_MET_006",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_MET_006_C01",
+      "title": "Voir n'est pas toujours distinguer",
+      "title_en": "Seeing is not always distinguishing",
+      "content": "![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)\n\nLa visibilité météorologique et la visibilité en vol décrivent des observations différentes. Brume, brouillard, poussière, fumée et précipitations réduisent la portée visuelle. Face au soleil, le contraste peut se dégrader fortement alors qu'une valeur mesurée au sol paraît favorable. Les obstacles fins et les reliefs uniformes deviennent difficiles à identifier.",
+      "content_en": "![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)\n\nMeteorological visibility and in-flight visibility describe different observations. Mist, fog, dust, smoke and precipitation reduce visual range. Looking towards the sun can greatly degrade contrast even when a ground measurement appears favourable. Thin obstacles and uniform terrain become difficult to identify.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Voir n'est pas toujours distinguer"
+    },
+    {
+      "concept_id": "LAPL_MET_006_C02",
+      "title": "Mécanismes du brouillard",
+      "title_en": "Fog mechanisms",
+      "content": "Un brouillard de rayonnement se forme souvent par refroidissement nocturne du sol dans des conditions favorables. Un brouillard d'advection peut apparaître lorsqu'un air humide se déplace sur une surface plus froide. Ces mécanismes n'ont pas le même rythme de dissipation : le lever du soleil ne garantit pas à lui seul une amélioration rapide.",
+      "content_en": "Radiation fog often forms through overnight cooling of the ground under suitable conditions. Advection fog can appear when moist air moves over a colder surface. These mechanisms do not dissipate at the same rate: sunrise alone does not guarantee rapid improvement.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Mécanismes du brouillard"
+    },
+    {
+      "concept_id": "LAPL_MET_006_C03",
+      "title": "Décider avec une marge",
+      "title_en": "Deciding with a margin",
+      "content": "Un aérodrome de départ dégagé ne garantit pas une vallée libre de brouillard. Comparer observations voisines, prévisions, relief et évolution horaire. Prévoir des points de décision permettant de revenir ou de se dérouter avant la perte des références visuelles. Descendre progressivement pour rester sous une couche abaisse la marge vis-à-vis du terrain et peut enfermer le pilote.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "A clear departure aerodrome does not guarantee a fog-free valley. Compare nearby observations, forecasts, terrain and evolution over time. Plan decision points that permit a turn-back or diversion before visual references are lost. Descending progressively beneath lowering cloud reduces terrain margins and can trap the pilot.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "intermediate",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "learning_objective": "Décider avec une marge"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_MET_006_C01",
+      "concept_title": "Voir n'est pas toujours distinguer",
+      "level": 1,
+      "question": "Face au soleil, le contraste peut-il être mauvais malgré une visibilité publiée acceptable ?",
+      "question_en": "Looking towards the sun, can contrast be poor despite acceptable reported visibility?",
+      "options": [
+        "Seulement la nuit",
+        "Seulement en IFR",
+        "Oui",
+        "Non"
+      ],
+      "correct_answer": "Oui",
+      "explanation": "L'éblouissement et les particules peuvent réduire fortement la visibilité utile.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "Glare and particles can greatly reduce useful visibility.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "visibility",
+        "fog",
+        "mist",
+        "haze",
+        "RVR",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Only at night",
+        "Only under IFR",
+        "Yes",
+        "No"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C02",
+      "concept_title": "Mécanismes du brouillard",
+      "level": 1,
+      "question": "Quel mécanisme favorise un brouillard d'advection ?",
+      "question_en": "Which mechanism favours advection fog?",
+      "options": [
+        "Une hausse du régime moteur",
+        "De l'air humide passant sur une surface plus froide",
+        "Un réchauffement systématique du sol",
+        "Une baisse du niveau carburant"
+      ],
+      "correct_answer": "De l'air humide passant sur une surface plus froide",
+      "explanation": "Le refroidissement au contact de la surface peut conduire à la saturation.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "Cooling in contact with the surface may lead to saturation.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "visibility",
+        "fog",
+        "mist",
+        "haze",
+        "RVR",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "An increase in engine RPM",
+        "Moist air moving over a colder surface",
+        "Systematic ground warming",
+        "A decrease in fuel level"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C03",
+      "concept_title": "Décider avec une marge",
+      "level": 1,
+      "question": "Pourquoi éviter une descente progressive sous une couche qui s'abaisse ?",
+      "question_en": "Why avoid progressively descending beneath lowering cloud?",
+      "options": [
+        "Elle réduit les marges sur le relief",
+        "Elle augmente toujours la visibilité",
+        "Elle garantit le passage",
+        "Elle supprime les obstacles"
+      ],
+      "correct_answer": "Elle réduit les marges sur le relief",
+      "explanation": "La poursuite du vol peut conduire à une situation sans issue sûre.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "Continuing may lead to a situation with no safe escape.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "visibility",
+        "fog",
+        "mist",
+        "haze",
+        "RVR",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "It reduces terrain clearance margins",
+        "It always improves visibility",
+        "It guarantees passage",
+        "It removes obstacles"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C02",
+      "concept_title": "Mécanismes du brouillard",
+      "level": 2,
+      "question": "Quel mécanisme favorise un brouillard de rayonnement ?",
+      "question_en": "Which mechanism favours radiation fog?",
+      "options": [
+        "Le seul réchauffement du sol à midi",
+        "Une augmentation obligatoire du vent fort",
+        "Une hausse systématique de la température jusqu'en altitude",
+        "Le refroidissement nocturne du sol dans des conditions favorables"
+      ],
+      "correct_answer": "Le refroidissement nocturne du sol dans des conditions favorables",
+      "explanation": "Le refroidissement nocturne du sol peut refroidir l'air proche jusqu'à saturation. Ce mécanisme se distingue de l'advection d'air humide sur une surface froide.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "Overnight cooling of the surface can cool adjacent air to saturation. This differs from moist air being advected over a cold surface.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "visibility",
+        "fog",
+        "mist",
+        "haze",
+        "RVR",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Only ground warming at noon",
+        "An obligatory increase in strong wind",
+        "A systematic temperature increase up to altitude",
+        "Overnight ground cooling under favourable conditions"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C03",
+      "concept_title": "Décider avec une marge",
+      "level": 2,
+      "question": "Le départ est dégagé, mais une vallée de la route peut être dans le brouillard. Quelle préparation convient ?",
+      "question_en": "Departure is clear, but a valley on the route may contain fog. What preparation is appropriate?",
+      "options": [
+        "Descendre jusqu'à retrouver le fond de vallée",
+        "Considérer le lever du soleil comme une garantie de dissipation",
+        "Recouper les informations de route et prévoir un point de décision avant la vallée",
+        "Se fier uniquement à la visibilité du départ"
+      ],
+      "correct_answer": "Recouper les informations de route et prévoir un point de décision avant la vallée",
+      "explanation": "La météo au départ ne représente pas tout le trajet. Une décision avant l'entrée dans le secteur dégradé préserve les possibilités de retour ou de déroutement.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "Departure weather does not represent the whole route. Deciding before entering the degraded sector preserves turn-back and diversion options.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "visibility",
+        "fog",
+        "mist",
+        "haze",
+        "RVR",
+        "exam-mcq",
+        "exam-subject:meteorology"
+      ],
+      "options_en": [
+        "Descend until the valley floor is found",
+        "Treat sunrise as a guarantee of dissipation",
+        "Cross-check route information and plan a decision point before the valley",
+        "Rely only on departure visibility"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C01",
+      "concept_title": "Voir n'est pas toujours distinguer",
+      "level": 2,
+      "question": "Vrai ou faux ? Visibilité météorologique et visibilité en vol décrivent des observations différentes.",
+      "question_en": "True or false? Meteorological visibility and in-flight visibility describe different observations.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa visibilité météorologique et la visibilité en vol décrivent des observations différentes. Brume, brouillard, poussière, fumée et précipitations réduisent la portée visuelle. Face au soleil, le contraste peut se dégrader fortement alors qu'une valeur mesurée au sol paraît favorable. Les obstacles fins et les reliefs uniformes deviennent difficiles à identifier.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "This statement is true.\n\nMeteorological visibility and in-flight visibility describe different observations. Mist, fog, dust, smoke and precipitation reduce visual range. Looking towards the sun can greatly degrade contrast even when a ground measurement appears favourable. Thin obstacles and uniform terrain become difficult to identify.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C01",
+      "concept_title": "Voir n'est pas toujours distinguer",
+      "level": 2,
+      "question": "Vrai ou faux ? La fumée ne peut pas réduire la portée visuelle.",
+      "question_en": "True or false? Smoke cannot reduce visual range.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa visibilité météorologique et la visibilité en vol décrivent des observations différentes. Brume, brouillard, poussière, fumée et précipitations réduisent la portée visuelle. Face au soleil, le contraste peut se dégrader fortement alors qu'une valeur mesurée au sol paraît favorable. Les obstacles fins et les reliefs uniformes deviennent difficiles à identifier.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "This statement is false.\n\nMeteorological visibility and in-flight visibility describe different observations. Mist, fog, dust, smoke and precipitation reduce visual range. Looking towards the sun can greatly degrade contrast even when a ground measurement appears favourable. Thin obstacles and uniform terrain become difficult to identify.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C01",
+      "concept_title": "Voir n'est pas toujours distinguer",
+      "level": 2,
+      "question": "Vrai ou faux ? Un terrain uniforme peut rendre les repères difficiles à distinguer.",
+      "question_en": "True or false? Uniform terrain can make landmarks hard to distinguish.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa visibilité météorologique et la visibilité en vol décrivent des observations différentes. Brume, brouillard, poussière, fumée et précipitations réduisent la portée visuelle. Face au soleil, le contraste peut se dégrader fortement alors qu'une valeur mesurée au sol paraît favorable. Les obstacles fins et les reliefs uniformes deviennent difficiles à identifier.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "This statement is true.\n\nMeteorological visibility and in-flight visibility describe different observations. Mist, fog, dust, smoke and precipitation reduce visual range. Looking towards the sun can greatly degrade contrast even when a ground measurement appears favourable. Thin obstacles and uniform terrain become difficult to identify.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C01",
+      "concept_title": "Voir n'est pas toujours distinguer",
+      "level": 2,
+      "question": "Vrai ou faux ? Une mesure favorable au sol garantit le même contraste dans toutes les directions.",
+      "question_en": "True or false? A favourable ground measurement guarantees equal contrast in every direction.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa visibilité météorologique et la visibilité en vol décrivent des observations différentes. Brume, brouillard, poussière, fumée et précipitations réduisent la portée visuelle. Face au soleil, le contraste peut se dégrader fortement alors qu'une valeur mesurée au sol paraît favorable. Les obstacles fins et les reliefs uniformes deviennent difficiles à identifier.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "This statement is false.\n\nMeteorological visibility and in-flight visibility describe different observations. Mist, fog, dust, smoke and precipitation reduce visual range. Looking towards the sun can greatly degrade contrast even when a ground measurement appears favourable. Thin obstacles and uniform terrain become difficult to identify.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C02",
+      "concept_title": "Mécanismes du brouillard",
+      "level": 2,
+      "question": "Vrai ou faux ? Les différents mécanismes de brouillard n'impliquent pas la même vitesse de dissipation.",
+      "question_en": "True or false? Different fog mechanisms do not imply the same dissipation rate.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn brouillard de rayonnement se forme souvent par refroidissement nocturne du sol dans des conditions favorables. Un brouillard d'advection peut apparaître lorsqu'un air humide se déplace sur une surface plus froide. Ces mécanismes n'ont pas le même rythme de dissipation : le lever du soleil ne garantit pas à lui seul une amélioration rapide.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "This statement is true.\n\nRadiation fog often forms through overnight cooling of the ground under suitable conditions. Advection fog can appear when moist air moves over a colder surface. These mechanisms do not dissipate at the same rate: sunrise alone does not guarantee rapid improvement.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C02",
+      "concept_title": "Mécanismes du brouillard",
+      "level": 2,
+      "question": "Vrai ou faux ? Le lever du soleil garantit toujours la disparition immédiate du brouillard.",
+      "question_en": "True or false? Sunrise always guarantees immediate fog clearance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn brouillard de rayonnement se forme souvent par refroidissement nocturne du sol dans des conditions favorables. Un brouillard d'advection peut apparaître lorsqu'un air humide se déplace sur une surface plus froide. Ces mécanismes n'ont pas le même rythme de dissipation : le lever du soleil ne garantit pas à lui seul une amélioration rapide.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "This statement is false.\n\nRadiation fog often forms through overnight cooling of the ground under suitable conditions. Advection fog can appear when moist air moves over a colder surface. These mechanisms do not dissipate at the same rate: sunrise alone does not guarantee rapid improvement.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C02",
+      "concept_title": "Mécanismes du brouillard",
+      "level": 2,
+      "question": "Vrai ou faux ? De l'air humide sur une surface froide peut atteindre la saturation.",
+      "question_en": "True or false? Moist air over a cold surface can reach saturation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn brouillard de rayonnement se forme souvent par refroidissement nocturne du sol dans des conditions favorables. Un brouillard d'advection peut apparaître lorsqu'un air humide se déplace sur une surface plus froide. Ces mécanismes n'ont pas le même rythme de dissipation : le lever du soleil ne garantit pas à lui seul une amélioration rapide.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "This statement is true.\n\nRadiation fog often forms through overnight cooling of the ground under suitable conditions. Advection fog can appear when moist air moves over a colder surface. These mechanisms do not dissipate at the same rate: sunrise alone does not guarantee rapid improvement.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C03",
+      "concept_title": "Décider avec une marge",
+      "level": 2,
+      "question": "Vrai ou faux ? Un départ dégagé garantit que toutes les vallées de la route sont libres.",
+      "question_en": "True or false? A clear departure guarantees every valley on the route is clear.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn aérodrome de départ dégagé ne garantit pas une vallée libre de brouillard. Comparer observations voisines, prévisions, relief et évolution horaire. Prévoir des points de décision permettant de revenir ou de se dérouter avant la perte des références visuelles. Descendre progressivement pour rester sous une couche abaisse la marge vis-à-vis du terrain et peut enfermer le pilote.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "This statement is false.\n\nA clear departure aerodrome does not guarantee a fog-free valley. Compare nearby observations, forecasts, terrain and evolution over time. Plan decision points that permit a turn-back or diversion before visual references are lost. Descending progressively beneath lowering cloud reduces terrain margins and can trap the pilot.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C03",
+      "concept_title": "Décider avec une marge",
+      "level": 2,
+      "question": "Vrai ou faux ? Un point de décision doit laisser la possibilité de faire demi-tour avant de perdre les repères.",
+      "question_en": "True or false? A decision point should allow turn-back before visual references are lost.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn aérodrome de départ dégagé ne garantit pas une vallée libre de brouillard. Comparer observations voisines, prévisions, relief et évolution horaire. Prévoir des points de décision permettant de revenir ou de se dérouter avant la perte des références visuelles. Descendre progressivement pour rester sous une couche abaisse la marge vis-à-vis du terrain et peut enfermer le pilote.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "This statement is true.\n\nA clear departure aerodrome does not guarantee a fog-free valley. Compare nearby observations, forecasts, terrain and evolution over time. Plan decision points that permit a turn-back or diversion before visual references are lost. Descending progressively beneath lowering cloud reduces terrain margins and can trap the pilot.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_MET_006_C03",
+      "concept_title": "Décider avec une marge",
+      "level": 2,
+      "question": "Vrai ou faux ? Réduire progressivement la hauteur augmente toujours les possibilités de dégagement.",
+      "question_en": "True or false? Progressively reducing height always increases escape options.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn aérodrome de départ dégagé ne garantit pas une vallée libre de brouillard. Comparer observations voisines, prévisions, relief et évolution horaire. Prévoir des points de décision permettant de revenir ou de se dérouter avant la perte des références visuelles. Descendre progressivement pour rester sous une couche abaisse la marge vis-à-vis du terrain et peut enfermer le pilote.\n\n![Trois vues du même relief montrent la perte progressive de contraste, rendant repères et obstacles plus difficiles à distinguer.](/illustrations/lapl-met-006.svg)",
+      "explanation_en": "This statement is false.\n\nA clear departure aerodrome does not guarantee a fog-free valley. Compare nearby observations, forecasts, terrain and evolution over time. Plan decision points that permit a turn-back or diversion before visual references are lost. Descending progressively beneath lowering cloud reduces terrain margins and can trap the pilot.\n\n![Diagram: Visibility and Visibility-Reducing Phenomena](/illustrations/en/lapl-met-006.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "meteorology",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — meteorology",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://aviation.meteo.fr/documentation/guide_aviation.pdf",
+        "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-12-weather-theory",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

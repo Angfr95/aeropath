@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Givrage : trois issues à comparer</title><desc id="desc">Givrage : trois issues à comparer</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / IR / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Givrage : trois issues à comparer</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">IR_050_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="65" y="214" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Comparer les données avant de classer les durées</text>
+<text x="65" y="267" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Option</text>
+<text x="215" y="267" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">NM</text>
+<text x="365" y="267" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">GS (kt)</text>
+<text x="550" y="267" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Altitude / minimum (ft)</text>
+<text x="930" y="267" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Carburant (kg)</text>
+<text x="65" y="325" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">A</text>
+<text x="215" y="325" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">12</text>
+<text x="365" y="325" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">120</text>
+<text x="550" y="325" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">6 500 / 7 000</text>
+<text x="930" y="325" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">—</text>
+<path d="M65 345L1120 345" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="390" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">B</text>
+<text x="215" y="390" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">21</text>
+<text x="365" y="390" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">140</text>
+<text x="550" y="390" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">8 000 / 7 000</text>
+<text x="930" y="390" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">7</text>
+<path d="M65 410L1120 410" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="455" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">C</text>
+<text x="215" y="455" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">16</text>
+<text x="365" y="455" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">120</text>
+<text x="550" y="455" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">8 000 / 7 000</text>
+<text x="930" y="455" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">10</text>
+<path d="M65 475L1120 475" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="515" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">8 kg disponibles pour ces segments ; besoins ultérieurs protégés. Profils fixes.</text>
+<text x="65" y="545" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Autres contraintes vérifiées.</text>
+<text x="65" y="598" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Calculer : temps (min) = 60 × distance (NM) / GS (kt)</text>
+</svg>

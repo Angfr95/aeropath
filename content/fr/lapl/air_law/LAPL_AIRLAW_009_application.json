@@ -1,0 +1,638 @@
+{
+  "metadata": {
+    "module_id": "LAPL_AIRLAW_009",
+    "program": "LAPL",
+    "subject": "Air Law",
+    "chapter_title": "Procédures d'urgence et de détresse",
+    "chapter_title_en": "Emergency and Distress Procedures",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : détresse et urgence; transmettre l'essentiel; exemple de qualification.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: distress and urgency; transmitting the essentials; classifying a situation.",
+    "difficulty": "advanced",
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AIRLAW_005"
+    ],
+    "tags": [
+      "LAPL",
+      "air_law"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-26",
+    "scope": "LAPL(A), France / EASA",
+    "sources": [
+      {
+        "title": "EASA — SERA, règles de l’air",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air"
+      },
+      {
+        "title": "EASA — Aircrew, Part-FCL",
+        "url": "https://www.easa.europa.eu/en/downloads/115485/en"
+      },
+      {
+        "title": "SIA — informations aéronautiques françaises",
+        "url": "https://www.sia.aviation-civile.gouv.fr/"
+      },
+      {
+        "title": "DGAC — SERA France 17 janvier 2026, SERA.14095(a)(1)",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf"
+      },
+      {
+        "title": "EASA — programme théorique commun LAPL/PPL",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/lapl-airlaw-009.svg",
+      "alt": "MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions."
+    },
+    "exam_subject": "airlaw",
+    "coverage_status": "partial",
+    "editorial_review": "2026-09-30: FR/EN lesson text read; pedagogical gaps recorded in ppl-content-review-2026-09-30.md; coverage remains partial.",
+    "derived_from": "PPL_AIRLAW_009",
+    "quiz_format": "chapter_practice",
+    "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw"
+  },
+  "concepts": [
+    {
+      "concept_id": "LAPL_AIRLAW_009_C01",
+      "title": "Détresse et urgence",
+      "title_en": "Distress and urgency",
+      "content": "![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)\n\nLa détresse correspond à un danger grave et imminent nécessitant une assistance immédiate. L'urgence concerne la sécurité d'un aéronef ou d'une personne sans exiger une assistance immédiate au sens de la détresse. Les signaux radiotéléphoniques associés sont MAYDAY et PAN PAN. Le niveau choisi doit correspondre à la situation ; il ne faut pas retarder une demande d'aide par gêne.",
+      "content_en": "![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)\n\nDistress involves grave and imminent danger requiring immediate assistance. Urgency concerns the safety of an aircraft or person without requiring immediate assistance in the distress sense. The associated radiotelephony signals are MAYDAY and PAN PAN. Choose the level that matches the situation; embarrassment must not delay asking for help.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Détresse et urgence"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C02",
+      "title": "Transmettre l'essentiel",
+      "title_en": "Transmitting the essentials",
+      "content": "La procédure prévoit l'identification, la nature du problème, les intentions et la position, avec altitude et autres renseignements utiles selon les circonstances. Utiliser la fréquence appropriée ; les moyens et fréquences de détresse se connaissent avant le vol. Piloter reste prioritaire : un message court et intelligible vaut mieux qu'un message complet au prix d'une perte de contrôle.",
+      "content_en": "The procedure includes identification, the nature of the problem, intentions and position, with altitude and other useful information as circumstances allow. Use the appropriate frequency; know the distress equipment and frequencies before flight. Aircraft control remains the priority: a short, intelligible message is better than a complete one at the cost of losing control.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Transmettre l'essentiel"
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C03",
+      "title": "Exemple de qualification",
+      "title_en": "Classifying a situation",
+      "content": "Une situation qui menace immédiatement la poursuite sûre du vol peut justifier un message de détresse ; une difficulté moins immédiate peut relever de l'urgence. La situation peut évoluer et le message doit être adapté. Les procédures détaillées, y compris transpondeur, perte de communication et signaux, sont à étudier avec SERA et les publications en vigueur.\n\n**Parcours LAPL(A).** Chapitre du programme théorique commun PPL/LAPL. Les comparaisons de licences gardent leurs intitulés propres. Les questions vrai/faux sont des exercices de révision ; seules les questions à quatre choix sont marquées pour un entraînement au format examen.",
+      "content_en": "A situation that immediately threatens safe continuation may justify a distress message; a less immediate difficulty may be an urgency. The situation can change and the message must adapt. Study detailed procedures, including transponder use, communication failure and signals, using SERA and current publications.\n\n**LAPL(A) pathway.** Chapter from the shared PPL/LAPL theoretical syllabus. Licence comparisons retain their own licence names. True/false questions are revision exercises; only four-choice questions are tagged for exam-format practice.",
+      "difficulty": "advanced",
+      "tags": [
+        "LAPL"
+      ],
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "learning_objective": "Exemple de qualification"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "LAPL_AIRLAW_009_C01",
+      "concept_title": "Détresse et urgence",
+      "level": 1,
+      "question": "Quel signal correspond à la détresse ?",
+      "question_en": "Which signal indicates distress?",
+      "options": [
+        "QNH",
+        "MAYDAY",
+        "PAN PAN",
+        "CAVOK"
+      ],
+      "correct_answer": "MAYDAY",
+      "explanation": "MAYDAY signale une détresse nécessitant une assistance immédiate.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "MAYDAY indicates distress requiring immediate assistance.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "distress",
+        "MAYDAY",
+        "PAN-PAN",
+        "Squawk",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "QNH",
+        "MAYDAY",
+        "PAN PAN",
+        "CAVOK"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C02",
+      "concept_title": "Transmettre l'essentiel",
+      "level": 1,
+      "question": "Quel signal correspond à l'urgence radiotéléphonique ?",
+      "question_en": "Which signal indicates radiotelephony urgency?",
+      "options": [
+        "PAN PAN",
+        "METAR",
+        "TAF",
+        "VFR"
+      ],
+      "correct_answer": "PAN PAN",
+      "explanation": "PAN PAN est le signal d'urgence.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "PAN PAN is the urgency signal.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "distress",
+        "MAYDAY",
+        "PAN-PAN",
+        "Squawk",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "PAN PAN",
+        "METAR",
+        "TAF",
+        "VFR"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C03",
+      "concept_title": "Exemple de qualification",
+      "level": 1,
+      "question": "Faut-il retarder la demande d'aide pour préparer un message parfait ?",
+      "question_en": "Should you delay asking for help to prepare a perfect message?",
+      "options": [
+        "Oui",
+        "Oui jusqu'à destination",
+        "Oui pour ne pas déranger",
+        "Non"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Un message clair et précoce facilite l'assistance tout en préservant le pilotage.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "An early, clear message supports assistance while preserving aircraft control.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "distress",
+        "MAYDAY",
+        "PAN-PAN",
+        "Squawk",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Yes",
+        "Yes, until the destination",
+        "Yes, to avoid disturbing anyone",
+        "No"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C02",
+      "concept_title": "Transmettre l'essentiel",
+      "level": 2,
+      "question": "Dans un message d'assistance, quelle information aide directement à localiser l'avion ?",
+      "question_en": "In a request for assistance, which information directly helps locate the aircraft?",
+      "options": [
+        "La marque du casque utilisé",
+        "Le numéro de série de la radio",
+        "La position accompagnée de l'altitude pertinente",
+        "Le nombre d'heures de vol du pilote"
+      ],
+      "correct_answer": "La position accompagnée de l'altitude pertinente",
+      "explanation": "L'identification, la nature du problème, les intentions et la position font partie des informations utiles. Position et altitude aident les services à situer l'aéronef.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "Identification, problem, intentions and position are useful information. Position and altitude help services locate the aircraft.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "distress",
+        "MAYDAY",
+        "PAN-PAN",
+        "Squawk",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "The headset brand",
+        "The radio serial number",
+        "Position with the relevant altitude",
+        "The pilot's total flying hours"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C03",
+      "concept_title": "Exemple de qualification",
+      "level": 2,
+      "question": "Une situation initialement annoncée en urgence devient un danger grave et imminent exigeant une aide immédiate. Que faire du message ?",
+      "question_en": "An urgency develops into grave and imminent danger requiring immediate help. What should happen to the message?",
+      "options": [
+        "Cesser de transmettre pour ne pas changer d'annonce",
+        "L'actualiser au niveau de détresse correspondant à la situation",
+        "Conserver le niveau initial jusqu'à l'atterrissage",
+        "Attendre que le contrôleur devine la dégradation"
+      ],
+      "correct_answer": "L'actualiser au niveau de détresse correspondant à la situation",
+      "explanation": "Le niveau d'alerte doit correspondre à la situation réelle et peut évoluer. La détresse implique un danger grave et imminent nécessitant une assistance immédiate.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "The alert level must match the actual situation and can change. Distress involves grave and imminent danger requiring immediate assistance.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "emergency",
+        "distress",
+        "MAYDAY",
+        "PAN-PAN",
+        "Squawk",
+        "exam-mcq",
+        "exam-subject:airlaw"
+      ],
+      "options_en": [
+        "Stop transmitting to avoid changing the announcement",
+        "Update it to the distress level appropriate to the situation",
+        "Keep the initial level until landing",
+        "Wait for the controller to infer the deterioration"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C01",
+      "concept_title": "Détresse et urgence",
+      "level": 2,
+      "question": "Vrai ou faux ? Le niveau d'alerte doit correspondre à la situation réelle.",
+      "question_en": "True or false? The alert level must match the actual situation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa détresse correspond à un danger grave et imminent nécessitant une assistance immédiate. L'urgence concerne la sécurité d'un aéronef ou d'une personne sans exiger une assistance immédiate au sens de la détresse. Les signaux radiotéléphoniques associés sont MAYDAY et PAN PAN. Le niveau choisi doit correspondre à la situation ; il ne faut pas retarder une demande d'aide par gêne.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "This statement is true.\n\nDistress involves grave and imminent danger requiring immediate assistance. Urgency concerns the safety of an aircraft or person without requiring immediate assistance in the distress sense. The associated radiotelephony signals are MAYDAY and PAN PAN. Choose the level that matches the situation; embarrassment must not delay asking for help.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C01",
+      "concept_title": "Détresse et urgence",
+      "level": 2,
+      "question": "Vrai ou faux ? PAN PAN et MAYDAY ont exactement le même sens.",
+      "question_en": "True or false? PAN PAN and MAYDAY have exactly the same meaning.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa détresse correspond à un danger grave et imminent nécessitant une assistance immédiate. L'urgence concerne la sécurité d'un aéronef ou d'une personne sans exiger une assistance immédiate au sens de la détresse. Les signaux radiotéléphoniques associés sont MAYDAY et PAN PAN. Le niveau choisi doit correspondre à la situation ; il ne faut pas retarder une demande d'aide par gêne.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "This statement is false.\n\nDistress involves grave and imminent danger requiring immediate assistance. Urgency concerns the safety of an aircraft or person without requiring immediate assistance in the distress sense. The associated radiotelephony signals are MAYDAY and PAN PAN. Choose the level that matches the situation; embarrassment must not delay asking for help.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C01",
+      "concept_title": "Détresse et urgence",
+      "level": 2,
+      "question": "Vrai ou faux ? Une détresse implique un besoin d'assistance immédiate.",
+      "question_en": "True or false? Distress involves a need for immediate assistance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa détresse correspond à un danger grave et imminent nécessitant une assistance immédiate. L'urgence concerne la sécurité d'un aéronef ou d'une personne sans exiger une assistance immédiate au sens de la détresse. Les signaux radiotéléphoniques associés sont MAYDAY et PAN PAN. Le niveau choisi doit correspondre à la situation ; il ne faut pas retarder une demande d'aide par gêne.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "This statement is true.\n\nDistress involves grave and imminent danger requiring immediate assistance. Urgency concerns the safety of an aircraft or person without requiring immediate assistance in the distress sense. The associated radiotelephony signals are MAYDAY and PAN PAN. Choose the level that matches the situation; embarrassment must not delay asking for help.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C02",
+      "concept_title": "Transmettre l'essentiel",
+      "level": 2,
+      "question": "Vrai ou faux ? Réciter un message complet doit primer sur le pilotage.",
+      "question_en": "True or false? Reciting a complete message should take priority over flying.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa procédure prévoit l'identification, la nature du problème, les intentions et la position, avec altitude et autres renseignements utiles selon les circonstances. Utiliser la fréquence appropriée ; les moyens et fréquences de détresse se connaissent avant le vol. Piloter reste prioritaire : un message court et intelligible vaut mieux qu'un message complet au prix d'une perte de contrôle.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "This statement is false.\n\nThe procedure includes identification, the nature of the problem, intentions and position, with altitude and other useful information as circumstances allow. Use the appropriate frequency; know the distress equipment and frequencies before flight. Aircraft control remains the priority: a short, intelligible message is better than a complete one at the cost of losing control.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C02",
+      "concept_title": "Transmettre l'essentiel",
+      "level": 2,
+      "question": "Vrai ou faux ? La nature du problème et les intentions font partie des informations utiles.",
+      "question_en": "True or false? The nature of the problem and intentions are useful information.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa procédure prévoit l'identification, la nature du problème, les intentions et la position, avec altitude et autres renseignements utiles selon les circonstances. Utiliser la fréquence appropriée ; les moyens et fréquences de détresse se connaissent avant le vol. Piloter reste prioritaire : un message court et intelligible vaut mieux qu'un message complet au prix d'une perte de contrôle.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "This statement is true.\n\nThe procedure includes identification, the nature of the problem, intentions and position, with altitude and other useful information as circumstances allow. Use the appropriate frequency; know the distress equipment and frequencies before flight. Aircraft control remains the priority: a short, intelligible message is better than a complete one at the cost of losing control.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C02",
+      "concept_title": "Transmettre l'essentiel",
+      "level": 2,
+      "question": "Vrai ou faux ? Les moyens de détresse doivent être connus avant le départ.",
+      "question_en": "True or false? Distress equipment should be known before departure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa procédure prévoit l'identification, la nature du problème, les intentions et la position, avec altitude et autres renseignements utiles selon les circonstances. Utiliser la fréquence appropriée ; les moyens et fréquences de détresse se connaissent avant le vol. Piloter reste prioritaire : un message court et intelligible vaut mieux qu'un message complet au prix d'une perte de contrôle.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "This statement is true.\n\nThe procedure includes identification, the nature of the problem, intentions and position, with altitude and other useful information as circumstances allow. Use the appropriate frequency; know the distress equipment and frequencies before flight. Aircraft control remains the priority: a short, intelligible message is better than a complete one at the cost of losing control.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C02",
+      "concept_title": "Transmettre l'essentiel",
+      "level": 2,
+      "question": "Vrai ou faux ? La position est sans intérêt dans une demande d'assistance.",
+      "question_en": "True or false? Position is irrelevant in a request for assistance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa procédure prévoit l'identification, la nature du problème, les intentions et la position, avec altitude et autres renseignements utiles selon les circonstances. Utiliser la fréquence appropriée ; les moyens et fréquences de détresse se connaissent avant le vol. Piloter reste prioritaire : un message court et intelligible vaut mieux qu'un message complet au prix d'une perte de contrôle.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "This statement is false.\n\nThe procedure includes identification, the nature of the problem, intentions and position, with altitude and other useful information as circumstances allow. Use the appropriate frequency; know the distress equipment and frequencies before flight. Aircraft control remains the priority: a short, intelligible message is better than a complete one at the cost of losing control.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C03",
+      "concept_title": "Exemple de qualification",
+      "level": 2,
+      "question": "Vrai ou faux ? Le premier niveau d'alerte annoncé ne peut jamais être modifié.",
+      "question_en": "True or false? The first alert level reported can never be changed.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne situation qui menace immédiatement la poursuite sûre du vol peut justifier un message de détresse ; une difficulté moins immédiate peut relever de l'urgence. La situation peut évoluer et le message doit être adapté. Les procédures détaillées, y compris transpondeur, perte de communication et signaux, sont à étudier avec SERA et les publications en vigueur.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "This statement is false.\n\nA situation that immediately threatens safe continuation may justify a distress message; a less immediate difficulty may be an urgency. The situation can change and the message must adapt. Study detailed procedures, including transponder use, communication failure and signals, using SERA and current publications.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C03",
+      "concept_title": "Exemple de qualification",
+      "level": 2,
+      "question": "Vrai ou faux ? Une situation peut évoluer et nécessiter d'adapter le message.",
+      "question_en": "True or false? A situation can evolve and require adapting the message.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne situation qui menace immédiatement la poursuite sûre du vol peut justifier un message de détresse ; une difficulté moins immédiate peut relever de l'urgence. La situation peut évoluer et le message doit être adapté. Les procédures détaillées, y compris transpondeur, perte de communication et signaux, sont à étudier avec SERA et les publications en vigueur.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "This statement is true.\n\nA situation that immediately threatens safe continuation may justify a distress message; a less immediate difficulty may be an urgency. The situation can change and the message must adapt. Study detailed procedures, including transponder use, communication failure and signals, using SERA and current publications.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    },
+    {
+      "concept_id": "LAPL_AIRLAW_009_C03",
+      "concept_title": "Exemple de qualification",
+      "level": 2,
+      "question": "Vrai ou faux ? Les procédures détaillées peuvent être remplacées par une formule improvisée universelle.",
+      "question_en": "True or false? Detailed procedures can be replaced by a universal improvised formula.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne situation qui menace immédiatement la poursuite sûre du vol peut justifier un message de détresse ; une difficulté moins immédiate peut relever de l'urgence. La situation peut évoluer et le message doit être adapté. Les procédures détaillées, y compris transpondeur, perte de communication et signaux, sont à étudier avec SERA et les publications en vigueur.\n\n![MAYDAY signale la détresse, PAN PAN l’urgence ; le message précise identification, problème, position et intentions.](/illustrations/lapl-airlaw-009.svg)",
+      "explanation_en": "This statement is false.\n\nA situation that immediately threatens safe continuation may justify a distress message; a less immediate difficulty may be an urgency. The situation can change and the message must adapt. Study detailed procedures, including transponder use, communication failure and signals, using SERA and current publications.\n\n![Diagram: Emergency and Distress Procedures](/illustrations/en/lapl-airlaw-009.svg)",
+      "tags": [
+        "LAPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "airlaw",
+      "syllabus_reference": "AMC1 FCL.115; FCL.120 — airlaw",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-standardised-european-rules-air",
+        "https://www.easa.europa.eu/en/downloads/115485/en",
+        "https://www.sia.aviation-civile.gouv.fr/",
+        "https://www.ecologie.gouv.fr/sites/default/files/documents/sera_complet_version17012026.pdf",
+        "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=2"
+      ]
+    }
+  ]
+}

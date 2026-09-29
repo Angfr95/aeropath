@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Reading the dew point spread</title><desc id="desc">On a common scale, temperature 12 degrees and dew point 11 degrees are separated by 1 degree.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Reading the dew point spread</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">An indication of proximity to saturation, to cross-check against conditions.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_MET_003</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<text x="435" y="240" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">TEMPERATURE AND DEW POINT</text>
+<path d="M170 449L720 449" fill="none" stroke="#566c87" stroke-width="5"/>
+<path d="M170 435L170 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="170" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">8 °C</text>
+<path d="M280 435L280 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="280" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">9 °C</text>
+<path d="M390 435L390 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="390" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">10 °C</text>
+<path d="M500 435L500 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="500" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">11 °C</text>
+<path d="M610 435L610 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="610" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">12 °C</text>
+<path d="M720 435L720 462" fill="none" stroke="#a9bdd3" stroke-width="2"/>
+<text x="720" y="492" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">13 °C</text>
+<path d="M500 321L500 436" fill="none" stroke="#bbabff" stroke-width="4"/>
+<circle cx="500" cy="443" r="10" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="500" y="303" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">DEW POINT</text>
+<path d="M610 321L610 436" fill="none" stroke="#ffcd70" stroke-width="4"/>
+<circle cx="610" cy="443" r="10" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="610" y="303" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">AIR</text>
+<path d="M500 527L610 527" fill="none" stroke="#58dfed" stroke-width="4"/>
+<text x="555" y="566" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Spread: 1 °C</text>
+<path d="M829 205L829 583" fill="none" stroke="#304961" stroke-width="1"/>
+<circle cx="864" cy="224" r="5" fill="#58dfed" stroke="#58dfed" stroke-width="2"/>
+<text x="883" y="230" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Observation</text>
+<text x="855" y="262" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Air at 12 °C; dew point at</text>
+<text x="855" y="288" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">11 °C.</text>
+<circle cx="864" cy="342" r="5" fill="#ffcd70" stroke="#ffcd70" stroke-width="2"/>
+<text x="883" y="348" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Interpretation</text>
+<text x="855" y="380" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Close to saturation.</text>
+<circle cx="864" cy="460" r="5" fill="#bbabff" stroke="#bbabff" stroke-width="2"/>
+<text x="883" y="466" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">Cross-check</text>
+<text x="855" y="498" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">A small spread does not</text>
+<text x="855" y="524" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">prove fog is present.</text>
+</svg>

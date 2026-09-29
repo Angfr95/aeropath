@@ -5,13 +5,555 @@
     "subject": "Aircraft General",
     "chapter_title": "Groupe motopropulseur (moteur, hélice)",
     "chapter_title_en": "Powerplant (Engine, Propeller)",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : du carburant à la traction; surveiller le fonctionnement; mise en situation.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: from fuel to thrust; monitoring engine operation; a practical situation.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 30,
-    "prerequisites": ["PPL_AC_001"],
-    "tags": ["engine", "propeller", "powerplant", "piston"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AC_001"
+    ],
+    "tags": [
+      "engine",
+      "propeller",
+      "powerplant",
+      "piston"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-ac-002.svg",
+      "alt": "Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée."
+    },
+    "exam_subject": "aircraft_general",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_AC_002_C01",
+      "title": "Du carburant à la traction",
+      "title_en": "From fuel to thrust",
+      "content": "![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)\n\nUn moteur à pistons transforme l'énergie du carburant en rotation. Dans un moteur quatre temps, admission, compression, combustion-détente et échappement se succèdent. L'hélice accélère une masse d'air et produit une force propulsive. Les réglages disponibles dépendent de l'installation : gaz, richesse et, sur certaines hélices, commande de régime. Un moteur électrique ou diesel possède des commandes et des procédures différentes.",
+      "content_en": "![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)\n\nA piston engine converts fuel energy into rotation. In a four-stroke engine, intake, compression, combustion-expansion and exhaust occur in sequence. The propeller accelerates a mass of air and produces thrust. Available controls depend on the installation: throttle, mixture and, with some propellers, RPM control. Electric and diesel engines have different controls and procedures.",
+      "difficulty": "intermediate",
+      "tags": [
+        "engine",
+        "propeller",
+        "powerplant",
+        "piston"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Du carburant à la traction"
+    },
+    {
+      "concept_id": "PPL_AC_002_C02",
+      "title": "Surveiller le fonctionnement",
+      "title_en": "Monitoring engine operation",
+      "content": "Pression et température d'huile renseignent sur la lubrification et le refroidissement. Une indication anormale se traite selon le manuel de vol. Sur de nombreux moteurs à essence, les magnétos assurent l'allumage indépendamment de la batterie : couper le contact général électrique ne garantit pas que l'hélice soit inoffensive. Sur un moteur à carburateur, détente et vaporisation refroidissent l'air ; le givrage peut apparaître même par température extérieure positive.",
+      "content_en": "Oil pressure and temperature give information about lubrication and cooling. Handle abnormal indications according to the flight manual. On many petrol engines, magnetos provide ignition independently of the battery: switching off the electrical master does not guarantee a harmless propeller. In a carburettor, expansion and vaporisation cool the air; icing can occur even with a positive outside temperature.",
+      "difficulty": "intermediate",
+      "tags": [
+        "engine",
+        "propeller",
+        "powerplant",
+        "piston"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Surveiller le fonctionnement"
+    },
+    {
+      "concept_id": "PPL_AC_002_C03",
+      "title": "Mise en situation",
+      "title_en": "A practical situation",
+      "content": "Une baisse progressive de régime sur une hélice à pas fixe, en air humide, peut évoquer un givrage carburateur sans constituer un diagnostic unique. Appliquer la procédure du type d'avion, surveiller les indications et préparer une option d'atterrissage si nécessaire. Ne pas improviser un réglage de richesse ou une utilisation du réchauffage : les consignes du manuel et l'instruction sur type priment.",
+      "content_en": "A progressive RPM reduction with a fixed-pitch propeller in humid air may suggest carburettor icing, but it is not a unique diagnosis. Apply the aircraft type's procedure, monitor indications and prepare a landing option if necessary. Do not improvise mixture settings or carburettor heat use: the manual and training on type take precedence.",
+      "difficulty": "intermediate",
+      "tags": [
+        "engine",
+        "propeller",
+        "powerplant",
+        "piston"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Mise en situation"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AC_002_C01",
+      "concept_title": "Du carburant à la traction",
+      "level": 1,
+      "question": "Quelle est la fonction propulsive de l'hélice ?",
+      "question_en": "What is the propeller's propulsive function?",
+      "options": [
+        "Accélérer de l'air",
+        "Mesurer l'altitude",
+        "Produire le QNH",
+        "Refroidir uniquement la cabine"
+      ],
+      "correct_answer": "Accélérer de l'air",
+      "explanation": "L'hélice transforme la puissance mécanique en force propulsive.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "The propeller converts mechanical power into thrust.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "engine",
+        "propeller",
+        "powerplant",
+        "piston",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Accelerate air",
+        "Measure altitude",
+        "Produce QNH",
+        "Only cool the cabin"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C02",
+      "concept_title": "Surveiller le fonctionnement",
+      "level": 1,
+      "question": "Le givrage carburateur est-il possible au-dessus de 0 °C ?",
+      "question_en": "Can carburettor icing occur above 0 °C?",
+      "options": [
+        "Non",
+        "Seulement au sol",
+        "Seulement sur moteur électrique",
+        "Oui"
+      ],
+      "correct_answer": "Oui",
+      "explanation": "Le refroidissement interne peut amener le mélange sous le point de congélation.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "Internal cooling can bring the mixture below freezing.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "engine",
+        "propeller",
+        "powerplant",
+        "piston",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "No",
+        "Only on the ground",
+        "Only on an electric motor",
+        "Yes"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C03",
+      "concept_title": "Mise en situation",
+      "level": 1,
+      "question": "Couper le contact général rend-il toujours une hélice sans danger ?",
+      "question_en": "Does switching off the master always make a propeller safe?",
+      "options": [
+        "Oui si le frein est serré",
+        "Oui si la radio est éteinte",
+        "Non, des magnétos peuvent encore produire l'allumage",
+        "Oui, sans exception"
+      ],
+      "correct_answer": "Non, des magnétos peuvent encore produire l'allumage",
+      "explanation": "L'allumage par magnétos peut être indépendant de la batterie.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "Magneto ignition can be independent of the battery.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "engine",
+        "propeller",
+        "powerplant",
+        "piston",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Yes, if the brake is set",
+        "Yes, if the radio is off",
+        "No, magnetos may still produce ignition",
+        "Yes, without exception"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C01",
+      "concept_title": "Du carburant à la traction",
+      "level": 2,
+      "question": "Quel est l'ordre des phases d'un moteur à pistons quatre temps ?",
+      "question_en": "What is the sequence of a four-stroke piston engine?",
+      "options": [
+        "Combustion-détente, admission, compression, échappement",
+        "Admission, compression, combustion-détente, échappement",
+        "Compression, admission, échappement, combustion-détente",
+        "Admission, échappement, compression, combustion-détente"
+      ],
+      "correct_answer": "Admission, compression, combustion-détente, échappement",
+      "explanation": "Le mélange est admis, comprimé, puis la combustion provoque la détente motrice. Les gaz sont ensuite évacués pendant l'échappement.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "The mixture is admitted and compressed, then combustion causes the power-producing expansion. The gases are subsequently expelled during exhaust.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "engine",
+        "propeller",
+        "powerplant",
+        "piston",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Combustion-expansion, intake, compression, exhaust",
+        "Intake, compression, combustion-expansion, exhaust",
+        "Compression, intake, exhaust, combustion-expansion",
+        "Intake, exhaust, compression, combustion-expansion"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C02",
+      "concept_title": "Surveiller le fonctionnement",
+      "level": 2,
+      "question": "Une pression d'huile anormale apparaît en vol. Quelle démarche est adaptée ?",
+      "question_en": "An abnormal oil pressure indication appears in flight. What is appropriate?",
+      "options": [
+        "Recouper les indications et appliquer la procédure du manuel",
+        "Ignorer l'indication tant que l'hélice tourne",
+        "Appliquer un réglage trouvé pour un autre moteur",
+        "Attendre obligatoirement une seconde panne"
+      ],
+      "correct_answer": "Recouper les indications et appliquer la procédure du manuel",
+      "explanation": "La pression et la température d'huile renseignent sur le fonctionnement du moteur. Une anomalie exige la procédure du type, tout en maintenant le pilotage et en préparant les options utiles.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "Oil pressure and temperature provide information about engine operation. An anomaly requires the type-specific procedure while maintaining aircraft control and preparing useful options.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "engine",
+        "propeller",
+        "powerplant",
+        "piston",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Cross-check indications and apply the manual's procedure",
+        "Ignore it while the propeller is turning",
+        "Use a setting found for another engine",
+        "Always wait for a second failure"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C01",
+      "concept_title": "Du carburant à la traction",
+      "level": 2,
+      "question": "Vrai ou faux ? Le moteur à pistons transforme l'énergie du carburant en rotation.",
+      "question_en": "True or false? A piston engine converts fuel energy into rotation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn moteur à pistons transforme l'énergie du carburant en rotation. Dans un moteur quatre temps, admission, compression, combustion-détente et échappement se succèdent. L'hélice accélère une masse d'air et produit une force propulsive. Les réglages disponibles dépendent de l'installation : gaz, richesse et, sur certaines hélices, commande de régime. Un moteur électrique ou diesel possède des commandes et des procédures différentes.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "This statement is true.\n\nA piston engine converts fuel energy into rotation. In a four-stroke engine, intake, compression, combustion-expansion and exhaust occur in sequence. The propeller accelerates a mass of air and produces thrust. Available controls depend on the installation: throttle, mixture and, with some propellers, RPM control. Electric and diesel engines have different controls and procedures.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C01",
+      "concept_title": "Du carburant à la traction",
+      "level": 2,
+      "question": "Vrai ou faux ? Tous les avions à hélice disposent nécessairement d'une commande de régime séparée.",
+      "question_en": "True or false? Every propeller aircraft necessarily has a separate RPM control.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn moteur à pistons transforme l'énergie du carburant en rotation. Dans un moteur quatre temps, admission, compression, combustion-détente et échappement se succèdent. L'hélice accélère une masse d'air et produit une force propulsive. Les réglages disponibles dépendent de l'installation : gaz, richesse et, sur certaines hélices, commande de régime. Un moteur électrique ou diesel possède des commandes et des procédures différentes.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "This statement is false.\n\nA piston engine converts fuel energy into rotation. In a four-stroke engine, intake, compression, combustion-expansion and exhaust occur in sequence. The propeller accelerates a mass of air and produces thrust. Available controls depend on the installation: throttle, mixture and, with some propellers, RPM control. Electric and diesel engines have different controls and procedures.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C01",
+      "concept_title": "Du carburant à la traction",
+      "level": 2,
+      "question": "Vrai ou faux ? Les commandes d'un moteur diesel peuvent différer de celles d'un moteur à essence.",
+      "question_en": "True or false? Diesel engine controls may differ from petrol engine controls.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn moteur à pistons transforme l'énergie du carburant en rotation. Dans un moteur quatre temps, admission, compression, combustion-détente et échappement se succèdent. L'hélice accélère une masse d'air et produit une force propulsive. Les réglages disponibles dépendent de l'installation : gaz, richesse et, sur certaines hélices, commande de régime. Un moteur électrique ou diesel possède des commandes et des procédures différentes.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "This statement is true.\n\nA piston engine converts fuel energy into rotation. In a four-stroke engine, intake, compression, combustion-expansion and exhaust occur in sequence. The propeller accelerates a mass of air and produces thrust. Available controls depend on the installation: throttle, mixture and, with some propellers, RPM control. Electric and diesel engines have different controls and procedures.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C02",
+      "concept_title": "Surveiller le fonctionnement",
+      "level": 2,
+      "question": "Vrai ou faux ? La température d'huile renseigne directement sur la quantité de carburant utilisable.",
+      "question_en": "True or false? Oil temperature directly indicates usable fuel quantity.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nPression et température d'huile renseignent sur la lubrification et le refroidissement. Une indication anormale se traite selon le manuel de vol. Sur de nombreux moteurs à essence, les magnétos assurent l'allumage indépendamment de la batterie : couper le contact général électrique ne garantit pas que l'hélice soit inoffensive. Sur un moteur à carburateur, détente et vaporisation refroidissent l'air ; le givrage peut apparaître même par température extérieure positive.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "This statement is false.\n\nOil pressure and temperature give information about lubrication and cooling. Handle abnormal indications according to the flight manual. On many petrol engines, magnetos provide ignition independently of the battery: switching off the electrical master does not guarantee a harmless propeller. In a carburettor, expansion and vaporisation cool the air; icing can occur even with a positive outside temperature.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C02",
+      "concept_title": "Surveiller le fonctionnement",
+      "level": 2,
+      "question": "Vrai ou faux ? La vaporisation dans le carburateur contribue au refroidissement du mélange.",
+      "question_en": "True or false? Vaporisation in the carburettor contributes to cooling the mixture.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nPression et température d'huile renseignent sur la lubrification et le refroidissement. Une indication anormale se traite selon le manuel de vol. Sur de nombreux moteurs à essence, les magnétos assurent l'allumage indépendamment de la batterie : couper le contact général électrique ne garantit pas que l'hélice soit inoffensive. Sur un moteur à carburateur, détente et vaporisation refroidissent l'air ; le givrage peut apparaître même par température extérieure positive.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "This statement is true.\n\nOil pressure and temperature give information about lubrication and cooling. Handle abnormal indications according to the flight manual. On many petrol engines, magnetos provide ignition independently of the battery: switching off the electrical master does not guarantee a harmless propeller. In a carburettor, expansion and vaporisation cool the air; icing can occur even with a positive outside temperature.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C02",
+      "concept_title": "Surveiller le fonctionnement",
+      "level": 2,
+      "question": "Vrai ou faux ? Une batterie débranchée exclut tout allumage par magnétos.",
+      "question_en": "True or false? A disconnected battery rules out magneto ignition.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nPression et température d'huile renseignent sur la lubrification et le refroidissement. Une indication anormale se traite selon le manuel de vol. Sur de nombreux moteurs à essence, les magnétos assurent l'allumage indépendamment de la batterie : couper le contact général électrique ne garantit pas que l'hélice soit inoffensive. Sur un moteur à carburateur, détente et vaporisation refroidissent l'air ; le givrage peut apparaître même par température extérieure positive.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "This statement is false.\n\nOil pressure and temperature give information about lubrication and cooling. Handle abnormal indications according to the flight manual. On many petrol engines, magnetos provide ignition independently of the battery: switching off the electrical master does not guarantee a harmless propeller. In a carburettor, expansion and vaporisation cool the air; icing can occur even with a positive outside temperature.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C03",
+      "concept_title": "Mise en situation",
+      "level": 2,
+      "question": "Vrai ou faux ? Une baisse progressive de régime en air humide peut faire suspecter du givrage carburateur.",
+      "question_en": "True or false? A gradual RPM decrease in humid air can suggest carburettor icing.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne baisse progressive de régime sur une hélice à pas fixe, en air humide, peut évoquer un givrage carburateur sans constituer un diagnostic unique. Appliquer la procédure du type d'avion, surveiller les indications et préparer une option d'atterrissage si nécessaire. Ne pas improviser un réglage de richesse ou une utilisation du réchauffage : les consignes du manuel et l'instruction sur type priment.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "This statement is true.\n\nA progressive RPM reduction with a fixed-pitch propeller in humid air may suggest carburettor icing, but it is not a unique diagnosis. Apply the aircraft type's procedure, monitor indications and prepare a landing option if necessary. Do not improvise mixture settings or carburettor heat use: the manual and training on type take precedence.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C03",
+      "concept_title": "Mise en situation",
+      "level": 2,
+      "question": "Vrai ou faux ? Une baisse de régime suffit à identifier une seule cause avec certitude.",
+      "question_en": "True or false? An RPM decrease identifies a single cause with certainty.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne baisse progressive de régime sur une hélice à pas fixe, en air humide, peut évoquer un givrage carburateur sans constituer un diagnostic unique. Appliquer la procédure du type d'avion, surveiller les indications et préparer une option d'atterrissage si nécessaire. Ne pas improviser un réglage de richesse ou une utilisation du réchauffage : les consignes du manuel et l'instruction sur type priment.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "This statement is false.\n\nA progressive RPM reduction with a fixed-pitch propeller in humid air may suggest carburettor icing, but it is not a unique diagnosis. Apply the aircraft type's procedure, monitor indications and prepare a landing option if necessary. Do not improvise mixture settings or carburettor heat use: the manual and training on type take precedence.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C03",
+      "concept_title": "Mise en situation",
+      "level": 2,
+      "question": "Vrai ou faux ? Lors d'une anomalie moteur, préparer une possibilité d'atterrissage peut être nécessaire.",
+      "question_en": "True or false? Preparing a landing option may be necessary during an engine anomaly.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUne baisse progressive de régime sur une hélice à pas fixe, en air humide, peut évoquer un givrage carburateur sans constituer un diagnostic unique. Appliquer la procédure du type d'avion, surveiller les indications et préparer une option d'atterrissage si nécessaire. Ne pas improviser un réglage de richesse ou une utilisation du réchauffage : les consignes du manuel et l'instruction sur type priment.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "This statement is true.\n\nA progressive RPM reduction with a fixed-pitch propeller in humid air may suggest carburettor icing, but it is not a unique diagnosis. Apply the aircraft type's procedure, monitor indications and prepare a landing option if necessary. Do not improvise mixture settings or carburettor heat use: the manual and training on type take precedence.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_002_C03",
+      "concept_title": "Mise en situation",
+      "level": 2,
+      "question": "Vrai ou faux ? Le réglage de richesse peut être improvisé sans tenir compte du manuel.",
+      "question_en": "True or false? Mixture settings may be improvised without considering the manual.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUne baisse progressive de régime sur une hélice à pas fixe, en air humide, peut évoquer un givrage carburateur sans constituer un diagnostic unique. Appliquer la procédure du type d'avion, surveiller les indications et préparer une option d'atterrissage si nécessaire. Ne pas improviser un réglage de richesse ou une utilisation du réchauffage : les consignes du manuel et l'instruction sur type priment.\n\n![Cycle quatre temps : admission avec descente du piston, compression avec remontée, détente avec descente et échappement avec remontée.](/illustrations/ppl-ac-002.svg)",
+      "explanation_en": "This statement is false.\n\nA progressive RPM reduction with a fixed-pitch propeller in humid air may suggest carburettor icing, but it is not a unique diagnosis. Apply the aircraft type's procedure, monitor indications and prepare a landing option if necessary. Do not improvise mixture settings or carburettor heat use: the manual and training on type take precedence.\n\n![Diagram: Powerplant (Engine, Propeller)](/illustrations/en/ppl-ac-002.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    }
+  ]
 }

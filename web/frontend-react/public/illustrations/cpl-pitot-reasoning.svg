@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Pitot-statique : raisonner avec les pressions</title><desc id="desc">Pitot-statique : raisonner avec les pressions</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / CPL / COMPRENDRE EN IMAGE</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Pitot-statique : raisonner avec les pressions</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Exercice fictif · Schéma non à l’échelle</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">CPL_PITOT_REASONING</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Schéma pédagogique · Données d’exercice, sauf mention contraire</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relier le schéma aux explications et aux références de la leçon.</text>
+<text x="65" y="215" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Écrire les pressions reçues avant de conclure</text>
+<rect x="65" y="242" width="515" height="272" rx="12" fill="#1c344b" stroke="#304961"/>
+<rect x="620" y="242" width="515" height="272" rx="12" fill="#1c344b" stroke="#304961"/>
+<text x="83" y="282" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Pt piégée, Ps libre</text>
+<text x="83" y="327" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Différence = Pt piégée − Ps actuelle</text>
+<text x="83" y="376" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Ps baisse → différence augmente</text>
+<text x="83" y="417" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Ps augmente → différence baisse</text>
+<text x="83" y="468" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Entrée ET drainage pitot obstrués.</text>
+<text x="638" y="282" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Ps piégée, pitot libre</text>
+<text x="638" y="327" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Comparer au même instant :</text>
+<text x="638" y="369" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Reçue : Pt − Ps piégée</text>
+<text x="638" y="409" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Correcte : Pt − Ps extérieure</text>
+<text x="638" y="461" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Le sens du mouvement seul ne donne pas le</text>
+<text x="638" y="486" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">signe de l’erreur.</text>
+<text x="65" y="554" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Pt ET Ps piégées → différence constante dans le modèle idéal.</text>
+<text x="65" y="592" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Hypothèses : sans fuite ni effet thermique ; hPa ≠ kt.</text>
+</svg>

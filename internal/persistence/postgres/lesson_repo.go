@@ -19,7 +19,7 @@ func NewLessonRepo(pool *pgxpool.Pool) *LessonRepo {
 	return &LessonRepo{pool: pool}
 }
 
-const lessonColumns = `id, license, category, theme, title_fr, title_en, content_fr, content_en, difficulty, order_index, created_at`
+const lessonColumns = `id, license, category, theme, title_fr, title_en, content_fr, content_en, difficulty, order_index, created_at, title_es, content_es`
 
 func scanLesson(scanner interface {
 	Scan(dest ...interface{}) error
@@ -27,20 +27,20 @@ func scanLesson(scanner interface {
 	l := &domain.Lesson{}
 	err := scanner.Scan(&l.ID, &l.License, &l.Category, &l.Theme,
 		&l.TitleFr, &l.TitleEn, &l.ContentFr, &l.ContentEn,
-		&l.Difficulty, &l.OrderIndex, &l.CreatedAt)
+		&l.Difficulty, &l.OrderIndex, &l.CreatedAt, &l.TitleEs, &l.ContentEs)
 	return l, err
 }
 
 func (r *LessonRepo) Create(l *domain.Lesson) error {
 	query := `
-		INSERT INTO lessons (license, category, theme, title_fr, title_en, content_fr, content_en, difficulty, order_index)
-		VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+		INSERT INTO lessons (license, category, theme, title_fr, title_en, content_fr, content_en, difficulty, order_index, title_es, content_es)
+		VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
 		RETURNING id, created_at`
 
 	return r.pool.QueryRow(context.Background(), query,
 		l.License, l.Category, l.Theme,
 		l.TitleFr, l.TitleEn, l.ContentFr, l.ContentEn,
-		l.Difficulty, l.OrderIndex,
+		l.Difficulty, l.OrderIndex, l.TitleEs, l.ContentEs,
 	).Scan(&l.ID, &l.CreatedAt)
 }
 
@@ -107,13 +107,13 @@ func (r *LessonRepo) Update(l *domain.Lesson) error {
 			license = $1, category = $2, theme = $3,
 			title_fr = $4, title_en = $5,
 			content_fr = $6, content_en = $7,
-			difficulty = $8, order_index = $9
-		WHERE id = $10`
+			difficulty = $8, order_index = $9, title_es = $10, content_es = $11
+		WHERE id = $12`
 
 	tag, err := r.pool.Exec(context.Background(), query,
 		l.License, l.Category, l.Theme,
 		l.TitleFr, l.TitleEn, l.ContentFr, l.ContentEn,
-		l.Difficulty, l.OrderIndex,
+		l.Difficulty, l.OrderIndex, l.TitleEs, l.ContentEs,
 		l.ID,
 	)
 	if err != nil {

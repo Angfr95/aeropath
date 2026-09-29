@@ -65,10 +65,14 @@ export interface Question {
   id: string;
   question_fr: string;
   question_en: string;
+  question_es?: string;
   options: string[] | QuestionOption[];
+  options_en?: string[];
+  options_es?: string[];
   answer_key?: string;          // back-end only
   explanation_fr: string;
   explanation_en: string;
+  explanation_es?: string;
   license: License;
   category: Category;
   theme: string;
@@ -82,6 +86,7 @@ export interface AnswerResult {
   correct_answer: string;
   explanation_fr: string;
   explanation_en: string;
+  explanation_es?: string;
 }
 
 export interface QuizFeedback {
@@ -90,6 +95,7 @@ export interface QuizFeedback {
   selected_answer: string;
   explanation_fr: string;
   explanation_en: string;
+  explanation_es?: string;
 }
 
 // ---------- Leçon ----------
@@ -97,8 +103,10 @@ export interface Lesson {
   id: string;
   title_fr: string;
   title_en: string;
+  title_es?: string;
   content_fr: string;
   content_en: string;
+  content_es?: string;
   license: License;
   category: Category;
   theme: string;
@@ -112,6 +120,7 @@ export interface HistoryEntry {
   question_id: string;
   question_fr: string;
   question_en: string;
+  question_es?: string;
   answer: string;
   was_correct: boolean;
   license: License;
@@ -154,6 +163,7 @@ export interface DueCard {
   question_id: string;
   question_fr: string;
   question_en: string;
+  question_es?: string;
   next_review: string;   // ISO 8601
   interval_days: number;
 }

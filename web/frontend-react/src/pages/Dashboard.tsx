@@ -39,7 +39,7 @@ export default function Dashboard() {
   }, []);
 
   async function handleRandomQuiz() {
-    await startRandom(5);
+    await startRandom(15);
   }
 
   return (

@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    ports:
+      - "127.0.0.1:55432:5432"
+    environment:
+      POSTGRES_DB: aeropath
+      POSTGRES_USER: aeropath
+      POSTGRES_PASSWORD: aeropath_local
+    volumes:
+      - aeropath_local_postgres:/var/lib/postgresql/data
+      - ./scripts/migrations:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aeropath"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+volumes:
+  aeropath_local_postgres:

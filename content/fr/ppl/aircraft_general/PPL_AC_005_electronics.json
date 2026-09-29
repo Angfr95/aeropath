@@ -5,13 +5,555 @@
     "subject": "Aircraft General",
     "chapter_title": "Équipements électroniques et radio",
     "chapter_title_en": "Avionics and Radio",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : communication et surveillance; navigation et interface; exemple d'erreur.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: communication and surveillance; navigation and interface; an error example.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 25,
-    "prerequisites": ["PPL_AC_004"],
-    "tags": ["avionics", "radio", "transponder", "GPS"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AC_004"
+    ],
+    "tags": [
+      "avionics",
+      "radio",
+      "transponder",
+      "GPS"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-ac-005.svg",
+      "alt": "La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation."
+    },
+    "exam_subject": "aircraft_general",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_AC_005_C01",
+      "title": "Communication et surveillance",
+      "title_en": "Communication and surveillance",
+      "content": "![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)\n\nLa radio VHF permet les échanges vocaux. Le transpondeur répond aux interrogations des systèmes de surveillance ; ses fonctions dépendent du mode et de l'installation. Une altitude transmise utilise une référence barométrique standard dans la chaîne de surveillance : modifier le QNH de l'altimètre ne sert pas à corriger manuellement cette transmission. Respecter les réglages et instructions publiés.",
+      "content_en": "![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)\n\nVHF radio enables voice communication. The transponder responds to surveillance system interrogations; its functions depend on mode and installation. Transmitted altitude uses a standard barometric reference within the surveillance chain: changing the altimeter QNH is not a way to manually correct that transmission. Follow published settings and instructions.",
+      "difficulty": "intermediate",
+      "tags": [
+        "avionics",
+        "radio",
+        "transponder",
+        "GPS"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Communication et surveillance"
+    },
+    {
+      "concept_id": "PPL_AC_005_C02",
+      "title": "Navigation et interface",
+      "title_en": "Navigation and interface",
+      "content": "Un récepteur GNSS fournit position, route et vitesse sol, mais une carte électronique comporte aussi une base de données, une date de validité et des paramètres d'affichage. Vérifier le point choisi, les unités et la référence vrai/magnétique. La ligne directe vers une destination ne garantit ni le franchissement du relief ni l'autorisation de traverser un espace aérien.",
+      "content_en": "A GNSS receiver provides position, track and groundspeed, but an electronic chart also includes a database, validity date and display settings. Check the selected point, units and true/magnetic reference. A direct line to a destination guarantees neither terrain clearance nor authorisation to cross airspace.",
+      "difficulty": "intermediate",
+      "tags": [
+        "avionics",
+        "radio",
+        "transponder",
+        "GPS"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Navigation et interface"
+    },
+    {
+      "concept_id": "PPL_AC_005_C03",
+      "title": "Exemple d'erreur",
+      "title_en": "An error example",
+      "content": "Deux aérodromes ont des noms voisins. Après une saisie, comparer identifiant, distance, orientation et position sur la carte avec la préparation. Préparer une solution en cas de panne d'écran ou d'alimentation. Un dispositif anticollision aide à détecter certains trafics, sans montrer tous les aéronefs : la surveillance extérieure reste essentielle en VFR.",
+      "content_en": "Two aerodromes have similar names. After entry, compare identifier, distance, bearing and chart position with the flight preparation. Prepare a backup for display or power failure. A traffic-awareness device helps detect some traffic without showing every aircraft: an external lookout remains essential in VFR.",
+      "difficulty": "intermediate",
+      "tags": [
+        "avionics",
+        "radio",
+        "transponder",
+        "GPS"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Exemple d'erreur"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AC_005_C01",
+      "concept_title": "Communication et surveillance",
+      "level": 1,
+      "question": "Une route directe GNSS garantit-elle l'absence d'espace réglementé ?",
+      "question_en": "Does a direct GNSS route guarantee the absence of restricted airspace?",
+      "options": [
+        "Oui avec un écran couleur",
+        "Non",
+        "Oui",
+        "Oui en mode VFR"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Le pilote doit vérifier espaces, relief et restrictions.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "The pilot must check airspace, terrain and restrictions.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "avionics",
+        "radio",
+        "transponder",
+        "GPS",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Yes, with a colour display",
+        "No",
+        "Yes",
+        "Yes, in VFR mode"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C02",
+      "concept_title": "Navigation et interface",
+      "level": 1,
+      "question": "Que contrôler après la sélection d'un aérodrome ?",
+      "question_en": "What should you check after selecting an aerodrome?",
+      "options": [
+        "Son identifiant et la cohérence de sa position",
+        "Uniquement la couleur du symbole",
+        "Seulement le volume radio",
+        "Le régime moteur"
+      ],
+      "correct_answer": "Son identifiant et la cohérence de sa position",
+      "explanation": "Une vérification croisée détecte une sélection erronée.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "Cross-checking detects an incorrect selection.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "avionics",
+        "radio",
+        "transponder",
+        "GPS",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Its identifier and whether its position is consistent",
+        "Only the symbol colour",
+        "Only radio volume",
+        "Engine RPM"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C03",
+      "concept_title": "Exemple d'erreur",
+      "level": 1,
+      "question": "Un affichage de trafic remplace-t-il la surveillance extérieure ?",
+      "question_en": "Does a traffic display replace an external lookout?",
+      "options": [
+        "Oui",
+        "Oui au-dessus de 1 000 ft",
+        "Oui le jour",
+        "Non"
+      ],
+      "correct_answer": "Non",
+      "explanation": "Tous les trafics ne sont pas nécessairement détectés ou affichés.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "Not all traffic is necessarily detected or displayed.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "avionics",
+        "radio",
+        "transponder",
+        "GPS",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Yes",
+        "Yes, above 1,000 ft",
+        "Yes, by day",
+        "No"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C02",
+      "concept_title": "Navigation et interface",
+      "level": 2,
+      "question": "Le GNSS affiche une position plausible, mais sa base cartographique est ancienne. Quel risque subsiste ?",
+      "question_en": "GNSS shows a plausible position, but the chart database is old. What risk remains?",
+      "options": [
+        "Seule la luminosité de l'écran peut être affectée",
+        "La base ancienne garantit une meilleure précision du vent",
+        "Des espaces ou informations cartographiques peuvent ne plus être à jour",
+        "La position plausible prouve que toutes les données sont actuelles"
+      ],
+      "correct_answer": "Des espaces ou informations cartographiques peuvent ne plus être à jour",
+      "explanation": "Le calcul de position et les données cartographiques sont deux éléments distincts. Une position correcte ne valide pas les informations d'espace aérien contenues dans une base ancienne.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "Position calculation and chart data are separate. A correct position does not validate airspace information in an old database.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "avionics",
+        "radio",
+        "transponder",
+        "GPS",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Only screen brightness may be affected",
+        "The old database guarantees more accurate wind",
+        "Airspace or chart information may be out of date",
+        "A plausible position proves all data are current"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C03",
+      "concept_title": "Exemple d'erreur",
+      "level": 2,
+      "question": "Une panne d'écran rend la carte électronique indisponible. Quelle préparation réduit ses conséquences ?",
+      "question_en": "A screen failure makes the electronic chart unavailable. Which preparation reduces the consequences?",
+      "options": [
+        "Avoir désactivé toutes les alertes cartographiques",
+        "Disposer d'un moyen de navigation de repli préparé",
+        "Avoir uniquement augmenté la luminosité avant le vol",
+        "Avoir mémorisé seulement le nom de la destination"
+      ],
+      "correct_answer": "Disposer d'un moyen de navigation de repli préparé",
+      "explanation": "La préparation doit inclure une solution en cas de perte d'écran ou d'alimentation. Le repli doit permettre de poursuivre la navigation avec des informations utilisables.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "Preparation should include an option for display or power loss. The backup must allow navigation to continue using usable information.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "avionics",
+        "radio",
+        "transponder",
+        "GPS",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Having disabled all chart alerts",
+        "Having a prepared backup navigation method",
+        "Only having increased brightness before flight",
+        "Having memorised only the destination name"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C01",
+      "concept_title": "Communication et surveillance",
+      "level": 2,
+      "question": "Vrai ou faux ? La radio VHF permet des communications vocales.",
+      "question_en": "True or false? VHF radio enables voice communication.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa radio VHF permet les échanges vocaux. Le transpondeur répond aux interrogations des systèmes de surveillance ; ses fonctions dépendent du mode et de l'installation. Une altitude transmise utilise une référence barométrique standard dans la chaîne de surveillance : modifier le QNH de l'altimètre ne sert pas à corriger manuellement cette transmission. Respecter les réglages et instructions publiés.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "This statement is true.\n\nVHF radio enables voice communication. The transponder responds to surveillance system interrogations; its functions depend on mode and installation. Transmitted altitude uses a standard barometric reference within the surveillance chain: changing the altimeter QNH is not a way to manually correct that transmission. Follow published settings and instructions.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C01",
+      "concept_title": "Communication et surveillance",
+      "level": 2,
+      "question": "Vrai ou faux ? Tous les transpondeurs possèdent exactement les mêmes fonctions.",
+      "question_en": "True or false? All transponders have exactly the same functions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa radio VHF permet les échanges vocaux. Le transpondeur répond aux interrogations des systèmes de surveillance ; ses fonctions dépendent du mode et de l'installation. Une altitude transmise utilise une référence barométrique standard dans la chaîne de surveillance : modifier le QNH de l'altimètre ne sert pas à corriger manuellement cette transmission. Respecter les réglages et instructions publiés.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "This statement is false.\n\nVHF radio enables voice communication. The transponder responds to surveillance system interrogations; its functions depend on mode and installation. Transmitted altitude uses a standard barometric reference within the surveillance chain: changing the altimeter QNH is not a way to manually correct that transmission. Follow published settings and instructions.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C01",
+      "concept_title": "Communication et surveillance",
+      "level": 2,
+      "question": "Vrai ou faux ? Modifier le QNH de l'altimètre corrige manuellement l'altitude transmise par le transpondeur.",
+      "question_en": "True or false? Changing the altimeter QNH manually corrects the altitude transmitted by the transponder.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa radio VHF permet les échanges vocaux. Le transpondeur répond aux interrogations des systèmes de surveillance ; ses fonctions dépendent du mode et de l'installation. Une altitude transmise utilise une référence barométrique standard dans la chaîne de surveillance : modifier le QNH de l'altimètre ne sert pas à corriger manuellement cette transmission. Respecter les réglages et instructions publiés.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "This statement is false.\n\nVHF radio enables voice communication. The transponder responds to surveillance system interrogations; its functions depend on mode and installation. Transmitted altitude uses a standard barometric reference within the surveillance chain: changing the altimeter QNH is not a way to manually correct that transmission. Follow published settings and instructions.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C02",
+      "concept_title": "Navigation et interface",
+      "level": 2,
+      "question": "Vrai ou faux ? Le point sélectionné et la référence vrai ou magnétique doivent être vérifiés.",
+      "question_en": "True or false? The selected point and true or magnetic reference must be checked.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn récepteur GNSS fournit position, route et vitesse sol, mais une carte électronique comporte aussi une base de données, une date de validité et des paramètres d'affichage. Vérifier le point choisi, les unités et la référence vrai/magnétique. La ligne directe vers une destination ne garantit ni le franchissement du relief ni l'autorisation de traverser un espace aérien.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "This statement is true.\n\nA GNSS receiver provides position, track and groundspeed, but an electronic chart also includes a database, validity date and display settings. Check the selected point, units and true/magnetic reference. A direct line to a destination guarantees neither terrain clearance nor authorisation to cross airspace.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C02",
+      "concept_title": "Navigation et interface",
+      "level": 2,
+      "question": "Vrai ou faux ? Une ligne directe GNSS garantit le franchissement des obstacles.",
+      "question_en": "True or false? A direct GNSS line guarantees obstacle clearance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nUn récepteur GNSS fournit position, route et vitesse sol, mais une carte électronique comporte aussi une base de données, une date de validité et des paramètres d'affichage. Vérifier le point choisi, les unités et la référence vrai/magnétique. La ligne directe vers une destination ne garantit ni le franchissement du relief ni l'autorisation de traverser un espace aérien.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "This statement is false.\n\nA GNSS receiver provides position, track and groundspeed, but an electronic chart also includes a database, validity date and display settings. Check the selected point, units and true/magnetic reference. A direct line to a destination guarantees neither terrain clearance nor authorisation to cross airspace.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C02",
+      "concept_title": "Navigation et interface",
+      "level": 2,
+      "question": "Vrai ou faux ? Les paramètres d'affichage influencent les informations visibles sur une carte électronique.",
+      "question_en": "True or false? Display settings influence the information visible on an electronic chart.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nUn récepteur GNSS fournit position, route et vitesse sol, mais une carte électronique comporte aussi une base de données, une date de validité et des paramètres d'affichage. Vérifier le point choisi, les unités et la référence vrai/magnétique. La ligne directe vers une destination ne garantit ni le franchissement du relief ni l'autorisation de traverser un espace aérien.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "This statement is true.\n\nA GNSS receiver provides position, track and groundspeed, but an electronic chart also includes a database, validity date and display settings. Check the selected point, units and true/magnetic reference. A direct line to a destination guarantees neither terrain clearance nor authorisation to cross airspace.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C03",
+      "concept_title": "Exemple d'erreur",
+      "level": 2,
+      "question": "Vrai ou faux ? Un nom d'aérodrome ressemblant à celui prévu suffit à confirmer le bon choix.",
+      "question_en": "True or false? An aerodrome name resembling the intended name is enough to confirm selection.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDeux aérodromes ont des noms voisins. Après une saisie, comparer identifiant, distance, orientation et position sur la carte avec la préparation. Préparer une solution en cas de panne d'écran ou d'alimentation. Un dispositif anticollision aide à détecter certains trafics, sans montrer tous les aéronefs : la surveillance extérieure reste essentielle en VFR.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "This statement is false.\n\nTwo aerodromes have similar names. After entry, compare identifier, distance, bearing and chart position with the flight preparation. Prepare a backup for display or power failure. A traffic-awareness device helps detect some traffic without showing every aircraft: an external lookout remains essential in VFR.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C03",
+      "concept_title": "Exemple d'erreur",
+      "level": 2,
+      "question": "Vrai ou faux ? La distance affichée peut aider à repérer une mauvaise sélection de destination.",
+      "question_en": "True or false? The displayed distance can help reveal a wrong destination selection.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDeux aérodromes ont des noms voisins. Après une saisie, comparer identifiant, distance, orientation et position sur la carte avec la préparation. Préparer une solution en cas de panne d'écran ou d'alimentation. Un dispositif anticollision aide à détecter certains trafics, sans montrer tous les aéronefs : la surveillance extérieure reste essentielle en VFR.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "This statement is true.\n\nTwo aerodromes have similar names. After entry, compare identifier, distance, bearing and chart position with the flight preparation. Prepare a backup for display or power failure. A traffic-awareness device helps detect some traffic without showing every aircraft: an external lookout remains essential in VFR.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C03",
+      "concept_title": "Exemple d'erreur",
+      "level": 2,
+      "question": "Vrai ou faux ? Une panne d'alimentation doit faire partie des situations prévues avant le départ.",
+      "question_en": "True or false? Power failure should be among the situations anticipated before departure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nDeux aérodromes ont des noms voisins. Après une saisie, comparer identifiant, distance, orientation et position sur la carte avec la préparation. Préparer une solution en cas de panne d'écran ou d'alimentation. Un dispositif anticollision aide à détecter certains trafics, sans montrer tous les aéronefs : la surveillance extérieure reste essentielle en VFR.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "This statement is true.\n\nTwo aerodromes have similar names. After entry, compare identifier, distance, bearing and chart position with the flight preparation. Prepare a backup for display or power failure. A traffic-awareness device helps detect some traffic without showing every aircraft: an external lookout remains essential in VFR.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_005_C03",
+      "concept_title": "Exemple d'erreur",
+      "level": 2,
+      "question": "Vrai ou faux ? L'absence de symbole de trafic prouve que le ciel est vide.",
+      "question_en": "True or false? The absence of a traffic symbol proves the sky is empty.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nDeux aérodromes ont des noms voisins. Après une saisie, comparer identifiant, distance, orientation et position sur la carte avec la préparation. Préparer une solution en cas de panne d'écran ou d'alimentation. Un dispositif anticollision aide à détecter certains trafics, sans montrer tous les aéronefs : la surveillance extérieure reste essentielle en VFR.\n\n![La VHF sert aux échanges vocaux, le transpondeur à la surveillance et le GNSS au positionnement et à la navigation.](/illustrations/ppl-ac-005.svg)",
+      "explanation_en": "This statement is false.\n\nTwo aerodromes have similar names. After entry, compare identifier, distance, bearing and chart position with the flight preparation. Prepare a backup for display or power failure. A traffic-awareness device helps detect some traffic without showing every aircraft: an external lookout remains essential in VFR.\n\n![Diagram: Avionics and Radio](/illustrations/en/ppl-ac-005.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    }
+  ]
 }

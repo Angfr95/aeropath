@@ -5,13 +5,555 @@
     "subject": "Aircraft General",
     "chapter_title": "Systèmes de bord (électrique, carburant, hydraulique)",
     "chapter_title_en": "Aircraft Systems (Electrical, Fuel, Hydraulic)",
-    "learning_objective": "",
-    "learning_objective_en": "",
+    "learning_objective": "À la fin de cette leçon, savoir expliquer et appliquer : alimentation et disponibilité; électricité et hydraulique; exemple et méthode.",
+    "learning_objective_en": "By the end of this lesson, be able to explain and apply: supply and availability; electrical and hydraulic systems; example and method.",
     "difficulty": "intermediate",
-    "estimated_duration_minutes": 35,
-    "prerequisites": ["PPL_AC_001"],
-    "tags": ["systems", "electrical", "fuel", "hydraulic"]
+    "estimated_duration_minutes": 10,
+    "prerequisites": [
+      "PPL_AC_001"
+    ],
+    "tags": [
+      "systems",
+      "electrical",
+      "fuel",
+      "hydraulic"
+    ],
+    "content_status": "draft",
+    "reference_checked_on": "2026-09-15",
+    "scope": "PPL(A), France / cadre européen",
+    "sources": [
+      {
+        "title": "FAA — Pilot’s Handbook of Aeronautical Knowledge, chapitres 3 et 6 à 11",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      }
+    ],
+    "illustration": {
+      "src": "/illustrations/ppl-ac-003.svg",
+      "alt": "Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins."
+    },
+    "exam_subject": "aircraft_general",
+    "coverage_status": "partial"
   },
-  "concepts": [],
-  "questions": []
+  "concepts": [
+    {
+      "concept_id": "PPL_AC_003_C01",
+      "title": "Alimentation et disponibilité",
+      "title_en": "Supply and availability",
+      "content": "![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)\n\nLe circuit carburant comprend réservoirs, mises à l'air, conduites, sélecteur et éventuellement pompes. La quantité totale n'est pas la quantité utilisable. Une mauvaise sélection de réservoir ou une mise à l'air obstruée peut interrompre l'alimentation malgré du carburant à bord. La vérification prévol recoupe documents, quantité mesurée et indications de jauge selon le type d'avion.",
+      "content_en": "![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)\n\nThe fuel system includes tanks, vents, lines, a selector and possibly pumps. Total fuel is not the same as usable fuel. Incorrect tank selection or a blocked vent can interrupt supply despite fuel remaining on board. Preflight checks reconcile documentation, measured quantity and gauge indications as appropriate to the aircraft type.",
+      "difficulty": "intermediate",
+      "tags": [
+        "systems",
+        "electrical",
+        "fuel",
+        "hydraulic"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Alimentation et disponibilité"
+    },
+    {
+      "concept_id": "PPL_AC_003_C02",
+      "title": "Électricité et hydraulique",
+      "title_en": "Electrical and hydraulic systems",
+      "content": "La batterie permet notamment le démarrage ; l'alternateur ou la génératrice fournit ensuite l'énergie et recharge la batterie. Après une panne de production, l'autonomie électrique dépend de la charge et de l'état de la batterie. Les freins utilisent souvent un circuit hydraulique. Une fuite, une pédale anormale ou une dissymétrie doit être analysée avant le départ.",
+      "content_en": "The battery supports starting, among other functions; the alternator or generator then supplies power and recharges it. After a generation failure, electrical endurance depends on load and battery condition. Brakes often use a hydraulic circuit. A leak, abnormal pedal feel or asymmetry must be assessed before departure.",
+      "difficulty": "intermediate",
+      "tags": [
+        "systems",
+        "electrical",
+        "fuel",
+        "hydraulic"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Électricité et hydraulique"
+    },
+    {
+      "concept_id": "PPL_AC_003_C03",
+      "title": "Exemple et méthode",
+      "title_en": "Example and method",
+      "content": "Le voyant de charge s'allume en croisière. Maintenir le pilotage, confirmer l'anomalie avec les autres indications puis suivre la checklist. Les équipements réellement disponibles dépendent de l'architecture de l'avion : certains moteurs continuent sans alternateur, d'autres dépendent de l'électricité. Retenir que connaître le chemin de l'énergie et du carburant aide à interpréter une panne, mais ne remplace pas la procédure.",
+      "content_en": "The charging warning illuminates in cruise. Maintain aircraft control, confirm the anomaly using other indications, then follow the checklist. Equipment availability depends on aircraft design: some engines continue without an alternator, while others depend on electricity. Understanding the paths of energy and fuel helps interpret a failure but does not replace the procedure.",
+      "difficulty": "intermediate",
+      "tags": [
+        "systems",
+        "electrical",
+        "fuel",
+        "hydraulic"
+      ],
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "learning_objective": "Exemple et méthode"
+    }
+  ],
+  "questions": [
+    {
+      "concept_id": "PPL_AC_003_C01",
+      "concept_title": "Alimentation et disponibilité",
+      "level": 1,
+      "question": "Quelle quantité utiliser pour calculer l'autonomie ?",
+      "question_en": "Which quantity should be used to calculate endurance?",
+      "options": [
+        "La capacité totale uniquement",
+        "La masse à vide",
+        "Le volume des bagages",
+        "Le carburant utilisable"
+      ],
+      "correct_answer": "Le carburant utilisable",
+      "explanation": "Le carburant inutilisable ne peut pas être compté pour alimenter le moteur.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "Unusable fuel cannot be counted on to supply the engine.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "systems",
+        "electrical",
+        "fuel",
+        "hydraulic",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Only total capacity",
+        "Empty mass",
+        "Baggage volume",
+        "Usable fuel"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C02",
+      "concept_title": "Électricité et hydraulique",
+      "level": 1,
+      "question": "Que se passe-t-il souvent après une panne d'alternateur ?",
+      "question_en": "What often happens after an alternator failure?",
+      "options": [
+        "La batterie se recharge plus vite",
+        "Le carburant augmente",
+        "La batterie alimente temporairement les équipements",
+        "Tous les moteurs s'arrêtent immédiatement"
+      ],
+      "correct_answer": "La batterie alimente temporairement les équipements",
+      "explanation": "La durée disponible dépend de l'installation et de la consommation électrique.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "Available time depends on the installation and electrical consumption.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "systems",
+        "electrical",
+        "fuel",
+        "hydraulic",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "The battery charges faster",
+        "Fuel increases",
+        "The battery temporarily powers the equipment",
+        "All engines stop immediately"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C03",
+      "concept_title": "Exemple et méthode",
+      "level": 1,
+      "question": "À quoi sert une mise à l'air de réservoir ?",
+      "question_en": "What is a fuel tank vent for?",
+      "options": [
+        "Chauffer les freins",
+        "Permettre l'équilibrage de pression",
+        "Augmenter l'indice d'octane",
+        "Mesurer la vitesse"
+      ],
+      "correct_answer": "Permettre l'équilibrage de pression",
+      "explanation": "Une ventilation correcte permet l'écoulement normal du carburant.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "Correct venting allows normal fuel flow.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "systems",
+        "electrical",
+        "fuel",
+        "hydraulic",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Heating the brakes",
+        "Allowing pressure equalisation",
+        "Increasing octane rating",
+        "Measuring speed"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C01",
+      "concept_title": "Alimentation et disponibilité",
+      "level": 2,
+      "question": "Du carburant reste à bord, mais le moteur n'est plus alimenté. Quelle cause est possible ?",
+      "question_en": "Fuel remains on board but no longer reaches the engine. What is a possible cause?",
+      "options": [
+        "Une mauvaise sélection de réservoir",
+        "Une erreur de calage QNH",
+        "Une fréquence radio incorrecte",
+        "Une mauvaise orientation de la carte"
+      ],
+      "correct_answer": "Une mauvaise sélection de réservoir",
+      "explanation": "La présence de carburant ne garantit pas son acheminement. Sélecteur, conduites, pompes et mises à l'air font partie de la chaîne à connaître et à vérifier selon la checklist.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "Fuel being present does not guarantee delivery. The selector, lines, pumps and vents form a system to understand and check according to the checklist.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "systems",
+        "electrical",
+        "fuel",
+        "hydraulic",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Incorrect tank selection",
+        "An incorrect QNH setting",
+        "An incorrect radio frequency",
+        "Incorrect chart orientation"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C02",
+      "concept_title": "Électricité et hydraulique",
+      "level": 2,
+      "question": "Après une panne d'alternateur, de quoi dépend notamment le temps d'alimentation restant sur batterie ?",
+      "question_en": "After an alternator failure, what particularly affects remaining battery supply time?",
+      "options": [
+        "Uniquement de la quantité de carburant",
+        "Uniquement de l'altitude affichée",
+        "D'une durée universelle identique sur tous les avions",
+        "De l'état de la batterie et de la charge électrique"
+      ],
+      "correct_answer": "De l'état de la batterie et de la charge électrique",
+      "explanation": "La batterie contient une énergie limitée. Sa condition et la consommation des équipements déterminent l'autonomie disponible ; les actions à réaliser dépendent de l'installation.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "The battery stores limited energy. Its condition and equipment consumption determine available endurance; required actions depend on the installation.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "systems",
+        "electrical",
+        "fuel",
+        "hydraulic",
+        "exam-mcq",
+        "exam-subject:aircraft_general"
+      ],
+      "options_en": [
+        "Only the fuel quantity",
+        "Only indicated altitude",
+        "A universal duration identical for all aircraft",
+        "Battery condition and electrical load"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "mcq",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C01",
+      "concept_title": "Alimentation et disponibilité",
+      "level": 2,
+      "question": "Vrai ou faux ? Le carburant total et le carburant utilisable sont deux quantités différentes.",
+      "question_en": "True or false? Total fuel and usable fuel are different quantities.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe circuit carburant comprend réservoirs, mises à l'air, conduites, sélecteur et éventuellement pompes. La quantité totale n'est pas la quantité utilisable. Une mauvaise sélection de réservoir ou une mise à l'air obstruée peut interrompre l'alimentation malgré du carburant à bord. La vérification prévol recoupe documents, quantité mesurée et indications de jauge selon le type d'avion.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "This statement is true.\n\nThe fuel system includes tanks, vents, lines, a selector and possibly pumps. Total fuel is not the same as usable fuel. Incorrect tank selection or a blocked vent can interrupt supply despite fuel remaining on board. Preflight checks reconcile documentation, measured quantity and gauge indications as appropriate to the aircraft type.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C01",
+      "concept_title": "Alimentation et disponibilité",
+      "level": 2,
+      "question": "Vrai ou faux ? Une mise à l'air obstruée ne peut jamais interrompre l'alimentation moteur.",
+      "question_en": "True or false? A blocked tank vent can never interrupt engine fuel supply.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe circuit carburant comprend réservoirs, mises à l'air, conduites, sélecteur et éventuellement pompes. La quantité totale n'est pas la quantité utilisable. Une mauvaise sélection de réservoir ou une mise à l'air obstruée peut interrompre l'alimentation malgré du carburant à bord. La vérification prévol recoupe documents, quantité mesurée et indications de jauge selon le type d'avion.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "This statement is false.\n\nThe fuel system includes tanks, vents, lines, a selector and possibly pumps. Total fuel is not the same as usable fuel. Incorrect tank selection or a blocked vent can interrupt supply despite fuel remaining on board. Preflight checks reconcile documentation, measured quantity and gauge indications as appropriate to the aircraft type.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C01",
+      "concept_title": "Alimentation et disponibilité",
+      "level": 2,
+      "question": "Vrai ou faux ? La vérification carburant confronte les indications aux quantités mesurées selon le type.",
+      "question_en": "True or false? Fuel checks compare indications with measured quantities as appropriate to type.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe circuit carburant comprend réservoirs, mises à l'air, conduites, sélecteur et éventuellement pompes. La quantité totale n'est pas la quantité utilisable. Une mauvaise sélection de réservoir ou une mise à l'air obstruée peut interrompre l'alimentation malgré du carburant à bord. La vérification prévol recoupe documents, quantité mesurée et indications de jauge selon le type d'avion.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "This statement is true.\n\nThe fuel system includes tanks, vents, lines, a selector and possibly pumps. Total fuel is not the same as usable fuel. Incorrect tank selection or a blocked vent can interrupt supply despite fuel remaining on board. Preflight checks reconcile documentation, measured quantity and gauge indications as appropriate to the aircraft type.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C02",
+      "concept_title": "Électricité et hydraulique",
+      "level": 2,
+      "question": "Vrai ou faux ? L'alternateur sert uniquement au démarrage et jamais à la recharge.",
+      "question_en": "True or false? The alternator serves only starting and never recharges the battery.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa batterie permet notamment le démarrage ; l'alternateur ou la génératrice fournit ensuite l'énergie et recharge la batterie. Après une panne de production, l'autonomie électrique dépend de la charge et de l'état de la batterie. Les freins utilisent souvent un circuit hydraulique. Une fuite, une pédale anormale ou une dissymétrie doit être analysée avant le départ.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "This statement is false.\n\nThe battery supports starting, among other functions; the alternator or generator then supplies power and recharges it. After a generation failure, electrical endurance depends on load and battery condition. Brakes often use a hydraulic circuit. A leak, abnormal pedal feel or asymmetry must be assessed before departure.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C02",
+      "concept_title": "Électricité et hydraulique",
+      "level": 2,
+      "question": "Vrai ou faux ? Une sensation anormale à une pédale de frein mérite une évaluation avant le départ.",
+      "question_en": "True or false? Abnormal brake pedal feel warrants assessment before departure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLa batterie permet notamment le démarrage ; l'alternateur ou la génératrice fournit ensuite l'énergie et recharge la batterie. Après une panne de production, l'autonomie électrique dépend de la charge et de l'état de la batterie. Les freins utilisent souvent un circuit hydraulique. Une fuite, une pédale anormale ou une dissymétrie doit être analysée avant le départ.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "This statement is true.\n\nThe battery supports starting, among other functions; the alternator or generator then supplies power and recharges it. After a generation failure, electrical endurance depends on load and battery condition. Brakes often use a hydraulic circuit. A leak, abnormal pedal feel or asymmetry must be assessed before departure.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C02",
+      "concept_title": "Électricité et hydraulique",
+      "level": 2,
+      "question": "Vrai ou faux ? Une fuite hydraulique peut être ignorée si le frein opposé fonctionne.",
+      "question_en": "True or false? A hydraulic leak may be ignored if the opposite brake works.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLa batterie permet notamment le démarrage ; l'alternateur ou la génératrice fournit ensuite l'énergie et recharge la batterie. Après une panne de production, l'autonomie électrique dépend de la charge et de l'état de la batterie. Les freins utilisent souvent un circuit hydraulique. Une fuite, une pédale anormale ou une dissymétrie doit être analysée avant le départ.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "This statement is false.\n\nThe battery supports starting, among other functions; the alternator or generator then supplies power and recharges it. After a generation failure, electrical endurance depends on load and battery condition. Brakes often use a hydraulic circuit. A leak, abnormal pedal feel or asymmetry must be assessed before departure.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C03",
+      "concept_title": "Exemple et méthode",
+      "level": 2,
+      "question": "Vrai ou faux ? Un voyant de charge se confronte aux autres indications avant d'appliquer la procédure.",
+      "question_en": "True or false? A charging warning is cross-checked with other indications before applying the procedure.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe voyant de charge s'allume en croisière. Maintenir le pilotage, confirmer l'anomalie avec les autres indications puis suivre la checklist. Les équipements réellement disponibles dépendent de l'architecture de l'avion : certains moteurs continuent sans alternateur, d'autres dépendent de l'électricité. Retenir que connaître le chemin de l'énergie et du carburant aide à interpréter une panne, mais ne remplace pas la procédure.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "This statement is true.\n\nThe charging warning illuminates in cruise. Maintain aircraft control, confirm the anomaly using other indications, then follow the checklist. Equipment availability depends on aircraft design: some engines continue without an alternator, while others depend on electricity. Understanding the paths of energy and fuel helps interpret a failure but does not replace the procedure.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C03",
+      "concept_title": "Exemple et méthode",
+      "level": 2,
+      "question": "Vrai ou faux ? Toute panne d'alternateur entraîne exactement les mêmes conséquences sur tous les moteurs.",
+      "question_en": "True or false? An alternator failure has exactly the same consequences on every engine.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe voyant de charge s'allume en croisière. Maintenir le pilotage, confirmer l'anomalie avec les autres indications puis suivre la checklist. Les équipements réellement disponibles dépendent de l'architecture de l'avion : certains moteurs continuent sans alternateur, d'autres dépendent de l'électricité. Retenir que connaître le chemin de l'énergie et du carburant aide à interpréter une panne, mais ne remplace pas la procédure.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "This statement is false.\n\nThe charging warning illuminates in cruise. Maintain aircraft control, confirm the anomaly using other indications, then follow the checklist. Equipment availability depends on aircraft design: some engines continue without an alternator, while others depend on electricity. Understanding the paths of energy and fuel helps interpret a failure but does not replace the procedure.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C03",
+      "concept_title": "Exemple et méthode",
+      "level": 2,
+      "question": "Vrai ou faux ? Comprendre le circuit aide au diagnostic sans remplacer la checklist.",
+      "question_en": "True or false? Understanding the system helps diagnosis without replacing the checklist.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Vrai",
+      "explanation": "Cette affirmation est vraie.\n\nLe voyant de charge s'allume en croisière. Maintenir le pilotage, confirmer l'anomalie avec les autres indications puis suivre la checklist. Les équipements réellement disponibles dépendent de l'architecture de l'avion : certains moteurs continuent sans alternateur, d'autres dépendent de l'électricité. Retenir que connaître le chemin de l'énergie et du carburant aide à interpréter une panne, mais ne remplace pas la procédure.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "This statement is true.\n\nThe charging warning illuminates in cruise. Maintain aircraft control, confirm the anomaly using other indications, then follow the checklist. Equipment availability depends on aircraft design: some engines continue without an alternator, while others depend on electricity. Understanding the paths of energy and fuel helps interpret a failure but does not replace the procedure.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    },
+    {
+      "concept_id": "PPL_AC_003_C03",
+      "concept_title": "Exemple et méthode",
+      "level": 2,
+      "question": "Vrai ou faux ? Rétablir l'alimentation électrique prime toujours sur le contrôle de la trajectoire.",
+      "question_en": "True or false? Restoring electrical power always takes priority over controlling the flight path.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "options_en": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "Faux",
+      "explanation": "Cette affirmation est fausse.\n\nLe voyant de charge s'allume en croisière. Maintenir le pilotage, confirmer l'anomalie avec les autres indications puis suivre la checklist. Les équipements réellement disponibles dépendent de l'architecture de l'avion : certains moteurs continuent sans alternateur, d'autres dépendent de l'électricité. Retenir que connaître le chemin de l'énergie et du carburant aide à interpréter une panne, mais ne remplace pas la procédure.\n\n![Trois circuits simplifiés : carburant du réservoir au moteur, électricité des sources aux équipements et hydraulique de la commande aux freins.](/illustrations/ppl-ac-003.svg)",
+      "explanation_en": "This statement is false.\n\nThe charging warning illuminates in cruise. Maintain aircraft control, confirm the anomaly using other indications, then follow the checklist. Equipment availability depends on aircraft design: some engines continue without an alternator, while others depend on electricity. Understanding the paths of energy and fuel helps interpret a failure but does not replace the procedure.\n\n![Diagram: Aircraft Systems (Electrical, Fuel, Hydraulic)](/illustrations/en/ppl-ac-003.svg)",
+      "tags": [
+        "PPL",
+        "quiz-15-extension",
+        "true-false"
+      ],
+      "exam_subject": "aircraft_general",
+      "syllabus_reference": "AMC1 FCL.210; FCL.215 — aircraft_general",
+      "practice_format": "true_false_revision",
+      "source_references": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+      ]
+    }
+  ]
 }

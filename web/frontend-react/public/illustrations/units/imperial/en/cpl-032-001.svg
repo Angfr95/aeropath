@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="852" viewBox="0 0 1200 852" role="img" aria-labelledby="title desc"><title id="title">Performance: synthesis exercise</title><desc id="desc">Performance: synthesis exercise</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / CPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Performance: synthesis exercise</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Fictional exercise · Diagram not to scale</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">CPL_032_001</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Read the diagram with the lesson explanations and references.</text>
+<text x="65" y="214" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Independent case · Distances to 50 ft (m)</text>
+<text x="85" y="276" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Pressure altitude</text>
+<text x="560" y="276" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">5 °C</text>
+<text x="910" y="276" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">25 °C</text>
+<text x="85" y="340" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">0 ft</text>
+<text x="560" y="340" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">600 m</text>
+<text x="910" y="340" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">720 m</text>
+<path d="M85 360L1105 360" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="85" y="416" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">2,000 ft</text>
+<text x="560" y="416" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">800 m</text>
+<text x="910" y="416" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400" text-anchor="start">960 m</text>
+<path d="M85 436L1105 436" fill="none" stroke="#304961" stroke-width="1"/>
+<text x="65" y="491" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Target and corrections: use the question inputs.</text>
+<text x="65" y="537" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Linear interpolation allowed. Fixed mass and configuration. Raw values: dry, level</text>
+<text x="65" y="567" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">runway, no wind.</text>
+<rect x="0" y="720" width="1200" height="132" fill="#10243d"/><text x="42" y="754" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18">Rounded equivalents · original values retained for calculations</text><text x="42" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">600 m ≈ 1,968.5 ft</text><text x="432" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">720 m ≈ 2,362.2 ft</text><text x="822" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">800 m ≈ 2,624.67 ft</text><text x="42" y="816" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">960 m ≈ 3,149.61 ft</text></svg>

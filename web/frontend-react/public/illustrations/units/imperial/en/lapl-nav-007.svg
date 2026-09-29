@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="822" viewBox="0 0 1200 822" role="img" aria-labelledby="title desc"><title id="title">Connecting distance, time and fuel</title><desc id="desc">45 NM at 90 kt groundspeed takes 30 minutes; at 24 litres per hour, this leg consumes 12 litres.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / LAPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">Connecting distance, time and fuel</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">An example leg in a navigation log.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">LAPL_NAV_007</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<rect x="65" y="281" width="206" height="136" rx="10" fill="#20364e" stroke="#3e5875"/>
+<text x="168" y="311" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">DISTANCE</text>
+<text x="168" y="378" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">45 NM</text>
+<rect x="281" y="281" width="206" height="136" rx="10" fill="#20364e" stroke="#3e5875"/>
+<text x="384" y="311" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">GROUNDSPEED</text>
+<text x="384" y="378" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">90 kt</text>
+<rect x="497" y="281" width="206" height="136" rx="10" fill="#20364e" stroke="#3e5875"/>
+<text x="600" y="311" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">TIME</text>
+<text x="600" y="378" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">30 min</text>
+<rect x="713" y="281" width="206" height="136" rx="10" fill="#20364e" stroke="#3e5875"/>
+<text x="816" y="311" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">FUEL FLOW</text>
+<text x="816" y="378" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">24 L/h</text>
+<rect x="929" y="281" width="206" height="136" rx="10" fill="#20364e" stroke="#3e5875"/>
+<text x="1032" y="311" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">CONSUMPTION</text>
+<text x="1032" y="378" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">12 L</text>
+<text x="600" y="232" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">A NAVIGATION LEG</text>
+<text x="335" y="492" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="middle">Time = 60 × 45 / 90 = 30 min</text>
+<text x="880" y="492" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="middle">Fuel = 24 × 0.5 = 12 L</text>
+<text x="600" y="568" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="middle">Convert minutes to hours before multiplying by hourly fuel flow.</text>
+<rect x="0" y="720" width="1200" height="102" fill="#10243d"/><text x="42" y="754" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="18">Rounded equivalents · original values retained for calculations</text><text x="42" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">24 L/h ≈ 5.28 imp gal/h</text><text x="432" y="786" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="17">12 L ≈ 2.64 imp gal</text></svg>

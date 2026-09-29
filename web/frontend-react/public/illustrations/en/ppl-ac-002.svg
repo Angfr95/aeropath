@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">The four-stroke engine cycle</title><desc id="desc">Four-stroke cycle: intake with the piston descending, compression with it rising, power with it descending, and exhaust with it rising.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10243d"/><stop offset="1" stop-color="#080f1e"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="720" rx="24" fill="url(#bg)" stroke="none"/>
+<text x="42" y="45" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">AEROPATH / PPL / VISUAL LEARNING</text>
+<text x="42" y="96" fill="#edf5ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start">The four-stroke engine cycle</text>
+<text x="42" y="135" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Piston movement accompanies four successive strokes.</text>
+<rect x="32" y="170" width="1136" height="450" rx="20" fill="#14253b" stroke="#2b415d"/>
+<text x="42" y="668" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">PPL_AC_002</text>
+<text x="1158" y="668" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="end">Training diagram · Exercise data unless stated otherwise</text>
+<text x="42" y="697" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Relate the diagram to the lesson&#x27;s explanations and references.</text>
+<rect x="85" y="275" width="188" height="240" rx="12" fill="#0b192b" stroke="#536e8d"/>
+<rect x="97" y="285" width="164" height="150" rx="4" fill="#58dfed" stroke="none"/>
+<rect x="97" y="435" width="164" height="28" rx="4" fill="#d0deec" stroke="none"/>
+<path d="M179 463L179 532" fill="none" stroke="#d0deec" stroke-width="12"/>
+<text x="179" y="240" fill="#58dfed" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">INTAKE</text>
+<path d="M295 355L295 465" fill="none" stroke="#58dfed" stroke-width="3"/>
+<path d="M295.0 465.0L288.5 451.5L301.5 451.5Z" fill="#58dfed" stroke="#58dfed" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="179" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">Mixture enters</text>
+<rect x="365" y="275" width="188" height="240" rx="12" fill="#0b192b" stroke="#536e8d"/>
+<rect x="377" y="285" width="164" height="60" rx="4" fill="#ffcd70" stroke="none"/>
+<rect x="377" y="345" width="164" height="28" rx="4" fill="#d0deec" stroke="none"/>
+<path d="M459 373L459 532" fill="none" stroke="#d0deec" stroke-width="12"/>
+<text x="459" y="240" fill="#ffcd70" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">COMPRESSION</text>
+<path d="M575 465L575 355" fill="none" stroke="#ffcd70" stroke-width="3"/>
+<path d="M575.0 355.0L581.5 368.5L568.5 368.5Z" fill="#ffcd70" stroke="#ffcd70" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="459" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">Mixture is compressed</text>
+<rect x="645" y="275" width="188" height="240" rx="12" fill="#0b192b" stroke="#536e8d"/>
+<rect x="657" y="285" width="164" height="150" rx="4" fill="#ff8e9c" stroke="none"/>
+<rect x="657" y="435" width="164" height="28" rx="4" fill="#d0deec" stroke="none"/>
+<path d="M739 463L739 532" fill="none" stroke="#d0deec" stroke-width="12"/>
+<text x="739" y="240" fill="#ff8e9c" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">POWER</text>
+<path d="M855 355L855 465" fill="none" stroke="#ff8e9c" stroke-width="3"/>
+<path d="M855.0 465.0L848.5 451.5L861.5 451.5Z" fill="#ff8e9c" stroke="#ff8e9c" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="739" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">Combustion pushes down</text>
+<rect x="925" y="275" width="188" height="240" rx="12" fill="#0b192b" stroke="#536e8d"/>
+<rect x="937" y="285" width="164" height="60" rx="4" fill="#bbabff" stroke="none"/>
+<rect x="937" y="345" width="164" height="28" rx="4" fill="#d0deec" stroke="none"/>
+<path d="M1019 373L1019 532" fill="none" stroke="#d0deec" stroke-width="12"/>
+<text x="1019" y="240" fill="#bbabff" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">EXHAUST</text>
+<path d="M1135 465L1135 355" fill="none" stroke="#bbabff" stroke-width="3"/>
+<path d="M1135.0 355.0L1141.5 368.5L1128.5 368.5Z" fill="#bbabff" stroke="#bbabff" stroke-width="1" stroke-linejoin="round" opacity="1"/>
+<text x="1019" y="566" fill="#a9bdd3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">Gases leave</text>
+</svg>
