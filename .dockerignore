@@ -1,8 +1,16 @@
 # ─── Sécurité : ignorer les fichiers sensibles ──────────────
 .env
 .env.*
+**/.env
+**/.env.*
+.local/
+ssl/
+**/__pycache__/
+*.log
 *.pem
 *.key
+**/*.pem
+**/*.key
 **/secrets.yaml
 **/credentials*
 

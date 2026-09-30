@@ -26,9 +26,10 @@ FROM alpine:3.19
 
 RUN apk add --no-cache ca-certificates tzdata
 RUN adduser -D -g '' appuser
+WORKDIR /app
 
 COPY --from=go-builder /app/server /app/server
-COPY --from=go-builder /app/web /app/web
+COPY --from=frontend-builder /frontend/dist/ /app/web/
 COPY --from=go-builder /app/scripts/migrations /app/scripts/migrations
 
 USER appuser

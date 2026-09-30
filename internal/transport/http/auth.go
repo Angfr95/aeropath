@@ -53,7 +53,8 @@ func RegisterHandler(svc *auth.Service) gin.HandlerFunc {
 			c.JSON(http.StatusConflict, gin.H{"error": err.Error()})
 			return
 		}
-		c.SetCookie("token", token, 86400, "/", "", false, true)
+		c.SetSameSite(http.SameSiteLaxMode)
+		c.SetCookie("token", token, 86400, "/", "", gin.Mode() == gin.ReleaseMode, true)
 		c.JSON(http.StatusCreated, gin.H{"token": token})
 	}
 }
@@ -82,7 +83,8 @@ func LoginHandler(svc *auth.Service) gin.HandlerFunc {
 			c.JSON(http.StatusUnauthorized, gin.H{"error": err.Error()})
 			return
 		}
-		c.SetCookie("token", token, 86400, "/", "", false, true)
+		c.SetSameSite(http.SameSiteLaxMode)
+		c.SetCookie("token", token, 86400, "/", "", gin.Mode() == gin.ReleaseMode, true)
 		c.JSON(http.StatusOK, gin.H{"token": token})
 	}
 }
@@ -114,14 +116,15 @@ type updateLangRequest struct {
 //	@Router			/auth/logout [post]
 func LogoutHandler(svc *auth.Service) gin.HandlerFunc {
 	return func(c *gin.Context) {
+		c.SetSameSite(http.SameSiteLaxMode)
 		c.SetCookie(
 			"token",
 			"",
 			-1,
 			"/",
 			"",
-			false, // secure=false en dev (true en prod quand HTTPS)
-			true,  // httpOnly
+			gin.Mode() == gin.ReleaseMode,
+			true, // httpOnly
 		)
 		c.JSON(http.StatusOK, gin.H{"message": "déconnecté"})
 	}

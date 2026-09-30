@@ -1,129 +1,55 @@
 name: CD
 
+# Production updates are explicit and use the guarded content-aware deploy script.
 on:
-  workflow_run:
-    workflows: [CI]
-    types: [completed]
-    branches: [main]
+  workflow_dispatch:
 
-env:
-  GO_VERSION: "1.26"
-  REGISTRY: ghcr.io
+concurrency:
+  group: aeropath-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  packages: write
 
 jobs:
-  docker:
-    name: Build & Push Docker Images
+  release:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-
     steps:
       - uses: actions/checkout@v4
-
-      - name: Set lowercase image name
-        run: echo "IMAGE_NAME=${GITHUB_REPOSITORY,,}" >> $GITHUB_ENV
-
-      - name: Docker meta (api-gateway)
-        id: meta-api
-        uses: docker/metadata-action@v5
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}-api
-          tags: |
-            type=ref,event=branch
-            type=semver,pattern={{version}}
-            type=semver,pattern={{major}}.{{minor}}
-            type=sha,format=short
-
-      - name: Docker meta (worker)
-        id: meta-worker
-        uses: docker/metadata-action@v5
-        with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}-worker
-          tags: |
-            type=ref,event=branch
-            type=semver,pattern={{version}}
-            type=semver,pattern={{major}}.{{minor}}
-            type=sha,format=short
-
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: Login to GitHub Container Registry
-        uses: docker/login-action@v3
-        with:
-          registry: ${{ env.REGISTRY }}
+          registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.DEEP_TOKEN }}
-
-      - name: Build & Push api-gateway
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build immutable API and compiled frontend
         uses: docker/build-push-action@v6
         with:
           context: .
           file: Dockerfile.api
           push: true
-          tags: ${{ steps.meta-api.outputs.tags }}
-          labels: ${{ steps.meta-api.outputs.labels }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-
-      - name: Build & Push worker
-        uses: docker/build-push-action@v6
-        with:
-          context: .
-          file: Dockerfile.worker
-          push: true
-          tags: ${{ steps.meta-worker.outputs.tags }}
-          labels: ${{ steps.meta-worker.outputs.labels }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-
-  deploy:
-    name: Deploy
-    runs-on: ubuntu-latest
-    needs: [docker]
-    if: ${{ github.event.workflow_run.conclusion == 'success' && github.ref == 'refs/heads/main' }}
-
-    steps:
-      - name: Deploy via SSH
+          tags: ghcr.io/angfr95/aeropath-api:${{ github.sha }}
+      - name: Deploy verified release on the existing VM
         uses: appleboy/ssh-action@v1.2.0
+        env:
+          RELEASE_SHA: ${{ github.sha }}
         with:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_SSH_KEY }}
           port: ${{ secrets.DEPLOY_PORT }}
-          envs: GHCR_TOKEN,GHCR_USER
-          script_stop: true
-          command_timeout: 15m
+          envs: RELEASE_SHA
+          command_timeout: 20m
           script: |
-            set -e
-            cd /opt/aeropath || { echo "❌ Directory /opt/aeropath not found"; exit 1; }
-
-            # Clean reset: discard all local changes (ssl/ is NOT in repo, preserved on disk)
-            git fetch origin main
-            git reset --hard origin/main
-
-            # Remove untracked files EXCEPT ssl/ directory and .env
-            git clean -fd --exclude=ssl/ --exclude=.env
-
-            # Auto-generate self-signed SSL cert if missing
-            if [ ! -f ssl/cert.pem ] || [ ! -f ssl/key.pem ]; then
-              mkdir -p ssl
-              openssl req -x509 -nodes -days 3650 -newkey rsa:2048 \
-                -keyout ssl/key.pem \
-                -out ssl/cert.pem \
-                -subj "/C=FR/ST=IDF/L=Paris/O=AeroPath/CN=aeropath.ultizion.com" \
-                2>/dev/null
-              echo "✅ Self-signed SSL cert generated in ssl/"
-            fi
-
-            # Login GHCR pour puller les images privées
-            echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GHCR_USER" --password-stdin
-
-            docker compose pull
-            docker compose up -d --remove-orphans
-            docker compose exec nginx nginx -s reload || docker compose restart nginx
-            docker image prune -af --filter=until=24h
-        env:
-          GHCR_TOKEN: ${{ secrets.DEEP_TOKEN }}
-          GHCR_USER: ${{ github.actor }}
+            set -eu
+            cd /opt/aeropath
+            git fetch origin "$RELEASE_SHA"
+            release="/opt/aeropath/releases/$RELEASE_SHA"
+            test ! -e "$release"
+            mkdir -p "$release"
+            git archive "$RELEASE_SHA" | tar -x -C "$release"
+            image="ghcr.io/angfr95/aeropath-api:$RELEASE_SHA"
+            docker pull "$image"
+            sudo -n bash "$release/deployments/aws/deploy-existing-vm.sh" "$release" "$image"
