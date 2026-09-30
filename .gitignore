@@ -31,6 +31,9 @@ dist/
 
 # Local runtime files, database backups and Python caches
 .local/
+/releases/
+/compose.release.yml
+/active-release
 __pycache__/
 *.py[cod]
 

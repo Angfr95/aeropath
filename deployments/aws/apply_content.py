@@ -41,7 +41,7 @@ COMMIT;
 """)
 result = subprocess.run(['docker', 'exec', '-i', 'aeropath-postgres', 'psql',
                          '-X', '-v', 'ON_ERROR_STOP=1', '-U', 'aeropath', '-d', 'aeropath'],
-                        input='\n'.join(parts), text=True, capture_output=True)
+                        input='\n'.join(parts), text=True, encoding='utf-8', capture_output=True)
 if result.returncode:
     # Keep SQL diagnostics local to the root-only backup folder supplied by the caller.
     Path(sys.argv[2]).write_text(result.stderr, encoding='utf-8')
